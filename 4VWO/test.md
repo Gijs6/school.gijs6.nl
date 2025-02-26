@@ -1,12 +1,11 @@
-Title: Wiskunde B - Hoofdstuk 4 - Samenvatting
-Date: 2024-02-26
-Slug: wisb-h4
-Summary: Samenvatting WISB H4 (Vergelijkingen en herleidingen)
-
+---
+title: WISB - H4 - Samenvatting (Vergelijkingen en herleidingen)
+layout: default
+---
 
 # Wiskunde B
 
-## **Hoofdstuk 4**
+## **Hoofdstuk 4 (Vergelijkingen en herleidingen)**
 
 # Getallenparen en stelsels
 
