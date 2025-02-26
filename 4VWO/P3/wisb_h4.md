@@ -1,5 +1,5 @@
 ---
-title: WISB - H4 - Samenvatting (Vergelijkingen en herleidingen)
+title: WISB - H4 - Samenvatting
 layout: default
 ---
 
