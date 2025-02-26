@@ -10,8 +10,8 @@ layout: default
 # Getallenparen en stelsels
 
 De algemene vorm van een lineaire vergelijking met x en y is ax+by=c. Hier kun je de variabele y of x vrijmaken.  
-De getallenparen (x, y) \= (4, \-1) en (x, y) \= (-12, 5\) zijn oplossingen van de vergelijking 3x+8y=4.  
-Het getallenpaar (x, y) \= (2, \-1) is zowel een oplossing van 2x+y=3 als van x-2y=4. Je kunt ook zeggen dat (2, \-1) de oplossing is van het stelsel ![][image1]. Om een stelsel op te lossen maak je eerst een vergelijking x of y vrij. Vervolgens substitueer je de formule voor de vrijgemaakte variabele in de andere vergelijking. Vervolgens gebruik je dit antwoord om de andere variabele te berekenen.
+De getallenparen \\(x, y) = (4, -1)\\ en \\(x, y) = (-12, 5)\\ zijn oplossingen van de vergelijking \\3x+8y=4\\.  
+Het getallenpaar \\(x, y) = (2, -1)\\ is zowel een oplossing van 2x+y=3 als van x-2y=4. Je kunt ook zeggen dat \\(2, -1)\\ de oplossing is van het stelsel \\begin{cases}2x+y=3\\x-2y=4\end{cases}\\. Om een stelsel op te lossen maak je eerst een vergelijking x of y vrij. Vervolgens substitueer je de formule voor de vrijgemaakte variabele in de andere vergelijking. Vervolgens gebruik je dit antwoord om de andere variabele te berekenen.
 
 Je kunt stelsels ook oplossen door **elimineren door optellen of aftrekken**. Bij het stelsel ![][image2] trek je de vergelijkingen van elkaar af, want dan valt de y weg. Kijk goed wat handiger is: optellen of aftrekken.  
 Je kunt dit ook toepassen bij moeilijkere stelsels.
