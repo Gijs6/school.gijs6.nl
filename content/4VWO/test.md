@@ -1,13 +1,8 @@
 Title: Wiskunde B - Hoofdstuk 4 - Samenvatting
 Date: 2024-02-26
-Category: Samenvattingen
-Tags: WISB
 Slug: wisb-h4
-Authors: Gijs
 Summary: Samenvatting WISB H4 (Vergelijkingen en herleidingen)
 
-
-This is a test! Greetings!
 
 # Wiskunde B
 
