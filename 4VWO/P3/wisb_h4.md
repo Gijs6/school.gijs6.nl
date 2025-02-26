@@ -41,10 +41,10 @@ De **modulusvergelijking** $$|x|=5$$ heeft als oplossing $$x=5 \vee x=-5$$
 * $$AB=AC$$ geeft $$A=0 \vee B=C$$  
 * $$AB=A$$ geeft $$A=0 \vee B=1$$  
 * $$\frac{A}{B} = 0$$ geeft $$A=0 \wedge B \neq 0$$
-* AB=C 	geeft A=BCB0  
-* AB=CD 	geeft AD=BCB0D0  
-* AB=CB 	geeft A=CB0  
-* AB=AC 	geeft (A=0B=C)B0C0
+* $$\frac{A}{B} = C$$ geeft $$A=BC \wedge B \neq 0$$
+* $$\frac{A}{B}=\frac{C}{D}$$ geeft $$AD=BC \wedge B \neq 0 \wedge D \neq 0$$
+* $$\frac{A}{B}=\frac{C}{B}$$ geeft $$A=C \wedge B \neq 0$$
+* $$\frac{A}{B}=\frac{A}{C}$$ geeft $$(A=0 \vee B=C) \wedge B \neq 0 \wedge C \neq 0$$
 
 # Wortelvergelijkingen en herleidingen
 
@@ -53,19 +53,19 @@ De 3 stappen voor het algebraïsch oplossen van wortelvergelijkingen zijn **isol
 Bij het herleiden van een breuk kun je de teller en noemer ontbinden in factoren en vervolgens de teller en de noemer te delen door dezelfde factor.  
 Bij het ontbinden kun je gebruik maken van de merkwaardige producten:
 
-* A²+2AB+B²=(A+B)²  
-* A²-2AB+B²=(A-B)²  
-* A²-B²=(A+B)(A-B)
+* $$A^2+2AB+B^2=(A+B)^2$$
+* $$A^2-2AB+B^2=(A-B)^2$$  
+* $$A^2-B^2=(A+B)(A-B)$$
 
-Bij breuken moet je wel letten dat je niet deelt door 0\. Bij de vergelijking x²-2xx+13 moet dus gelden datx+130, dus x-13.
+Bij breuken moet je wel letten dat je niet deelt door 0. Bij de vergelijking $$x^2-2xx+13$$ moet dus gelden dat $$x+130 \neq 0$$, dus $$x \neq -13$$.
 
 Bij het herleiden van breuken gebruik je de volgende regels:
 
-* AB+C=A+BCB  
-* AB+CD=AD+BCBD  
-* ABC=ABC  
-* ABCD=ACBD  
-* A(BC)=ACB mits C0 (*delen door een breuk is vermenigvuldigen met het omgekeerde*)  
-* (AB)C=ABC
+* $$\frac{A}{B}+C=\frac{A+BC}{B}$$
+* $$\frac{A}{B}+\frac{C}{D}=\frac{AD+BC}{BD}$$  
+* $$A \cdot \frac{B}{C}=\frac{AB}{C} $$ 
+* $$\frac{A}{B} \cdot \frac{C}{D}=\frac{AC}{BD}$$  
+* $$\frac{A}{(\frac{B}{C})}=\frac{AC}{B}$$  mits C0 (*delen door een breuk is vermenigvuldigen met het omgekeerde*)
+* $$\frac{(\frac{A}{B})}{C}=\frac{A}{BC}$$
 
-De grafieken van inverse functies zijn elkaars spiegelbeelden in de lijn x = y. Dit noteer je als f=ginv en g=finv. Om een inverse functie te maken, vervang x en y in de formule en maak je de variabele die je wil vrij.
+De grafieken van inverse functies zijn elkaars spiegelbeelden in de lijn $$x = y$$. Dit noteer je als $$f=g^{inv}$$ en $$g=f^{inv}$$. Om een inverse functie te maken, vervang $$x$$ en $$y$$ in de formule en maak je de variabele die je wil vrij.
