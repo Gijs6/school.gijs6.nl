@@ -1,0 +1,71 @@
+---
+title: WISB - H4 - Samenvatting (Vergelijkingen en herleidingen)
+layout: default
+---
+
+# Wiskunde B
+
+## Hoofdstuk 4 (Vergelijkingen en herleidingen)
+
+# Getallenparen en stelsels
+
+De algemene vorm van een lineaire vergelijking met x en y is ax+by=c. Hier kun je de variabele y of x vrijmaken.  
+De getallenparen (x, y) \= (4, \-1) en (x, y) \= (-12, 5\) zijn oplossingen van de vergelijking 3x+8y=4.  
+Het getallenpaar (x, y) \= (2, \-1) is zowel een oplossing van 2x+y=3 als van x-2y=4. Je kunt ook zeggen dat (2, \-1) de oplossing is van het stelsel ![][image1]. Om een stelsel op te lossen maak je eerst een vergelijking x of y vrij. Vervolgens substitueer je de formule voor de vrijgemaakte variabele in de andere vergelijking. Vervolgens gebruik je dit antwoord om de andere variabele te berekenen.
+
+Je kunt stelsels ook oplossen door **elimineren door optellen of aftrekken**. Bij het stelsel ![][image2] trek je de vergelijkingen van elkaar af, want dan valt de y weg. Kijk goed wat handiger is: optellen of aftrekken.  
+Je kunt dit ook toepassen bij moeilijkere stelsels.
+
+Je kunt stelsels ook oplossen door **elimineren na vermenigvuldigen**. Dan ga je eerst beide vergelijkingen vermenigvuldigen om er voor te zorgen dat er een variabele wegvalt bij het optellen of aftrekken.  
+Bij het stelsel ![][image3]valt er na optellen of aftrekken geen enkele variabele weg. Maar als je de bovenste vergelijking met 2 vermenigvuldigt en de onderste vergelijking met 3, dan wel:![][image4]  
+Je noteert de getallen waar je mee vermenigvuldigt tussen verticale strepen.
+
+# Hogeregraadsvergelijkingen
+
+De vergelijking x2=5 heeft de oplossingen x=5 en x=-5. Je weet dat 5 de **tweedemachtswortel** van 5 is, want (5)2=5. Bij het wortelteken staat eigenlijk een "verborgen 2": a=2a. Er zijn ook **hogeremachtswortels**, zoals derdemachtswortels. De vergelijking x3=20 heeft als oplossing x=320.  
+In de tabel zie je hoeveel oplossingen de verschillende hogeregraadsvergelijkingen hebben.
+
+| xn=a | a \> 0 | a \< 0 | a \= 0 |
+| :---: | :---: | :---: | :---: |
+| n is even | 2 oplossingen: x=na en x=-na | geen oplossing | 1 oplossing: x=0 |
+| n is oneven | 1 oplossing: x=na | 1 oplossing: x=na | 1 oplossing: x=0 |
+
+Sommige hogeregraadsvergelijkingen kun je algebraïsch oplossen door te ontbinden in factoren. Soms door een factor buiten haakjes te brengen of door te substitueren. 
+
+De **modulusvergelijking** |x|=5 heeft als oplossing x=5x=-5
+
+# Regels binnen vergelijkingen
+
+* AB=0 	geeft A=0B=0  
+* A²=B² 	geeft A=BA=-B  
+* AB=AC 	geeft A=0B=C  
+* AB=A	geeft A=0B=1  
+* AB=0 	geeft A=0B0  
+* AB=C 	geeft A=BCB0  
+* AB=CD 	geeft AD=BCB0D0  
+* AB=CB 	geeft A=CB0  
+* AB=AC 	geeft (A=0B=C)B0C0
+
+# Wortelvergelijkingen en herleidingen
+
+De 3 stappen voor het algebraïsch oplossen van wortelvergelijkingen zijn **isoleren**, **kwadrateren** en **controleren**. Eerst isoleer je de wortelvorm; je zet deze in het linker- of rechterlid en je haalt de rest naar het andere lid. Vervolgens kwadrateer je het linker- en rechterlid. Vervolgens zet je de verkregen uitkomsten in de oorspronkelijke vergelijkingen om te kijken of de uitkomst **voldoet**.
+
+Bij het herleiden van een breuk kun je de teller en noemer ontbinden in factoren en vervolgens de teller en de noemer te delen door dezelfde factor.  
+Bij het ontbinden kun je gebruik maken van de merkwaardige producten:
+
+* A²+2AB+B²=(A+B)²  
+* A²-2AB+B²=(A-B)²  
+* A²-B²=(A+B)(A-B)
+
+Bij breuken moet je wel letten dat je niet deelt door 0\. Bij de vergelijking x²-2xx+13 moet dus gelden datx+130, dus x-13.
+
+Bij het herleiden van breuken gebruik je de volgende regels:
+
+* AB+C=A+BCB  
+* AB+CD=AD+BCBD  
+* ABC=ABC  
+* ABCD=ACBD  
+* A(BC)=ACB mits C0 (*delen door een breuk is vermenigvuldigen met het omgekeerde*)  
+* (AB)C=ABC
+
+De grafieken van inverse functies zijn elkaars spiegelbeelden in de lijn x = y. Dit noteer je als f=ginv en g=finv. Om een inverse functie te maken, vervang x en y in de formule en maak je de variabele die je wil vrij.
