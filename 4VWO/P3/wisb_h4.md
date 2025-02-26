@@ -9,38 +9,38 @@ layout: default
 
 # Getallenparen en stelsels
 
-De algemene vorm van een lineaire vergelijking met x en y is ax+by=c. Hier kun je de variabele y of x vrijmaken.  
+De algemene vorm van een lineaire vergelijking met $$x$$ en $$y$$ is $$ax+by=c$$. Hier kun je de variabele $$y$$ of $$x$$ vrijmaken.  
 De getallenparen $$(x, y) = (4, -1)$$ en $$(x, y) = (-12, 5)$$ zijn oplossingen van de vergelijking $$3x+8y=4$$.  
-Het getallenpaar $$(x, y) = (2, -1)$$ is zowel een oplossing van $$2x+y=3$$ als van $$x-2y=4$$. Je kunt ook zeggen dat $$(2, -1)$$ de oplossing is van het stelsel $$\left\{\begin{array}{left} 2x + y = 3 \\ x - 2y = 4 \\  \end{array}\right.$$. Om een stelsel op te lossen maak je eerst een vergelijking x of y vrij. Vervolgens substitueer je de formule voor de vrijgemaakte variabele in de andere vergelijking. Vervolgens gebruik je dit antwoord om de andere variabele te berekenen.
+Het getallenpaar $$(x, y) = (2, -1)$$ is zowel een oplossing van $$2x+y=3$$ als van $$x-2y=4$$. Je kunt ook zeggen dat $$(2, -1)$$ de oplossing is van het stelsel $$\left\{\begin{array}{left} 2x + y = 3 \\ x - 2y = 4 \\  \end{array}\right.$$. Om een stelsel op te lossen maak je eerst een vergelijking $$x$$ of $$y$$ vrij. Vervolgens substitueer je de formule voor de vrijgemaakte variabele in de andere vergelijking. Vervolgens gebruik je dit antwoord om de andere variabele te berekenen.
 
-Je kunt stelsels ook oplossen door **elimineren door optellen of aftrekken**. Bij het stelsel ![][image2] trek je de vergelijkingen van elkaar af, want dan valt de y weg. Kijk goed wat handiger is: optellen of aftrekken.  
+Je kunt stelsels ook oplossen door **elimineren door optellen of aftrekken**. Bij het stelsel $$\left\{\begin{array}{left} 8x+y=2 \\ 4x+y=5 \\  \end{array}\right.$$ trek je de vergelijkingen van elkaar af, want dan valt de $$y$$ weg. Kijk goed wat handiger is: optellen of aftrekken.  
 Je kunt dit ook toepassen bij moeilijkere stelsels.
 
 Je kunt stelsels ook oplossen door **elimineren na vermenigvuldigen**. Dan ga je eerst beide vergelijkingen vermenigvuldigen om er voor te zorgen dat er een variabele wegvalt bij het optellen of aftrekken.  
-Bij het stelsel ![][image3]valt er na optellen of aftrekken geen enkele variabele weg. Maar als je de bovenste vergelijking met 2 vermenigvuldigt en de onderste vergelijking met 3, dan wel:![][image4]  
+Bij het stelsel $$\left\{\begin{array}{left} 3x-4y=7 \\ 2x+3y=15 \\  \end{array}\right.$$ valt er na optellen of aftrekken geen enkele variabele weg. Maar als je de bovenste vergelijking met 2 vermenigvuldigt en de onderste vergelijking met 3, dan wel: $$\left\{\begin{array}{left} 3x - 4y = 7 \\ 2x + 3y = 15 \\  \end{array}\left|\begin{array}{cc} 2 \\ 3 \\  \end{array}\right|\right. = \left\{\begin{array}{left} 6x - 8y = 14 \\ 6x + 9y = 45 \\  \end{array}\right.$$
 Je noteert de getallen waar je mee vermenigvuldigt tussen verticale strepen.
 
 # Hogeregraadsvergelijkingen
 
-De vergelijking x2=5 heeft de oplossingen x=5 en x=-5. Je weet dat 5 de **tweedemachtswortel** van 5 is, want (5)2=5. Bij het wortelteken staat eigenlijk een "verborgen 2": a=2a. Er zijn ook **hogeremachtswortels**, zoals derdemachtswortels. De vergelijking x3=20 heeft als oplossing x=320.  
+De vergelijking $$x^2 = 5$$ heeft de oplossingen $$x=5$$ en $$x=-5$$. Je weet dat 5 de **tweedemachtswortel** van 5 is, want $$(\sqrt{5})^2$$. Bij het wortelteken staat eigenlijk een "verborgen 2": $$\sqrt{a} = \sqrt[2]{a}$$. Er zijn ook **hogeremachtswortels**, zoals derdemachtswortels. De vergelijking $$x^3 = 20$$ heeft als oplossing $$x=320$$.  
 In de tabel zie je hoeveel oplossingen de verschillende hogeregraadsvergelijkingen hebben.
 
-| xn=a | a \> 0 | a \< 0 | a \= 0 |
+| $$x^n = a$$ | $$a > 0$$ | $$a < 0$$ | $$a = 0$$ |
 | :---: | :---: | :---: | :---: |
-| n is even | 2 oplossingen: x=na en x=-na | geen oplossing | 1 oplossing: x=0 |
-| n is oneven | 1 oplossing: x=na | 1 oplossing: x=na | 1 oplossing: x=0 |
+| n is even | 2 oplossingen: $$x = \sqrt[n]{a}$$ en $$x = -\sqrt[n]{a}$$ | geen oplossing | 1 oplossing: $$x=0$$ |
+| n is oneven | 1 oplossing: $$x = \sqrt[n]{a}$$ | 1 oplossing: $$x = \sqrt[n]{a}$$ | 1 oplossing: $$x=0$$ |
 
 Sommige hogeregraadsvergelijkingen kun je algebraïsch oplossen door te ontbinden in factoren. Soms door een factor buiten haakjes te brengen of door te substitueren. 
 
-De **modulusvergelijking** |x|=5 heeft als oplossing x=5x=-5
+De **modulusvergelijking** $$|x|=5$$ heeft als oplossing $$x=5 \vee x=-5$$
 
 # Regels binnen vergelijkingen
 
-* AB=0 	geeft A=0B=0  
-* A²=B² 	geeft A=BA=-B  
-* AB=AC 	geeft A=0B=C  
-* AB=A	geeft A=0B=1  
-* AB=0 	geeft A=0B0  
+* $$ AB = 0 $$ geeft $$ A = 0 \vee B = 0 $$  
+* $$A^2=B^2$$ geeft $$A=B \vee A=-B$$  
+* $$AB=AC$$ geeft $$A=0 \vee B=C$$  
+* $$AB=A$$ geeft $$A=0 \vee B=1$$  
+* $$\frac{A}{B} = 0$$ geeft $$A=0 \wedge B \neq 0$$
 * AB=C 	geeft A=BCB0  
 * AB=CD 	geeft AD=BCB0D0  
 * AB=CB 	geeft A=CB0  
