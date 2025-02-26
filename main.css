@@ -8,6 +8,13 @@ body {
     font-family: Barlow, sans-serif;
 }
 
+header a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+
 a {
     text-decoration-color: #888;
     color: white;
@@ -21,4 +28,13 @@ a:hover {
 svg {
     height: 1em;
     fill: white;
+}
+
+footer p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+    text-align: left;
 }
