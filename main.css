@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 2em max(2em, 15%);
+    background: black;
+    color: white;
+    font-family: Barlow, sans-serif;
+}
+
+a {
+    text-decoration-color: #888;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration-color: white;
+}
+
+svg {
+    height: 1em;
+    fill: white;
+}
