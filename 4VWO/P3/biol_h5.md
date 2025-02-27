@@ -4,7 +4,7 @@ indexname: BIOL - H5 (Erfelijkheid)
 layout: default
 ---
 
-#  Biologie: Hoofdstuk 5 (Erfelijkheid)
+# Biologie: Hoofdstuk 5 (Erfelijkheid)
 
 ## Genetische eigenschappen
 
@@ -15,10 +15,10 @@ De combinatie van alle allelen op 1 chromosoom is het **haplotype** van dat chro
 
 ## Chromosomen
 
-De eerste 22 paren chromosomen zijn de **autosomen**. Binnen deze paren zijn de chromosomen van gelijke vorm en grootte. Het 23e paar bevat de **geslachtschromosomen**. Bij mannen zijn dit een groot X-chromosoom en een klein Y-chromosoom. Bij vrouwen zijn het 2 grote X-chromosomen.   
+De eerste 22 paren chromosomen zijn de **autosomen**. Binnen deze paren zijn de chromosomen van gelijke vorm en grootte. Het 23e paar bevat de **geslachtschromosomen**. Bij mannen zijn dit een groot X-chromosoom en een klein Y-chromosoom. Bij vrouwen zijn het 2 grote X-chromosomen.
 Het Y-chromosoom bevat onder andere het **SRY-gen**: het gen dat verantwoordelijk is voor het vormen van mannelijke geslachtsorganen.
 
-Op een **karyogram** kun je alle chromosomen zien (→ Binas 70B). Zo’n “chromosomenportret” wordt vaak gemaakt tijdens een celdeling. Het **karyotype** beschrijft wat er in het karyogram te zien, dus bijvoorbeeld 46,XY voor het hiernaast afgebeelde karyogram.
+Op een **karyogram** kun je alle chromosomen zien (→ Binas 70B). Zo'n "chromosomenportret" wordt vaak gemaakt tijdens een celdeling. Het **karyotype** beschrijft wat er in het karyogram te zien, dus bijvoorbeeld 46,XY voor het hiernaast afgebeelde karyogram.
 
 Genen liggen onregelmatig verspreid over de chromosomen: een aantal grote chromosomen bevat relatief weinig genen in vergelijking met kleine chromosomen.
 
@@ -53,8 +53,7 @@ Iemand met zowel IA als IB (genotype IAIB) heeft bloedgroep AB. Beide allelen ko
 Als je bij een kruising kijkt naar meerdere eigenschappen die worden overgeërfd, spreek je van een **dihybride kruising**. Het kan hierbij zowel gaan om 2 eigenschappen die niets met elkaar te maken hebben als 2 eigenschappen die wel met elkaar te maken hebben of die zelfs een rol spelen bij dezelfde eigenschap.
 
 Als de genen op verschillende chromosomen liggen, spreek je van **onafhankelijke overerving**: welk allel van het eerste allelenpaar wordt overgeërfd heeft geen invloed op welk allel van het tweede par wordt overgeërfd.  
-Als de genen op hetzelfde chromosoom liggen (dus tot hetzelfde haplotype horen) heeft dit wel invloed.  
-![][image1]  
+Als de genen op hetzelfde chromosoom liggen (dus tot hetzelfde haplotype horen) heeft dit wel invloed. ![][image1]  
 Veel menselijke eigenschappen komen **polygeen** (onder invloed van veel genen) tot stand, zoals oogkleur, huidskleur of lichaamslengte.
 
 Veel veehouders **fokken** vaak op gunstige eigenschappen, zoals een hoge melkproductie van koeien. Plantenveredelaars gebruiken **klassieke veredeling** om gunstige eigenschappen te combineren. Deze 2 processen zijn erg langzaam.  
