@@ -1,20 +1,19 @@
 ---
 title: BIOL - H5 - Samenvatting
+indexname: BIOL - H5 (Erfelijkheid)
 layout: default
 ---
 
-#  Biologie
+#  Biologie: Hoofdstuk 5 (Erfelijkheid)
 
-## Hoofdstuk 5 (Erfelijkheid)
-
-# Genetische eigenschappen
+## Genetische eigenschappen
 
 Alle eigenschappen van een mens samen, vormen het **fenotype**. Het fenotype bestaat uit invloeden uit de omgeving (milieu) en het **genotype** (alle erfelijke informatie). Al het DNA van een organisme vormt het **genoom**. Een groot deel van het genoom komt overeen tussen alle mensen.
 **Mutaties** door chemische stoffen, straling of andere factoren leiden tot veranderingen in het DNA.  
 **Genen** zijn stukjes DNA met de code voor een eiwit. Een variant van een gen noem je een **allel**. Voor het gen van haarkleur heb je dus een allel voor bruin, blond, zwart enz.  
 De combinatie van alle allelen op 1 chromosoom is het **haplotype** van dat chromosoom. Dit zijn dus (vrijwel altijd) allelen van verschillende genen, en dus van verschillende eigenschappen.
 
-# Chromosomen
+## Chromosomen
 
 De eerste 22 paren chromosomen zijn de **autosomen**. Binnen deze paren zijn de chromosomen van gelijke vorm en grootte. Het 23e paar bevat de **geslachtschromosomen**. Bij mannen zijn dit een groot X-chromosoom en een klein Y-chromosoom. Bij vrouwen zijn het 2 grote X-chromosomen.   
 Het Y-chromosoom bevat onder andere het **SRY-gen**: het gen dat verantwoordelijk is voor het vormen van mannelijke geslachtsorganen.
@@ -23,7 +22,7 @@ Op een **karyogram** kun je alle chromosomen zien (→ Binas 70B). Zo’n “chr
 
 Genen liggen onregelmatig verspreid over de chromosomen: een aantal grote chromosomen bevat relatief weinig genen in vergelijking met kleine chromosomen.
 
-# Mutaties
+## Mutaties
 
 In een karyogram is een wijziging in het aantal chromosomen (**genoommutatie**) te constateren, zoals **monosomie** (een chromosoom ontbreekt) of **trisomie** (een chromosoom te veel). Een genoommutatie ontstaat vaak tijdens de meiose.
 
@@ -31,7 +30,7 @@ Een **chromosoommutatie** is een verandering in het erfelijk materiaal, waarbij 
 
 Een **puntmutatie** is een verandering van 1 enkel basenpaar.
 
-# Eigenschappen doorgeven
+## Eigenschappen doorgeven
 
 De twee allelen over dezelfde informatie, maar in een ander chromosoom vormen samen een allelenpaar. De allelen in een allelenpaar kunnen hetzelfde zijn. Een persoon is dan **homozygoot** voor die eigenschap. Als de allelen verschillen zijn, ben je **heterozygoot** voor die eigenschap. Het allel dat altijd tot uiting komt, is **dominant**. Het allel dat alleen tot uiting komt als dat allel 2 keer voorkomt (homozygoot) is **recessief**.  
 Een **onvolledig dominant** allel komt deels tot uiting bij een heterozygoot, meestal in een mengvorm. Het fenotype is dan **intermediair** (tussen homozygoot dominant en homozygoot recessief  
@@ -49,7 +48,7 @@ Iemand met zowel IA als IB (genotype IAIB) heeft bloedgroep AB. Beide allelen ko
 
 **Letale allelen** zijn voor een homozygoot organisme dodelijk.
 
-# Meerdere eigenschappen
+## Meerdere eigenschappen
 
 Als je bij een kruising kijkt naar meerdere eigenschappen die worden overgeërfd, spreek je van een **dihybride kruising**. Het kan hierbij zowel gaan om 2 eigenschappen die niets met elkaar te maken hebben als 2 eigenschappen die wel met elkaar te maken hebben of die zelfs een rol spelen bij dezelfde eigenschap.
 
@@ -63,11 +62,11 @@ Het inbrengen van DNA in een ander organisme heet **genetische modificatie**. Di
 Als je genetische modificatie uitvoert tussen soorten ontstaan **transgene organismen**.  
 Een vorm van genetische modificatie die in de geneeskunde wordt toegepast is **gentherapie**: het inbrengen van een gezond gen om een cel normaal te laten functioneren.
 
-# *Nature* en *nurture*
+## *Nature* en *nurture*
 
-De precieze invloeden van ***nature*** (genoom) en ***nurture*** (milieu) op alle eigenschappen is niet bekend. Tweelingen zijn interessant voor onderzoek binnen de *nature*\-*nurture*discussie, omdat hun (soms) genoom identiek is (bij eeneiige tweelingen)  en omdat hun milieu (zo goed als) gelijk is.
+De precieze invloeden van ***nature*** (genoom) en ***nurture*** (milieu) op alle eigenschappen is niet bekend. Tweelingen zijn interessant voor onderzoek binnen de *nature*-*nurture*discussie, omdat hun (soms) genoom identiek is (bij eeneiige tweelingen)  en omdat hun milieu (zo goed als) gelijk is.
 
-Vroeger werden kinderen er bij adoptietweelingen van elkaar gescheiden voor onderzoek. Zo’n experiment mag tegenwoordig niet meer. In de **ethiek** zoeken mensen naar criteria voor correct handelen. Deze criteria zijn voor iedereen verschillend.
+Vroeger werden kinderen er bij adoptietweelingen van elkaar gescheiden voor onderzoek. Zo'n experiment mag tegenwoordig niet meer. In de **ethiek** zoeken mensen naar criteria voor correct handelen. Deze criteria zijn voor iedereen verschillend.
 
 Onderzoek naar het beïnvloeden van de genactivieit en het aansturen van allelen noem je **epigenetica**.  
 Methylgroepen kunnen zich aan het aan het DNA koppelen waardoor een gen kan worden gedeactiveerd: **methylering**.  
