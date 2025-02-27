@@ -1,8 +1,12 @@
-# Biologie
+---
+title: BIOL - H4 - Samenvatting
+indexname: BIOL - H4 (Voortplanting)
+layout: default
+---
 
-## **Hoofdstuk 4**
+# Biologie: Hoofdstuk 4 (Voortplanting)
 
-# Bevruchting
+## Bevruchting
 
 In de eierstokken (**ovaria**) van een vrouw ontwikkelt zich elke maand een eicel. Na de **ovulatie** (eisprong) komt de eicel in de eileider.  
 Bij een bevruchting dringt een aantal spermacellen door de laag follikelcellen (die rond de eicel zitten) heen. De spermacel die als eerste succesvol contact maakt met het celmembraan van de eicel, versmelt samen met de kern van de eicel. Voor andere spermacellen wordt de eicel ondoordringbaar (er ontstaat een **bevruchtingsmembraan**).  
@@ -11,32 +15,42 @@ Na de bevruchting ontstaat een **zygote**.
 De eerste delingen (**klievingsdelingen**) wordt het klompje cellen een **blastula**. De blastula gaat zich vervolgens innestelen in het baarmoederslijmvlies. Uit de buitenkant van de blastula (**trofoblast**) groeien vlokken het baarmoederslijmvlies in. Deze vlokken zorgen voor het vervoer van zuurstof en voedingsstoffen.  
 De **embryoblast** is het groepje stamcellen waaruit alle celtypen van het **embryo** ontstaan. Het embryo begint als een platte **kiemschijf**.  
 Er ontstaan twee vliezen rond de kiemschijf: het **amnion** (ontstaat uit het **amnionblaasje**) en het **chorion** (ontstaat uit het trofoblast). Deze twee vliezen omringen het vruchtwater.  
+
 ![][image1]  
-![][image2]Het embryo krijgt voedingsstoffen binnen en geeft voedingsstoffen af via de **placenta**. Hierin zitten de bloedvaten van de moeder en het kind dicht bij elkaar, waardoor stoffen zich kunnen uitwisselen. De navelstreng verbindt het embryo en de placenta. De bloedsomlopen van de moeder en het kind zijn dus gescheiden van elkaar.  
+
+Het embryo krijgt voedingsstoffen binnen en geeft voedingsstoffen af via de **placenta**. Hierin zitten de bloedvaten van de moeder en het kind dicht bij elkaar, waardoor stoffen zich kunnen uitwisselen. De navelstreng verbindt het embryo en de placenta. De bloedsomlopen van de moeder en het kind zijn dus gescheiden van elkaar.
+
+![][image2]
+
 Schadelijke stoffen in het bloed van de moeder kunnen dus wel in de bloedsomloop van het kind komen.  
 Na acht weken noem je het embryo een **foetus**.
 
-De aanwezigheid van een Y-chromosoom bepaalt de vorming van geslachtsorganen. Embryo’s met een X- en Y-chromosoom groeien vrijwel altijd uit tot man. Er worden dan **testes** (teelballen) ontwikkeld.  
-![][image3]Bij vrouwen ontwikkelen eicellen zich in de ovaria, waarvan er elke maand (van **puberteit** tot **overgang**) een rijpe eicel vrijkomt (**ovulatie**). Deze eicel kan bevrucht worden in de **eileider**, waarna de bevruchte eicel naar de baarmoeder wordt vervoerd. De **baarmoeder** is bekleed met slijmvlies dat elke maand aangroeit ter voorbereiding op een zwangerschap. Als er geen zwangerschap optreedt, wordt het slijmvlies afgevoerd tijdens de **menstruatie**. De **vagina** vormt de toegang tot de baarmoeder. De **schaamlippen** beschermen de vagina. De **clitoris**, die gevoelig is voor prikkeling, kan een orgasme veroorzaken bij stimulatie.
+De aanwezigheid van een Y-chromosoom bepaalt de vorming van geslachtsorganen. Embryo's met een X- en Y-chromosoom groeien vrijwel altijd uit tot man. Er worden dan **testes** (teelballen) ontwikkeld.  
+Bij vrouwen ontwikkelen eicellen zich in de ovaria, waarvan er elke maand (van **puberteit** tot **overgang**) een rijpe eicel vrijkomt (**ovulatie**). Deze eicel kan bevrucht worden in de **eileider**, waarna de bevruchte eicel naar de baarmoeder wordt vervoerd. De **baarmoeder** is bekleed met slijmvlies dat elke maand aangroeit ter voorbereiding op een zwangerschap. Als er geen zwangerschap optreedt, wordt het slijmvlies afgevoerd tijdens de **menstruatie**. De **vagina** vormt de toegang tot de baarmoeder. De **schaamlippen** beschermen de vagina. De **clitoris**, die gevoelig is voor prikkeling, kan een orgasme veroorzaken bij stimulatie.
 
-![][image4]De teelballen bevatten **zaadbuisjes** waar spermacellen worden geproduceerd. Deze zaadbuisjes monden uit in de **bijballen**, waar de spermacellen rijpen en opgeslagen worden. Bij seksuele opwinding vult bloed de **zwellichamen** van de penis, wat leidt tot een **erectie**. Bij een zaadlozing worden spermacellen via de penis naar buiten geduwd, waarbij de **zaadblaasjes** en **prostaatklier** vocht toevoegen om **sperma** te vormen.
+![][image3]
 
-**Primaire geslachtskenmerken** zijn vanaf de geboorte aanwezig (M: penis & balzak; V: schaamlippen en vagina). **Secundaire geslachtskenmerken** ontstaan tijdens de puberteit (M: groeien teelballen, prostaat, zaadblaasjes en penis, grotere spiermassa, groeien stembanden, beharing; V: groeien borsten en verbreden heupen, beharing, groeien en ontwikkeling geslachtsorganen). **Tertiaire geslachtskenmerken** zijn de geestelijke en geslachtsveranderingen tijdens de puberteit.   
+De teelballen bevatten **zaadbuisjes** waar spermacellen worden geproduceerd. Deze zaadbuisjes monden uit in de **bijballen**, waar de spermacellen rijpen en opgeslagen worden. Bij seksuele opwinding vult bloed de **zwellichamen** van de penis, wat leidt tot een **erectie**. Bij een zaadlozing worden spermacellen via de penis naar buiten geduwd, waarbij de **zaadblaasjes** en **prostaatklier** vocht toevoegen om **sperma** te vormen.
+
+![][image4]
+
+**Primaire geslachtskenmerken** zijn vanaf de geboorte aanwezig (M: penis & balzak; V: schaamlippen en vagina). **Secundaire geslachtskenmerken** ontstaan tijdens de puberteit (M: groeien teelballen, prostaat, zaadblaasjes en penis, grotere spiermassa, groeien stembanden, beharing; V: groeien borsten en verbreden heupen, beharing, groeien en ontwikkeling geslachtsorganen). **Tertiaire geslachtskenmerken** zijn de geestelijke en geslachtsveranderingen tijdens de puberteit.
 De meeste mensen zijn **heteroseksueel**, maar sommige zijn **homoseksueel**, **lesbisch**, **biseksueel** of **aseksueel**. Mensen die zich niet thuis voelen in hun biologische geslacht, zijn **transgender**, en mensen met geslachtskenmerken van beide geslachten zijn **intersekse**.  
-**Ongewenste intimiteiten**, zoals aanrakingen of opmerkingen, kunnen leiden tot psychologische schade. Ernstige gevallen zijn aanranding en verkrachting. 
+**Ongewenste intimiteiten**, zoals aanrakingen of opmerkingen, kunnen leiden tot psychologische schade. Ernstige gevallen zijn aanranding en verkrachting.
 
-# Geslachtscellen
+## Geslachtscellen
 
 Menselijke **geslachtscellen** bevatten 23 chromosomen. Deze cellen zijn **haploïd** (n): van elk type chromosoom hebben ze 1 exemplaar.  
 Als twee geslachtscellen versmelten, bevat de nieuwe cel 46 chromosomen, van elk type 2 exemplaren (**diploïd** (2n)).  
 Van elk chromosomenpaar in een lichaamscel is 1 chromosoom afkomstig van de moeder, het andere van de vader (**homologe chromosomen**). Beide chromosomen bevatten informatie over dezelfde erfelijke eigenschappen.
 
-**Meiose** bestaat uit 2 stappen (**meiose I** en **meiose II**).   
+**Meiose** bestaat uit 2 stappen (**meiose I** en **meiose II**).
 Tijdens de **interfase van meiose I** wordt het DNA verdubbelt. Elk chromosoom bestaat nu uit 2 chromatiden. Deze chromatiden zijn aan elkaar gelijk. De 2 chromosomen die eerder samen een paar vormden, zoeken elkaar nu op. Ze gaan samen naar het equatorvlak toe. Hier vindt **crossing-over** plaats: de chromatiden van de homologe chromosomen wisselen stukken uit. Nu wordt elk chromosoom naar een pool toe getrokken. De twee cellen die hierna ontstaan hebben dus van elk voormalig chromosomenpaar 1 chromosoom, en dat chromosoom bestaat uit 2 identieke chromatiden. Het is dus niet zo dat alle chromosomen die oorspronkelijk van de vader komen nu bij elkaar liggen in 1 cel. Deze willekeur in de positie van het DNA heet **recombinatie**.  
 De twee cellen die nu ontstaan zijn (einde van meiose I) zijn dus **haploïde** cellen, maar elk chromosoom bestaat wel uit twee chromatiden.  
 Bij meiose twee worden deze chromatiden van elkaar gescheiden. Nu ontstaan er dus vier haploïde cellen.  
 **(Zie voor de benamingen van de fases Binas 76B2 en 76B3\! Deze moet je begrijpen/weten\!)**  
 Dit is een overzicht van de verdeling van de chromosomen tijdens de meiose.  
+
 ![][image5]
 
 Vrouwelijke geslachtscellen vormen zich al voor de geboorte. Er ontstaan elke miljoenen **kiemcellen** (**diploïde oögonia**). Een deel van de oögonia begint aan de meiose, maar ze stoppen in profase I. Deze cellen vormen de **diploïde primaire oöcyten**. Deze oöcyten bevinden zich in **follikels**. Onder invloed van hormonen gaat de meiose vanaf de puberteit weer verder. Elke menstruatiecyclus hervatten 5 tot 12 follikels de meiose. Meestal maakt slechts 1 follikel meiose I af.  
@@ -45,9 +59,10 @@ De **secundaire oöcyt** begint aan meiose II, maar stopt in metafase II. Pas na
 De complete meiose voor de vorming van geslachtscellen bij een vrouw, speelt zich dus af over een lange tijdspan: van voor de geboorte van een vrouw tot de bevruchting van de eicel.
 
 Bij een man duurt de vorming van **spermacellen** ongeveer 2 maanden. In de zaadbuisjes bevinden zich **spermatogonia** (kiemcellen) die zich door mitose blijven delen. Vanaf de puberteit gaat een deel van de spermatogonia als **primaire spermatocyt** aan de meiose beginnen. Uit de primaire spermatocyt ontstaan na meiose I  2 haploïde s**ecundaire spermatocyten**. Na meiose II worden dit **spermatiden**. Deze spermatiden worden **spermacellen**.  
+
 ![][image6]
 
-# Hormonen en bevalling
+## Hormonen en bevalling
 
 Onder de **hypothalamus** zit de **hypofyse**: een kleine hormoonklier. Door middel van de **GnRH-hormonen** stuurt de hypothalamus de hypofyse aan. De hypofyse gaat vervolgens FSH (**follikelstimulerend hormoon**) en LH (**luteïniserend hormoon**) afgeven aan het bloed. Met de afgifte van deze hormonen start de puberteit.  
 Bij jongens stimuleert FSH de productie van spermacellen. LH stimuleert bij jongens de vorming van **testosteron**. Testosteron is betrokken bij de vorming van spermacellen en bij het ontstaan van de secondaire geslachtskenmerken. Bovendien remt testosteron de vorming van GnRH, FSH en LH. Als het lichaam te weinig testosteron maakt dan wordt deze rem vermindert, waardoor de aanmaak van testosteron weer stijgt (**negatieve terugkoppeling**).  
@@ -64,7 +79,7 @@ Na negen maanden is de foetus volgroeid en kan de bevalling beginnen.
 
 **Prolactine** is een hormoon die de melkvorming in de borsten simuleert. Als een baby aan de tepel zuigt, wordt de productie van prolactine en oxytocine, waardoor de moedermelk wordt afgegeven.
 
-# Hulp bij zwangerschap
+## Hulp bij zwangerschap
 
 **Kunstmatige inseminatie** (KI) kan een oplossing zijn als het spermacellen niet lukt om de eicel te bevruchten. Bij KI brengt de gynaecoloog het sperma bij de vrouw in met een slangetje.  
 **IVF** is een manier om een bevruchting buiten het lichaam te faciliteren. Met een glazen buisje worden eicellen uit de follikels gezogen. Deze worden in een petrischaaltje samen met het sperma van de man gezet. Een bevruchte embryo kan vervolgens worden teruggezet in de baarmoeder.  
@@ -74,35 +89,35 @@ Twee-eiige tweelingen ontstaan als er twee verschillende eicellen bevrucht worde
 
 **Prenatale diagnostiek** is het opsporen van aangeboren of erfelijke afwijkingen bij een foetus. Dit kan op verschillende manieren, zoals een **vlokkentest** (cellen uit vlokken halen), een **vruchtwaterpunctie** (cellen uit het vruchtwater halen), een **navelstrengpunctie** (bloed uit de navelstreng halen) of een **NIPT** (bloedafname bij de moeder).
 
-Ouders die een zwangerschap mogelijk moeten afbreken (**abortus**), maken een beslissing op basis van biologische en ethische overwegingen. 
+Ouders die een zwangerschap mogelijk moeten afbreken (**abortus**), maken een beslissing op basis van biologische en ethische overwegingen.
 
-Het **kloneren** van embryo’s is bij mensen ethisch omstreden, maar het wordt toegepast bij dieren en planten. Bij deze vorm van **ongeslachtelijke vermeerdering** is er wel geslachtelijke voortplanting aan vooraf gegaan.  
+Het **kloneren** van embryo's is bij mensen ethisch omstreden, maar het wordt toegepast bij dieren en planten. Bij deze vorm van **ongeslachtelijke vermeerdering** is er wel geslachtelijke voortplanting aan vooraf gegaan.  
 Er zijn veel planten die aan **ongeslachtelijke voortplanting** doen, zoals aardappelen (met knollen), tulpen (met bollen), aardbeien (met uitlopers) enz. Hierdoor kan het aantal nakomelingen snel toenemen. Bij **weefselkweek** worden gunstige eigenschappen met elkaar gemengd (m.b.v. ongeslachtelijke voortplanting).
 
-# Soa’s
+## Soa's
 
 **Seksueel overdraagbare aandoeningen** zijn infectieziektes die zich kunnen verspreiden door intiem contact.  
-**Bacteriële soa’s** zijn goed te bestrijden met antibiotica. Een aantal bacteriële soa’s:
+**Bacteriële soa's** zijn goed te bestrijden met antibiotica. Een aantal bacteriële soa's:
 
 * **Chlamydia** is de meest voorkomende soa onder jongeren.  
 * **Gonorroe** nestelt zich in de slijmvliezen.  
 * **Syfilis** veroorzaakt opgezette lymfeklieren, griepachtige verschijnselen en vermoeidheid.
 
-**Virale soa’s** (veroorzaakt door een virus) zijn moeilijk te bestrijden, omdat er geen eenvoudig middel bestaat om een virus onschadelijk te maken. Een aantal virale soa’s:
+**Virale soa's** (veroorzaakt door een virus) zijn moeilijk te bestrijden, omdat er geen eenvoudig middel bestaat om een virus onschadelijk te maken. Een aantal virale soa's:
 
 * **HPV** kan verschillende soorten kanker veroorzaken.  
 * **HBV** veroorzaakt leverontsteking (hepatitis B).  
 * **Herpes genitalis**: pijnlijke blaasjes en irritatie bij het plassen  
 * **Hiv**: klachten lijken op griep. Hiv vernietigt witte bloedcellen, een belangrijk onderdeel van je immuunsysteem. Hiv is bijna niet te genezen, je moet je hele leven hiv-remmers blijven slikken. Hiv kan zorgen voor **aids** (bij levensbedreigende infecties). Een **seropositieve** uitslag betekent dat je besmet bent.
 
-**Parasitaire soa’s** worden veroorzaakt door een ander organisme (parasiet). Enkele voorbeelden:
+**Parasitaire soa's** worden veroorzaakt door een ander organisme (parasiet). Enkele voorbeelden:
 
 * **Trichomonas vaginalis**: klachten bij het plassen en last van een ontstoken vagina.  
 * **Schaamluis**: luizen in het schaamhaar.
 
-Sommige **anticonceptiemiddelen** voorkomen (naast het voorkomen van zwangerschap) ook de besmetting met soa’s.
+Sommige **anticonceptiemiddelen** voorkomen (naast het voorkomen van zwangerschap) ook de besmetting met soa's.
 
-# Handige Binas-tabellen
+## Handige Binas-tabellen
 
 * 76B2 en 76B3: meiose I en II  
 * 84B: bloedsomloop foetus  

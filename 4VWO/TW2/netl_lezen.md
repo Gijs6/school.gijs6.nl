@@ -1,20 +1,24 @@
-# Nederlandse taal en literatuur
+---
+title: NETL - Lezen - Samenvatting
+indexname: NETL - Lezen
+layout: default
+---
 
-## **Lezen**
+# Nederlandse taal en literatuur: Lezen
 
-# Tekstsoorten
+## Tekstsoorten
 
 Een **uiteenzetting** is bedoeld om te informeren. Er wordt informatie gegeven over een bepaald onderwerp, met veel feiten en voorbeelden.  
 Een **betoog** is bedoeld om te overtuigen. De auteur wil dat de lezer zijn mening overneemt. De tekst bevat argumenten.  
 Een **beschouwing** is bedoeld om te opiniëren. De auteur wil dat de lezer een eigen mening over een bepaald onderwerp vormt. De tekst bevat bijvoorbeeld voor- en nadelen, uitleg van deskundigen enz.
 
-# Leesmethodes
+## Leesmethodes
 
 *Deze stof komt naar alle waarschijnlijkheid niet terug op de toets*  
 Als je een tekst goed wil begrijpen kun je gebruik maken van de volgende stappen.
 
 * **Oriënterend lezen**  
-  Bepaal het onderwerp door de titel te lezen, afbeeldingen te bekijken en de eerste alinea’s te bekijken.  
+  Bepaal het onderwerp door de titel te lezen, afbeeldingen te bekijken en de eerste alinea's te bekijken.  
 * **Globaal lezen**  
   Lees de tekst vluchtig door. Bepaal de inleiding, de deelonderwerpen en het slot. Zoek naar kernzinnen.  
 * **Precies lezen**  
@@ -22,11 +26,11 @@ Als je een tekst goed wil begrijpen kun je gebruik maken van de volgende stappen
 
 Als je een tekst **actief leest** maak je bijvoorbeeld aantekeningen, markeer je woorden, zet je strepen enz.
 
-# Afbeeldingen
+## Afbeeldingen
 
-**Schematische afbeeldingen**, zoals diagrammen, infographics (combinatie van tekst, afbeeldingen, schema’s, …), pictogrammen enz., worden gebruikt om de inhoud van een tekst te verduidelijken. Ze bevatten vaak een **legenda**. 
+**Schematische afbeeldingen**, zoals diagrammen, infographics (combinatie van tekst, afbeeldingen, schema's, …), pictogrammen enz., worden gebruikt om de inhoud van een tekst te verduidelijken. Ze bevatten vaak een **legenda**.
 
-# Teksten vergelijken
+## Teksten vergelijken
 
 *Het is onduidelijk of deze stof terugkomt op de toets*  
 Als je twee teksten over hetzelfde onderwerp wil vergelijken, kun je het volgende stappenplan gebruiken.
@@ -35,7 +39,7 @@ Als je twee teksten over hetzelfde onderwerp wil vergelijken, kun je het volgend
 * Verwerk de gemarkeerde informatie in een schema, samenvatting of mindmap  
 * Vergelijk de informatie uit de twee teksten. Bekijk welke informatie wordt bevestigd, welke informatie slechts in 1 tekst staat en welke informatie wordt tegengesproken.
 
-# Herhaling
+## Herhaling
 
 Een **alinea** is een aantal zinnen die bij elkaar horen omdat ze over hetzelfde gaan.  
 De **context** is de tekst rond een woord
@@ -44,25 +48,25 @@ De **context** is de tekst rond een woord
 
 Een **functiewoord** is een woord waarmee je de functie van (een deel van) een alinea binnen een tekst kunt benoemen. Er zijn verschillende soorten functiewoorden:
 
-* aanbeveling – goede raad: de schrijver doet een suggestie voor de oplossing van een probleem  
-* aanleiding – actuele gebeurtenis die de schrijver gebruikt om zijn tekst aan op te hangen  
-* afweging – soort vergelijking: de schrijver moet van bijvoorbeeld voor- en nadelen of voor- en tegenargumenten bepalen wat het belangrijkste is  
-* anekdote – (waargebeurd en meestal grappig) verhaaltje als illustratie (voorbeeld) bij het onderwerp van een tekst  
-* constatering – vaststelling of waarneming van een feit of een verschijnsel  
-* definitie – zeer nauwkeurige omschrijving van een woord of een begrip  
-* nuancering – verfijning of kleine aanpassing van een bewering of een stelling  
-* probleemstelling – omschrijving van een probleem  
-* tegenargument – uitspraak waarmee een schrijver of spreker een standpunt of een argument probeert te weerleggen of te ontkrachten  
-* uitwerking – extra, vaak meer gedetailleerde informatie  
-* verklaring – uitleg waarom iets is zoals het is  
-* vraagstelling – vraag die in (een deel van) de tekst centraal staat  
-* weerlegging – sterke ontkrachting van een argument of een tegenargument
+* aanbeveling - goede raad: de schrijver doet een suggestie voor de oplossing van een probleem  
+* aanleiding - actuele gebeurtenis die de schrijver gebruikt om zijn tekst aan op te hangen  
+* afweging - soort vergelijking: de schrijver moet van bijvoorbeeld voor- en nadelen of voor- en tegenargumenten bepalen wat het belangrijkste is  
+* anekdote - (waargebeurd en meestal grappig) verhaaltje als illustratie (voorbeeld) bij het onderwerp van een tekst  
+* constatering - vaststelling of waarneming van een feit of een verschijnsel  
+* definitie - zeer nauwkeurige omschrijving van een woord of een begrip  
+* nuancering - verfijning of kleine aanpassing van een bewering of een stelling  
+* probleemstelling - omschrijving van een probleem  
+* tegenargument - uitspraak waarmee een schrijver of spreker een standpunt of een argument probeert te weerleggen of te ontkrachten  
+* uitwerking - extra, vaak meer gedetailleerde informatie  
+* verklaring - uitleg waarom iets is zoals het is  
+* vraagstelling - vraag die in (een deel van) de tekst centraal staat  
+* weerlegging - sterke ontkrachting van een argument of een tegenargument
 
 De **hoofdgedachte** is één volledige zin die het belangrijkste samenvat wat in de tekst over het onderwerp gezegd wordt
 
 Een **informerende titel** is een titel die aangeeft waar de tekst over gaat
 
-De **inleiding** is het eerste deel van een tekst, bestaande uit één of enkele alinea’s. Een inleiding heeft twee functies:
+De **inleiding** is het eerste deel van een tekst, bestaande uit één of enkele alinea's. Een inleiding heeft twee functies:
 
 * de lezer nieuwsgierig maken naar de rest van de tekst  
 * duidelijk maken wat het onderwerp van de tekst is
@@ -71,10 +75,10 @@ De **kernzin** is de zin die de belangrijkste informatie van een alinea bevat
 
 Er zijn verschillende **leesstrategieën**:
 
-* globaal lezen – strategie om vast te stellen welke kanten van het onderwerp besproken worden  
-* oriënterend lezen – strategie om vast te stellen wat het onderwerp van een tekst is  
-* precies lezen – strategie om een tekst helemaal goed te begrijpen  
-* zoekend lezen – strategie om bruikbare informatie in een tekst te vinden
+* globaal lezen - strategie om vast te stellen welke kanten van het onderwerp besproken worden  
+* oriënterend lezen - strategie om vast te stellen wat het onderwerp van een tekst is  
+* precies lezen - strategie om een tekst helemaal goed te begrijpen  
+* zoekend lezen - strategie om bruikbare informatie in een tekst te vinden
 
 Het **middenstuk** is het tekstdeel tussen inleiding en slot, waarin de meeste informatie over het onderwerp staat
 
@@ -88,7 +92,7 @@ Het **slot** is het laatste deel van een tekst; bevat vaak een conclusie (de hoo
 
 Het **tekstdoel** is datgene wat een schrijver met zijn tekst wil bereiken: amuseren, informeren, instrueren, overtuigen of activeren
 
-Een **tekstverband** is een samenhang van woorden, zinnen en alinea’s binnen een tekst, te herkennen aan signaalwoorden; er bestaan verschillende tekstverbanden, zoals:
+Een **tekstverband** is een samenhang van woorden, zinnen en alinea's binnen een tekst, te herkennen aan signaalwoorden; er bestaan verschillende tekstverbanden, zoals:
 
 * chronologisch verband: geeft de gebeurtenissen in de juiste tijdsvolgorde aan  
   → signaalwoorden: daarna, dan, eens, eerst, inmiddels, intussen, later, nadat, nu, ooit enz.  
@@ -116,7 +120,7 @@ Een **tekstverband** is een samenhang van woorden, zinnen en alinea’s binnen e
 
 → signaalwoorden: als (... dan), indien, mits, tenzij, wanneer
 
-**Tekststructuren**
+### Tekststructuren
 
 | argumentatiestructuur |  |
 | :---: | :---: |
@@ -147,4 +151,3 @@ Een **tekstverband** is een samenhang van woorden, zinnen en alinea’s binnen e
 | inleiding | vraag |
 | middenstuk | antwoord(en) |
 | slot | samenvatting of conclusie |
-

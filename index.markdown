@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Overzicht van samenvattingen
+# Samenvattingsoverzicht
 
 ## 4VWO
 
@@ -14,21 +14,21 @@ layout: default
 
 ### TW2
 
-- [biol_h4.md](4VWO\TW2\biol_h4)
+- [BIOL - H4 (Voortplanting)](4VWO\TW2\biol_h4)
 
-- [entl_h3.md](4VWO\TW2\entl_h3)
+- [ENTL - H3](4VWO\TW2\entl_h3)
 
-- [fatl_h2.md](4VWO\TW2\fatl_h2)
+- [FATL - H2](4VWO\TW2\fatl_h2)
 
-- [maat_h3.md](4VWO\TW2\maat_h3)
+- [MAAT - H3 (Parlementaire democratie)](4VWO\TW2\maat_h3)
 
-- [nat_h2.md](4VWO\TW2\nat_h2)
+- [NAT - H2 (Bewegingen)](4VWO\TW2\nat_h2)
 
-- [netl_lezen.md](4VWO\TW2\netl_lezen)
+- [NETL - Lezen](4VWO\TW2\netl_lezen)
 
-- [nlt_hel.md](4VWO\TW2\nlt_hel)
+- [NLT - Hersenen en leren](4VWO\TW2\nlt_hel)
 
-- [schk_h3.md](4VWO\TW2\schk_h3)
+- [SCHK - H3 (Chemisch rekenen)](4VWO\TW2\schk_h3)
 
 ### P2
 

@@ -28,7 +28,7 @@ def sort_sub_dirs(dirs):
 def generate_markdown():
     directory = os.getcwd()
     output_file = "index.markdown"
-    markdown_content = ["---", "layout: default", "---\n", "# Overview of Summaries\n"]
+    markdown_content = ["---", "layout: default", "---\n", "# Samenvattingsoverzicht\n"]
 
     main_dirs = [d for d in os.listdir(directory) if re.match(r'\dVWO', d)]
     sorted_main_dirs = sort_main_dirs(main_dirs)

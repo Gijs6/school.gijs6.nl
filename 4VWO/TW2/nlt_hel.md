@@ -1,16 +1,20 @@
-# Natuur, leven en technologie
+---
+title: NLT - HEL - Samenvatting
+indexname: NLT - Hersenen en leren
+layout: default
+---
 
-## **Hersenen en leren, tweede samenvatting**
+# Natuur, leven en technologie: Hersenen en leren
 
-# Voorkennis/introductie
+## Voorkennis/introductie
 
 *→ Hoef je niet te leren, maar komt wel terug in de module, dus wel handig om te weten*  
 De **buitenste laag** van de **grote hersenen** is de **cortex**. Deze is erg geplooid. In de cortex vindt bewuste gewaarwording plaats en vindt het aansturen van bewuste bewegingen plaats.  
-De **prefrontale cortex** is de “manager” van het centraal zenuwstelsel. Daarnaast is dit hersengebied belangrijk voor planning en organisatie.
+De **prefrontale cortex** is de "manager" van het centraal zenuwstelsel. Daarnaast is dit hersengebied belangrijk voor planning en organisatie.
 
 **Neuronen** zijn zenuwcellen die informatie kunnen ontvangen en doorgeven. Via **axonen** (uitlopers) zijn zenuwcellen verbonden. Ze geven informatie door via een **synaps**. Ze ontvangen informatie via **dendrieten**.
 
-# Onthouden
+## Onthouden
 
 Het **geheugen** is het vermogen om informatie te onthouden. Het bestaat uit 3 onderdelen: de opslag (**onthouden**), het bewaren en het terugzoeken (**herinneren**) van informatie. Bij het onthouden van informatie vindt er een verandering plaats in het zenuwstelsel: er ontstaat een **geheugenspoor.**  
 **Metacognitie** is het nadenken en leren over leren.
@@ -37,7 +41,7 @@ Volgens het **Atkinson-Shiffrin** geheugenmodel wordt informatie uit de omgeving
 
 Een **vergeetcurve** geeft aan hoeveel informatie mensen onthouden na een bepaalde tijd. De vergeetcurve neemt eerst **erg snel af**, en **vlakt vervolgens af**. Info verdwijnt bijna nooit volledig.
 
-# Leren
+## Leren
 
 Organismen verzamelen **input** (**prikkels**) uit de omgeving, verwerken deze in een **black box** en gebruiken deze informatie in hun **reactie**. In deze context zou je **leren** kunnen omschrijven als het **gebruiken van eerdere input bij nieuwe gedragingen**.  
 Prikkels worden **ontvangen door de zintuigen** en vervolgens naar het zenuwstelsel vervoerd. Informatie uit de zintuigen wordt gefilterd door de **thalamus**.
@@ -66,17 +70,17 @@ Het **langetermijngeheugen** is opgebouwd uit verschillende onderdelen:
   * Het **semantisch geheugen** bevat **feitenkennis**  
 * Het **procedureel geheugen** is het motorisch geheugen. Dit geheugen is **niet-declaratief**, want je kunt de informatie niet bewust raadplegen.
 
-# Leren op celniveau
+## Leren op celniveau
 
 De hersenen zijn **plastisch**: ze zijn aanpasbaar en veranderbaar.  
 **Neurogenese** is het **ontstaan van nieuwe neuronen** (door celdeling van stamcellen). Neurogenese wordt geassocieerd met een verbeterde cognitie en een grotere totale opslagcapaciteit van het netwerk in de hippocampus.  
-**Apoptose** is de **dood van een cel**. Apoptose en neurogenese zijn mogelijk elkaars aanvullingen: apoptose “ruimt op” en neurogenese “vult aan”.  
+**Apoptose** is de **dood van een cel**. Apoptose en neurogenese zijn mogelijk elkaars aanvullingen: apoptose "ruimt op" en neurogenese "vult aan".  
 **Synaptogenese** is het vormen van **nieuwe synapsen** tussen verschillende neuronen. Rond de puberteit is er veel synaptogenese in de frontale cortex. Deze golf wordt gevolgd door veel pruning. **Pruning** is het **verdwijnen van synapsen**, en indirect ook van netwerken van neuronen.  
 **Myelinisatie** is het proces waarbij de **myelineschede gevormd wordt**. Hoe meer myelineschede er rond de uitlopers zit, hoe sneller het signaal kan worden doorgegeven.
 
 **LTP** is het proces binnen het membraan van zenuwcellen dat kan verklaren hoe het komt dat een **zenuwcel na veel prikkeling gevoeliger wordt voor die specifieke prikkel**.
 
-# Leren in het brein
+## Leren in het brein
 
 Herinneringen worden opgeslagen in verschillende **netwerken van zenuwcellen**, verspreid over de hersenen. Ze bestaan dus uit **geheugensporen in meerdere gespecialiseerde delen** van het brein, die samen een complete herinneringen vormen. De prefrontale cortex coördineert de manier waarop deze gegevens door de andere delen van de cortex gebruikt worden.
 
@@ -84,18 +88,18 @@ Informatie wordt bijna altijd **gekoppeld aan andere informatie**. Hierdoor onts
 
 **Chunking** is het **herkennen van patronen** en het **koppelen van losse items tot een groter geheel**.  
 Iemand die een **expert** in een onderwerp is heeft zijn werkgeheugen op dat gebied erg goed getraind en kan **makkelijk informatie koppelen** aan eerdere gebeurtenissen en herinneringen.  
-De **hippocampus** is belangrijk bij het **opslagproces van herinneringen**, vooral bij de **vroege opslag** en **het ophalen van herinneringen**. Bij het opslaan verbindt de hippocampus **verschillende componenten van een herinnering** die verspreid zijn over de cortex. Bij het oproepen van een herinnering reactiveert de hippocampus de relevante gebieden, waardoor de herinnering terugkomt. Iedere keer dat dit gebeurt, wordt de herinnering **sterker opgeslagen**. Dit proces heet **geheugenconsolidatie**. Na een tijdje is de hippocampus niet meer nodig om de herinnering terug te halen, omdat de cortex dan zelf “weet” waar de herinnering zich bevindt.
+De **hippocampus** is belangrijk bij het **opslagproces van herinneringen**, vooral bij de **vroege opslag** en **het ophalen van herinneringen**. Bij het opslaan verbindt de hippocampus **verschillende componenten van een herinnering** die verspreid zijn over de cortex. Bij het oproepen van een herinnering reactiveert de hippocampus de relevante gebieden, waardoor de herinnering terugkomt. Iedere keer dat dit gebeurt, wordt de herinnering **sterker opgeslagen**. Dit proces heet **geheugenconsolidatie**. Na een tijdje is de hippocampus niet meer nodig om de herinnering terug te halen, omdat de cortex dan zelf "weet" waar de herinnering zich bevindt.
 
 Consolidatie is een belangrijk proces in het onthouden van herinneringen. Dit gebeurt onbewust, vaak tijdens de slaap, omdat er dan geen nieuwe zintuigelijke informatie binnenkomt.  
 Tijdens de slaap worden **herinneringen weer naar boven gehaald** waardoor de consolidatie versterkt wordt.  
 Tijdens de REM-slaap (gekenmerkt door snelle oogbewegingen) worden dromen gevormd, waarschijnlijk door het **willekeurig combineren van oude en nieuwe herinneringen**, wat verklaart waarom dromen vaak vreemd zijn.  
 Ook wakkere rustperiodes helpen bij consolidatie, doordat hersengebieden die tijdens het leren actief waren, daarna sterker verbonden zijn.
 
-Emotionele gebeurtenissen worden beter onthouden omdat er **veel processen in je lichaam spelen** tijdens zo’n gebeurtenis (***arousing***). Ook de **aanwezigheid van hormonen** kan een rol spelen bij de opslag van herinneringen. De **amygdala** speelt een belangrijke rol bij het emotioneel geheugen.
+Emotionele gebeurtenissen worden beter onthouden omdat er **veel processen in je lichaam spelen** tijdens zo'n gebeurtenis (***arousing***). Ook de **aanwezigheid van hormonen** kan een rol spelen bij de opslag van herinneringen. De **amygdala** speelt een belangrijke rol bij het emotioneel geheugen.
 
 Sport en beweging is erg belangrijk voor de hersenen. Voldoende beweging kan zorgen tot structurele veranderingen in de hersenen, zoals neurogenese.
 
-# Onderwijs
+## Onderwijs
 
 Binnen het onderwijs zou je leren kunnen definiëren als *een mentaal proces waarbij als gevolg van leeractiviteiten een potentiële en relatief stabiele gedragsverandering tot stand komt*. Leren heeft dus het doel om ervoor te zorgen dat je **nieuw gedrag kan vertonen**.  
 Een **leerresultaat** is iets wat je geleerd hebt. Een **leerprestatie** is datgene waarmee je wat je leert zichtbaar maakt.  
@@ -115,7 +119,7 @@ Volgens de **context-conceptbenadering** wordt de vakinhoud (de concepten) in sa
 De ervaring met het toepassen van het kennisnetwerk bepaalt de structuur ervan. De veranderende netwerkstructuur heeft vervolgens weer invloed op de wendbaarheid.  
 Het fenomeen dat een situatie direct een sterk samenhangend netwerk oproept heet **conditionalisering** (van kennis).
 
-# Metacognitie
+## Metacognitie
 
 Jouw **leerstijlen** omschrijven hoe jij leert. Deze stijl bestaat voornamelijk uit de volgende componenten
 
@@ -129,4 +133,3 @@ Jouw **leerstijlen** omschrijven hoe jij leert. Deze stijl bestaat voornamelijk 
   * Hoe stuur je jouw leren, maak je een planning en hoe stel je deze bij, hoe krijg je feedback  
 * **Leerconcepties** (meningen/opvattingen over leren)  
   * Zoals het opslaan van informatie, het zoeken van uitdaging, het gebruiken van informatie
-

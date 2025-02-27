@@ -1,8 +1,12 @@
-# Natuurkunde
+---
+title: NAT - H2 - Samenvatting
+indexname: NAT - H2 (Bewegingen)
+layout: default
+---
 
-## **Hoofdstuk 2**
+# Natuurkunde: Hoofdstuk 2 (Bewegingen)
 
-# Kracht en snelheid
+## Kracht en snelheid
 
 Volgens de **eerste wet van Newton** is er een constante snelheid (kan ook nul zijn) als de nettokracht nul is. Het omgekeerde is ook waar: als er een constante snelheid is, dan is de nettokracht 0\. De snelheid kan dus alleen veranderen als er een nettokracht aanwezig is.  
 Een beweging met een constante snelheid noem je **eenparig**.  
@@ -10,7 +14,7 @@ Als de nettokracht constant is, verandert de snelheid gelijkmatig. Je spreekt da
 
 Een constante nettokracht kun je ook terugzien in een v,t-diagram: er is dan een rechte stijgende of dalende lijn. Als de nettokracht nul is, zie je een rechte lijn in het v,t-diagram.
 
-# Versnellen en vertragen
+## Versnellen en vertragen
 
 De **versnelling** is de snelheidsverandering per seconde. De versnelling is dus niet nul als de nettokracht niet nul is. De versnelling is altijd de helling (richtingscoëfficiënt) van een v,t-diagram. De versnelling kun je bij een eenparig versnelde beweging berekenen met a=vt . De gemiddelde versnelling bereken je met agem=vt, waarbij je gebruikt maakt van het begin- en eindpunt van de grafiek. Om de versnelling op 1 tijdstip te berekenen moet je een raaklijn tekenen in het v,t-diagram, en daar vervolgens de helling (met vt) van berekenen.
 
@@ -18,11 +22,11 @@ Er is een **evenredig verband** tussen de versnelling en de nettokracht bij een 
 De versnelling van een voorwerp hangt naast de nettokracht ook af van de massa. Om een vrachtwagen te laten versnellen heb je meer nettokracht nodig dan bij een fiets. De versnelling is dus **omgekeerd evenredig** met de massa (bij een gelijke nettokracht).  
 Deze twee verbanden kun je in een formule zetten: Fres=ma (tweede wet van Newton).
 
-De **traagheid** van een voorwerp geeft aan hoeveel “moeite” er gedaan moet worden om de snelheid te veranderen. Een zwaar voorwerp heeft dus een grote traagheid.
+De **traagheid** van een voorwerp geeft aan hoeveel "moeite" er gedaan moet worden om de snelheid te veranderen. Een zwaar voorwerp heeft dus een grote traagheid.
 
-# Afstand en beweging
+## Afstand en beweging
 
-Een x,t-diagram geeft de positie van het startpunt weer op elk tijdstip. In een x,t-diagram is de helling van de lijn op een bepaald punt (of de helling van de raaklijn op dat punt) gelijk aan de snelheid op dat punt.   
+Een x,t-diagram geeft de positie van het startpunt weer op elk tijdstip. In een x,t-diagram is de helling van de lijn op een bepaald punt (of de helling van de raaklijn op dat punt) gelijk aan de snelheid op dat punt.
 Bij een constante snelheid is het x,t-diagram een rechte lijn. Hoe steiler deze lijn, hoe hoger de snelheid.  
 Bij een versnelde of vertraagde beweging, is het x,t-diagram een kromme lijn.  
 In een x,t-diagram kun je zowel de gemiddelde snelheid als de snelheid op 1 punt bepalen. De gemiddelde snelheid bereken je met vgem=xt. De snelheid op een bepaald moment is gelijk aan de helling van de raaklijn op dat punt.
@@ -31,7 +35,7 @@ Bij een eenparige beweging mag je de formule s=vt gebruiken. Bij alle beweging m
 
 In een v,t-diagram is de oppervlakte onder de grafiek gelijk aan de afgelegde afstand. Soms moet je hiervoor het aantal hokjes tellen.
 
-# Vallen
+## Vallen
 
 Een licht voorwerp met een groot oppervlakte valt langzamer dan een zwaar voorwerp met een klein oppervlakte. Dit komt doordat de zwaartekracht en de luchtweerstandskracht bij het lichte voorwerp sneller aan elkaar gelijk zijn dan bij het zware voorwerp. Zodra deze twee krachten aan elkaar gelijk zijn, is de nettokracht nul, waardoor het voorwerp niet meer versnelt. Bij een zwaar voorwerp is de zwaartekracht groter (want Fz=mg), waardoor het langer duurt voordat de nettokracht nul is, waardoor het voorwerp dus langer kan versnellen.
 
@@ -44,12 +48,14 @@ Bij een val met luchtweerstand ontstaat na een tijd een constante snelheid. Dan 
 In het v,t-diagram van een vrije val is de helling gelijk aan de valversnelling.  
 De afgelegde (val)afstand (voor alle soorten vallen) kun je berekenen met de oppervlakte-methode (in het v,t-diagram).
 
-# Omhoog en omlaag
+## Omhoog en omlaag
 
 Als je een voorwerp verticaal omhoog gooit, is de beweging eerst eenparig vertraagd (omhoog) en vervolgens eenparig versneld (omlaag). De snelheid van de beweging omhoog is positief, de snelheid van de beweging omlaag is negatief.  
 De helling van het v,t-diagram van deze beweging is een rechte lijn met als helling \-9,81 m/s².  
-Het x,t-diagram is een parabool.   
+Het x,t-diagram is een parabool.
+
 ![][image1]![][image2]  
+
 De top van de parabool in het x,t-diagram is op hetzelfde tijdstip als het snijden van de x-as door het v,t-diagram: het hoogste punt van het voorwerp.
 
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAACsCAYAAADIUTFjAAAIB0lEQVR4Xu3dMWsUQRjG8cRKFLURK7FJYSF+A0UrK8XCwkJIaWUhViLYqKBiaeMHsBBEBYtoL4iKhQaxVLAQRIVAMCgqK7OyYW+yl5vdnd19dt7/D467zF3udmfeeXjvkuhcBgCi5vwBAFBBQAGQRUABkEVAAZBFQAGQRUABkEVAAZBFQAGQRUABkEVAAZBFQAGQRUABkGUioObm9E7zw4cP/tDgrl+/7g8N7u7du/4QDNHbuZFdvHhRMqAAzJb8znXh5C737t3z7xoUHVQYOijbkg8ohw4KGKfgnfv69evs8+fPjTf7qVOnsiNHjvjDm1pZWfGHcnWPoe7jAWgI3rkuoNxGv3///sT4jRs31m+Xg+D58+frt588eZJfFwFVvO3a7Pbi4mL+ms62bdvy66qAe/z4cX5ddV9BMaB4ixeGt3i2Be/cN2/e+EPZnj17sjt37uS3/aApX//+/Tu/LgdU+brqtguo8rh/f2FpaSm/HltAAZjNxM5VDCg6qDB0ULbp7dwOKAZU0VUqmfaZ35BWV1f9IRiit3M7oBhQAGYzsXMVA2qsb/HOnTu3/nlj+XLixIns6dOn/sOzV69eZWfOnNnweHe5evWq//ANeItnm97O7YBiQKkrB0lfhnhNaDNRCYoFr9RBFaGwsLDg3zW4s2fPElqGmVh1xeL+8+ePP9QrNyf79++fGFP8QHptbW3ia/e20B27+6VhpE9v53ZAMaD65n5Cl9o8fP36NT+nCxcu+HchEWlV7BSKG7Ovt3ju3EN/fSDkQ/K+hX5I/vbt2/xc//7969+FEdPbuR1QDKguufMt/wmSNbdv3za35qkysYqKxdpFB9X2PMfcQU3j5uTFixf+MEaiXUWPRNuN24VYH5K7c4t1fj9+/PCHBvfz509/qBE3Rzt37vSHIS5OZYuLtYGV8OFwM+4nlSnWQ6qSXamis4jZYcTU9C2eO5ejR4/6w1Gk+BZvmuIngNBmYoVSKMT5+fns/Pnz/jBaOnjwYBL1kSoTK6NYgKEdlPtlyr6O31IH5du9e3dnnSma66fyB9bXBq9jVkC9f/++9+O2HFAFN+ffv3/3hzGQfnfAQPre6G2N7XhTxBpoMLEKisVW1UG543T/nMlQ6KAm/fr1S7J2LDEx+2MosjEco1VubfgTmmGY2BWKm7/ooJSOjQ5qc0prZYWJGVcsrOXlZbnjIqBmc2t2/Phxfxgd0dohHVELArXjQX2sYT9MzLJSMRXHUvUh+dDooOpRqqtUmZhhhUJSOAbE5/7om7XtjomZHbqAql6fDiqMcgdVVrXGaM/ErA5ZPNNem4AKM5aActxaf/r0yR9GC9W7JzHTQqJL7jWvXbvmD8OAIeotVSZmsu+CCXk9OqgwY+qgykJqALOZmMU+i6XP14I2aqE9EzPYR6Fcvny51uvQQYUZawdVePDgQfbo0SN/GIHCd9SI1QmOJpr8W9cfP370hwZ38+ZNf2hwYw+oQtc1mCoTs9ZlcXT53EgLtVKfiRnrqjDaPC9v8cKk0kEV2tSMRcnOliuE8iW2Lp4TNlA74UzMVOyCiPF8dFBhUuugCq6Gvn375g/D036njUCMQHHevXsX7bkIqDCpBpRz69atbNeuXf4wSuLsNnExQmXHjh3ZlStX/GGgNfc/96Ba+507Am0D6vDhw/5Qa3RQYVLuoMra1miqTMxKm8Vv871AHdTaRiZmpOnCN/2+EHRQYax0UIUua26MTMxGk0Vv8j11EFBhrAWU03XtjYmJmai74HUfD8RGDf5nYhbqLHadx7ZBBxXGYgdV6KsWlZmYgdCFDn0c0BfrNWni7EMWOeQxMdFBhbHcQRX6rk0lJs581gLPur8LBFQYAuq/IWpUgYmz3mxxN7sPUGKxVk2c8bSFnTbeBzqoMHRQk4as2SGYONuqRd26das/BIxCVT2nysSZ+gu6d+/ebGlpaWKsb3RQYeigqh07dswfSpK5gNqyZUu2srJSuncYBFQYAqray5cvs+3bt/vDyTEXUA8fPizdA4zXpUuXspMnT/rDSTEVUP5bvSHRQYWhg9rcwsKCP5QUnR3bIRdMSuEExJRybad7ZiVFQHHhkvIlRWmeVUdiFkGs54r1PE7M5zp9+rQ/1EjMYzpw4IA/1EjMY4r5XClidgDIIqAAyCKggER8+fJl4uu1tbWJr8eIgAJGoOqzqvn5+fx6dXU1v15cXFy/79ChQ/n1vn371sfGaONZA5BTFVDuryKcIqDKjykC6tmzZ+tjY7TxrAFABAEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUAWAQVAFgEFQBYBBUDWP3/QEx3k+LshAAAAAElFTkSuQmCC>
