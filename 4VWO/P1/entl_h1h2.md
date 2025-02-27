@@ -14,8 +14,8 @@ layout: default
 
 ## Present perfect
 
-| Vorm | *To have* \+ voltooid deelwoord |
-| :---- | :---- |
+| Vorm    | *To have* \+ voltooid deelwoord                                                                                                                                                                                                                                                                       |
+| :------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Gebruik | Je gebruikt de present perfect als iets in het verleden gebeurd is en nu nog steeds bezig is. Vaak in combinatie met *how long*. Bij de woorden *for*, *yet*, *never*, *ever*, *just*, *always* of *since* (FYNE JAS). Bij een handeling uit het verleden waarbij de nadruk ligt op het resultaat nu. |
 
 ## Past continuous

@@ -6,3 +6,4 @@ vendor
 Gemfile.lock
 .idea/
 .venv/
+.obsidian/
