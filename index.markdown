@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Overzicht van samenvattingen
 
 ## 4VWO

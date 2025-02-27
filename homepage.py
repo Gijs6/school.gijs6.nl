@@ -12,8 +12,8 @@ def extract_indexname(file_path):
 def generate_markdown():
     directory = os.getcwd()
     output_file = "index.markdown"
-    markdown_content = ["# Overzicht van samenvattingen\n"]
-    
+    markdown_content = ["---", "layout: default", "---\n", "# Overzicht van samenvattingen\n"]
+
     for root, dirs, files in os.walk(directory):
         if "VWO" in root:
             relative_path = os.path.relpath(root, directory)
