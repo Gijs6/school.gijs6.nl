@@ -29,7 +29,7 @@ In de tabel zie je hoeveel oplossingen de verschillende hogeregraadsvergelijking
 | n is even | 2 oplossingen: $$x = \sqrt[n]{a}$$ en $$x = -\sqrt[n]{a}$$ | geen oplossing | 1 oplossing: $$x=0$$ |
 | n is oneven | 1 oplossing: $$x = \sqrt[n]{a}$$ | 1 oplossing: $$x = \sqrt[n]{a}$$ | 1 oplossing: $$x=0$$ |
 
-Sommige hogeregraadsvergelijkingen kun je algebraïsch oplossen door te ontbinden in factoren. Soms door een factor buiten haakjes te brengen of door te substitueren. 
+Sommige hogeregraadsvergelijkingen kun je algebraïsch oplossen door te ontbinden in factoren. Soms door een factor buiten haakjes te brengen of door te substitueren.
 
 De **modulusvergelijking** $$ \left|x\right| = 5 $$ heeft als oplossing $$ x = 5 \vee x = -5 $$
 
@@ -62,7 +62,7 @@ Bij het herleiden van breuken gebruik je de volgende regels:
 
 * $$\frac{A}{B}+C=\frac{A+BC}{B}$$
 * $$\frac{A}{B}+\frac{C}{D}=\frac{AD+BC}{BD}$$  
-* $$A \cdot \frac{B}{C}=\frac{AB}{C} $$ 
+* $$A \cdot \frac{B}{C}=\frac{AB}{C} $$
 * $$\frac{A}{B} \cdot \frac{C}{D}=\frac{AC}{BD}$$  
 * $$\frac{A}{(\frac{B}{C})}=\frac{AC}{B}$$ mits $$C \neq 0$$ (*delen door een breuk is vermenigvuldigen met het omgekeerde*)
 * $$\frac{(\frac{A}{B})}{C}=\frac{A}{BC}$$

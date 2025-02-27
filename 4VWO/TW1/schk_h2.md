@@ -1,10 +1,14 @@
-# Scheikunde
+---
+title: SCHK - H2 - Samenvatting
+indexname: SCHK - H2 (Koolstofchemie)
+layout: default
+---
 
-## **Hoofdstuk 2**
+# Scheikunde: Hoofdstuk 2 (Koolstofchemie)
 
-Bij het importeren van de afbeeldingen uit de pdf is er iets fout gegaan, sorry. Hopelijk is het alsnog bruikbaar\!
+Bij het importeren van de afbeeldingen uit de pdf is er iets fout gegaan, sorry. Hopelijk is het alsnog bruikbaar!
 
-# Alkanen
+## Alkanen
 
 **Koolwaterstoffen** zijn stoffen waar de moleculen bestaan uit koolstof en waterstof. De simpelste koolwaterstoffen zijn de **alkenen**. Deze stoffen voldoen aan de formule CnH2n+2. Deze koolwaterstoffen hebben **geen dubbele binding**. Alkanen zijn **verzadigde koolwaterstoffen**.![][image1]  
 Het simpelste alkaan is CH4 (g) (methaan). Daarna komen ethaan (C2H6), propaan (C3H8), enz. Vanaf pentaan worden het vloeistoffen. De voorvoegsels van deze stoffen zijn meth-, eth-, prop-, but-, pent-, hex-, hept-, oct-, non- en dec-. Omdat deze stoffen geen dubbele bindingen hebben, krijgen ze het achtervoegsel **\-aan**.  
@@ -20,26 +24,30 @@ Bij de koolwaterstof hiernaast (3e stof) kun je op meerdere manieren een langste
 Als je een zijgroep hebt met 2 koolstofatomen, gebruik je **ethyl**. Een zijgroep van 3 is **propyl**.  
 ![][image10]
 
-# Alkenen![][image11]
+## Alkenen
+
+![][image11]
 
 **Alkenen** zijn **onverzadigde koolwaterstoffen**: ze hebben ergens in de hoofdgroep een dubbele C=C binding. Alkenen gebruiken ook de voorzetsels meth-, ![][image12]eth-, prop-, but-, … plus het achtervoegsel **\-een**. Het simpelste alkeen is etheen (metheen bestaat niet). Deze zie je hiernaast. Je schrijft achter ![][image13]welk koolstofatoom de dubbele binding zit. Bij etheen en propeen hoeft dit niet, omdat er geen verwarring is waar de dubbele binding zit. Vanaf ![][image14]buteen moet dat wel. De tweede stof is **but-1-een**. De derde stof is **but-2-een**. Als je meerdere dubbele bindingen hebt, moet je een di-, tri-, … voor de \-een zetten. De vierde stof is dus oct-2,3,6-trieen (of ![][image15]oct-2,3,6-triëen). De onderste stof hiernaast is dus 4-ethyl-6,7-dimethyldec-2,5,8-trieen.  
 De alkenen volgen de regel: **C2H2n+2, en elke dubbele binding zorgt voor 2 minder waterstofatomen**.  
 Koolwaterstoffen met een drievoudige binding krijgen niet het achtervoegsel \-een maar \-yn. Bij deze stoffen moet je ook de locatie van de bindingen geven.
 
-# Alcoholen en aminen![][image16]
+## Alcoholen en aminen
+
+![][image16]
 
 De alcoholen zijn zijgroepen met een zuurstofatoom en een waterstofatoom (-OH).  
 De alcoholen krijgen het **achtervoegsel** \-ol. Je zet de positie voor dit achtervoegsel. Het simpelste alcohol is **methaan-1-ol** (**methanol** mag ook). Daarna komt **ethaan-1-ol** (**ethanol** mag ook). Als mensen het hebben over alcohol spreken ze over ethanol. Daarna komt **propaan-1-ol** ![][image17]en **propaan-2-ol**.  
 De stof hiernaast is dus **butaan-1,2,3-triol**. De stof daaronder is **but-1,4-dieen-4,5-diol**.  
 De **aminen** zijn zijgroepen met een stikstofatoom en 2 waterstofatomen (-NH2). Deze stoffen krijgen het achtervoegsel \-amine. De stof hiernaast ![][image18]is dus propaan-1-amine.
 
-# Cycloverbindingen![][image19]
+## Cycloverbindingen![][image19]
 
 Koolstoffen die in een ring zitten krijgen het voorvoegsel **\-cyclo**. De stof hiernaast (in de vijfhoek) heet dus **cyclopentaan**. De koolstoffen hieronder in een zeshoek heten dus **cyclohexaan**. Let op\! De koolstoffen in een zeshoek met dubbele bindingen noemen we **benzeen** (triviale naam).  
 Als je nog koolstoffen buiten de ringverbinding hebt, ![][image20]![][image21]gebruik je cyclo- in de stamnaam. De stof hiernaast (andere vijfhoek) heet dus 1-ethyl-2-methylcyclopentaan.  
 Omdat de dubbele bindingen in benzeen heen een weer kunnen springen, gebruik je soms een cirkel in het midden. Moleculen met een benzeenring noem je **aromaten**. Als je een benzeenring als zijgroep hebt, gebruik je het voorvoegsel fenyl-.
 
-# Chemische reacties met koolstofverbindingen
+## Chemische reacties met koolstofverbindingen
 
 Er zijn 3 koolstofchemische reacties die je moet kennen:
 
@@ -69,7 +77,7 @@ Voor **substitutie** heb je 3 dingen nodig:
 1 van de waterstofatomen verwisselt met 1 van de halogeenatomen. Na de pijl ontstaat dus een halogeenalkaan en een waterstofhalogeen.  
 Voor elk waterstofatoom die je wilt verwisselen, heb je 1 halogeen**molecuul** nodig.![][image24]
 
-# Milieueffecten
+## Milieueffecten
 
 Plantenresten in de bodem worden bij hoge temperatuur en onder hoge druk zijn omgezet in **fossiele brandstoffen**. Plantaardige brandstoffen (gemaakt uit **biomassa**) zijn **biobrandstoffen**. Deze brandstoffen hebben een netto-uitstoot van 0\.  
 Fossiele brandstoffen zijn miljoenen jaren geleden gevormd. Tijdens hun levensduur namen ze koolstofdioxide op door fotosynthese (koolstofdioxide en water wordt glucose en zuurstof). Omdat we de brandstoffen nu verbranden verstoren we het evenwicht in de atmosfeer. Dit is de **trage koolstofkringloop**.  

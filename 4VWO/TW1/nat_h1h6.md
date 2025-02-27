@@ -1,8 +1,12 @@
-# Natuurkunde
+---
+title: NAT - H1 & H6 - Samenvatting
+indexname: NAT - H1 (Elektriciteit) & H6 (Onderzoeksvaardigheden)
+layout: default
+---
 
-## **Hoofdstuk 1 en hoofdstuk 6**
+# Natuurkunde: Hoofdstuk 1 (Elektriciteit) & Hoofdstuk 6 (Onderzoeksvaardigheden)
 
-# Lading, energie en vermogen
+## Lading, energie en vermogen
 
 Elektriciteit is **bewegende lading**. Verschillende ladingen trekken elkaar aan, dezelfde ladingen stoten elkaar af. De kleinste lading is de **elementaire lading** *e* (1,6 × 10\-19 C) Stroom kan alleen bewegen als de stroomkring gesloten is.  
 **Geleiders** zijn materialen die stroom doorlaten. **Isolatoren** laten geen stroom door. Deze worden aan de ene kant aangetrokken door de **spanningsbron** en aan de andere kant afgestoten.  
@@ -11,7 +15,7 @@ De grootte van de elektrische stroom meet je met een stroommeter. Deze schakel j
 De **hoeveelheid elektrische energie** **die per seconde** wordt verbruikt, is het **vermogen**. Het energieverbruik van een apparaat hangt af van het vermogen en van de tijd dat het apparaat aan staat. Energie kun je meten in J of in kWh (1 kWh \= 3,6 MJ).  
 Een apparaat zet elektrische stroom om in andere energiesoorten. Het **rendement** van een apparaat is het percentage (of de factor, dan doe je **geen** × 100%) van de ingaande energie dat wordt omgezet in nuttige energie.![][image1]![][image2]
 
-# Spanning en stroomsterkte
+## Spanning en stroomsterkte
 
 In een metalen geleider zorgen de **vrije elektronen** voor de energie. De atoomkernen bewegen niet. In sommige vloeistoffen zitten **ionen** die de stroom kunnen geleiden.  
 De **spanning** geeft aan hoeveel elektrische energie elke coulomb aan lading heeft (1 V \= 1 J/C). Als je de spanning 2 keer zo groot maakt, wordt de hoeveelheid energie ook 2 keer zo groot: het vermogen is dus **evenredig** met de spanning.  
@@ -19,7 +23,7 @@ De **stroomsterkte** geeft aan hoeveel lading er per seconde langs een punt gaat
 Omdat het niet altijd elektronen bewegen in een stroomkring, geldt dat **de elektrische stroom van plus naar min beweegt**. De elektronen bewegen echter van minpool naar pluspool.  
 Om schakelingen overzichtelijk te tekenen maak je gebruik van een **schakelschema**.![][image3]
 
-# Weerstand
+## Weerstand
 
 De **weerstand** bepaalt hoeveel stroom er loopt bij een bepaalde spanning. De **soortelijke** **weerstand** laat zien hoe goed of slecht een materiaal geleidt. Hoe langer en dunner de draad, hoe hoger de weerstand. De weerstand hangt vaak af van de temperatuur.  
 Apparaten of draden waarbij de weerstand constant is, noem je **ohmse weerstanden**. Veel draden en apparaten hebben geen constante weerstand, omdat bij hogere spanningen de draden warm worden en dus een andere weerstand krijgen.![][image4]
@@ -34,7 +38,7 @@ Een **LDR** is een lichtgevoelige weerstand van halfgeleidermateriaal. De weerst
 | **NTC** | **Hogere** temperatuur → **lagere** weerstand |
 | **PTC** | **Hogere** temperatuur → **hogere** weerstand |
 
-# Schakelingen in huis
+## Schakelingen in huis
 
 In een huis zijn alle apparaten parallel aan elkaar geschakeld, zodat elk apparaat 230 V ontvangt. In een parallelschakeling wordt de stroomsterkte verdeeld tussen alle vertakkingen (**stroomdeling**). Elk apparaat heeft dus zijn eigen stroomkring.  
 In een serieschakeling wordt de spanning juist over elk apparaat verdeeld (**spanningsdeling**). De stroomsterkte is dan overal hetzelfde.  
@@ -44,13 +48,13 @@ In **combinatieschakelingen** gelden 2 wetten: de **wet van behoud van lading** 
 Als er te veel apparaten op een **groep** worden aangesloten, kan de stroomsterkte boven 16 A uitkomen: **overbelasting**. Bij **kortsluiting** raken 2 elektriciteitsdraden, waardoor de stroom een “shortcut” neemt. De weerstand wordt dan heel klein (want de stroom gaat niet meer door het apparaat) en de stroomsterkte wordt dan enorm groot. De **zekeringen** in een meterkast beveiligen elke groep door de stroom uit te zetten als de stroomsterkte te groot wordt.  
 Een **aardlekschakelaar** vergelijkt constant de ingaande stroomsterkte met de uitgaande. Als er een verschil groter dan 30 mA tussen deze waardes ontstaat (als er dus stroom weglekt), zet deze schakelaar de stroom voor **het hele huis** uit. Deze schakelaar beveiligt je dus tegen stroom door je lichaam.
 
-# Significantie
+## Significantie
 
 Elk getal bestaat uit een aantal **significante cijfers**. Het aantal significante cijfers geeft aan hoe nauwkeurig iets gemeten is. Zo is 12,900 km nauwkeuriger dan 12,9 km. Bij het tellen van het aantal significante cijfers, tellen alle getallen mee, behalve nullen aan de voorkant. Het getal 0302,54030 heeft dus 8 significante cijfers. Het getal 8,74 × 10²³ heeft 3 significante cijfers (het getal tien en de macht tellen dus niet mee).  
 Als je bij een berekening deelt of vermenigvuldigt **moet** je afronden op het kleinste aantal significante cijfers van de gegevens. Voorbeeld: 3,44 \* 19,00 \= 65,4.  
 Bij optellen en aftrekken let je niet op het aantal significante cijfers, maar op het aantal decimalen.
 
-# Verbanden
+## Verbanden
 
 Een **verband** beschrijft de relatie tussen 2 grootheden. In een formule (zoals F \= C \* u) heb je een **afhankelijke grootheid** (gevolg), **onafhankelijke grootheid** (oorzaak) en een constante. De waarde van de constante blijft bij 1 onderzoek gelijk. Bij een onderzoek pas je de onafhankelijke grootheid steeds aan, en kijk je wat dat doet met de waarde van de afhankelijke grootheid.  
 De meetgegevens van een onderzoek presenteer je in een tabel. De de onafhankelijke grootheid staat dan in de eerste kolom, de afhankelijke grootheid in de tweede kolom en de constante en overige brekingen doe je in de overige kolommen. Bij de kolommen met meetgegevens moet je de eenheden noteren. Bij het uitrekenen van de constante moet je rekening houden met de **significantie van de meetgegevens**.
@@ -78,7 +82,7 @@ Bij het tekenen van **grafieken** moet je met een aantal punten rekening houden:
 * Bij het tekenen van een lijn neem je een soepele beweging door zo veel mogelijk punten  
 * Zet cirkels om de punten, omdat de punten niet oneindig accuraat zijn
 
-## **Voorbeeld verbanden**
+### **Voorbeeld verbanden**
 
 Iemand doet een onderzoek naar het verband tussen de tijd en de gereden afstand van een voertuig.  
 In de tabel staan de meetresultaten. Om het verband te bepalen gaan we allereerst het diagram tekenen. Uit de vorm van de grafiek kun je dan al bekijken welk verband het meest waarschijnlijk is.

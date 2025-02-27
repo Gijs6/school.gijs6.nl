@@ -1,14 +1,18 @@
-# Engelse taal en literatuur
+---
+title: ENTL - H4 - Samenvatting
+indexname: ENTL - H4
+layout: default
+---
 
-## **Hoofdstuk 4**
+# Engelse taal en literatuur: Hoofdstuk 4
 
-# Werkwoordstijden
+## Werkwoordstijden
 
 | Present Simple | Hele werkwoord, bij he/she/it \+ *\-s* |
 | :---- | :---- |
 |  | Iets gebeurt altijd, nooit of regelmatig Iets is een feit Werkwoorden met een zintuigelijke waarneming (*to see*, *to hear*, …) Werkwoorden met een gedachte/geestelijke staat (*to know*, *to doubt*, …) Werkwoorden met een voorkeur (*to like*, *to prefer*, …) Vaste tijden (volgens een schema) Bij *before*, *after*, *as soon as*, *if*, *until* of *when* (bij een toekomstverwijzing) |
 | **Present continuous** | *To be* \+ ww \+ *\-ing* |
-|  | Iets is nu bezig of aan de gang Iets toekomstig is al voorbereid (*I’m flying to London this monday*) Bij irritatie (vaak met *always* of *constantly*) |
+|  | Iets is nu bezig of aan de gang Iets toekomstig is al voorbereid (*I'm flying to London this monday*) Bij irritatie (vaak met *always* of *constantly*) |
 | **Past simple** | Hele werkwoord \+ *\-ed* Sommige werkwoorden hebben een onregelmatige vorm |
 |  | Bevestigende zinnen over het verleden Bij *used to* of *would* (Let op\! *Would* mag niet bij een situatie/toestand) |
 | **Past continuous** | *Was/were* \+ ww \+ *\-ing* |
@@ -30,7 +34,7 @@
 | **Future: present simple** | Hele werkwoord, bij he/she/it \+ *\-s* |
 |  | Vaste tijden  |
 
-# *Can*, *could*, *may*, *might*, *to be able to* en *to be allowed to*
+## *Can*, *could*, *may*, *might*, *to be able to* en *to be allowed to*
 
 * Iets is mogelijk  
   *Can*: het is waarschijnlijk  
@@ -52,7 +56,7 @@
   *May*: beleefder dan *could*  
   *Might*: beleefder dan *may*
 
-# *Have to*, *must* en *should*
+## *Have to*, *must* en *should*
 
 Je gebruikt *have to*, *must* en *should* om te zeggen dat iets (zou) moeten.
 
@@ -65,18 +69,18 @@ Je gebruikt *have to*, *must* en *should* om te zeggen dat iets (zou) moeten.
 * Je geeft advies (iets zou eigenlijk moeten)  
   Je gebruikt *should*
 
-# The genitive (bezit)
+## The genitive (bezit)
 
 | Bezit van mensen of dieren |  |  | Bezit van dingen |  |  |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| Enkelvoud | ‘s | *The cat’s food* | Enkelvoud | … of … | *The screen of the laptop* |
-| Meervoud op \-s | ‘ | *My sisters’ books* | Meervoud |  | *The brakes of the bike* |
-| Meervoud zonder \-s | ‘s | *The children's laptops* | Locaties |  | *The city of Rotterdam* |
-| Namen op \-s | ‘ / ‘s | *Dennis’(s) phone* |  |  |  |
-| Namen uit de klassieke oudheid | ‘ | *Socrates’ ideas* |  |  |  |
-| Organisaties | ‘s | *Samsung’s store* |  |  |  |
+| Enkelvoud | 's | *The cat's food* | Enkelvoud | … of … | *The screen of the laptop* |
+| Meervoud op \-s | ' | *My sisters' books* | Meervoud |  | *The brakes of the bike* |
+| Meervoud zonder \-s | 's | *The children's laptops* | Locaties |  | *The city of Rotterdam* |
+| Namen op \-s | ' / 's | *Dennis'(s) phone* |  |  |  |
+| Namen uit de klassieke oudheid | ' | *Socrates' ideas* |  |  |  |
+| Organisaties | 's | *Samsung's store* |  |  |  |
 
-# Woordvolgorde
+## Woordvolgorde
 
 * Plaats  
   Bijwoorden over **plaats** komen aan het **eind van een zin**.  
@@ -86,7 +90,7 @@ Je gebruikt *have to*, *must* en *should* om te zeggen dat iets (zou) moeten.
 * Regelmaat  
   Bijwoorden die aangeven **hoe vaak** iets voorkomt/onbepaalde tijd (*always*, *never*, *often*, …) komen **voor** het hoofdwerkwoord (bij 1 werkwoord), **na** het eerste hulpwerkwoord (als er meerdere werkwoorden in een zin staan), **na** een vorm van *to be* (als deze in de zin staat), **na** het onderwerp (in vragende zinnen) of **voor** het onderwerp (in korte bevestigende zinnen).
 
-# Prepositions
+## Prepositions
 
 | aan | at | *at work, at my desk, at breakfast, at the end* |
 | :---: | :---- | :---- |
@@ -96,12 +100,12 @@ Je gebruikt *have to*, *must* en *should* om te zeggen dat iets (zou) moeten.
 |  | behind (plaats) | *to sit behind someone* |
 | **behalve** | except (uitgezonderd)  | *everyone except Jennifer* |
 |  | besides / apart from (naast \= ook) | *Besides / Apart from my family there were my friends.* |
-| **bij** | at | *at the bank, at the door, at Tim’s*  |
+| **bij** | at | *at the bank, at the door, at Tim's*  |
 |  | by (aan de rand van)  | *by the fire, by the river* |
 |  | near  | *near the window* |
 |  | on | *on my arrival, on our departure* |
 |  | over | *over a beer, over a cup of coffee*  |
-|  | with  | *I’ve got the book with me; stay with a friend* |
+|  | with  | *I've got the book with me; stay with a friend* |
 | **boven** | above (hoger dan)  | *5 degrees above zero, the moon above us*  |
 |  | beyond (figuurlijk)  | *beyond all doubt; This is beyond my control.* |
 |  | over (recht boven)  | *a lamp over the table* |
@@ -132,13 +136,13 @@ Je gebruikt *have to*, *must* en *should* om te zeggen dat iets (zou) moeten.
 |  | on (bij dagen, boven op iets) | *on Fridays, on the house* |
 | **over** | about | *a book about President Bush, to be happy about something* |
 |  | across | *walk across the street, swim across the river* |
-|  | in (na een periode)  | *in two days from now, in 100 years’ time* |
+|  | in (na een periode)  | *in two days from now, in 100 years' time* |
 |  | over (bij iets bedekken)  | *to crawl over the ground, to pull a hat over your ears, to put a coat over your dress* |
 | **sinds** | for (+ periode)  | *for ten minutes, for two years*  |
 |  | since (+ tijdstip)  | *since 2001, since Wednesday* |
 | **tegen** | against | *against the wind, against his will, a remedy against fever* |
 |  | by (kort voor)  | *by July, by the end of the book* |
-|  | to | *talk to me; Ten to one that he’ll make it.* |
+|  | to | *talk to me; Ten to one that he'll make it.* |
 |  | towards (kort voor)  | *towards Christmas, towards the end of the year*  |
 | **tot** | till / until (tijd)  | *till / until 2 May* |
 |  | to (getallen)  | *12 to 15-year-olds, from 2001 to 2006* |
@@ -148,28 +152,28 @@ Je gebruikt *have to*, *must* en *should* om te zeggen dat iets (zou) moeten.
 |  | at | *at lunchtime (tussen de middag)* |
 |  | between (tussen twee)  | *between you and me* |
 |  | in | *in brackets (tussen haakjes), in inverted commas (tussen aanhalingstekens)* |
-| **uit** | from (afkomstig)  | *He’s from Mexico.* |
+| **uit** | from (afkomstig)  | *He's from Mexico.* |
 |  | from | *choose from three possibilities, from experience* |
 |  | in | *in friendship, one in thousand* |
 |  | off (geeft scheiding aan)  | *get off the bus, take off your coat* |
 |  | out of | *out of fashion, out of the window, out of revenge* |
 | **van** | by | *know somebody by face, by nature, by profession* |
 |  | by (gemaakt door) | *a book by Stephen King, a CD by U2*  |
-|  | from (afkomstig)  | *he’s from Mexico* |
+|  | from (afkomstig)  | *he's from Mexico* |
 |  | of (behoren tot)  | *the price of the car, the window of my room* |
 |  | of | *difference of opinion, in case of an emergency*  |
 |  | off (geeft scheiding aan) | *to fall off a bike, to roll off the table* |
 |  | with (geeft oorzaak aan) | *shiver with cold, sick with worry* |
 | **voor** | before (tijd) | *before I leave, before the end of the month*  |
-|  | for (bestemming) | *it’s for you, to do something for someone* |
+|  | for (bestemming) | *it's for you, to do something for someone* |
 |  | in front of (+ plaats)  | *in front of my house, in front of the classroom (voorin)* |
 |  | of | *afraid of, typical of* |
 |  | to | *be good to somebody, ten to nine* |
 
-# *Some*, *any*, *both*, *either*, *neither*, *each*, *every*, *no*, en *none*
+## *Some*, *any*, *both*, *either*, *neither*, *each*, *every*, *no*, en *none*
 
 **Some(-*thing*, \-*body*, \-*where*, \-*one*)** gebruik je in bevestigende zinnen, als je iets aanbiedt of als je verwacht dat het antwoord ja is.  
-*Some* kun je ook gebruiken als “een of andere” of samen met een getal als ongeveer.  
+*Some* kun je ook gebruiken als "een of andere" of samen met een getal als ongeveer.  
 **Any(-*thing*, \-*body*, \-*where*, \-*one*)** gebruik je in ontkennende zinnen, in bevestigende zinnen met ontkennende woorden en in andere vragen.  
 *Any* kun je ook gebruiken als elke of als bijna niets samen met *hardly*.  
 **Both** gebruik je om te aan te geven dat het voor twee dingen geldt.  

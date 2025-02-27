@@ -1,10 +1,14 @@
-# Biologie
+---
+title: BIOL - H3 - Samenvatting
+indexname: BIOL - H3 (Wetenschappelijk onderzoek)
+layout: default
+---
 
-## **Hoofdstuk 3**
+# Biologie: Hoofdstuk 3 (Wetenschappelijk onderzoek)
 
-# Experimenteel onderzoek
+## Experimenteel onderzoek
 
-Bij **experimenteel** **onderzoek** probeer je een antwoord op een **onderzoeksvraag** te krijgen door het doen van experimenten. Deze onderzoeksvraag moet **eenduidig** zijn: er moet maar 1 interpretatie van mogelijk zijn. De **onafhankelijke variabele** is de variabele die je zelf aanpast. Vervolgens ga je kijken hoe de **afhankelijke variabele** hierop reageert. De onafhankelijke variabele is dus de enige omstandigheid die mag veranderen. Met een **controle-experiment** (experiment om aan te tonen dat geen andere factoren een rol spelen) toon je aan of het onderzoek **valide** (bij herhaling dezelfde resultaten) is.  
+Bij **experimenteel** **onderzoek** probeer je een antwoord op een **onderzoeksvraag** te krijgen door het doen van experimenten. Deze onderzoeksvraag moet **eenduidig** zijn: er moet maar 1 interpretatie van mogelijk zijn. De **onafhankelijke variabele** is de variabele die je zelf aanpast. Vervolgens ga je kijken hoe de **afhankelijke variabele** hierop reageert. De onafhankelijke variabele is dus de enige omstandigheid die mag veranderen. Met een **controle-experiment** (experiment om aan te tonen dat geen andere factoren een rol spelen) toon je aan of het onderzoek **valide** (bij herhaling geeft het onderzoek dezelfde resultaten) is.  
 Een goed experiment is **herhaalbaar en controleerbaar**. In het **onderzoeksverslag** staan de volgende onderdelen:
 
 * **onderzoeksvraag**  
@@ -15,13 +19,13 @@ Een goed experiment is **herhaalbaar en controleerbaar**. In het **onderzoeksver
 * **conclusie**: de invloed van de onafhankelijke variabele op de afhankelijke bepalen op grond van de onderzoeksresultaten  
 * **discussie**: kritische analyse, hypothese verwerpen of aannemen, controleren of het onderzoek valide is en ideeën voor vervolgonderzoek
 
-# Beschrijvend onderzoek
+## Beschrijvend onderzoek
 
 Bij een **beschrijvend onderzoek** registreer je waarnemingen. Bij experimenteel onderzoek ga je zelf iets veranderen en kijken hoe iets anders er op reageert, terwijl je bij beschrijvend onderzoek enkel iets waarneemt.  
 Bij een **kwantitatief beschrijvend onderzoek** tel of meet je een hoeveelheid. Bij een **kwalitatief beschrijvend onderzoek** gaat het om het vastleggen van een waarde zonder tellen, wegen of meten (vaak gaat het om de aanwezigheid van iets). Om aan te tonen dat bepaalde moleculen aanwezig zijn, gebruik je een **indicator**.  
 Onderzoeksresultaten kun je vastleggen in tabellen, foto’s, video’s en tekeningen.
 
-# Diagrammen
+## Diagrammen
 
 Je gebruikt een **lijndiagram** als de onafhankelijke variabele (x-as) en de afhankelijke variabele (y-as) een **continue reeks getallen zijn**. Als je de meetresultaten met een berekening kunt benaderen (lineair, kwadratisch, enz.) dan teken je een vloeiende grafiek door alle punten. Als dit niet zo is, verbind je alle punten.  
 Je gebruikt een **staafdiagram** als de getallen geen continue reeks zijn. De staven staan dan los van elkaar en de x-as heeft geen schaalverdeling.  
@@ -31,9 +35,9 @@ Een **stapeldiagram** stapelt gegevens op elkaar. Een **sectordiagram** is een t
 Als je werkt met gemiddeldes geef je ook de **spreiding** aan (variatie in de metingen). Je gebruikt de **standaarddeviatie** als maat voor de spreiding bij grote aantallen meetgegevens.  
 **Spreidingsstreepjes** geven variatie, de standaarddeviatie of een meetonnauwkeurigheid aan.
 
-# Wetenschappelijk onderzoek
+## Wetenschappelijk onderzoek
 
 **Bronnenonderzoek** (eerdere onderzoeken lezen) en een waarneming zijn vaak de start van een **natuurwetenschappelijk onderzoek**.  
-Elk goed onderzoek is **valide**: alleen de factor die je onderzoekt heeft invloed op het resultaat. Daarom moet je altijd een blanco-experiment doen. De betrouwbaarheid van een experiment hangt vaak af van de herhaalbaarheid.   
+Elk goed onderzoek is **valide**: alleen de factor die je onderzoekt heeft invloed op het resultaat. Daarom moet je altijd een blanco-experiment doen. De betrouwbaarheid van een experiment hangt vaak af van de herhaalbaarheid.
 Vóór de publicatie van een onderzoek in een wetenschappelijk tijdschrift vindt er collegiale toetsing plaats.  
 De **ethische grens** is het maximum wat de maatschappij acceptabel vindt (qua waarden en normen). Sommige wetenschappers gaan deze grens over, zoals bij genetische modificatie.
