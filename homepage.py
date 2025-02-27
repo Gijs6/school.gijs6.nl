@@ -12,14 +12,14 @@ def extract_indexname(file_path):
 def generate_markdown():
     directory = os.getcwd()
     output_file = "index.markdown"
-    markdown_content = []
+    markdown_content = ["# Overzicht van samenvattingen\n"]
     
     for root, dirs, files in os.walk(directory):
         if "VWO" in root:
             relative_path = os.path.relpath(root, directory)
             depth = relative_path.count(os.sep)
             if relative_path != ".":
-                header_level = "#" * (depth + 1)
+                header_level = "#" + "#" * (depth + 1)
                 markdown_content.append(f"{header_level} {os.path.basename(root)}\n")
             
             for file in files:
@@ -28,9 +28,9 @@ def generate_markdown():
                     indexname = extract_indexname(file_path)
                     relative_file_path = os.path.relpath(file_path, directory).replace(".md", "")
                     if indexname:
-                        markdown_content.append(f"- ({indexname})[{relative_file_path}]\n")
+                        markdown_content.append(f"- [{indexname}]({relative_file_path})\n")
                     else:
-                        markdown_content.append(f"- ({file})[{relative_file_path}]\n")
+                        markdown_content.append(f"- [{file}]({relative_file_path})\n")
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("\n".join(markdown_content))

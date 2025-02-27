@@ -1,7 +1,9 @@
-# 4VWO
+# Overzicht van samenvattingen
 
-## P3
+## 4VWO
 
-- (BIOL - H5 (Erfelijkheid))[4VWO\P3\biol_h5]
+### P3
 
-- (WISB - H4 (Vergelijkingen en herleidingen))[4VWO\P3\wisb_h4]
+- [BIOL - H5 (Erfelijkheid)](4VWO\P3\biol_h5)
+
+- [WISB - H4 (Vergelijkingen en herleidingen)](4VWO\P3\wisb_h4)
