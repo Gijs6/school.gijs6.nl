@@ -8,6 +8,15 @@ body {
     font-family: Barlow, sans-serif;
 }
 
+h2 {
+    margin-block-end: 0;
+}
+
+p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
 header a {
     display: flex;
     flex-direction: row;
@@ -37,4 +46,8 @@ footer p {
 
 mjx-container[jax="CHTML"][display="true"] {
     text-align: left !important;
+}
+
+footer {
+    margin-top: 3em;
 }
