@@ -8,17 +8,17 @@ layout: default
 
 ### P1
 
-- [biol_h1.md](4VWO\P1\biol_h1)
+- [BIOL - H1 (Gedrag)](4VWO\P1\biol_h1)
 
-- [entl_h1h2.md](4VWO\P1\entl_h1h2)
+- [ENTL - H1 & H2](4VWO\P1\entl_h1h2)
 
-- [schk_h1.md](4VWO\P1\schk_h1)
+- [SCHK - H1 (Atoombouw)](4VWO\P1\schk_h1)
 
 ### P2
 
-- [biol_h3.md](4VWO\P2\biol_h3)
+- [BIOL - H3 (Wetenschappelijk onderzoek)](4VWO\P2\biol_h3)
 
-- [entl_h4.md](4VWO\P2\entl_h4)
+- [ENTL - H4](4VWO\P2\entl_h4)
 
 ### P3
 
@@ -28,21 +28,21 @@ layout: default
 
 ### TW1
 
-- [biol_h2.md](4VWO\TW1\biol_h2)
+- [BIOL - H2 (Cel en leven)](4VWO\TW1\biol_h2)
 
-- [fatl_h1.md](4VWO\TW1\fatl_h1)
+- [FATL - H1](4VWO\TW1\fatl_h1)
 
-- [maat_h1h2.md](4VWO\TW1\maat_h1h2)
+- [MAAT - H1 & H2 (Rechtsstaat)](4VWO\TW1\maat_h1h2)
 
-- [nat_h1h6.md](4VWO\TW1\nat_h1h6)
+- [NAT - H1 (Elektriciteit) & H6 (Onderzoeksvaardigheden)](4VWO\TW1\nat_h1h6)
 
-- [netl_verhaalanalyse.md](4VWO\TW1\netl_verhaalanalyse)
+- [NETL - Literatuur (verhaalanalyse)](4VWO\TW1\netl_verhaalanalyse)
 
-- [netl_verhaalanalyse2.md](4VWO\TW1\netl_verhaalanalyse2)
+- [NETL - Literatuur (verhaalanalyse) V2](4VWO\TW1\netl_verhaalanalyse2)
 
-- [nlt_fo.md](4VWO\TW1\nlt_fo)
+- [NLT - Forensisch onderzoek](4VWO\TW1\nlt_fo)
 
-- [schk_h2.md](4VWO\TW1\schk_h2)
+- [SCHK - H2 (Koolstofchemie)](4VWO\TW1\schk_h2)
 
 ### TW2
 
