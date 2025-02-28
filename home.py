@@ -48,7 +48,7 @@ def generate_markdown():
             for file in files:
                 file_path = os.path.join(sub_path, file)
                 indexname = extract_indexname(file_path)
-                relative_file_path = os.path.relpath(file_path, directory).replace(".md", "")
+                relative_file_path = os.path.relpath(file_path, directory).replace("\\", "/")
                 if indexname:
                     markdown_content.append(f"- [{indexname}]({relative_file_path})\n")
                 else:
