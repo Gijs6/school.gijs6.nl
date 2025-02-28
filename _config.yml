@@ -12,3 +12,4 @@ plugins:
 
 domain: docs.gijs6.nl
 url: https://docs.gijs6.nl
+permalink: pretty

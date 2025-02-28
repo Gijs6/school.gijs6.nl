@@ -44,7 +44,7 @@ def generate_markdown():
             markdown_content.append(f"### {sub_dir}\n")
             sub_path = os.path.join(main_path, sub_dir)
 
-            files = sorted([f for f in os.listdir(sub_path) if f.endswith('.md')])  # Sort alphabetically
+            files = sorted([f for f in os.listdir(sub_path) if f.endswith('.md')])  # Sort alphabetically and only md files
             for file in files:
                 file_path = os.path.join(sub_path, file)
                 indexname = extract_indexname(file_path)
