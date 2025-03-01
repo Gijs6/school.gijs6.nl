@@ -7,3 +7,6 @@ Gemfile.lock
 .idea/
 .venv/
 .obsidian/
+
+dekstop.ini
+**/desktop.ini
