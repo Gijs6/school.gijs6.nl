@@ -56,7 +56,7 @@ Bij het ontbinden kun je gebruik maken van de merkwaardige producten:
 * $$A^2-2AB+B^2=(A-B)^2$$  
 * $$A^2-B^2=(A+B)(A-B)$$
 
-Bij breuken moet je wel letten dat je niet deelt door 0. Bij de vergelijking $$\frac{x^2-2}{x+130}$$ moet dus gelden dat $$x+130 \neq 0$$, dus $$x \neq -13$$.
+Bij breuken moet je wel letten dat je niet deelt door 0. Bij de vergelijking $$\frac{x^2-2}{x+130}$$ moet dus gelden dat $$x+130 \neq 0$$, dus $$x \neq -130$$.
 
 Bij het herleiden van breuken gebruik je de volgende regels:
 
