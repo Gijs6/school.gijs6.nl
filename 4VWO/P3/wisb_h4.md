@@ -31,7 +31,7 @@ In de tabel zie je hoeveel oplossingen de vergelijking $$x^n = a$$ kan hebben.
 
 Sommige hogeregraadsvergelijkingen kun je algebraïsch oplossen door te ontbinden in factoren. Soms door een factor buiten haakjes te brengen of door te substitueren. Binnen de vergelijking $$x^4-3x^2+2=0$$ kun je $$x^2$$ substitueren met $$u$$. Je krijgt dan $$u^2-3u+2=0$$. Deze kun je vervolgens oplossen met de product-som-methode. (Let op! Je hebt dan $$u$$ opgelost; nog niet $$x$$!)
 
-De **modulusvergelijking** $$ \left|x\right| = 5 $$ heeft als oplossing $$ x = 5 \vee x = -5 $$
+De **modulusvergelijking** $$\vert x \vert = 5 $$ heeft als oplossing $$ x = 5 \vee x = -5 $$
 
 ## Regels binnen (gebroken) vergelijkingen
 
