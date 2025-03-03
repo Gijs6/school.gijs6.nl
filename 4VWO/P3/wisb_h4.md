@@ -68,5 +68,14 @@ Bij het herleiden van breuken gebruik je de volgende regels:
 * $$\frac{A}{(\frac{B}{C})}=\frac{AC}{B}$$ mits $$C \neq 0$$ (*delen door een breuk is vermenigvuldigen met het omgekeerde*)
 * $$\frac{(\frac{A}{B})}{C}=\frac{A}{BC}$$
 
+Bij de vergelijking $$\frac{x^2-3x+5}{x}$$ mag je $$x$$ niet wegstrepen, want dag mag alleen bij de **factoren** van een teller of noemer. Wel kun je $$x$$ bij deze vergelijking **uitdelen**:
+
+$$\frac{x^2-3x+5}{x}$$
+
+$$\frac{x^2}{x}-\frac{3x}{x}+\frac{5}{x}$$
+
+$$x-3+\frac{5}{x}$$
+
+***
 
 > Inverse functies hoef je niet te leren.
