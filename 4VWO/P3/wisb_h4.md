@@ -69,18 +69,4 @@ Bij het herleiden van breuken gebruik je de volgende regels:
 * $$\frac{(\frac{A}{B})}{C}=\frac{A}{BC}$$
 
 
-Functies die we tot nu toe behandeld hebben bij het vak wiskunde gaan van $$x$$ naar $$y$$: je vult een waarde in voor $$x$$ en je krijgt er 1 waarde voor $$y$$ uit. Je kunt ook functies hebben die **van $$y$$ naar $$x$$ gaan**. Deze functies kun je bijvoorbeeld krijgen als inverse functie van een "normale" (dus van $$x$$ naar $$y$$) functie. Om een inverse functie te maken, vervang $$x$$ en $$y$$ in de formule en maak je de variabele die je wil vrij. Voor de functie $$f(x) = 3x + 2$$ krijg je dus als inverse:
-
-$$y=3x+2$$
-
-$$x=3y+2$$
-
-$$x-2=3y$$
-
-$$y=\frac{x-2}{3}$$
-
-$$f^{inv}(x)=\frac{x-2}{3}$$
-
-
-
-De grafieken van inverse functies zijn elkaars spiegelbeelden in de lijn $$x = y$$.
+> Inverse functies hoef je niet te leren.
