@@ -6,6 +6,8 @@ body {
     background: black;
     color: white;
     font-family: Barlow, sans-serif;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
 h2 {
