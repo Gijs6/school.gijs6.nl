@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    padding: 2em max(2em, 15%);
+    padding: 2em max(100px, 20%);
     background: black;
     color: white;
     font-family: Barlow, sans-serif;
