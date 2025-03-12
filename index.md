@@ -6,6 +6,10 @@ layout: default
 
 ## 4VWO
 
+### TW3
+
+- [BIOL - H6 (Soorten en populaties)](4VWO/TW3/biol_h6.md)
+
 ### P3
 
 - [BIOL - H5 (Erfelijkheid)](4VWO/P3/biol_h5.md)

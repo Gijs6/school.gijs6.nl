@@ -15,7 +15,7 @@ Alle soorten worden ingedeeld op basis van verwantschap met andere soorten (**ta
 
 Er zijn 3 domeinen: **archaea**, **bacteriën** en **eukaryoten**. De archaea zijn net als bacteriën eencelligen zonder kernmembraan. Hun cirkelvormig DNA ligt los in het grondplasma en het celmembraan bestaat uit 1 laag. Elk domein heeft een eigen type rRNA (ribosomaal RNA).
 
-> "Er zijn 3 domeinen" is een beetje kort door de bocht. Wij leren de indeling van Carl Woese (dus archaea, bacteriën en eukaryoten), maar de indeling van domeinen, rijken, "supergroepen" en nog meer, is niet helemaal waterdicht, best wel verschillend en vooral heel verwarrend, maar "er zijn 3 domeinen" dekt (voor nu) de lading.
+> "Er zijn 3 domeinen" is een eigenlijk beetje kort door de bocht. Wij leren de indeling van Carl Woese (dus archaea, bacteriën en eukaryoten), maar de indeling van domeinen, rijken, "supergroepen" en nog meer, is niet helemaal waterdicht, best wel verschillend en vooral heel verwarrend, maar "er zijn 3 domeinen" dekt (voor nu) de lading.
 
 Soorten binnen variaties (rassen) maken geen deel uit van de taxonomie.
 
@@ -31,8 +31,7 @@ Manieren om een populatiegrootte te schatten:
 - Schatten
   Zoals bij planten, je bepaalt dan het aantal bloemen per representatieve oppervlakte-eenheid en vervolgens de oppervlakte waar de plant groeit
 - **Vangst-terugvangstmetode**
-  Een aantal dieren vangen, die van een merkteken voorzien en vrijlaten ($n_1$)
-  . Na een tijdje worden er weer een aantal dieren vangen ($n_2$), waarvan er waarschijnlijk een aantal een merkteken zullen hebben ($n_3$). Vervolgens kun je de populatiegrootte ($N$) schatten met de formule $N = \frac{n_1 \cdot n_2 }{n_3}$.
+  Een aantal dieren vangen, die van een merkteken voorzien en vrijlaten ($n_1$). Na een tijdje worden er weer een aantal dieren vangen ($n_2$), waarvan er waarschijnlijk een aantal een merkteken zullen hebben ($n_3$). Vervolgens kun je de populatiegrootte ($N$) schatten met de formule $N = \frac{n_1 \cdot n_2 }{n_3}$.
 
 De populatiegrootte kan erg verschillen. Veranderingen van de populatiegrootte komen vooral door **geboorte**, **immigratie**, **sterfte** en **emigratie**.
 
@@ -54,28 +53,60 @@ Natuurbeheerders proberen soms soorten die waren verdwenen uit een gebied te **h
 
 ## Soorten en hun omgeving
 
-Invloeden uit de levende natuur op organismen noem je **biotische factoren**, zoals roofdieren en planten. Invloeden die niet gekoppeld zijn aan organismen noem je **abiotische factoren**, zoals tempratuur, water en zonlicht.
+Invloeden uit de levende natuur op organismen noem je **biotische factoren**, zoals roofdieren en planten. Invloeden die niet gekoppeld zijn aan organismen noem je **abiotische factoren**, zoals temperatuur, water en zonlicht.
 
 Een leefomgeving die voldoet aan de specifieke biotische en abiotische eisen, noem je een **habitat** (voor planten kan ook het begrip **standplaats** worden gebruikt).
 
 Voor iedere abiotische factor heeft elke soort **tolerantiegrenzen** (een soort maximum en minimum). Buiten deze grenzen blijft geen enkel individu leven. Veel organismen hebben, naast de tolerantiegrenzen, ook een **optimumgebied** voor abiotische factoren.
 De tolerantiegrenzen en het optimumgebied kun je weergeven in een **tolerantiecurve**.
 
-![Een tolerantiecurve](images/biol_h6_tolerantiecurve.jpg)
+![Een tolerantiecurve (img-large)](images/biol_h6_tolerantiecurve.jpg)
 
-De **niche** van een stoort is de omschrijving hoe de soort de omgeving gebruikt en beïnvloedt.
+De **niche** van een soort is de omschrijving hoe de soort de omgeving gebruikt en beïnvloedt.
 Een **adaptatie** is een erfelijke aanpassing aan het uiterlijk of het gedrag die ontstaan door langdurige selectieprocessen. Deze adaptaties kunnen ontstaan door mutaties in het genoom.
 
 # Relaties tussen soorten
 
-**Herbivoren** zijn planteneters. De meeste planten overleven de schade die wordt aangericht door herbivoren. **Carnivoren**, vleeseters, moeten aan hun voedsel komen door **predatie** (het vangen en doden van prooi). **Omnivoren** zijn alleseters.
-
 Als een soort een andere eet, spreek je van een **voedselrelatie**. Voedselrelaties kun je in een **voedselketen** zetten. Een voedselketen begint altijd met een producent (een plant of alg).
+
 ![Een voedselketen (img-medium)](images/biol_h6_voedselketen.jpg)
+
 De pijlen binnen de voedselketen volgen de organische stoffen.
 Je kunt ook meerdere voedselketens aan elkaar koppelen. Je krijgt dan een **voedselweb**
 
 ![Een voedselweb (img-medium)](images/biol_h6_voedselweb.jpg)
 
-
 > Een voedselketen is dus gewoon van het ene organisme naar het andere, terwijl een voedselweb een overzicht is van alle onderlinge voedselrelaties.
+
+**Herbivoren** zijn planteneters. De meeste planten overleven de schade die wordt aangericht door herbivoren. **Carnivoren**, vleeseters, moeten aan hun voedsel komen door **predatie** (het vangen en doden van prooi). **Omnivoren** zijn alleseters.
+
+De relatie tussen een prooi en zijn natuurlijke vijand (**predator**) is een **predator-prooirelatie**. Prooien proberen te overleven door bijvoorbeeld camouflage, het leven in groepen, snelle voortplanting enz.
+
+Naast de voedselrelaties komen er ook langdurige relaties voor: **symbiose**. In de tabel zie je de verschillende vormen van symbiose.
+
+|          |     Voordeel      |           Neutraal           |     Nadeel      |
+| :------: | :---------------: | :--------------------------: | :-------------: |
+| Voordeel |  **Mutualisme**   |      **Commensalisme**       | **Parasitisme** |
+| Neutraal | **Commensalisme** | **Epifytisme** (bij planten) |        -        |
+|  Nadeel  |  **Parasitisme**  |              -               |        -        |
+
+> Een neutraal-nadeel relatie bestaat eigenlijk wel: **amensalisme**, en bij een nadeel-nadeel relatie spreek je van **concurrentie** (hoef je niet te weten, maar misschien vind je het interessant)
+
+Ziektes kunnen voedselketens verstoren. Als bijvoorbeeld een groot gedeelte van een bepaalde populatie sterft, zullen de predatoren van die soort weggaan. Ook gifstoffen kunnen voedselketens verstoren. **Accumulatie** van gifstoffen is het ophopen van die stoffen. De concentratie gif neemt bij elke schakel in de voedselketen toe. Sommige gifstoffen zijn **persistent**: ze kunnen jarenlang dieren vergiftigen.
+
+> Voorbeeld: er zit gif op planten tegen insecten. Die insecten krijgen een beetje gif in hun lichaam. Vervolgens worden de insecten opgegeten door een muizen. En de muizen worden opgegeten door roofvogels. Maar omdat de roofvogels meerdere muizen eten, en die muizen ook weer meerdere insecten eten, krijgt de roofvogel het gif binnen van veel insecten: accumulatie.
+
+# Nieuwe populaties
+
+**Fitness** is het vermogen om bepaalde allelen door te geven aan de volgende generatie. Als een populatie erg klein is, waardoor er binnen met familieleden gepaard moet worden, kan **inteelt** voor een gebrek aan genetische variatie zorgen.
+
+Het toenemen of afnemen van de frequentie van een bepaald allel heet **genetic drift**.
+
+Na een ramp waarbij het aantal individuelen sterk is afgenomen, zal ook de allelensamenstelling sterk afnemen: het **flessenhalseffect**.
+
+Als er een nieuwe populatie ontstaat (kolonisatie), is de allelensamenstelling binnen de nieuwe groep minder gevarieerd dan de oorspronkelijke populatie: het **stichtereffect**.
+
+Er is een verband tussen de grootte van een eiland, de afstand tot het vasteland en de soortenrijkdom. De **eilandtheorie** beschrijft dit verband ($ \Rightarrow $ Binas 93C ) Grote eilanden bieden meer niches en er kunnen meer soorten leven dan op kleine eilanden. Nabijgelegen eilanden ontvangen sneller nieuwe soorten dan afgelegen eilanden.
+Op sommige punten ontstaat er dan een evenwicht tussen de immigratie en de sterfte.
+
+![De eilandtheorie (img-semilarge)](images/biol_h6_eiland.jpg)
