@@ -17,7 +17,7 @@ Er zijn 3 domeinen: **archaea**, **bacteriën** en **eukaryoten**. De archaea zi
 
 > "Er zijn 3 domeinen" is een eigenlijk beetje kort door de bocht. Wij leren de indeling van Carl Woese (dus archaea, bacteriën en eukaryoten), maar de indeling van domeinen, rijken, "supergroepen" en nog meer, is niet helemaal waterdicht, best wel verschillend en vooral heel verwarrend, maar "er zijn 3 domeinen" dekt (voor nu) de lading.
 
-Soorten binnen variaties (rassen) maken geen deel uit van de taxonomie.
+Variaties binnen soorten (rassen) maken geen deel uit van de taxonomie.
 
 Elke beschreven soort krijgt een **wetenschappelijke naam** volgens de **binominale naamgeving**. Die bestaat uit 2 delen: de geslachtsnaam (met een hoofdletter) en de soortnaam (met een kleine letter), zoals *Pygoscelis papua* (ezelspinguïn). Soms staat er achter deze 2 delen nog een naam voor een **ondersoort** (een afgescheiden onderverdeling), zoals *Canis lupus familiaris* (hond).
 
