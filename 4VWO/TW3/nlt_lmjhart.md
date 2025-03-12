@@ -7,7 +7,7 @@ layout: default
 
 # Natuur, leven en technologie: Leef met je hart!
 
-# Het hart
+# Hart en vaten
 
 De biologie kent verschillende organisatieniveaus: **molecuul**, **organel** (onderdeel van een cel), **cel**, **weefsel**, **orgaan**, **orgaanstelsel**, **organisme**, **populatie** (groep van 1 soort in 1 gebied), **levensgemeenschap** (alle organismen met relaties in een gebied), **ecosysteem** (gebied met relaties tussen organismen en natuur) en **systeem Aarde** (alle ecosystemen, chemische en biologische processen en de onderlinge interacties).
 
@@ -38,9 +38,11 @@ De slagaders hebben een dikke wand, met veel elastisch weefsel en veel glad spie
 
 Zodra het hart bloed in de slagader heeft gepompt zet de slagader uit. Omdat de slagader elastisch is, wil deze graag terug naar zijn originele vorm. Hierdoor zal het bloed worden weggeduwd. Dit kan alleen maar richting de organen, want de halvemaanvormige klep is inmiddels gesloten.
 
-De **bloeddruk** die door het hart wordt gemaakt is aan het begin van de slagaders het hoogst. De bloeddruk neemt af naarmate het bloed verder door de bloedsomloop stroomt door vrijving met de vaatwant.
+# Bloeddruk
 
-Bloeddruk zou je kunnen meten in een normale eenheid, maar vrijwel iedereen gebruikt **milimeter kwikdruk** (mmHg). De **bovendruk** is de hoogste druk, dus tijdens een kamersystole. De **onderdruk** is de laagste druk, dus tijdens kamerdiastole.
+De **bloeddruk** die door het hart wordt gemaakt is aan het begin van de slagaders het hoogst. De bloeddruk neemt af naarmate het bloed verder door de bloedsomloop stroomt door wrijving met de vaatwand.
+
+Bloeddruk zou je kunnen meten in een normale eenheid, maar vrijwel iedereen gebruikt **millimeterkwikdruk** (mmHg). De **bovendruk** is de hoogste druk, dus tijdens een kamersystole. De **onderdruk** is de laagste druk, dus tijdens kamerdiastole.
 
 ![Een grafiek van de bloeddruk (img-semilarge)](images/nlt_lmjhart_bloeddruk.jpg)
 
@@ -52,7 +54,7 @@ $$MAP = \frac{2 \cdot onderdruk + bovendruk}{3}$$
 
 Je kunt de MAP ook op een andere manier berekenen:
 
-$$MAP = cardiac output \cdot perifere weerstand$$
+$$MAP = cardiac\: output \cdot perifere\: weerstand$$
 
 Je ziet dus dat de MAP afhangt van de *cardiac output* (dus de hoeveelheid bloed per slag) en de perifere weerstand (de weerstand die het bloed ondervindt in de slagaders).
 
@@ -62,7 +64,7 @@ Je ziet dus dat de MAP afhangt van de *cardiac output* (dus de hoeveelheid bloed
 
 De vetachtige stof **cholesterol** is belangrijk voor de bouw van cellen, maar slecht oplosbaar in het bloedplasma. Daarom bindt cholesterol zich aan bepaalde eiwitten voor het transport: **HDL** (high-density lipoprotein) en **LDL** (low-density lipoprotein). Als deze eiwitten zich aan cholesterol binden spreek je van HDL-cholesterol of LDL-cholesterol. Een te hoge hoeveelheid HDL-cholesterol is niet erg, omdat het in de lever kan worden afgebroken. Een te hoge hoeveelheid LDL-cholesterol is wel ernstig, omdat het zich in de vaten kan afzetten: er kunnen **plaques** ontstaan.
 
-Een plaque begint als beschadeing van de binnenwand van slagaders. Vervolgens dringen cholesterol en andere stoffen de vaatwind in. Witte bloedcellen reageren hierop door grote hoeveelheden cholesterol op te nemen: ze worden **schuimcellen**. In de wand van een slagader kan een ophoping van schuimcellen onstaan: een **fatty streak**.
+Een plaque begint als beschadiging van de binnenwand van slagaders. Vervolgens dringen cholesterol en andere stoffen de vaatwand in. Witte bloedcellen reageren hierop door grote hoeveelheden cholesterol op te nemen: ze worden **schuimcellen**. In de wand van een slagader kan een ophoping van schuimcellen ontstaan: een **fatty streak**.
 
 Een fatty streak kan zich gaan verdikken, waardoor er nog minder bloed door de slagader kan stromen.
 
@@ -72,14 +74,68 @@ Het verschil tussen een stabiele en kwetsbare plaque is dus ook de dikte van dit
 
 # Hartinfarct
 
-Bij een **hartinfarct** (of **hartaanval**) krijgt een deel van de hartspier geen zuurstof meer. Het hart is zelf een spier, en deze heeft dus ook bloed nodig. Dit bloed krijgt hij via de **kransslagader**. Als hier een verstopping ontsaat is dat dus erg gevaarlijk.
+Bij een **hartinfarct** (of **hartaanval**) krijgt een deel van de hartspier geen zuurstof meer. Het hart is zelf een spier, en deze heeft dus ook bloed nodig. Dit bloed krijgt hij via de **kransslagader**. Als hier een vernauwing ontstaat is dat dus erg gevaarlijk.
 
-**Reanimeren** is het overnemen van de bloedsomloop door hartmasage en beademing. Reanimatie kan schade aan organen door zuurstofgebrek voorkomen, maar kan niet het hart opnieuw laten starten. Er is een **AED** nodig om het hart opnieuw "aan te zetten". Zo'n apparaat geeft een gecontroleerde schok aan het hart.
+**Reanimeren** is het overnemen van de bloedsomloop door hartmassage en beademing. Reanimatie kan schade aan organen door zuurstofgebrek voorkomen, maar kan niet het hart opnieuw laten starten. Er is een **AED** nodig om het hart opnieuw "aan te zetten". Zo'n apparaat geeft een gecontroleerde schok aan het hart.
 
-Na een hartinfact wordt het afgestorven hartspierweefsel vervangen door bindspierweefsel. Dit weefsel is echter veel slechter in het rondpompen van het bloed. Daarom is het belangrijk om het hartinfarctgebied zo beperkt mogelijk te houden.
+Na een hartinfarct wordt het afgestorven hartspierweefsel vervangen door bindspierweefsel. Dit weefsel is echter veel slechter in het rondpompen van het bloed. Daarom is het belangrijk om het hartinfarctgebied zo beperkt mogelijk te houden.
 
-Een **dotterbehandeling** is een manier om een kransslagader te verwijden. De arts schuift via de liesslagader met een catheter een ballonnetje naar de plek van de vernauwing. Dit ballonetje wordt vervolgens opgeblazen, zodat de vaatwant en de plaque naar buiten worden gedrukt.
+In de toekomst kan met **stamceltherapie** mogelijk dit probleem worden opgelost.
+
+Een **dotterbehandeling** is een manier om een kransslagader te verwijden. De arts schuift via de liesslagader met een catheter een ballonnetje naar de plek van de vernauwing. Dit ballonetje wordt vervolgens opgeblazen, zodat de vaatwand en de plaque naar buiten worden gedrukt.
 
 Er kan hierbij ook nog een **stent** geplaatst worden: een soort metalen roostertje die de kransslagader ook open houdt.
 
 ![Een dotter- en stentbehandeling (img-large)](images/nlt_lmjhart_dotterstent.jpg)
+
+Als dotteren niet effectief genoeg is, kan er een **bypassoperatie** worden uitgevoerd. Er wordt een stukje ader (een ader uit het lichaam waarvan je een stukje kunt missen) om de vernauwing heen geleid. De vernauwing wordt dus niet weggehaald.
+
+De inspanning die het hart moet leveren wordt bepaald door het rondgepompte bloedvolume en de gemiddelde bloeddruk (MAP). De MAP wordt bepaald door de *cardiac output* (dus de hoeveelheid bloed per slag) en de perifere weerstand (de weerstand die het bloed ondervindt in de slagaders). De *cardiac output* wordt bepaald door het slagvolume en de hartfrequentie.
+
+# Medicijnen
+
+Hier een overzicht van medicijnen die invloed hebben op de werking van het hart en/of vaten.
+
+- **Bloedverdunners**
+  
+  - **Stollingsremmers** zorgen ervoor dat het bloed minder snel stolt.
+  
+  - **Plaatjesremmers** zorgen ervoor dat de bloedplaatjes minder goed hun werk doen, waardoor trombose of embolie kan optreden.
+
+- **Cholesterolverlagers**
+  
+  - **Statine** remt de aanmaak van cholesterol in de lever, en vertraagt dus ook het slagaderverkalkingsproces.
+
+- **Hartritmebeïnvloeders**
+  
+  - **Digoxine** vergroot de pompkracht van het hart, verlaagt het hartritme en laat de zuurstofconsumptie van het hart toenemen.
+  
+  - **Bètablokkers** verlagen de hartfrequentie en verminderen de zuurstofbehoefte van het hart. Ook verlagen ze de bloeddruk.
+
+- **Plaspillen**
+  
+  - **Diuretica** zorgen voor veel vochtafvoer via urine, waardoor het bloedvolume afneemt, waardoor de bloeddruk afneemt.
+
+- **Vaatverwijdingsmedicijnen**
+  
+  - **ACE-remmers** zorgen voor een verlaging van de perifere weerstand, wat voor een verlaging van de MAP (dus van de bloeddruk) zorgt.
+  
+  - **Angiotensine II-receptorantagonisten** blokkeren de werking van het bloeddrukverhogende hormoon **angiotensine** door de receptoren van **angiotensine II** te blokkeren met **antagonisten**, waardoor de bloeddruk daalt.
+  
+  - **Calciumantagonisten** remmen de werking van calciumionen waardoor spiercellen zich minder goed kunnen samentrekken, waardoor de kracht van elke hartslag en de hartfrequentie wordt verminderd. Bovendien wordt de perifere weerstand verlaagd.
+  
+  - **Nitraten** en **nitrieten** verslappen de gladde spieren van slagaders en aders waardoor de bloedvaten wijder worden, waardoor zowel de bloeddruk als de perifere weerstand daalt.
+
+# Preventie
+
+Er zijn een aantal risicofactoren die invloed hebben op het krijgen van een hartinfarct.
+
+- **Overgewicht** of **obesitas** (ernstig overgewicht) zorgt voor een hoog LDL-cholesterolgehalte (hogere kans op slagaderverkalking) en voor een hogere bloeddruk (sneller verslijten vaten). Overgewicht gaat ook gepaard met verminderde glucose-tolerantie, wat zorgt voor een verhoogde afscheiding van insuline, wat een risicofactor is voor het onstaan van Diabetes type II, wat een risicofactor is voor het krijgen van hart- en vaatziekten.
+  
+  $$BMI = \frac{gewicht}{lengte^2}$$
+
+- **Erfelijkheid**
+
+- **Roken** zorgt voor beschadiging van de vaatwant. Bovendien verdringt de hogere concentratie $CO_2$ zuurstof. Nicotine verhoogt de hartslag en de bloeddruk.
+
+- **Stress** heeft vooral invloed op het gedrag van mensen, waardoor ze bijvoorbeeld gaan roken, veel eten, drinken, minder bewegen enz.
