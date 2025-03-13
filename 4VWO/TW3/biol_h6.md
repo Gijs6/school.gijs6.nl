@@ -104,7 +104,7 @@ Na een ramp waarbij het aantal individuelen sterk is afgenomen, zal ook de allel
 
 Als er een nieuwe populatie ontstaat (kolonisatie), is de allelensamenstelling binnen de nieuwe groep minder gevarieerd dan de oorspronkelijke populatie: het **stichtereffect**.
 
-Er is een verband tussen de grootte van een eiland, de afstand tot het vasteland en de soortenrijkdom. De **eilandtheorie** beschrijft dit verband ($ \Rightarrow $ Binas 93C ) Grote eilanden bieden meer niches en er kunnen meer soorten leven dan op kleine eilanden. Nabijgelegen eilanden ontvangen sneller nieuwe soorten dan afgelegen eilanden.
+Er is een verband tussen de grootte van een eiland, de afstand tot het vasteland en de soortenrijkdom. De **eilandtheorie** beschrijft dit verband ($ \Rightarrow $ Binas 93C) Grote eilanden bieden meer niches en er kunnen meer soorten leven dan op kleine eilanden. Nabijgelegen eilanden ontvangen sneller nieuwe soorten dan afgelegen eilanden.
 Op sommige punten ontstaat er dan een evenwicht tussen de immigratie en de sterfte.
 
 ![De eilandtheorie (img-semilarge)](images/biol_h6_eiland.jpg)

@@ -2,7 +2,6 @@
 title: NLT - LMJHart - Samenvatting
 indexname: NLT - Leef met je hart!
 layout: default
-
 ---
 
 # Natuur, leven en technologie: Leef met je hart!
@@ -32,7 +31,7 @@ Om het bloed rond te pompen, trekt de hartspier zich samen in een bepaalde volgo
 
 De bloedvaten vertakken zich steeds. Vanuit de aorta $ \rightarrow $ een slagader $ \rightarrow $ een slagadertje $ \rightarrow $ haarvaten (waar de stofwisseling plaatsvindt) $ \rightarrow $ een adertje $ \rightarrow $ een ader $ \rightarrow $ een holle ader. De druk in de slagaders is veel hoger dan in de aders.
 
-Om met deze verschillen in druk om te kunnen gaan, zijn de slagaders, aders en haarvaten anders gebouwd. Aan de binnenkant van **elk vat** zit de endotheel: een eencellig bedekkend laagje. 
+Om met deze verschillen in druk om te kunnen gaan, zijn de slagaders, aders en haarvaten anders gebouwd. Aan de binnenkant van **elk vat** zit de endotheel: een eencellig bedekkend laagje.
 
 De slagaders hebben een dikke wand, met veel elastisch weefsel en veel glad spierweefsel. Haarvaten hebben alleen een endotheel, want anders zou er geen stofwisseling kunnen plaatsvinden.
 

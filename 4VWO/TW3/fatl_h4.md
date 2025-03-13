@@ -2,7 +2,6 @@
 title: FATL - H4 - Samenvatting
 indexname: FATL - H4
 layout: default
-
 ---
 
 # Franse taal en literatuur: Hoofdstuk 4
@@ -36,8 +35,8 @@ Als er in de zin een heel werkwoord staat, dan staat het persoonlijk voornaamwoo
 Je gebruikt het benadrukt persoonlijk voornaamwoord in de volgende gevallen.
 
 - na een **voorzetsel**
-- als er **nadruk **op ligt
-- na *c’est* of *ce sont*
+- als er **nadruk** op ligt
+- na *c'est* of *ce sont*
 - als er **geen werkwoord** bij staat
 
 | ***moi***   | **mij, ik**   |
@@ -50,22 +49,22 @@ Je gebruikt het benadrukt persoonlijk voornaamwoord in de volgende gevallen.
 | ***eux***   | **hen, zij**  |
 | ***elles*** | **hen, zij**  |
 
-Voor ***on*** bestaat dus geen aparte vorm.
+Voor ***on*** bestaat dus geen aparte vorm.
 
 ## Onregelmatige werkwoorden
 
-|                     | ***mettre* (leggen, zetten, erover doen, aantrekken)** | ***dire* (zeggen)**  | ***décrire* (beschrijven)** | ***ouvrir* (openen), *offrir* (aanbieden)** |
+|                     | ***mettre* (leggen, zetten, erover doen, aantrekken)** | ***dire* (zeggen)**  | ***décrire* (beschrijven)** | ***ouvrir* (openen), *offrir* (aanbieden)** |
 | ------------------- | ------------------------------------------------------ | -------------------- | --------------------------- | ------------------------------------------- |
-| ***présent***       | *je mets*                                              | *je dis*             | *je décris*                 | *j’ouvre*                                   |
+| ***présent***       | *je mets*                                              | *je dis*             | *je décris*                 | *j'ouvre*                                   |
 |                     | *tu mets*                                              | *tu dis*             | *tu décris*                 | *tu ouvres*                                 |
 |                     | *il / elle / on met*                                   | *il / elle / on dit* | *il / elle / on décrit*     | *il / elle / on ouvre*                      |
 |                     | *nous mettons*                                         | *nous disons*        | *nous décrivons*            | *nous ouvrons*                              |
 |                     | *vous mettez*                                          | *vous dites*         | *vous décrivez*             | *vous ouvrez*                               |
 |                     | *ils / elles mettent*                                  | *ils / elles disent* | *ils / elles décrivent*     | *ils / elles ouvrent*                       |
-| ***passé composé*** | *j’ai mis*                                             | *j’ai dit*           | *j’ai décrit*               | *j’ai ouvert*                               |
-| ***imparfait***     | *je mettais*                                           | *je disais*          | *je décrivais*              | *j’ouvrais*                                 |
-| ***futur simple***  | *je mettrai*                                           | *je dirai*           | *je décrirai*               | *j’ouvrirai*                                |
-| ***conditionnel***  | *je mettrais*                                          | *je dirais*          | *je décrirais*              | *j’ouvrirais*                               |
+| ***passé composé*** | *j'ai mis*                                             | *j'ai dit*           | *j'ai décrit*               | *j'ai ouvert*                               |
+| ***imparfait***     | *je mettais*                                           | *je disais*          | *je décrivais*              | *j'ouvrais*                                 |
+| ***futur simple***  | *je mettrai*                                           | *je dirai*           | *je décrirai*               | *j'ouvrirai*                                |
+| ***conditionnel***  | *je mettrais*                                          | *je dirais*          | *je décrirais*              | *j'ouvrirais*                               |
 
 Werkwoorden met een voorvoegsel, zoals *permettre*, vervoeg je vaak op dezelfde manier.
 
@@ -85,7 +84,7 @@ Als er bij de impératif in een bevestigende zin een voornaamwoord komt, zet je 
 
 *Me* en *te* veranderen in dit geval in *moi* en *toi* omdat de klemtoon er nu op valt.
 
-Bij een impératif in een ontkennende zin staat het voornaamwoord er gewoon voor (*Ne m’invite pas!*).
+Bij een impératif in een ontkennende zin staat het voornaamwoord er gewoon voor (*Ne m'invite pas!*).
 
 De volgende werkwoorden hebben een onregelmatige vorm voor de gebiedende wijs.
 
@@ -93,4 +92,4 @@ De volgende werkwoorden hebben een onregelmatige vorm voor de gebiedende wijs.
 | ----------------------------------- | ----------- | ---------- | ----------- |
 | **Tegen één persoon: jij**          | *aie*       | *sois*     | *va*        |
 | **Tegen jezelf en andere personen** | *ayons*     | *soyons*   | *allons*    |
-| **Tegen meer personen of ‘u’**      | *ayez*      | *soyez*    | *allez*     |
+| **Tegen meer personen of 'u'**      | *ayez*      | *soyez*    | *allez*     |
