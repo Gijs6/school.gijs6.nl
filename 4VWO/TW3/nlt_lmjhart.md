@@ -7,7 +7,7 @@ layout: default
 
 # Natuur, leven en technologie: Leef met je hart!
 
-# Hart en vaten
+## Hart en vaten
 
 De biologie kent verschillende organisatieniveaus: **molecuul**, **organel** (onderdeel van een cel), **cel**, **weefsel**, **orgaan**, **orgaanstelsel**, **organisme**, **populatie** (groep van 1 soort in 1 gebied), **levensgemeenschap** (alle organismen met relaties in een gebied), **ecosysteem** (gebied met relaties tussen organismen en natuur) en **systeem Aarde** (alle ecosystemen, chemische en biologische processen en de onderlinge interacties).
 
@@ -38,7 +38,7 @@ De slagaders hebben een dikke wand, met veel elastisch weefsel en veel glad spie
 
 Zodra het hart bloed in de slagader heeft gepompt zet de slagader uit. Omdat de slagader elastisch is, wil deze graag terug naar zijn originele vorm. Hierdoor zal het bloed worden weggeduwd. Dit kan alleen maar richting de organen, want de halvemaanvormige klep is inmiddels gesloten.
 
-# Bloeddruk
+## Bloeddruk
 
 De **bloeddruk** die door het hart wordt gemaakt is aan het begin van de slagaders het hoogst. De bloeddruk neemt af naarmate het bloed verder door de bloedsomloop stroomt door wrijving met de vaatwand.
 
@@ -58,7 +58,7 @@ $$MAP = cardiac\: output \cdot perifere\: weerstand$$
 
 Je ziet dus dat de MAP afhangt van de *cardiac output* (dus de hoeveelheid bloed per slag) en de perifere weerstand (de weerstand die het bloed ondervindt in de slagaders).
 
-# Slagaderverkalking
+## Slagaderverkalking
 
 **Slagaderverkalking** is een langzaam proces waarbij geleidelijk cholesterol in de wand van slagaders wordt afgezet, waardoor de slagaders vernauwen.
 
@@ -72,7 +72,7 @@ Bij een kwetsbare plaque is er slechts een dun weefsel tussen de plaque-cellen e
 
 Het verschil tussen een stabiele en kwetsbare plaque is dus ook de dikte van dit weefsel.
 
-# Hartinfarct
+## Hartinfarct
 
 Bij een **hartinfarct** (of **hartaanval**) krijgt een deel van de hartspier geen zuurstof meer. Het hart is zelf een spier, en deze heeft dus ook bloed nodig. Dit bloed krijgt hij via de **kransslagader**. Als hier een vernauwing ontstaat is dat dus erg gevaarlijk.
 
@@ -92,7 +92,7 @@ Als dotteren niet effectief genoeg is, kan er een **bypassoperatie** worden uitg
 
 De inspanning die het hart moet leveren wordt bepaald door het rondgepompte bloedvolume en de gemiddelde bloeddruk (MAP). De MAP wordt bepaald door de *cardiac output* (dus de hoeveelheid bloed per slag) en de perifere weerstand (de weerstand die het bloed ondervindt in de slagaders). De *cardiac output* wordt bepaald door het slagvolume en de hartfrequentie.
 
-# Medicijnen
+## Medicijnen
 
 Hier een overzicht van medicijnen die invloed hebben op de werking van het hart en/of vaten.
 
@@ -126,7 +126,7 @@ Hier een overzicht van medicijnen die invloed hebben op de werking van het hart 
   
   - **Nitraten** en **nitrieten** verslappen de gladde spieren van slagaders en aders waardoor de bloedvaten wijder worden, waardoor zowel de bloeddruk als de perifere weerstand daalt.
 
-# Preventie
+## Preventie
 
 Er zijn een aantal risicofactoren die invloed hebben op het krijgen van een hartinfarct.
 

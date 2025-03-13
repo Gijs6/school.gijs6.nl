@@ -10,6 +10,8 @@ layout: default
 
 - [BIOL - H6 (Soorten en populaties)](4VWO/TW3/biol_h6.md)
 
+- [FATL - H4](4VWO/TW3/fatl_h4.md)
+
 - [NLT - Leef met je hart!](4VWO/TW3/nlt_lmjhart.md)
 
 ### P3

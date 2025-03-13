@@ -37,7 +37,7 @@ Natuurlijke factoren hebben ook veel invloed op de populatiegrootte. Er is altij
 
 De maximale capaciteit van een gebied om voldoende voedsel en schuil- en nestplaatsen te leveren (waardoor de populatiegrootte constant blijft) is de **draagkracht** van een gebied.
 
-# Natuurbeheer
+## Natuurbeheer
 
 **Natuurbeheer** is het beheren van natuurgebieden. Een van de doelen van natuurbeheer is het voorkomen van het uitsterven van soorten, en dus van de afname van de **soortensamenstelling**. Door de mens worden meer dan een miljoen soorten met uitsterven bedreigd.
 
@@ -63,7 +63,7 @@ De tolerantiegrenzen en het optimumgebied kun je weergeven in een **tolerantiecu
 De **niche** van een soort is de omschrijving hoe die soort de omgeving gebruikt en beïnvloedt.
 Een **adaptatie** is een erfelijke aanpassing aan het uiterlijk of het gedrag die ontstaan door langdurige selectieprocessen. Deze adaptaties kunnen ontstaan door mutaties in het genoom.
 
-# Relaties tussen soorten
+## Relaties tussen soorten
 
 Als een soort een andere eet, spreek je van een **voedselrelatie**. Voedselrelaties kun je in een **voedselketen** zetten. Een voedselketen begint altijd met een producent (een plant of alg). Daarna komt de **consument van de eerste orde**, daarna de **consument van de tweede orde** enz.
 
@@ -94,7 +94,7 @@ Ziektes kunnen voedselketens verstoren. Als bijvoorbeeld een groot gedeelte van 
 
 > Voorbeeld: er zit gif op planten tegen insecten. Die insecten krijgen een beetje gif in hun lichaam. Vervolgens worden de insecten opgegeten door een muizen. En de muizen worden opgegeten door roofvogels. Maar omdat de roofvogels meerdere muizen eten, en die muizen ook weer meerdere insecten eten, krijgt de roofvogel het gif binnen van veel insecten: accumulatie.
 
-# Nieuwe populaties
+## Nieuwe populaties
 
 **Fitness** is het vermogen om bepaalde allelen door te geven aan de volgende generatie. Als een populatie erg klein is, waardoor er binnen met familieleden gepaard moet worden, kan **inteelt** voor een gebrek aan genetische variatie zorgen.
 
