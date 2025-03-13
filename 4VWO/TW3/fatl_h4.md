@@ -8,7 +8,7 @@ layout: default
 
 ## Persoonlijke voornaamwoorden
 
-Een **persoonlijk voornaamwoord** kan voorkomen als onderwerp, lijdend voorwerp (COD) of meewerkend voorwerp (COI). 
+Een **persoonlijk voornaamwoord** kan voorkomen als onderwerp, lijdend voorwerp (COD) of meewerkend voorwerp (COI).
 
 | **Onderwerp** | **Lijdend voorwerp (COD)** | **Meewerkend voorwerp (COI)** |
 | ------------- | -------------------------- | ----------------------------- |
