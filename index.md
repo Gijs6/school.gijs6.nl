@@ -14,6 +14,8 @@ layout: default
 
 - [NLT - Leef met je hart!](4VWO/TW3/nlt_lmjhart.md)
 
+- [SCHK - H4 (Zouten)](4VWO/TW3/schk_h4.md)
+
 ### P3
 
 - [BIOL - H5 (Erfelijkheid)](4VWO/P3/biol_h5.md)
