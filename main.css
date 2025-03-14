@@ -14,6 +14,8 @@ body {
 
 h2 {
     margin-block-end: 0;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
 }
 
 header a {
@@ -62,7 +64,7 @@ table {
 
 td, th {
     border: 1px solid white;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 
 th {
@@ -115,7 +117,6 @@ blockquote {
     color: #b9bcc1;
     border-left: .25em solid #3d444d;
 }
-
 
 img {
     max-width: 50%;
