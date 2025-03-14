@@ -23,19 +23,13 @@ Deze regel kun je ook toepassen om de variabele $x$ vrij te maken bij $y=ax^p$.
 
 > Voorbeeld:
 >
-> $y=19x^{-3 \frac{1}{2}}$
->
-> $19x^{-3 \frac{1}{2}}=y$
->
-> $19x^{-\frac{7}{2}}=y$
->
-> $x^{-\frac{7}{2}}=\frac{1}{19}y$
->
-> $x=(\frac{1}{19}y)^{-\frac{2}{7}}$
->
-> $x=(\frac{1}{19})^{-\frac{2}{7}}\cdot y^{-\frac{2}{7}}$
->
-> $x=19^{\frac{2}{7}}\cdot y^{-\frac{2}{7}}$
+> - $y=19x^{-3 \frac{1}{2}}$
+> - $19x^{-3 \frac{1}{2}}=y$
+> - $19x^{-\frac{7}{2}}=y$
+> - $x^{-\frac{7}{2}}=\frac{1}{19}y$
+> - $x=(\frac{1}{19}y)^{-\frac{2}{7}}$
+> - $x=(\frac{1}{19})^{-\frac{2}{7}}\cdot y^{-\frac{2}{7}}$
+> - $x=19^{\frac{2}{7}}\cdot y^{-\frac{2}{7}}$
 
 ## Standaardfuncties
 
@@ -43,7 +37,7 @@ De functies $f(x)=ax^n$ zijn **standaardfuncties**, en de bijbehorende grafieken
 Bij even waarden van $n$ is de grafiek lijnsymmetrisch met de $y$-as. Bij oneven waarden van $n$ is de grafiek puntsymmetrisch met de oorsprong als punt van symmetrie.
 
 Een grafiek kun je verschuiven: er ontstaat dan een **beeldgrafiek**. Deze verschuiving heet een **translatie**.
-$$y=ax^n \xrightarrow{\text{translatie}~(p,q)} y=a(x-p)^n+q$$
+$$y=ax^n \xrightarrow{\text{translatie}~(p,~q)} y=a(x-p)^n+q$$
 Voor een horizontale translatie van $p$ naar rechts vervang je x dus door $x-p$, en voor een horizontale translatie van  $p$ naar links vervang je x dus door $x+p$.
 Voor een verticale translatie van $q$ tel je $q$ op bij de functiewaarde.
 Voor een **vermenigvuldiging ten opzichte van de $x$-as** vermenigvuldig je de functiewaarde.
@@ -52,18 +46,43 @@ Translaties en vermenigvuldigingen zijn voorbeelden van **transformaties**.
 
 ## Wortelfuncties
 
-De eenvoudigste **wortelfunctie** is $f(x)=\sqrt{x}$. Dit is een **standaardfunctie**, en de grafiek is dus ook een **standaardgrafiek**. De grafiek is een halve parabool die de $y$-as in het **randpunt** $O(0,0)$ raakt. Het domein (alle waarden op de $x$-as) van $f$ is $D_f=[0,\rightarrow \rangle$ en het bereik (alle waarden op de $y$-as) is $B_f=[0,\rightarrow \rangle$.
+De eenvoudigste **wortelfunctie** is $f(x)=\sqrt{x}$. Dit is een **standaardfunctie**, en de grafiek is dus ook een **standaardgrafiek**. De grafiek is een halve parabool die de $y$-as in het **randpunt** $O(0,~0)$ raakt. Het domein (alle waarden op de $x$-as) van $f$ is $D_f=[0,\rightarrow \rangle$ en het bereik (alle waarden op de $y$-as) is $B_f=[0,\rightarrow \rangle$.
 
 Om het domein te vinden van een wortelfunctie als $g(x)=-9+\sqrt{5+3x}$ ga je als volgt te werk:
 
 - Onder het wortelteken moet een niet-negatief getal staan, want de wortel van een negatief getal heeft geen reële uitkomst, dus
 
-  $5+3x\geq 0$
+  - $5+3x\geq 0$
 
-  $3x\geq -5$
+  - $3x\geq -5$
 
-  $x\geq -\frac{5}{3}$
+  - $x\geq -\frac{5}{3}$
+
 - De $x$-coördinaat van het randpunt is dus $-\frac{5}{3}$, want hier begint de grafiek.
 - Dus $D_g=[-\frac{5}{3},\rightarrow \rangle$
 - De $y$-coördinaat van het randpunt krijg je door $g(-\frac{5}{3})=-9+\sqrt{5+3\cdot -\frac{5}{3}}=-9+\sqrt{0}=-9$.
-- Het randpunt is dus $(-\frac{5}{3}, -9)$.
+- Het randpunt is dus $(-\frac{5}{3},~-9)$.
+
+Je kunt de variabele $x$ vrijmaken bij een wortelfunctie als $y=2+\sqrt{x-3}$:
+
+- $y-2=\sqrt{x-3}$
+- $(y-2)^2=x-3$
+- ...
+- $x=y^2-4y+7$
+
+> Bij het vrijmaken van een variabele hoef je geen voorwaarden te vermelden.
+
+## Exponentiele functies
+
+De functies $f(x)=g^x$ met $g>0$ en $g\neq 1$ zijn **exponentiele standaardfuncties**.
+
+Exponentiele standaardfuncties hebben een **asymptoot**: een lijn waarmee de grafiel op den duur vrijwel samenvalt.
+
+De functie $f(x)=2^x$ valt samen met de $x$-as, dus de $x$-as is de **horizontale asymptoot**. Het bereik van deze functie is $B_f=\langle 0, \rightarrow \rangle$. Het domein bestaat uit alle reële getallen, dus $D_f=\mathbb{R}$.
+
+Hieronder een overzicht van transformaties op $y=g^x$
+
+- $y=g^x \xrightarrow{\text{verm.}~x\text{-as met}~a} y=a\cdot g^x$ (asymptoot $y=0$)
+- $y=g^x \xrightarrow{\text{verm.}~y\text{-as met}~b} y=g^{\frac{1}{b}\cdot x}$ (asymptoot $y=0$)
+- $y=g^x \xrightarrow{\text{translatie}~(0,~q)} y=g^x+q$ (asymptoot $y=q$)
+- $y=g^x \xrightarrow{\text{translatie}~(p,~0)} y=g^{x-p}$ (asymptoot $y=0$)
