@@ -1,0 +1,68 @@
+---
+title: WISB - H5 - Samenvatting
+indexname: NLT - H5 (Machten, exponenten en logaritmen)
+layout: default
+---
+
+# Wiskunde B: Hoofdstuk 5 (Machten, exponenten en logaritmen)
+
+## Rekenregels machten
+
+- $a^p \cdot a^q=a^{p+q}$
+- $\frac{a^p}{a^q}=a^{p-q}$
+- $(a^p)^q=a^{pq}$
+- $(ab)^p=a^pb^p$
+- $a^0=1$
+- $a^1=a$
+- $a^{-p}=\frac{1}{a^p}$
+- $a^{\frac{1}{q}}=\sqrt[q]{a}$
+- $a^{\frac{p}{q}}=\sqrt[q]{a^p}$
+
+Voor de vergelijking $x^{\frac{a}{b}}=c$ met $c>0$ en $x>0$ geldt $x^{\frac{a}{b}}=c$ geeft $x=c^{\frac{b}{a}}$.
+Deze regel kun je ook toepassen om de variabele $x$ vrij te maken bij $y=ax^p$.
+
+> Voorbeeld:
+>
+> $y=19x^{-3 \frac{1}{2}}$
+>
+> $19x^{-3 \frac{1}{2}}=y$
+>
+> $19x^{-\frac{7}{2}}=y$
+>
+> $x^{-\frac{7}{2}}=\frac{1}{19}y$
+>
+> $x=(\frac{1}{19}y)^{-\frac{2}{7}}$
+>
+> $x=(\frac{1}{19})^{-\frac{2}{7}}\cdot y^{-\frac{2}{7}}$
+>
+> $x=19^{\frac{2}{7}}\cdot y^{-\frac{2}{7}}$
+
+## Standaardfuncties
+
+De functies $f(x)=ax^n$ zijn **standaardfuncties**, en de bijbehorende grafieken zijn **standaardgrafieken**.
+Bij even waarden van $n$ is de grafiek lijnsymmetrisch met de $y$-as. Bij oneven waarden van $n$ is de grafiek puntsymmetrisch met de oorsprong als punt van symmetrie.
+
+Een grafiek kun je verschuiven: er ontstaat dan een **beeldgrafiek**. Deze verschuiving heet een **translatie**.
+$$y=ax^n \xrightarrow{\text{translatie}~(p,q)} y=a(x-p)^n+q$$
+Voor een horizontale translatie van $p$ naar rechts vervang je x dus door $x-p$, en voor een horizontale translatie van  $p$ naar links vervang je x dus door $x+p$.
+Voor een verticale translatie van $q$ tel je $q$ op bij de functiewaarde.
+Voor een **vermenigvuldiging ten opzichte van de $x$-as** vermenigvuldig je de functiewaarde.
+$$y=x^n \xrightarrow{\text{verm.}~x\text{-as met}~a} y=ax^n$$
+Translaties en vermenigvuldigingen zijn voorbeelden van **transformaties**.
+
+## Wortelfuncties
+
+De eenvoudigste **wortelfunctie** is $f(x)=\sqrt{x}$. Dit is een **standaardfunctie**, en de grafiek is dus ook een **standaardgrafiek**. De grafiek is een halve parabool die de $y$-as in het **randpunt** $O(0,0)$ raakt. Het domein (alle waarden op de $x$-as) van $f$ is $D_f=[0,\rightarrow \rangle$ en het bereik (alle waarden op de $y$-as) is $B_f=[0,\rightarrow \rangle$.
+
+Om het domein te vinden van een wortelfunctie als $g(x)=-9+\sqrt{5+3x}$ ga je als volgt te werk:
+- Onder het wortelteken moet een niet-negatief getal staan, want de wortel van een negatief getal heeft geen reële uitkomst, dus
+  
+  $5+3x\geq 0$
+
+  $3x\geq -5$
+
+  $x\geq -\frac{5}{3}$
+- De $x$-coordinaat van het randpunt is dus $-\frac{5}{3}$, want hier begint de grafiek.
+- Dus $D_g=[-\frac{5}{3},\rightarrow \rangle$
+- De $y$-coordinaat van het randpunt krijg je door $g(-\frac{5}{3})=-9+\sqrt{5+3\cdot -\frac{5}{3}}=-9+\sqrt{0}=-9$.
+- Het randpunt is dus $(-\frac{5}{3}, -9)$.
