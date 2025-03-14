@@ -76,7 +76,7 @@ Je kunt de variabele $x$ vrijmaken bij een wortelfunctie als $y=2+\sqrt{x-3}$:
 
 De functies $f(x)=g^x$ met $g>0$ en $g\neq 1$ zijn **exponentiele standaardfuncties**.
 
-Exponentiele standaardfuncties hebben een **asymptoot**: een lijn waarmee de grafiel op den duur vrijwel samenvalt.
+Exponentiële standaardfuncties hebben een **asymptoot**: een lijn waarmee de grafiel op den duur vrijwel samenvalt.
 
 De functie $f(x)=2^x$ valt samen met de $x$-as, dus de $x$-as is de **horizontale asymptoot**. Het bereik van deze functie is $B_f=\langle 0, \rightarrow \rangle$. Het domein bestaat uit alle reële getallen, dus $D_f=\mathbb{R}$.
 
@@ -86,3 +86,25 @@ Hieronder een overzicht van transformaties op $y=g^x$
 - $y=g^x \xrightarrow{\text{verm.}~y\text{-as met}~b} y=g^{\frac{1}{b}\cdot x}$ (asymptoot $y=0$)
 - $y=g^x \xrightarrow{\text{translatie}~(0,~q)} y=g^x+q$ (asymptoot $y=q$)
 - $y=g^x \xrightarrow{\text{translatie}~(p,~0)} y=g^{x-p}$ (asymptoot $y=0$)
+
+Je kunt vergelijkingen als $y=120\cdot 3^{2x-1}$ herleiden tot de vorm $y=b\cdot g^x$. je maakt dan gebruik van de regels $(a^p)^q=a^{pq}$ en $a^p \cdot a^q=a^{p+q}$. Voorbeeld: $2^{3x-4}=2^{3x}\cdot 2^4=(2^3)^x\cdot 16=8^x\cdot 16$.
+
+Een **exponentiele vergelijking** als $2^{12+x}=\sqrt{2}$ kun je oplossen met de regel $g^A=g^B$ geeft $A=B$. Om zo'n vergelijking op te lossen moeten beide leden dus hetzelfde grondtal hebben. Soms moet je eerst herleiden om 2 leden met een gelijk grondtal te krijgen.
+
+> Voorbeeld:
+>
+> - $3^{x+2}=72+3^x$
+> - $3^x\cdot 3^2=72+3^x$
+> - $9\cdot 3^x-3^x=72$
+> - $8\cdot 3^x=72$
+> - $3^x=9$
+> - $3^x=3^2$
+> - $x=2$
+
+## Logaritmen
+
+Als je wilt weten tot welke macht je een getal moet heffen om een bepaalde uitkomst te krijgen, moet je gebruik maken van een **logaritme**. Zo is $^2\log(8)$ het getal waar je 7 tot moet heffen om 8 te krijgen, dus $^2\log(8)=3$, want $2^3=8$.
+
+$$^a\log(b)=c\longrightarrow b=a^c$$
+
+In $^a\log(b)$ is $a$ het grondtal van de logaritme.
