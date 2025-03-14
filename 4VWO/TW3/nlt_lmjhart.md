@@ -41,7 +41,7 @@ Zodra het hart bloed in de slagader heeft gepompt zet de slagader uit. Omdat de 
 
 De **bloeddruk** die door het hart wordt gemaakt is aan het begin van de slagaders het hoogst. De bloeddruk neemt af naarmate het bloed verder door de bloedsomloop stroomt door wrijving met de vaatwand.
 
-Bloeddruk zou je kunnen meten in een normale eenheid, maar vrijwel iedereen gebruikt **millimeterkwikdruk** (mmHg). De **bovendruk** is de hoogste druk, dus tijdens een kamersystole. De **onderdruk** is de laagste druk, dus tijdens kamerdiastole.
+Bloeddruk zou je kunnen meten in een normale eenheid, maar vrijwel iedereen gebruikt **millimeter kwikdruk** (mmHg). De **bovendruk** is de hoogste druk, dus tijdens een kamersystole. De **onderdruk** is de laagste druk, dus tijdens kamerdiastole.
 
 ![Een grafiek van de bloeddruk (img-semilarge)](images/nlt_lmjhart_bloeddruk.jpg)
 
@@ -81,7 +81,7 @@ Na een hartinfarct wordt het afgestorven hartspierweefsel vervangen door bindspi
 
 In de toekomst kan met **stamceltherapie** mogelijk dit probleem worden opgelost.
 
-Een **dotterbehandeling** is een manier om een kransslagader te verwijden. De arts schuift via de liesslagader met een catheter een ballonnetje naar de plek van de vernauwing. Dit ballonetje wordt vervolgens opgeblazen, zodat de vaatwand en de plaque naar buiten worden gedrukt.
+Een **dotterbehandeling** is een manier om een kransslagader te verwijden. De arts schuift via de liesslagader met een catheter een ballonnetje naar de plek van de vernauwing. Dit ballonnetje wordt vervolgens opgeblazen, zodat de vaatwand en de plaque naar buiten worden gedrukt.
 
 Er kan hierbij ook nog een **stent** geplaatst worden: een soort metalen roostertje die de kransslagader ook open houdt.
 
@@ -129,12 +129,12 @@ Hier een overzicht van medicijnen die invloed hebben op de werking van het hart 
 
 Er zijn een aantal risicofactoren die invloed hebben op het krijgen van een hartinfarct.
 
-- **Overgewicht** of **obesitas** (ernstig overgewicht) zorgt voor een hoog LDL-cholesterolgehalte (hogere kans op slagaderverkalking) en voor een hogere bloeddruk (sneller verslijten vaten). Overgewicht gaat ook gepaard met verminderde glucose-tolerantie, wat zorgt voor een verhoogde afscheiding van insuline, wat een risicofactor is voor het onstaan van Diabetes type II, wat een risicofactor is voor het krijgen van hart- en vaatziekten.
+- **Overgewicht** of **obesitas** (ernstig overgewicht) zorgt voor een hoog LDL-cholesterolgehalte (hogere kans op slagaderverkalking) en voor een hogere bloeddruk (sneller verslijten vaten). Overgewicht gaat ook gepaard met verminderde glucose-tolerantie, wat zorgt voor een verhoogde afscheiding van insuline, wat een risicofactor is voor het ontstaan van Diabetes type II, wat een risicofactor is voor het krijgen van hart- en vaatziekten.
   
   $$BMI = \frac{gewicht}{lengte^2}$$
 
 - **Erfelijkheid**
 
-- **Roken** zorgt voor beschadiging van de vaatwant. Bovendien verdringt de hogere concentratie $CO_2$ zuurstof. Nicotine verhoogt de hartslag en de bloeddruk.
+- **Roken** zorgt voor beschadiging van de vaatwand. Bovendien verdringt de hogere concentratie $CO_2$ zuurstof. Nicotine verhoogt de hartslag en de bloeddruk.
 
 - **Stress** heeft vooral invloed op het gedrag van mensen, waardoor ze bijvoorbeeld gaan roken, veel eten, drinken, minder bewegen enz.

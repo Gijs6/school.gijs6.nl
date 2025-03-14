@@ -44,7 +44,7 @@ Je gebruikt het benadrukt persoonlijk voornaamwoord in de volgende gevallen.
 | ***toi***   | **jou, jij**  |
 | ***lui***   | **hem, hij**  |
 | ***elle***  | **haar, zij** |
-| ***nous***  | **ons, wi**   |
+| ***nous***  | **ons, wij**  |
 | ***vous***  | **jullie, u** |
 | ***eux***   | **hen, zij**  |
 | ***elles*** | **hen, zij**  |

@@ -62,7 +62,7 @@ $$\ce{Al2(SO4)3 (s) ->[\text{opl.}] 2~Al^{3+} (aq) + 3~SO4^{2-} (aq)}$$
 Als zouten **matig** oplossen in water, zet je dat in de oplosvergelijking neer als pijlen in beide kanten, omdat niet alle ionen hydrateren.
 
 $$\ce{Ca(OH)2 (s) <-->[\text{opl.}] Ca^{2+} (aq) + 2~OH^{-} (aq)}$$
-Als zouten **slecht** oplossen in water, is er geen oplosvergelijking, want de ionen worden niet gehydrateert.
+Als zouten **slecht** oplossen in water, is er geen oplosvergelijking, want de ionen worden niet gehydrateerd.
 
 > Als je bij het oplossen van een zout een los oxide-ion ($\ce{O^{-2}}$) krijgt, gaat deze een reactie aan met water: $\ce{O^{-2} (aq) + H2O (l) -> 2~OH^- (aq)}$.
 > Als je $\ce{Na2O}$ zou oplossen, zou je dus een natriumhydroxide-oplossing krijgen.
@@ -89,15 +89,15 @@ De **kleur**en van veel ion(oplossingen) en zout(oplossing)en staan in Binas 65.
 
 **Neerslagreacties** zijn reacties die kunnen ontstaan in een oplossing van ionen. Als je 2 zoutoplossingen bij elkaar voegt, kan er een suspensie (neerslag) ontstaan. Deze neerslag is een slecht oplosbaar zout (want anders zou het gewoon een heldere oplossing blijven).
 
-Als je kaliumhydroxide-oplossing mengt met een kopernitraat-oplossing, zijn er 4 ionen opgelost in het water: $\ce{K+}$, $\ce{OH-}$, $\ce{Cu^2+}$ en $\ce{NO3^-}$ (want beide zouten lossen goed op). Uit deze ionen kun je 4 zouten maken: kaliumnitraat, kaliumhydroxide, kopernitraat en koperhydroxide, . Hiervan zijn kaliumnitraat, kaliumhydroxide en kopernitraat goed oplosbaar. Koperhydroxide is slecht oplosbaar. Zodra dit zout vormt, zal het dus niet (meer) oplossen, waardoor er een neerslag ontstaat (van koperhydroxide). Als de andere zouten zouden vormen, zouden deze direct weer hydrateren.
+Als je kaliumhydroxide-oplossing mengt met een kopernitraat-oplossing, zijn er 4 ionen opgelost in het water: $\ce{K+}$, $\ce{OH-}$, $\ce{Cu^2+}$ en $\ce{NO3^-}$ (want beide zouten lossen goed op). Uit deze ionen kun je 4 zouten maken: kaliumnitraat, kaliumhydroxide, kopernitraat en koperhydroxide. Hiervan zijn kaliumnitraat, kaliumhydroxide en kopernitraat goed oplosbaar. Koperhydroxide is slecht oplosbaar. Zodra dit zout vormt, zal het dus niet (meer) oplossen, waardoor er een neerslag ontstaat (van koperhydroxide). Als de andere zouten zouden vormen, zouden deze direct weer hydrateren.
 
-Je kunt de oplosbaarheid van de verschillende ion-combinaties ook in een tabel zetten (eigenlijk is dit gewoon een klein gedeelte van de oplosbaarheidstabel uit Binas 45):
+Je kunt de oplosbaarheid van de verschillende ionencombinaties ook in een tabel zetten (eigenlijk is dit gewoon een klein gedeelte van de oplosbaarheidstabel uit Binas 45):
 
 |              | $\ce{OH-}$ | $\ce{NO3^-}$ |
 | ------------ | ---------- | ------------ |
 | $\ce{K+}$    | g          | g            |
 | $\ce{Cu^2+}$ | s          | g            |
 
-De reactie die hier plaatsvindt is dus $\ce{Cu^2+ (aq) + 2~OH^- (aq) -> Cu(OH)2 (s)}$.
+De reactie die hier plaatsvindt, is dus $\ce{Cu^2+ (aq) + 2~OH^- (aq) -> Cu(OH)2 (s)}$.
 
 Je kunt ook de aanwezigheid van een enkel ion aantonen met neerslagreacties.
