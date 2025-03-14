@@ -55,14 +55,15 @@ Translaties en vermenigvuldigingen zijn voorbeelden van **transformaties**.
 De eenvoudigste **wortelfunctie** is $f(x)=\sqrt{x}$. Dit is een **standaardfunctie**, en de grafiek is dus ook een **standaardgrafiek**. De grafiek is een halve parabool die de $y$-as in het **randpunt** $O(0,0)$ raakt. Het domein (alle waarden op de $x$-as) van $f$ is $D_f=[0,\rightarrow \rangle$ en het bereik (alle waarden op de $y$-as) is $B_f=[0,\rightarrow \rangle$.
 
 Om het domein te vinden van een wortelfunctie als $g(x)=-9+\sqrt{5+3x}$ ga je als volgt te werk:
+
 - Onder het wortelteken moet een niet-negatief getal staan, want de wortel van een negatief getal heeft geen reële uitkomst, dus
-  
+
   $5+3x\geq 0$
 
   $3x\geq -5$
 
   $x\geq -\frac{5}{3}$
-- De $x$-coordinaat van het randpunt is dus $-\frac{5}{3}$, want hier begint de grafiek.
+- De $x$-coördinaat van het randpunt is dus $-\frac{5}{3}$, want hier begint de grafiek.
 - Dus $D_g=[-\frac{5}{3},\rightarrow \rangle$
-- De $y$-coordinaat van het randpunt krijg je door $g(-\frac{5}{3})=-9+\sqrt{5+3\cdot -\frac{5}{3}}=-9+\sqrt{0}=-9$.
+- De $y$-coördinaat van het randpunt krijg je door $g(-\frac{5}{3})=-9+\sqrt{5+3\cdot -\frac{5}{3}}=-9+\sqrt{0}=-9$.
 - Het randpunt is dus $(-\frac{5}{3}, -9)$.

@@ -98,6 +98,6 @@ Je kunt de oplosbaarheid van de verschillende ionencombinaties ook in een tabel 
 | $\ce{K+}$    | g          | g            |
 | $\ce{Cu^2+}$ | s          | g            |
 
-De reactie die hier plaatsvindt, is dus $\ce{Cu^2+ (aq) + 2~OH^- (aq) -> Cu(OH)2 (s)}$.
+De reactie die hier plaatsvindt, is dus $\ce{Cu^2+ (aq) + 2~OH^- (aq) -> Cu(OH)2 (s)}$. De rest van de ionen ($\ce{NO3^-}$ en $\ce{K+}$) reageren niet, dus deze komen ook niet in de reactievergelijking voor. Deze ionen (die dus niet reageren) noem je **tribune-ionen**.
 
 Je kunt ook de aanwezigheid van een enkel ion aantonen met neerslagreacties.
