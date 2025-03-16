@@ -149,3 +149,18 @@ Middeleeuwse verhalen bevatten veel kleuren, getallen en dieren met een **symbol
 **Didactische literatuur** heeft als belangrijkste doel de lezers iets te leren. Een voorbeeld van de didactische literatuur is de geestelijk didactische literatuur:
 In veel middeleeuwse verhalen speelt het christelijk geloof een centrale rol. Er waren **heiligenlevens**, waarin de levens van heiligen als voorbeelden van een goed leven werden gepresenteerd.  
 Ook werden er **exempelen** (korte verhalen over goed en kwaad) verteld, waarin gewone mensen, vaak beïnvloed door de duivel, fouten maakten. Een speciaal type exempel is de **Marialegende**, waarin Maria optreedt als bemiddelaar tussen de mens en God.
+
+## Verhalen
+
+### Beatrijs
+
+Beatrijs is een beroemde Nederlandse Marialegende.
+
+> Je moet van Beatrijs weten waar het verhaal in grote lijnen over gaat.
+
+Beatrijs, een jonge non, wordt overweldigd door de liefde en verlaat haar klooster om met haar geliefde een werelds leven te leiden. Ze spreken af onder de egelantier, een struik in de kloostertuin, waarna Beatrijs haar kloosterkleed aflegt en haar geliefde haar voorziet van blauwe en witte kleren ($\Rightarrow$ symboliek!). Ze reizen samen weg en leven gelukkig, maar na zeven jaar raakt hun geld op. Haar geliefde verbreekt zijn belofte en verlaat haar, waardoor Beatrijs alleen achterblijft met hun twee kinderen.  
+Om te overleven, wordt ze gedwongen tot een zondig leven als publieke vrouw, ondanks haar afkeer hiervan. Gedurende veertien jaar blijft ze echter trouw haar Mariagebeden bidden. Uiteindelijk voelt ze diep berouw en bidt tot Maria om verlossing. Ze keert terug naar haar geboortestad en ontdekt dat Maria haar plaats al die tijd in het klooster heeft ingenomen. In een visioen wordt haar vergeven, en ze kan terugkeren naar het klooster zonder dat iemand haar afwezigheid heeft opgemerkt. Maria's genade toont zich in haar volledige herstel als non.
+
+### Karel ende Elegast
+
+> Komt nog!
