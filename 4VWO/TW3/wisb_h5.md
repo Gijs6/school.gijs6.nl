@@ -21,15 +21,14 @@ layout: default
 Voor de vergelijking $x^{\frac{a}{b}}=c$ met $c>0$ en $x>0$ geldt $x^{\frac{a}{b}}=c$ geeft $x=c^{\frac{b}{a}}$.
 Deze regel kun je ook toepassen om de variabele $x$ vrij te maken bij $y=ax^p$.
 
-> Voorbeeld:
->
-> - $y=19x^{-3 \frac{1}{2}}$
-> - $19x^{-3 \frac{1}{2}}=y$
-> - $19x^{-\frac{7}{2}}=y$
-> - $x^{-\frac{7}{2}}=\frac{1}{19}y$
-> - $x=(\frac{1}{19}y)^{-\frac{2}{7}}$
-> - $x=(\frac{1}{19})^{-\frac{2}{7}}\cdot y^{-\frac{2}{7}}$
-> - $x=19^{\frac{2}{7}}\cdot y^{-\frac{2}{7}}$
+> Voorbeeld:  
+> $y=19x^{-3 \frac{1}{2}}$  
+> $19x^{-3 \frac{1}{2}}=y$  
+> $19x^{-\frac{7}{2}}=y$  
+> $x^{-\frac{7}{2}}=\frac{1}{19}y$  
+> $x=(\frac{1}{19}y)^{-\frac{2}{7}}$  
+> $x=(\frac{1}{19})^{-\frac{2}{7}}\cdot y^{-\frac{2}  {7}}$  
+> $x=19^{\frac{2}{7}}\cdot y^{-\frac{2}{7}}$
 
 ## Standaardfuncties
 
@@ -50,25 +49,20 @@ De eenvoudigste **wortelfunctie** is $f(x)=\sqrt{x}$. Dit is een **standaardfunc
 
 Om het domein te vinden van een wortelfunctie als $g(x)=-9+\sqrt{5+3x}$ ga je als volgt te werk:
 
-- Onder het wortelteken moet een niet-negatief getal staan, want de wortel van een negatief getal heeft geen reële uitkomst, dus
-
-  - $5+3x\geq 0$
-
-  - $3x\geq -5$
-
-  - $x\geq -\frac{5}{3}$
-
+- Onder het wortelteken moet een niet-negatief getal staan, want de wortel van een negatief getal heeft geen reële uitkomst, dus  
+  $5+3x\geq 0$  
+  $3x\geq -5$  
+  $x\geq -\frac{5}{3}$  
 - De $x$-coördinaat van het randpunt is dus $-\frac{5}{3}$, want hier begint de grafiek.
 - Dus $D_g=[-\frac{5}{3},\rightarrow \rangle$
 - De $y$-coördinaat van het randpunt krijg je door $g(-\frac{5}{3})=-9+\sqrt{5+3\cdot -\frac{5}{3}}=-9+\sqrt{0}=-9$.
 - Het randpunt is dus $(-\frac{5}{3},~-9)$.
 
-Je kunt de variabele $x$ vrijmaken bij een wortelfunctie als $y=2+\sqrt{x-3}$:
-
-- $y-2=\sqrt{x-3}$
-- $(y-2)^2=x-3$
-- ...
-- $x=y^2-4y+7$
+Je kunt de variabele $x$ vrijmaken bij een wortelfunctie als $y=2+\sqrt{x-3}$:  
+$y-2=\sqrt{x-3}$  
+$(y-2)^2=x-3$  
+...  
+$x=y^2-4y+7$
 
 > Bij het vrijmaken van een variabele hoef je geen voorwaarden te vermelden.
 
@@ -91,15 +85,14 @@ Je kunt vergelijkingen als $y=120\cdot 3^{2x-1}$ herleiden tot de vorm $y=b\cdot
 
 Een **exponentiele vergelijking** als $2^{12+x}=\sqrt{2}$ kun je oplossen met de regel $g^A=g^B$ geeft $A=B$. Om zo'n vergelijking op te lossen moeten beide leden dus hetzelfde grondtal hebben. Soms moet je eerst herleiden om 2 leden met een gelijk grondtal te krijgen.
 
-> Voorbeeld:
->
-> - $3^{x+2}=72+3^x$
-> - $3^x\cdot 3^2=72+3^x$
-> - $9\cdot 3^x-3^x=72$
-> - $8\cdot 3^x=72$
-> - $3^x=9$
-> - $3^x=3^2$
-> - $x=2$
+> Voorbeeld:  
+> $3^{x+2}=72+3^x$  
+> $3^x\cdot 3^2=72+3^x$  
+> $9\cdot 3^x-3^x=72$  
+> $8\cdot 3^x=72$  
+> $3^x=9$  
+> $3^x=3^2$  
+> $x=2$  
 
 ## Logaritmen
 

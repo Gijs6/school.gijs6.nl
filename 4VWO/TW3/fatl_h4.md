@@ -25,14 +25,14 @@ Om te bepalen welk persoonlijk voornaamwoord je moet gebruiken, moet je kijken n
 
 Als er in de zin een heel werkwoord staat, dan staat het persoonlijk voornaamwoord voor het hele werkwoord. Als er geen heel werkwoord in de zin staat, staat het persoonlijk voornaamwoord voor de persoonsvorm, ook bij de ontkenning.
 
-*On interviewe **les téléspectateurs**.* $ \Rightarrow $ *On **les** interviewe.* (Lijdend voorwerp)
+*On interviewe **les téléspectateurs**.* $ \Rightarrow $ *On **les** interviewe.* (Lijdend voorwerp)  
 *On pose des questions **aux téléspectateurs**.* $ \Rightarrow $ *On **leur** pose des questions.* (Meewerkend voorwerp)
 
 ### Benadrukt persoonlijk voornaamwoord
 
 > We hebben dit niet gehad, maar het komt een aantal keren terug in de grammatica van de gebiedende wijs en bij de persoonlijke voornaamwoorden
 
-Je gebruikt het benadrukt persoonlijk voornaamwoord in de volgende gevallen.
+Je gebruikt het benadrukt persoonlijk voornaamwoord in de volgende gevallen:
 
 - na een **voorzetsel**
 - als er **nadruk** op ligt

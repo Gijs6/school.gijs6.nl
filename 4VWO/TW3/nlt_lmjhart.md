@@ -47,12 +47,10 @@ Bloeddruk zou je kunnen meten in een normale eenheid, maar vrijwel iedereen gebr
 
 Je kunt de bloeddruk meten. Er wordt dan een manchet om de bovenarm of pols gewikkeld. Deze wordt zo opgeblazen dat er net geen bloed meer kan stromen. Dit kan worden bepaald met een stethoscoop (als je niets meer hoort stromen). De druk op dat moment in de manchet is gelijk aan de bovendruk. Vervolgens wordt de manchet zo ontspannen dat er geen kloppend geluid meer is te horen (dan stroomt het bloed weer normaal). De druk op dat moment in de manchet is gelijk aan de onderdruk.
 
-Om de bloeddruk aan te geven wordt vaak zowel de boven als onderdruk aangegeven. Je kunt ook de **MAP** (Mean Arterial Pressure) gebruiken. De map is niet het gemiddelde, want er wordt rekening gehouden met de duur van de diastole en de systole.
-
+Om de bloeddruk aan te geven wordt vaak zowel de boven als onderdruk aangegeven. Je kunt ook de **MAP** (Mean Arterial Pressure) gebruiken. De map is niet het gemiddelde, want er wordt rekening gehouden met de duur van de diastole en de systole.  
 $$MAP = \frac{2 \cdot onderdruk + bovendruk}{3}$$
 
-Je kunt de MAP ook op een andere manier berekenen:
-
+Je kunt de MAP ook op een andere manier berekenen:  
 $$MAP = cardiac\: output \cdot perifere\: weerstand$$
 
 Je ziet dus dat de MAP afhangt van de *cardiac output* (dus de hoeveelheid bloed per slag) en de perifere weerstand (de weerstand die het bloed ondervindt in de slagaders).
@@ -96,45 +94,27 @@ De inspanning die het hart moet leveren wordt bepaald door het rondgepompte bloe
 Hier een overzicht van medicijnen die invloed hebben op de werking van het hart en/of vaten.
 
 - **Bloedverdunners**
-  
   - **Stollingsremmers** zorgen ervoor dat het bloed minder snel stolt.
-  
   - **Plaatjesremmers** zorgen ervoor dat de bloedplaatjes minder goed hun werk doen, waardoor trombose of embolie kan optreden.
-
 - **Cholesterolverlagers**
-  
   - **Statine** remt de aanmaak van cholesterol in de lever, en vertraagt dus ook het slagaderverkalkingsproces.
-
 - **Hartritmebeïnvloeders**
-  
   - **Digoxine** vergroot de pompkracht van het hart, verlaagt het hartritme en laat de zuurstofconsumptie van het hart toenemen.
-  
   - **Bètablokkers** verlagen de hartfrequentie en verminderen de zuurstofbehoefte van het hart. Ook verlagen ze de bloeddruk.
-
 - **Plaspillen**
-  
   - **Diuretica** zorgen voor veel vochtafvoer via urine, waardoor het bloedvolume afneemt, waardoor de bloeddruk afneemt.
-
 - **Vaatverwijdingsmedicijnen**
-  
   - **ACE-remmers** zorgen voor een verlaging van de perifere weerstand, wat voor een verlaging van de MAP (dus van de bloeddruk) zorgt.
-  
   - **Angiotensine II-receptorantagonisten** blokkeren de werking van het bloeddrukverhogende hormoon **angiotensine** door de receptoren van **angiotensine II** te blokkeren met **antagonisten**, waardoor de bloeddruk daalt.
-  
   - **Calciumantagonisten** remmen de werking van calciumionen waardoor spiercellen zich minder goed kunnen samentrekken, waardoor de kracht van elke hartslag en de hartfrequentie wordt verminderd. Bovendien wordt de perifere weerstand verlaagd.
-  
   - **Nitraten** en **nitrieten** verslappen de gladde spieren van slagaders en aders waardoor de bloedvaten wijder worden, waardoor zowel de bloeddruk als de perifere weerstand daalt.
 
 ## Preventie
 
 Er zijn een aantal risicofactoren die invloed hebben op het krijgen van een hartinfarct.
 
-- **Overgewicht** of **obesitas** (ernstig overgewicht) zorgt voor een hoog LDL-cholesterolgehalte (hogere kans op slagaderverkalking) en voor een hogere bloeddruk (sneller verslijten vaten). Overgewicht gaat ook gepaard met verminderde glucose-tolerantie, wat zorgt voor een verhoogde afscheiding van insuline, wat een risicofactor is voor het ontstaan van Diabetes type II, wat een risicofactor is voor het krijgen van hart- en vaatziekten.
-  
-  $$BMI = \frac{gewicht}{lengte^2}$$
-
+- **Overgewicht** of **obesitas** (ernstig overgewicht) zorgt voor een hoog LDL-cholesterolgehalte (hogere kans op slagaderverkalking) en voor een hogere bloeddruk (sneller verslijten vaten). Overgewicht gaat ook gepaard met verminderde glucose-tolerantie, wat zorgt voor een verhoogde afscheiding van insuline, wat een risicofactor is voor het ontstaan van Diabetes type II, wat een risicofactor is voor het krijgen van hart- en vaatziekten.  
+  $$BMI = \frac{gewicht}{lengte^2}$$  
 - **Erfelijkheid**
-
 - **Roken** zorgt voor beschadiging van de vaatwand. Bovendien verdringt de hogere concentratie $CO_2$ zuurstof. Nicotine verhoogt de hartslag en de bloeddruk.
-
 - **Stress** heeft vooral invloed op het gedrag van mensen, waardoor ze bijvoorbeeld gaan roken, veel eten, drinken, minder bewegen enz.

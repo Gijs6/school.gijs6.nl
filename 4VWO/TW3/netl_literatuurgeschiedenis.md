@@ -45,12 +45,13 @@ Er waren 3 **tragedieregels**:
   3. **Climax**: opvoeren spanning
   4. **Catastrofe**: hoogtepunt van spanning
   5. **Peripetie**: ontknoping en afwikkeling
-- 2e regel: **eenheid van plaats, tijd en ruimte**
+- 2e regel: **eenheid van plaats, tijd en handeling**
   Een tragedie zou zich moeten afspelen in een tijdsbestek van 1 dag, op 1 plaats en met 1 intrige.
 - 3e regel: de eerste 4 bedrijven sluiten af met een koor. Dit koor had als functie om voorgeschiedenis te vertellen, pauzes te overbruggen, samen te vatten enz.
 
 De **Thora** bevat vijf boeken die de Hebreeuwse Bijbel vormen. Deze boeken maken ook deel uit van het Oude Testament.  
 Het leven van Jezus staat in het Nieuwe Testament.
+
 ## Middeleeuwen
 
 De **middeleeuwen** (500 - 1500) worden zo genoemd omdat deze eeuwen tussen de klassieke oudheid en de renaissance inzitten.
@@ -82,20 +83,69 @@ Leenmannen lieten hun land bewerken door horige boeren. Boeren maakten deel uit 
 
 Het **Rooms-katholicisme** was de enige godsdienst. Dit had een aantal gevolgen:
 
-- Het was moeilijk om nieuwe ideeën en inzichten te verspreiden. 
+- Het was moeilijk om nieuwe ideeën en inzichten te verspreiden.
 - Er was weinig maatschappelijke onrust
 - Er was veel onderlinge verbondenheid
 
 Men geloofde dat het aardse leven slechts een voorbereiding was op hemel of hel.  
 Wat goed of slecht was werd bepaald door de kerk. In 600 bepaalde de paus de 7 hoofd**zonden** en de 7 **deugden**. Als men berouw toonde en/of een straf onderging kon een zonde ongedaan worden gemaakt.  
 De **duivel** zou mensen continu verleiden tot zonden.
+
 ### Ridders
 
 De **ridders** (deel van de adel) zouden een **ontwikkeld en verfijnd mens** zijn. Belangrijke eigenschappen van een ridder waren hulpvaardigheid, rechtvaardigheid en hoffelijkheid.  
-De ridders waren onderworpen aan de christelijke moraal en een gedragscode. Deze worden samengevat in het begrip **hoofsheid**. De belangrijkste hoofse waarde was **trouw**. Een ridder die zich niet eervol gedroeg bracht **schande** over zichzelf. Dit had o.a. sociale uitsluiting (denk aan het hedendaagse *cancelen* van iemand) tot gevolg.
+De ridders waren onderworpen aan de christelijke moraal en een gedragscode. Deze worden samengevat in het begrip **hoofsheid**. De belangrijkste hoofse waarde was **trouw**. Een ridder die zich niet eervol gedroeg, bracht **schande** over zichzelf. Dit had o.a. sociale uitsluiting (denk aan het hedendaagse *cancelen* van iemand) tot gevolg.
 
 Omdat er in de middeleeuwen zoveel gehecht werd aan cultuur, werd de middeleeuwse cultuur ook wel een **eercultuur** genoemd. Kenmerkend voor een eercultuur is de collectieve moraal (gedeelde opvattingen over wat goed en slecht is). Tegenwoordig is er meer sprake van een **gewetenscultuur**, waarin mensen zelf bepalen wat goed en slecht is.
 
 **Ridders**, deel van de adel, zouden ontwikkeld en verfijnd zijn. Hoffelijkheid, hulpvaardigheid en rechtvaardigheid waren belangrijk voor ridders Hun gedrag werd bepaald door de christelijke moraal en een gedragscode. Deze 2 begrippen vielen onder het begrip **hoofsheid**, met **trouw** als belangrijkste waarde. Oneervol gedrag bracht **schande** en kon leiden tot sociale uitsluiting (denk aan het hedendaagse *cancelen*).
 
 De middeleeuwse samenleving was een **eercultuur**, waarin een collectieve moraal bepaalde wat goed of slecht was. Tegenwoordig overheerst een **gewetenscultuur**, waarin individuen dit zelf bepalen.
+
+### Middeleeuwse literatuur
+
+In de middeleeuwen werd literatuur nauwelijks opgeschreven, omdat boeken handmatig gekopieerd moesten worden, vaak door monniken in **scriptorium**s. Dit proces kon wel een jaar duren. Wat ze opschreven waren kopieën van mondelinge verhalen die door verschillende mensen werden doorgegeven en daardoor veranderden. Boeken waren duur (door tijd en materiaal, zoals perkament) en alleen voor de rijken betaalbaar.
+
+Veel literatuur werd mondeling doorgegeven, gericht op ridders en adellieden. **Troubadours** verzonnen de verhalen, en **jongleurs** en **minstrelen** droegen ze voor. De verhalen rijmden vaak, wat het makkelijker maakte om ze te onthouden.
+
+Tot ongeveer 1000 werd alleen in Latijn geschreven. Eind 11e eeuw begon men ook in de volkstaal te schrijven, wat het begin van de literatuurgeschiedenis markeert. De oudste zin in **Diets** (Middelnederlands) die we kennen is een **pennenproef**: *Hebban olla vogala nestas hagunnan hinase hic anda thu, wat unbidan we nu?* (Alle vogels nestelen, behalve ik en jij. Waar wachten we nog op?).
+
+### Middeleeuwse verhalen
+
+Middeleeuwse **ridderromans** zijn op te delen in 2 soorten: **Karelromans** en **Arthurromans** (of **Hoofse romans**).
+
+Kenmerken en thema's van Karelromans (ook wel vóórhoofse romans of chanson de geste):
+
+- Spelen zich af rond Karel de Grote (epische concentratie: dingen worden aan hem toegeschreven die hij niet heeft gedaan)
+- Geloof in en trouw aan God (belangrijkste thema)
+- Ridderidealen (kracht en moed)
+- Trouwheid aan de leenheer
+- Mannen zijn ruwe en moedige vechtersbazen
+- Vrouw speelt ondergeschikte rol
+
+Kenmerken en thema's van Arthurromans (Hoofse romans):
+
+- Gaat over koning Arthur en zijn ridders van de ronde tafel (het is niet duidelijk of koning Arthur echt heeft bestaan)
+- Keltische achtergrond
+- Hoofsheid (belangrijkste thema)
+- **Queestestructuur**: in het begin van het verhaal zijn de ridders op het kasteel van Arthur, maar door een vreemde gebeurtenis wordt de rust verstoord
+- Vrouwen worden vereerd en aanbeden, mannen doen veel om de liefde van een vrouw te winnen
+
+Liefde was een belangrijk thema in middeleeuwse verhalen. **Hoofse liefde** is vaak een geheime, onmogelijke liefde zonder seksuele handelingen (platonisch).  
+
+Aan de ene kant wordt de vrouw vereerd (zoals in de Arthurromans). Ze moet voldoen aan het beeld van Maria: onschuldig, maagd en zuiver.  
+Aan de andere kant wordt vanuit de kerk de vrouw gezien als de bron van kwaad. De vrouw is ondergeschikt aan de man omdat Eva de appel heeft gegeten. Ze wordt gezien als een verleidster. Daarnaast heb je ook nog heksen die als zondebok gebruikt worden.
+
+Middeleeuwse verhalen bevatten veel kleuren, getallen en dieren met een **symbolische** betekenis. Voorbeelden:
+
+- Blauw: adel, reinheid, vroomheid
+- Wit: maagdelijkheid, reinheid, waarheid
+- 3: goddelijke volmaaktheid
+- 7: afronding periode
+- Witte duif: vrede
+
+### Didactische en geestelijke literatuur
+
+**Didactische literatuur** heeft als belangrijkste doel de lezers iets te leren. Een voorbeeld van de didactische literatuur is de geestelijk didactische literatuur:
+In veel middeleeuwse verhalen speelt het christelijk geloof een centrale rol. Er waren **heiligenlevens**, waarin de levens van heiligen als voorbeelden van een goed leven werden gepresenteerd.  
+Ook werden er **exempelen** (korte verhalen over goed en kwaad) verteld, waarin gewone mensen, vaak beïnvloed door de duivel, fouten maakten. Een speciaal type exempel is de **Marialegende**, waarin Maria optreedt als bemiddelaar tussen de mens en God.
