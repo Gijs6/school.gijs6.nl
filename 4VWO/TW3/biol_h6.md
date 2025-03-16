@@ -11,7 +11,7 @@ layout: default
 De definitie van een **soort** was de overeenkomst in uiterlijke kenmerken en de mogelijkheid om vruchtbare nakomelingen te krijgen. Tegenwoordig wordt DNA gebruikt om de indeling van soorten te bepalen.
 Soms is de grens tussen soorten niet duidelijk, zoals bij **hybriden**: levensvatbare kruisingen tussen verschillende soorten. Hybriden zijn vaak niet vruchtbaar.
 
-Alle soorten worden ingedeeld op basis van verwantschap met andere soorten (**taxonomie**). De taxonomie plaatst organisme in steeds grotere groepen (**taxa**): **organismen** $ \rightarrow $ **soorten** $ \rightarrow $ **geslachten** $ \rightarrow $ **families** $ \rightarrow $ **orden** $ \rightarrow $ **klassen** $ \rightarrow $ **afdelingen** $ \rightarrow $ **rijken** $ \rightarrow $ **domeinen**. Hoe minder verwant 2 organismen aan elkaar zijn, hoe minder taxa ze delen.
+Alle soorten worden ingedeeld op basis van verwantschap met andere soorten (**taxonomie**). De taxonomie plaatst organisme in steeds grotere groepen (**taxa**): **organismen** $\rightarrow$ **soorten** $\rightarrow$ **geslachten** $\rightarrow$ **families** $\rightarrow$ **orden** $\rightarrow$ **klassen** $\rightarrow$ **afdelingen** $\rightarrow$ **rijken** $\rightarrow$ **domeinen**. Hoe minder verwant 2 organismen aan elkaar zijn, hoe minder taxa ze delen.
 
 Er zijn 3 domeinen: **archaea**, **bacteriën** en **eukaryoten**. De archaea zijn net als bacteriën eencelligen zonder kernmembraan. Hun cirkelvormig DNA ligt los in het grondplasma en het celmembraan bestaat uit 1 laag. Elk domein heeft een eigen type rRNA (ribosomaal RNA).
 
@@ -24,17 +24,15 @@ Elke beschreven soort krijgt een **wetenschappelijke naam** volgens de **binomin
 Een **populatie** is een groep organismen van dezelfde soort in een bepaald gebied.
 Er zijn verschillende manieren om een populatiegrootte te schatten:
 
-- **Tellen**
+- **Tellen**  
   Vooral toepasbaar bij kleine populaties
-- **Schatten**
+- **Schatten**  
   Zoals bij planten, je bepaalt dan het aantal bloemen per representatieve oppervlakte-eenheid en vervolgens de totale oppervlakte waar de plant groeit
-- **Vangst-terugvangstmetode**
+- **Vangst-terugvangstmetode**  
   Een aantal dieren vangen, die van een merkteken voorzien en vrijlaten ($n_1$). Na een tijdje worden er weer een aantal dieren gevangen ($n_2$), waarvan er een aantal een merkteken zullen hebben ($n_3$). Vervolgens kun je de totale populatiegrootte ($N$) schatten met de formule $N = \frac{n_1 \cdot n_2 }{n_3}$.
 
-De populatiegrootte kan erg verschillen. Veranderingen van de populatiegrootte komen vooral door **geboorte**, **immigratie**, **sterfte** en **emigratie**.
-
-Natuurlijke factoren hebben ook veel invloed op de populatiegrootte. Er is altijd 1 factor die de groei van een populatie het meest belemmert: de **beperkende factor**.
-
+De populatiegrootte kan erg verschillen. Veranderingen van de populatiegrootte komen vooral door **geboorte**, **immigratie**, **sterfte** en **emigratie**.  
+Natuurlijke factoren hebben ook veel invloed op de populatiegrootte. Er is altijd 1 factor die de groei van een populatie het meest belemmert: de **beperkende factor**.  
 De maximale capaciteit van een gebied om voldoende voedsel en schuil- en nestplaatsen te leveren (waardoor de populatiegrootte constant blijft) is de **draagkracht** van een gebied.
 
 ## Natuurbeheer
@@ -60,7 +58,7 @@ De tolerantiegrenzen en het optimumgebied kun je weergeven in een **tolerantiecu
 
 ![Een tolerantiecurve (img-large)](images/biol_h6_tolerantiecurve.jpg)
 
-De **niche** van een soort is de omschrijving hoe die soort de omgeving gebruikt en beïnvloedt.
+De **niche** van een soort is de omschrijving hoe die soort de omgeving gebruikt en beïnvloedt.  
 Een **adaptatie** is een erfelijke aanpassing aan het uiterlijk of het gedrag die ontstaan door langdurige selectieprocessen. Deze adaptaties kunnen ontstaan door mutaties in het genoom.
 
 ## Relaties tussen soorten
@@ -69,7 +67,7 @@ Als een soort een andere eet, spreek je van een **voedselrelatie**. Voedselrelat
 
 ![Een voedselketen (img-medium)](images/biol_h6_voedselketen.jpg)
 
-De pijlen binnen de voedselketen volgen de organische stoffen: dus van wat gegeten wordt naar door wat het wordt gegeten.
+De pijlen binnen de voedselketen volgen de organische stoffen: dus van wat gegeten wordt naar door wat het wordt gegeten.  
 Je kunt ook meerdere voedselketens aan elkaar koppelen. Je krijgt dan een **voedselweb**.
 
 ![Een voedselweb (img-medium)](images/biol_h6_voedselweb.jpg)
@@ -104,7 +102,7 @@ Na een ramp waarbij het aantal individuelen sterk is afgenomen, zal ook de allel
 
 Als er een nieuwe populatie ontstaat (kolonisatie), is de allelensamenstelling binnen de nieuwe groep minder gevarieerd dan de oorspronkelijke populatie: het **stichtereffect**.
 
-Er is een verband tussen de grootte van een eiland, de afstand tot het vasteland en de soortenrijkdom. De **eilandtheorie** beschrijft dit verband ($ \Rightarrow $ Binas 93C) Grote eilanden bieden meer niches en er kunnen meer soorten leven dan op kleine eilanden. Nabijgelegen eilanden ontvangen sneller nieuwe soorten dan afgelegen eilanden.
+Er is een verband tussen de grootte van een eiland, de afstand tot het vasteland en de soortenrijkdom. De **eilandtheorie** beschrijft dit verband ($\rightarrow$ Binas 93C) Grote eilanden bieden meer niches en er kunnen meer soorten leven dan op kleine eilanden. Nabijgelegen eilanden ontvangen sneller nieuwe soorten dan afgelegen eilanden.
 Op sommige punten ontstaat er dan een evenwicht tussen de immigratie en de sterfte.
 
 ![De eilandtheorie (img-semilarge)](images/biol_h6_eiland.jpg)
