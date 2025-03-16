@@ -12,9 +12,13 @@ layout: default
 
 - [FATL - H4](4VWO/TW3/fatl_h4.md)
 
+- [NETL - Literatuurgeschiedenis (Oudheid & middeleeuwen)](4VWO/TW3/netl_literatuurgeschiedenis.md)
+
 - [NLT - Leef met je hart!](4VWO/TW3/nlt_lmjhart.md)
 
 - [SCHK - H4 (Zouten)](4VWO/TW3/schk_h4.md)
+
+- [WISB - H5 (Machten, exponenten en logaritmen)](4VWO/TW3/wisb_h5.md)
 
 ### P3
 

@@ -1,6 +1,6 @@
 ---
 title: WISB - H5 - Samenvatting
-indexname: NLT - H5 (Machten, exponenten en logaritmen)
+indexname: WISB - H5 (Machten, exponenten en logaritmen)
 layout: default
 ---
 
