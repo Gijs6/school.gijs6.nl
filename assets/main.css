@@ -40,7 +40,7 @@ svg {
     fill: white;
 }
 
-p {
+p, li {
     font-weight: 300;
 }
 
