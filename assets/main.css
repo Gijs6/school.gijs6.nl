@@ -142,7 +142,7 @@ strong {
     font-weight: 700;
 }
 
-.imgcredit, .imgcredit a {
+.credit-text, .credit-text a {
     font-weight: 400 !important;
     font-size: 0.8em !important;
     color: #aaa !important;
