@@ -27,7 +27,7 @@ header a {
 
 a {
     text-decoration-color: #888;
-    color: white;
+    color: inherit;
     font-weight: bolder;
 }
 
@@ -142,7 +142,7 @@ strong {
     font-weight: 700;
 }
 
-.credit-text, .credit-text a {
+.credit-text {
     font-weight: 400 !important;
     font-size: 0.8em !important;
     color: #aaa !important;
