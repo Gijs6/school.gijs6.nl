@@ -82,3 +82,6 @@ When they arrive at Herot Beowulf leaves a few of his warriors outside. Then he 
 During the meal, Unferth (Ecglaf's son) tells a story about a swimming match between Beowulf and Brecca. Beowulf lost this match against Brecca. He does this because he is jeaous of Beowulf and tries to intimidate him. Beowulf replies by telling Unferth he's drunk (he is) and that his story is incorrect. Beowulf did indeed lose, but that's because he had to fight underwater monsters (and won), and Brecca did not. Then Beowulf exposes that Unferth killed his own brothers.
 
 In the night, Grendel visits Herot again.
+
+> Not yet finished!
+
