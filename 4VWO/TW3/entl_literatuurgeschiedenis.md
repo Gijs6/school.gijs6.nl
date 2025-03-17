@@ -17,7 +17,8 @@ There were multiple varieties of the English throughout history:
 ### Old English
 
 Old English was heavily influenced by 2 invasions/settlements:
-- The **Anglo-Saxon invasions** (around the year 400) by 3 tribes from North Europe: The **Saxons**, the **Jutes** and the **Angles**. 
+
+- The **Anglo-Saxon invasions** (around the year 400) by 3 tribes from North Europe: The **Saxons**, the **Jutes** and the **Angles**.
 - The **Viking invasions** (around the year 800) **brought about** many new words (such as \[sk-\] sounds: skill, sky, ...) and new grammar (such as them/their/they).
 
 Old English displayed (*verdrong*) 2 languages that were spoken at the time on the British Isles: Britannic **Celtic** and **Latin**.
@@ -26,7 +27,8 @@ Old English displayed (*verdrong*) 2 languages that were spoken at the time on t
 
 Middle English was mainly influenced by the Norman Conquest of 1066.
 
-![An image of the Norman Conquest of 1066 on the Bayeux Tapestry (img-medium)](images/entl_norman.jpg)  <span class="imgcredit"><a href="https://commons.wikimedia.org/wiki/File:Normans_Bayeux.jpg">Dan Koehl</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons</span>
+![An image of the Norman Conquest of 1066 on the Bayeux Tapestry (img-medium)](images/entl_norman.jpg)  
+<span class="imgcredit"><a href="https://commons.wikimedia.org/wiki/File:Normans_Bayeux.jpg">Dan Koehl</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons</span>
 
 > This image, depicting the Battle of Hastings (one of the most important battles during the Norman Conquest), is from the Bayeux Tapestry, which is a very cool 70(!!!) meter long embroidered cloth depicing all kinds of events around the Norman Conquest.
 
