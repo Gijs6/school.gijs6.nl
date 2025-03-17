@@ -2,7 +2,6 @@ title: Leermiddelenoverzicht
 email: gijs6@dupunkto.org
 github_username: gijs6
 
-theme: minima
 plugins:
   - jekyll-feed
 
