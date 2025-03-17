@@ -1,7 +1,6 @@
 ---
-title: FATL - H4 - Samenvatting
-indexname: FATL - H4
 layout: default
+title: FATL - H4 - Samenvatting
 ---
 
 # Franse taal en literatuur: Hoofdstuk 4

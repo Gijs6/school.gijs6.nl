@@ -1,7 +1,6 @@
 ---
-title: SCHK - H4 - Samenvatting
-indexname: SCHK - H4 (Zouten)
 layout: default
+title: SCHK - H4 - Samenvatting
 ---
 
 # Scheikunde: Hoofdstuk 4 (Zouten)

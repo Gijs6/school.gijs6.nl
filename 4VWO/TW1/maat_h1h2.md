@@ -1,7 +1,6 @@
 ---
-title: MAAT - H1 & H2 - Samenvatting
-indexname: MAAT - H1 & H2 (Rechtsstaat)
 layout: default
+title: MAAT - H1 & H2 - Samenvatting
 ---
 
 # Maatschappijleer: Hoofdstuk 1 & Hoofdstuk 2 (Rechtsstaat)

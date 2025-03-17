@@ -1,7 +1,6 @@
 ---
-title: BIOL - H5 - Samenvatting
-indexname: BIOL - H5 (Erfelijkheid)
 layout: default
+title: BIOL - H5 - Samenvatting
 ---
 
 # Biologie: Hoofdstuk 5 (Erfelijkheid)

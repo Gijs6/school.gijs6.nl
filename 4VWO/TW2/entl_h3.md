@@ -1,7 +1,6 @@
 ---
-title: ENTL - H3 - Samenvatting
-indexname: ENTL - H3
 layout: default
+title: ENTL - H3 - Samenvatting
 ---
 
 # Engelse taal en literatuur: Hoofdstuk 3

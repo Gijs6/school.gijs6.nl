@@ -1,7 +1,6 @@
 ---
-title: NETL - FO - Samenvatting
-indexname: NLT - Forensisch onderzoek
 layout: default
+title: NETL - FO - Samenvatting
 ---
 
 # Natuur, leven en technologie: Forensisch onderzoek

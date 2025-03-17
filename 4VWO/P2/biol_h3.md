@@ -1,7 +1,6 @@
 ---
-title: BIOL - H3 - Samenvatting
-indexname: BIOL - H3 (Wetenschappelijk onderzoek)
 layout: default
+title: BIOL - H3 - Samenvatting
 ---
 
 # Biologie: Hoofdstuk 3 (Wetenschappelijk onderzoek)

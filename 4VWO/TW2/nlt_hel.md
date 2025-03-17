@@ -1,7 +1,6 @@
 ---
-title: NLT - HEL - Samenvatting
-indexname: NLT - Hersenen en leren
 layout: default
+title: NLT - HEL - Samenvatting
 ---
 
 # Natuur, leven en technologie: Hersenen en leren

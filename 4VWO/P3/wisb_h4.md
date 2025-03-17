@@ -1,7 +1,6 @@
 ---
-title: WISB - H4 - Samenvatting
-indexname: WISB - H4 (Vergelijkingen en herleidingen)
 layout: default
+title: WISB - H4 - Samenvatting
 ---
 
 # Wiskunde B: Hoofdstuk 4 (Vergelijkingen en herleidingen)

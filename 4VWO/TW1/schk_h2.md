@@ -1,7 +1,6 @@
 ---
-title: SCHK - H2 - Samenvatting
-indexname: SCHK - H2 (Koolstofchemie)
 layout: default
+title: SCHK - H2 - Samenvatting
 ---
 
 # Scheikunde: Hoofdstuk 2 (Koolstofchemie)

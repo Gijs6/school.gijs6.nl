@@ -1,7 +1,6 @@
 ---
-title: FATL - H2 - Samenvatting
-indexname: FATL - H2
 layout: default
+title: FATL - H2 - Samenvatting
 ---
 
 # Franse taal en literatuur: Hoofdstuk 2

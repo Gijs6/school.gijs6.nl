@@ -1,7 +1,6 @@
 ---
-title: NETL - Literatuurgeschiedenis - Samenvatting
-indexname: NETL - Literatuurgeschiedenis (Oudheid & middeleeuwen)
 layout: default
+title: NETL - Literatuurgeschiedenis - Samenvatting
 ---
 
 # Nederlandse taal en literatuur: Literatuurgeschiedenis (Oudheid & middeleeuwen)

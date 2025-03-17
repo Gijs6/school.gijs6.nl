@@ -1,7 +1,6 @@
 ---
-title: NETL - Lezen - Samenvatting
-indexname: NETL - Lezen
 layout: default
+title: NETL - Lezen - Samenvatting
 ---
 
 # Nederlandse taal en literatuur: Lezen

@@ -1,7 +1,6 @@
 ---
-title: NETL - Literatuur - Samenvatting
-indexname: NETL - Literatuur (verhaalanalyse)
 layout: default
+title: NETL - Literatuur - Samenvatting
 ---
 
 # Nederlandse taal en literatuur: Literatuur (verhaalanalyse)

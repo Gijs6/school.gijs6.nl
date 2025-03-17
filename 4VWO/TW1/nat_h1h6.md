@@ -1,7 +1,6 @@
 ---
-title: NAT - H1 & H6 - Samenvatting
-indexname: NAT - H1 (Elektriciteit) & H6 (Onderzoeksvaardigheden)
 layout: default
+title: NAT - H1 & H6 - Samenvatting
 ---
 
 # Natuurkunde: Hoofdstuk 1 (Elektriciteit) & Hoofdstuk 6 (Onderzoeksvaardigheden)

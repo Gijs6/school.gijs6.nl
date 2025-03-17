@@ -1,7 +1,6 @@
 ---
-title: ENTL - H4 - Samenvatting
-indexname: ENTL - H4
 layout: default
+title: ENTL - H4 - Samenvatting
 ---
 
 # Engelse taal en literatuur: Hoofdstuk 4

@@ -1,7 +1,6 @@
 ---
-title: SCHK - H3 - Samenvatting
-indexname: SCHK - H3 (Chemisch rekenen)
 layout: default
+title: SCHK - H3 - Samenvatting
 ---
 
 # Scheikunde: Hoofdstuk 3 (Chemisch rekenen)

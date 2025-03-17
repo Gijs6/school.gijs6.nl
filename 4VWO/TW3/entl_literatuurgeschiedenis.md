@@ -1,7 +1,6 @@
 ---
-title: ENTL - Literatuurgeschiedenis - Samenvatting
-indexname: ENTL - Literatuurgeschiedenis (Middeleeuwen)
 layout: default
+title: ENTL - Literatuurgeschiedenis - Samenvatting
 ---
 
 # Engelse taal en literatuur: Literatuurgeschiedenis (Middeleeuwen)

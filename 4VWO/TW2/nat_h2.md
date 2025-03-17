@@ -1,7 +1,6 @@
 ---
-title: NAT - H2 - Samenvatting
-indexname: NAT - H2 (Bewegingen)
 layout: default
+title: NAT - H2 - Samenvatting
 ---
 
 # Natuurkunde: Hoofdstuk 2 (Bewegingen)

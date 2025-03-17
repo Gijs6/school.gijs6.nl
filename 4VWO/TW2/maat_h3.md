@@ -1,7 +1,6 @@
 ---
-title: MAAT - H3 - Samenvatting
-indexname: MAAT - H3 (Parlementaire democratie)
 layout: default
+title: MAAT - H3 - Samenvatting
 ---
 
 # Maatschappijleer: Hoofdstuk 3 (Parlementaire democratie)

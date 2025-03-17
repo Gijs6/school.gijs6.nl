@@ -1,7 +1,6 @@
 ---
-title: FATL - H1 - Samenvatting
-indexname: FATL - H1
 layout: default
+title: FATL - H1 - Samenvatting
 ---
 
 # Franse taal en literatuur: Hoofdstuk 1

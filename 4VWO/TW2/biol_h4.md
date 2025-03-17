@@ -1,7 +1,6 @@
 ---
-title: BIOL - H4 - Samenvatting
-indexname: BIOL - H4 (Voortplanting)
 layout: default
+title: BIOL - H4 - Samenvatting
 ---
 
 # Biologie: Hoofdstuk 4 (Voortplanting)

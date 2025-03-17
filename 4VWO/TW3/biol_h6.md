@@ -1,7 +1,6 @@
 ---
-title: BIOL - H6 - Samenvatting
-indexname: BIOL - H6 (Soorten en populaties)
 layout: default
+title: BIOL - H6 - Samenvatting
 ---
 
 # Biologie: Hoofdstuk 6 (Soorten en populaties)

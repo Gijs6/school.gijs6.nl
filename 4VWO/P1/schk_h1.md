@@ -1,7 +1,6 @@
 ---
-title: SCHK - H1 - Samenvatting
-indexname: SCHK - H1 (Atoombouw)
 layout: default
+title: SCHK - H1 - Samenvatting
 ---
 
 # Scheikunde: Hoofdstuk 1 (Atoombouw)

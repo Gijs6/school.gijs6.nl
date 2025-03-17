@@ -1,7 +1,6 @@
 ---
-title: NLT - LMJHart - Samenvatting
-indexname: NLT - Leef met je hart!
 layout: default
+title: NLT - LMJHart - Samenvatting
 ---
 
 # Natuur, leven en technologie: Leef met je hart!

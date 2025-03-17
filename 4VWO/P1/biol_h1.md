@@ -1,7 +1,6 @@
 ---
-title: BIOL - H1 - Samenvatting
-indexname: BIOL - H1 (Gedrag)
 layout: default
+title: BIOL - H1 - Samenvatting
 ---
 
 # Biologie: Hoofdstuk 1 (Gedrag)

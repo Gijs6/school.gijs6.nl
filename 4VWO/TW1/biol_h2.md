@@ -1,7 +1,6 @@
 ---
-title: BIOL - H2 - Samenvatting
-indexname: BIOL - H2 (Cel en leven)
 layout: default
+title: BIOL - H2 - Samenvatting
 ---
 
 # Biologie: Hoofdstuk 2 (Cel en leven)

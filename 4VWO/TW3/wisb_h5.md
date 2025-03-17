@@ -1,7 +1,6 @@
 ---
-title: WISB - H5 - Samenvatting
-indexname: WISB - H5 (Machten, exponenten en logaritmen)
 layout: default
+title: WISB - H5 - Samenvatting
 ---
 
 # Wiskunde B: Hoofdstuk 5 (Machten, exponenten en logaritmen)
