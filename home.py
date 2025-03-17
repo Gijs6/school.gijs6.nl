@@ -50,7 +50,7 @@ for main_dir in main_dirs:
             file_path = os.path.join(sub_path, file)
             test_code = extract_test_code(file_path)
             for filedata in filter(lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]):
-                filedata["summary_link"] = f"/{main_dir}/{sub_dir}/{file}"
+                filedata["summary_link"] = f"/{main_dir}/{sub_dir}/{file.replace(".md", "")}"
 
 sorted_data = {}
     

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: WISB - H5 - Samenvatting
+test_code: 4A-WISB-T06
 ---
 
 # Wiskunde B: Hoofdstuk 5 (Machten, exponenten en logaritmen)

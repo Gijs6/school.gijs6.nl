@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SCHK - H2 - Samenvatting
+test_code: 4A-SCHK-T02
 ---
 
 # Scheikunde: Hoofdstuk 2 (Koolstofchemie)

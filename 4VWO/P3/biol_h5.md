@@ -1,6 +1,7 @@
 ---
 layout: default
 title: BIOL - H5 - Samenvatting
+test_code: 4A-BIOL-T05
 ---
 
 # Biologie: Hoofdstuk 5 (Erfelijkheid)

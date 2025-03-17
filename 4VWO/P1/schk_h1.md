@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SCHK - H1 - Samenvatting
+test_code: 4A-SCHK-T01
 ---
 
 # Scheikunde: Hoofdstuk 1 (Atoombouw)

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SCHK - H4 - Samenvatting
+test_code: 4A-SCHK-T06
 ---
 
 # Scheikunde: Hoofdstuk 4 (Zouten)

@@ -1,6 +1,9 @@
 ---
 layout: default
 title: NAT - H1 & H6 - Samenvatting
+test_code:
+- 4A-NAT-T01
+- 4A-NAT-T02
 ---
 
 # Natuurkunde: Hoofdstuk 1 (Elektriciteit) & Hoofdstuk 6 (Onderzoeksvaardigheden)

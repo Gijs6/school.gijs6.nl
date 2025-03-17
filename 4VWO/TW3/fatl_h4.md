@@ -1,6 +1,7 @@
 ---
 layout: default
 title: FATL - H4 - Samenvatting
+test_code: 4A-FATL-T06
 ---
 
 # Franse taal en literatuur: Hoofdstuk 4

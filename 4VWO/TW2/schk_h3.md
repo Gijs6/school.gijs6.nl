@@ -1,6 +1,9 @@
 ---
 layout: default
 title: SCHK - H3 - Samenvatting
+test_code:
+- 4A-SCHK-T04
+- 4A-SCHK-T03
 ---
 
 # Scheikunde: Hoofdstuk 3 (Chemisch rekenen)
