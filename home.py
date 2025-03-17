@@ -1,63 +1,69 @@
+import json
 import os
+import yaml
 import re
 
-def extract_indexname(file_path):
+def sort_years(yearstr):
+    match = re.match(r"(\d)(VWO)", yearstr)
+    return -int(match.group(1)) if match else float("inf")
+
+def sort_period(period):
+    match = re.match(r"([A-Z]+)(\d+)", period)
+    if match:
+        return (int(match.group(2)), match.group(1))
+    return (float("inf"), period)
+
+def sort_subjects(subjectdata):
+    return subjectdata["subject"]
+
+def extract_front_matter(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
-        match = re.search(r'indexname:\s*(.+)', content)
+        match = re.match(r'---\n(.*?)\n---', content, re.DOTALL)
         if match:
-            return match.group(1).strip()
-    return None
+            return yaml.safe_load(match.group(1))
+    return []
 
-def sort_main_dirs(dirs):
-    # Sort class folders in descending order (6VWO, 5VWO, ..., 1VWO)
-    return sorted(dirs, key=lambda x: int(re.search(r'(\d)VWO', x).group(1)), reverse=True)
+def extract_test_code(file_path):
+    front_matter = extract_front_matter(file_path)
+    if front_matter and 'test_code' in front_matter:
+        test_code = front_matter['test_code']
+        if isinstance(test_code, str):
+            test_code = [test_code]
+        return test_code
+    return []
 
-def sort_sub_dirs(dirs):
-    # Sort the period folders according to the pattern TW4, P4, TW3, P3, TW2, P2, TW1, P1
-    def custom_sort_key(name):
-        match = re.match(r'([A-Z]+)(\d+)', name)
-        if match:
-            prefix, number = match.groups()
-            number = int(number)
-            return (number, 0 if prefix == 'P' else 1)  # P's come after (wel this wil put it first but it is reversed at the end) TW's for the same number
-        return (float('inf'), float('inf'))
+with open("_data/test_data.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-    return sorted(dirs, key=custom_sort_key, reverse=True)
+directory = os.getcwd()
 
-def generate_markdown():
-    directory = os.getcwd()
-    output_file = "index.md"
-    markdown_content = ["---", "layout: default", "---\n", "# Samenvattingsoverzicht\n"]
+main_dirs = [d for d in os.listdir(directory) if re.match(r'\dVWO', d)]
 
-    main_dirs = [d for d in os.listdir(directory) if re.match(r'\dVWO', d)]
-    sorted_main_dirs = sort_main_dirs(main_dirs)
+for main_dir in main_dirs:
+    main_path = os.path.join(directory, main_dir)
+    sub_dirs = [d for d in os.listdir(main_path) if os.path.isdir(os.path.join(main_path, d))]
+    for sub_dir in sub_dirs:
+        sub_path = os.path.join(main_path, sub_dir)
+        files = [f for f in os.listdir(sub_path) if f.endswith('.md')]
+        for file in files:
+            file_path = os.path.join(sub_path, file)
+            test_code = extract_test_code(file_path)
+            for filedata in filter(lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]):
+                filedata["summary_link"] = f"/{main_dir}/{sub_dir}/{file}"
 
-    for main_dir in sorted_main_dirs:
-        markdown_content.append(f"## {main_dir}\n")
-        main_path = os.path.join(directory, main_dir)
+sorted_data = {}
+    
+for year in sorted(data.keys(), key=sort_years):
+    year_data = {}
+    
+    for period in sorted(data[year].keys(), key=sort_period, reverse=True):
+        if [test for test in data[year][period] if test.get("summary_link") or test.get("resources")]: # If in the entire period there are tests with a summary or any other resource
+            tests_to_include = [test for test in data[year][period] if test.get("make_summary") or test.get("resources")]
+            year_data[period] = sorted(tests_to_include, key=sort_subjects)
+    
+    if year_data:
+        sorted_data[year] = year_data
 
-        sub_dirs = [d for d in os.listdir(main_path) if os.path.isdir(os.path.join(main_path, d))]
-        sorted_sub_dirs = sort_sub_dirs(sub_dirs)
-
-        for sub_dir in sorted_sub_dirs:
-            markdown_content.append(f"### {sub_dir}\n")
-            sub_path = os.path.join(main_path, sub_dir)
-
-            files = sorted([f for f in os.listdir(sub_path) if f.endswith('.md')])  # Sort alphabetically and only md files
-            for file in files:
-                file_path = os.path.join(sub_path, file)
-                indexname = extract_indexname(file_path)
-                relative_file_path = os.path.relpath(file_path, directory).replace("\\", "/")
-                if indexname:
-                    markdown_content.append(f"- [{indexname}]({relative_file_path})\n")
-                else:
-                    markdown_content.append(f"- [{file}]({relative_file_path})\n")
-
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write("\n".join(markdown_content))
-
-    print("Updated homepage!")
-
-if __name__ == "__main__":
-    generate_markdown()
+with open("_data/homepage_data.json", "w", encoding="utf-8") as f:
+    json.dump(sorted_data, f, indent=4)
