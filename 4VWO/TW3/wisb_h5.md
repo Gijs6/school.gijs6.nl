@@ -93,11 +93,3 @@ Een **exponentiele vergelijking** als $2^{12+x}=\sqrt{2}$ kun je oplossen met de
 > $3^x=9$  
 > $3^x=3^2$  
 > $x=2$  
-
-## Logaritmen
-
-Als je wilt weten tot welke macht je een getal moet heffen om een bepaalde uitkomst te krijgen, moet je gebruik maken van een **logaritme**. Zo is $^2\log(8)$ het getal waar je 7 tot moet heffen om 8 te krijgen, dus $^2\log(8)=3$, want $2^3=8$.
-
-$$^a\log(b)=c\longrightarrow b=a^c$$
-
-In $^a\log(b)$ is $a$ het grondtal van de logaritme.
