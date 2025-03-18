@@ -41,7 +41,8 @@ De maximale capaciteit van een gebied om voldoende voedsel en schuil- en nestpla
 
 Door menselijk handelen zijn veel leefgebieden van elkaar geïsoleerd: **versnippering**. Maatregelen als ecoducten (zie afbeelding) kunnen gebieden weer **ontsnipperen**.
 
-![Een ecoduct (img-medium)](images/biol_h6_ecoduct.jpg)
+![Een ecoduct (img-medium)](images/biol_h6_ecoduct.jpg)  
+<span class="img-txt">Een ecoduct</span>
 
 Ook kunnen dieren worden uitgezet om de natuur te beheren. Zo kunnen grazers (dieren die planten eten) worden ingezet om de leefomgeving aantrekkelijker te maken voor andere soorten. Een te groot aantal grazers kan echter voor een **verstoring** (een snelle en blijvende verandering in een ecosysteem) zorgen.
 
