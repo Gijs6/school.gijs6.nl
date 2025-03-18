@@ -8,12 +8,12 @@ test_code: 4A-BIOL-T06
 
 ## Soorten en verwantschap
 
-De definitie van een **soort** was de overeenkomst in uiterlijke kenmerken en de mogelijkheid om vruchtbare nakomelingen te krijgen. Tegenwoordig wordt DNA gebruikt om de indeling van soorten te bepalen.
+De definitie van een **soort** was voor een lange tijd de overeenkomst in uiterlijke kenmerken en de mogelijkheid om vruchtbare nakomelingen te krijgen. Tegenwoordig wordt DNA gebruikt om deze indeling te verifiëren.
 Soms is de grens tussen soorten niet duidelijk, zoals bij **hybriden**: levensvatbare kruisingen tussen verschillende soorten. Hybriden zijn vaak niet vruchtbaar.
 
 Alle soorten worden ingedeeld op basis van verwantschap met andere soorten (**taxonomie**). De taxonomie plaatst organisme in steeds grotere groepen (**taxa**): **organismen** $\rightarrow$ **soorten** $\rightarrow$ **geslachten** $\rightarrow$ **families** $\rightarrow$ **orden** $\rightarrow$ **klassen** $\rightarrow$ **afdelingen** $\rightarrow$ **rijken** $\rightarrow$ **domeinen**. Hoe minder verwant 2 organismen aan elkaar zijn, hoe minder taxa ze delen.
 
-Er zijn 3 domeinen: **archaea**, **bacteriën** en **eukaryoten**. De archaea zijn net als bacteriën eencelligen zonder kernmembraan. Hun cirkelvormig DNA ligt los in het grondplasma en het celmembraan bestaat uit 1 laag. Elk domein heeft een eigen type rRNA (ribosomaal RNA).
+Er zijn 3 domeinen: **archaea**, **bacteriën** en **eukaryoten**. Elk domein heeft een eigen type rRNA (ribosomaal RNA). De archaea zijn net als bacteriën eencelligen zonder kernmembraan. Hun cirkelvormig DNA ligt los in het grondplasma en het celmembraan bestaat uit 1 enkele laag. 
 
 > "Er zijn 3 domeinen" is een eigenlijk beetje kort door de bocht. Wij leren de indeling van de Amerikaanse bioloog Carl Woese (dus archaea, bacteriën en eukaryoten), maar de indeling van domeinen, rijken, "supergroepen" en nog meer, is niet helemaal waterdicht, best wel verschillend en vooral heel verwarrend, maar "er zijn 3 domeinen" dekt (voor nu) de lading.
 
@@ -31,6 +31,8 @@ Er zijn verschillende manieren om een populatiegrootte te schatten:
 - **Vangst-terugvangstmetode**  
   Een aantal dieren vangen, die van een merkteken voorzien en vrijlaten ($n_1$). Na een tijdje worden er weer een aantal dieren gevangen ($n_2$), waarvan er een aantal een merkteken zullen hebben ($n_3$). Vervolgens kun je de totale populatiegrootte ($N$) schatten met de formule $N = \frac{n_1 \cdot n_2 }{n_3}$.
 
+> Deze formule komt van het feit dat de verhouding tussen $n_2$ en $n_3$ (dus de verhouding van hoeveel dieren er gemarkeerd zijn van alle gevonden dieren) hetzelfde is als de verhouding tussen $N$ en $n_1$ (want toen zijn alle dieren gemarkeerd).
+
 De populatiegrootte kan erg verschillen. Veranderingen van de populatiegrootte komen vooral door **geboorte**, **immigratie**, **sterfte** en **emigratie**.  
 Natuurlijke factoren hebben ook veel invloed op de populatiegrootte. Er is altijd 1 factor die de groei van een populatie het meest belemmert: de **beperkende factor**.  
 De maximale capaciteit van een gebied om voldoende voedsel en schuil- en nestplaatsen te leveren (waardoor de populatiegrootte constant blijft) is de **draagkracht** van een gebied.
@@ -44,7 +46,7 @@ Door menselijk handelen zijn veel leefgebieden van elkaar geïsoleerd: **versnip
 ![Een ecoduct (img-medium)](images/biol_h6_ecoduct.jpg)  
 <span class="img-txt">Een ecoduct</span>
 
-Ook kunnen dieren worden uitgezet om de natuur te beheren. Zo kunnen grazers (dieren die planten eten) worden ingezet om de leefomgeving aantrekkelijker te maken voor andere soorten. Een te groot aantal grazers kan echter voor een **verstoring** (een snelle en blijvende verandering in een ecosysteem) zorgen.
+Ook kunnen dieren worden **uitgezet** om de natuur te beheren. Zo kunnen grazers (dieren die planten eten) worden ingezet om de leefomgeving aantrekkelijker te maken voor andere soorten. Een te groot aantal grazers kan echter voor een **verstoring** (een snelle en blijvende verandering in een ecosysteem) zorgen.
 
 Natuurbeheerders proberen soms soorten die waren verdwenen uit een gebied te **herintroduceren**: door uitzetting proberen een nieuwe populatie proberen te maken.
 
@@ -61,7 +63,7 @@ De tolerantiegrenzen en het optimumgebied kun je weergeven in een **tolerantiecu
 <span class="credit-text">Zelf gemaakt, vrijgegeven onder <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.</span>
 
 De **niche** van een soort is de omschrijving hoe die soort de omgeving gebruikt en beïnvloedt.  
-Een **adaptatie** is een erfelijke aanpassing aan het uiterlijk of het gedrag die ontstaan door langdurige selectieprocessen. Deze adaptaties kunnen ontstaan door mutaties in het genoom.
+Een **adaptatie** is een erfelijke aanpassing aan het uiterlijk of het gedrag die ontstaan door langdurige selectieprocessen. Deze adaptaties kunnen ontstaan door mutaties in het genoom. Als een adaptatie tot een hogere overlevingskans leidt, zal deze op den duur vaker gaan voorkomen in een populatie, omdat de organismen met deze verhoogde overlevingskans zich ook meer kunnen voortplanten.
 
 ## Relaties tussen soorten
 
@@ -88,6 +90,8 @@ Naast de voedselrelaties komen er ook langdurige relaties voor: **symbiose**. In
 | Neutraal | **Commensalisme** | **Epifytisme** (bij planten) | -               |
 | Nadeel   | **Parasitisme**   | -                            | -               |
 
+Epifytisme zit eigenlijk een beetje meer aan de voordeel-neutraal kant, maar het boek is hier redelijk vaag over.
+
 > Een neutraal-nadeel relatie bestaat eigenlijk wel: **amensalisme**, en bij een nadeel-nadeel relatie spreek je van **concurrentie** (hoef je niet te weten, maar misschien vind je het interessant)
 
 Ziektes kunnen voedselketens verstoren. Als bijvoorbeeld een groot gedeelte van een bepaalde populatie sterft, zullen de predatoren van die soort weggaan. Ook gifstoffen kunnen voedselketens verstoren. **Accumulatie** van gifstoffen is het ophopen van die stoffen. De concentratie gif neemt bij elke schakel in de voedselketen toe. Sommige gifstoffen zijn **persistent**: ze kunnen jarenlang dieren blijven vergiftigen.
@@ -104,7 +108,7 @@ Na een ramp waarbij het aantal individuelen sterk is afgenomen, zal ook de allel
 
 Als er een nieuwe populatie ontstaat (kolonisatie), is de allelensamenstelling binnen de nieuwe groep minder gevarieerd dan de oorspronkelijke populatie: het **stichtereffect**.
 
-Er is een verband tussen de grootte van een eiland, de afstand tot het vasteland en de soortenrijkdom. De **eilandtheorie** beschrijft dit verband ($\rightarrow$ Binas 93C) Grote eilanden bieden meer niches en er kunnen meer soorten leven dan op kleine eilanden. Nabijgelegen eilanden ontvangen sneller nieuwe soorten dan afgelegen eilanden.
+Er is een verband tussen de grootte van een eiland, de afstand tot het vasteland en de soortenrijkdom. De **eilandtheorie** beschrijft dit verband ($\rightarrow$ Binas 93C) Grote eilanden bieden meer niches en er kunnen meer soorten leven dan op kleine eilanden. Nabijgelegen eilanden ontvangen sneller nieuwe soorten dan afgelegen eilanden. Dus hoe groter en hoe dichter bij het vasteland, hoe groter de soortenrijkdom.
 Op sommige punten ontstaat er dan een evenwicht tussen de immigratie en de sterfte.
 
 ![De eilandtheorie (img-semilarge)](images/biol_h6_eiland.jpg)
