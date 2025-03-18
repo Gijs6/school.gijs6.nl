@@ -1,4 +1,5 @@
 import json
+from home import main
 
 current_year = "4VWO"
 
@@ -58,3 +59,7 @@ data[current_year][chosen_period][chosen_test_index]["resources"] = res
 
 with open("_data/test_data.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=4)
+
+print("Updating homepagedata...")
+
+main()
