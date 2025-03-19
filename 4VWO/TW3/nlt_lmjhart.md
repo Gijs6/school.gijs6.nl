@@ -30,7 +30,7 @@ Om het bloed rond te pompen, trekt de hartspier zich samen in een bepaalde volgo
 - Vervolgens trekken de kamers zich samen: **kamersystole**; het bloed wordt de longslagader en de aorta in gepompt. De hartkleppen zijn gesloten en de halvemaanvormige kleppen zijn geopend.
 - Tenslotte ontspant het hart zich: **diastole**; alle kamers en boezems zijn ontspannen. De boezems vullen zich met bloed.
 
-De bloedvaten vertakken zich steeds. Vanuit de aorta $ \rightarrow $ een slagader $ \rightarrow $ een slagadertje $ \rightarrow $ haarvaten (waar de stofwisseling plaatsvindt) $ \rightarrow $ een adertje $ \rightarrow $ een ader $ \rightarrow $ een holle ader. De druk in de slagaders is veel hoger dan in de aders.
+De bloedvaten vertakken zich steeds. Vanuit de aorta $\rightarrow$ een slagader $\rightarrow$ een slagadertje $\rightarrow$ haarvaten (waar de stofwisseling plaatsvindt) $\rightarrow$ een adertje $\rightarrow$ een ader $\rightarrow$ een holle ader. De druk in de slagaders is veel hoger dan in de aders.
 
 Om met deze verschillen in druk om te kunnen gaan, zijn de slagaders, aders en haarvaten anders gebouwd. Aan de binnenkant van **elk vat** zit de endotheel: een eencellig bedekkend laagje.  
 De slagaders hebben een dikke wand, met veel elastisch weefsel en veel glad spierweefsel. Haarvaten hebben alleen een endotheel, want anders zou er geen stofwisseling kunnen plaatsvinden.  
@@ -115,5 +115,5 @@ Er zijn een aantal risicofactoren die invloed hebben op het krijgen van een hart
 - **Overgewicht** of **obesitas** (ernstig overgewicht) zorgt voor een hoog LDL-cholesterolgehalte (hogere kans op slagaderverkalking) en voor een hogere bloeddruk (sneller verslijten vaten). Overgewicht gaat ook gepaard met verminderde glucose-tolerantie, wat zorgt voor een verhoogde afscheiding van insuline, wat een risicofactor is voor het ontstaan van Diabetes type II, wat een risicofactor is voor het krijgen van hart- en vaatziekten.  
   $$\text{BMI} = \frac{\text{gewicht}}{\text{lengte}^2}$$  
 - **Erfelijkheid**
-- **Roken** zorgt voor beschadiging van de vaatwand. Bovendien verdringt de hogere concentratie $CO_2$ zuurstof. Nicotine verhoogt de hartslag en de bloeddruk.
+- **Roken** zorgt voor beschadiging van de vaatwand, waardoor er makkelijker plaques ontstaan. Bovendien verdringt de hogere concentratie $\ce{CO2}$ zuurstof. Nicotine verhoogt de hartslag en de bloeddruk.
 - **Stress** heeft vooral invloed op het gedrag van mensen, waardoor ze bijvoorbeeld gaan roken, veel eten, drinken, minder bewegen enz.

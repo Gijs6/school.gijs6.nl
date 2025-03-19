@@ -69,12 +69,22 @@ Als zouten **slecht** oplossen in water, is er geen oplosvergelijking, want de i
 LET OP! Als je de oplossing van een zout wilt opschrijven, kun je niet "$\ce{\text{zout} (aq)}$ opschrijven, omdat het zout niet is opgelost, maar de losse ionen. De oplossing van bijvoorbeeld bariumchloride schrijf je op als $\ce{Ba^{2+} (aq) + Cl^- (aq)}$.  
 En bij een slecht oplosbaar zout kun je ook niet "$\ce{\text{zout} (aq)}$ opschrijven, omdat het zout niet is opgelost. Als je een slecht oplosbaar zout in water doet, zal er een suspentie ontstaan, en dus geen opgelost zout.
 
+### Triviale namen
+
+Sommige zouten hebben een triviale naam:
+
+|  Triviale naam | Systematische naam & formule     |
+| -------------: | :------------------------------- |
+| **Keukenzout** | Natriumchloride ($\ce{NaCl}$)    |
+|       **Soda** | Natriumcarbonaat ($\ce{Na2CO3}$) |
+
 Sommige zoutoplossingen hebben een triviale naam:
 
-| **Natronloog** | $\ce{Na^+ (aq) + OH^- (aq)}$      |
-| -------------- | :-------------------------------- |
-| **Kaliloog**   | $\ce{K^+ (aq) + OH^- (aq)}$       |
-| **Kalkwater**  | $\ce{Ca^{2+} (aq) + 2~OH^- (aq)}$ |
+|  Triviale naam | Oplossing                       |
+| -------------: | :------------------------------ |
+| **Natronloog** | $\ce{Na^+ (aq) + OH^- (aq)}$    |
+|   **Kaliloog** | $\ce{K^+ (aq) + OH^- (aq)}$     |
+|  **Kalkwater** | $\ce{Ca^{2+} (aq) + OH^- (aq)}$ |
 
 Als je een zout gaat indampen, worden de losse ionen weer samen een zout:
 $$\ce{2~Al^3+ (aq) + 3~SO4^2- (aq) -> Al2(SO4)3 (s)}$$
