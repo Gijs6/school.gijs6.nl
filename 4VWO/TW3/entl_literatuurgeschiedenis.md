@@ -85,3 +85,4 @@ In the night, Grendel visits Herot again.
 
 > Not yet finished!
 
+<span class="credit-text">Deze samenvatting bevat (bewerkte) delen van [deze samenvatting van Robin Boers](https://school.geheimesite.nl/4VWO/TW3/Engels), die beschikbaar is onder de [CC BY](https://creativecommons.org/licenses/by/4.0/)-licentie.</span>

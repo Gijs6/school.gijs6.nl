@@ -32,10 +32,8 @@ Om het bloed rond te pompen, trekt de hartspier zich samen in een bepaalde volgo
 
 De bloedvaten vertakken zich steeds. Vanuit de aorta $ \rightarrow $ een slagader $ \rightarrow $ een slagadertje $ \rightarrow $ haarvaten (waar de stofwisseling plaatsvindt) $ \rightarrow $ een adertje $ \rightarrow $ een ader $ \rightarrow $ een holle ader. De druk in de slagaders is veel hoger dan in de aders.
 
-Om met deze verschillen in druk om te kunnen gaan, zijn de slagaders, aders en haarvaten anders gebouwd. Aan de binnenkant van **elk vat** zit de endotheel: een eencellig bedekkend laagje.
-
-De slagaders hebben een dikke wand, met veel elastisch weefsel en veel glad spierweefsel. Haarvaten hebben alleen een endotheel, want anders zou er geen stofwisseling kunnen plaatsvinden.
-
+Om met deze verschillen in druk om te kunnen gaan, zijn de slagaders, aders en haarvaten anders gebouwd. Aan de binnenkant van **elk vat** zit de endotheel: een eencellig bedekkend laagje.  
+De slagaders hebben een dikke wand, met veel elastisch weefsel en veel glad spierweefsel. Haarvaten hebben alleen een endotheel, want anders zou er geen stofwisseling kunnen plaatsvinden.  
 Zodra het hart bloed in de slagader heeft gepompt zet de slagader uit. Omdat de slagader elastisch is, wil deze graag terug naar zijn originele vorm. Hierdoor zal het bloed worden weggeduwd. Dit kan alleen maar richting de organen, want de halvemaanvormige klep is inmiddels gesloten.
 
 ## Bloeddruk
@@ -106,7 +104,7 @@ Hier een overzicht van medicijnen die invloed hebben op de werking van het hart 
   - **Diuretica** zorgen voor veel vochtafvoer via urine, waardoor het bloedvolume afneemt, waardoor de bloeddruk afneemt.
 - **Vaatverwijdingsmedicijnen**
   - **ACE-remmers** zorgen voor een verlaging van de perifere weerstand, wat voor een verlaging van de MAP (dus van de bloeddruk) zorgt.
-  - **Angiotensine II-receptorantagonisten** blokkeren de werking van het bloeddrukverhogende hormoon **angiotensine** door de receptoren van **angiotensine II** te blokkeren met **antagonisten**, waardoor de bloeddruk daalt.
+  - **Angiotensine II-receptorantagonisten** (of angiotensinereceptorblokkers) blokkeren de werking van het bloeddrukverhogende hormoon **angiotensine** door de receptoren van **angiotensine II** te blokkeren met **antagonisten**, waardoor de bloeddruk daalt.
   - **Calciumantagonisten** remmen de werking van calciumionen waardoor spiercellen zich minder goed kunnen samentrekken, waardoor de kracht van elke hartslag en de hartfrequentie wordt verminderd. Bovendien wordt de perifere weerstand verlaagd.
   - **Nitraten** en **nitrieten** verslappen de gladde spieren van slagaders en aders waardoor de bloedvaten wijder worden, waardoor zowel de bloeddruk als de perifere weerstand daalt.
 
