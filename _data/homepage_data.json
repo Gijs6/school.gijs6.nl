@@ -46,7 +46,7 @@
                 "test_material": "H4 (Pluriforme samenleving)",
                 "make_summary": true,
                 "summary_link": "",
-                "summary_name": "Samenvatting",
+                "summary_name": "",
                 "icon": "fa-solid fa-people-group",
                 "resources": []
             },
@@ -57,7 +57,7 @@
                 "test_material": "H4 (Krachten)",
                 "make_summary": true,
                 "summary_link": "",
-                "summary_name": "Samenvatting",
+                "summary_name": "",
                 "icon": "fa-solid fa-atom",
                 "resources": []
             },
@@ -68,7 +68,7 @@
                 "test_material": "Biofysica (Ogen & hefbomen)",
                 "make_summary": true,
                 "summary_link": "",
-                "summary_name": "Samenvatting",
+                "summary_name": "",
                 "icon": "fa-solid fa-atom",
                 "resources": []
             },
@@ -101,7 +101,7 @@
                 "test_material": "Practicumtoets (Zouten)",
                 "make_summary": true,
                 "summary_link": "",
-                "summary_name": "Samenvatting",
+                "summary_name": "",
                 "icon": "fa-solid fa-flask-vial",
                 "resources": []
             },
@@ -366,7 +366,7 @@
                 "test_type": "Toets",
                 "test_material": "H1 + H2 (Rechtsstaat)",
                 "make_summary": true,
-                "summary_link": "/4VWO/TW1/maat_h1h2",
+                "summary_link": "/4VWO/TW1/maat_h1+h2",
                 "summary_name": "Samenvatting",
                 "icon": "fa-solid fa-people-group",
                 "resources": []
@@ -377,7 +377,7 @@
                 "test_type": "Toets",
                 "test_material": "H1 (Elektriciteit)",
                 "make_summary": true,
-                "summary_link": "/4VWO/TW1/nat_h1h6",
+                "summary_link": "/4VWO/TW1/nat_h1+h6",
                 "summary_name": "Samenvatting",
                 "icon": "fa-solid fa-atom",
                 "resources": []
@@ -388,7 +388,7 @@
                 "test_type": "Toets",
                 "test_material": "6.1 + 6.2",
                 "make_summary": true,
-                "summary_link": "/4VWO/TW1/nat_h1h6",
+                "summary_link": "/4VWO/TW1/nat_h1+h6",
                 "summary_name": "Samenvatting",
                 "icon": "fa-solid fa-atom",
                 "resources": []
@@ -461,7 +461,7 @@
                 "test_type": "Toets",
                 "test_material": "H1 + H2 + Schrijfopdracht",
                 "make_summary": true,
-                "summary_link": "/4VWO/P1/entl_h1h2",
+                "summary_link": "/4VWO/P1/entl_h1+h2",
                 "summary_name": "Samenvatting",
                 "icon": "ENTL",
                 "resources": []

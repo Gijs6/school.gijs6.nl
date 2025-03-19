@@ -53,6 +53,7 @@ def main():
                 test_code = extract_test_code(file_path)
                 for filedata in filter(lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]):
                     filedata["summary_link"] = f"/{main_dir}/{sub_dir}/{file.replace(".md", "")}"
+                    filedata["summary_name"] = "Samenvatting"
 
     sorted_data = {}
         
