@@ -4,7 +4,7 @@ title: ENTL - H1 & H2 - Samenvatting
 test_code: 4A-ENTL-T01
 ---
 
-# Engelse taal en literatuur: Hoofdstuk 1 & Hoofdstuk 2
+# Engelse taal en literatuur: Hoofdstuk 1 + Hoofdstuk 2
 
 ## Past simple
 

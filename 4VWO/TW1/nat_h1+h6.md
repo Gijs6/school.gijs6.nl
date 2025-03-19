@@ -6,7 +6,7 @@ test_code:
 - 4A-NAT-T02
 ---
 
-# Natuurkunde: Hoofdstuk 1 (Elektriciteit) & Hoofdstuk 6 (Onderzoeksvaardigheden)
+# Natuurkunde: Hoofdstuk 1 (Elektriciteit) + Hoofdstuk 6 (Onderzoeksvaardigheden)
 
 ## Lading, energie en vermogen
 
@@ -47,7 +47,7 @@ In een serieschakeling wordt de spanning juist over elk apparaat verdeeld (**spa
 Hiernaast zie je de regels voor spanning en stroomsterkte in serie en parallel in formules.  
 In **combinatieschakelingen** gelden 2 wetten: de **wet van behoud van lading** (bij een splitsing blijft de totale stroom even groot, er verdwijnt geen stroom) en de **wet van behoud van energie** (de energie die bij de bron wordt meegegeven is even groot als de totale energie die langs de schakeling wordt afgegeven). In een combinatieschakeling moet je een combinatie van de formules gebruiken (verschillende formules toepassen op verschillende delen).  
 ![][image7]  
-Als er te veel apparaten op een **groep** worden aangesloten, kan de stroomsterkte boven 16 A uitkomen: **overbelasting**. Bij **kortsluiting** raken 2 elektriciteitsdraden, waardoor de stroom een “shortcut” neemt. De weerstand wordt dan heel klein (want de stroom gaat niet meer door het apparaat) en de stroomsterkte wordt dan enorm groot. De **zekeringen** in een meterkast beveiligen elke groep door de stroom uit te zetten als de stroomsterkte te groot wordt.  
+Als er te veel apparaten op een **groep** worden aangesloten, kan de stroomsterkte boven 16 A uitkomen: **overbelasting**. Bij **kortsluiting** raken 2 elektriciteitsdraden, waardoor de stroom een "shortcut" neemt. De weerstand wordt dan heel klein (want de stroom gaat niet meer door het apparaat) en de stroomsterkte wordt dan enorm groot. De **zekeringen** in een meterkast beveiligen elke groep door de stroom uit te zetten als de stroomsterkte te groot wordt.  
 Een **aardlekschakelaar** vergelijkt constant de ingaande stroomsterkte met de uitgaande. Als er een verschil groter dan 30 mA tussen deze waardes ontstaat (als er dus stroom weglekt), zet deze schakelaar de stroom voor **het hele huis** uit. Deze schakelaar beveiligt je dus tegen stroom door je lichaam.
 
 ## Significantie

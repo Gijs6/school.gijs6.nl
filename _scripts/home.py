@@ -34,7 +34,6 @@ def extract_test_code(file_path):
     return []
 
 def main():
-
     with open("_data/test_data.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -61,7 +60,7 @@ def main():
         year_data = {}
         
         for period in sorted(data[year].keys(), key=sort_period, reverse=True):
-            if [test for test in data[year][period] if test.get("summary_link") or test.get("resources")]: # If in the entire period there are tests with a summary or any other resource
+            if ["Ouioui" for test in data[year][period] if test.get("summary_link") or test.get("resources")]: # If in the entire period there are tests with a summary or any other resource
                 tests_to_include = [test for test in data[year][period] if test.get("make_summary") or test.get("resources")]
                 year_data[period] = sorted(tests_to_include, key=sort_subjects)
         

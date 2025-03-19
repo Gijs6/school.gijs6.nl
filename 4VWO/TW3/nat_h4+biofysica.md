@@ -8,7 +8,9 @@ test_code:
 
 # Natuurkunde: Hoofdstuk 4 (Krachten) + Biofysica (Ogen/lenzen & Hefbomen)
 
-## Verschillende krachten
+## Krachten
+
+### Verschillende krachten
 
 Een kracht is een **vectorgrootheid**: het heeft een grootte, richting en aangrijpingspunt. Eigenlijk moet je een kracht altijd noteren als $\vec{F}$, maar in de praktijk laat je het pijltje vaak weg.
 
@@ -48,3 +50,44 @@ Er zijn veel soorten krachten:
   De grootte van deze kracht hangt af van de snelheid, de frontale oppervlakte, hoe gestroomlijnd het voorwerp is en de dichtheid van de lucht. In een formule:  
   $F_\text{w,l}=\frac{1}{2} \cdot \rho \cdot A \cdot c_w \cdot v^2$  
   Hierin is $F_\text{w,l}$ de luchtweerstandskracht (in $\text{N}$), $\rho$ de luchtdichtheid (in $\text{kg}/\text{m}^3$), $A$ de frontale oppervlakte (in $\text{m}^2$), $c_w$ de stroomlijnfactor (zonder eenheid) en $v$ de snelheid (in $\text{m}/\text{s}$).
+
+### Krachten samenstellen
+
+Van 2 schuine krachten kun je de somkracht bepeen met de **parallelogrammetode**. De 2 krachten vormen dan de zijdes van de parallelogram, en de diagonale krachtpijl is de somkracht. Als de hoek tussen de krachten 90 graden is, kun je de stelling van Pythagoras gebruiken om de grootte van de somkracht te bepalen.
+
+Als 2 krachten niet op hetzelfde punt aangrijpen, kun je de krachten verschuiven langs hun **werklijn**: de lijn in het verlengde van de kracht.
+
+Als je van 2 krachten alleen de richting en de somkracht weet, kun je de **omgekeerde parallelogrammethode** uitvoeren om de groottes van de krachten te bepalen.
+
+Bij een versnelde of vertraagde beweging geldt dat de richting van de versnelling hetzelfde is als de richting van de nettorkracht. In een formule:  
+$\vec{F}_\text{res} = \sum_{i}\vec{F}_i=m\cdot \vec{a}$  
+Het $\sum$-teken betekent dat de krachten moeten worden samengesteld.
+
+### Krachten splitsen
+
+Een kracht kun je ontbinden in 2 **krachtcomponenten**.
+
+In de afbeelding hieronder zie je een bewegend blokje op een helling. De zwaartekracht is getekend. De zwaartekracht heeft ook een efect in de bewegingsrichting. Om dit effect duidelijk te maken kun je de zwaartekracht ontbinden in 2 krachten, waarbij 1 kracht in de bewegingsrichting werkt ($F_\text{z,x}$) en 1 kracht loodrecht op de helling ($F_\text{z,y}$).
+
+![Een blokje op een helling (img-semilarge)](images/nat_h4bio_ontbinden1.jpg)
+
+![Een blokje op een helling met ontbonden krachten (img-semilarge)](images/nat_h4bio_ontbinden2.jpg)
+
+De steilheid van een helling hangt af van de hellingshoek ($\alpha$). Soms wordt in plaats van de hellingshoek het hellingspercentage gegeven. Je kunt van hellingshoek naar hellingspercentage rekenen met de tangens.
+
+Als je $F_\text{z,x}$ wil berkenen in de figuur van het blokje, kun je de hoeken gebruiken van de helling.  
+$F_\text{z,x}=F_\text{z}\cdot \sin(\alpha)$
+
+Als je $F_\text{z,y}$ wil berkenen in de figuur van het blokje, kun je weer de hoeken gebruiken van de helling.  
+$F_\text{z,y}=F_\text{z}\cdot \cos(\alpha)$
+
+> Tip: leer niet deze formules voor deze specefieke situaties uit je hoofd, maar kijk of je een driehoek kan maken, welke je hoeken je dan hebt en pas vervolgens SOS-CAS-TOA toe.
+
+## Ogen en lenzen
+
+**Lichtbundels** komen in 3 soorten voor: **parallel**, **divergent** (gaan uit elkaar) en **convergent** (gaan naar elkaar toe).  
+Lenzen veranderen de richting van lichtstralen (**lichtbreking**). Positieve lenzen zijn dikker in het midden dan aan de randen. Ze maken lichtbundels convergenter (of minder divergent). Negatieve lenzen zijn dikker aan de randen dan in het midden. Ze maken lichtbundels divergenter (of minder convergent).
+
+Je kunt voorwerpen uit de omgeving zien doordat ze licht weerkaatsen en jouw oog dat opvangt. Een spiegel weerkaatst licht in 1 richting, maar de meeste voorwerpen weerkaatsen licht in alle richtingen (**diffuse weerkaatsing**).
+
+![Diffuse weerkaatsing (img-medium)](images/nat_h4bio_diffuus.jpg)

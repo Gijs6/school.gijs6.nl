@@ -4,7 +4,7 @@ title: MAAT - H1 & H2 - Samenvatting
 test_code: 4A-MAAT-T01
 ---
 
-# Maatschappijleer: Hoofdstuk 1 & Hoofdstuk 2 (Rechtsstaat)
+# Maatschappijleer: Hoofdstuk 1 + Hoofdstuk 2 (Rechtsstaat)
 
 ## De maatschappij
 

@@ -34,7 +34,7 @@ Naast de ideologieën kenmerken politieke partijen zich ook door een stroming:
 Vanaf de jaren zestig is er sprake van **ontideologisering**: ideologie staat niet meer centraal in de maatschappelijke inrichting. Hierdoor ontstonden nieuwe stromingen:
 
 * Volgens het **ecologisme** is de mens onderdeel van een ecosysteem. Vooral duurzaamheid en het klimaat zijn belangrijk. Ecologische partijen (PvdD (Partij voor de Dieren), GroenLinks) zijn vaak links.
-* Volgens het **populisme** is de stem van het volk het belangrijkst. De politieke elite zou corrupt zijn. Populistische partijen  (PVV, FvD) zijn niet per se rechts of links, omdat het populisme niet de “traditionele” kenmerken van een ideologie heeft.
+* Volgens het **populisme** is de stem van het volk het belangrijkst. De politieke elite zou corrupt zijn. Populistische partijen  (PVV, FvD) zijn niet per se rechts of links, omdat het populisme niet de "traditionele" kenmerken van een ideologie heeft.
 
 De indelingen op links, midden en rechts gaan vooral over de economie (sociaal-economisch). Als je partijen en stromingen onderscheidt op hun standpunten rond cultuur en de maatschappij (sociaal-cultureel), krijg je **progressieve**, **conservatieve** en **reactionaire** partijen.  
 Progressieve partijen zijn vooruitstrevend: de maatschappij moet veranderen. Conservatieve partijen zijn juist behoudend: de maatschappij moet zo blijven. Reactionaire partijen gaan hier nog een stap verder: de maatschappij moet terug naar vroeger.
@@ -56,7 +56,7 @@ De **SGP** (Staatkundig Gereformeerde Partij) is een streng christelijke partij.
 De **VVD** (Volkspartij voor Vrijheid en Democratie) is een liberale en rechtse partij die de vrijheden van burgers en bedrijven belangrijk vindt.  
 De **BBB** (BoerBurgerBeweging) is een rechtse one-issuepartij die zich richt op de boeren en het platteland.  
 Het **CDA** (Christen-Democratisch Appèl) is een confessionalistische partij die veel waarde hecht aan harmonie binnen de samenleving.  
-De **PVV** (Partij voor de Vrijheid) is een nationalistische en populistische partij. De partij is tegen “islamistische invloeden” en de politieke elite.
+De **PVV** (Partij voor de Vrijheid) is een nationalistische en populistische partij. De partij is tegen "islamistische invloeden" en de politieke elite.
 
 ## Stemmen
 

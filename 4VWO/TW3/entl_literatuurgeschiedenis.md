@@ -27,7 +27,7 @@ Old English displayed (*verdrong*) 2 languages that were spoken at the time on t
 
 Middle English was mainly influenced by the Norman Conquest of 1066.
 
-![An image of the Norman Conquest of 1066 on the Bayeux Tapestry (img-medium)](images/entl_norman.jpg)  
+![An image of the Norman Conquest of 1066 on the Bayeux Tapestry (img-medium)](images/entl_litges_norman.jpg)  
 <span class="credit-text"><a href="https://commons.wikimedia.org/wiki/File:Normans_Bayeux.jpg">Dan Koehl</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons</span>
 
 > This image, depicting the Battle of Hastings (one of the most important battles during the Norman Conquest), is from the Bayeux Tapestry, which is a very cool 70(!!!) meter long embroidered cloth depicing all kinds of events around the Norman Conquest.
