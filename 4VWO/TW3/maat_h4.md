@@ -63,6 +63,21 @@ Er zijn volgens Geert Hofstede 5 **dimensies** waarin culturen voornamelijk vers
   **Lage onzekerheidsvermijding** $\implies$ behoefte aan regels, duidelijkheid, voorspelbaarheid  
   **Hoge onzekerheidsvermijding** $\implies$ minder behoefde op regels, uiteenlopende meningen worden geaccepteerd
 - **Gerichtheid op de lange termijn** vs. **korte termijn**  
-  De mate waarin de maatschappij is gericht op de toekomst of juist meer op het heden  
+  De mate waarin de maatschappij is gericht op de toekomst of juist meer op het heden 
   **Gerichtheid op de lange termijn** $\implies$ veel plannen, sparen  
   **Gerichtheid op de korte termijn** $\implies$ behoeft aan resultaten op de korte termijn
+
+Binnen het **cultuurrelativisme** zijn culturen gelijkwaardig en kun je het gedrag van leden van de cultuur alleen beoordelen op basis van de maatstaven van die cultuur.  
+Binnen het **cultuuruniversalisme** ga je uit van het bestaan van universle waarden die voor heel de wereldbevolking gelden. Een voorbeeld hiervan zijn de mensenrechten uit de **Universele Verklaring van de Rechten van de Mens**.  
+Binnen het **etnocentrisme** bekijk je andere culturen vanuit je eigen cultuur.
+
+## Onderscheid in groepen
+
+**Wij-zij-denken** is een denkpatroon waarbij de ene groep (**ingroup**) zich doorgaans beter ziet dan een andere groep (**outgroup**). Dit denken gaat altijd gepaard met **stereotypen** (een overdreven, generaliserend en vaststaand beeld van een bepaalde groep) en **vooroordelen** (een oordeel over iemand of een groep dat niet gebaseerd is op feiten).  
+Mensen doen al snel aan **hokjesdenken** of **categoriseren**: het indelen van mensen, voorwerpen en situaties in categoriën.  
+Stereotypen en vooroordelen kunnen leiden tot **discriminatie**: het ongelijk behandelen van personen of groepen op grond van kenmerken die in de gegeven situatie niet van belang zijn. Er is geen discriminatie in een **inclusieve samenleving**: een samenleving waar iedereen mee kan doen.  
+**Racisme** is een vorm van discriminatie waarbij je onderscheid maakt op basis van huidskleur of afkomst. Er is sprake van **institutioneel racisme** als racisme is vastgelegd regels, procedures en gewoontes van organisaties.
+
+Wij-zij-denken kan bijvoorbeeld **xenofobie** (angst en afkeer voor het vreemde) tot gevolge hebben. Maar het kan ook positief zijn: zo wordt de **sociale cohesie** binnen een groep groter.
+
+Als tegenstellingen tussen twee groepen burger sterken worden en zij steeds meer tegenover elkaar komen te staan, spreken we van **polarisatie**.

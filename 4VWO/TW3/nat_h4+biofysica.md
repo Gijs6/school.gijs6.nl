@@ -59,9 +59,11 @@ Als 2 krachten niet op hetzelfde punt aangrijpen, kun je de krachten verschuiven
 
 Als je van 2 krachten alleen de richting en de somkracht weet, kun je de **omgekeerde parallelogrammethode** uitvoeren om de groottes van de krachten te bepalen.
 
-Bij een versnelde of vertraagde beweging geldt dat de richting van de versnelling hetzelfde is als de richting van de nettorkracht. In een formule:  
-$\vec{F}_\text{res} = \sum_{i}\vec{F}_i=m\cdot \vec{a}$  
-Het $\sum$-teken betekent dat de krachten moeten worden samengesteld.
+Bij een versnelde of vertraagde beweging geldt dat de richting van de versnelling hetzelfde is als de richting van de nettorkracht. In een formule:
+
+$$\vec{F}_\text{res} = \sum_{i} \vec{F}_i=m \cdot \vec{a}$$
+
+Het $\sum$-teken betekent dat de krachten moeten worden samengesteld via de parallelogrammethode.
 
 ### Krachten splitsen
 
@@ -88,6 +90,8 @@ $F_\text{z,y}=F_\text{z}\cdot \cos(\alpha)$
 **Lichtbundels** komen in 3 soorten voor: **parallel**, **divergent** (gaan uit elkaar) en **convergent** (gaan naar elkaar toe).  
 Lenzen veranderen de richting van lichtstralen (**lichtbreking**). Positieve lenzen zijn dikker in het midden dan aan de randen. Ze maken lichtbundels convergenter (of minder divergent). Negatieve lenzen zijn dikker aan de randen dan in het midden. Ze maken lichtbundels divergenter (of minder convergent).
 
-Je kunt voorwerpen uit de omgeving zien doordat ze licht weerkaatsen en jouw oog dat opvangt. Een spiegel weerkaatst licht in 1 richting, maar de meeste voorwerpen weerkaatsen licht in alle richtingen (**diffuse weerkaatsing**).
+Je kunt voorwerpen uit de omgeving zien doordat ze licht weerkaatsen en jouw oog dat opvangt. Een spiegel weerkaatst licht in 1 richting, maar de meeste voorwerpen weerkaatsen licht in alle richtingen (**diffuse weerkaatsing**). Weerkaatst licht vormt een divergente bundel.
 
 ![Diffuse weerkaatsing (img-medium)](images/nat_h4bio_diffuus.jpg)
+
+In je oog moeten divergente lichtstralen convergent worden gemaakt, zodat ze mooi op 1 punt op het netvlies vallen.

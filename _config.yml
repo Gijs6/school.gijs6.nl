@@ -22,3 +22,4 @@ exclude:
 - _data/
 - _venv/
 - dekstop.ini
+markdown: GFM

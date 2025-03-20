@@ -170,3 +170,8 @@ strong {
     font-size: 0.9em !important;
     color: #c2c2c2 !important;
 }
+
+table table {
+    border: 1px solid white;
+    margin: 5px;
+}
