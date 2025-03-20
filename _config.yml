@@ -1,10 +1,6 @@
 title: Leermiddelenoverzicht
 email: gijs6@dupunkto.org
 github_username: gijs6
-
-plugins:
-  - jekyll-feed
-
 domain: docs.gijs6.nl
 url: https://docs.gijs6.nl
 permalink: pretty
