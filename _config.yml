@@ -4,3 +4,21 @@ github_username: gijs6
 domain: docs.gijs6.nl
 url: https://docs.gijs6.nl
 permalink: pretty
+exclude:
+- .sass-cache/
+- .jekyll-cache/
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+- .obsidian/
+- .git/
+- .idea/
+- _scripts/
+- _data/
+- _venv/
+- dekstop.ini

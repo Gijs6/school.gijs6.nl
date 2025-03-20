@@ -150,7 +150,7 @@ Middeleeuwse verhalen bevatten veel kleuren, getallen en dieren met een **symbol
 In veel middeleeuwse verhalen speelt het christelijk geloof een centrale rol. Er waren **heiligenlevens**, waarin de levens van heiligen als voorbeelden van een goed leven werden gepresenteerd.  
 Ook werden er **exempelen** (korte verhalen over goed en kwaad) verteld, waarin gewone mensen, vaak beïnvloed door de duivel, fouten maakten. Een speciaal type exempel is de **Marialegende**, waarin Maria optreedt als bemiddelaar tussen de mens en God.
 
-## Verhalen
+## Verhalen die je moet weten voor de toets
 
 ### Beatrijs
 
@@ -193,7 +193,7 @@ Onderweg naar Eggerik steelt Karel ongezien een ploegijzer. Dit gereedschap word
 Adelbrecht stelt voor dat Elegast naar binnen gaat, omdat hij zelf nooit binnen is geweest.  
 Elegast pakt zijn breekijzer om de muur door te breken, maar Karel laat het ploegijzer zien. Elegast lacht hierom, omdat het ploegijzer niet geschikt is voor deze muur. Karel moet snel een smoesje verzinnen.
 
-Elegast gebruikt zijn toverkunst, zoals altijd, door een kruid in zijn mond te steken zodat hij de dieren kan verstaan. Hij hoort van een haan en een hond dat koning Karel buiten de burcht staat. Elegast vertelt dit aan Adelbrecht, die hem voor gek verklaart. Elegast biedt aan dat Adelbrecht het kruid ook in zijn mond steekt, en ook hij hoort de dieren praten over de koning. Toch doet Adelbrecht alsof het hun niet bang kan maken. Elegast steelt snel het kruid van Adelbrecht, die dat niet doorheeft. De verbaasde reactie van Adelbrecht laat Elegast zien dat hij een beginner is.
+Elegast gebruikt zijn toverkunst, zoals altijd, door een kruid in zijn mond te steken, zodat hij de dieren kan verstaan. Hij hoort van een haan en een hond dat koning Karel buiten de burcht staat. Elegast vertelt dit aan Adelbrecht, die hem voor gek verklaart. Elegast biedt aan dat Adelbrecht het kruid ook in zijn mond steekt, en ook hij hoort de dieren praten over de koning. Toch doet Adelbrecht alsof het hun niet bang kan maken. Elegast steelt snel het kruid van Adelbrecht, die dat niet doorheeft. De verbaasde reactie van Adelbrecht laat Elegast zien dat hij een beginner is.
 
 Binnen pakt Elegast zoveel als hij wil. Wanneer Karel wil vertrekken, vraagt Elegast om nog even te wachten, zodat hij een zadel met belletjes kan stelen uit de kamer van Eggerik en zijn vrouw. Het geluid van de belletjes maakt Eggerik wakker. Hij vertelt zijn vrouw dat hij de dood van zijn broer heeft gezworen en begint namen van medeplegers te noemen. Elegast hoort alles. Wanneer Eggerik zijn vrouw slaat, vangt Elegast het bloed op en legt hen in slaap met een toverspreuk.
 
@@ -207,4 +207,4 @@ De volgende dag wordt er een hofdag georganiseerd door Karel. Hij roept in de oc
 
 Wanneer de mensen van Eggerik binnenkomen, worden ze gearresteerd, omdat ze gewapend naar de hofdag komen. Wanneer een tijdje later Eggerik zelf aankomt, wordt hij ook gearresteerd, want ook hij is (zwaar) gewapend.  
 Eggerik ontkent dat hij Karel heeft verraden. Eggerik vertelt Karel dat hij veel leenheren zal verliezen als hij de beschuldigingen niet kan bewijzen. De koning beveelt een aantal boden om Elegast te gaan halen.  
-Elegast vertelt over de plannen van Eggerik en hij laat het bloed zien dat hij heeft opgevangen. Eggerik en Elegast gaan een tweegevecht aan. Eggerik en Elegast blijken evenwaardige duelleerders te zijn, waarna Karel tot God bidt. Vervolgens doodt Elegast Eggerik. Elegast wordt in ere hersteld en mag met de weduwe van Eggerik (de zus van Karel) trouwen.
+Elegast vertelt over de plannen van Eggerik en hij laat het bloed zien dat hij heeft opgevangen. Eggerik en Elegast gaan een tweegevecht aan. Eggerik en Elegast blijken evenwaardige vechters te zijn, waarna Karel tot God bidt. Vervolgens doodt Elegast Eggerik. Elegast wordt in ere hersteld en mag met de weduwe van Eggerik (de zus van Karel) trouwen.
