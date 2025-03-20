@@ -158,9 +158,43 @@ Beatrijs is een beroemde Nederlandse Marialegende.
 
 > Je moet van Beatrijs weten waar het verhaal in grote lijnen over gaat.
 
-Beatrijs, een jonge non, wordt overweldigd door de liefde en verlaat haar klooster om met haar geliefde een werelds leven te leiden. Ze spreken af onder de egelantier, een struik in de kloostertuin, waarna Beatrijs haar kloosterkleed aflegt en haar geliefde haar voorziet van blauwe en witte kleren ($\Rightarrow$ symboliek!). Ze reizen samen weg en leven gelukkig, maar na zeven jaar raakt hun geld op. Haar geliefde verbreekt zijn belofte en verlaat haar, waardoor Beatrijs alleen achterblijft met hun twee kinderen.  
+Beatrijs, een jonge non, wordt overweldigd door de liefde en verlaat haar klooster om met haar geliefde een werelds leven te leiden. Ze spreken af onder de egelantier, een struik in de kloostertuin, waarna Beatrijs haar kloosterkleed aflegt en haar geliefde haar voorziet van blauwe en witte kleren ($\implies$ symboliek!). Ze reizen samen weg en leven gelukkig, maar na zeven jaar raakt hun geld op. Haar geliefde verbreekt zijn belofte en verlaat haar, waardoor Beatrijs alleen achterblijft met hun twee kinderen.
+
 Om te overleven, wordt ze gedwongen tot een zondig leven als publieke vrouw, ondanks haar afkeer hiervan. Gedurende veertien jaar blijft ze echter trouw haar Mariagebeden bidden. Uiteindelijk voelt ze diep berouw en bidt tot Maria om verlossing. Ze keert terug naar haar geboortestad en ontdekt dat Maria haar plaats al die tijd in het klooster heeft ingenomen. In een visioen wordt haar vergeven, en ze kan terugkeren naar het klooster zonder dat iemand haar afwezigheid heeft opgemerkt. Maria's genade toont zich in haar volledige herstel als non.
 
 ### Karel ende Elegast
 
-> Komt nog!
+Karel de Grote (de koning) ligt te slapen wanneer er een engel bij hem verschijnt. De engel zegt dat hij moet gaan stelen, op bevel van God. Karel denkt eerst dat hij droomt. De tweede keer vermoedt hij dat het een boze geest is. Pas de **derde** keer ($\implies$ symboliek!) besluit hij te luisteren.
+
+> Karel staat hier dus voor een dilemma: als hij wel gaat stelen is er een kans dat hij de doodstraf krijgt, maar als hij niet gaat stelen sterft hij ook (volgens de engel).
+
+Karel verlaat zijn palts (een soort minder goed verdedigd kasteel) onopgemerkt. Hij rijdt met zijn paard naar een bos. Karel heet het gevoel dat God hem steunt, omdat alle ridders, poortwachters, e.d. liggen te slapen als hij vertrekt, waardoor hij onopgemerkt kan vertrekken.  
+Terwijl hij door het bos rijdt denkt hij na over de straffen die hij zelf heeft uitgedeeld aan personen die stelen, zoals Elegast. Karel heeft best wel spijt van zijn straffen, en hij heeft veel bewondering voor Elegast. Karel wenst zelfs dat Elegast zijn "maatje" was voor deze nacht. Elegast lijkt een beetje op Robin Hood: hij steelt alleen van de rijken en geeft aan de armen.
+
+Plots hoort Karel een andere ruiter naderen. De man is helemaal in het zwart gekleed, wat Karel beangstigt (zwart wordt vaak met de duivel verbonden). De twee rijden elkaar voorbij zonder te groeten.
+
+> In het verhaal gaat het perspectief hier van Karel naar de ridder
+
+De zwarte ridder stopt en vraagt zich af wie die andere ruiter was (zonder te weten dat het Karel is). Hij besluit hem te beroven en keert om. Hij haalt Karel in en gebiedt hem te stoppen. Hij stelt veel vragen, maar Karel wil niet antwoorden en kiest ervoor om te vechten.  
+Op een open plek in het bos vechten ze lang in een heftig gevecht. Op een gegeven moment slaat Karel zo hard dat de ridder van zijn paard valt. Maar die vecht terug en slaat zo hard dat zijn eigen zwaard breekt.
+Wanneer Karel dat ziet, stopt hij met vechten en vraagt naar de naam van zijn tegenstander. De ridder blijkt Elegast te zijn.
+
+> Karel heeft Elegast verslagen in het gevecht, maar Elegast schaamt zich niet, omdat hij het toeschrijft aan "materiaalpech."
+
+Karel is blij dat hij Elegast voor zich heeft, maar hij laat niets merken. Elegast vertelt over zijn leven en zegt dat hij twaalf trouwe volgelingen heeft.  
+Wanneer Elegast Karel naar zijn naam vraagt, ontwijkt Karel de vraag lange tijd. Uiteindelijk zegt hij dat zijn naam Adelbrecht is. Hij beweert ook dat hij een gewetenloze misdadiger is die kerken berooft.
+
+> Ik gebruik soms Adelbrecht en soms Karel, omdat Karel zich bij Edelgast voordoet als Adelbrecht.
+
+Adelbrecht (Karel) stelt voor om te stelen uit de koninklijke schatkist, maar Elegast weigert. Hij wil de koning - zonder te weten dat hij tegenover hem staat - niet bestelen. Ondanks Karels eerdere acties blijft Elegast hem dus trouw en eervol.  
+Adelbrecht stelt voor om ergens anders te gaan stelen. Elegast stelt voor om Eggerik van Eggermonde te beroven, de man van Karels zus. Hij vertelt dat Eggerik het op Karels leven heeft gemunt. Adelbrecht stemt in met het plan.  
+Onderweg naar Eggerik steelt Karel ongezien een ploegijzer. Dit gereedschap werdt vaak door inbrekers gebruikt.
+
+Adelbrecht stelt voor dat Elegast naar binnen gaat, omdat hij zelf nooit binnen is geweest.  
+Edelgast pakte zijn breekijzer om de muur door te breken, maar Karel laat het ploegijzer zien. Elegast lachte hierom, omdat het ploegijzer niet geschikt was voor een deze muur. Karel moet snel een smoesje verzinnen.
+
+Toen Elegast naar binnen ging, voerde hij een toverkunst uit (die hij overgigens altijd uitvoerde): hij stak een kruid in zijn mond, waardoor hij kon horen wat de dieren zeiden. Hij kreeg toen te horen van een haan en van een hond dat de koning (Karel) buiten de burcht stond. Elegast liep terug naar Adelbrecht en vertelde hem wat de dieren zeiden. Adelbrecht deed alsof Elegast gek was dat hij dieren geloofden. Vervolgens bood Elegast Adelbrecht aan om zelf het kruid in zijn mond te doen. Ook hij kon horen dat de dieren vertelden dat de koning in de buurt was. Vervolgens doet Adelbrecht alsof het hun niets zou moeten schelen dat de koning in de buurt zou zijn.  
+Elegast voeg zijn kruid terug, maar Adelbrecht kon het niet in zijn mond vinden. Elegast had het snel gestolen van Adelbrecht. De verbaasde reactie van Adelbrecht maakte aan Elegast duidelijk dat hij een beginner was.
+
+Eenmaal binnen pakte Elegast zoveel als hij wilde.  
+Toen Karel wou wegrijden, vroeg Elegast hem te wachten, omdat hij nog een zadel (met allemaal belletjes eraan) wou stelen uit de kamer waar Eggerik en zijn vrouw sliepen. Toen Elegast het zadel oppakte, werd Eggerik wakker door het geluid van de belletjes.

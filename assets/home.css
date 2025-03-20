@@ -43,6 +43,10 @@ li ul li {
     margin: 0;
 }
 
+#header-txt {
+    font-size: 1.2em;
+}
+
 .subject, .test_material {
     font-size: 1.3em;
 }
