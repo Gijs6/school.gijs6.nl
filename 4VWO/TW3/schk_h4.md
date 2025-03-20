@@ -56,14 +56,14 @@ Zouten kunnen slecht oplossen in water, matig oplossen in water, reageren met wa
 Als zouten **goed** oplossen in water, splitsen alle ionen zich: het zout **hydrateert**. Elk ion lost individueel op in water.  
 Je kunt het oplossen van een goed oplosbaar zout zout neerzetten in een **oplosvergelijking**. Het oplossen van aluminiumsulfaat ($\ce{Al2(SO4)3}$) ziet er dus als volgt uit:
 
-$$\ce{Al2(SO4)3 (s) ->[\text{opl.}] 2~Al^{3+} (aq) + 3~SO4^{2-} (aq)}$$
+$$\ce{Al2(SO4)3 (s) ->[\text{opl.}] 2\~Al^{3+} (aq) + 3\~SO4^{2-} (aq)}$$
 
 Als zouten **matig** oplossen in water, zet je dat in de oplosvergelijking neer als pijlen in beide kanten, omdat niet alle ionen hydrateren.
 
-$$\ce{Ca(OH)2 (s) <-->[\text{opl.}] Ca^{2+} (aq) + 2~OH- (aq)}$$
+$$\ce{Ca(OH)2 (s) <-->[\text{opl.}] Ca^{2+} (aq) + 2\~OH- (aq)}$$
 Als zouten **slecht** oplossen in water, is er geen oplosvergelijking, want de ionen worden niet gehydrateerd.
 
-> Als je bij het oplossen van een zout een los oxide-ion ($\ce{O^{-2}}$) krijgt, gaat deze een reactie aan met water: $\ce{O^{-2} (aq) + H2O (l) -> 2~OH- (aq)}$.
+> Als je bij het oplossen van een zout een los oxide-ion ($\ce{O^{-2}}$) krijgt, gaat deze een reactie aan met water: $\ce{O^{-2} (aq) + H2O (l) -> 2\~OH- (aq)}$.
 > Als je $\ce{Na2O}$ zou oplossen, zou je dus een natriumhydroxide-oplossing krijgen.
 
 LET OP! Als je de oplossing van een zout wilt opschrijven, kun je niet "$\ce{\text{zout} (aq)}$ opschrijven, omdat het zout niet is opgelost, maar de losse ionen. De oplossing van bijvoorbeeld bariumchloride schrijf je op als $\ce{Ba^{2+} (aq) + Cl^- (aq)}$.  
@@ -87,7 +87,7 @@ Sommige zoutoplossingen hebben een triviale naam:
 |  **Kalkwater** | $\ce{Ca^{2+} (aq) + OH^- (aq)}$ |
 
 Als je een zout gaat indampen, worden de losse ionen weer samen een zout:
-$$\ce{2~Al^3+ (aq) + 3~SO4^2- (aq) -> Al2(SO4)3 (s)}$$
+$$\ce{2\~Al^3+ (aq) + 3\~SO4^2- (aq) -> Al2(SO4)3 (s)}$$
 
 ## Ionen aantonen
 
@@ -108,6 +108,6 @@ Je kunt de oplosbaarheid van de verschillende ionencombinaties ook in een tabel 
 | $\ce{K+}$    | g          | g            |
 | $\ce{Cu^2+}$ | s          | g            |
 
-De reactie die hier plaatsvindt, is dus $\ce{Cu^2+ (aq) + 2~OH^- (aq) -> Cu(OH)2 (s)}$. De rest van de ionen ($\ce{NO3^-}$ en $\ce{K+}$) reageren niet, dus deze komen ook niet in de reactievergelijking voor. Deze ionen (die dus niet reageren) noem je **tribune-ionen**.
+De reactie die hier plaatsvindt, is dus $\ce{Cu^2+ (aq) + 2\~OH^- (aq) -> Cu(OH)2 (s)}$. De rest van de ionen ($\ce{NO3^-}$ en $\ce{K+}$) reageren niet, dus deze komen ook niet in de reactievergelijking voor. Deze ionen (die dus niet reageren) noem je **tribune-ionen**.
 
 Je kunt ook de aanwezigheid van een enkel ion aantonen met neerslagreacties.
