@@ -9,46 +9,48 @@
         <script src="https://kit.fontawesome.com/4a94c21782.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <h1>Leermiddelenoverzicht</h1>
-        <p id="header-txt">Hallo! Op deze pagina vind je alle samenvattingen die ik maak en linkjes naar andere leermiddelen.<br>Hieronder zie je per toets de beschikbare leermiddelen.<br>Veel succes met leren!</p>
-        {% for year_data in site.data.homepage_data %}
-            <h2>{{ year_data[0] }}</h2>
-            {% for period_data in year_data[1] %}
-                <h3>{{ period_data[0] }}</h3>
-                <ul>
-                    {% for test_data in period_data[1] %}
-                        <li>
-                            {% if test_data.icon == "NETL" or test_data.icon == "ENTL" or test_data.icon == "FATL" %}
-                                <img src="/assets/{{ test_data.icon }}.png" alt="Een vlag om het vak {{ test_data.icon }} te duiden">
-                            {% else %}
-                                <i class="{{ test_data.icon }}"></i>
-                            {% endif %}
-                        <span class="subject">{{ test_data.subject }}:</span> <span class="test_material">{{ test_data.test_material }}</span> <span class="test_code">({{ test_data.test_code }})</span>
-                            <ul>
-                                {% if test_data.summary_link != ""%}
-                                    <li class="link active" ><a href="{{ test_data.summary_link }}">{{ test_data.summary_name }} <i class="fa-solid fa-arrow-right"></i></a></li>
+        <main>
+            <h1>Leermiddelenoverzicht</h1>
+            <p id="header-txt">Hallo! Op deze pagina vind je alle samenvattingen die ik maak en linkjes naar andere leermiddelen.<br>Hieronder zie je per toets de beschikbare leermiddelen.<br>Veel succes met leren!</p>
+            {% for year_data in site.data.homepage_data %}
+                <h2>{{ year_data[0] }}</h2>
+                {% for period_data in year_data[1] %}
+                    <h3>{{ period_data[0] }}</h3>
+                    <ul>
+                        {% for test_data in period_data[1] %}
+                            <li>
+                                {% if test_data.icon == "NETL" or test_data.icon == "ENTL" or test_data.icon == "FATL" %}
+                                    <img src="/assets/{{ test_data.icon }}.png" alt="Een vlag om het vak {{ test_data.icon }} te duiden">
                                 {% else %}
-                                    {% if test_data.make_summary %}
-                                        <li class="link notyetactive">Samenvatting nog niet beschikbaar</li>
-                                    {% else %}
-                                        <li class="link neveractive">Geen samenvatting</li>
-                                    {% endif %}
+                                    <i class="{{ test_data.icon }}"></i>
                                 {% endif %}
-                
-                                {% for resource in test_data.resources %}
-                                    <li class="link active"><a href="{{ resource.link }}" target="_blank">{{ resource.title }} {% if resource.type == "internal" %}
-                                        <i class="fa-solid fa-arrow-right"></i>
+                            <span class="subject">{{ test_data.subject }}:</span> <span class="test_material">{{ test_data.test_material }}</span> <span class="test_code">({{ test_data.test_code }})</span>
+                                <ul>
+                                    {% if test_data.summary_link != ""%}
+                                        <li class="link active" ><a href="{{ test_data.summary_link }}">{{ test_data.summary_name }} <i class="fa-solid fa-arrow-right"></i></a></li>
                                     {% else %}
-                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    {% endif %}</a></a></li>
-                                {% endfor %}
-                            </ul>
-                        </li>
-                    {% endfor %}
-                </ul>
+                                        {% if test_data.make_summary %}
+                                            <li class="link notyetactive">Samenvatting nog niet beschikbaar</li>
+                                        {% else %}
+                                            <li class="link neveractive">Geen samenvatting</li>
+                                        {% endif %}
+                                    {% endif %}
+                    
+                                    {% for resource in test_data.resources %}
+                                        <li class="link active"><a href="{{ resource.link }}" target="_blank">{{ resource.title }} {% if resource.type == "internal" %}
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        {% else %}
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        {% endif %}</a></a></li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endfor %}
             {% endfor %}
-        {% endfor %}
-
+        </main>
+        
         <footer>
             <hr>
             <p>Geschreven door Gijs</p>

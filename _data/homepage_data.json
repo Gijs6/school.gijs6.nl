@@ -101,8 +101,8 @@
                 "test_type": "Practicum",
                 "test_material": "Practicumtoets (Zouten)",
                 "make_summary": true,
-                "summary_link": "",
-                "summary_name": "",
+                "summary_link": "/4VWO/TW3/schk_practicum",
+                "summary_name": "Samenvatting",
                 "icon": "fa-solid fa-flask-vial",
                 "resources": []
             },
