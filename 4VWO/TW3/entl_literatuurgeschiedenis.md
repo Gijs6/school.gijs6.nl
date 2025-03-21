@@ -57,6 +57,20 @@ Beowulf is an **epic**: a long narrative (*voorgelezen*) poem. The most importan
 
 Beowulf is one of the most important works of **Old English** literature. The story is set in Scandinavia in the 5th and 6th centuries.
 
+Beowulf takes part in modern-day Scandinavia.
+
+![A map of where Beowulf takes part (img-semilarge)](images/entl_litges_beowulfmap.jpg)
+
+> Just ignore that red dashed line, I couldn't find a better map with the nice tribe names.
+
+There are elements of 2 different religions in Beowulf:
+
+- **Christian** elements:  
+  Such as God, humility, and trust in divine providence
+- **Pagan** elements  
+  Such as extraordinary strength and courage  
+  Paganism (*heidendom*) is the term used to describe people in the Roman Empire with a polytheistic (multiple gods) religion  
+
 #### Literary terms
 
 | Term             | Definition                                                                                      |
@@ -88,9 +102,17 @@ Beowulf hangs Grendel's arm from the ceiling of Herot.
 Some warriors trace Grendel's blood traces to find out that he had died in a lake.
 
 Grendel's mother attacks Herot because of her grief for her son. She kills one man (Hrothgar's closest friend), and she takes Grendel's arm with her. Beowulf is awakened and asked to help. Beowulf goes to the lake where Grendel's mother lives. He takes the sword called Hrunting with him.  
-Beowulf dives in and then sinks for hours. Grendel's mother tries to kill Beowulf, but his chain mail (*maliënkolder*) armor saves him. She has taken Beowulf to an underwater battle hall, and other monsters are looking at the fight. Beowulf tries to hit her with his sword, but her skin is just as bewitched as Grendel's was. She bites holes in his helmet, which then breaks. Beowulf threw Grendel's mother on the floor, but she quickly gets up, and she tries to kill him with a dagger, but the chainmail saves him once again.  
+Beowulf dives in and then sinks for hours. Grendel's mother tries to kill Beowulf, but his chain mail (*maliënkolder*) armor saves him. She has taken Beowulf to an underwater battle hall, and other monsters are looking at the fight. Beowulf tries to hit her with his sword, but her skin is just as bewitched as Grendel's was. She bites holes in his helmet, which then breaks. Beowulf threw Grendel's mother on the floor, but she quickly gets up, and she tries to kill him with a dagger, but the chain mail saves him once again.  
 Then Beowulf saw a heavy sword hanging on the wall. He grabs it, and he chops her head off. He does the same thing to Grendel's body (which was there in the lake).
 
-50 years later, Beowulf has to fight a dragon. The dragon is angry because a thief stole a jeweled cup, and Beowulf needs to protect his people. 
+50 years later, Beowulf has to fight a dragon. The dragon is angry because a thief stole a jeweled cup, and Beowulf needs to protect his people. Beowulf and some other Geats go into the tower where the dragon lives. The dragon is mad and shoots flames at him, but Beowulf uses his shield, but the shield melts. He stabs the dragon with his sword, but the weapon breaks before it could do much damage.  
+All the warriors run away, except Wiglaf. Wiglaf is thankful for everything Beowulf has given him, and want to repay his king, so he helps Beowulf. Together they beat the dragon, but Beowulf dies.  
+Just before he dies, he makes Wigaf his successor, and he asks to be buried next to the dragon's tower.  
+After he dies, Wiglaf is furious at the warriors that ran away. The story ends with the 12 bravest Geats riding around the tower and mourning over Beowulf.
+
+### The Canterbury Tales
+
+
+
 
 > Not yet finished!
