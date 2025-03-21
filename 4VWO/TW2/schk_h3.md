@@ -32,15 +32,15 @@ De **chemische hoeveelheid** (n) wordt gebruikt om aan te geven hoeveel molecule
 ![][image3]
 
 In berekeningen met chemische hoeveelheden gebruik je vaak de **molaire massa** (M): hoeveel massa heeft 1 mol. De molaire massa meet je in g / mol (of u). Deze staan in het periodiek systeem (Binas 99) en in Binas 98.  
-Als je de molaire massa van een molecuul wil berekenen (bijv. als deze niet in Binas 98 staat), tel je dus de molaire massa's van alle lossen atomen bij elkaar op. De molaire massa van ethanol (C2H6O) is dus M = 2 * 12,01 + 6 * 1,008 + 1 * 16,00 = 46,068 g/mol.  
+Als je de molaire massa van een molecuul wil berekenen (bijv. als deze niet in Binas 98 staat), tel je dus de molaire massa's van alle lossen atomen bij elkaar op. De molaire massa van ethanol (C2H6O) is dus M = 2 *12,01 + 6* 1,008 + 1 * 16,00 = 46,068 g/mol.  
 Met de molaire massa kun je ook het massapercentage berekenen van een bepaald element binnen een molecuul.
 
 ![][image4]
 
-Het massapercentage natrium in natriumthiosulfaat (Na2S2O3) bereken je dus als volgt: Mnatriumthiosulfaat = 2 * 22,99 + 2 * 32,06 + 3 * 16,00 = 158,1 u. Mnatrium =  2 * 22,99 = 45,98 u. m% = 45,98/158,1 * 100% = 29,1%.  
+Het massapercentage natrium in natriumthiosulfaat (Na2S2O3) bereken je dus als volgt: Mnatriumthiosulfaat = 2 *22,99 + 2* 32,06 + 3 *16,00 = 158,1 u. Mnatrium =  2* 22,99 = 45,98 u. m% = 45,98/158,1 * 100% = 29,1%.  
 Bij gassen mag je gebruik maken van het **molair volume** om van chemische hoeveelheid naar volume (en andersom) te gaan. Het molair volume bij een temperatuur van 0 °C (273 K) is 22,4 dm³/mol. Bij een temperatuur van 25 °C (298 K) hoort een molair volume van 24,5 dm³/mol.
 
-# Concentratie
+## Concentratie
 
 De **concentratie** (c) of **molariteit** geeft aan hoeveel deeltjes van een bepaalde stof in een volume aanwezig zijn. De eenheid van concentratie is molair (M) of mol/L. Je kunt de concentratie noteren met vierkante haken. De concentratie van de stof C9H10O3 kun je dus schrijven als [C9H10O3].
 
@@ -49,7 +49,7 @@ De **concentratie** (c) of **molariteit** geeft aan hoeveel deeltjes van een bep
 # Rekenen met reacties
 
 De rekenregels hierboven zijn alleen toe te passen binnen 1 stof. Als je van de ene stof naar de andere wil "overstappen" heb je een reactievergelijking (of gewoon een molverhouding) nodig.  
-De coëfficiënten van een reactievergelijking zijn namelijk molverhoudingen.   
+De coëfficiënten van een reactievergelijking zijn namelijk molverhoudingen.
 In de reactie hierboven is de verhouding H₂O : O₂ dus 2:1. 12 mol water zou dus 6 mol zuurstof geven.  
 In reacties bestaat **geen "wet van behoud van mol"**: het aantal mol voor de pijl is niet per se gelijk aan het aantal na de pijl. Er geldt wel de wet van massabehoud.  
 Voorbeeld: Hoeveel gram zuurstof ontstaat bij de volledige ontleding van 10,0 g water? Gebruik de reactievergelijking: 2 H₂O → 2 H₂ + O₂  

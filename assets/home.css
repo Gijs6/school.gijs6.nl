@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    color-scheme: dark;
+}
+
 body {
-    background: black;
-    color: white;
+    background: light-dark(white, black);
+    color: light-dark(black, white);
     font-family: Gantari, sans-serif;
     word-wrap: break-word;
     hyphens: auto;
@@ -66,13 +70,13 @@ li ul li {
 }
 
 a {
-    text-decoration-color: #888;
-    color: #27c1e9;
+    text-decoration-color: light-dark(#777, #888);
+    color: light-dark(#1298BA, #27c1e9);
     font-weight: bolder;
 }
 
 a:hover {
-    text-decoration-color: white;
+    text-decoration-color: light-dark(black, white);
 }
 
 footer p {
@@ -86,4 +90,10 @@ footer hr {
 
 footer a {
     color: inherit;
+}
+
+@media print {
+    :root {
+        color-scheme: light !important;
+    }
 }

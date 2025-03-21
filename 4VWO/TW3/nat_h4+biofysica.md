@@ -95,3 +95,5 @@ Je kunt voorwerpen uit de omgeving zien doordat ze licht weerkaatsen en jouw oog
 ![Diffuse weerkaatsing (img-medium)](images/nat_h4bio_diffuus.jpg)
 
 In je oog moeten divergente lichtstralen convergent worden gemaakt, zodat ze mooi op 1 punt op het netvlies vallen.
+
+> Nog niet af!

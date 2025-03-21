@@ -63,7 +63,7 @@ Er zijn volgens Geert Hofstede 5 **dimensies** waarin culturen voornamelijk vers
   **Lage onzekerheidsvermijding** $\implies$ behoefte aan regels, duidelijkheid, voorspelbaarheid  
   **Hoge onzekerheidsvermijding** $\implies$ minder behoefde op regels, uiteenlopende meningen worden geaccepteerd
 - **Gerichtheid op de lange termijn** vs. **korte termijn**  
-  De mate waarin de maatschappij is gericht op de toekomst of juist meer op het heden 
+  De mate waarin de maatschappij is gericht op de toekomst of juist meer op het heden  
   **Gerichtheid op de lange termijn** $\implies$ veel plannen, sparen  
   **Gerichtheid op de korte termijn** $\implies$ behoeft aan resultaten op de korte termijn
 
