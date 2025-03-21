@@ -57,8 +57,6 @@ Beowulf is an **epic**: a long narrative (*voorgelezen*) poem. The most importan
 
 Beowulf is one of the most important works of **Old English** literature. The story is set in Scandinavia in the 5th and 6th centuries.
 
-Beowulf takes part in modern-day Scandinavia.
-
 ![A map of where Beowulf takes part (img-semilarge)](images/entl_litges_beowulfmap.jpg)
 
 > Just ignore that red dashed line, I couldn't find a better map with the nice tribe names.
@@ -84,7 +82,7 @@ There are elements of 2 different religions in Beowulf:
 
 #### Summary
 
-> Fun fact: the first word in Beowulf ("hwæt") doesn't actually have a perfect translation. For a long time, historians thought it was kind of an interjection to grab the reader's attention. That's why it was often translated as "hear me," "listen," or "indeed." But this theory is quite debated, so there are also other translations of *hwæt*, and seriously, [this translation](https://www.historytoday.com/archive/review/beowulf-bro) went with "bro."
+> Fun fact: the first word in Beowulf ("hwæt") doesn't actually have a perfect translation. For a long time, historians thought it was kind of an interjection to grab the reader's attention. That's why it was often translated as "hear me," "listen," or "indeed." But this theory is quite debated, so there are also other translations of *hwæt*, and seriously, [this translation](https://www.historytoday.com/archive/review/beowulf-bro) went with "bro".
 
 Hrotgar is the current king of the Danes. He built a great mead hall (mead is a drink made from honey) named Herod.  
 In the night, when all Hrotgar's men are asleep, the monster Grendel kills a few of them, because he can't stand the celebrations in Herot. He has done this for 12 years. The Danes try everything, but they can't get rid of him.
@@ -112,7 +110,28 @@ After he dies, Wiglaf is furious at the warriors that ran away. The story ends w
 
 ### The Canterbury Tales
 
+The Canterbury Tales, written by Geoffrey Chaucer, is one of the most important works of **Middle English** literature.
+The story is set in the Tabard Inn (near London) in April. A group of pilgrims is preparing a journey to Canterbury. Chaucer himself, so he is both narrator and participant, introduces all the pilgrims and he joins them on their journey.
 
+![The Tabard Inn in the 19th century (img-medium)](images/entl_litges_tabardinn.jpg)  
+<span class="img-txt">The Tabard Inn in the 19th century</span>
 
+The society was devided into 3 classes: the clergy (e.g. church), nobility (noble people) and the people (the tax paying citisens).
+
+Chaucer also uses satire to mock people from all social classes.
+
+#### Summary
+
+> This will just be a list of all the characters that appear in the General Prologue, their stereotype (positive or negative), the social class, and just a little description
+
+|               Character               | Stereotype | Social class |                                                                     Description                                                                      |
+| :-----------------------------------: | :--------: | :----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
+|            The **Knight**             |  Positive  |   Nobility   |                                            Heroic, humble, modest, strong, wise, old discoloured clothes                                             |
+|            The **Squire**             |  Positive  |   Nobility   |                                        Son of the knight, strong, lively/joyful (reads, writes songs), strong                                        |
+|            The **Yeoman**             |  Positive  |    People    |                                                  Servant of the Knight, faithfull, loads of weapons                                                  |
+| The **Prioress** (*Madame Eglantine*) |  Negative  |    Clergy    | Head of the nuns, really obsessed with love (which nun's shoudn't be), posh, dignified<br>Chauser is quite sarcastic when talking about the prioress |
+|             The **Monk**              |  Negative  |    Clergy    |                        Handsome, doesn't follow strict lifestyle, prefers good living and drinking (which monks shoudn't do)                         |
+|       The **Friar** (*Hubert*)        |  Negative  |    Clergy    |                   A friar is a poor religious person who's job it is to collect money/food<br>Gossips, only helps the rich people                    |
+|           The **Merchant**            |  Negative  |    People    |                                                        Very good at buisness, maybe in debt?                                                         |
 
 > Not yet finished!

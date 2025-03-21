@@ -136,15 +136,15 @@ blockquote {
 }
 
 img {
-    max-width: 50%;
+    width: 50%;
 }
 
 img[alt~="(img-large)"] {
-  max-width: 100%;
+  width: 100%;
 }
 
 img[alt~="(img-semilarge)"] {
-  max-width: 80%;
+  width: 80%;
 }
 
 img[alt~="(img-medium)"] {
