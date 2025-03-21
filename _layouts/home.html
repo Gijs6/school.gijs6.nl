@@ -36,7 +36,11 @@
                                 {% endif %}
                 
                                 {% for resource in test_data.resources %}
-                                    <li class="link active"><a href="{{ resource.link }}" target="_blank">{{ resource.title }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+                                    <li class="link active"><a href="{{ resource.link }}" target="_blank">{{ resource.title }} {% if resource.type == "internal" %}
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    {% else %}
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    {% endif %}</a></a></li>
                                 {% endfor %}
                             </ul>
                         </li>

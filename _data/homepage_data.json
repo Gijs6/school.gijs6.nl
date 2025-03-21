@@ -35,7 +35,8 @@
                 "resources": [
                     {
                         "link": "https://studygo.com/nl/learn/folders/2538129",
-                        "title": "StudyGo"
+                        "title": "StudyGo",
+                        "type": "external"
                     }
                 ]
             },
@@ -56,8 +57,8 @@
                 "test_type": "Toets",
                 "test_material": "H4 (Krachten)",
                 "make_summary": true,
-                "summary_link": "",
-                "summary_name": "",
+                "summary_link": "/4VWO/TW3/nat_h4+biofysica",
+                "summary_name": "Samenvatting",
                 "icon": "fa-solid fa-atom",
                 "resources": []
             },
@@ -117,11 +118,13 @@
                 "resources": [
                     {
                         "link": "https://studygo.com/nl/learn/lists/180818384",
-                        "title": "Ladingen (StudyGO)"
+                        "title": "Ladingen (StudyGO)",
+                        "type": "external"
                     },
                     {
                         "link": "https://www.gijs6.nl/oefenen_zouten",
-                        "title": "Oefenen zoutformules"
+                        "title": "Oefenen zoutformules",
+                        "type": "internal"
                     }
                 ]
             },
@@ -185,7 +188,8 @@
                 "resources": [
                     {
                         "link": "https://studygo.com/nl/learn/lists/180222168",
-                        "title": "StudyGo"
+                        "title": "StudyGo",
+                        "type": "external"
                     }
                 ]
             },
@@ -201,7 +205,8 @@
                 "resources": [
                     {
                         "link": "https://studygo.com/nl/learn/folders/2501044",
-                        "title": "StudyGO"
+                        "title": "StudyGO",
+                        "type": "external"
                     }
                 ]
             },
@@ -217,7 +222,8 @@
                 "resources": [
                     {
                         "link": "https://docs.google.com/document/d/1P2Jj8aAtJ5x3tgboHmwUpc-D6eCIo03xs9NzuFFdI6g",
-                        "title": "Begrippenlijst"
+                        "title": "Begrippenlijst",
+                        "type": "external"
                     }
                 ]
             },
@@ -255,7 +261,8 @@
                 "resources": [
                     {
                         "link": "https://docs.google.com/document/d/1Irzp7gT6OgffYsv7YpaaoT2EviXsRq1artWkRKbXGQk",
-                        "title": "Begrippenlijst"
+                        "title": "Begrippenlijst",
+                        "type": "external"
                     }
                 ]
             },
@@ -271,11 +278,13 @@
                 "resources": [
                     {
                         "link": "https://kemia.nl/oefenen/chemie?view=article&id=13&catid=8",
-                        "title": "Oefenopgaven"
+                        "title": "Oefenopgaven",
+                        "type": "external"
                     },
                     {
                         "link": "https://youtube.com/playlist?list=PLfjhVebpNAP6nWActdN3Enw5PzOoc_buN",
-                        "title": "Uitlegvideo's"
+                        "title": "Uitlegvideo's",
+                        "type": "external"
                     }
                 ]
             },
@@ -320,7 +329,7 @@
                 "test_type": "Toets",
                 "test_material": "H3 (Deel 1)",
                 "make_summary": true,
-                "summary_link": "https://docs.google.com/document/d/1G8DOXmlBdT0EUvFZ84RdH5GF1JS8oZGd7FU06evP1oY",
+                "summary_link": "/4VWO/TW2/schk_h3",
                 "summary_name": "Samenvatting",
                 "icon": "fa-solid fa-flask-vial",
                 "resources": []
@@ -405,7 +414,8 @@
                 "resources": [
                     {
                         "link": "/4VWO/TW1/netl_verhaalanalyse2",
-                        "title": "Tweede samenvatting"
+                        "title": "Tweede samenvatting",
+                        "type": "internal"
                     }
                 ]
             },

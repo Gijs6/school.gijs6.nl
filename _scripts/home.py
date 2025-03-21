@@ -33,6 +33,13 @@ def extract_test_code(file_path):
         return test_code
     return []
 
+def extract_summary_name(file_path):
+    front_matter = extract_front_matter(file_path)
+    if front_matter and 'summary_name' in front_matter:
+        summary_name = front_matter['summary_name']
+        return summary_name
+    return "Samenvatting"
+
 def main():
     with open("_data/test_data.json", "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -50,9 +57,10 @@ def main():
             for file in files:
                 file_path = os.path.join(sub_path, file)
                 test_code = extract_test_code(file_path)
+                
                 for filedata in filter(lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]):
                     filedata["summary_link"] = f"/{main_dir}/{sub_dir}/{file.replace(".md", "")}"
-                    filedata["summary_name"] = "Samenvatting"
+                    filedata["summary_name"] = extract_summary_name(file_path)
 
     sorted_data = {}
         
