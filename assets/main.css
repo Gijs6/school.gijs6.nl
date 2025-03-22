@@ -16,8 +16,11 @@ body {
     min-height: fit-content;
 }
 
-h2 {
+h2, h3, h4 {
     margin-block-end: 0;
+}
+
+h2 {
     border-bottom: 1px solid light-dark(#c3c3c3, #3c3c3c);
     padding-bottom: 5px;
     font-size: 1.8em;
@@ -58,6 +61,7 @@ svg {
 
 p, li {
     font-weight: 300;
+    line-height: 1.3em;
 }
 
 footer p {
@@ -69,6 +73,9 @@ footer hr {
     margin-block-end: 1em;
 }
 
+p mjx-container {
+    margin-bottom: 0.3em !important;
+}
 
 mjx-container[display="true"] {
     text-align: left !important;

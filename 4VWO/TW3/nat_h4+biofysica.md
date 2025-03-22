@@ -26,6 +26,7 @@ Er zijn veel soorten krachten:
   Voor de veerkracht geldt:  
   $F_\text{v}=C \cdot u$
   Hierin is $F_\text{v}$ de veerkracht (in $\text{N}$), $u$ de uitrekking (in $\text{m}$) en $C$ de veerconstante (in $\text{N}/\text{m}$). Voor de veerconstante geldt: hoe groter de veerconstante, hoe stugger de veer.  
+  
   De veerkracht werkt altijd in de richting van de veer.
 - **Spankracht** ($F_\text{s}$)
   De kracht van een touw op een voorwerp doordat er aan het touw wordt getrokken. De spankracht werkt altijd in de richting van het touw.
@@ -33,6 +34,7 @@ Er zijn veel soorten krachten:
   De zwaartekracht is de kracht tussen de aarde en een massa. Voor de zwaartekracht geldt:  
   $F_\text{z}=m \cdot g$  
   Hierin is $F_\text{z}$ de zwaartekracht (in $\text{N}$), $m$ de massa (in $\text{kg}$) en $g$ de valversnelling (in $\text{N}/\text{kg}$ of $\text{m}/\text{s}^2$).  
+  
   De valversnelling hangt af van de planeet. Op aarde is de gemiddelde valversnelling 9,81 $\text{m}/\text{s}^2$.  
   De zwaartekracht grijpt altijd aan in het **zwaartepunt** van een voorwerp.
 - **Normaalkracht** ($F_\text{n}$) en **gewicht** ($F_\text{gewicht}$)  
@@ -41,6 +43,7 @@ Er zijn veel soorten krachten:
 - **Schuifwrijvingskracht** ($F_\text{w,s}$)  
   Deze hangt af van hoe hard de oppervlakten tegen elkaar worden gedrukt en hoe ruw de oppervlakten zijn.  
   Er kan ook een schuifwrijving zijn als er nog geen bewering is. Als je bijvoorbeeld duwt tegen een zware kast, beweegt hij niet, terwijl je er wel een kracht op uitoefent. Er moet dus een reactiekracht aanwezig zijn: de schuifwrijving. Deze schuifwrijving past zich aan de actiekracht aan, maar niet boven de **maximale schuifwrijving** ($F_\text{w,s,max}$). Om de kast te verplaatsen heb je dus een uitwendige kracht nodig die gelijk is aan (of groter dan) de maximale schuifwrijving.  
+  
   Voor de maximale schuifwrijving geldt:  
   $F_\text{w,s,max} = f \cdot F_\text{n}$  
   Hierin is $F_\text{w,s,max}$ de maximale schuifwrijvingskracht (in $\text{N}$), f de **wrijvingscoëfficiënt** (zonder eenheid) en $F_\text{n}$ de normaalkracht (in $\text{N}$).
@@ -61,7 +64,7 @@ Als je van 2 krachten alleen de richting en de somkracht weet, kun je de **omgek
 
 Bij een versnelde of vertraagde beweging geldt dat de richting van de versnelling hetzelfde is als de richting van de somkracht. In een formule:
 
-$$\vec{F}_\text{res} = \sum_{i} \vec{F}_i=m \cdot \vec{a}$$
+$$\vec{F}_\text{res} = \sum_i \vec{F}_i=m \cdot \vec{a}$$
 
 Het $\sum$-teken betekent dat de krachten moeten worden samengesteld via de parallellogrammethode.
 
@@ -107,7 +110,7 @@ Lenzen kun je vereenvoudigd tekenen. Je verwaarloost dan de dikte van de lens en
 
 De sterkte van de lens hangt enkel af van de brandpuntsafstand:
 
-$$S=\frac{1}{f}$$  
+$$S=\frac{1}{f}$$
 Hierin is $S$ de sterkte van de lens (in $\text{dpt}=\text{m}^{-1}$) en $f$ de brandpuntsafstand (in $\text{m}$).
 
 Een **voorwerpspunt** geef je aan met een $V$, de grootte (vaak lengte) van een voorwerp is de **voorwerpsgrootte** ($L_\text{v}$) en de afstand van het voorwerp tot de lens is de **voorwerpsafstand** ($v$).  
@@ -131,12 +134,12 @@ Bij een negatieve lens ontstaat er geen beeld na de lens, maar als je de lichtst
 
 Bij lenzen is er sprake van een **lineare vergroting**:
 
-$$N=\frac{L_\text{b}}{L_\text{v}}=\frac{b}{v}$$  
+$$N=\frac{L_\text{b}}{L_\text{v}}=\frac{b}{v}$$
 Hierin is $N$ de lineare vergroting (zonder eenheid, het is een verhouding), $L_\text{b}$ de beeldgrootte (in $\text{m}$), $L_\text{v}$ de voorwerpgrootte (in $\text{m}$), $b$ de beeldafstand (in $\text{m}$) en $v$ de voorwerpsafstand (in $\text{m}$).
 
 De lenzenwet luidt:
 
-$$S=\frac{1}{f}=\frac{1}{v}+\frac{1}{b}$$  
+$$S=\frac{1}{f}=\frac{1}{v}+\frac{1}{b}$$
 Hierin is $S$ de sterkte van de lens (in $\text{dpt}=\text{m}^{-1}$), $f$ de brandpuntsafstand (in $\text{m}$), $v$ de voorwerpsafstand (in $\text{m}$) en $b$ de beeldafstand (in $\text{m}$).
 
 ### In het oog
@@ -164,8 +167,8 @@ Binnen de natuurkunde noem je een draaibaar en onbuigbaar voorwerp een **hefboom
 
 Voor de "neiging tot draaiing" van een hefboom zijn 2 dingen belangrijk: de grootte van de kracht en de aangrijping van de kracht op de hefboom. Het krachtmoment is een grootheid voor deze "neiging tot draaiing".
 
-$$M=F\cdot r$$  
-Hierin is $M$ het krachtmoment (in $\text{Nm}$), $F$ de kracht (in $\text{N}$) en $r$ de arm (in $\text{m}$). De arm is  de **LOODRECHTE** afstand van het draaipunt ($S$) tot de **WERKLIJN** van de kracht.
+$$M=F\cdot r$$
+Hierin is $M$ het krachtmoment (in $\text{Nm}$), $F$ de kracht (in $\text{N}$) en $r$ de arm (in $\text{m}$). De arm is de **LOODRECHTE** afstand van het draaipunt ($S$) tot de **WERKLIJN** van de kracht.
 
 ![Een hefboom met 2 krachten (img-medium)](images/nat_h4bio_hefboom1.jpg)  
 <span class="img-txt">In deze situatie zijn de momenten even groot</span>
