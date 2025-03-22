@@ -19,14 +19,14 @@ Functies van een cultuur:
 De **dominante cultuur** is de cultuur die de meerderheid van de bevolking met elkaar deelt en als vanzelfsprekend beschouwt. Binnen een dominante cultuur zijn er **subculturen**: culturen waarin sommige cultuurkenmerken afwijken van de dominante cultuur.  
 Naast subculturen heb je ook nog **tegenculturen**: de cultuur van groepen die zich verzetten tegen de dominante cultuur.  
 Een pluriforme samenleving heeft dus een hoge **culture diversiteit** (er bestaan veel subculturen en andere levensstijlen).  
-Er zijn uiteraard veel factoren die invloed hebben op die culturele diversiteit:
+Er zijn uiteraard veel factoren die invloed hebben op die culturele diversiteit en op je **referentiekader**:
 
 - Woonomgeving
 - Generatie
 - Maatschappelijke positie
 - **Gender** (culturele verschillen tussen mannen en vrouwen, dus niet geslacht)  
   Vaak bepaald door **rolpatronen**: verwachtingen en opvattingen over hoe iemand zich hoort te gedragen
-- Migratieachtergrond
+- Migratieachtergrond  
   Door migratie zijn er in Nederland veel **etnische subculturen** (subculturen met cultuurkenmerken uit het land van herkomst)
 - Religie
 
@@ -100,13 +100,46 @@ Een **asielzoeker** is iemand die asiel aanvraagt. Dit is vaak niet eenvoudig.
 > Een migrant is iemand die verhuist van een land naar het andere, en een vluchteling is dus echt iemand die vlucht voor geweld of vervolging.  
 > Een vluchteling is dus wel een migrant, maar niet elke migrant is een vluchteling.
 
-**Arbeidsmigranten** zijn migranten die verhuizen voor hun werk. Volgens de **Verdragen van Schengen** geldt er in alle EU-lidstaten (behalve Ierland) en in de EVA-lidstaten (IJsland, Lichtenstein, Noorwegen en Zwitserland) **vrij verkeer van personen**. En binnen de EU mogen alle inwoners werken en wonen in andere EU-lidstaten (geregeld in het **Verdrag betreffende de Europese Unie** (verdrag van Maastricht)). Er komen bijvoorbeeld arbeidsmigranten uit Oost-Europa naar Nederland.
+**Arbeidsmigranten** zijn migranten die verhuizen voor hun werk. Volgens de **Verdragen van Schengen** geldt er in alle EU-lidstaten (behalve Ierland) en in de EVA-lidstaten (IJsland, Liechtenstein, Noorwegen en Zwitserland) **vrij verkeer van personen**. En binnen de EU mogen alle inwoners werken en wonen in andere EU-lidstaten (geregeld in het **Verdrag betreffende de Europese Unie** (Verdrag van Maastricht)). Er komen bijvoorbeeld arbeidsmigranten uit Oost-Europa naar Nederland.
 
 **Kennismigranten** zijn migranten die verhuizen omdat er in een ander land een grote behoefte is aan zijn kennis. Denk aan personen uit de VS, Japan en Zuid-Korea die bijvoorbeeld gaan werken bij ASML.
 
 Bij al deze migrantengroepen zie je **volgmigratie**: migratie als gevolg van **gezinshereniging** of **gezinsvorming**. Het recht hierop is vastgelegd in het EVRM, het Europees Verdrag voor de Rechten van de Mens (dus niet het UVRM!).
-Bij gezinshereniging gaat het om mensen die in Nederland werken en hun familie uit het buitenland hier heen halen. Bij gezinsvorming gaat het om een Nederlander die met een buitenlander trouwt en hier een gezin sticht.
+Bij gezinshereniging gaat het om mensen die in Nederland werken en hun familie uit het buitenland hierheen halen. Bij gezinsvorming gaat het om een Nederlander die met een buitenlander trouwt en hier een gezin sticht.
 
-Niet alle asielaanvragen worden geaccepteerd. Een migrant moet dan terug naar het land waar hij vandaan komt, maar soms maken migranten zich ontvindbaar voor overheidsinstanties. Deze groep noem je **illegalen** (mensen die geen wettige toestemming hebben om in een land te wonen en te werken).
+Niet alle asielaanvragen worden geaccepteerd. Een migrant moet dan terug naar het land waar hij vandaan komt, maar soms maken migranten zich onvindbaar voor overheidsinstanties. Deze groep noem je **illegalen** (mensen die geen wettige toestemming hebben om in een land te wonen en te werken).
 
-> Nog niet af!
+## Europa
+
+**Irreguliere migratie** (zonder geldige documenten) is op Europees niveau een groot vraagstuk.
+
+Er zijn 4 belangrijke thema's die spelen rond het vluchtelingenvraagstuk:
+
+- **Moraal**: wat is ethisch het goede? Er is hier een afweging tussen 2 **morele verplichtingen**: het welzijn van de eigen bevolking en de zorg voor mensen in nood
+- **Eigenbelang**: vaak vinden mensen hun eigen belangrijker dan die van vluchtelingen
+- **Onmacht**: we kunnen mensen niet tegenhouden als de grenzen niet gesloten zijn.
+- **Internationaal recht**: landen zijn volgens het VN-vluchtelingen verdrag verplicht opvang te bieden en landen mogen volgens de UVRM niemand beperken in het aanvragen van asiel. Daarom zijn **pushbacks** (het terugduwen van asielzoekers) ook verboden.
+
+Volgens de **Dublin-verordening** is het land waar een asielzoeker het Schengengebied binnenkomt, verantwoordelijk voor de behandeling van de asielaanvraag.
+
+## Integratie
+
+**Assimilatie** is het volledig opgeven van de eigen cultuur. **Integratie** is het samengaan van cultuurgroepen door *wederzijdse* aanpassing.  
+In Nederland is integratie de samenlevingsvorm die de Nederlandse overheid stimuleert.
+
+Er zijn 5 belangrijke reacties op veranderingen die door migratie ontstaan:
+
+- **Vermijding**: mensen vermijden contact tussen groepen en trekken zich terug binnen hun eigen groep. Vermijding kan leiden tot **segregatie**: groepen in de samenleving zijn gescheiden van elkaar.
+- **Conflicten**: groepen in de samenleving botsen met elkaar omdat mensen niet willen veranderen  
+  Deze conflicten spelen zich op 3 gebieden:
+
+  - **Sociaal-cultureel**: conflicten die te maken hebben met waarden en normen, opvattingen en gewoonten
+  - **Sociaaleconomisch**: conflicten die te maken hebben met economie, arbeid, sociale zekerheid en discriminatie op de arbeidsmarkt  
+  **Integratieparadox**: jongeren die goed integreren ervaren de discriminatie op de arbeidsmarkt, waardoor ze zich van de samenleving kunnen gaan afkeren (en dus minder integreren)
+  - **Politiek-juridisch**: conflicten die te maken hebben met macht
+
+  De meeste conflicten worden opgelost via rechtszaken, demonstraties of wetgeving. Maar soms ontstaan overtuigingen of vormen van gedrag die tegen de waarden en normen van de democratische rechtsstaat in gaan: **radicalisering**.
+
+- **Aanvaarding**: mensen accepteren dat de samenleving verandert
+- **Vervreemding**: mensen voelen zich niet thuis in hun eigen omgeving
+- **Verlies**: mensen voelen dat cultuurelementen verdwijnen
