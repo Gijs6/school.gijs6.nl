@@ -66,7 +66,7 @@ There are elements of 2 different religions in Beowulf:
 - **Christian** elements:  
   Such as God, humility, and trust in divine providence
 - **Pagan** elements  
-  Such as extraordinary strength and courage  
+  Such as extraordinary strength, courage, and fate
   Paganism (*heidendom*) is the term used to describe people in the Roman Empire with a polytheistic (multiple gods) religion  
 
 #### Literary terms
@@ -110,28 +110,41 @@ After he dies, Wiglaf is furious at the warriors that ran away. The story ends w
 
 ### The Canterbury Tales
 
-The Canterbury Tales, written by Geoffrey Chaucer, is one of the most important works of **Middle English** literature.
-The story is set in the Tabard Inn (near London) in April. A group of pilgrims is preparing a journey to Canterbury. Chaucer himself, so he is both narrator and participant, introduces all the pilgrims and he joins them on their journey.
+The Canterbury Tales, written by Geoffrey Chaucer, is one of the most important works of **Middle English** literature. It is a collection of tales told in a frame narrative.  
+The story is set in the Tabard Inn (near London) in April. A group of pilgrims is preparing a journey to Canterbury. Chaucer himself, so he is both narrator and participant, introduces all the pilgrims, and he joins them on their journey.
 
 ![The Tabard Inn in the 19th century (img-medium)](images/entl_litges_tabardinn.jpg)  
 <span class="img-txt">The Tabard Inn in the 19th century</span>
 
-The society was devided into 3 classes: the clergy (e.g. church), nobility (noble people) and the people (the tax paying citisens).
+The society was divided into 3 classes: the clergy (church people), nobility (noble people), and the people (the tax-paying citizens).
 
 Chaucer also uses satire to mock people from all social classes.
 
 #### Summary
 
-> This will just be a list of all the characters that appear in the General Prologue, their stereotype (positive or negative), the social class, and just a little description
+> This will just be a list of all the characters that appear in the General Prologue, their stereotype (positive or negative), the social class, and a description
 
-|               Character               | Stereotype | Social class |                                                                     Description                                                                      |
-| :-----------------------------------: | :--------: | :----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
-|            The **Knight**             |  Positive  |   Nobility   |                                            Heroic, humble, modest, strong, wise, old discoloured clothes                                             |
-|            The **Squire**             |  Positive  |   Nobility   |                                        Son of the knight, strong, lively/joyful (reads, writes songs), strong                                        |
-|            The **Yeoman**             |  Positive  |    People    |                                                  Servant of the Knight, faithfull, loads of weapons                                                  |
-| The **Prioress** (*Madame Eglantine*) |  Negative  |    Clergy    | Head of the nuns, really obsessed with love (which nun's shoudn't be), posh, dignified<br>Chauser is quite sarcastic when talking about the prioress |
-|             The **Monk**              |  Negative  |    Clergy    |                        Handsome, doesn't follow strict lifestyle, prefers good living and drinking (which monks shoudn't do)                         |
-|       The **Friar** (*Hubert*)        |  Negative  |    Clergy    |                   A friar is a poor religious person who's job it is to collect money/food<br>Gossips, only helps the rich people                    |
-|           The **Merchant**            |  Negative  |    People    |                                                        Very good at buisness, maybe in debt?                                                         |
-
-> Not yet finished!
+|             Character             |    Stereotype     | Social class |                                                                   Description                                                                   |
+| :-------------------------------: | :---------------: | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+|            **Knight**             |     Positive      |   Nobility   |                                          Heroic, humble, modest, strong, wise, old discolored clothes                                           |
+|            **Squire**             |     Positive      |   Nobility   |                                   *Son of the Knight*<br>Strong, lively/joyful (reads, writes songs), strong                                    |
+|            **Yeoman**             |     Positive      |    People    |                                              *Servant of the Knight*<br>Faithful, loads of weapons                                              |
+| **Prioress** (*Madame Eglantine*) |     Negative      |    Clergy    | *Head of the nuns*<br>Really obsessed with love (which nuns shouldn't be), posh, dignified<br>Chaucer is quite sarcastic when talking about her |
+|             **Monk**              |     Negative      |    Clergy    |                       Handsome, doesn't follow strict lifestyle, prefers good living and drinking (which monks shouldn't)                       |
+|       **Friar** (*Hubert*)        |     Negative      |    Clergy    |                     *A poor religious person whose job it is to collect money/food*<br>Gossips, only helps the rich people                      |
+|           **Merchant**            |     Negative      |    People    |                                                      Very good at business, maybe in debt?                                                      |
+|             **Clerk**             |     Negative      |    Clergy    |                         Very smart, well-educated, but he also didn't really progress even though he is so smart, poor                          |
+|      **Sergeant of the law**      |     Negative      |    People    |                                      *Lawyer*<br>Smart, takes bribes, "dressed in the robes of authority"                                       |
+|           **Franklin**            |     Positive      |    People    |                                                 Cheerful, landowner, takes good care of others                                                  |
+|             **Cook**              | Positive/negative |    People    |                                                       Makes good food, but is unhygienic                                                        |
+|            **Shipman**            |     Negative      |    People    |                                                Good at navigating, steals from the ship's cargo                                                 |
+|       **Doctor of Physic**        |     Negative      |   Nobility   |                             He is a great doctor, but he uses outdated/old-fashioned techniques, astronomer, greedy                             |
+|         **Wife of Bath**          |     Negative      |    People    |                            Very good at making clothes, proud, arrogant, many affairs, wears fancy expensive clothes                            |
+|            **Parson**             |     Positive      |    Clergy    |                                        Poor but wise, patient, not greedy, not disrespectful to sinners                                         |
+|           **Ploughman**           |     Positive      |    People    |                           *Brother of the parson*<br>Good worker, treats everyone nice, even though his life is hard                            |
+|            **Miller**             |     Negative      |    People    |                                                    Ugly, strong but stupid, dirty, dishonest                                                    |
+|           **Manciple**            |     Positive      |    People    |                                              *Business person*<br>Very wise, he outsmarted people                                               |
+|             **Reeve**             |     Negative      |    People    |                                                      Greedy, corrupt, good estate manager                                                       |
+|           **Summoner**            |     Negative      |    Clergy    |                                     Very ugly, alcoholist, children are afraid of him, pretends to be smart                                     |
+|           **Pardoner**            |     Negative      |    Clergy    |                                                           Arrogant, not manly, greedy                                                           |
+|             **Host**              |     Positive      |    People    |                                                        Joyful, well-educated, good host                                                         |
