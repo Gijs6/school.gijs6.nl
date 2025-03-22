@@ -24,8 +24,7 @@ def extract_front_matter(file_path):
             return yaml.safe_load(match.group(1))
     return []
 
-def extract_test_code(file_path):
-    front_matter = extract_front_matter(file_path)
+def extract_test_code(front_matter):
     if front_matter and 'test_code' in front_matter:
         test_code = front_matter['test_code']
         if isinstance(test_code, str):
@@ -33,12 +32,18 @@ def extract_test_code(file_path):
         return test_code
     return []
 
-def extract_summary_name(file_path):
-    front_matter = extract_front_matter(file_path)
+def extract_summary_name(front_matter):
     if front_matter and 'summary_name' in front_matter:
         summary_name = front_matter['summary_name']
         return summary_name
     return "Samenvatting"
+
+def extract_summary_type(front_matter):
+    if front_matter and 'summary_type' in front_matter:
+        summary_name = front_matter['summary_type']
+        return summary_name
+    return "basic"
+
 
 def main():
     with open("_data/test_data.json", "r", encoding="utf-8") as f:
@@ -56,11 +61,27 @@ def main():
             files = [f for f in os.listdir(sub_path) if f.endswith('.md')]
             for file in files:
                 file_path = os.path.join(sub_path, file)
-                test_code = extract_test_code(file_path)
-                
-                for filedata in filter(lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]):
-                    filedata["summary_link"] = f"/{main_dir}/{sub_dir}/{file.replace(".md", "")}"
-                    filedata["summary_name"] = extract_summary_name(file_path)
+                front_matter = extract_front_matter(file_path)
+                test_code = extract_test_code(front_matter)
+                summary_name = extract_summary_name(front_matter)
+                summary_type = extract_summary_type(front_matter)
+                    
+                for test_data in filter(lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]):
+
+                    # So for every test in the big test list with the same test_code as this file
+                    # This is a loop to handle summaries with multiple test_codes
+                    
+                    if summary_type != "basic":
+                        if not any(summary_name in resource["title"] for resource in test_data["resources"]):
+                            # If the summary is not regular, and it isn't already in te resources, append it to the resources
+                            test_data["resources"].append({
+                                "link": f"/{main_dir}/{sub_dir}/{file.replace(".md", "")}",
+                                "title": summary_name,
+                                "type": "internal"
+                            })
+                    else:
+                        test_data["summary_link"] = f"/{main_dir}/{sub_dir}/{file.replace(".md", "")}"
+                        test_data["summary_name"] = summary_name
 
     sorted_data = {}
         
