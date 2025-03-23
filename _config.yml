@@ -24,3 +24,5 @@ exclude:
 - _venv/
 - dekstop.ini
 markdown: GFM
+plugins:
+  - "jekyll-github-metadata"
