@@ -76,7 +76,7 @@ De middeleeuwse samenleving bestond uit 3 standen (**standenmaatschappij**):
 
 Aan het eind van de middeleeuwen ontstond ook nog een 4e stand: de burgerij (handelaren en werklieden).
 
-Het grondbezit en beheer werd bepaald door het **feodaal stelsel** (leenstelsel): **leenheren** (vorsten) gaven land "in leen" aan **leenmannen**(**vazallen**, vaak ridders). De vorst kreeg belastinginkomsten. Leenmannen moesten een **eed van trouw** afleggen bij het aannemen van een leen. Hiermee beloofden ze hun leenheer met raad en daad bij te staan.  
+Het grondbezit en beheer werd bepaald door het **feodaal stelsel** (leenstelsel): **leenheren** (vorsten) gaven land "in leen" aan **leenmannen** (**vazallen**, vaak ridders). De vorst kreeg belastinginkomsten. Leenmannen moesten een **eed van trouw** afleggen bij het aannemen van een leen. Hiermee beloofden ze hun leenheer met raad en daad bij te staan.  
 Leenmannen lieten hun land bewerken door horige boeren. Boeren maakten deel uit van het bezit van een edelman (**lijfeigen**).
 
 ### Religie
@@ -96,7 +96,7 @@ De **duivel** zou mensen continu verleiden tot zonden.
 De **ridders** (deel van de adel) zouden een **ontwikkeld en verfijnd mens** zijn. Belangrijke eigenschappen van een ridder waren hulpvaardigheid, rechtvaardigheid en hoffelijkheid.  
 De ridders waren onderworpen aan de christelijke moraal en een gedragscode. Deze worden samengevat in het begrip **hoofsheid**. De belangrijkste hoofse waarde was **trouw**. Een ridder die zich niet eervol gedroeg, bracht **schande** over zichzelf. Dit had o.a. sociale uitsluiting (denk aan het hedendaagse *cancelen* van iemand) tot gevolg.
 
-Omdat er in de middeleeuwen zoveel gehecht werd aan cultuur, werd de middeleeuwse cultuur ook wel een **eercultuur** genoemd. Kenmerkend voor een eercultuur is de collectieve moraal (gedeelde opvattingen over wat goed en slecht is). Tegenwoordig is er meer sprake van een **gewetenscultuur**, waarin mensen zelf bepalen wat goed en slecht is.
+In de middeleeuwen was **eer** erg belangrijk. De middeleeuwse cultuur ook wel een **eercultuur** genoemd. Kenmerkend voor een eercultuur is de collectieve moraal (gedeelde opvattingen over wat goed en slecht is). Tegenwoordig is er meer sprake van een **gewetenscultuur**, waarin mensen zelf bepalen wat goed en slecht is.
 
 ### Middeleeuwse literatuur
 
@@ -108,9 +108,9 @@ Tot ongeveer 1000 werd alleen in Latijn geschreven. Eind 11e eeuw begon men ook 
 
 ### Middeleeuwse verhalen
 
-Middeleeuwse **ridderromans** zijn op te delen in 2 soorten: **Karelromans** en **Arthurromans** (of **Hoofse romans**).
+Middeleeuwse **ridderromans** zijn op te delen in 2 soorten: **Karelromans** en **Arthurromans** (**Hoofse romans**).
 
-Kenmerken en thema's van Karelromans (ook wel vóórhoofse romans of chanson de geste):
+Kenmerken en thema's van Karelromans (dit waren vóórhoofse romans of chanson de geste):
 
 - Spelen zich af rond Karel de Grote (epische concentratie: dingen worden aan hem toegeschreven die hij niet heeft gedaan)
 - Geloof in en trouw aan God (belangrijkste thema)
@@ -119,7 +119,7 @@ Kenmerken en thema's van Karelromans (ook wel vóórhoofse romans of chanson de 
 - Mannen zijn ruwe en moedige vechtersbazen
 - Vrouw speelt ondergeschikte rol
 
-Kenmerken en thema's van Arthurromans (Hoofse romans):
+Kenmerken en thema's van Arthurromans (dit waren Hoofse romans):
 
 - Gaat over koning Arthur en zijn ridders van de ronde tafel (het is niet duidelijk of koning Arthur echt heeft bestaan)
 - Keltische achtergrond

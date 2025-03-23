@@ -190,4 +190,13 @@ table table {
     p, li {
         font-weight: 400;
     }
+    body {
+        padding: 0;
+    }
+    header {
+        display: none;
+    }
+    footer p:not(:first-of-type) {
+        display: none;
+    }
 }
