@@ -98,10 +98,6 @@ De ridders waren onderworpen aan de christelijke moraal en een gedragscode. Deze
 
 Omdat er in de middeleeuwen zoveel gehecht werd aan cultuur, werd de middeleeuwse cultuur ook wel een **eercultuur** genoemd. Kenmerkend voor een eercultuur is de collectieve moraal (gedeelde opvattingen over wat goed en slecht is). Tegenwoordig is er meer sprake van een **gewetenscultuur**, waarin mensen zelf bepalen wat goed en slecht is.
 
-**Ridders**, deel van de adel, zouden ontwikkeld en verfijnd zijn. Hoffelijkheid, hulpvaardigheid en rechtvaardigheid waren belangrijk voor ridders Hun gedrag werd bepaald door de christelijke moraal en een gedragscode. Deze 2 begrippen vielen onder het begrip **hoofsheid**, met **trouw** als belangrijkste waarde. Oneervol gedrag bracht **schande** en kon leiden tot sociale uitsluiting (denk aan het hedendaagse *cancelen*).
-
-De middeleeuwse samenleving was een **eercultuur**, waarin een collectieve moraal bepaalde wat goed of slecht was. Tegenwoordig overheerst een **gewetenscultuur**, waarin individuen dit zelf bepalen.
-
 ### Middeleeuwse literatuur
 
 In de middeleeuwen werd literatuur nauwelijks opgeschreven, omdat boeken handmatig gekopieerd moesten worden, vaak door monniken in **scriptorium**s. Dit proces kon wel een jaar duren. Wat ze opschreven waren kopieën van mondelinge verhalen die door verschillende mensen werden doorgegeven en daardoor veranderden. Boeken waren duur (door tijd en materiaal, zoals perkament) en alleen voor de rijken betaalbaar.
