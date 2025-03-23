@@ -48,24 +48,24 @@ Er zijn volgens Geert Hofstede 5 **dimensies** waarin culturen voornamelijk vers
 
 - **Grote** vs. **kleine machtsafstand**  
   De mate waarin mensen met weinig macht accepteren dat de macht ongelijk verdeeld is  
-  **Grote machtsafstand** $\implies$ mensen zijn gehoorzaam, ze accepteren de machtsverdeling  
-  **Kleine machtsafstand** $\implies$ mensen zijn mondiger, ze accepteren de machtsverdeling niet
+  **Grote machtsafstand** $\rightarrow$ mensen zijn gehoorzaam, ze accepteren de machtsverdeling  
+  **Kleine machtsafstand** $\rightarrow$ mensen zijn mondiger, ze accepteren de machtsverdeling niet
 - **Individualisme** vs. **collectivisme**  
   De mate waarin individuen zich deel voelen van groepen  
-  **Individualisme** $\implies$ banden tussen individuen zijn vrij los  
-  **Collectivisme** $\implies$ veel sterke, hechte groepen
+  **Individualisme** $\rightarrow$ banden tussen individuen zijn vrij los  
+  **Collectivisme** $\rightarrow$ veel sterke, hechte groepen
 - **Masculiniteit** vs. **femininiteit**  
   De rolverdeling tussen mannen en vrouwen  
-  **Masculiene cultuur** $\implies$ de rolpatronen van mannen en vrouwen zijn duidelijk gescheiden  
-  **Feminiene cultuur** $\implies$ de taken tussen mannen en vrouwen zijn gelijker
+  **Masculiene cultuur** $\rightarrow$ de rolpatronen van mannen en vrouwen zijn duidelijk gescheiden  
+  **Feminiene cultuur** $\rightarrow$ de taken tussen mannen en vrouwen zijn gelijker
 - **Lage** vs. **hoge onzekerheidsvermijding**  
   De mate van angst voor de toekomst  
-  **Lage onzekerheidsvermijding** $\implies$ behoefte aan regels, duidelijkheid, voorspelbaarheid  
-  **Hoge onzekerheidsvermijding** $\implies$ minder behoefde op regels, uiteenlopende meningen worden geaccepteerd
+  **Lage onzekerheidsvermijding** $\rightarrow$ behoefte aan regels, duidelijkheid, voorspelbaarheid  
+  **Hoge onzekerheidsvermijding** $\rightarrow$ minder behoefde op regels, uiteenlopende meningen worden geaccepteerd
 - **Gerichtheid op de lange termijn** vs. **korte termijn**  
   De mate waarin de maatschappij is gericht op de toekomst of juist meer op het heden  
-  **Gerichtheid op de lange termijn** $\implies$ veel plannen, sparen  
-  **Gerichtheid op de korte termijn** $\implies$ behoefte aan resultaten op de korte termijn
+  **Gerichtheid op de lange termijn** $\rightarrow$ veel plannen, sparen  
+  **Gerichtheid op de korte termijn** $\rightarrow$ behoefte aan resultaten op de korte termijn
 
 Binnen het **cultuurrelativisme** zijn culturen gelijkwaardig en kun je het gedrag van leden van de cultuur alleen beoordelen op basis van de maatstaven van die cultuur.  
 Binnen het **cultuuruniversalisme** ga je uit van het bestaan van universele waarden die voor heel de wereldbevolking gelden. Een voorbeeld hiervan zijn de mensenrechten uit de **Universele Verklaring van de Rechten van de Mens** (UVRM).  

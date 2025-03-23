@@ -1,28 +1,37 @@
+lang: nl
+timezone: Europe/Amsterdam
+
 title: Leermiddelenoverzicht
+description: Een overzicht van mijn samenvattingen en andere leermiddelen
+
 email: gijs6@dupunkto.org
 github_username: gijs6
+
 domain: school.gijs6.nl
 url: https://school.gijs6.nl
 permalink: /:path/:basename
-lang: nl
-exclude:
-- .sass-cache/
-- .jekyll-cache/
-- gemfiles/
-- Gemfile
-- Gemfile.lock
-- node_modules/
-- vendor/bundle/
-- vendor/cache/
-- vendor/gems/
-- vendor/ruby/
-- .obsidian/
-- .git/
-- .idea/
-- _scripts/
-- _data/
-- _venv/
-- dekstop.ini
+
 markdown: GFM
+
 plugins:
   - "jekyll-github-metadata"
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .obsidian/
+  - .git/
+  - .idea/
+  - _scripts/
+  - _data/
+  - _venv/
+  - dekstop.ini
+  - README.md

@@ -13,7 +13,7 @@ test_code: 4A-NETL-T05
 De **oudheid** (3000 v.C. - 500 n.C.) kende stadstaten i.p.v. landen. Belangrijke stadstaten waren Athene, Sparta en Troje (Grieken), Rome, Venetië en Florence (Romeinen), en Babylon en Jeruzalem (Midden-Oosten).  
 In 509 v.C. werd Rome een Republiek en veroverde grote delen van Europa, het Midden-Oosten en Noord-Afrika.
 
-De Grieken geloofden in een groot aantal goden (**polytheïsme**). De verhalen over de **oergoden** verklaarden het ontstaan van de wereld. De kinderen van 2 van de oergoden (Gaia en Ouranos) waren de **Titanen**: wezens die de natuurkrachten belichaamden. Zeus was een van de zonen van de titanen. Hij werd oppergod van de **Olympische goden**, die op de berg Olympos zouden wonen. De Romeinen namen de Griekse goden over, maar gaven hen (andere) Romeinse namen.  
+De Grieken geloofden in een groot aantal goden (**polytheïsme**). De verhalen over de **oergoden** verklaarden het ontstaan van de wereld. De kinderen van 2 van de oergoden (Gaia en Ouranos) waren de **Titanen**: wezens die de natuurkrachten belichaamden. Zeus (zoon van een van de titanen) werd oppergod van de **Olympische goden**, die op de berg Olympos zouden wonen. De Romeinen namen de Griekse goden over, maar gaven hen (andere) Romeinse namen.  
 Het **pantheon** is de term voor het geheel van godheden.
 
 In Palestina (tegenwoordig o.a. Israël, de Palestijnse gebieden, Libanon, Jordanië en Syrië) leefden destijds joden, die maar in 1 god geloofden (**monotheïsme**). Dit zorgde voor spanningen toen het gebied een Romeinse provincie werd. Jezus van Nazareth leidde tot een tweedeling in het jodendom, waarbij christenen hem als de aangekondigde messias zagen, maar de joden niet. Hij werd ter dood veroordeeld door de Romeinse gouverneur Pontius Pilatus.
@@ -79,13 +79,13 @@ Leenmannen lieten hun land bewerken door horige boeren. Boeren maakten deel uit 
 
 ### Religie
 
-Het **Rooms-katholicisme** was de enige godsdienst. Dit had een aantal gevolgen:
+Het **Rooms-katholicisme** was de enige godsdienst in Europa. Dit had een aantal gevolgen:
 
 - Het was moeilijk om nieuwe ideeën en inzichten te verspreiden.
 - Er was weinig maatschappelijke onrust
 - Er was veel onderlinge verbondenheid
 
-Men geloofde dat het aardse leven slechts een voorbereiding was op hemel of hel.  
+Men geloofde dat het aardse leven slechts een voorbereiding was op het leven in de hemel of in de hel.  
 Wat goed of slecht was werd bepaald door de kerk. In 600 bepaalde de paus de 7 hoofd**zonden** en de 7 **deugden**. Als men berouw toonde en/of een straf onderging kon een zonde ongedaan worden gemaakt.  
 De **duivel** zou mensen continu verleiden tot zonden.
 
@@ -104,31 +104,32 @@ Veel literatuur werd mondeling doorgegeven, gericht op ridders en adellieden. **
 
 Tot ongeveer 1000 werd alleen in Latijn geschreven. Eind 11e eeuw begon men ook in de volkstaal te schrijven, wat het begin van de literatuurgeschiedenis markeert. De oudste zin in **Diets** (Middelnederlands) die we kennen is een **pennenproef**: *Hebban olla vogala nestas hagunnan hinase hic anda thu, wat unbidan we nu?* (Alle vogels nestelen, behalve ik en jij. Waar wachten we nog op?).
 
+> Een pennenproef is een zinnetje dat iemand opschrijft om zijn ganzenveren pen te testen. Een ganzenveer was namelijk niet zomaar geschikt om mee te schrijven, want deze moest eerst bijgesneden worden. Door intensief gebruik verminderde de kwaliteit van de punt, waardoor deze steeds opnieuw bijgesneden en dus ook getest moest worden.
+
 ### Middeleeuwse verhalen
 
 Middeleeuwse **ridderromans** zijn op te delen in 2 soorten: **Karelromans** en **Arthurromans** (**Hoofse romans**).
 
-Kenmerken en thema's van Karelromans (dit waren vóórhoofse romans of chanson de geste):
+Kenmerken en thema's van Karelromans (ook wel vóórhoofse romans of *chanson de geste*):
 
-- Spelen zich af rond Karel de Grote (epische concentratie: dingen worden aan hem toegeschreven die hij niet heeft gedaan)
+- Spelen zich af rond Karel de Grote (**epische concentratie**: dingen worden aan hem toegeschreven die hij niet heeft gedaan)
 - Geloof in en trouw aan God (belangrijkste thema)
 - Ridderidealen (kracht en moed)
 - Trouwheid aan de leenheer
 - Mannen zijn ruwe en moedige vechtersbazen
 - Vrouw speelt ondergeschikte rol
 
-Kenmerken en thema's van Arthurromans (dit waren Hoofse romans):
+Kenmerken en thema's van Arthurromans (Hoofse romans):
 
-- Gaat over koning Arthur en zijn ridders van de ronde tafel (het is niet duidelijk of koning Arthur echt heeft bestaan)
+- Gaat over *de ridders van de ronde tafel* van koning Arthur (het is overigens niet duidelijk of koning Arthur echt heeft bestaan)
 - Keltische achtergrond
 - Hoofsheid (belangrijkste thema)
 - **Queestestructuur**: in het begin van het verhaal zijn de ridders op het kasteel van Arthur, maar door een vreemde gebeurtenis wordt de rust verstoord
-- Vrouwen worden vereerd en aanbeden, mannen doen veel om de liefde van een vrouw te winnen
 
-Liefde was een belangrijk thema in middeleeuwse verhalen. **Hoofse liefde** is vaak een geheime, onmogelijke liefde zonder seksuele handelingen (platonisch).  
+Liefde was een belangrijk thema in middeleeuwse verhalen. **Hoofse liefde** is vaak een geheime, onmogelijke liefde zonder seksuele handelingen (platonisch). Hierbij doen mannen vaak veel moeite om de liefde van een vrouw te winnen.  
 
 Aan de ene kant wordt de vrouw vereerd (zoals in de Arthurromans). Ze moet voldoen aan het beeld van Maria: onschuldig, maagd en zuiver.  
-Aan de andere kant wordt vanuit de kerk de vrouw gezien als de bron van kwaad. De vrouw is ondergeschikt aan de man omdat Eva de appel heeft gegeten. Ze wordt gezien als een verleidster. Daarnaast heb je ook nog heksen die als zondebok gebruikt worden.
+Aan de andere kant wordt vanuit de kerk de vrouw gezien als de bron van kwaad. De vrouw is ondergeschikt aan de man, omdat Eva de appel heeft gegeten. Ze wordt gezien als een verleidster. Daarnaast heb je ook nog heksen die als zondebok gebruikt worden.
 
 Middeleeuwse verhalen bevatten veel kleuren, getallen en dieren met een **symbolische** betekenis. Voorbeelden:
 
@@ -140,8 +141,7 @@ Middeleeuwse verhalen bevatten veel kleuren, getallen en dieren met een **symbol
 
 ### Didactische en geestelijke literatuur
 
-**Didactische literatuur** heeft als belangrijkste doel de lezers iets te leren. Een voorbeeld van de didactische literatuur is de geestelijk didactische literatuur:
-In veel middeleeuwse verhalen speelt het christelijk geloof een centrale rol. Er waren **heiligenlevens**, waarin de levens van heiligen als voorbeelden van een goed leven werden gepresenteerd.  
+**Didactische literatuur** heeft als belangrijkste doel de lezers iets te leren. Een voorbeeld van de didactische literatuur is de geestelijk didactische literatuur: in veel middeleeuwse verhalen speelt het christelijk geloof een centrale rol. Er waren **heiligenlevens**, waarin de levens van heiligen als voorbeelden van een goed leven werden gepresenteerd.  
 Ook werden er **exempelen** (korte verhalen over goed en kwaad) verteld, waarin gewone mensen, vaak beïnvloed door de duivel, fouten maakten. Een speciaal type exempel is de **Marialegende**, waarin Maria optreedt als bemiddelaar tussen de mens en God.
 
 ## Verhalen die je moet weten voor de toets
@@ -152,13 +152,13 @@ Beatrijs is een beroemde Nederlandse Marialegende.
 
 > Je moet van Beatrijs weten waar het verhaal in grote lijnen over gaat.
 
-Beatrijs, een jonge non, wordt overweldigd door de liefde en verlaat haar klooster om met haar geliefde een werelds leven te leiden. Ze spreken af onder de egelantier, een struik in de kloostertuin, waarna Beatrijs haar kloosterkleed aflegt en haar geliefde haar voorziet van blauwe en witte kleren ($\implies$ symboliek!). Ze reizen samen weg en leven gelukkig, maar na zeven jaar raakt hun geld op. Haar geliefde verbreekt zijn belofte en verlaat haar, waardoor Beatrijs alleen achterblijft met hun twee kinderen.
+Beatrijs, een jonge non, wordt overweldigd door de liefde en verlaat haar klooster om met haar geliefde een werelds leven te leiden. Ze spreken af onder de egelantier, een struik in de kloostertuin. Haar geliefde geeft haar blauwe en witte kleren ($\rightarrow$ symboliek!). Ze reizen samen weg en leven een gelukkig leven, maar na zeven jaar raakt hun geld op. Haar geliefde verbreekt zijn belofte en verlaat haar, waardoor Beatrijs alleen achterblijft met hun twee kinderen.
 
-Om te overleven, wordt ze gedwongen tot een zondig leven als publieke vrouw, ondanks haar afkeer hiervan. Gedurende veertien jaar blijft ze echter trouw haar Mariagebeden bidden. Uiteindelijk voelt ze diep berouw en bidt tot Maria om verlossing. Ze keert terug naar haar geboortestad en ontdekt dat Maria haar plaats al die tijd in het klooster heeft ingenomen. In een visioen wordt haar vergeven, en ze kan terugkeren naar het klooster zonder dat iemand haar afwezigheid heeft opgemerkt. Maria's genade toont zich in haar volledige herstel als non.
+Om te overleven, wordt ze gedwongen tot een zondig leven als publieke vrouw, ondanks haar afkeer hiervan. Ze blijft echter haar Mariagebeden voor 14 jaar lang bidden. Uiteindelijk voelt ze diep berouw en bidt tot Maria om verlossing. Ze keert terug naar haar geboortestad en ontdekt dat Maria haar plaats al die tijd in het klooster heeft ingenomen. In een visioen wordt haar vergeven, en ze kan terugkeren naar het klooster zonder dat iemand haar afwezigheid heeft opgemerkt.
 
 ### Karel ende Elegast
 
-Karel de Grote (de koning) ligt te slapen wanneer er een engel bij hem verschijnt. De engel zegt dat hij moet gaan stelen, op bevel van God. Karel denkt eerst dat hij droomt. De tweede keer vermoedt hij dat het een boze geest is. Pas de **derde** keer ($\implies$ symboliek!) besluit hij te luisteren.
+Karel de Grote (de koning) ligt te slapen wanneer er een engel bij hem verschijnt. De engel zegt dat hij moet gaan stelen, op bevel van God. Karel denkt eerst dat hij droomt. De tweede keer vermoedt hij dat het een boze geest is. Pas de **derde** keer ($\rightarrow$ symboliek!) besluit hij te luisteren.
 
 > Karel staat hier dus voor een dilemma: als hij wel gaat stelen, is er een kans dat hij de doodstraf krijgt, maar als hij niet gaat stelen, sterft hij ook (volgens de engel).
 
@@ -169,31 +169,30 @@ Plots hoort Karel een andere ruiter naderen. De man is helemaal in het zwart gek
 
 > In het verhaal gaat het perspectief hier van Karel naar de ridder.
 
-De zwarte ridder stopt en vraagt zich af wie die andere ruiter is (zonder te weten dat het Karel is). Hij besluit hem te beroven en keert om. Hij haalt Karel in en gebiedt hem te stoppen. Hij stelt veel vragen, maar Karel wil niet antwoorden en kiest ervoor om te vechten.  
+De zwarte ridder stopt en vraagt zich af wie die andere ruiter is (zonder te weten dat het Karel is). Hij besluit hem te beroven en keert om. Hij haalt Karel in en vertelt hem te stoppen. Hij stelt veel vragen, maar Karel wil niet antwoorden en kiest ervoor om te vechten.  
 Op een open plek in het bos vechten ze lang in een heftig gevecht. Op een gegeven moment slaat Karel zo hard dat de ridder van zijn paard valt. Maar die vecht terug en slaat zo hard dat zijn eigen zwaard breekt.  
 Wanneer Karel dat ziet, stopt hij met vechten en vraagt naar de naam van zijn tegenstander. De ridder blijkt Elegast te zijn.
 
 > Karel heeft Elegast verslagen in het gevecht, maar Elegast schaamt zich niet, omdat hij het toeschrijft aan "materiaalpech."
 
 Karel is blij dat hij Elegast voor zich heeft, maar hij laat niets merken. Elegast vertelt over zijn leven en zegt dat hij twaalf trouwe volgelingen heeft.  
-Wanneer Elegast Karel naar zijn naam vraagt, ontwijkt Karel de vraag lange tijd. Uiteindelijk zegt hij dat zijn naam Adelbrecht is. Hij beweert ook dat hij een gewetenloze misdadiger is die kerken berooft.
+Wanneer Elegast Karel naar zijn naam vraagt, ontwijkt Karel de vraag lange tijd. Uiteindelijk zegt hij dat zijn naam Adelbrecht/Karel is. Hij beweert ook dat hij een gewetenloze misdadiger is die kerken berooft.
 
-> Ik gebruik soms Adelbrecht en soms Karel, omdat Karel zich bij Elegast voordoet als Adelbrecht.
+Adelbrecht/Karel stelt voor om te stelen uit de koninklijke schatkist (zijn eigen schatkist dus), maar Elegast weigert. Hij wil de koning - zonder te weten dat hij tegenover hem staat - niet bestelen. Ondanks Karels eerdere acties blijft Elegast hem dus trouw en eervol.  
+Adelbrecht/Karel stelt voor om ergens anders te gaan stelen. Elegast stelt voor om Eggerik van Eggermonde te beroven, de man van Karels zus. Hij vertelt dat hij heeft gehoord Eggerik het op Karels leven heeft gemunt. Adelbrecht/Karel stemt in met het plan.  
+Onderweg naar Eggerik steelt Karel ongezien een ploegijzer (een gereedschap dat op akkers werd gebruikt). Dit gereedschap wordt vaak door inbrekers gebruikt.
 
-Adelbrecht (Karel) stelt voor om te stelen uit de koninklijke schatkist, maar Elegast weigert. Hij wil de koning - zonder te weten dat hij tegenover hem staat - niet bestelen. Ondanks Karels eerdere acties blijft Elegast hem dus trouw en eervol.  
-Adelbrecht stelt voor om ergens anders te gaan stelen. Elegast stelt voor om Eggerik van Eggermonde te beroven, de man van Karels zus. Hij vertelt dat Eggerik het op Karels leven heeft gemunt. Adelbrecht stemt in met het plan.  
-Onderweg naar Eggerik steelt Karel ongezien een ploegijzer. Dit gereedschap wordt vaak door inbrekers gebruikt.
-
-Adelbrecht stelt voor dat Elegast naar binnen gaat, omdat hij zelf nooit binnen is geweest.  
+Adelbrecht/Karel stelt voor dat Elegast naar binnen gaat, omdat hij zelf nooit binnen is geweest.  
 Elegast pakt zijn breekijzer om de muur door te breken, maar Karel laat het ploegijzer zien. Elegast lacht hierom, omdat het ploegijzer niet geschikt is voor deze muur. Karel moet snel een smoesje verzinnen.
 
-Elegast gebruikt zijn toverkunst, zoals altijd, door een kruid in zijn mond te steken, zodat hij de dieren kan verstaan. Hij hoort van een haan en een hond dat koning Karel buiten de burcht staat. Elegast vertelt dit aan Adelbrecht, die hem voor gek verklaart. Elegast biedt aan dat Adelbrecht het kruid ook in zijn mond steekt, en ook hij hoort de dieren praten over de koning. Toch doet Adelbrecht alsof het hun niet bang kan maken. Elegast steelt snel het kruid van Adelbrecht, die dat niet doorheeft. De verbaasde reactie van Adelbrecht laat Elegast zien dat hij een beginner is.
+Elegast gebruikt zijn toverkunst, zoals altijd, door een kruid in zijn mond te steken, zodat hij de dieren kan verstaan. Hij hoort van een haan en een hond dat koning Karel buiten de burcht staat. Elegast vertelt dit aan Adelbrecht/Karel, die hem voor gek verklaart. Elegast biedt aan dat Adelbrecht/Karel het kruid ook in zijn mond steekt, en ook hij hoort de dieren praten over de koning. Toch doet Adelbrecht/Karel alsof het hun niet bang kan maken. Elegast steelt snel het kruid van Adelbrecht/Karel, die dat niet doorheeft. De verbaasde reactie van Adelbrecht/Karel laat Elegast zien dat hij een beginner is.
 
-Binnen pakt Elegast zoveel als hij wil. Wanneer Karel wil vertrekken, vraagt Elegast om nog even te wachten, zodat hij een zadel met belletjes kan stelen uit de kamer van Eggerik en zijn vrouw. Het geluid van de belletjes maakt Eggerik wakker. Hij vertelt zijn vrouw dat hij de dood van zijn broer heeft gezworen en begint namen van medeplegers te noemen. Elegast hoort alles. Wanneer Eggerik zijn vrouw slaat, vangt Elegast het bloed op en legt hen in slaap met een toverspreuk.
+Binnen pakt Elegast zoveel als hij wil. Wanneer Karel wil vertrekken, vraagt Elegast om nog even te wachten, zodat hij een zadel met belletjes kan stelen uit de kamer van Eggerik en zijn vrouw.  
+Zodra hij het zadel heeft gepakt, wordt Eggerik wakker van het geluid van de belletjes. Hij raakt in een woordenwisseling met zijn vrouw, en vertelt uiteindelijk aan zijn vrouw dat hij de dood van zijn broer heeft gezworen en begint namen van medeplegers te noemen. Elegast hoort alles. Wanneer Eggerik zijn vrouw slaat, vangt Elegast het bloed op en legt hen in slaap met een toverspreuk.
 
 > De engel wilde Karel dus waarschuwen voor Eggeriks moordplannen door hem te laten stelen.
 
-Wanneer Elegast weer naar buiten komt, is Adelbrecht boos over dat het zo lang heeft geduurd, maar tevreden over de buit. Elegast is verdrietig, omdat hij weet dat Karel in gevaar is. Adelbrecht stelt voor dat Elegast de koning waarschuwt, maar Elegast weigert dit te doen uit angst voor de koning. Adelbrecht stelt voor dat Elegast naar zijn vrienden teruggaat, de buit morgen verdeelt en dat hij zelf de koning op de hoogte zal brengen.
+Wanneer Elegast weer naar buiten komt, is Adelbrecht/Karel boos over dat het zo lang heeft geduurd, maar tevreden over de buit. Elegast is verdrietig, omdat hij weet dat Karel in gevaar is. Adelbrecht/Karel stelt voor dat Elegast de koning waarschuwt, maar Elegast weigert dit te doen uit angst voor de koning. Adelbrecht/Karel stelt voor dat Elegast naar zijn vrienden teruggaat, de buit morgen verdeelt en dat hij zelf de koning op de hoogte zal brengen.
 
 De volgende dag wordt er een hofdag georganiseerd door Karel. Hij roept in de ochtend zijn geheime raad bij elkaar. Hij vertelt dat hij nu zeker weet dat Eggerik van Eggermonde hem wil doden. Iemand adviseert Karel om "ze maar te laten komen" en dat iedereen die in staat is om wapens te voeren hem zal beschermen.
 
