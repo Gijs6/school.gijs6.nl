@@ -196,7 +196,7 @@ table table {
     header {
         display: none;
     }
-    footer p:not(:first-of-type) {
+    footer *:nth-child(n + 4) {
         display: none;
-    }
+    }    
 }

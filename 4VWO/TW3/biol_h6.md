@@ -59,7 +59,7 @@ Een leefomgeving die voldoet aan de specifieke biotische en abiotische eisen van
 Voor iedere abiotische factor heeft elke soort **tolerantiegrenzen** (een soort maximum en minimum). Buiten deze grenzen blijft geen enkel individu in leven. Veel organismen hebben, naast de tolerantiegrenzen, ook een **optimumgebied** voor abiotische factoren.
 De tolerantiegrenzen en het optimumgebied kun je weergeven in een **tolerantiecurve**.
 
-![Een tolerantiecurve (img-large)](images/biol_h6_tolerantiecurve.jpg)  
+![Een tolerantiecurve (img-medium)](images/biol_h6_tolerantiecurve.jpg)  
 <span class="credit-text">Zelf gemaakt, vrijgegeven onder <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.</span>
 
 De **niche** van een soort is de omschrijving hoe die soort de omgeving gebruikt en beïnvloedt.  
