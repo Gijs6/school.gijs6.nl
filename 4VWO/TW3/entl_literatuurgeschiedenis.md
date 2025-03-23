@@ -32,7 +32,7 @@ Middle English was mainly influenced by the Norman Conquest of 1066.
 
 > This image, depicting the Battle of Hastings (one of the most important battles during the Norman Conquest), is from the *Bayeux Tapestry*, which is a very cool 70(!!!) meter long embroidered cloth depicing all kinds of events around the Norman Conquest.
 
-During the Norman Conquest, thousands of Norman, French, Flemish and Breton invaded big parts of the British Isles.  
+During the Norman Conquest, thousands of Norman, French, Flemish and Breton soldiers invaded big parts of the British Isles.  
 After this conquest, many kings and other high-ranking nobles spoke Anglo-Norman (French).  
 With the addition of Anglo-Norman, there were 4 languages used on the British Isles:
 

@@ -16,8 +16,6 @@ In 509 v.C. werd Rome een Republiek en veroverde grote delen van Europa, het Mid
 De Grieken geloofden in een groot aantal goden (**polytheïsme**). De verhalen over de **oergoden** verklaarden het ontstaan van de wereld. De kinderen van 2 van de oergoden (Gaia en Ouranos) waren de **Titanen**: wezens die de natuurkrachten belichaamden. Zeus was een van de zonen van de titanen. Hij werd oppergod van de **Olympische goden**, die op de berg Olympos zouden wonen. De Romeinen namen de Griekse goden over, maar gaven hen (andere) Romeinse namen.  
 Het **pantheon** is de term voor het geheel van godheden.
 
-De Grieken waren **polytheïstisch** (groot aantal goden). Hun godenverhalen verklaarden het ontstaan van de wereld. De **Titanen**, kinderen van de **oergoden** Gaia en Ouranos, belichaamden natuurkrachten. Zeus, zoon van een van de Titanen, werd oppergod van de **Olympische goden** (die op de berg Olympos woonden). De Romeinen namen deze goden over, maar met Romeinse namen. Het geheel van goden heet het **pantheon**.
-
 In Palestina (tegenwoordig o.a. Israël, de Palestijnse gebieden, Libanon, Jordanië en Syrië) leefden destijds joden, die maar in 1 god geloofden (**monotheïsme**). Dit zorgde voor spanningen toen het gebied een Romeinse provincie werd. Jezus van Nazareth leidde tot een tweedeling in het jodendom, waarbij christenen hem als de aangekondigde messias zagen, maar de joden niet. Hij werd ter dood veroordeeld door de Romeinse gouverneur Pontius Pilatus.
 
 Het christendom werd eerst verboden door de Romeinen omdat christenen de keizer niet mochten vereren als god. Later werd het christendom toch de staatsgodsdienst van het Romeinse Rijk, waarna het zich verder verspreidde over Europa.
