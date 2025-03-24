@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: NETL - FO - Samenvatting
 test_code: 4A-NLT-T01
 ---

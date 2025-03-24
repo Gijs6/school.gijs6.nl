@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: WISB - H4 - Samenvatting
 test_code: 4A-WISB-T05
 ---

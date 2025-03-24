@@ -1,0 +1,58 @@
+img {
+    height: 1em;
+}
+
+h1 {
+    font-size: 2.75em;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+li {
+    margin: 1em 0;
+}
+
+li ul li {
+    margin: 0;
+}
+
+#header-txt {
+    font-size: 1.2em;
+}
+
+.subject, .test_material {
+    font-size: 1.3em;
+}
+
+.subject {
+    font-weight: 700
+}
+
+.test_material {
+    font-weight: 500;
+}
+
+.test_code {
+    font-size: .8em;
+    font-weight: 300;
+    margin-inline-start: 5px;
+}
+
+a {
+    text-decoration-color: light-dark(#777, #888);
+    color: light-dark(#1298BA, #27c1e9);
+    font-weight: 600;
+}
+
+footer a {
+    color: inherit;
+}

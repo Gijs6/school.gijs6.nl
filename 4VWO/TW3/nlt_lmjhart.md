@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: NLT - LMJHart - Samenvatting
 test_code: 4A-NLT-T03
 ---

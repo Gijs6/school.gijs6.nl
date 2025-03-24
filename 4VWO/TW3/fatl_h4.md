@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: FATL - H4 - Samenvatting
 test_code: 4A-FATL-T06
 ---

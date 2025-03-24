@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: SCHK - H3 - Samenvatting
 test_code:
 - 4A-SCHK-T04

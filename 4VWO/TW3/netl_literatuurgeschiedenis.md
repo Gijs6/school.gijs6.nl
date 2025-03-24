@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: NETL - Literatuurgeschiedenis - Samenvatting
 test_code: 4A-NETL-T05
 ---

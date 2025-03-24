@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: NETL - Lezen - Samenvatting
 test_code: 4A-NETL-T04
 ---

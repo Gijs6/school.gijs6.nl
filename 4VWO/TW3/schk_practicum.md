@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: SCHK - Practicumtoets - Samenvatting
 test_code: 4A-SCHK-T05
 ---

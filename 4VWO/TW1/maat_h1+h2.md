@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: MAAT - H1 & H2 - Samenvatting
 test_code: 4A-MAAT-T01
 ---

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang=nl>
+<html lang="nl">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Leermiddelenoverzicht</title>
-        <link rel="stylesheet" href="{{ '/assets/home.css' | relative_url }}">
-        <link rel="icon" type="image/x-icon" href="{{ '/assets/samva.ico' | relative_url }}">
+        <link rel="stylesheet" href="{{ '/assets/styles/home.css' | relative_url }}">
+        <link rel="stylesheet" href="{{ '/assets/styles/basic.css' | relative_url }}">
+        <link rel="icon" type="image/x-icon" href="{{ '/assets/images/samva.ico' | relative_url }}">
         <script src="https://kit.fontawesome.com/4a94c21782.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -20,7 +21,7 @@
                         {% for test_data in period_data[1] %}
                             <li>
                                 {% if test_data.icon == "NETL" or test_data.icon == "ENTL" or test_data.icon == "FATL" %}
-                                    <img src="/assets/{{ test_data.icon }}.png" alt="Een vlag om het vak {{ test_data.icon }} te duiden">
+                                    <img src="/assets/images/{{ test_data.icon }}.png" alt="Een vlag om het vak {{ test_data.icon }} te duiden">
                                 {% else %}
                                     <i class="{{ test_data.icon }}"></i>
                                 {% endif %}

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: NETL - Literatuur V2 - Samenvatting
 test_code: 4A-NETL-T02
 summary_type: summary2

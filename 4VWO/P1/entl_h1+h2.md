@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: ENTL - H1 & H2 - Samenvatting
 test_code: 4A-ENTL-T01
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: BIOL - H1 - Samenvatting
 test_code: 4A-BIOL-T01
 ---

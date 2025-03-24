@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: summary
 title: NAT - H4 - Samenvatting
 test_code:
 - 4A-NAT-T04
