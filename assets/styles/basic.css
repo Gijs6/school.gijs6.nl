@@ -10,9 +10,9 @@ body {
     font-family: Gantari, sans-serif;
     word-wrap: break-word;
     hyphens: auto;
-    max-width: 750px;
+    max-width: 850px;
     margin: auto;
-    padding: 50px;
+    padding: 40px 20px;
     min-height: fit-content;
 }
 
