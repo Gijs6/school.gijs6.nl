@@ -81,7 +81,9 @@ In de afbeelding hieronder zie je een bewegend blokje op een helling. De zwaarte
 
 ![Een blokje op een helling met ontbonden krachten (img-semilarge)](images/nat_h4bio_ontbinden2.jpg)
 
-De steilheid van een helling hangt af van de hellingshoek ($\alpha$). Soms wordt in plaats van de hellingshoek het hellingspercentage gegeven. Je kunt van hellingshoek naar hellingspercentage rekenen met de tangens.
+De steilheid van een helling hangt af van de hellingshoek ($\alpha$). Soms wordt in plaats van de hellingshoek het hellingspercentage gegeven. Je kunt van hellingshoek naar hellingspercentage rekenen met de tangens:
+
+![Gebruik van tangens (img-small)](https://mermaid.ink/img/pako:eNplUD1rwzAQ_SviyJCCDcnSwUPBdoYsnZqpVQuHdZFMbMko537g-L9XiVUnbTUI3fu4J94AlVMEGewb91EZ9Cx2G2lFOPnLlpqmtvpoHB1eJ7CYQU2MTUTLGe3IV2QZNUUqF2n6cJKwWEjJaJfhpk8ezM3q8S6QcBJFjPjteBvS9fjXdgn_8eX_fZVyLNar1SQo4y9vBKp-v_IFJNCSb7FWoYnhrJbAhlqSkIWnQn-QIO0YdNize_qyFWTse0rAu14byPbYHMPUdwqZNjVqj-2MdmifnbvOpGp2_nEq_tJ_Atqfw-NOsop86XrLkN2P358OhuM?type=png)
 
 Als je $F_\text{z,x}$ wil berekenen in de figuur van het blokje, kun je de hoeken gebruiken van de helling.  
 $F_\text{z,x}=F_\text{z}\cdot \sin(\alpha)$

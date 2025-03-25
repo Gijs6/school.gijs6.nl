@@ -1,5 +1,5 @@
 h2, h3, h4 {
-    margin-block-end: 0;
+    margin-block-end: 1em;
 }
 
 h2 {
@@ -54,6 +54,8 @@ mjx-container[display="true"] {
 table {
     border-collapse: collapse;
     border: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 td, th {
@@ -146,7 +148,6 @@ strong {
 
 table table {
     border: 1px solid light-dark(black, white);
-    margin: 5px;
 }
 
 @media print {
