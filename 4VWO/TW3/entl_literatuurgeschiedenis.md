@@ -28,7 +28,7 @@ Old English displaced (*verdrong*) 2 languages that were spoken at the time on t
 Middle English was mainly influenced by the Norman Conquest of 1066.
 
 ![An image of the Norman Conquest of 1066 on the Bayeux Tapestry (img-medium)](images/entl_litges_norman.jpg)  
-<span class="credit-text"><a href="https://commons.wikimedia.org/wiki/File:Normans_Bayeux.jpg">Dan Koehl</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons</span>
+<span class="credit-text">[Dan Koehl](https://commons.wikimedia.org/wiki/File:Normans_Bayeux.jpg), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons</span>
 
 > This image, depicting the Battle of Hastings (one of the most important battles during the Norman Conquest), is from the *Bayeux Tapestry*, which is a very cool 70(!!!) meter long embroidered cloth depicing all kinds of events around the Norman Conquest.
 
@@ -70,23 +70,23 @@ There are elements of 2 different religions in Beowulf:
 
 #### Literary terms
 
-| Term             | Definition                                                                                      |
-| ---------------- | ----------------------------------------------------------------------------------------------- |
-| Kenning          | Term that describes a noun in a metaphorical and figurative way, e.g. "Big rock" for mountain   |
-| Tone             | Feeling/attitude of the author/story                                                            |
-| Universal themes | Ideas/messages that can be found in stories from all over the world, and that apply to everyone |
-| Setting          | Where and when                                                                                  |
-| Plot             | The complete sequence of events in the entire story                                             |
+| Term             | Definition                                                                                     |
+| ---------------- | ---------------------------------------------------------------------------------------------- |
+| Kenning          | Term that describes a noun in a metaphorical and figurative way, e.g., "Big rock" for mountain |
+| Tone             | Feeling/attitude of the author/story                                                           |
+| Universal themes | Ideas/messages that can be found in stories from all over the world and that apply to everyone |
+| Setting          | Where and when                                                                                 |
+| Plot             | The complete sequence of events in the entire story                                            |
 | Alliteration     | Repetition of a letter or sound                                                                |
 
 #### Summary
 
 > Fun fact: the first word in Beowulf ("hwæt") doesn't actually have a perfect translation. For a long time, historians thought it was kind of an interjection to grab the reader's attention. That's why it was often translated as "hear me," "listen," or "indeed." But this theory is quite debated, so there are also other translations of *hwæt*, and seriously, [this translation](https://www.historytoday.com/archive/review/beowulf-bro) went with "bro".
 
-Hrotgar is the current king of the Danes. He built a great mead hall (mead is a drink made from honey) named Herod.  
-In the night, when all Hrotgar's men are asleep, the monster Grendel kills a few of them, because he can't stand the celebrations in Herot. He has done this for 12 years. The Danes try everything, but they can't get rid of him.
+Hrothgar is the current king of the Danes. He built a great mead hall (mead is a drink made from honey) named Herod.  
+In the night, when all Hrothgar's men are asleep, the monster Grendel kills a few of them, because he can't stand the celebrations in Herot. He has done this for 12 years. The Danes try everything, but they can't get rid of him.
 
-When Beowulf, "the strongest of the Geats", heard about Grendel, he decided to help Hrotgar. He goes to Denmark with 14 men.
+When Beowulf ("the strongest of the Geats") heard about Grendel, he decided to help Hrothgar. He goes to Denmark with 14 men.
 
 When they arrive at Herot Beowulf leaves a few of his warriors outside. Then he and the rest take off their weapons and enter Herot to speak with King Hrothgar. Beowulf brags about his experience and strength and asks King Hrothgar for permission to fight Grendel all by himself. Hrothgar invites Beowulf to a feast in his honor, where Danes and Geats celebrate together.
 
@@ -103,7 +103,7 @@ Beowulf dives in and then sinks for hours. Grendel's mother tries to kill Beowul
 Then Beowulf saw a heavy sword hanging on the wall. He grabs it, and he chops her head off. He does the same thing to Grendel's body (which was there in the lake).
 
 50 years later, Beowulf has to fight a dragon. The dragon is angry because a thief stole a jeweled cup, and Beowulf needs to protect his people. Beowulf and some other Geats go into the tower where the dragon lives. The dragon is mad and shoots flames at him, but Beowulf uses his shield, but the shield melts. He stabs the dragon with his sword, but the weapon breaks before it could do much damage.  
-All the warriors run away, except Wiglaf. Wiglaf is thankful for everything Beowulf has given him, and want to repay his king, so he helps Beowulf. Together they beat the dragon, but Beowulf dies.  
+All the warriors run away, except Wiglaf. Wiglaf is thankful for everything Beowulf has given him and wants to repay his king, so he helps him. Together they beat the dragon, but Beowulf dies.  
 Just before he dies, he makes Wigaf his successor, and he asks to be buried next to the dragon's tower.  
 After he dies, Wiglaf is furious at the warriors that ran away. The story ends with the 12 bravest Geats riding around the tower and mourning over Beowulf.
 
@@ -144,6 +144,6 @@ Chaucer also uses satire to mock people from all social classes.
 |            **Miller**             |     Negative      |    People    |                                                    Ugly, strong but stupid, dirty, dishonest                                                    |
 |           **Manciple**            |     Positive      |    People    |                                              *Business person*<br>Very wise, he outsmarted people                                               |
 |             **Reeve**             |     Negative      |    People    |                                                      Greedy, corrupt, good estate manager                                                       |
-|           **Summoner**            |     Negative      |    Clergy    |                                     Very ugly, alcoholist, children are afraid of him, pretends to be smart                                     |
+|           **Summoner**            |     Negative      |    Clergy    |                                     Very ugly, alcoholic, children are afraid of him, pretends to be smart                                     |
 |           **Pardoner**            |     Negative      |    Clergy    |                                                           Arrogant, not manly, greedy                                                           |
 |             **Host**              |     Positive      |    People    |                                                        Joyful, well-educated, good host                                                         |

@@ -60,7 +60,7 @@ Voor iedere abiotische factor heeft elke soort **tolerantiegrenzen** (een soort 
 De tolerantiegrenzen en het optimumgebied kun je weergeven in een **tolerantiecurve**.
 
 ![Een tolerantiecurve (img-medium)](images/biol_h6_tolerantiecurve.jpg)  
-<span class="credit-text">Zelf gemaakt, vrijgegeven onder <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.</span>
+<span class="credit-text">Zelf gemaakt, vrijgegeven onder [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).</span>
 
 De **niche** van een soort is de omschrijving hoe die soort de omgeving gebruikt en beïnvloedt.  
 Een **adaptatie** is een erfelijke aanpassing aan het uiterlijk of het gedrag die ontstaan door langdurige selectieprocessen. Deze adaptaties kunnen ontstaan door mutaties in het genoom. Als een adaptatie tot een hogere overlevingskans leidt, zal deze op den duur vaker gaan voorkomen in een populatie, omdat de organismen met deze verhoogde overlevingskans zich ook meer kunnen voortplanten.
