@@ -19,9 +19,9 @@ There were multiple varieties of the English language throughout history:
 Old English was heavily influenced by 2 invasions/settlements:
 
 - The **Anglo-Saxon invasions** (around the year 400) by 3 tribes from North Europe: The **Saxons**, the **Jutes** and the **Angles**.
-- The **Viking invasions** (around the year 800) **brought about** many new words (such as \[sk-\] sounds: skill, sky, ...) and new grammar (such as them/their/they).
+- The **Viking invasions** (around the year 800) brought about many new words (such as \[sk-\] sounds: skill, sky, ...) and new grammar (such as them/their/they).
 
-Old English displayed (*verdrong*) 2 languages that were spoken at the time on the British Isles: Britannic **Celtic** and **Latin**.
+Old English displaced (*verdrong*) 2 languages that were spoken at the time on the British Isles: Britannic **Celtic** and **Latin**.
 
 ### Middle English
 
@@ -37,11 +37,11 @@ After this conquest, many kings and other high-ranking nobles spoke Anglo-Norman
 With the addition of Anglo-Norman, there were 4 languages used on the British Isles:
 
 - (Middle) English: used for daily life
-- Anglo-Norman (French): used in government, law, church, ...
+- Anglo-Norman (French): used in government, law, church
 - Celtic: used by original locals in Scotland, Ireland and Wales
-- Latin: used for learning, science, history, ...
+- Latin: used for learning, science, history
 
-The increased use of English was caused by 2 factors: intermarriage between people with different languages and by the invention of the printing press (allowing for much quicker communication)
+The increasing use of (Middle) English was caused by 2 factors: intermarriage between people with different languages and by the invention of the printing press (allowing for much quicker communication).
 
 ## Medieval literature
 
@@ -50,6 +50,7 @@ The increased use of English was caused by 2 factors: intermarriage between peop
 Beowulf is an **epic**: a long narrative (*voorgelezen*) poem. The most important characteristics of an epic are:
 
 - It's about a hero
+- The setting is grand
 - The hero does good deeds
 - The hero goes on adventure
 - The story starts in the middle
@@ -59,14 +60,12 @@ Beowulf is one of the most important works of **Old English** literature. The st
 
 ![A map of where Beowulf takes part (img-semilarge)](images/entl_litges_beowulfmap.jpg)
 
-> Just ignore that red dashed line, I couldn't find a better map with the nice tribe names.
-
 There are elements of 2 different religions in Beowulf:
 
 - **Christian** elements:  
   Such as God, humility, and trust in divine providence
 - **Pagan** elements  
-  Such as extraordinary strength, courage, and fate
+  Such as extraordinary strength, courage, and fate  
   Paganism (*heidendom*) is the term used to describe people in the Roman Empire with a polytheistic (multiple gods) religion  
 
 #### Literary terms
@@ -124,7 +123,7 @@ Chaucer also uses satire to mock people from all social classes.
 
 > This will just be a list of all the characters that appear in the General Prologue, their stereotype (positive or negative), the social class, and a description
 
-|             Character             |    Stereotype     | Social class |                                                                   Description                                                                   |
+|        Character (*name*)         |    Stereotype     | Social class |                                                                   Description                                                                   |
 | :-------------------------------: | :---------------: | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
 |            **Knight**             |     Positive      |   Nobility   |                                          Heroic, humble, modest, strong, wise, old discolored clothes                                           |
 |            **Squire**             |     Positive      |   Nobility   |                                   *Son of the Knight*<br>Strong, lively/joyful (reads, writes songs), strong                                    |

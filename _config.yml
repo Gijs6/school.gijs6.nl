@@ -17,21 +17,10 @@ plugins:
   - "jekyll-github-metadata"
 
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - .obsidian/
   - .git/
-  - .idea/
-  - _scripts/
   - _data/
-  - _venv/
-  - dekstop.ini
+  - _scripts/
   - README.md
+  - Gemfile
+  - LICENSE
+  - .gitignore

@@ -17,14 +17,17 @@ Een kracht is een **vectorgrootheid**: het heeft een grootte, richting en aangri
 Een kracht is altijd een wisselwerking tussen 2 voorwerpen. Als een auto tegen een boom rijdt, dan oefent de auto een kracht op de boom uit (**actiekracht**), maar de boom voert ook een kracht op de auto uit (**reactiekracht**).  
 De twee krachten van een wisselwerking zijn precies even groot en werken in de tegengestelde richting, maar ze kunnen elkaar echter niet opheffen, omdat ze niet op hetzelfde voorwerp werken.  
 Deze eigenschappen van een wisselwerking worden de **derde wet van Newton** genoemd:
+
 $$\overrightarrow{F_{AB}}=-\overrightarrow{F_{BA}}$$
+Hierin is $\overrightarrow{F_{AB}}$ de kracht van A op B (in $\text{N}$) en $\overrightarrow{F_{BA}}$ de kracht van B op A (in $\text{N}$).
+
 Er zijn veel soorten krachten:
 
 - **Spierkracht** ($F_\text{spier}$)  
   De kracht vanuit je spieren op andere voorwerpen.
 - **Veerkracht** ($F_\text{v}$)  
   Voor de veerkracht geldt:  
-  $F_\text{v}=C \cdot u$
+  $F_\text{v}=C \cdot u$  
   Hierin is $F_\text{v}$ de veerkracht (in $\text{N}$), $u$ de uitrekking (in $\text{m}$) en $C$ de veerconstante (in $\text{N}/\text{m}$). Voor de veerconstante geldt: hoe groter de veerconstante, hoe stugger de veer.  
   
   De veerkracht werkt altijd in de richting van de veer.
@@ -35,7 +38,7 @@ Er zijn veel soorten krachten:
   $F_\text{z}=m \cdot g$  
   Hierin is $F_\text{z}$ de zwaartekracht (in $\text{N}$), $m$ de massa (in $\text{kg}$) en $g$ de valversnelling (in $\text{N}/\text{kg}$ of $\text{m}/\text{s}^2$).  
   
-  De valversnelling hangt af van de planeet. Op aarde is de gemiddelde valversnelling 9,81 $\text{m}/\text{s}^2$.  
+  De valversnelling hangt af van de planeet. Op aarde is de gemiddelde valversnelling $9,81~\text{m}/\text{s}^2$.  
   De zwaartekracht grijpt altijd aan in het **zwaartepunt** van een voorwerp.
 - **Normaalkracht** ($F_\text{n}$) en **gewicht** ($F_\text{gewicht}$)  
   Als de zwaartekracht een object naar beneden trekt, oefent het een kracht uit op de grond: het **gewicht**. Volgens de derde wet van Newton moet op deze actiekracht een reactiekracht zijn. Deze reactiekracht is de kracht van de grond die het object omhoog duwt: de **normaalkracht**. Deze staat altijd loodrecht op het oppervlak.  
