@@ -188,9 +188,10 @@ dus
 $F_\text{L}\cdot r_\text{L}=F_\text{R}\cdot r_\text{R}$  
 Hierin is $M_\text{L}$ het linksdraaiend moment (in $\text{Nm}$), $M_\text{R}$ het rechtsdraaiend moment (in $\text{Nm}$), $F_\text{L}$ en $F_\text{R}$ zijn de krachten (in $\text{N}$) en $r_\text{L}$ en $r_\text{R}$ zijn de bijbehorende armen (in $\text{m}$).
 
+> Om te kijken of een kracht een links- of rechtsdraaiend moment heeft moet je kijken in welke richting de kracht de hefboom laat draaien:  
 > Rechtsdraaiend moment = met de klok mee  
 > Linksdraaiend moment = tegen de klok in  
-> Dus een kracht aan de rechterkant betekent niet een kracht met een rechtsdraaiend moment
+> Dus een kracht aan de rechterkant betekent niet een kracht met een rechtsdraaiend moment!
 
 Als er meer dan 2 krachten een moment uitoefenen op de hefboom, moet er een evenwicht zijn tussen alle linksdraaiende momenten en alle rechtsdraaiende momenten:  
 
