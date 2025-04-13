@@ -30,7 +30,7 @@ Middle English was mainly influenced by the Norman Conquest of 1066.
 ![An image of the Norman Conquest of 1066 on the Bayeux Tapestry (img-medium)](images/entl_litges_norman.jpg)  
 <span class="credit-text">[Dan Koehl](https://commons.wikimedia.org/wiki/File:Normans_Bayeux.jpg), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons</span>
 
-> This image, depicting the Battle of Hastings (one of the most important battles during the Norman Conquest), is from the *Bayeux Tapestry*, which is a very cool 70(!!!) meter long embroidered cloth depicing all kinds of events around the Norman Conquest.
+> This image, depicting the Battle of Hastings (one of the most important battles during the Norman Conquest), is from the *Bayeux Tapestry*, which is a very cool 70(!!!) meter long embroidered cloth depicting all kinds of events around the Norman Conquest.
 
 During the Norman Conquest, thousands of Norman, French, Flemish and Breton soldiers invaded big parts of the British Isles.  
 After this conquest, many kings and other high-ranking nobles spoke Anglo-Norman (French).  
@@ -66,7 +66,7 @@ There are elements of 2 different religions in Beowulf:
   Such as God, humility, and trust in divine providence
 - **Pagan** elements  
   Such as extraordinary strength, courage, and fate  
-  Paganism (*heidendom*) is the term used to describe people in the Roman Empire with a polytheistic (multiple gods) religion  
+  > Paganism (*heidendom*) is the term used to describe people in the Roman Empire with a polytheistic (multiple gods) religions  
 
 #### Literary terms
 
@@ -92,10 +92,9 @@ When they arrive at Herot Beowulf leaves a few of his warriors outside. Then he 
 
 During the meal, Unferth (Ecglaf's son) tells a story about a swimming match between Beowulf and Brecca. Beowulf lost this match against Brecca. He does this because he is jealous of Beowulf and tries to intimidate him.  
 Beowulf replies by telling Unferth he's drunk (he is) and that his story is incorrect. Beowulf did indeed lose, but that's because he had to fight underwater monsters (and won), and Brecca did not. Then Beowulf exposes that Unferth killed his own brothers.  
-All men go to sleep. In the night, Grendel visits Herot again. He kills one of the Geats. He then tries to kill Beowulf, but his is actually awake, and he fights Grendel with his bare hands.  
+All men go to sleep. In the night, Grendel visits Herot again. He kills one of the Geats. He then tries to kill Beowulf, but he's actually awake, and he fights Grendel with his bare hands.  
 The other Geats wake up and try to hurt Grendel, but they can't hurt him with their swords, because he had bewitched the swords.  
-Beowulf rips off Grendel's arm, and Grendel escapes, but his bleeds to death in his swamp.  
-Beowulf hangs Grendel's arm from the ceiling of Herot.  
+Beowulf rips off Grendel's arm, and Grendel escapes, but his bleeds to death in his swamp. Beowulf hangs Grendel's arm from the ceiling of Herot and everyone is happy.  
 Some warriors trace Grendel's blood traces to find out that he had died in a lake.
 
 Grendel's mother attacks Herot because of her grief for her son. She kills one man (Hrothgar's closest friend), and she takes Grendel's arm with her. Beowulf is awakened and asked to help. Beowulf goes to the lake where Grendel's mother lives. He takes the sword called Hrunting with him.  
@@ -115,7 +114,7 @@ The story is set in the Tabard Inn (near London) in April. A group of pilgrims i
 ![The Tabard Inn in the 19th century (img-medium)](images/entl_litges_tabardinn.jpg)  
 <span class="img-txt">The Tabard Inn in the 19th century</span>
 
-The society was divided into 3 classes: the clergy (church people), nobility (noble people), and the people (the tax-paying citizens).
+The society was divided into 3 classes: the **clergy** (church people), **nobility** (noble people), and the **people** (the tax-paying citizens).
 
 Chaucer also uses satire to mock people from all social classes.
 
