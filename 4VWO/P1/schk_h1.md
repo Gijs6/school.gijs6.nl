@@ -31,7 +31,7 @@ Een chemische reactie kan **exotherm** (energie komt vrij) of **endotherm** (ene
 Er zijn 2 soorten elementen op het periodiek systeem: **metalen** en **niet-metalen**. De horizontale rijen zijn **perioden**, de verticale kolommen zijn **groepen**. Groep 17 bevat de **halogenen**. Deze niet-metalen zijn erg reactief. Groep 18 zijn de **edelgassen**. Deze zijn juist totaal niet reactief.  
 Er zijn 3 soorten stoffen: **metalen** (bestaan uit metaalatomen), **moleculaire stoffen** (bestaan uit niet-metaalatomen) en **zouten** (bestaan uit een metaal- en een niet-metaalatoom). In de tabel hiernaast zie je wat kenmerken over metalen, zouten en moleculaire stoffen.
 
-## Atoombouw, elektronenschillen en het periodiek systeem der elementen
+## Atoombouw
 
 Volgens het **atoommodel van Rutherford** bestaat een atoom uit een **kern** met protonen (p\+) en neutronen (n0) en een elektronenwolk met elektronen (e\-). Volgens het **atoommodel van Bohr** zitten de elektronen niet in een wolk, maar in **elektronenschillen**, op een vaste afstand van de kern. Bohr gebruikte de letters K, L, M N, enz. voor deze elektronenschillen. Per schil is er ruimte voor een beperkt aantal elektronen: maximaal 2 in de K-schil, 8 in de L-schil, 8 in de M-schil, 18 in de N-schil, 18 in de O-schil, 32 in de P-schil en 32 in de Q-schil. De verdeling van elektronen over de schillen is de **elektronenconfiguratie**. De elektronenconfiguratie van chloor is 2,8,7. ![][image1]  
 Edelgassen hebben een volle buitenste schil (**edelgasconfiguratie**). Deze configuratie is erg stabiel.  

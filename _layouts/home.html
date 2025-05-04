@@ -30,7 +30,7 @@
                                 {% endif %}
                                 <span class="subject">{{ test_data.subject }}:</span> <span class="test_material">{{ test_data.test_material }}</span> <span class="test_code">({{ test_data.test_code }})</span>
                                 <ul>
-                                    {% if test_data.summary_link != ""%}
+                                    {% if test_data.summary_link %}
                                         <li class="link active">
                                             <a href="{{ test_data.summary_link }}">
                                                 {{ test_data.summary_name }} <i class="fa-solid fa-arrow-right"></i>

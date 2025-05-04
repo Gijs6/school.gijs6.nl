@@ -1,5 +1,36 @@
 {
     "4VWO": {
+        "P4": [
+            {
+                "subject": "BIOL",
+                "test_code": "4A-BIOL-T07",
+                "test_type": "Toets",
+                "test_material": "H7 (Evolutie)",
+                "make_summary": true,
+                "icon": "fa-solid fa-seedling",
+                "resources": [],
+                "summary_link": "/4VWO/P4/biol_h7",
+                "summary_name": "Samenvatting"
+            },
+            {
+                "subject": "ENTL",
+                "test_code": "4A-ENTL-T07",
+                "test_type": "Toets",
+                "test_material": "H5 + Schrijfopdracht",
+                "make_summary": true,
+                "icon": "ENTL",
+                "resources": []
+            },
+            {
+                "subject": "FATL",
+                "test_code": "4A-FATL-T08",
+                "test_type": "Toets",
+                "test_material": "H5",
+                "make_summary": true,
+                "icon": "FATL",
+                "resources": []
+            }
+        ],
         "TW3": [
             {
                 "subject": "BIOL",
@@ -118,6 +149,11 @@
                         "link": "https://studygo.com/nl/learn/lists/180818384",
                         "title": "Ladingen (StudyGO)",
                         "type": "external"
+                    },
+                    {
+                        "link": "https://www.gijs6.nl/oefenen_zouten",
+                        "title": "Oefenen zoutformules",
+                        "type": "internal"
                     }
                 ],
                 "summary_link": "/4VWO/TW3/schk_h4",
