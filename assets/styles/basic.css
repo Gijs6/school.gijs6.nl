@@ -1,10 +1,15 @@
 :root {
     color-scheme: dark;
+    
+    
+    --back: light-dark(white, black);
+    --front: light-dark(black, white);
+    --blue: light-dark(#1298BA, #27c1e9)
 }
 
 body {
-    background: light-dark(white, black);
-    color: light-dark(black, white);
+    background: var(--back);
+    color: var(--front);
     font-family: "Kumbh Sans", sans-serif;
     word-wrap: break-word;
     hyphens: auto;
@@ -28,7 +33,7 @@ body {
 }
 
 a:hover {
-    text-decoration-color: light-dark(black, white);
+    color: var(--blue)
 }
 
 p, li {

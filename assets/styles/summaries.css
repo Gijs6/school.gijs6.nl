@@ -27,14 +27,26 @@ header a {
 }
 
 a {
-    text-decoration-color: light-dark(#777, #888);
+    text-decoration-color: var(--blue);
     color: inherit;
     font-weight: 600;
 }
 
+a[href*="http"]::after {
+    content: "\f08e";
+    font-family: "Font Awesome 6 Free";
+    margin-inline-start: .5ch;
+    font-size: .8em;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    vertical-align: middle;
+}
+
 svg {
     height: 1em;
-    fill: light-dark(black, white);
+    fill: var(--front);
 }
 
 p, li {
@@ -59,7 +71,7 @@ table {
 }
 
 td, th {
-    border: 1px solid light-dark(black, white);
+    border: 1px solid var(--front);
     padding: 5px 10px;
 }
 
@@ -72,7 +84,7 @@ tr:nth-child(even) td {
 }
 
 tr:nth-child(odd) td {
-    background-color: light-dark(#eaeaea, #252525);
+    background-color: light-dark(#f1f1f1, #111111);
 }
 
 tr:first-child td {
@@ -147,7 +159,7 @@ strong {
 }
 
 table table {
-    border: 1px solid light-dark(black, white);
+    border: 1px solid var(--front);
 }
 
 @media print {

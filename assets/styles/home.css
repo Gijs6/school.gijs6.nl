@@ -50,7 +50,7 @@ li ul li {
 
 a {
     text-decoration-color: light-dark(#777, #888);
-    color: light-dark(#1298BA, #27c1e9);
+    color: var(--blue);
     font-weight: 600;
 }
 
