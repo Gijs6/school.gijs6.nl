@@ -66,6 +66,29 @@
                     </ul>
                 {% endfor %}
             {% endfor %}
+
+
+            <h1 id="archive">Onderbouw</h1>
+
+            {% assign 3vwo_pages = site.pages | select: "path" | where_exp: "page", "page.path contains '3VWO/'" %}
+            <h2>3VWO</h2>
+            <ul>
+            {% for page in 3vwo_pages %}
+                {% assign path_parts = page.path | split: '/' %}
+                <li><a href="{{ page.url }}">{{ path_parts.last | remove: '.md' | replace: '_', ' ' | replace: '-', ': ' }}</a></li>
+            {% endfor %}
+            </ul>
+
+            {% assign 2vwo_pages = site.pages | select: "path" | where_exp: "page", "page.path contains '2VWO/'" %}
+            <h2>2VWO</h2>
+            <ul>
+            {% for page in 2vwo_pages %}
+                {% assign path_parts = page.path | split: '/' %}
+                <li><a href="{{ page.url }}">{{ path_parts.last | remove: '.md' | replace: '_', ' ' | replace: '-', ': ' }}</a></li>
+            {% endfor %}
+            </ul>
+
+
         </main>
         
         <footer>
