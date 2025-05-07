@@ -32,7 +32,7 @@ a {
     font-weight: 600;
 }
 
-a[href*="http"]::after {
+main a[href*="http"]::after {
     content: "\f08e";
     font-family: "Font Awesome 6 Free";
     margin-inline-start: .5ch;

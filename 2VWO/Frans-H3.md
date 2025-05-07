@@ -6,7 +6,7 @@ layout: summary
 
 ## Grammatica
 
-### Vouloir en pouvoir 
+### Vouloir en pouvoir
 
 De werkwoorden **vouloir** en **pouvoir** zijn onregelmatig.
 

@@ -12,11 +12,11 @@ Mensen zijn aangewezen op het bereikbaar zoet water. Dit is maar 2.5% van het wa
 
 In de **waterbalans** kun je de hoeveelheid water zien die een gebied binnenkomt en uitgaat. Er zijn 3 manieren om aan water te komen.
 
-1.  Neerslag: De **nuttige neerslag** is alle neerslag die overblijft na verdamping.
+1. Neerslag: De **nuttige neerslag** is alle neerslag die overblijft na verdamping.
 
-2.  Aanvoer van water uit andere gebieden, door bijvoorbeeld rivieren en grondwater.
+2. Aanvoer van water uit andere gebieden, door bijvoorbeeld rivieren en grondwater.
 
-3.  De aanvoer van **fossiel water** uit andere tijdvakken. Dit water is opgeslagen in een **aquifer**. Dit water is niet duurzaam, want het wordt niet meer aangevoerd.
+3. De aanvoer van **fossiel water** uit andere tijdvakken. Dit water is opgeslagen in een **aquifer**. Dit water is niet duurzaam, want het wordt niet meer aangevoerd.
 
 **Virtueel water** is geen echt water, maar het water dat verwerkt zit in producten die je importeert. Als je alleen je vernieuwbare voorraad water gebruikt, is er sprake van **duurzaam waterbeheer**. Door de groeiende wereldbevolking zorgt voor meer gebruik van **niet-vernieuwbaar water**.
 

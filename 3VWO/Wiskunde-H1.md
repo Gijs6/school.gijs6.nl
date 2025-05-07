@@ -16,11 +16,11 @@ Bij een grafiek in de vorm van een lijn hoort de formule $`y = ax + b`$. Hierin 
 
 **Een vergelijking met 2 variabelen** betekent dat je 2 letters in een formule hebt, zoals $`2x + 3y = 28`$. Het **getallenpaar** $`(6,\ 4)`$ is kloppend, want $`2 \bullet 6 + \  \bullet 4 = 28`$, maar het getallenpaar $`( - 12,\ 3)`$ klopt niet, want $`2 \bullet - 12 + 3 \bullet 3 \neq 28`$. In het **stelsel** hiernaast zie je 2 vergelijkingen. De oplossing voor dit stelsel is het getallenpaar dat van beide vergelijkingen een oplossing is. Je kan een stelsel oplossen door deze stappen te volgen:
 
-1.  Maak bij 1 vergelijking *x* of *y* vrij via de balansmethode.
+1. Maak bij 1 vergelijking *x* of *y* vrij via de balansmethode.
 
-2.  Los deze vergelijking op, vul het resultaat in bij de andere vergelijking, en los deze op.
+2. Los deze vergelijking op, vul het resultaat in bij de andere vergelijking, en los deze op.
 
-3.  Bereken nu de andere variabele.
+3. Bereken nu de andere variabele.
 
 De oplossing voor het stelsel hiernaast is dus (10, 2)
 

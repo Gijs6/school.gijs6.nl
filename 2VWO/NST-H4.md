@@ -26,8 +26,6 @@ Een **spanningsbron** is het onderdeel van een stroomkring dat spanning levert, 
 
 In een **schakelschema** gebruik je symbolen. Die zie je hieronder:
 
-
-
 In een **serieschakeling** staan de apparaten achter elkaar. In een **parallelschakeling** staan de apparaten naast elkaar. Als 1 apparaat dan stuk gaat, doen de andere apparaten het nog wel, want er is nog een andere stroomkring.
 
 Hier zie je hoe de stroomsterkte en spanning werken in verschillende schakelingen:

@@ -108,11 +108,11 @@ Hieronder zie je een overzicht van de onderdelen van het hart en hun functies.
 
 Een hartslag heeft 3 herhalende fasen:
 
-1.  **De boezems trekken samen**: Het bloed stroomt naar de kamers. De hartkleppen zijn open, en de halvemaanvormige kleppen zijn dicht.
+1. **De boezems trekken samen**: Het bloed stroomt naar de kamers. De hartkleppen zijn open, en de halvemaanvormige kleppen zijn dicht.
 
-2.  **De kamers trekken samen:** Het bloed stroomt de aorta en de longslagaders in. De halvemaanvormige kleppen zijn open, en de hartkleppen dicht.
+2. **De kamers trekken samen:** Het bloed stroomt de aorta en de longslagaders in. De halvemaanvormige kleppen zijn open, en de hartkleppen dicht.
 
-3.  **Hartpauze**: De kamers en boezems ontspannen zich. De boezems en kamers vullen zich. De hartkleppen zijn open, de halvemaanvormige kleppen zijn dicht.
+3. **Hartpauze**: De kamers en boezems ontspannen zich. De boezems en kamers vullen zich. De hartkleppen zijn open, de halvemaanvormige kleppen zijn dicht.
 
 ## Uitscheiding
 

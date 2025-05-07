@@ -22,15 +22,13 @@ In een **rechthoekige driehoek** heb je verschillende **goniometrische verhoudin
 
 **<u>t</u>**an(∠A) = **<u>o</u>**verstaande rechthoekszijde van ∠A ÷ **<u>a</u>**anliggende rechthoekszijde van ∠A
 
-
-
 Om van een goniometrische verhouding naar een hoek te gaan, kun je de **inverse goniometrische verhoudingen** gebruiken (sin<sup>-1</sup>, cos<sup>-1</sup> en tan<sup>-1</sup>). Gebruik de regel: **als sin(∠A) = x, is ∠A = sin<sup>-1</sup>(x)**. Je kunt uiteraard hetzelfde doen met cos<sup>-1</sup> en tan<sup>-1</sup>.
 
 Deze formule mag je echter niet opschrijven, want de notatie sin<sup>-1</sup> is eigenlijk niet correct.
 
 Je kunt de formules voor sin, cos en tan ook ombouwen, om zijdes te berekenen.
 
-## Voorbeelden 
+## Voorbeelden
 
 <table>
 <colgroup>
@@ -68,8 +66,8 @@ Ruimtelijk hoeken worden vaak aangegeven met 3 letters, zoals $`\angle`$BAC. In 
 
 Om een hoek in een ruimte te berekenen, gebruik je het volgende stappenplan:
 
-1.  Schets het vlak waar de driehoek in ligt, of de driehoek zelf.
+1. Schets het vlak waar de driehoek in ligt, of de driehoek zelf.
 
-2.  Bereken ontbrekende lijnstukken, met bijv. de stelling van Pythagoras.
+2. Bereken ontbrekende lijnstukken, met bijv. de stelling van Pythagoras.
 
-3.  Bereken de gevraagde hoek met sin, cos of tan.
+3. Bereken de gevraagde hoek met sin, cos of tan.

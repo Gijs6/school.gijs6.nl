@@ -20,13 +20,13 @@ In het Nederlands vind je nog veel resten van **oude naamvallen**. Oude naamvall
 
 Een **samengestelde zin** heeft meerdere persoonsvormen, zoals de zin *"Petra ging in bad, ondanks dat ze al onder de douche heeft gestaan"*. Om de werkwoordsvormen in een samengestelde zin te bepalen, gebruik je het volgende stappenplan:
 
-1.  Splits de samengestelde zin in enkelvoudige zinnen:  
+1. Splits de samengestelde zin in enkelvoudige zinnen:  
     *Petra ging in bad* **\|** *ondanks dat ze al onder de douche heeft gestaan.*
 
-2.  Zoek alle werkwoorden:  
+2. Zoek alle werkwoorden:  
     *Petra **<u>ging</u>** in bad* **\|** *ondanks dat ze al onder de douche **<u>heeft</u> <u>gestaan</u>**.*
 
-3.  Bepaal van alle werkwoorden de werkwoordsvorm:  
+3. Bepaal van alle werkwoorden de werkwoordsvorm:  
     *Petra **<u>ging</u>** (zww) in bad* **\|** *ondanks dat ze al onder de douche **<u>heeft</u>** (hww) **<u>gestaan</u>*** *(zww).*
 
 ### Betrekkelijk voornaamwoord
@@ -80,23 +80,23 @@ Om de persoonsvormen in samengestelde zinnen te achterhalen, kun je de tijd vera
 
 Samenstellingen met 1 klemtoon schrijf je in het Nederlands aan elkaar. Hieronder zie je welke woorden je nog meer aan elkaar schrijft:
 
-1.  Samenvattingen van minder dan 4 woorden.
+1. Samenvattingen van minder dan 4 woorden.
 
-2.  Samenstellingen met *er*, *hier*, *daar* of *waar*.
+2. Samenstellingen met *er*, *hier*, *daar* of *waar*.
 
-3.  Samenstellingen met *honderd* of *duizend*.
+3. Samenstellingen met *honderd* of *duizend*.
 
-4.  Vaak voorkomende samengestelde werkwoorden.
+4. Vaak voorkomende samengestelde werkwoorden.
 
-5.  Veel samengestelde bijvoeglijke naamwoorden met een deelwoord.
+5. Veel samengestelde bijvoeglijke naamwoorden met een deelwoord.
 
-6.  Een splitsbaar werkwoord in dezelfde volgorde als de infinitief.
+6. Een splitsbaar werkwoord in dezelfde volgorde als de infinitief.
 
 ### Persoonsvorm of voltooid deelwoord
 
 De **persoonsvorm tegenwoordige tijd** en het **voltooid deelwoord** klinken soms hetzelfde bij zwakke werkwoorden (verdient, verdiend). Gebruik het volgende stappenplan om de juiste spelling te gebruiken:
 
-1.  Verander van tijd: het voltooid deelwoord verandert niet.
+1. Verander van tijd: het voltooid deelwoord verandert niet.
 
-2.  Gebruik de spellingsregels om de juiste spelwijze te bepalen:  
+2. Gebruik de spellingsregels om de juiste spelwijze te bepalen:  
     Een voltooid deelwoord schrijf je op een *t* als de laatste letter van de stam in ***‘t ex kofschip*** zit.

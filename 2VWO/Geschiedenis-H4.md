@@ -22,11 +22,11 @@ Deze belastingen werden opgelegd door de koning, adel en geestelijkheid, die de 
 
 Een oorzaak geeft aan waardoor iets gebeurt. Een gevolg geeft aan wat er door de oorzaak gebeurt. Er zijn 3 soorten oorzaken en gevolgen die je gebruikt bij geschiedenis:
 
-1.  **Sociaal-economische oorzaken en gevolgen** gaan over middelen van bestaan, geld, landbouw, handel en werkgelegenheid, zoals een hongersnood.
+1. **Sociaal-economische oorzaken en gevolgen** gaan over middelen van bestaan, geld, landbouw, handel en werkgelegenheid, zoals een hongersnood.
 
-2.  **Politiek-bestuurlijke oorzaken en gevolgen** gaan over de verdeling van een macht en de totstandkoming van beslissingen, zoals het worden van een republiek.
+2. **Politiek-bestuurlijke oorzaken en gevolgen** gaan over de verdeling van een macht en de totstandkoming van beslissingen, zoals het worden van een republiek.
 
-3.  **Cultureel-mentale oorzaken en gevolgen** gaan over hoe mensen leven en cultuur, zoals een verandering in het geloof.
+3. **Cultureel-mentale oorzaken en gevolgen** gaan over hoe mensen leven en cultuur, zoals een verandering in het geloof.
 
 ## De revolutie
 
@@ -56,15 +56,15 @@ Napoleon bleef in Frankrijk populair, ondanks zijn verbanning naar Elba. 1 jaar 
 
 ### Kenmerkende aspecten
 
-1.  **Absolutisme**
+1. **Absolutisme**
 
 > Enkele vorsten trokken de macht naar zich toe. Vooral de Franse koning Lodewijk XIV slaagde daar goed in.
 
-2.  **De verlichting**
+2. **De verlichting**
 
 > De invloed van de kerk nam af, en mensen, voornamelijk verlichtingsfilosofen, ontwikkelden ideeën over de samenleving, de politiek en religie.
 
-3.  **Democratische Revoluties**
+3. **Democratische Revoluties**
 
 > Minder acceptatie van absolutisme, het ontstaan van opstanden en grondwetten.
 

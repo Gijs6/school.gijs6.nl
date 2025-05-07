@@ -24,12 +24,12 @@ Delen door een breuk is vermenigvuldigen met het omgekeerde van die breuk.
 
 Er zijn 4 regels voor het herleiden van machten.
 
-1.  $`a^{b} \cdot a^{c} = a^{b + c}`$
+1. $`a^{b} \cdot a^{c} = a^{b + c}`$
 
-2.  $`(a^{b})^{c} = a^{ac}`$
+2. $`(a^{b})^{c} = a^{ac}`$
 
-3.  $`{(ab)}^{c} = a^{c} \cdot b^{c}`$
+3. $`{(ab)}^{c} = a^{c} \cdot b^{c}`$
 
-4.  $`\frac{a^{b}}{a^{c}} = a^{b - c}`$
+4. $`\frac{a^{b}}{a^{c}} = a^{b - c}`$
 
 $`a^{0} = 1`$ en $`a^{- b} = \frac{1}{a^{b}}`$

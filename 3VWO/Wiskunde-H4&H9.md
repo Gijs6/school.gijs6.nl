@@ -60,8 +60,6 @@ De **spreidingsbreedte** maakt duidelijk of de getallen in een reeks dicht bij e
 
 ## De boxplot en handelingen
 
-
-
 In een boxplot, zoals in de figuur hierboven, kun je makkelijk het kleinste getal, de Q<sub>1</sub>, de mediaan, de Q<sub>3</sub> en het grootste getal aflezen. Elk stuk van de boxplot is ongeveer 25%, dus tussen het kleinste getal en Q<sub>1</sub> is 25%, enzovoorts.
 
 Bij het kopen van een nieuwe bank kun je bij het bedrijf Bänk kiezen uit 3 kleuren: zwart, grijs en bruin. Ook kun je kiezen tussen stalen of houten poten, en de grootte: klein, middel of groot. Er zijn in totaal 3 × 2 × 3 = 18 verschillende banken te koop bij Bänk. Dit is een voorbeeld van de **vermenigvuldigingsregel**: als handeling 1 op *a* manieren kan worden uitgevoerd, en handeling 2 op *b* manieren worden uitgevoerd, dan kan handeling 1 **en** handeling 2 op *a* × *b* manieren.

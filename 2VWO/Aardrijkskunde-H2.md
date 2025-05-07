@@ -70,18 +70,18 @@ Nederland is een land zonder een echt grote stad. De overheid wil aantasting van
 
 De omvang van het verzorgingsgebied wordt bepaald door de **reikwijdte**: de maximale afstand die een klant wil afleggen om bij een voorziening te komen. De steden hebben een ontwikkeling meegemaakt van de volgende "stappen":
 
-1.  Stad  
+1. Stad  
     Door de verstedelijking/urbanisatie groeit een stad naar een agglomeratie
 
-2.  Agglomeratie  
+2. Agglomeratie  
     Een agglomeratie is een aaneengesloten stedelijke bebouwing, die zich over meer dan 1 gemeente uitstrekt.  
     Door de suburbanisatie, het wegtrekken uit de stad door betere mobiliteit en betere woningen, ontstaat uit een agglomeratie een stadsgewest.
 
-3.  Stadsgewest  
+3. Stadsgewest  
     Een stadsgewest is een gebied waarin de omringende plaatsen op vele manieren zijn verbonden met de centrale stad. De omringende plaatsen zijn goed verbonden met de centrale stad. De mensen wonen in de omliggende plaatsen maar werken in de stad, dus in de ochtend en avond staat er file.  
     Door de vervlechting van meerdere stadsgewesten vormt een stedelijk gebied.
 
-4.  Stedelijk gebied  
+4. Stedelijk gebied  
     Een stedelijk gebied is een gebied waarin een aantal stadsgewesten goed met elkaar zijn verbonden.  
     De randstad is een voorbeeld van een stedelijk gebied.
 
@@ -89,13 +89,13 @@ De omvang van het verzorgingsgebied wordt bepaald door de **reikwijdte**: de max
 
 Om de suburbanisatie af te remmen moest de stad weer aantrekkelijk worden. Dat gebeurt op 4 verschillende manieren:
 
-1.  het afbreken van huizen en vervangen door nieuwbouw (**sanering**) en **renovatie**: het opknappen van huizen
+1. het afbreken van huizen en vervangen door nieuwbouw (**sanering**) en **renovatie**: het opknappen van huizen
 
-2.  open ruimtes volbouwen en van oude bedrijfspanden woningen maken
+2. open ruimtes volbouwen en van oude bedrijfspanden woningen maken
 
-3.  de woonomgeving, zoals straten en pleinen, opknappen
+3. de woonomgeving, zoals straten en pleinen, opknappen
 
-4.  **buurtbeleid** door arm en rijk te mengen in een wijk.
+4. **buurtbeleid** door arm en rijk te mengen in een wijk.
 
 Achter alle vier de maatregelen zit het idee van de **compacte stad**: gebruik de stadsruimte zo goed mogelijk en spaar de open ruimte buiten de stad.
 

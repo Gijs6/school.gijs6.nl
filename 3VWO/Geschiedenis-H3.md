@@ -36,11 +36,11 @@ Iedereen kreeg met de oorlog te maken: een **totale oorlog**. Vrouwen moesten bi
 
 De Verenigde Staten verklaarde in 1917 de oorlog aan Duitsland. Dit had drie redenen:
 
-1.  Duitse onderzeeërs hadden tientallen Amerikaanse aangevallen, en laten zinken.
+1. Duitse onderzeeërs hadden tientallen Amerikaanse aangevallen, en laten zinken.
 
-2.  Amerikaanse banken dachten de oorlogsleningen van Frankrijk en Groot-Brittannië nooit terug te krijgen als de oorlog nog lang zou duren.
+2. Amerikaanse banken dachten de oorlogsleningen van Frankrijk en Groot-Brittannië nooit terug te krijgen als de oorlog nog lang zou duren.
 
-3.  De Duitsers probeerden Mexico over te halen om een oorlog tegen de VS te starten, maar deze **Zimmermanntelegram** werd onderschept door de Britten, en gegeven aan de VS.
+3. De Duitsers probeerden Mexico over te halen om een oorlog tegen de VS te starten, maar deze **Zimmermanntelegram** werd onderschept door de Britten, en gegeven aan de VS.
 
 Dat laatste was de uiteindelijke <u>directe reden</u> dat de VS deelnam aan de oorlog.
 
@@ -70,11 +70,11 @@ Na de wapenstilstand werden in de Franse stad Versailles vredesbesprekingen geor
 
 Het **verdrag van Versailles** bevatte uiteindelijk o.a. onderstaande punten:
 
-1.  Duitsland is schuldig, en moet hoge boetes betalen
+1. Duitsland is schuldig, en moet hoge boetes betalen
 
-2.  Duitsland moet een aantal gebieden teruggeven aan anderen
+2. Duitsland moet een aantal gebieden teruggeven aan anderen
 
-3.  Het Duitse leger moet beperkt blijven (max. 100.000 soldaten)
+3. Het Duitse leger moet beperkt blijven (max. 100.000 soldaten)
 
 Ook bondgenootschapen van Duitsland werden door dit verdag gestraft: alle volkeren in Oostenrijk-Hongarije moesten onafhankelijk kunnen worden, delen van het Turkse Rijk kwamen als **mandaatgebied** (tijdelijk bestuur van andere landen in een gebied) in Franse en Britse handen, en veel Russische gebieden kregen **zelfbeschikkingsrecht** (recht op een onafhankelijke staat).
 

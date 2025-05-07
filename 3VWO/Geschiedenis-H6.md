@@ -90,14 +90,14 @@ Vanaf dat moment werden grote groepen Joden **gedeporteerd** naar **doorvoerkamp
 
 ## Tijdvak en kenmerkende aspecten
 
-1.  Het in praktijk brengen van de totalitaire ideologieën fascisme en nationaalsocialisme.
+1. Het in praktijk brengen van de totalitaire ideologieën fascisme en nationaalsocialisme.
 
-2.  De rol van moderne propaganda- en communicatiemiddelen en vormen van massaorganisatie.
+2. De rol van moderne propaganda- en communicatiemiddelen en vormen van massaorganisatie.
 
-3.  Verwoestingen op niet eerder vertoonde schaal door massavernietigingswapens en de betrokkenheid van de burgerbevolking bij oorlogvoering.
+3. Verwoestingen op niet eerder vertoonde schaal door massavernietigingswapens en de betrokkenheid van de burgerbevolking bij oorlogvoering.
 
-4.  De Duitse bezetting van Nederland.
+4. De Duitse bezetting van Nederland.
 
-5.  Racisme en discriminatie die leidden tot genocide, in het bijzonder op de Joden.
+5. Racisme en discriminatie die leidden tot genocide, in het bijzonder op de Joden.
 
 1900 - 1950: Tijd van wereldoorlogen

@@ -8,21 +8,19 @@ layout: summary
 
 Het lichaam van de mens is ingedeeld in 3 delen: **het hoofd**, **de romp** en **de ledematen** (armen en benen). Het **skelet** (of geraamte) bestaat uit **botten** (of beenderen). Het skelet heeft 4 functies:
 
-1.  Stevigheid geven, zodat je rechtop kunt staan
+1. Stevigheid geven, zodat je rechtop kunt staan
 
-2.  Beweging mogelijk maken
+2. Beweging mogelijk maken
 
-3.  Bescherming bieden aan kwetsbare organen
+3. Bescherming bieden aan kwetsbare organen
 
-4.  Vorm geven aan het lichaam
+4. Vorm geven aan het lichaam
 
 Botten zijn erg stevig. In de pijpbeenderen bevindt zich een **mergholte**. Hierin slaat het lichaam **vetten** op. Dit heet het **geel beenmerg**. In de **koppen van pijpbeenderen en in platte beenderen** zit **rood beenmerg**. In rood beenmerg ontstaan bloedcellen.
 
 Botten bestaan voor het grootste deel uit **collageen (lijmstof)** en **kalkzouten**. De kalkzouten geven hardheid en **stevigheid aan het botweefsel**. Het collageen zorgt voor **buigzaamheid van het botweefsel**.
 
 *De afbeeldingen voor het schedel en wervelkolom staan op pagina 3.*
-
-
 
 Er zijn 2 verschillende typen weefsel in het skelet van de mens: **het kraakbeenweefsel en botweefsel**. Tussen de cellen in beide weefsels zit tussencelstof. In het kraakbeenweefsel liggen de cellen in groepjes bij elkaar. De tussencelstof is elastisch, waardoor kraakbeen een beetje buigzaam is. In botweefsel liggen de cellen in kringen rondom kleine kanaaltjes. Door die kanaaltjes lopen bloedvaten. De botcellen zijn aan elkaar verbonden met uitlopers. De tussencelstof van bot bestaat vooral uit kalkzouten en collageen. Daardoor is botweefsel hard en niet buigzaam.
 

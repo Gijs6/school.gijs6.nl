@@ -48,8 +48,8 @@ De Tweede Wereldoorlog eindigde op 15 augustus 1945.
 
 ## Tijdvak en kenmerkende aspecten
 
-1.  Het in praktijk brengen van de totalitaire ideologie fascisme en de totalitaire ideologie nationaalsocialisme.
+1. Het in praktijk brengen van de totalitaire ideologie fascisme en de totalitaire ideologie nationaalsocialisme.
 
-2.  De rol van moderne propaganda- en communicatiemiddelen en vormen van massaorganisatie.
+2. De rol van moderne propaganda- en communicatiemiddelen en vormen van massaorganisatie.
 
 1900 - 1950: Tijd van wereldoorlogen

@@ -12,7 +12,7 @@ Europa werd gesplitst in invloedssferen, waarbij de VS invloed had op West-Europ
 
 Doordat de Sovjet-Unie niet genoeg voedsel leverde, was er veel chaos in de andere bezettingszones. Het VK, de VS en Frankrijk voegden daarom hun bezettingszones in Duitsland samen. De VS steunde de wederopbouw van West-Europa ook met het **Marshallplan**. Om de Duitse economie verder te herstellen werd in de 3 samengevoegde zones een nieuwe munt ingevoerd: de **Deutsche Mark**. Dit was tegen afspraak 4 uit Potsdam, waardoor de Sovjet-Unie hier niet blij mee was.
 
-Stalin probeerde West-Berlijn onder controle te krijgen door bevoorrading te blokkeren, maar de VS en het VK leverden voedsel met vliegtuigen. 
+Stalin probeerde West-Berlijn onder controle te krijgen door bevoorrading te blokkeren, maar de VS en het VK leverden voedsel met vliegtuigen.
 
 ## Militaire blokvorming
 

@@ -10,14 +10,14 @@ layout: summary
 
 Je gebruikt de present perfect als:
 
-1.  iets in het verleden gestart is en nu nog steeds bezig is  
+1. iets in het verleden gestart is en nu nog steeds bezig is  
     *I have lived in New York for nine years.*
 
-2.  het resultaat van iets uit het verleden nog steeds merkbaar of aanwezig is
+2. het resultaat van iets uit het verleden nog steeds merkbaar of aanwezig is
 
 > *He has painted this door.*
 
-3.  iets in het verleden gebeurd is, maar het exacte moment is niet belangrijk of niet bekend  
+3. iets in het verleden gebeurd is, maar het exacte moment is niet belangrijk of niet bekend  
     *Have you heard this story?*
 
 Als in een zin een verwijzing staat naar het verleden, moet je de past simple gebruiken.

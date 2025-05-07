@@ -61,4 +61,4 @@ Een tekst kan verschillende structuren hebben. Hieronder vind je er een paar:d
 | Middenstuk | Antwoord(en)              |
 | Slot       | Samenvatting of conclusie |
 
-### ## 
+### ##

@@ -22,19 +22,19 @@ Er zijn verschillende oorzaken waarom landen arm of rijk zijn:
 
 - **Interne oorzaken**
 
-  1.  Ontwikkelingskansen: vruchtbare grond, voldoende natuurlijke hulpbronnen en neerslag.
+  1. Ontwikkelingskansen: vruchtbare grond, voldoende natuurlijke hulpbronnen en neerslag.
 
-  2.  Ligging: landen aan zee kunnen makkelijker handel drijven dan landen die **landlocked** (geen toegang tot zee) zijn.
+  2. Ligging: landen aan zee kunnen makkelijker handel drijven dan landen die **landlocked** (geen toegang tot zee) zijn.
 
-  3.  **Politieke systeem**: goed bestuur, weinig corruptie en democratisch
+  3. **Politieke systeem**: goed bestuur, weinig corruptie en democratisch
 
-  4.  Lage **Gini-coëfficiënt:** weinig sociale ongelijkheid
+  4. Lage **Gini-coëfficiënt:** weinig sociale ongelijkheid
 
 - **Externe oorzaken**
 
-  1.  Oude **exploitatiekoloniën** zijn vaak arm, omdat ze nog steeds grondstoffen leveren, terwijl **vestigingskoloniën** nu vaak rijk zijn.
+  1. Oude **exploitatiekoloniën** zijn vaak arm, omdat ze nog steeds grondstoffen leveren, terwijl **vestigingskoloniën** nu vaak rijk zijn.
 
-  2.  Landen of gebieden die **aantrekkelijk** zijn **voor buitenlandse bedrijven** zijn vaak rijker.
+  2. Landen of gebieden die **aantrekkelijk** zijn **voor buitenlandse bedrijven** zijn vaak rijker.
 
 ## Verschillen in Europa
 
@@ -56,15 +56,15 @@ Oost-Groningen is erg arm, ondanks het **regionaal ontwikkelingsbeleid** (extra 
 
 Het grootste deel van de wereldwijde migratie is **binnenlandse migratie**. Een kleiner deel is **buitenlandse migratie**: **emigranten** (waar ze weggaan) en **immigranten** (waar ze zich vestigen). Mensen migreren voor verschillende redenen:
 
-1.  **Arbeidsmigranten**: mensen die verhuizen voor beter werk.
+1. **Arbeidsmigranten**: mensen die verhuizen voor beter werk.
 
-2.  I**nternationale studenten**: studenten die in een ander land gaan studeren.
+2. I**nternationale studenten**: studenten die in een ander land gaan studeren.
 
-3.  **Vluchtelingen**/**asielzoekers**: mensen die vluchten voor oorlog.
+3. **Vluchtelingen**/**asielzoekers**: mensen die vluchten voor oorlog.
 
-4.  **Gezinsmigranten:** mensen die migreren voor **gezinshereniging** of **gezinsvorming**.
+4. **Gezinsmigranten:** mensen die migreren voor **gezinshereniging** of **gezinsvorming**.
 
-5.  **Natuurrampvluchtelingen**: mensen die migreren voor natuurrampen.
+5. **Natuurrampvluchtelingen**: mensen die migreren voor natuurrampen.
 
 **Kettingmigratie** kan gestarte migratie vergroten, waardoor er meer migratie komt. Hierbij spelen **migratienetwerken** een rol, want migranten houden vaak contact met mensen in het thuisland.
 
@@ -76,18 +76,18 @@ Mensen hebben **aspiraties** en **mogelijkheden** nodig om te kunnen migreren: z
 
 Migratie heeft veel gevolgen voor de **herkomstgebieden** van migranten:
 
-1.  De **bevolkingssamenstelling** veranderd.
+1. De **bevolkingssamenstelling** veranderd.
 
-2.  Er worden **geldzendingen** gedaan naar herkomstgebieden (waar mensen afhankelijk van kunnen worden)
+2. Er worden **geldzendingen** gedaan naar herkomstgebieden (waar mensen afhankelijk van kunnen worden)
 
-3.  De **inkomensverschillen** groeien.
+3. De **inkomensverschillen** groeien.
 
-4.  Tekort aan arbeiders.
+4. Tekort aan arbeiders.
 
-5.  Er komen nog meer aspiraties om te migreren.
+5. Er komen nog meer aspiraties om te migreren.
 
-6.  Veel culturele veranderingen.
+6. Veel culturele veranderingen.
 
-7.  Het sociale aanzien (**sociale stratificatie**) veranderd.
+7. Het sociale aanzien (**sociale stratificatie**) veranderd.
 
-8.  Er komen minder hoogopgeleiden (**braindrain**), of juist meer hoogopgeleiden (**braingain**).
+8. Er komen minder hoogopgeleiden (**braindrain**), of juist meer hoogopgeleiden (**braingain**).

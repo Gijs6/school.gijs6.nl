@@ -20,11 +20,11 @@ product-som-methode alleen gebruiken als je een kwadratische letter hebt, een ge
 
 Als je een vergelijking hebt die bestaat uit twee producten, waarvan de uitkomst 0 is, kun je de regel <u>**A × B = 0**, dus **A = 0** of **B = 0**</u> gebruiken. Onthoud dat je altijd de **balansmethode** moet gebruiken als je een actie uitvoert om een vergelijking op te lossen. Je kan het stappenplan hieronder gebruiken om een kwadratische vergelijking op te lossen:
 
-1.  Maak het rechterlid 0, door de balansmethode toe te passen.
+1. Maak het rechterlid 0, door de balansmethode toe te passen.
 
-2.  Ontbind het linkerlid in factoren, door de gemeenschappelijke factor buiten de haakjes te brengen, of door de product-som-methode.
+2. Ontbind het linkerlid in factoren, door de gemeenschappelijke factor buiten de haakjes te brengen, of door de product-som-methode.
 
-3.  Pas de regel <u>**A × B = 0**, dus **A = 0** of **B = 0**</u> toe.
+3. Pas de regel <u>**A × B = 0**, dus **A = 0** of **B = 0**</u> toe.
 
 ## Algemene herhaling
 
@@ -36,4 +36,4 @@ Om de snijpunten van twee grafieken te berekenen, stel je een vergelijking op wa
 
 Bij het toepassen van de balansmethode geld: alles wat je aan de ene kant doet, moet je ook aan de andere kant doen. Haal je bijvoorbeeld links 2x weg, moet je dat rechts ook doen.
 
-## 
+##

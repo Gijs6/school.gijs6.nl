@@ -65,13 +65,13 @@ De present continuous gebruik je voor
 
 Je kunt ***used t**o* gebruiken voor iets wat vroeger zo was, maar nu niet meer. ***Didn't use to*** is de ontkennende vorm. Je gebruikt na ***(didn't) use(d) to*** altijd een heel werkwoord*.* Gebruik ***(didn't) use(d) to*** voor de volgende situaties:
 
-1.  Voor een situatie of toestand uit het verleden
+1. Voor een situatie of toestand uit het verleden
 
 > *They **used to be** married.*
 >
 > *Peter **didn't use to** be afraid of heights.*
 
-2.  Voor een gewoonte uit het verleden
+2. Voor een gewoonte uit het verleden
 
 > *They **used to** fight all the time*
 >

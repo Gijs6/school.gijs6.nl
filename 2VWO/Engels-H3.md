@@ -12,13 +12,13 @@ De present perfect maak je met de regel: ***have/has + voltooid deelwoord***. Vo
 
 Je gebruikt de present perfect:
 
-1.  als iets in het verleden is gebeurd en nog steeds voortduurt.  
+1. als iets in het verleden is gebeurd en nog steeds voortduurt.  
     *They **have lived** in Rotterdam since 2013.*
 
-2.  als iets in het verleden is gebeurd en de nadruk ligt voornamelijk op het resultaat van de gebeurtenis uit het verleden  
+2. als iets in het verleden is gebeurd en de nadruk ligt voornamelijk op het resultaat van de gebeurtenis uit het verleden  
     *I **have broken** my leg, so I can't go swimming.*
 
-3.  als iets in het verleden is gebeurd, maar je weet niet exact wanneer, of dit is niet belangrijk  
+3. als iets in het verleden is gebeurd, maar je weet niet exact wanneer, of dit is niet belangrijk  
     ***Have** you **heard** the news?*
 
 ### Can, could, to be able to, to be allowed to

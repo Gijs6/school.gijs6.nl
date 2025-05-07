@@ -16,10 +16,10 @@ De verlichtingsfilosoof Montesquieu bedacht de driemachtenleer (ookwel **trias p
 
 ## Kenmerkende aspecten
 
-1.  Absolutisme:
+1. Absolutisme:
 
 > Enkele vorsten trokken de macht naar zich toe. Vooral de Franse koning Lodewijk XIV slaagde daar goed in.
 
-2.  De verlichting:
+2. De verlichting:
 
 > De invloed van de kerk nam af, en mensen, voornamelijk verlichtingsfilosofen, ontwikkelden ideeën over de samenleving, de politiek en religie.

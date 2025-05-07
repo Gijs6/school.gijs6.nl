@@ -74,19 +74,19 @@ Het beeld is altijd rechtop of omgekeerd, verkleind of vergroot en reëel (na de
 
 Je kunt een beeld **construeren** door gebruik te maken van **constructiestralen**. Bij positieve lenzen gelden de volgende regels:
 
-1.  Een straal door het optisch midden verandert niet.
+1. Een straal door het optisch midden verandert niet.
 
-2.  Een straal die voor de lens door het brandpunt gaat, loopt na de lens parallel aan de hoofdas.
+2. Een straal die voor de lens door het brandpunt gaat, loopt na de lens parallel aan de hoofdas.
 
-3.  Een straal die voor de lens parallel aan de hoofdas loopt, gaat na de lens door het brandpunt.
+3. Een straal die voor de lens parallel aan de hoofdas loopt, gaat na de lens door het brandpunt.
 
 Bij negatieve lenzen gelden de volgende regels:
 
-1.  Een straal door het optisch midden verandert niet.
+1. Een straal door het optisch midden verandert niet.
 
-2.  Een straal die voor de lens parallel aan de hoofdas loopt, lijkt na de lens uit het eerste brandpunt te komen.
+2. Een straal die voor de lens parallel aan de hoofdas loopt, lijkt na de lens uit het eerste brandpunt te komen.
 
-3.  Een straal die voor de lens richting het tweede brandpunt gaat, loopt na de lens parallel aan de hoofdas.
+3. Een straal die voor de lens richting het tweede brandpunt gaat, loopt na de lens parallel aan de hoofdas.
 
 Een negatieve lens geeft geen beeld na de lens. Als je de lijnen terugschetst ontstaat er wel een beeld voor de lens.
 

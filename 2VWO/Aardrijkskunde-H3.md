@@ -12,11 +12,11 @@ Mensen hebben zoet water nodig om te overleven. Van al het water op aarde is sle
 
 In de **waterbalans** kun je de hoeveelheid water zien die een gebied binnenkomt en uitgaat. Er zijn 3 manieren om aan water te komen.
 
-1.  Neerslag: De **nuttige neerslag** is alle neerslag die overblijft na verdamping.
+1. Neerslag: De **nuttige neerslag** is alle neerslag die overblijft na verdamping.
 
-2.  Aanvoer van water uit andere gebieden, door bijvoorbeeld rivieren en grondwater.
+2. Aanvoer van water uit andere gebieden, door bijvoorbeeld rivieren en grondwater.
 
-3.  De aanvoer van **fossiel water** uit andere tijdvakken. Dit water is opgeslagen in een **aquifer**. Dit water is niet duurzaam, want het wordt niet meer aangevoerd.
+3. De aanvoer van **fossiel water** uit andere tijdvakken. Dit water is opgeslagen in een **aquifer**. Dit water is niet duurzaam, want het wordt niet meer aangevoerd.
 
 **Virtueel water** is geen echt water, maar het water dat verwerkt zit in producten die je importeert. Als je alleen je vernieuwbare voorraad water gebruikt, is er sprake van **duurzaam waterbeheer**. Door de groeiende wereldbevolking zorgt voor meer gebruik van **niet-vernieuwbaar water**.
 
@@ -24,19 +24,19 @@ In de **waterbalans** kun je de hoeveelheid water zien die een gebied binnenkomt
 
 Overstromingen veroorzaken vaak meer doden door indirecte gevolgen zoals hongersnood, ziekten en muggenbeten dan door verdrinking. Wereldwijd zijn er zeven gebieden met een hoog risico op overstromingen:
 
-1.  Rivier- en kustvlakten. Deze gebieden zijn vaak laag gelegen.
+1. Rivier- en kustvlakten. Deze gebieden zijn vaak laag gelegen.
 
-2.  Gebieden aan de voet van een gebergte met een rotsige ondergrond, waardoor er weinig infiltratie is. Hierdoor kan de rivier, die te klein is bij een **piekafvoer**, overstromen.
+2. Gebieden aan de voet van een gebergte met een rotsige ondergrond, waardoor er weinig infiltratie is. Hierdoor kan de rivier, die te klein is bij een **piekafvoer**, overstromen.
 
-3.  Gebieden waar het smelten van sneeuw samenvalt met hevige regenval.
+3. Gebieden waar het smelten van sneeuw samenvalt met hevige regenval.
 
-4.  Gebieden waar **tropische orkanen** plaatsvinden, die het water omhoog duwen.
+4. Gebieden waar **tropische orkanen** plaatsvinden, die het water omhoog duwen.
 
-5.  Gebieden waar stroomopwaarts ontbossing plaatsvindt, waardoor er geen bomen meer zijn om het water vast te houden.
+5. Gebieden waar stroomopwaarts ontbossing plaatsvindt, waardoor er geen bomen meer zijn om het water vast te houden.
 
-6.  Gebieden die door stedelijke bebouwing verstenen.
+6. Gebieden die door stedelijke bebouwing verstenen.
 
-7.  Gebieden met **bodemdaling** door het oppompen van grondwater.
+7. Gebieden met **bodemdaling** door het oppompen van grondwater.
 
 Klimaatverandering en menselijke activiteiten zoals ontbossing en verstening verhogen het risico op overstromingen. Maatregelen om dit te voorkomen zijn op de korte termijn: het aanleggen van dijken, dammen en bufferbassins, het weer in de gaten houden, burgers trainen en voorlichten en drinkwater en voedsel veilig stellen. Om overstromingen te voorkomen op de lange termijn, kunnen we dijken verplaatsen bij rivieren, klimaatverandering minderen en mensen weren uit risicogebieden voor overstromingen.
 
@@ -48,13 +48,13 @@ Klimaatverandering en menselijke activiteiten zoals ontbossing en verstening ver
 
 In Laag-Nederland kennen we vier soorten polders:
 
-1.  **Zeepolders** zijn ontstaan door de indijking van vroeger aangeslibd land.
+1. **Zeepolders** zijn ontstaan door de indijking van vroeger aangeslibd land.
 
-2.  **Veenpolders** zijn laagveengebieden die geschikt zijn gemaakt voor de landbouw door het graven van sloten, waardoor het veen **inklinkt** (lager komt te liggen).
+2. **Veenpolders** zijn laagveengebieden die geschikt zijn gemaakt voor de landbouw door het graven van sloten, waardoor het veen **inklinkt** (lager komt te liggen).
 
-3.  **Droogmakerijen** zijn polders die zijn ontstaan doordat vroeger plassen zijn drooggepompt.
+3. **Droogmakerijen** zijn polders die zijn ontstaan doordat vroeger plassen zijn drooggepompt.
 
-4.  De **IJsselmeerpolders** zijn ontstaan door de drooggelegde Zuiderzee.
+4. De **IJsselmeerpolders** zijn ontstaan door de drooggelegde Zuiderzee.
 
 De zoute **kwel** is het ondergronds binnendringen van het zeewater. Er is een risico dat grote stukken van het strand en de **zeereep**, de eerste rij duinen voor de zee, zullen wegslaan. Samen met het toenemende aantal stormvloeden zorgt dit voor een hoger risico aan de kust. **Harde kustverdediging** is het beschermen van de kust door de aanleg van dijken en dammen. Een nadeel hiervan is het onderhoud. **Zachte kustverdediging** is het beschermen van de kust door de aanvoer van zand door de natuur of mens. Bij **kustafslag**, het wegslaan van strand of duinen, kan er zeezand voor of op het strand worden gespoten: **zandsuppletie**. Kustbeheer in een breed duingebied waar je de natuur meer zijn gang laat gaan heet **dynamisch kustbeheer**. De Waddenzee is een dynamisch **getijdenlandschap** dat bij een stijging van de zeespiegel extra sediment krijgt om het evenwicht te behouden. Als je rekening houdt met, en je aanpast aan het feit dat het klimaat verandert doe je aan **klimaatadaptatie**.
 
@@ -62,11 +62,11 @@ De zoute **kwel** is het ondergronds binnendringen van het zeewater. Er is een r
 
 De rivieren hebben steeds minder ruimte, door bijvoorbeeld stedelijke bebouwing. De rivier kan het slib alleen kwijt in het onbeschermde gebied langs de dijk: het **buitendijkse land**. Het **binnendijkse land** wordt wel beschermd door de dijk. De **drietrapsstrategie** moet ervoor zorgen dat de rivieren meer ruimte krijgen:
 
-1.  **Vasthouden**: het water in het gebied zelf vasthouden, door bijvoorbeeld de rivier dieper te maken, en de gebieden rond de rivier en de winterdijk (de **uiterwaarden**) te verlagen.
+1. **Vasthouden**: het water in het gebied zelf vasthouden, door bijvoorbeeld de rivier dieper te maken, en de gebieden rond de rivier en de winterdijk (de **uiterwaarden**) te verlagen.
 
-2.  **Bergen**: het water tijdelijk opbergen in **retentiegebieden** als vasthouden niet meer mogelijk is.
+2. **Bergen**: het water tijdelijk opbergen in **retentiegebieden** als vasthouden niet meer mogelijk is.
 
-3.  **Lozen**: als bergen en vasthouden niet werkt, wordt het water afgevoerd. Om dit sneller te laten verlopen kun je obstakels verwijderen in de uiterwaarden.
+3. **Lozen**: als bergen en vasthouden niet werkt, wordt het water afgevoerd. Om dit sneller te laten verlopen kun je obstakels verwijderen in de uiterwaarden.
 
 De **retentiegebieden** kunnen dynamisch worden gebruikt, bijvoorbeeld als plein. **Integraal waterbeheer** is een gezamenlijk plan van alle landen die deel uitmaken van het stroomgebied van een rivier.
 

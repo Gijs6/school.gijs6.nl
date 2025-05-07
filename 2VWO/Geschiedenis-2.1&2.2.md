@@ -61,4 +61,4 @@ Karel V trad af in 1555, want na 40 jaar was hij het besturen, oorlog voeren en 
 | ketter | Iemand die zich niet houdt aan de officiële leer en regels van de Kerk. |
 | inquisitie | Organisatie binnen de katholieke kerk die zich bezighield met het opsporen en veroordelen van ketters. |
 
-## 
+##

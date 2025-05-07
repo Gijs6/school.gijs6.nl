@@ -68,30 +68,30 @@ Bacteriën en schimmels kunnen voedsel bederven en giftige stoffen produceren di
 
 Micro-organismen zoals bacteriën en schimmels groeien snel bij ideale omstandigheden zoals vocht, voedsel, warmte en zuurstof, dus het verminderen van een of meer van deze factoren kan de groei van micro-organismen remmen en het bederf van voedsel vertragen: **conserveren**. Er zijn hiervoor 8 verschillende methodes:
 
-1.  **Invriezen  
+1. **Invriezen  
     **De temperatuur verlagen tot -20 °C of lager, waardoor bacteriën en schimmels zich niet kunnen voortplanten.
 
-2.  **Pasteuriseren  
+2. **Pasteuriseren  
     **Verhitten tot een temperatuur van 72 °C, waardoor <u>de meeste</u> bacteriën en schimmels doodgaan.
 
-3.  **Steriliseren  
+3. **Steriliseren  
     **Verhitten tot een temperatuur van 130–140 °C, waardoor <u>alle</u> bacteriën en schimmels doodgaan.
 
-4.  **Vacuüm verpakken  
+4. **Vacuüm verpakken  
     **Alle lucht uit de verpakking halen, waardoor bacteriën zich minder snel of niet kunnen voortplanten.
 
-5.  **Gasverpakken  
+5. **Gasverpakken  
     **Een mengsel van gassen toevoegen, waardoor voedingsmiddelen langer houdbaar blijven, en langer hun kleur behouden.
 
-6.  **Drogen**
+6. **Drogen**
 
 > Het onttrekken van water.
 
-7.  **Conserveermiddelen toevoegen**
+7. **Conserveermiddelen toevoegen**
 
 > Het toevoegen van bijv. suiker, zuur of zout, waar bacteriën niet tegen kunnen.
 
-8.  **Doorstralen  
+8. **Doorstralen  
     **Het bestralen met radioactieve stralen, zodat bacteriën en schimmels zich minder snel vermenigvuldigen of worden gedood.
 
 **Additieven** zijn stoffen die aan voedingsmiddelen worden toegevoegd om ze langer houdbaar, aantrekkelijker of smakelijker te maken. Suiker, azijn en zout zijn natuurlijke additieven. Naast **kleurstoffen** worden soms ook **geur- en smaakstoffen** toegevoegd. Natuurlijke kleurstoffen kunnen bijvoorbeeld afkomstig zijn van rode bieten. Op verpakkingen wordt vaak vermeld of er geen kunstmatige additieven zijn toegevoegd.

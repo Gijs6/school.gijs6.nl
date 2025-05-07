@@ -8,8 +8,8 @@ test_code: 4A-ENTL-T01
 
 ## Past simple
 
-| Vorm | Werkwoord \+ *\-ed* Sommige werkwoorden hebben een onregelmatige vorm. |
-| :---- | :---- |
+| Vorm    | Werkwoord \+ *\-ed* Sommige werkwoorden hebben een onregelmatige vorm.                                                                                                                                                                                         |
+| :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Gebruik | Je gebruikt de past simple als iets in het verleden is gebeurd / gedaan. Vaak zeg je ook wanneer dat was.  In bevestigende zinnen Bij regelmaat in het verleden, vaak met *used to* of *would* (bij een situatie of toestand **moet** je *used to*) gebruiken. |
 
 ## Present perfect

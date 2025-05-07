@@ -92,25 +92,25 @@ Het Nederlands kent 8 werkwoordstijden
 
 #### ### Stappenplan voor het vaststellen van de werkwoordstijd
 
-1.  Bevat de zin een vorm van het **hulpwerkwoord** hebben of zijn?
+1. Bevat de zin een vorm van het **hulpwerkwoord** hebben of zijn?
 
-    1.  Ja? Dan is de zin voltooid. Schrijf op plaats 1 een V.
+    1. Ja? Dan is de zin voltooid. Schrijf op plaats 1 een V.
 
-    2.  Nee? Dan is de zin onvoltooid. Schrijf op plaats 1 een O.
+    2. Nee? Dan is de zin onvoltooid. Schrijf op plaats 1 een O.
 
-2.  Staat **persoonsvorm** in de tegenwoordige tijd (tt) of in de verleden tijd (vt)?
+2. Staat **persoonsvorm** in de tegenwoordige tijd (tt) of in de verleden tijd (vt)?
 
-    1.  Tegenwoordige tijd \> Schrijf een T (<u>t</u>egenwoordige tijd) op plaats 2.
+    1. Tegenwoordige tijd \> Schrijf een T (<u>t</u>egenwoordige tijd) op plaats 2.
 
-    2.  Verleden tijd \> Schrijf een V (<u>v</u>erleden tijd) op plaats 2.
+    2. Verleden tijd \> Schrijf een V (<u>v</u>erleden tijd) op plaats 2.
 
-3.  Bevat de zin een vorm van zullen?
+3. Bevat de zin een vorm van zullen?
 
-    1.  Ja? Schrijf een T van toekomende tijd op plaats 3.
+    1. Ja? Schrijf een T van toekomende tijd op plaats 3.
 
-    2.  Nee? Laat plaats 3 leeg.
+    2. Nee? Laat plaats 3 leeg.
 
-4.  Schrijf op de laatste plaats de T van tijd
+4. Schrijf op de laatste plaats de T van tijd
 
 Nu heb je de afkorting gemaakt van de tijd waar de zin in staat.
 
@@ -313,13 +313,13 @@ Het naamwoordelijk gezegde zegt wat iemand is of wordt. Het naamwoordelijk gezeg
 
 Je vindt het naamwoordelijk gezegde met het volgende stappenplan
 
-1.  Stel vast of de zin een koppelwerkwoord bevat
+1. Stel vast of de zin een koppelwerkwoord bevat
 
-2.  Stel vast of het onderwerp iets **doet** of iets **is/wordt**.
+2. Stel vast of het onderwerp iets **doet** of iets **is/wordt**.
 
-3.  Als het onderwerp iets is/wordt, stel je de vraag: Wat + persoonsvorm + onderwerp + overige werkwoorden. Het antwoord op die vraag is het naamwoordelijk deel.
+3. Als het onderwerp iets is/wordt, stel je de vraag: Wat + persoonsvorm + onderwerp + overige werkwoorden. Het antwoord op die vraag is het naamwoordelijk deel.
 
-4.  Noteer het naamwoordelijk gezegde als: pv + \[nw.deel\] + overige werkwoorden
+4. Noteer het naamwoordelijk gezegde als: pv + \[nw.deel\] + overige werkwoorden
 
 #### Lijdend voorwerp (lv) en meewerkend voorwerp (mv)
 
@@ -351,19 +351,19 @@ Een **zelfstandig naamwoord (zn)** is een woord voor een organisme, ding of gevo
 
 Er zijn 3 soorten zelfstandige naamwoorden:
 
-1.  **Concreet zelfstandig naamwoord (czn)**: dit geeft iets aan wat fysiek bestaat in het universum, en wat je kunt aanraken: de pen, het vliegtuig of het bakje
+1. **Concreet zelfstandig naamwoord (czn)**: dit geeft iets aan wat fysiek bestaat in het universum, en wat je kunt aanraken: de pen, het vliegtuig of het bakje
 
-2.  **Abstract zelfstandig naamwoord (azn)**: dit geeft iets aan wat je niet kunt aanraken: de week, zombie of blijdschap
+2. **Abstract zelfstandig naamwoord (azn)**: dit geeft iets aan wat je niet kunt aanraken: de week, zombie of blijdschap
 
-3.  **Eigennaam (zn-e)**: een naam van een aardrijkskundige plek of van een organisme: Noordzee, Drenthe of Marco
+3. **Eigennaam (zn-e)**: een naam van een aardrijkskundige plek of van een organisme: Noordzee, Drenthe of Marco
 
 Een zelfstandig naamwoord kun je herkennen aan de volgende eigenschappen:
 
-1.  Een zn heeft vaak een enkelvoud en meervoud
+1. Een zn heeft vaak een enkelvoud en meervoud
 
-2.  Je kan er vaak verkleinwoorden van maken
+2. Je kan er vaak verkleinwoorden van maken
 
-3.  Je kan er meestal een lidwoord voor zetten
+3. Je kan er meestal een lidwoord voor zetten
 
 Een **bijvoeglijk naamwoord (bn)** vertelt iets over een zelfstandig naamwoord: de <u>nieuwe</u> schoenen, een <u>spannend</u> boek, een <u>dreigende</u> brief. Een **stoffelijk bijvoeglijk naamwoord (st.bn)** zegt van welk materiaal iets is gemaakt: een <u>houten</u> stoel, een <u>plastic</u> emmer.
 

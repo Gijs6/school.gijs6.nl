@@ -20,11 +20,11 @@ Jonge gebergten zijn te herkennen aan de hoge spitse toppen, met diepe dalen. Di
 
 **Verwering** is het uit elkaar vallen van gesteenten. Er zijn 3 vormen van **mechanische verwering**:
 
-1.  Vorstverwering: regenwater komt in spleten en bevriest. Het ijs zet uit, en het gesteente valt uit elkaar.
+1. Vorstverwering: regenwater komt in spleten en bevriest. Het ijs zet uit, en het gesteente valt uit elkaar.
 
-2.  **Biologische verwering**: wortels van bomen groeien in spleten waardoor het gesteente uit elkaar valt.
+2. **Biologische verwering**: wortels van bomen groeien in spleten waardoor het gesteente uit elkaar valt.
 
-3.  **Verwering door uitzetting en inkrimping door temperatuurverschillen**: als gesteente overdag warm wordt door de zon, en ‘s nachts afkoelt tot onder het vriespunt zal de steen uitzetten en inkrimpen. Waardoor het uit elkaar valt.
+3. **Verwering door uitzetting en inkrimping door temperatuurverschillen**: als gesteente overdag warm wordt door de zon, en ‘s nachts afkoelt tot onder het vriespunt zal de steen uitzetten en inkrimpen. Waardoor het uit elkaar valt.
 
 Bij **chemische verwering** zorgt zuurstof en vocht voor verwering. Dit gaat snel in een warm en vochtig klimaat en langzaam in een droog of koud klimaat.
 

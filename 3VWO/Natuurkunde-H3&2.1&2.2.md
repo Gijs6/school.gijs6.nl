@@ -91,5 +91,3 @@ Als krachten in evenwicht zijn, gebeurt er niets, zoals in de afbeelding hiernaa
 De **veerconstante** geeft aan hoeveel newton de veer levert bij elke meter uitrekking. De uitrekking is het aantal meter dat de veer uitrekt, tegenover de **nulstand**.
 
 De **resultante** is de optelsom van alle krachten samen. Als de krachten in evenwicht zijn, is de resultante 0 N.
-
-

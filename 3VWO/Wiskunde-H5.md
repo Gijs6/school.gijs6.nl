@@ -8,11 +8,11 @@ layout: summary
 
 Om een vergelijking in de vorm $`ax² + bx + c = 0`$ op te lossen, bereken je de **discriminant** (D). Gebruik dit stappenplan:
 
-1.  Noteer welke getallen *a*, *b*, en *c* zijn.
+1. Noteer welke getallen *a*, *b*, en *c* zijn.
 
-2.  Bereken de discriminant met de formule $`D = b² - 4ac`$
+2. Bereken de discriminant met de formule $`D = b² - 4ac`$
 
-3.  De oplossingen voor *x* zijn dan $`\frac{- b\  + \ }{2a}`$ en $`\frac{- b\  - \ }{2a}`$.
+3. De oplossingen voor *x* zijn dan $`\frac{- b\  + \ }{2a}`$ en $`\frac{- b\  - \ }{2a}`$.
 
 Let op! Je mag dit stappenplan alleen gebruiken als *a* ≠ 0.
 
@@ -22,22 +22,22 @@ Er zijn 2 oplossingen voor *x* als *D* \> 0. Er is 1 oplossing als *D* = 0 en ge
 
 Je hebt verschillende manieren om een kwadratische vergelijking op te lossen.
 
-1.  $`x² = c`$  
+1. $`x² = c`$  
     $`2x² = 128`$ → $`x² = 64`$ → $`x = 8 \vee x = - 8`$
 
-2.  Ontbinden in factoren
+2. Ontbinden in factoren
 
-    1.  Buiten haakjes brengen  
+    1. Buiten haakjes brengen  
         $`2x² + 6x = 0`$ → $`x(2x + 6) = 0`$ → $`x = 0 \vee 2x + 6 = 0`$ → $`2x = - 6`$ → $`x = - 3`$
 
-    2.  Product-som-methode  
+    2. Product-som-methode  
         $`x² - 9x - 10 = 0`$ → $`(x - 6)(x - 2) = 0`$ → $`x - 6 = 0 \vee x - 2 = 0`$ → $`x = 6 \vee x = 2`$
 
-3.  Kwadraatafsplitsen
+3. Kwadraatafsplitsen
 
 > $`x² - 6x - 1 = 0`$ → $`(x - 3)² - 10 = 0`$ → $`(x - 3)² = 10`$ → $`x = 3 + \vee x = 3 -`$
 
-4.  *ABC*-formule  
+4. *ABC*-formule  
     $`2x(x - 5) = - 15`$ → $`2x² - 10x + 15 = 0`$ → $`D = - 20`$, dus geen oplossing.
 
 ## Lineaire ongelijkheden

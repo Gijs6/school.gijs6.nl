@@ -22,13 +22,13 @@ Je mag alleen samentrekken als er aan 3 voorwaarden wordt voldaan: dezelfde **fu
 
 Voorbeeld: *De soldaat was gewond en daarom in het ziekenhuis opgenomen.*
 
-1.  De weggelaten woorden zijn *de soldaat* en *was*.
+1. De weggelaten woorden zijn *de soldaat* en *was*.
 
-2.  *Soldaat* is in het eerste deel onderwerp en enkelvoud. *Was* is in het eerste deel een koppelwerkwoord (was \[gewond\]) en enkelvoud.
+2. *Soldaat* is in het eerste deel onderwerp en enkelvoud. *Was* is in het eerste deel een koppelwerkwoord (was \[gewond\]) en enkelvoud.
 
-3.  *Soldaat* is in het tweede deel onderwerp en enkelvoud. *Was* is in het tweede deel een hulpwerkwoord (was opgenomen) en enkelvoud.
+3. *Soldaat* is in het tweede deel onderwerp en enkelvoud. *Was* is in het tweede deel een hulpwerkwoord (was opgenomen) en enkelvoud.
 
-4.  *Soldaat* mag je dus weglaten, maar *was* niet.
+4. *Soldaat* mag je dus weglaten, maar *was* niet.
 
 De correcte zin is: *De soldaat was gewond en was daarom in het ziekenhuis opgenomen*.
 
@@ -105,19 +105,19 @@ De woorden *wie*, *die* en *dat* kunnen verschillende woordsoorten zijn.
 
 Gebruik het onderstaande stappenplan om de woordsoort van *die* en *dat* te bepalen:
 
-1.  Vervang *die* → *deze* en *dat* → *dit*. Als dit lukt, dan is het een aanwijzend voornaamwoord.
+1. Vervang *die* → *deze* en *dat* → *dit*. Als dit lukt, dan is het een aanwijzend voornaamwoord.
 
-2.  Controleer of *die*/*dat* terugverwijst naar een antecedent. Als dit zo is, dan is het een betrekkelijk voornaamwoord.
+2. Controleer of *die*/*dat* terugverwijst naar een antecedent. Als dit zo is, dan is het een betrekkelijk voornaamwoord.
 
-3.  Controleer of *dat* aan het begin van een bijzin staat. Als dit zo is, dan is het een onderschikkend voegwoord.
+3. Controleer of *dat* aan het begin van een bijzin staat. Als dit zo is, dan is het een onderschikkend voegwoord.
 
 Gebruik het onderstaande stappenplan om de woordsoort van *wie* te bepalen:
 
-1.  Controleer of *wie* terugverwijst naar een antecedent. Als dit zo is, dan is het een betrekkelijk voornaamwoord.
+1. Controleer of *wie* terugverwijst naar een antecedent. Als dit zo is, dan is het een betrekkelijk voornaamwoord.
 
-2.  Controleer of *wie* vervangbaar is door *degene die*. Als dit zo is, dan is het een betrekkelijk voornaamwoord met ingesloten antecedent.
+2. Controleer of *wie* vervangbaar is door *degene die*. Als dit zo is, dan is het een betrekkelijk voornaamwoord met ingesloten antecedent.
 
-3.  Controleer of *wie* aan het begin van een vraagzin staat, of van een zin die afgeleid is van een vraag. Als dit zo is, dan is het een vragend voornaamwoord.
+3. Controleer of *wie* aan het begin van een vraagzin staat, of van een zin die afgeleid is van een vraag. Als dit zo is, dan is het een vragend voornaamwoord.
 
 ## Met of zonder -*n*
 

@@ -12,8 +12,6 @@ Als je een standpunt met 1 argument onderbouwt, is het een **enkelvoudige argume
 
 Bij een **nevenschikkende argumentatie** zijn er meerdere argumenten. Bij een **onderschikkende argumentatie** onderbouw je een argument, met nog een argument. Bij een **onder- en nevenschikkende argumentatie** zijn er meerdere argumenten, en je onderbouwt (een) argument(en). Je kunt standpunten en argumenten in een **blokschema** zetten, waarbij het bovenste blok het standpunt is:
 
-
-
 ## Tegenargumenten en weerleggingen
 
 Een argument tegen je eigen standpunt is een **tegenargument**. Als je laat zien dat een tegenargument niet klopt, gebruik je een **weerlegging**, zoals in het betoog hieronder:

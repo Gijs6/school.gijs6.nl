@@ -104,12 +104,12 @@ Jouw ecologische voetafdruk is het land- en wateroppervlak dat nodig is voor jou
 
 Er zijn 5 belangrijke oplossingen voor klimaatverandering:
 
-1.  **Duurzame energie** gebruiken, zoals windenergie of biomassa (het verbranden van biologisch afval).
+1. **Duurzame energie** gebruiken, zoals windenergie of biomassa (het verbranden van biologisch afval).
 
-2.  **Duurzame grondstoffen** gebruiken, en grondstoffen recyclen.
+2. **Duurzame grondstoffen** gebruiken, en grondstoffen recyclen.
 
-3.  **Duurzame landbouw**. **Biologische landbouw**: geen monoculturen, geen kunstmest en geen chemische gifstoffen. **Stadslandbouw:** voedsel verbouwen in een stedelijke omgeving. **Verticale landbouw**: gewassen boven elkaar kweken. **Precisielandbouw**: met technologie de opbrengst te vergroten. **Kringlooplandbouw**: alle hulpmiddelen hergebruiken.
+3. **Duurzame landbouw**. **Biologische landbouw**: geen monoculturen, geen kunstmest en geen chemische gifstoffen. **Stadslandbouw:** voedsel verbouwen in een stedelijke omgeving. **Verticale landbouw**: gewassen boven elkaar kweken. **Precisielandbouw**: met technologie de opbrengst te vergroten. **Kringlooplandbouw**: alle hulpmiddelen hergebruiken.
 
-4.  Minder vervuiling: bijvoorbeeld geen vuurwerk afsteken en geen schadelijke stoffen lozen.
+4. Minder vervuiling: bijvoorbeeld geen vuurwerk afsteken en geen schadelijke stoffen lozen.
 
-5.  Minder broeikasgassen: geen fossiele brandstoffen, meer elektrische auto's en huizen isoleren.
+5. Minder broeikasgassen: geen fossiele brandstoffen, meer elektrische auto's en huizen isoleren.

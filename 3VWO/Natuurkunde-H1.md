@@ -8,15 +8,15 @@ layout: summary
 
 Een **elektriciteitscentrale** wekt stroom op door de verbranding van brandstof.
 
-1.  Brandstof wordt door **branders** verbrand, waardoor het water in een ketel wordt verhit.
+1. Brandstof wordt door **branders** verbrand, waardoor het water in een ketel wordt verhit.
 
-2.  Het water verdampt, en wordt waterdamp met een hele hoge druk.
+2. Het water verdampt, en wordt waterdamp met een hele hoge druk.
 
-3.  Deze waterdamp spuit met grote snelheid tegen een **turbine**, waardoor deze gaat draaien.
+3. Deze waterdamp spuit met grote snelheid tegen een **turbine**, waardoor deze gaat draaien.
 
-4.  Aan de as van de turbine is een generator gekoppeld, die elektrische energie opwekt.
+4. Aan de as van de turbine is een generator gekoppeld, die elektrische energie opwekt.
 
-5.  De waterdamp wordt vervolgens weer gecondenseerd tot vloeibaar water.
+5. De waterdamp wordt vervolgens weer gecondenseerd tot vloeibaar water.
 
 In de ketel wordt chemische energie dus omgezet in warmte. In de turbine wordt deze warmte weer omgezet in bewegingsenergie, en in de generator wordt deze bewegingsenergie omgezet in elektrische energie.
 

@@ -92,15 +92,15 @@ Alle bewuste reacties gaan via de hersenen. Een **reflex** is een snelle, onbewu
 
 De **reflexboog** is de weg die impulsen afleggen bij een reflex:
 
-1.  Impulsen ontstaan in zintuigcellen
+1. Impulsen ontstaan in zintuigcellen
 
-2.  De impulsen worden via zenuwen naar schakelcellen geleid
+2. De impulsen worden via zenuwen naar schakelcellen geleid
 
-3.  Schakelcellen geleiden impulsen direct door naar de zenuwen die verbonden zijn met spieren
+3. Schakelcellen geleiden impulsen direct door naar de zenuwen die verbonden zijn met spieren
 
-4.  Deze zenuwen geleiden impulsen naar spieren, waardoor ze samentrekken
+4. Deze zenuwen geleiden impulsen naar spieren, waardoor ze samentrekken
 
-5.  De schakelcellen geven ook impulsen naar de hersenen, waardoor je je bewust wordt van de prikkel.
+5. De schakelcellen geven ook impulsen naar de hersenen, waardoor je je bewust wordt van de prikkel.
 
 ## Gedrag
 
