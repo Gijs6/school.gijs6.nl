@@ -29,6 +29,22 @@
                 "make_summary": true,
                 "icon": "FATL",
                 "resources": []
+            },
+            {
+                "subject": "NETL",
+                "test_code": "4A-NETL-T07",
+                "test_type": "Toets",
+                "test_material": "Woordenschat",
+                "make_summary": true,
+                "icon": "NETL",
+                "resources": [
+                    {
+                        "link": "https://studygo.com/nl/learn/lists/181872046",
+                        "title": "StudyGo"
+                    }
+                ],
+                "summary_link": "/4VWO/P4/netl_woordenschat",
+                "summary_name": "Woordenlijst"
             }
         ],
         "TW3": [

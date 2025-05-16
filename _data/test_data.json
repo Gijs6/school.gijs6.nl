@@ -143,9 +143,14 @@
                 "test_code": "4A-NETL-T07",
                 "test_type": "Toets",
                 "test_material": "Woordenschat",
-                "make_summary": false,
+                "make_summary": true,
                 "icon": "NETL",
-                "resources": []
+                "resources": [
+                    {
+                        "link": "https://studygo.com/nl/learn/lists/181872046",
+                        "title": "StudyGo"
+                    }
+                ]
             },
             {
                 "subject": "NLT",
