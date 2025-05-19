@@ -103,7 +103,7 @@ En als je natriumstearaat in water oplost, zullen de polaire koppen in het water
 
 Watermoleculen trekken elkaar sterk aan door waterstofbruggen. De bovenste watermoleculen hebben geen moleculen boven zich, waardoor ze naar binnen worden getrokken. Dit zorgt ervoor dat het wateroppervlak als een vlies aanvoelt: **oppervlaktespanning**.
 
-![Oppervlaktespanning (img-medium)](./images/schk_h5_oppervlaktespanning.jpg)
+![Oppervlaktespanning (img-small)](./images/schk_h5_oppervlaktespanning.jpg)
 
 ## Hydratatie
 
@@ -124,3 +124,5 @@ Het numerieke voorvoegsel voor 7 is *hepta*, dus de systematische naam van de st
 Je kunt door te verwarmen ook het water weer uit het rooster halen:
 
 $$\ce{FeSO4 * 7~H2O ->[\text{warmte}] FeSO4 + 7~H2O }$$
+
+Zouten die water in hun ionrooster kunnen opnemen kunnen gebruikt worden om water uit een andere stof te halen.
