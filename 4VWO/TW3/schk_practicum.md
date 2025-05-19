@@ -6,10 +6,6 @@ test_code: 4A-SCHK-T05
 
 # Scheikunde: Practicumtoets
 
-**Zorg dat je voor de practicumtoets [de stof van hoofdstuk 4](schk_h4) goed weet.**
-
-Je krijgt op de toets een 2 keer een potje met een zout en een aantal keuzeopties voor welk zout het kan zijn. Je krijgt 1 keer 2 keuzemogelijkheden en 1 keer 3 keuzemogelijkheden.
-
 ## Structuur verslag
 
 Laten we zeggen dat er 3 opties zijn voor welk zout het kan zijn: koperchloride, kaliumsulfaat of aluminiumnitraat.

@@ -2,6 +2,7 @@
 layout: summary
 title: SCHK - H4 - Samenvatting
 test_code: 4A-SCHK-T06
+summary_type: summary1
 summary_name: Samenvatting H4
 ---
 

@@ -45,6 +45,32 @@
                 ],
                 "summary_link": "/4VWO/P4/netl_woordenschat",
                 "summary_name": "Woordenlijst"
+            },
+            {
+                "subject": "SCHK",
+                "test_code": "4A-SCHK-T06",
+                "test_type": "Toets",
+                "test_material": "H4 (Zouten) + H5 (Oplossen)",
+                "make_summary": true,
+                "icon": "fa-solid fa-flask-vial",
+                "resources": [
+                    {
+                        "link": "https://studygo.com/nl/learn/lists/180818384",
+                        "title": "Ladingen (StudyGO)",
+                        "type": "external"
+                    },
+                    {
+                        "link": "/4VWO/P4/schk_h4",
+                        "title": "Samenvatting H4",
+                        "type": "internal"
+                    },
+                    {
+                        "link": "/4VWO/P4/schk_h5",
+                        "title": "Samenvatting H5",
+                        "type": "internal"
+                    }
+                ],
+                "summary_made": true
             }
         ],
         "TW3": [
@@ -152,28 +178,6 @@
                 "resources": [],
                 "summary_link": "/4VWO/TW3/schk_practicum",
                 "summary_name": "Samenvatting"
-            },
-            {
-                "subject": "SCHK",
-                "test_code": "4A-SCHK-T06",
-                "test_type": "Toets",
-                "test_material": "H4 (Zouten) + H5 (Oplossen)",
-                "make_summary": true,
-                "icon": "fa-solid fa-flask-vial",
-                "resources": [
-                    {
-                        "link": "https://studygo.com/nl/learn/lists/180818384",
-                        "title": "Ladingen (StudyGO)",
-                        "type": "external"
-                    },
-                    {
-                        "link": "https://www.gijs6.nl/oefenen_zouten",
-                        "title": "Oefenen zoutformules",
-                        "type": "internal"
-                    }
-                ],
-                "summary_link": "/4VWO/TW3/schk_h4",
-                "summary_name": "Samenvatting H4"
             },
             {
                 "subject": "WISB",

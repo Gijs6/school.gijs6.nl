@@ -49,7 +49,7 @@ def main():
                     front_matter = []
                     test_code = []
                     summary_name = "Samenvatting"
-                    summary_type = front_matter = "basic"
+                    summary_type = "basic"
                     
                     
                 for test_data in filter(lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]):
@@ -68,6 +68,9 @@ def main():
                     else:
                         test_data["summary_link"] = f"/{main_dir}/{sub_dir}/{file.replace(".md", "")}"
                         test_data["summary_name"] = summary_name
+                    
+                    if not test_data.get("summary_link") and "summary" in summary_type:
+                        test_data["summary_made"] = True
 
     sorted_data = {}
         
