@@ -114,15 +114,15 @@ Bij een slecht oplosbaar zout lukt het de watermoleculen niet om het ionrooster 
 
 Sommige zouten kunnen water opnemen in hun ionrooster. Er ontstaat dan **kristalwater**. Zouten die kristalwater bevatten heten **hydraten**. Je noteert dit met een punt in de formule.
 
-$$\ce{FeSO4 + 7~H2O -> FeSO4 * 7~H2O}$$
+$$\ce{FeSO4 + 7\~H2O -> FeSO4 * 7\~H2O}$$
 
 In dit geval heeft elke mol ijzersulfaat 7 mol water in zijn ionrooster opgenomen.  
-Het numerieke voorvoegsel voor 7 is *hepta*, dus de systematische naam van de stof $\ce{FeSO4 * 7~H2O}$ is ijzersulfaatheptahydraat.
+Het numerieke voorvoegsel voor 7 is *hepta*, dus de systematische naam van de stof $\ce{FeSO4 * 7\~H2O}$ is ijzersulfaatheptahydraat.
 
 > Hoeveel mol water per mol zout in het rooster past, kun je vinden in Binas 45B en 65B.
 
 Je kunt door te verwarmen ook het water weer uit het rooster halen:
 
-$$\ce{FeSO4 * 7~H2O ->[\text{warmte}] FeSO4 + 7~H2O }$$
+$$\ce{FeSO4 * 7\~H2O ->[\text{warmte}] FeSO4 + 7\~H2O }$$
 
 Zouten die water in hun ionrooster kunnen opnemen kunnen gebruikt worden om water uit een andere stof te halen.
