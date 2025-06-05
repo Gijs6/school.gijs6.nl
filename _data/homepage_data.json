@@ -71,6 +71,17 @@
                     }
                 ],
                 "summary_made": true
+            },
+            {
+                "subject": "WISB",
+                "test_code": "4A-WISB-T07",
+                "test_type": "Toets",
+                "test_material": "H6 (Differentiaalrekening)",
+                "make_summary": true,
+                "icon": "fa-solid fa-calculator",
+                "resources": [],
+                "summary_link": "/4VWO/P4/wisb_h6",
+                "summary_name": "Samenvatting"
             }
         ],
         "TW3": [
@@ -465,6 +476,7 @@
                         "type": "internal"
                     }
                 ],
+                "summary_made": true,
                 "summary_link": "/4VWO/TW1/netl_verhaalanalyse",
                 "summary_name": "Samenvatting"
             },

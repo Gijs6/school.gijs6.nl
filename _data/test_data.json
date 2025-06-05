@@ -181,7 +181,7 @@
                 "test_code": "4A-WISB-T07",
                 "test_type": "Toets",
                 "test_material": "H6 (Differentiaalrekening)",
-                "make_summary": false,
+                "make_summary": true,
                 "icon": "fa-solid fa-calculator",
                 "resources": []
             }
