@@ -41,7 +41,9 @@
                         "link": "https://studygo.com/nl/learn/lists/182203525",
                         "title": "StudyGo Zinnen"
                     }
-                ]
+                ],
+                "summary_link": "/4VWO/P4/fatl_h5",
+                "summary_name": "Samenvatting"
             },
             {
                 "subject": "NETL",
@@ -69,7 +71,7 @@
                 "resources": [
                     {
                         "link": "https://studygo.com/nl/learn/lists/180818384",
-                        "title": "Ladingen (StudyGO)",
+                        "title": "Ladingen (StudyGo)",
                         "type": "external"
                     },
                     {
@@ -278,7 +280,7 @@
                 "resources": [
                     {
                         "link": "https://studygo.com/nl/learn/folders/2501044",
-                        "title": "StudyGO",
+                        "title": "StudyGo",
                         "type": "external"
                     }
                 ],
