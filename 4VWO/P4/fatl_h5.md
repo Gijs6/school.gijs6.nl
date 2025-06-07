@@ -1,7 +1,7 @@
 ---
 layout: summary
 title: FATL - H5 - Samenvatting
-test*code: 4A-FATL-T08
+test_code: 4A-FATL-T08
 ---
 
 # Franse taal en literatuur: Hoofdstuk 5
