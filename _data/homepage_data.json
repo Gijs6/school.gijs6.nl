@@ -28,9 +28,20 @@
                 "test_material": "H5",
                 "make_summary": true,
                 "icon": "FATL",
-                "resources": [],
-                "summary_link": "/4VWO/P4/fatl_h5",
-                "summary_name": "Samenvatting"
+                "resources": [
+                    {
+                        "link": "https://studygo.com/nl/learn/lists/182203506",
+                        "title": "WRTS Frans - Nederlands"
+                    },
+                    {
+                        "link": "https://studygo.com/nl/learn/lists/182203512",
+                        "title": "WRTS Nederlands - Frans"
+                    },
+                    {
+                        "link": "https://studygo.com/nl/learn/lists/182203525",
+                        "title": "WRTS Zinnen"
+                    }
+                ]
             },
             {
                 "subject": "NETL",
