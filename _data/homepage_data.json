@@ -28,7 +28,9 @@
                 "test_material": "H5",
                 "make_summary": true,
                 "icon": "FATL",
-                "resources": []
+                "resources": [],
+                "summary_link": "/4VWO/P4/fatl_h5",
+                "summary_name": "Samenvatting"
             },
             {
                 "subject": "NETL",
