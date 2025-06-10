@@ -58,5 +58,5 @@ In het Frans staan alle werkwoorden (**het gezegde**) meestal bij elkaar.
 Hou daarnaast rekening met de volgende regels:
 
 - In het Frans staat *ne/n'* voor de persoonsvorm en *pas / plus* / enzovoort erachter.
-- [De plaats van het bijwoord is afhankelijk van waar het betrekking op heeft.](../TW2/fatl*h2#het-bijwoord)
+- [De plaats van het bijwoord is afhankelijk van waar het betrekking op heeft.](../TW2/fatl_h2#het-bijwoord)
 - De persoonlijke voornaamwoorden als lijdend of meewerkend voorwerp (*le / la / lui* enzovoort) staan voor het hele werkwoord of voor de persoonsvorm (als er geen heel werkwoord is).
