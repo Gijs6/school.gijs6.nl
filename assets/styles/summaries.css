@@ -150,6 +150,11 @@ img[alt~="(img-small)"] {
     width: 40%;
 }
 
+img[alt~="(img-padding)"] {
+    padding: 20px;
+    background: white;
+}
+
 strong {
     font-weight: 700;
 }
