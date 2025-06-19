@@ -1,5 +1,72 @@
 {
     "4VWO": {
+        "TW4": [
+            {
+                "subject": "BIOL",
+                "test_code": "4A-BIOL-T08",
+                "test_type": "Toets",
+                "test_material": "H8 (Kenmerken van ecosystemen)",
+                "make_summary": true,
+                "icon": "fa-solid fa-seedling",
+                "resources": []
+            },
+            {
+                "subject": "NAT",
+                "test_code": "4A-NAT-T07",
+                "test_type": "Toets",
+                "test_material": "H5 (Ioniserende straling)",
+                "make_summary": true,
+                "icon": "fa-solid fa-atom",
+                "resources": []
+            },
+            {
+                "subject": "NAT",
+                "test_code": "4A-NAT-T05",
+                "test_type": "Toets",
+                "test_material": "H3 (Materialen)",
+                "make_summary": true,
+                "icon": "fa-solid fa-atom",
+                "resources": []
+            },
+            {
+                "subject": "NETL",
+                "test_code": "4A-NETL-T08",
+                "test_type": "Toets",
+                "test_material": "Leestoets (Argumenten)",
+                "make_summary": true,
+                "icon": "NETL",
+                "resources": []
+            },
+            {
+                "subject": "NLT",
+                "test_code": "4A-NLT-T04",
+                "test_type": "Toets",
+                "test_material": "Technisch ontwerpen",
+                "make_summary": true,
+                "icon": "fa-solid fa-microscope",
+                "resources": []
+            },
+            {
+                "subject": "SCHK",
+                "test_code": "4A-SCHK-T07",
+                "test_type": "Toets",
+                "test_material": "H6 (Evenwichten & Reactiesnelheid)",
+                "make_summary": true,
+                "icon": "fa-solid fa-flask-vial",
+                "resources": [],
+                "summary_link": "/4VWO/TW4/schk_h6",
+                "summary_name": "Samenvatting"
+            },
+            {
+                "subject": "WISB",
+                "test_code": "4A-WISB-T08",
+                "test_type": "Toets",
+                "test_material": "H4 + H5 + H6",
+                "make_summary": true,
+                "icon": "fa-solid fa-calculator",
+                "resources": []
+            }
+        ],
         "P4": [
             {
                 "subject": "BIOL",
@@ -11,15 +78,6 @@
                 "resources": [],
                 "summary_link": "/4VWO/P4/biol_h7",
                 "summary_name": "Samenvatting"
-            },
-            {
-                "subject": "ENTL",
-                "test_code": "4A-ENTL-T07",
-                "test_type": "Toets",
-                "test_material": "H5 + Schrijfopdracht",
-                "make_summary": true,
-                "icon": "ENTL",
-                "resources": []
             },
             {
                 "subject": "FATL",

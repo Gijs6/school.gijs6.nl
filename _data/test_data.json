@@ -98,7 +98,7 @@
                 "test_code": "4A-ENTL-T07",
                 "test_type": "Toets",
                 "test_material": "H5 + Schrijfopdracht",
-                "make_summary": true,
+                "make_summary": false,
                 "icon": "ENTL",
                 "resources": []
             },
