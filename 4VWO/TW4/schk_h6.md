@@ -34,7 +34,7 @@ $\ce{2\~NO2 (g) <--> N2O4 (g)}$
 - **Homogeen evenwicht**: alle stoffen hebben dezelfde fase  
 - **Heterogeen evenwicht**: er zijn verschillende fasen
 
-![Grafiek van reactiesnelheden (img-medium)(img-padding)](images/schk_h6_evenwicht.jpg)
+![Grafiek van reactiesnelheden (img-medium) (img-padding)](images/schk_h6_evenwicht.jpg)
 
 ## Rekenen aan evenwichten
 
