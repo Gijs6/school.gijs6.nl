@@ -16,7 +16,7 @@ De reactiesnelheid geeft aan hoe snel producten gevormd worden en hangt af van:
 - Concentratie
 - Aanwezigheid katalysator
 
-Deze factoren verklaren we met het **botsende-deeltjesmodel**. Hierin botsen deeltjes met elkaar, waarbij soms bindingen kunnen breken. Botsingen met genoeg energie om een binding te kunnen breken noem je **effectieve botsingen**. En het breken van bindingen is precies wat je nodig hebt voor een reactie. Dus hoe meer effectieve botsingen je hebt, hoe efficienter je reactie verloopt.
+Deze factoren verklaren we met het **botsende-deeltjesmodel**. Hierin botsen deeltjes met elkaar, waarbij soms bindingen kunnen breken. Botsingen met genoeg energie om een binding te kunnen breken noem je **effectieve botsingen**. En het breken van bindingen is precies wat je nodig hebt voor een reactie. Dus hoe meer effectieve botsingen je hebt, hoe efficiënter je reactie verloopt.
 
 Bij een hogere temperatuur bewegen de deeltjes sneller, waardoor er meer effectieve botsingen ontstaan. De vuistregel is dat elke 10 °C erbij zorgt voor een 2 keer zo sneller reactie.  
 Bij een hogere verdelingsgraad zijn er meer deeltjes "beschikbaar" om te botsen. Bij een concentratie ook.  
@@ -28,13 +28,15 @@ Als er een katalysator aanwezig is zijn meer botsingen effectief.
 **Dynamisch evenwicht**: er verandert wel iets, maar netto blijft alles gelijk. Denk aan een huis dat je verwarmt: er ontstaat constant hitte en er gaat constant hitte weg, maar de temperatuur binnen blijft constant. Scheikundige evenwichten zijn altijd dynamisch.
 
 Tot nu toe hebben we alleen gewerkt met **aflopende reacties**: de reactie gaat in 1 richting en stopt als een van de beginstoffen op is.  
-Bij een **evenwichtsreactie** kunnen producten terugreageren. Uiteindelijk ontstaat een evenwicht: beide reacties gaan dan even snel. Je noteert dat met een dubbele pijl:  
+Bij een **evenwichtsreactie** kunnen producten terugreageren. Er vinden dan dus 2 reacties plaats. Uiteindelijk ontstaat er een **evenwicht**: beide reacties gaan dan even snel. Je noteert dat met een dubbele pijl:  
 $\ce{2\~NO2 (g) <--> N2O4 (g)}$
 
 - **Homogeen evenwicht**: alle stoffen hebben dezelfde fase  
 - **Heterogeen evenwicht**: er zijn verschillende fasen
 
 ![Grafiek van reactiesnelheden (img-medium) (img-padding)](images/schk_h6_evenwicht.jpg)
+
+De heengaande reactie begint snel, en neemt af tot het punt waar de reactiesnelheden gelijk aan elkaar zijn. De teruggaande reactie begint op 0, omdat er nog geen stoffen aan de rechterkant zijn. Vanaf de **insteltijd** ($t_{ev}$) gaan de reacties even snel: er is een evenwicht ontstaan.
 
 ## Rekenen aan evenwichten
 
