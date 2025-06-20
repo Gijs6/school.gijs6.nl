@@ -38,15 +38,6 @@
                 "resources": []
             },
             {
-                "subject": "NLT",
-                "test_code": "4A-NLT-T04",
-                "test_type": "Toets",
-                "test_material": "Technisch ontwerpen",
-                "make_summary": true,
-                "icon": "fa-solid fa-microscope",
-                "resources": []
-            },
-            {
                 "subject": "SCHK",
                 "test_code": "4A-SCHK-T07",
                 "test_type": "Toets",
@@ -457,15 +448,6 @@
                 "resources": [],
                 "summary_link": "/4VWO/P2/entl_h4",
                 "summary_name": "Samenvatting"
-            },
-            {
-                "subject": "SCHK",
-                "test_code": "4A-SCHK-T03",
-                "test_type": "Toets",
-                "test_material": "H3 (Deel 1)",
-                "make_summary": true,
-                "icon": "fa-solid fa-flask-vial",
-                "resources": []
             },
             {
                 "subject": "WISB",
