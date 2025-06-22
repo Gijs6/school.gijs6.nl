@@ -62,8 +62,9 @@ li {
     line-height: 1.3em;
 }
 
-p mjx-container {
-    margin-bottom: 0.3em !important;
+p:has(mjx-container[jax="CHTML"][display="true"]),
+p mjx-container[jax="CHTML"][display="true"] {
+    margin: 0 !important;
 }
 
 mjx-container[display="true"] {

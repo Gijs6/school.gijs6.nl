@@ -1,16 +1,15 @@
 :root {
     color-scheme: dark;
-    
-    
+
     --back: light-dark(white, black);
     --front: light-dark(black, white);
-    --blue: light-dark(#1298BA, #27c1e9)
+    --blue: light-dark(#1298ba, #27c1e9);
 }
 
 body {
     background: var(--back);
     color: var(--front);
-    font-family: "Kumbh Sans", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     word-wrap: break-word;
     hyphens: auto;
     max-width: 850px;
@@ -28,15 +27,16 @@ body {
         color-scheme: light !important;
     }
     body {
-        padding: 0
+        padding: 0;
     }
 }
 
 a:hover {
-    color: var(--blue)
+    color: var(--blue);
 }
 
-p, li {
+p,
+li {
     font-weight: 300;
     line-height: 1.3em;
 }

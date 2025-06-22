@@ -29,12 +29,13 @@ li ul li {
     font-size: 1.2em;
 }
 
-.subject, .test_material {
+.subject,
+.test_material {
     font-size: 1.3em;
 }
 
 .subject {
-    font-weight: 700
+    font-weight: 700;
 }
 
 .test_material {
@@ -43,7 +44,7 @@ li ul li {
 }
 
 .test_code {
-    font-size: .8em;
+    font-size: 0.8em;
     font-weight: 300;
     margin-inline-start: 5px;
 }

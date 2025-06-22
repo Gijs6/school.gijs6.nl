@@ -99,9 +99,48 @@ Hoe zwaarder de deeltjes van een stof, hoe groter de dichtheid en hoe kleiner de
 ### Warmtestroom
 
 Stoffen die warmte slecht doorlaten noem je **isolatoren**.  
-De **warmtestroom** geeft aan hoeveel energie er per seconde naar buiten stroomt.
+De **warmtestroom** geeft aan hoeveel energie er per seconde naar buiten stroomt door een materiaal.
 
 $$P=\lambda A \frac{\Delta T}{d}$$
 
 Hierin is $P$ de warmtestroom (in $\text{W}$), $\lambda$ de warmtegeleidingscoëfficiënt (in $\text{W} \ \text{m}^{-1} \ \text{K}^{-1}$), $A$ de oppervlakte van de stof (in $\text{m}^2$), $\Delta T$ het temperatuurverschil tussen weerzijden van de stof (in $\text{K}$) en $d$ de dikte van de stof (in $\text{m}$).  
 De **warmtegeleidingscoëfficiënt** geeft aan hoe groot de warmtestroom is door een oppervlakte van 1 vierkante meter bij een dikte van 1 meter en bij een temperatuursverschil van 1 kelvin.
+
+Naast geleiding door muren speelt ook stroming in spouwmuren (holle laag tussen muren) en uitstraling een rol bij warmteverlies bij huizen.
+
+## Vervorming
+
+Veel vaste stoffen zijn, tot een bepaalde waarde, veerkrachtig. De onderlinge krachten tussen de deeltjes lijken ook een beetje op veertjes.  
+Als je aan een voorwerp trekt, worden de afstanden tussen de deeltjes in de trekrichting iets groter, waardoor er de kracht tussen deeltjes in de trekrichting iets groter wordt.  
+Bij sommige stoffen neemt de kracht tussen deeltjes minder snel toe als je er aan trekt, waardoor die stoffen rekbaarder zijn dan andere stoffen.
+
+Als een materiaal helemaal terugveert als de trekkracht wordt opgeven, is er sprake van **elastische vervorming**. Na een bepaalde kritische waarde treedt er **plastische vervorming** op: het materiaal vervormt.
+
+### Uitzetting
+
+Bij een hogere temperatuur trillen de deeltjes verder heen en weer, waardoor de onderlinge afstand iets groter wordt. Hierdoor zet een stof uit.
+
+### Rekenen met vervorming
+
+De **relative rek** is de verhouding tussen de uitrekking en de beginlengte:
+
+$$\epsilon=\frac{\Delta l}{l_0}$$
+
+Hierin is $\epsilon$ de relatieve rek (zonder eenheid), $\Delta l$ de uitrekking en $l_0$ de beginlengte (beide in dezelfde eenheid).
+
+De **spanning** is de trekkracht per oppervlakte-eenheid:
+
+$$\sigma=\frac{F}{A}$$
+
+Hierin is $\sigma$ de spanning (in $\text{Pa}=\text{N}/\text{m}^2$), $F$ de uitgeoefende kracht (in $\text{N}$) en $A$ de oppervlakte van de dwarsdoorsnede (in $\text{m}^2$).
+
+In een **spanning,rek-diagram** is de spanning uitgezet tegen de relatieve rek. Tot aan de **elasticiteitsgrens** is de vervorming elastisch. Daarna is de vervorming elastisch.  
+De **treksterkte** van een materiaal is de maximale spanning.
+
+De **elasticiteitsmodulus** is de spanning in het materiaal bij een uitrekking van 100%. Makkelijk uitrekbare stoffen hebben een kleine elasticiteitsmodulus.
+
+$$E=\frac{\sigma}{\epsilon}$$
+
+Hierin is $E$ de elasticiteitsmodulus (in $\text{Pa}=\text{N}/\text{m}^2$), $\sigma$ de spanning (in $\text{Pa}=\text{N}/\text{m}^2$) en $\epsilon$ de relatieve rek (zonder eenheid).
+
+**Let op!** Deze formule geldt alleen in het gebied waar de spanning evenredig is met de relatieve rek (in het spanning,rek-diagram is dat een rechte lijn). Dus bij een plastische vervorming kun je deze formule sowieso niet gebruiken.
