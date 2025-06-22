@@ -12,7 +12,7 @@ Elke stof bestaat uit zijn eigen soort **moleculen**, opgebouwd uit **atomen**. 
 
 Stoffen kunnen voorkomen in drie **fasen**: vast, vloeibaar of gas. In een vaste stof zitten moleculen in een rooster, in een vloeistof bewegen ze langs elkaar, en in een gas bewegen ze vrij door de ruimte en nemen ze zoveel mogelijk volume in.
 
-![Faseovergangen (img-medium) (img-padding)](images/nat_h3h5_fase.jpg)
+![Faseovergangen (img-medium) (img-padding)](images/nat_h3_fase.jpg)
 
 De **dichtheid** van een stof geeft de massa per volume-eenheid aan:
 
