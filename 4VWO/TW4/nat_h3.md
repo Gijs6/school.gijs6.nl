@@ -1,12 +1,10 @@
 ---
 layout: summary
-title: NAT - H3 + H5 - Samenvatting
-test_code:
-- 4A-NAT-T05
-- 4A-NAT-T07
+title: NAT - H3 - Samenvatting
+test_code: 4A-NAT-T05
 ---
 
-# Natuurkunde: Hoofdstuk 3 (Materialen) + Hoofdstuk 5 (Ioniserende straling)
+# Natuurkunde: Hoofdstuk 3 (Materialen)
 
 ## Moleculen
 
