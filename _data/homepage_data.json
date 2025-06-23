@@ -17,7 +17,9 @@
                 "test_material": "H5 (Ioniserende straling)",
                 "make_summary": true,
                 "icon": "fa-solid fa-atom",
-                "resources": []
+                "resources": [],
+                "summary_link": "/4VWO/TW4/nat_h5",
+                "summary_name": "Samenvatting"
             },
             {
                 "subject": "NAT",
