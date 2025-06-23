@@ -90,7 +90,7 @@ Het **atoomnummer** ($Z$) is het aantal protonen in de kern, en geeft dus ook de
 
 Bij radioactief verval gelden 2 **behoudswetten**: behoud van massa (massagetal) en behoud van elektrische lading (atoomnummer).
 
-Je noteert een kern als $\ce{^{A}_{Z}X}$, bijvoorbeeld: $\ce{^{131}_{53}I}$.
+Je noteert een kern als $\ce{^{A}\_{Z}X}$, bijvoorbeeld: $\ce{^{131}\_{53}I}$.
 
 Atomen van hetzelfde element met een verschillend aantal neutronen heten **isotopen**.
 
@@ -98,21 +98,21 @@ Atomen van hetzelfde element met een verschillend aantal neutronen heten **isoto
 
 In een **vervalvergelijking** staat de verandering die plaatsvindt bij radioactief verval.
 
-- **Alfaverval**: de kern zendt een $\ce{^{4}_{2}He}$-deeltje uit:  
-  $\ce{^{238}_{92}U -> ^{234}_{90}Th + ^{4}_{2}He}$
+- **Alfaverval**: de kern zendt een $\ce{^{4}\_{2}He}$-deeltje uit:  
+  $\ce{^{238}\_{92}U -> ^{234}\_{90}Th + ^{4}_{2}He}$
 
 - **Bètaverval**:
 
   - Bij $\beta ^+$-verval ontstaat uit een neutron een **positron** en een proton.  
-    $\ce{^{1}_{1}p -> ^{1}_{0}n + ^{0}_{1}e}$  
+    $\ce{^{1}\_{1}p -> ^{1}\_{0}n + ^{0}_{1}e}$  
     $\beta ^+$-verval komt voor bij kernen met te weinig neutronen en een overschot aan protonen.
 
-    $\ce{^{11}_{6}C -> ^{11}_{5}B + ^{0}_{1}e}$
+    $\ce{^{11}\_{6}C -> ^{11}\_{5}B + ^{0}_{1}e}$
 
     > Een positron is het **antideeltje** van het elektron: het heeft dezelfde massa en lading, maar die lading is positief. Positronen bestaan vaak maar heel kort. Als het uitgestoten positron op een elektron botst, vindt er **annihilatie** plaats: er onstaan 2 fotonen in tegengestelde richting. Ook kunnen antideeltjes ontstaan uit materie en antimaterie (**paarvoriming**).
 
   - Bij $\beta ^-$-verval ontstaat uit een proton een neutron en een elektron.  
-    $\ce{^{1}_{0}n -> ^{1}_{1}p + ^{0}_{-1}e}$  
+    $\ce{^{1}\_{0}n -> ^{1}\_{1}p + ^{0}_{-1}e}$  
     $\beta ^-$-verval komt voor bij kernen met te weinig protonen en een overschot aan neutronen.
 
 - **Gammastraling**: hierbij wordt een foton uitgezonden. De samenstelling van de kern verandert niet.
@@ -120,9 +120,9 @@ In een **vervalvergelijking** staat de verandering die plaatsvindt bij radioacti
 Ook **kernreacties** kun je beschrijven met een vergelijking.  
 
 - Bij **protonenstraling** onstaan protonen, bijvoorbeeld bij het botsen van stikstof-14 en een $\alpha$-deeltje:  
-  $\ce{^{14}_{7}N + ^{4}_{2}He -> ^{17}_{8}O + ^{1}_{1}p}$  
+  $\ce{^{14}\_{7}N + ^{4}\_{2}He -> ^{17}\_{8}O + ^{1}\_{1}p}$  
 - Bij **neutronenstraling** ontstaan juist neutronen:  
-  $\ce{^{9}_{4}Be + ^{4}_{2}He -> ^{12}_{6}C + ^{1}_{0}n}$
+  $\ce{^{9}\_{4}Be + ^{4}\_{2}He -> ^{12}\_{6}C + ^{1}\_{0}n}$
 
 ## Aantal instabiele kernen
 
