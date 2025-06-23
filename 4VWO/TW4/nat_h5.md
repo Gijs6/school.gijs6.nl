@@ -130,3 +130,56 @@ Voor het aantal instabiele kernen op tijdstip $t$ geldt bijna dezelfde formule a
 $$N = N_0 \cdot (\frac{1}{2})^{t/t_{1/2}}$$
 
 Hierin is $N$ het aantal kernen, $N_0$ het aantal kernen op $t=0$, $t$ het tijdstip en $t_{1/2}$ de halveringstijd (beide in dezelfde eenheid).
+
+De activiteit van een radioactieve bron is het aantal instabiele atoomkernen dat per seconde vervalt. Dat is dus gelijk aan de helling van een N,t-diagram, want het gaat om de afname op dat moment.  
+De activieit is dus gelijk aan de helling van de raaklijn (of de afgeleide) van een N,t-diagram.
+
+$$A=-(\frac{\Delta N}{\Delta t})_{raaklijn}$$
+$$A=-\frac{dN}{dT}$$
+$$A_{\text{gem}}=-\frac{\Delta N}{\Delta t}$$
+
+De afgeleide is verder uit te werken (je hoeft nog niet te weten hoe dit wiskundig werkt). Je krijgt dan de formule:
+
+$$A=\frac{\ln(2) \cdot N}{t_{1/2}}$$
+
+Hierin is $A$ de activiteit (in $\text{Bq}$), $\ln(2)$ is de natuurlijke logartime van 2 ($\approx 0{,}693$), $N$ het aantal instabiele atoomkernen en $t_{1/2}$ de halveringstijd (in $\text{s}$).
+
+### Atoommassa's
+
+Soms moet je de massa van 1 enkel atoom van een element weten. In Binas zie je de atoommassa in de **atomaire massa-eenheid** ($\text{u}$). $1 \ \text{u} = 1{,}66 \cdot 10^{-27} \ \text{kg}$.
+
+## Dosis
+
+UV-straling, rontgenstraling en gammestraling kunne door hun ioniserend vermogen schadelijk zijn voor het lichaam. Hetzelfde geldt voor $\alpha$-straling en $\beta$-straling.  
+De **stralingsenergie** van ionisernede straling wordt in het lichaam opgenomen.  
+De **dosis** is de geabosrbeerde stralingsenergie per kg van het voorwerp, gemeten in **gray** ($\text{Gy} = \text{J} \ \text{kg}^{-1}$).  
+
+$$D=\frac{E_{str}}{m}$$
+
+Hierin is $D$ de dosis (in $\text{Gy}$), $E_{str}$ de stralingsenergie (in $\text{J}$) en $m$ de massa van het voorwerp (in $\text{kg}$).
+
+Maar niet elke soort straling doet even veel schade. Om "schade" te meten kun je beter de **equivalente dosis** gebruiken, gemeten in **sievert** ($\text{Sv} = \text{J} \ \text{kg}^{-1}$).
+
+$$H=w_R \ D$$
+
+Hierin is $H$ de equivalente dosis (in $\text{Sv}$), $w_R$ de **stralingsweegfactor** (zonder eenheid) en $D$ de dosis (in $\text{Gy}$).  
+De stralingsweegfactor (zie ook Binas 27D3) verschilt per type straling:
+
+| Soort | $w_R$ |
+| ----- | ----- |
+| $\alpha$-straling | 20 |
+| $\beta$-straling | 1 |
+| $\gamma$-straling | 1 |
+| rongtenstraling | 1 |
+
+Bij een hoge equivalente dosis is het effect van ioniserende straling vrijwel direct meetbaar. Bij een lagere equivalente dosis is er kans op tumorvorming op langere termijn.
+
+## Sralingsbelasting
+
+De **actergrondstraling** bestaat uit **kosmische straling** (uit het heelal) en starling afkomstig van radioactive stoffen op aarde, in de lucht en in (bouw)materialen.
+
+**Uitwendige bestraling** komt van stralingsbronnen buiten het lichaam.  
+**Inwenidge bestraling** komt van stralingsbronnen binnen het lichaam. Er is dan sprake van **besmetting** met een radioactieve stof.
+
+
+
