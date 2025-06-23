@@ -150,6 +150,12 @@ img[alt~="(img-padding)"] {
     background: white;
 }
 
+img[alt~="(img-float-right)"] {
+    float: right;
+    margin: 10px;
+    margin-right: 0;
+}
+
 strong {
     font-weight: 700;
     text-decoration: underline solid 2px light-dark(#9d9d9d, #626262);
