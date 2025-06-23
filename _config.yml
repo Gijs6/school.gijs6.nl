@@ -11,7 +11,12 @@ domain: school.gijs6.nl
 url: https://school.gijs6.nl
 permalink: /:path/:basename
 
-markdown: GFM
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    disable : true
 
 plugins:
   - "jekyll-github-metadata"

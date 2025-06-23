@@ -54,11 +54,11 @@ $$I = I_0 \cdot \left(\frac{1}{2}\right)^{d/d_{1/2}}$$
 
 Sommige stoffen zijn **radioactief**. Er zijn verschillende soorten **kernstraling** (straling afkomstig uit atoomkernen van radioactieve stoffen): $\alpha$-straling, $\beta$-straling en $\gamma$-straling.
 
-|                       | $\alpha$-straling                          | $\beta$-straling                                       | $\gamma$-straling                           |
-| --------------------- | ------------------------------------------ | ------------------------------------------------------ | ------------------------------------------- |
-| Bestaat uit...        | 2 protonen en 2 neutronen (heliumkern)     | Elektronen of positronen                               | Fotonen                                     |
+|                       | $\alpha$-straling                          | $\beta$-straling                                          | $\gamma$-straling                          |
+| --------------------- | ------------------------------------------ | --------------------------------------------------------- | ------------------------------------------ |
+| Bestaat uit...        | 2 protonen en 2 neutronen (heliumkern)     | Elektronen of positronen                                  | Fotonen                                    |
 | Doordringend vermogen | Klein (wordt al tegengehouden door papier) | Matig (wordt al tegengehouden door een dun laagje metaal) | Groot (kan zelfs door een dikke loodplaat) |
-| Ioniserend vermogen   | Groot                                      | Matig                                                  | Klein                                       |
+| Ioniserend vermogen   | Groot                                      | Matig                                                     | Klein                                      |
 
 ## Verval en activiteit
 
@@ -169,12 +169,12 @@ Hierin is $H$ de equivalente dosis (in $\text{Sv}$), $w_R$ de **stralingsweegfac
 
 De stralingsweegfactor (zie ook Binas 27D3) verschilt per type straling:
 
-| Soort | $w_R$ |
-| ----- | ----- |
-| $\alpha$-straling | 20 |
-| $\beta$-straling | 1 |
-| $\gamma$-straling | 1 |
-| rongtenstraling | 1 |
+| Soort             | $w_R$ |
+| ----------------- | ----- |
+| $\alpha$-straling | 20    |
+| $\beta$-straling  | 1     |
+| $\gamma$-straling | 1     |
+| rongtenstraling   | 1     |
 
 Bij een hoge equivalente dosis is het effect van ioniserende straling vrijwel direct meetbaar. Bij een lagere equivalente dosis is er kans op tumorvorming op langere termijn.
 
