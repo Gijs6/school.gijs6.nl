@@ -62,9 +62,9 @@ Voor de reactie $\ce{N2 (g) + 3\ H2 (g) <--> 2 \ NH3 (g)}$ met als gegeven dat o
 | Alles in mol, tenzij anders aangegeven | $\ce{N2}$       | $\ce{3\ H2}$          | $\ce{2\ NH3}$         |
 | -------------------------------------- | --------------- | --------------------- | --------------------- |
 | **B**egin                              | 5               | 8                     | 0                     |
-| **O**mzetting                          | -2              | $3\cdot 2\implies -2$ | $2\cdot 2\implies +4$ |
-| **E**venwicht                          | 3               | 6                     | 4                     |
-| **C**oncentratie (M)                   | $3/3=1$ | $6/3=2$       | $4/3=1,3$     |
+| **O**mzetting                          | -2              | $3\cdot 2\implies -6$ | $2\cdot 2\implies +4$ |
+| **E**venwicht                          | 3               | 2                     | 4                     |
+| **C**oncentratie (M)                   | $3/3=1$ | $2/3=0,7$       | $4/3=1,3$     |
 
 > Hoe is dit ingevuld?  
 > Je weet dat op $t = 0$ (dus aan het begin) er geen van de stoffen aan de rechterkant aanwezig is, want die stoffen moeten nog ontstaan.  
