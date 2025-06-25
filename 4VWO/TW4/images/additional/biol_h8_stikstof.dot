@@ -1,0 +1,53 @@
+digraph stikstofkringloop {
+    rankdir=LR;
+
+    node [shape=rect, style="rounded,filled", color=lightgrey, fontname="Ubuntu",
+          fontcolor=black, penwidth=2, fixedsize=false, width=2, height=1, 
+          fontsize=20];
+
+    edge [penwidth=2, fontname="Ubuntu", fontsize=16, fontcolor=black];
+
+    Organish [label="Organishe\nstoffen"];
+    Eiwitten [label="Eiwitten"];
+    Ureum [label="Ureum"];
+
+    Organish -> Eiwitten;
+    Organish -> Ureum;
+
+    Ammoniak [label="Ammoniak"];
+
+    Eiwitten -> Ammoniak [label="Rottingsbacteriën", labelfontcolor=black, fontsize=16, fontname="Ubuntu", labeldistance=3, labelangle=60];
+    Ureum -> Ammoniak [label="Urobacteriën", labelfontcolor=black, fontsize=16, fontname="Ubuntu", labeldistance=3, labelangle=60];
+
+    Ammonium [label="Ammonium"];
+
+    Ammoniak -> Ammonium;
+
+    Nitriet [label="Nitriet"];
+    Nitraat [label="Nitriaat"];
+
+    Ammonium -> Nitriet [label="Nitriet-\nbacteriën", labelfontcolor=black, fontsize=16, fontname="Ubuntu", labeldistance=3, labelangle=60];
+    Nitriet -> Nitraat [label="Nitriaat-\nbacteriën", labelfontcolor=black, fontsize=16, fontname="Ubuntu", labeldistance=3, labelangle=60];
+
+    Nitraat -> Organish [label="Gebruik in aminozuren", labelfontcolor=black, fontsize=16, fontname="Ubuntu", labeldistance=3, labelangle=60];
+
+    subgraph cluster_ammonificatie {
+        label="Ammonificatie";
+        style=dashed;
+        color=gray;
+        graph [fontname="Ubuntu", fontsize=20, fontcolor=black];
+        Ammoniak;
+        Ureum;
+        Eiwitten;
+    }
+
+    subgraph cluster_nitrificatie {
+        label="Nitrificatie";
+        style=dashed;
+        color=gray;
+        graph [fontname="Ubuntu", fontsize=20, fontcolor=black];
+        Ammonium;
+        Nitriet;
+        Nitraat;
+    }
+}
