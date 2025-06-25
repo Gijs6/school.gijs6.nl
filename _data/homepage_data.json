@@ -8,7 +8,9 @@
                 "test_material": "H8 (Kenmerken van ecosystemen)",
                 "make_summary": true,
                 "icon": "fa-solid fa-seedling",
-                "resources": []
+                "resources": [],
+                "summary_link": "/4VWO/TW4/biol_h8",
+                "summary_name": "Samenvatting"
             },
             {
                 "subject": "NAT",

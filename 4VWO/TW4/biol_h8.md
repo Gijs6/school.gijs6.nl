@@ -6,7 +6,7 @@ test_code: 4A-BIOL-T08
 
 # Biologie: Hoofdstuk 8 (Kenmerken van ecosystemen)
 
-## Organish en anorganish
+## Organisch en anorganisch
 
 Ecosystemen functioneren dankzij de **kringlopen** van stoffen.
 
@@ -33,7 +33,7 @@ De **ecologische voetafdruk** is de totale oppervlakte land en water die een men
   Elke schimmel- en bacteriesoort heeft een eigen leefgebied. Bij veel $\ce{O2}$ hebben **aerobe** soorten een voordeel. **Anaerobe** soorten (die geen zuurstof nodig hebben) werken meestal langzamer.
 - **Samenstelling van het afval**
 - **Koolstof/stikstof-verhouding**  
-  Reductenten gebruiken afval als energiebron, maar hebben ook stikstof nodig voor eiwitsynthese. Te weinig stikstof beperkt de bacteriegroei en vertraagt de compostering.
+  Reducenten gebruiken afval als energiebron, maar hebben ook stikstof nodig voor eiwitsynthese. Te weinig stikstof beperkt de bacteriegroei en vertraagt de compostering.
 
 ## Energie
 
@@ -53,51 +53,82 @@ Een **energiestroomschema** toont op trofisch niveau wat er met de biomassa gebe
 
 ![Een energiestroomschema (img-medium) (img-padding)](images/biol_h8_energiestroom.jpg)
 
-- De *intake* (**I**) is de hoeveelheid energierijke stoffen die het organisme binnenkomt  
+- De *intake* (**I**) is de hoeveelheid energierijke stoffen die het organisme binnenkrijgt  
 - De *feces* (**F**) is het onverteerbare deel van de voeding dat als ontlasting het lichaam verlaat  
 - Deel **A** is de hoeveelheid energierijke stoffen die aan het bloed wordt afgegeven  
 - Deel **P** is de hoeveelheid organische stoffen die als **bouwstof** worden gebruikt  
 - Deel **R** is de hoeveelheid organische stoffen die als **brandstof** worden gebruikt  
 
-### De waddenzee
+### De Waddenzee
 
-Het beheren van de Waddenzee is complex door botsende belangen tussen natuurbeheerders en vissers. Vissers wijzen op zeehonden als oorzaak van visafname, maar onderzoekers wijzen op milieufactoren zoals waterstromen, bodemschade en minder voedingsstoffen.
+Het beheer van de Waddenzee is complex vanwege botsende belangen tussen natuurbeheerders en vissers. Vissers wijzen vaak naar zeehonden als oorzaak van visafname, terwijl onderzoekers vooral milieufactoren als waterstromen, bodemschade en verminderde voedingsstoffen noemen.
 
 De primaire productie (groei van fytoplankton) wordt beïnvloed door:
 
 - **Licht**  
-  Dit is in de Waddenzee al goed geregeld.
+  In de Waddenzee is de lichtvoorziening goed geregeld.
 - **Voedingsstoffen**  
-  Vroeger leidde **eutrofiering** (vereikking met voedingsstoffen) tot een explosieve toename van sommige soorten. Sinds er strengere milieuregels zijn rond het lozen van nitraat en fosfaat is de primaire productie gedaald.
+  Vroeger zorgde **eutrofiëring** (verrijking met voedingsstoffen) voor een explosieve groei van bepaalde soorten. Sinds er strengere milieuregels voor het lozen van nitraat en fosfaat gelden, is de primaire productie gedaald.
 - **Temperatuur**  
-  Hogere temperaturen zorgen voor een eerdere groei van plankton en vissen, waardoor de voedselketen wordt verstoord.
+  Hogere temperaturen veroorzaken een eerdere groei van plankton en vissen, waardoor de voedselketen verstoord wordt.
 
 ## Kringlopen
 
-### Koolstofrkingloop
+### Koolstofkringloop
 
 ![De snelle koolstofkringloop (img-large) (img-padding)](images/biol_h8_snkokrlo.jpg)
 
-De **snelle koolstofkringloop** bestaat uit alle voedselketens. Koolstofdioxide uit de atmosfeer wordt door planten gebruikt om glucose te maken. De consumenten eten dit op, waarna consumenten weer door reducenten worden afgebroken. Door **dissimilatie** (het afbreken van stoffen) gedaan door zowel producentne, consumenten als reducenten komt er weer koolstofdioxide in de atmosfeer.
+De **snelle koolstofkringloop** bestaat uit alle voedselketens. Planten gebruiken koolstofdioxide uit de atmosfeer om glucose te maken. Consumenten eten deze planten, waarna reducenten de consumenten afbreken. Door **dissimilatie** (het afbreken van organische stoffen) door producenten, consumenten en reducenten komt koolstofdioxide weer vrij in de atmosfeer.
 
-Bij hoge druk kunnen niet afgebroken plantenresten veranderen in bruin- en steenkool (**fossiele brandstoffen**). Door fossiele branstoffen miljoenen jaren later weer te verbranden, komt deze koolstof weer vrij in de atmosfeer: de **langzame koolstofkringloop**.  
-De opslaglplaats van koolstofverbindingen noem je een **sink**. Een plaats waar opgeslagen koolstof vrijkomt, noem je een **source**.
+Onder hoge druk kunnen niet-afgebroken plantenresten veranderen in bruin- en steenkool: **fossiele brandstoffen**. Door het verbranden van deze brandstoffen komt de opgeslagen koolstof weer vrij in de atmosfeer: de **langzame koolstofkringloop**.  
+Een opslagplaats van koolstof heet een **sink**. Een plaats waar koolstof vrijkomt, noem je een **source**.
 
 ### Stikstofkringloop
 
 ![De stikstofkringloop (img-large) (img-padding)](images/biol_h8_stikstof.jpg)
 
-Producenten gebruiken het stikstof uit nitraat om aminozuren te vormen. De aminozuren uit deze plantaardige eiwitten worden vervolgens in de voedselketens gebruikt om dierlijke eiwitten te bouwen.
+Producenten gebruiken stikstof uit nitraat om aminozuren te vormen. Deze plantaardige eiwitten worden in de voedselketen omgezet in dierlijke eiwitten.
 
-Bij de afbraak van eiwitten door consumenten ontstaat onder andere **ureum**. De **urobacteriën** verwerken het ureum tot ammoniak.  
-De **rottingsbacterien** breken eiwitten en andere organische restmaterialen af tot ammoniak: **rotting**.  
-Deze twee processen noem je **ammonificatie**.
+Bij de afbraak van eiwitten door consumenten ontstaat onder andere **ureum**. **Urobacteriën** zetten ureum om in ammoniak.  
+**Rottingsbacteriën** breken eiwitten en andere organische resten af tot ammoniak. Dit proces heet **rotting**.  
+Samen heten deze processen **ammonificatie**.
 
-Het ammoniak reageert in de bodem met water tot ammonium-ionen ($\ce{NH4^+}$). Vervolgens zetten chemo-autotrofe **nitraatbacterien** ammonium om in nitriet. **Nitriaatbacterien** zetten nitriet vervolgens in nitraat. Dit proces heet **nitrificatie**. Dit nitraat is vervolgens weer beschikbaar voor het bouwen van aminozuren.
+Ammoniak reageert in de bodem met water tot ammonium-ionen ($\ce{NH4^+}$). Vervolgens zetten chemo-autotrofe **nitrietbacteriën** ammonium om in nitriet, en **nitraatbacteriën** zetten nitriet om in nitraat. Dit proces heet **nitrificatie**. Het nitraat is weer beschikbaar voor het vormen van aminozuren.
 
-Er zijn ook nog een aantal manieren waarop stikstof kan toe- en afnamen in een ecosysteem:
+Daarnaast zijn er manieren waarop de hoeveelheid stikstof in een ecosysteem toe- of afneemt:
 
-- **Stikstoffixerende bacterien** halen stikstofgas ($\ce{N2}$) uit de lucht en zetten het om tot ammoniak ($\ce{NH3}$).
-- Tijdens onweer kan in de atmosfeer zuurstof en stikstof reageren tot $\ce{NO_x}$ (dus bijvoorbeeld $\ce{NO2}$ of $\ce{NO3}$).
-- **Uitspoeling** is het wegspoelen van stikstof uit het ecosysteem naar het grondwater. Dit kan gebeuren bij langdurige regen.
-- **Denitrificatie** is het omzetten van nitraat naar stikstofgas dat vrijomt in de atmosfeer.
+- **Stikstoffixerende bacteriën** halen stikstofgas ($\ce{N2}$) uit de lucht en zetten het om in ammoniak ($\ce{NH3}$).
+- Tijdens onweer reageren zuurstof en stikstof in de atmosfeer tot $\ce{NO_x}$ (zoals $\ce{NO2}$ of $\ce{NO3}$).
+- **Uitspoeling** is het wegspoelen van stikstof uit het ecosysteem naar het grondwater, bijvoorbeeld bij langdurige regen.
+- **Denitrificatie** zet nitraat om in stikstofgas, dat weer vrijkomt in de atmosfeer.
+
+### Rioolwaterzuivering
+
+In een **rioolwaterzuiveringsinstallatie** (RWZI) spelen bacteriën een grote rol. Bacteriën breken koolstofverbindingen af tot $\ce{CO2}$. Rottings- en urobacteriën zetten stikstofverbindingen om in ammoniak en uiteindelijk ammonium. Ammonium wordt vervolgens omgezet in nitriet en nitraat. Daarna halen **denitrificerende bacteriën** het nitraat uit het water door het om te zetten in stikstofgas.
+
+Het gezuiverde water mag daarna het oppervlaktewater in.
+
+Het kraanwater komt niet direct uit RWZI's. Drinkwater in Nederland wordt gewonnen uit grond- en oppervlaktewater. Eerst worden afvalstoffen verwijderd. Voor de **waterzuivering** slaan drinkwaterbedrijven het water op in spaarbekkens, waar veel verontreiniging naar de bodem zinkt. Ook wordt het water gefilterd, bijvoorbeeld via duinen of fijne zeven. Tot slot wordt het water gedeïoniseerd en worden bacteriën verwijderd.
+
+## Ecosystemen
+
+We onderscheiden 2 **stadia van successie**:
+
+In het **pioniersstadium** zijn er weinig soorten. **Pionierssoorten** groeien snel, leven kort en produceren veel zaden. Concurrentie tussen deze soorten is minimaal. Door hun aanwezigheid neemt het organisch materiaal in de bodem toe, waardoor nieuwe soorten kunnen ontstaan. In dit stadium hebben abiotische factoren een grote invloed.
+
+In het **climaxstadium** neemt het aantal soorten toe, terwijl het aantal individuen per soort juist afneemt. De totale biomassa is groter dan in het pioniersstadium. Er ontstaan veel onderlinge relaties tussen soorten en de invloed van abiotische factoren neemt af.
+
+**Successie** is het proces waarbij een gebied zich ontwikkelt van kale bodem tot natuurgebied.
+
+- **Primaire successie** start op kale grond.  
+- **Secundaire successie** begint op een plek waar eerder natuur was, maar door verstoring is verdwenen. Dit gaat sneller omdat er al een humuslaag is.
+
+Soms blijft de successie steken in een **subclimaxstadium** door het gedrag van dieren.
+
+![Brandganzen in een kwelder (img-medium)](images/biol_h8_brandganzen_in_de_kwelder.jpg)
+
+Op de afbeelding zie je brandganzen in een *kwelder*. Hun eetgedrag remt de successie omdat er te weinig organisch materiaal in de bodem komt.
+
+### Exoten
+
+**Exoten** zijn soorten die zich door menselijk handelen in een ecosysteem vestigen. Soms zijn ze ongewenst en verdringen ze bestaande soorten. Dan noemen we ze **plaagorganismen**.
