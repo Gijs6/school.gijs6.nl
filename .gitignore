@@ -1,18 +1,22 @@
-_site
-.sass-cache
-.jekyll-cache
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+
+vendor/
 Gemfile.lock
-.idea/
+
 .venv/
-.obsidian/
 __pycache__/
 
-dekstop.ini
-**/desktop.ini
+.idea/
+.vscode/
 
+.obsidian/
+
+dev/
 dontforget.md
 
+**/desktop.ini
+
 .prettierrc
-.vscode/
