@@ -1,0 +1,16 @@
+digraph argumentatie {
+    rankdir=BT;
+
+    node [shape=rect, style="filled", color=lightgrey, fontname="Ubuntu",
+          fontcolor=black, penwidth=2, fixedsize=false, fontsize=20];
+
+    edge [penwidth=2, fontname="Ubuntu", fontsize=16, fontcolor=black];
+
+    Arg1 [label="Het openbaar vervoer is\nduurzamer dan andere vormen van transport"];
+    Stand [label="De overheid moet meer\ninvesteren in het openbaar vervoer"];
+    Arg2 [label="Openbaar vervoer zorgt voor minder files"]
+    
+
+    Arg1 -> Stand;
+    Arg2 -> Stand;
+}

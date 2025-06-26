@@ -1,0 +1,24 @@
+digraph argumentatie {
+    rankdir=BT;
+
+    node [shape=rect, style="filled", color=lightgrey, fontname="Ubuntu",
+          fontcolor=black, penwidth=2, fixedsize=false, fontsize=20];
+
+    edge [penwidth=2, fontname="Ubuntu", fontsize=16, fontcolor=black];
+
+    Arg1 [label="Vervoer per auto is heel erg duur"];
+    Arg2 [label="Ik heb maar weinig geld voor vervoer"];
+    Stand [label="De overheid moet meer\ninvesteren in het openbaar vervoer"];
+
+    merge [label="", shape=point, width=0];
+
+    { rank=same; Arg1; merge; Arg2; }
+
+    Arg1 -> merge [style=invis, minlen=2];
+    merge -> Arg2 [style=invis, minlen=2];
+
+    Arg1:e -> merge [dir=none, constraint=false];
+    Arg2:w -> merge [dir=none, constraint=false];
+
+    merge -> Stand;
+}

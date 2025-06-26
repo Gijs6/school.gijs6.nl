@@ -41,7 +41,9 @@
                 "test_material": "Leestoets (Argumenten)",
                 "make_summary": true,
                 "icon": "NETL",
-                "resources": []
+                "resources": [],
+                "summary_link": "/4VWO/TW4/netl_argumenteren",
+                "summary_name": "Samenvatting"
             },
             {
                 "subject": "SCHK",

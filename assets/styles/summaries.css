@@ -177,6 +177,10 @@ table table {
     border: 1px solid var(--front);
 }
 
+ul, ol {
+    padding-inline-start: 1.5em;
+}
+
 @media print {
     p,
     li {
