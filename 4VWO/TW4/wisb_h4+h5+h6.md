@@ -1,7 +1,7 @@
 ---
 layout: summary
 title: WISB - H4 + H5 + H6 - Samenvatting
-test_code: 4A-WISB-T05
+test_code: 4A-WISB-T08
 ---
 
 # Wiskunde B: Hoofdstuk 4 (Vergelijkingen en herleidingen) + Hoofdstuk 5 (Machten, exponenten en logaritmen) + Hoofdstuk 6 (Differentiaalrekening)
@@ -219,6 +219,14 @@ Om zo'n vergelijking op te lossen moeten beide leden hetzelfde grondtal hebben. 
 > $3^x = 9$  
 > $3^x = 3^2$  
 > $x = 2$
+
+## De logaritme
+
+Om te weten tot welke macht je een bepaald getal moet heffen om een bepaalde uitkosmt te krijgen, gebruik je een **logaritme**.  
+Dus voor $2^n=16$ geeft de logaritme met grondtal 2 de macht. Dus $^2\log (16) = 4$, want $2^4=16$.
+Dus $^g\log(x)$ is de expoent van een macht met grondta $g$ waarbij de uitkomst $x$ is.
+
+$$^g\log(x) = y \implies x=g^y$$
 
 ## De afgeleide
 

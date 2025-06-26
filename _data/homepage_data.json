@@ -61,7 +61,9 @@
                 "test_material": "H4 + H5 + H6",
                 "make_summary": true,
                 "icon": "fa-solid fa-calculator",
-                "resources": []
+                "resources": [],
+                "summary_link": "/4VWO/TW4/wisb_h4+h5+h6",
+                "summary_name": "Samenvatting"
             }
         ],
         "P4": [
