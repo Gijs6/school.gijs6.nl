@@ -58,3 +58,7 @@ a {
 footer a {
     color: inherit;
 }
+
+a:hover {
+    text-decoration-color: var(--blue);
+}
