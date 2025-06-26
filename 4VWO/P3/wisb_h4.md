@@ -34,7 +34,8 @@ Bij het bovenstaande stelsel trek je de vergelijkingen van elkaar af, want dan v
 Je kunt dit ook toepassen bij moeilijkere stelsels.
 
 Je kunt stelsels ook oplossen door **elimineren na vermenigvuldigen**. Dan ga je eerst beide vergelijkingen vermenigvuldigen om er voor te zorgen dat er een variabele wegvalt bij het optellen of aftrekken.  
-Bij het stelsel 
+Bij het stelsel
+
 $$
 \begin{cases}
 3x - 4y = 7 \\
@@ -70,10 +71,10 @@ Je noteert de getallen waar je mee vermenigvuldigt tussen verticale strepen.
 De vergelijking $x^2 = 5$ heeft de oplossingen $x=5$ en $x=-5$. Je weet dat $\sqrt{5}$ de **tweedemachtswortel** van 5 is, want $(\sqrt{5})^2 = 5$. In dit geval staat er bij het wortelteken staat eigenlijk een "verborgen 2": $\sqrt{a} = \sqrt[2]{a}$ (dit geldt dus alleen als er geen getalletje bij het wortelteken staat!). Er zijn ook **hogeremachtswortels**, zoals derdemachtswortels. De vergelijking $x^3 = 20$ heeft als oplossing $x=\sqrt[3]{20}$.  
 In de tabel zie je hoeveel oplossingen de vergelijking $x^n = a$ kan hebben.
 
-|   $x^n = a$   |                         $a > 0$                          |            $a < 0$             |
-| :-----------: | :------------------------------------------------------: | :----------------------------: |
-|  $n$ is even  | 2 oplossingen: $x = \sqrt[n]{a}$ en $x = -\sqrt[n]{a}$ |     geen (reële) oplossingen   |
-| $n$ is oneven |              1 oplossing: $x = \sqrt[n]{a}$              | 1 oplossing: $x = \sqrt[n]{a}$ |
+|   $x^n = a$   |                        $a > 0$                         |            $a < 0$             |
+| :-----------: | :----------------------------------------------------: | :----------------------------: |
+|  $n$ is even  | 2 oplossingen: $x = \sqrt[n]{a}$ en $x = -\sqrt[n]{a}$ |    geen (reële) oplossingen    |
+| $n$ is oneven |             1 oplossing: $x = \sqrt[n]{a}$             | 1 oplossing: $x = \sqrt[n]{a}$ |
 
 Sommige hogeregraadsvergelijkingen kun je algebraïsch oplossen door te ontbinden in factoren. Soms door een factor buiten haakjes te brengen of door te substitueren. Binnen de vergelijking $x^4-3x^2+2=0$ kun je $x^2$ substitueren met $u$. Je krijgt dan $u^2-3u+2=0$. Deze kun je vervolgens oplossen met de product-som-methode. (Let op! Je hebt dan $u$ opgelost; nog niet $x$!)
 
