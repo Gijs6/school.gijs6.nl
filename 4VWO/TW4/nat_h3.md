@@ -53,13 +53,17 @@ $$\frac{p}{T} = c$$
 
 Hierin is $p$ de druk (in $\text{Pa}$), $T$ de absolute temperatuur (in $\text{K}$) en $c$ een constante afhankelijk van de dichtheid.
 
-De combinatie van Boyle en Gay-Lussac levert de **algemene gaswet**:
+De combinatie van de wetten van Boyle en Gay-Lussac levert de **algemene gaswet**:
 
 $$pV = nRT$$
 
 Hierin is $p$ de druk (in $\text{Pa}$), $V$ het volume (in $\text{m}^3$), $n$ de hoeveelheid gas (in $\text{mol}$), $R$ de gasconstante ($\approx 8{,}31\ \text{J} \ \text{mol}^{-1} \ \text{K}^{-1}$) en $T$ de absolute temperatuur (in $\text{K}$).
 
 Bij druk wordt vaak de eenheid **bar** gebruikt: $1 \ \text{bar} = 1 \cdot 10^5 \ \text{Pa}$.
+
+Omdat de gasconstante constant is, kun je met de algemene gaswet ook veranderingen in druk, volume, temperatuur of checmische hoeveelheid berekenen. Je krijgt dan:
+
+$$\frac{p_1 V_1}{T_1 n_1}=\frac{p_2 V_2}{T_2 n_2}$$
 
 ## Warmte en energie
 
