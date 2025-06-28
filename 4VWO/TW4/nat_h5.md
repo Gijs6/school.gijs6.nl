@@ -115,7 +115,7 @@ In een **vervalvergelijking** staat de verandering die plaatsvindt bij radioacti
     $\ce{^{1}\_{0}n -> ^{1}\_{1}p + ^{0}_{-1}e}$  
     $\beta ^-$-verval komt voor bij kernen met te weinig protonen en een overschot aan neutronen.
 
-    $\ce{^{14}_{6}C -> ^{14}_{7}N + ^{0}_{-1}e}$
+    $\ce{^{14}\_{6}C -> ^{14}\_{7}N + ^{0}_{-1}e}$
 
 - **Gammastraling**: hierbij wordt een foton uitgezonden. De samenstelling van de kern verandert niet.
 
