@@ -136,7 +136,7 @@ $$\sigma=\frac{F}{A}$$
 
 Hierin is $\sigma$ de spanning (in $\text{Pa}=\text{N}/\text{m}^2$), $F$ de uitgeoefende kracht (in $\text{N}$) en $A$ de oppervlakte van de dwarsdoorsnede (in $\text{m}^2$).
 
-In een **spanning,rek-diagram** is de spanning uitgezet tegen de relatieve rek. Tot aan de **elasticiteitsgrens** is de vervorming elastisch. Daarna is de vervorming elastisch.  
+In een **spanning,rek-diagram** is de spanning uitgezet tegen de relatieve rek. Tot aan de **elasticiteitsgrens** is de vervorming elastisch. Daarna is de vervorming plastisch.  
 De **treksterkte** van een materiaal is de maximale spanning.
 
 De **elasticiteitsmodulus** is de spanning in het materiaal bij een uitrekking van 100%. Makkelijk uitrekbare stoffen hebben een kleine elasticiteitsmodulus.
