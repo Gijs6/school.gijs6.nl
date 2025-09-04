@@ -177,7 +177,8 @@ table table {
     border: 1px solid var(--front);
 }
 
-ul, ol {
+ul,
+ol {
     padding-inline-start: 1.5em;
 }
 

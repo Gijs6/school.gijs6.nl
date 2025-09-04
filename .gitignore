@@ -20,3 +20,6 @@ dontforget.md
 **/desktop.ini
 
 .prettierrc
+
+node_modules
+

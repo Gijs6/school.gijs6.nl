@@ -1,0 +1,17 @@
+#!/bin/bash
+
+serve() {
+  bundle exec jekyll serve
+}
+
+build() {
+  bundle exec jekyll build
+}
+
+format() {
+  ruff format .
+  prettier --write "**/*.{css,js}"
+  prettier --write "**/*.{json,xml}"
+  djlint . --reformat
+  markdownlint --fix "**/*.md" || true
+}
