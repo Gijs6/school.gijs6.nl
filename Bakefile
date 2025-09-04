@@ -11,7 +11,7 @@ build() {
 format() {
   ruff format .
   prettier --write "**/*.{css,js}"
-  prettier --write "**/*.{json,xml}"
+  prettier --write "**/*.{json,xml,yml}"
   djlint . --reformat
   markdownlint --fix "**/*.md" || true
 }

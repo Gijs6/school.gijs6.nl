@@ -40,6 +40,17 @@ li {
     line-height: 1.3em;
 }
 
+#feeds {
+    display: flex;
+    flex-direction: column;
+}
+#feeds a {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25em;
+    align-items: center;
+}
+
 footer {
     margin-top: 3em;
 }

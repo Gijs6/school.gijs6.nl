@@ -13,22 +13,21 @@ permalink: /:path/:basename
 
 markdown: kramdown
 kramdown:
-  input: GFM
-  math_engine: mathjax
-  syntax_highlighter_opts:
-    disable : true
+    input: GFM
+    math_engine: mathjax
+    syntax_highlighter_opts:
+        disable: true
 
 plugins:
-  - "jekyll-github-metadata"
+    - "jekyll-github-metadata"
 
 exclude:
-  - .git/
-  - _data/
-  - _scripts/
-  - README.md
-  - Gemfile
-  - LICENSE
-  - .gitignore
-  - vendor
-  - additional
-  
+    - .git/
+    - _data/
+    - _scripts/
+    - README.md
+    - Gemfile
+    - LICENSE
+    - .gitignore
+    - vendor
+    - additional

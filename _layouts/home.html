@@ -17,6 +17,8 @@
               href="{{ '/assets/images/samva.ico' | relative_url }}">
         <script src="https://kit.fontawesome.com/4a94c21782.js"
                 crossorigin="anonymous"></script>
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ '/rss.xml' | relative_url }}" />
+        <link rel="alternate" type="application/atom+xml" title="{{ site.title }} Atom Feed" href="{{ '/atom.xml' | relative_url }}" />
     </head>
     <body>
         <main>
@@ -27,6 +29,10 @@
                 Hieronder zie je per toets de beschikbare leermiddelen.
                 <br>
                 Veel succes met leren!
+            </p>
+            <p id="feeds">
+                <a href="{{ '/rss.xml' | relative_url }}"><i class="fa-solid fa-square-rss"></i> RSS</a>
+                <a href="{{ '/rss.xml' | relative_url }}"><i class="fa-solid fa-square-rss"></i> Atom</a>
             </p>
             {% for year_data in site.data.homepage_data %}
                 <h2>{{ year_data[0] }}</h2>
