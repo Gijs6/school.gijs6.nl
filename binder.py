@@ -219,45 +219,28 @@ def setup_markdown_processor():
 
 
 def process_markdown_files(build_dir, template_env, md_processor):
-    index_path = "site/index.md"
-    if os.path.exists(index_path):
-        with open(index_path, "r", encoding="utf-8") as f:
-            content = f.read()
+    # Always generate index.html from home template
+    homepage_data = build_homepage_data()
 
-        if content.startswith("---"):
-            _, front_matter_str, markdown_content = content.split("---", 2)
-            front_matter = yaml.safe_load(front_matter_str)
-        else:
-            front_matter = {}
-            markdown_content = content
+    vwo_pages = []
+    for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
+        year_path = os.path.join("site", year_dir)
+        if os.path.isdir(year_path):
+            for root, dirs, files in os.walk(year_path):
+                vwo_pages.append((root, dirs, files))
 
-        homepage_data = build_homepage_data()
+    template = template_env.get_template("home.html")
+    rendered = template.render(
+        homepage_data=homepage_data,
+        vwo_pages=vwo_pages,
+        site={
+            "title": "Leermiddelenoverzicht",
+            "data": {"homepage_data": homepage_data},
+        },
+    )
 
-        html_content = md_processor.convert(markdown_content.strip())
-
-        vwo_pages = []
-        for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
-            year_path = os.path.join("site", year_dir)
-            if os.path.isdir(year_path):
-                for root, dirs, files in os.walk(year_path):
-                    vwo_pages.append((root, dirs, files))
-
-        if front_matter.get("layout") == "home":
-            template = template_env.get_template("home.html")
-            rendered = template.render(
-                content=html_content,
-                homepage_data=homepage_data,
-                vwo_pages=vwo_pages,
-                site={
-                    "title": "Leermiddelenoverzicht",
-                    "data": {"homepage_data": homepage_data},
-                },
-            )
-        else:
-            rendered = f"<html><body>{html_content}</body></html>"
-
-        with open(os.path.join(build_dir, "index.html"), "w", encoding="utf-8") as f:
-            f.write(rendered)
+    with open(os.path.join(build_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(rendered)
 
     for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
         year_path = os.path.join("site", year_dir)
