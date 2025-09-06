@@ -126,6 +126,21 @@ def copy_static_assets(build_dir):
     if os.path.exists(assets_src):
         shutil.copytree(assets_src, os.path.join(build_dir, "assets"))
 
+    # Copy images from year directories
+    for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
+        year_path = os.path.join("site", year_dir)
+        if os.path.isdir(year_path):
+            build_year_dir = os.path.join(build_dir, year_dir)
+            for root, dirs, files in os.walk(year_path):
+                for file in files:
+                    if not file.endswith(".md"):  # Copy all non-markdown files
+                        src_file = os.path.join(root, file)
+                        rel_path = os.path.relpath(src_file, year_path)
+                        dest_file = os.path.join(build_year_dir, rel_path)
+                        
+                        os.makedirs(os.path.dirname(dest_file), exist_ok=True)
+                        shutil.copy2(src_file, dest_file)
+
     static_files = ["CNAME"]
     for file in static_files:
         if os.path.exists(file):
