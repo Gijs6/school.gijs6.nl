@@ -1,0 +1,696 @@
+{
+  "4VWO": {
+    "TW4": [
+      {
+        "subject": "BIOL",
+        "test_code": "4A-BIOL-T08",
+        "test_type": "Toets",
+        "test_material": "H8 (Kenmerken van ecosystemen)",
+        "make_summary": true,
+        "icon": "fa-solid fa-seedling",
+        "resources": []
+      },
+      {
+        "subject": "ENTL",
+        "test_code": "4A-ENTL-T08",
+        "test_type": "Toets",
+        "test_material": "Leestoets",
+        "make_summary": false,
+        "icon": "ENTL",
+        "resources": []
+      },
+      {
+        "subject": "FATL",
+        "test_code": "4A-FATL-T09",
+        "test_type": "Toets",
+        "test_material": "Leestoets",
+        "make_summary": false,
+        "icon": "FATL",
+        "resources": []
+      },
+      {
+        "subject": "NAT",
+        "test_code": "4A-NAT-T07",
+        "test_type": "Toets",
+        "test_material": "H5 (Ioniserende straling)",
+        "make_summary": true,
+        "icon": "fa-solid fa-atom",
+        "resources": []
+      },
+      {
+        "subject": "NAT",
+        "test_code": "4A-NAT-T05",
+        "test_type": "Toets",
+        "test_material": "H3 (Materialen)",
+        "make_summary": true,
+        "icon": "fa-solid fa-atom",
+        "resources": []
+      },
+      {
+        "subject": "NETL",
+        "test_code": "4A-NETL-T08",
+        "test_type": "Toets",
+        "test_material": "Leestoets (Argumenten)",
+        "make_summary": true,
+        "icon": "NETL",
+        "resources": []
+      },
+      {
+        "subject": "NLT",
+        "test_code": "4A-NLT-T04",
+        "test_type": "Toets",
+        "test_material": "Technisch ontwerpen",
+        "make_summary": false,
+        "icon": "fa-solid fa-microscope",
+        "resources": []
+      },
+      {
+        "subject": "SCHK",
+        "test_code": "4A-SCHK-T07",
+        "test_type": "Toets",
+        "test_material": "H6 (Evenwichten & Reactiesnelheid)",
+        "make_summary": true,
+        "icon": "fa-solid fa-flask-vial",
+        "resources": []
+      },
+      {
+        "subject": "WISB",
+        "test_code": "4A-WISB-T08",
+        "test_type": "Toets",
+        "test_material": "H4 + H5 + H6",
+        "make_summary": true,
+        "icon": "fa-solid fa-calculator",
+        "resources": []
+      }
+    ],
+    "P4": [
+      {
+        "subject": "BIOL",
+        "test_code": "4A-BIOL-T07",
+        "test_type": "Toets",
+        "test_material": "H7 (Evolutie)",
+        "make_summary": true,
+        "icon": "fa-solid fa-seedling",
+        "resources": []
+      },
+      {
+        "subject": "ENTL",
+        "test_code": "4A-ENTL-T07",
+        "test_type": "Toets",
+        "test_material": "H5 + Schrijfopdracht",
+        "make_summary": false,
+        "icon": "ENTL",
+        "resources": []
+      },
+      {
+        "subject": "FATL",
+        "test_code": "4A-FATL-T04",
+        "test_type": "PO",
+        "test_material": "Boektoets",
+        "make_summary": false,
+        "icon": "FATL",
+        "resources": []
+      },
+      {
+        "subject": "FATL",
+        "test_code": "4A-FATL-T08",
+        "test_type": "Toets",
+        "test_material": "H5",
+        "make_summary": true,
+        "icon": "FATL",
+        "resources": [
+          {
+            "link": "https://studygo.com/nl/learn/lists/182203506",
+            "title": "StudyGo Frans - Nederlands"
+          },
+          {
+            "link": "https://studygo.com/nl/learn/lists/182203512",
+            "title": "StudyGo Nederlands - Frans"
+          },
+          {
+            "link": "https://studygo.com/nl/learn/lists/182203525",
+            "title": "StudyGo Zinnen"
+          }
+        ]
+      },
+      {
+        "subject": "MAAT",
+        "test_code": "4A-MAAT-PO1",
+        "test_type": "PO",
+        "test_material": "Ontwerp je eigen land",
+        "make_summary": false,
+        "icon": "fa-solid fa-people-group",
+        "resources": []
+      },
+      {
+        "subject": "NAT",
+        "test_code": "4A-NAT-P02",
+        "test_type": "PO",
+        "test_material": "6.4 (uit NLT)",
+        "make_summary": false,
+        "icon": "fa-solid fa-atom",
+        "resources": []
+      },
+      {
+        "subject": "NETL",
+        "test_code": "4A-NETL-T07",
+        "test_type": "Toets",
+        "test_material": "Woordenschat",
+        "make_summary": true,
+        "icon": "NETL",
+        "resources": [
+          {
+            "link": "https://studygo.com/nl/learn/lists/181888947",
+            "title": "StudyGo"
+          }
+        ]
+      },
+      {
+        "subject": "NLT",
+        "test_code": "4A-NLT-P05",
+        "test_type": "PO",
+        "test_material": "Schrijfopdracht",
+        "make_summary": false,
+        "icon": "fa-solid fa-microscope",
+        "resources": []
+      },
+      {
+        "subject": "SCHK",
+        "test_code": "4A-SCHK-T06",
+        "test_type": "Toets",
+        "test_material": "H4 (Zouten) + H5 (Oplossen)",
+        "make_summary": true,
+        "icon": "fa-solid fa-flask-vial",
+        "resources": [
+          {
+            "link": "https://studygo.com/nl/learn/lists/180818384",
+            "title": "Ladingen (StudyGo)",
+            "type": "external"
+          }
+        ]
+      },
+      {
+        "subject": "WISB",
+        "test_code": "4A-WISB-T07",
+        "test_type": "Toets",
+        "test_material": "H6 (Differentiaalrekening)",
+        "make_summary": true,
+        "icon": "fa-solid fa-calculator",
+        "resources": []
+      }
+    ],
+    "TW3": [
+      {
+        "subject": "BIOL",
+        "test_code": "4A-BIOL-T06",
+        "test_type": "Toets",
+        "test_material": "H6 (Soorten en populaties)",
+        "make_summary": true,
+        "icon": "fa-solid fa-seedling",
+        "resources": []
+      },
+      {
+        "subject": "ENTL",
+        "test_code": "4A-ENTL-T06",
+        "test_type": "Toets",
+        "test_material": "Literatuurgeschiedenis (middeleeuwen)",
+        "make_summary": true,
+        "icon": "ENTL",
+        "resources": []
+      },
+      {
+        "subject": "FATL",
+        "test_code": "4A-FATL-T06",
+        "test_type": "Toets",
+        "test_material": "H4",
+        "make_summary": true,
+        "icon": "FATL",
+        "resources": [
+          {
+            "link": "https://studygo.com/nl/learn/folders/2538129",
+            "title": "StudyGo",
+            "type": "external"
+          }
+        ]
+      },
+      {
+        "subject": "MAAT",
+        "test_code": "4A-MAAT-T03",
+        "test_type": "Toets",
+        "test_material": "H4 (Pluriforme samenleving)",
+        "make_summary": true,
+        "icon": "fa-solid fa-people-group",
+        "resources": []
+      },
+      {
+        "subject": "NAT",
+        "test_code": "4A-NAT-T04",
+        "test_type": "Toets",
+        "test_material": "H4 (Krachten)",
+        "make_summary": true,
+        "icon": "fa-solid fa-atom",
+        "resources": []
+      },
+      {
+        "subject": "NAT",
+        "test_code": "4A-NAT-T06",
+        "test_type": "Toets",
+        "test_material": "Biofysica (Ogen & hefbomen)",
+        "make_summary": true,
+        "icon": "fa-solid fa-atom",
+        "resources": []
+      },
+      {
+        "subject": "NETL",
+        "test_code": "4A-NETL-T05",
+        "test_type": "Toets",
+        "test_material": "Literatuurgeschiedenis",
+        "make_summary": true,
+        "icon": "NETL",
+        "resources": []
+      },
+      {
+        "subject": "NLT",
+        "test_code": "4A-NLT-T03",
+        "test_type": "Toets",
+        "test_material": "Leef met je hart",
+        "make_summary": true,
+        "icon": "fa-solid fa-microscope",
+        "resources": []
+      },
+      {
+        "subject": "SCHK",
+        "test_code": "4A-SCHK-T05",
+        "test_type": "Practicum",
+        "test_material": "Practicumtoets (Zouten)",
+        "make_summary": true,
+        "icon": "fa-solid fa-flask-vial",
+        "resources": []
+      },
+      {
+        "subject": "WISB",
+        "test_code": "4A-WISB-T06",
+        "test_type": "Toets",
+        "test_material": "H5 (Machten, exponenten en logaritmen)",
+        "make_summary": true,
+        "icon": "fa-solid fa-calculator",
+        "resources": []
+      }
+    ],
+    "P3": [
+      {
+        "subject": "BIOL",
+        "test_code": "4A-BIOL-T05",
+        "test_type": "Toets",
+        "test_material": "H5 (Erfelijkheid)",
+        "make_summary": true,
+        "icon": "fa-solid fa-seedling",
+        "resources": []
+      },
+      {
+        "subject": "ENTL",
+        "test_code": "4A-ENTL-T05",
+        "test_type": "Mondeling",
+        "test_material": "Presentatie",
+        "make_summary": false,
+        "icon": "ENTL",
+        "resources": []
+      },
+      {
+        "subject": "FATL",
+        "test_code": "4A-FATL-T05",
+        "test_type": "Luistertoets",
+        "test_material": "Kijk- en luistertoets",
+        "make_summary": false,
+        "icon": "FATL",
+        "resources": []
+      },
+      {
+        "subject": "NAT",
+        "test_code": "4A-NAT-P01",
+        "test_type": "PO",
+        "test_material": "6.2 + 6.3",
+        "make_summary": false,
+        "icon": "fa-solid fa-atom",
+        "resources": []
+      },
+      {
+        "subject": "NETL",
+        "test_code": "4A-NETL-T06",
+        "test_type": "Mondeling",
+        "test_material": "Vlog",
+        "make_summary": false,
+        "icon": "NETL",
+        "resources": []
+      },
+      {
+        "subject": "WISB",
+        "test_code": "4A-WISB-T05",
+        "test_type": "Toets",
+        "test_material": "H4 (Vergelijkingen en herleidingen)",
+        "make_summary": true,
+        "icon": "fa-solid fa-calculator",
+        "resources": []
+      }
+    ],
+    "TW2": [
+      {
+        "subject": "BIOL",
+        "test_code": "4A-BIOL-T04",
+        "test_type": "Toets",
+        "test_material": "H4 (Voortplanting)",
+        "make_summary": true,
+        "icon": "fa-solid fa-seedling",
+        "resources": []
+      },
+      {
+        "subject": "ENTL",
+        "test_code": "4A-ENTL-T04",
+        "test_type": "Toets",
+        "test_material": "H3 + Schrijfopdracht",
+        "make_summary": true,
+        "icon": "ENTL",
+        "resources": [
+          {
+            "link": "https://studygo.com/nl/learn/lists/180222168",
+            "title": "StudyGo",
+            "type": "external"
+          }
+        ]
+      },
+      {
+        "subject": "FATL",
+        "test_code": "4A-FATL-T03",
+        "test_type": "Toets",
+        "test_material": "H2",
+        "make_summary": true,
+        "icon": "FATL",
+        "resources": [
+          {
+            "link": "https://studygo.com/nl/learn/folders/2501044",
+            "title": "StudyGo",
+            "type": "external"
+          }
+        ]
+      },
+      {
+        "subject": "MAAT",
+        "test_code": "4A-MAAT-T02",
+        "test_type": "Toets",
+        "test_material": "H3 (Parlementaire Democratie)",
+        "make_summary": true,
+        "icon": "fa-solid fa-people-group",
+        "resources": [
+          {
+            "link": "https://docs.google.com/document/d/1P2Jj8aAtJ5x3tgboHmwUpc-D6eCIo03xs9NzuFFdI6g",
+            "title": "Begrippenlijst",
+            "type": "external"
+          }
+        ]
+      },
+      {
+        "subject": "NAT",
+        "test_code": "4A-NAT-T03",
+        "test_type": "Toets",
+        "test_material": "H2 (Bewegingen)",
+        "make_summary": true,
+        "icon": "fa-solid fa-atom",
+        "resources": []
+      },
+      {
+        "subject": "NETL",
+        "test_code": "4A-NETL-T04",
+        "test_type": "Toets",
+        "test_material": "Lezen (H1)",
+        "make_summary": true,
+        "icon": "NETL",
+        "resources": []
+      },
+      {
+        "subject": "NLT",
+        "test_code": "4A-NLT-T02",
+        "test_type": "Toets",
+        "test_material": "Hersenen en leren",
+        "make_summary": true,
+        "icon": "fa-solid fa-microscope",
+        "resources": [
+          {
+            "link": "https://docs.google.com/document/d/1Irzp7gT6OgffYsv7YpaaoT2EviXsRq1artWkRKbXGQk",
+            "title": "Begrippenlijst",
+            "type": "external"
+          }
+        ]
+      },
+      {
+        "subject": "SCHK",
+        "test_code": "4A-SCHK-T04",
+        "test_type": "Toets",
+        "test_material": "H3 (Chemisch Rekenen)",
+        "make_summary": true,
+        "icon": "fa-solid fa-flask-vial",
+        "resources": [
+          {
+            "link": "https://kemia.nl/oefenen/chemie?view=article&id=13&catid=8",
+            "title": "Oefenopgaven",
+            "type": "external"
+          },
+          {
+            "link": "https://youtube.com/playlist?list=PLfjhVebpNAP6nWActdN3Enw5PzOoc_buN",
+            "title": "Uitlegvideo's",
+            "type": "external"
+          }
+        ]
+      },
+      {
+        "subject": "WISB",
+        "test_code": "4A-WISB-T04",
+        "test_type": "Toets",
+        "test_material": "H1 + H2 + H3",
+        "make_summary": true,
+        "summary_link": "https://docs.google.com/document/d/1UpYCcifqj2MQu6wvo9VGgW3OlPYg_7NfAptoqTB7dVY",
+        "summary_name": "Samenvatting",
+        "icon": "fa-solid fa-calculator",
+        "resources": []
+      }
+    ],
+    "P2": [
+      {
+        "subject": "BIOL",
+        "test_code": "4A-BIOL-T03",
+        "test_type": "Toets",
+        "test_material": "H3 (Wetenschappelijk onderzoek)",
+        "make_summary": true,
+        "icon": "fa-solid fa-seedling",
+        "resources": []
+      },
+      {
+        "subject": "ENTL",
+        "test_code": "4A-ENTL-T03",
+        "test_type": "Toets",
+        "test_material": "H4 + schrijfopdracht",
+        "make_summary": true,
+        "icon": "ENTL",
+        "resources": []
+      },
+      {
+        "subject": "FATL",
+        "test_code": "4A-FATL-T07",
+        "test_type": "Mondeling",
+        "test_material": "Spreektoets",
+        "make_summary": false,
+        "icon": "FATL",
+        "resources": []
+      },
+      {
+        "subject": "NETL",
+        "test_code": "4A-NETL-T03",
+        "test_type": "Toets",
+        "test_material": "Recensie",
+        "make_summary": false,
+        "icon": "NETL",
+        "resources": []
+      },
+      {
+        "subject": "SCHK",
+        "test_code": "4A-SCHK-T03",
+        "test_type": "Toets",
+        "test_material": "H3 (Deel 1)",
+        "make_summary": false,
+        "icon": "fa-solid fa-flask-vial",
+        "resources": []
+      },
+      {
+        "subject": "WISB",
+        "test_code": "4A-WISB-T03",
+        "test_type": "Toets",
+        "test_material": "H3 (Meetkunde)",
+        "make_summary": true,
+        "summary_link": "https://docs.google.com/document/d/1yHWZx9Og-KZ9mPNKdxoRG7v5oZqYMQZfgZILoDIKA3g",
+        "summary_name": "Samenvatting",
+        "icon": "fa-solid fa-calculator",
+        "resources": []
+      }
+    ],
+    "TW1": [
+      {
+        "subject": "BIOL",
+        "test_code": "4A-BIOL-T02",
+        "test_type": "Toets",
+        "test_material": "H2 (Cel en leven)",
+        "make_summary": true,
+        "icon": "fa-solid fa-seedling",
+        "resources": []
+      },
+      {
+        "subject": "ENTL",
+        "test_code": "4A-ENTL-T02",
+        "test_type": "Luistertoets",
+        "test_material": "Luistertoets",
+        "make_summary": false,
+        "icon": "ENTL",
+        "resources": []
+      },
+      {
+        "subject": "FATL",
+        "test_code": "4A-FATL-T02",
+        "test_type": "Toets",
+        "test_material": "H1",
+        "make_summary": true,
+        "icon": "FATL",
+        "resources": []
+      },
+      {
+        "subject": "MAAT",
+        "test_code": "4A-MAAT-T01",
+        "test_type": "Toets",
+        "test_material": "H1 + H2 (Rechtsstaat)",
+        "make_summary": true,
+        "icon": "fa-solid fa-people-group",
+        "resources": []
+      },
+      {
+        "subject": "NAT",
+        "test_code": "4A-NAT-T01",
+        "test_type": "Toets",
+        "test_material": "H1 (Elektriciteit)",
+        "make_summary": true,
+        "icon": "fa-solid fa-atom",
+        "resources": []
+      },
+      {
+        "subject": "NAT",
+        "test_code": "4A-NAT-T02",
+        "test_type": "Toets",
+        "test_material": "6.1 + 6.2",
+        "make_summary": true,
+        "icon": "fa-solid fa-atom",
+        "resources": []
+      },
+      {
+        "subject": "NETL",
+        "test_code": "4A-NETL-T02",
+        "test_type": "Toets",
+        "test_material": "Verhaalanalyse (Literatuur)",
+        "make_summary": true,
+        "icon": "NETL",
+        "resources": []
+      },
+      {
+        "subject": "NLT",
+        "test_code": "4A-NLT-T01",
+        "test_type": "Toets",
+        "test_material": "Forensisch onderzoek",
+        "make_summary": true,
+        "icon": "fa-solid fa-microscope",
+        "resources": []
+      },
+      {
+        "subject": "SCHK",
+        "test_code": "4A-SCHK-T02",
+        "test_type": "Toets",
+        "test_material": "H2 (Koolstofchemie)",
+        "make_summary": true,
+        "icon": "fa-solid fa-flask-vial",
+        "resources": []
+      },
+      {
+        "subject": "WISB",
+        "test_code": "4A-WISB-T02",
+        "test_type": "Toets",
+        "test_material": "H2 (De afgeleide functie)",
+        "make_summary": true,
+        "summary_link": "https://docs.google.com/document/d/1mOQvvYx6QZFXFEFveI45bqt8AItxVExELpbAhBl7cJg",
+        "summary_name": "Samenvatting",
+        "icon": "fa-solid fa-calculator",
+        "resources": []
+      }
+    ],
+    "P1": [
+      {
+        "subject": "BIOL",
+        "test_code": "4A-BIOL-T01",
+        "test_type": "Toets",
+        "test_material": "H1 (Gedrag)",
+        "make_summary": true,
+        "icon": "fa-solid fa-seedling",
+        "resources": []
+      },
+      {
+        "subject": "BIOL",
+        "test_code": "4A-BIOL-P01",
+        "test_type": "PO",
+        "test_material": "Ethologisch onderzoek",
+        "make_summary": false,
+        "icon": "fa-solid fa-seedling",
+        "resources": []
+      },
+      {
+        "subject": "ENTL",
+        "test_code": "4A-ENTL-T01",
+        "test_type": "Toets",
+        "test_material": "H1 + H2 + Schrijfopdracht",
+        "make_summary": true,
+        "icon": "ENTL",
+        "resources": []
+      },
+      {
+        "subject": "FATL",
+        "test_code": "4A-FATL-T01",
+        "test_type": "Toets",
+        "test_material": "Woordenschat",
+        "make_summary": false,
+        "icon": "FATL",
+        "resources": []
+      },
+      {
+        "subject": "NETL",
+        "test_code": "4A-NETL-T01",
+        "test_type": "Toets",
+        "test_material": "Betoog",
+        "make_summary": false,
+        "icon": "NETL",
+        "resources": []
+      },
+      {
+        "subject": "SCHK",
+        "test_code": "4A-SCHK-T01",
+        "test_type": "Toets",
+        "test_material": "H1 (Atoombouw)",
+        "make_summary": true,
+        "icon": "fa-solid fa-flask-vial",
+        "resources": []
+      },
+      {
+        "subject": "WISB",
+        "test_code": "4A-WISB-T01",
+        "test_type": "Toets",
+        "test_material": "H1 (Functies en grafieken)",
+        "make_summary": true,
+        "summary_link": "https://docs.google.com/document/d/1uuQHA6IfLf2npbzvbsZGDvuD1xZHozerhEclCWldbGk",
+        "summary_name": "Samenvatting",
+        "icon": "fa-solid fa-calculator",
+        "resources": []
+      }
+    ]
+  }
+}

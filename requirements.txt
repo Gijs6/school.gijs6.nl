@@ -1,0 +1,5 @@
+Jinja2>=3.0.0
+Markdown>=3.4.0
+PyYAML>=6.0.0
+Pygments>=2.14.0
+feedgen>=1.0.0

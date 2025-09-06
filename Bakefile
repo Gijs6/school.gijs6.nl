@@ -1,11 +1,7 @@
 #!/bin/bash
 
-serve() {
-  bundle exec jekyll serve
-}
-
 build() {
-  bundle exec jekyll build
+  .venv/bin/python binder.py
 }
 
 format() {
