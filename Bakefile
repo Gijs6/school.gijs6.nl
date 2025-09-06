@@ -1,7 +1,11 @@
 #!/bin/bash
 
+serve() {
+  .venv/bin/python binder.py serve
+}
+
 build() {
-  .venv/bin/python binder.py
+  .venv/bin/python binder.py build
 }
 
 format() {

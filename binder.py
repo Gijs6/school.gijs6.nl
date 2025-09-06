@@ -3,6 +3,12 @@ import shutil
 import re
 import yaml
 import json
+import time
+import threading
+import argparse
+from http.server import HTTPServer, SimpleHTTPRequestHandler
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
 from jinja2 import Environment, FileSystemLoader
 from markdown import Markdown
 from feedgen.feed import FeedGenerator
@@ -137,7 +143,7 @@ def copy_static_assets(build_dir):
                         src_file = os.path.join(root, file)
                         rel_path = os.path.relpath(src_file, year_path)
                         dest_file = os.path.join(build_year_dir, rel_path)
-                        
+
                         os.makedirs(os.path.dirname(dest_file), exist_ok=True)
                         shutil.copy2(src_file, dest_file)
 
@@ -162,21 +168,25 @@ def generate_feeds(build_dir, homepage_data, md_processor):
         for period, tests in year_data.items():
             for test in tests:
                 if test.get("summary_link"):
-                    md_file_path = os.path.join("site", test['summary_link'].lstrip('/') + '.md')
+                    md_file_path = os.path.join(
+                        "site", test["summary_link"].lstrip("/") + ".md"
+                    )
                     if os.path.exists(md_file_path):
                         with open(md_file_path, "r", encoding="utf-8") as f:
                             content = f.read()
-                        
+
                         if content.startswith("---"):
-                            _, front_matter_str, markdown_content = content.split("---", 2)
+                            _, front_matter_str, markdown_content = content.split(
+                                "---", 2
+                            )
                         else:
                             markdown_content = content
-                        
+
                         html_content = md_processor.convert(markdown_content.strip())
                         html_content = remove_base64_images(html_content)
                     else:
                         html_content = f"Samenvatting voor {test['subject']} - {test['test_material']}"
-                    
+
                     fe = fg.add_entry()
                     fe.title(
                         f"{test['subject']} - {test['test_material']} ({year} {period})"
@@ -188,21 +198,27 @@ def generate_feeds(build_dir, homepage_data, md_processor):
 
                 for resource in test.get("resources", []):
                     if resource.get("type") == "internal":
-                        md_file_path = os.path.join("site", resource['link'].lstrip('/') + '.md')
+                        md_file_path = os.path.join(
+                            "site", resource["link"].lstrip("/") + ".md"
+                        )
                         if os.path.exists(md_file_path):
                             with open(md_file_path, "r", encoding="utf-8") as f:
                                 content = f.read()
-                            
+
                             if content.startswith("---"):
-                                _, front_matter_str, markdown_content = content.split("---", 2)
+                                _, front_matter_str, markdown_content = content.split(
+                                    "---", 2
+                                )
                             else:
                                 markdown_content = content
-                            
-                            html_content = md_processor.convert(markdown_content.strip())
+
+                            html_content = md_processor.convert(
+                                markdown_content.strip()
+                            )
                             html_content = remove_base64_images(html_content)
                         else:
                             html_content = f"{resource['title']} voor {test['subject']} - {test['test_material']}"
-                        
+
                         fe = fg.add_entry()
                         fe.title(
                             f"{resource['title']} - {test['subject']} ({year} {period})"
@@ -221,7 +237,7 @@ def generate_feeds(build_dir, homepage_data, md_processor):
 
 def remove_base64_images(html_content):
     img_pattern = r'<img[^>]*src="data:image/[^"]*"[^>]*>'
-    return re.sub(img_pattern, '', html_content)
+    return re.sub(img_pattern, "", html_content)
 
 
 def setup_markdown_processor():
@@ -255,6 +271,15 @@ def process_markdown_files(build_dir, template_env, md_processor):
     )
 
     with open(os.path.join(build_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(rendered)
+
+    # Process 404 page
+    template = template_env.get_template("404.html")
+    rendered = template.render(
+        site={"title": "Leermiddelenoverzicht"},
+    )
+
+    with open(os.path.join(build_dir, "404.html"), "w", encoding="utf-8") as f:
         f.write(rendered)
 
     for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
@@ -308,7 +333,38 @@ def process_markdown_files(build_dir, template_env, md_processor):
                             f.write(rendered)
 
 
-def main():
+class BuildHandler(FileSystemEventHandler):
+    def __init__(self, build_func):
+        self.build_func = build_func
+        self.last_build = 0
+
+    def on_modified(self, event):
+        if event.is_directory:
+            return
+
+        # Ignore build directory changes
+        if "build/" in event.src_path:
+            return
+
+        # Debounce builds (max once per second)
+        now = time.time()
+        if now - self.last_build < 1:
+            return
+
+        self.last_build = now
+        print(f"\nFile changed: {event.src_path}")
+        print("Rebuilding...")
+        self.build_func()
+        print("Build complete!")
+
+
+class BuildHTTPServer(SimpleHTTPRequestHandler):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, directory="build", **kwargs)
+
+
+def build():
+    """Build the site"""
     print("Building with Binder...")
 
     build_dir = setup_build_directory()
@@ -334,5 +390,59 @@ def main():
     print(f"Build complete! Output in {build_dir}/")
 
 
+def serve(port=8000):
+    """Serve the site with auto-rebuild on file changes"""
+    print(f"Starting development server on port {port}")
+    print("Watching for file changes...")
+
+    # Initial build
+    build()
+
+    # Set up file watcher
+    event_handler = BuildHandler(build)
+    observer = Observer()
+    observer.schedule(event_handler, "site", recursive=True)
+    observer.schedule(event_handler, "404.html", recursive=False)
+    observer.start()
+
+    # Start HTTP server in a separate thread
+    server = HTTPServer(("localhost", port), BuildHTTPServer)
+    server_thread = threading.Thread(target=server.serve_forever)
+    server_thread.daemon = True
+    server_thread.start()
+
+    print(f"Server running at http://localhost:{port}")
+    print("Press Ctrl+C to stop")
+
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print("\nStopping server...")
+        observer.stop()
+        server.shutdown()
+        observer.join()
+
+
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Binder - Generator for summary site")
+    parser.add_argument(
+        "command",
+        nargs="?",
+        default="build",
+        choices=["build", "serve"],
+        help="Command to run (default: build)",
+    )
+    parser.add_argument(
+        "--port",
+        type=int,
+        default=8000,
+        help="Port for development server (default: 8000)",
+    )
+
+    args = parser.parse_args()
+
+    if args.command == "serve":
+        serve(args.port)
+    else:
+        build()

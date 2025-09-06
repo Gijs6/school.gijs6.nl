@@ -1,5 +1,9 @@
-Jinja2>=3.0.0
-Markdown>=3.4.0
-PyYAML>=6.0.0
-Pygments>=2.14.0
-feedgen>=1.0.0
+feedgen==1.0.0
+Jinja2==3.1.6
+lxml==6.0.1
+Markdown==3.9
+MarkupSafe==3.0.2
+python-dateutil==2.9.0.post0
+PyYAML==6.0.2
+six==1.17.0
+watchdog==6.0.0
