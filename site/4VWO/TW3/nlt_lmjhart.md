@@ -4,7 +4,9 @@ title: NLT - LMJHart - Samenvatting
 test_code: 4A-NLT-T03
 ---
 
+<!-- markdownlint-disable MD026 -->
 # Natuur, leven en technologie: Leef met je hart!
+<!-- markdownlint-enable MD026 -->
 
 ## Hart en vaten
 

@@ -1,141 +1,117 @@
-<!DOCTYPE html>
-<html lang="nl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Leermiddelenoverzicht</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-              rel="stylesheet">
-        <link rel="stylesheet" href="/assets/styles/home.css">
-        <link rel="stylesheet" href="/assets/styles/basic.css">
-        <link rel="icon" type="image/x-icon" href="/assets/images/samva.ico">
-        <script src="https://kit.fontawesome.com/4a94c21782.js"
-                crossorigin="anonymous"></script>
-        <link rel="alternate"
-              type="application/rss+xml"
-              title="{{ site.title }} RSS Feed"
-              href="/rss.xml" />
-        <link rel="alternate"
-              type="application/atom+xml"
-              title="{{ site.title }} Atom Feed"
-              href="/atom.xml" />
-    </head>
-    <body>
-        <main>
-            <h1>Leermiddelenoverzicht</h1>
-            <p id="header-txt">
-                Hallo! Op deze pagina vind je alle samenvattingen die ik maak en linkjes naar andere leermiddelen.
-                <br>
-                Hieronder zie je per toets de beschikbare leermiddelen.
-                <br>
-                Veel succes met leren!
-            </p>
-            <p id="feeds">
-                <a href="/rss.xml"><i class="fa-solid fa-square-rss"></i> RSS</a>
-                <a href="/atom.xml"><i class="fa-solid fa-square-rss"></i> Atom</a>
-            </p>
-            {% for year, year_data in homepage_data.items() %}
-                <h2>{{ year }}</h2>
-                {% for period, period_data in year_data.items() %}
-                    <h3>{{ period }}</h3>
-                    <ul>
-                        {% for test_data in period_data %}
-                            <li>
-                                {% if test_data.icon in ["NETL", "ENTL", "FATL"] %}
-                                    <img src="/assets/images/{{ test_data.icon }}.png"
-                                         alt="Een vlag om het vak {{ test_data.icon }} te duiden">
-                                {% else %}
-                                    <i class="{{ test_data.icon }}"></i>
-                                {% endif %}
-                                <span class="subject">{{ test_data.subject }}:</span>
-                                <span class="test_material">{{ test_data.test_material }}</span>
-                                <span class="test_code">({{ test_data.test_code }})</span>
-                                <ul>
-                                    {% if not test_data.get('summary_made') %}
-                                        {% if test_data.get('summary_link') %}
-                                            <li class="link active">
-                                                <a href="{{ test_data.summary_link }}">
-                                                    {{ test_data.get('summary_name', 'Samenvatting') }} <i class="fa-solid fa-arrow-right"></i>
-                                                </a>
-                                            </li>
-                                        {% elif test_data.get('make_summary') %}
-                                            <li class="link notyetactive">Samenvatting nog niet beschikbaar</li>
-                                        {% else %}
-                                            <li class="link neveractive">Geen samenvatting</li>
-                                        {% endif %}
-                                    {% endif %}
-                                    {% for resource in test_data.get('resources', []) %}
+{% extends "base.html" %}
+{% block extra_css %}<link rel="stylesheet" href="/assets/styles/home.css">{% endblock %}
+{% block extra_head %}
+    <script src="https://kit.fontawesome.com/4a94c21782.js"
+            crossorigin="anonymous"></script>
+    <link rel="alternate"
+          type="application/rss+xml"
+          title="{{ site.title }} RSS Feed"
+          href="/rss.xml" />
+    <link rel="alternate"
+          type="application/atom+xml"
+          title="{{ site.title }} Atom Feed"
+          href="/atom.xml" />
+{% endblock %}
+{% block content %}
+    <main>
+        <h1>Leermiddelenoverzicht</h1>
+        <p id="header-txt">
+            Hallo! Op deze pagina vind je alle samenvattingen die ik maak en linkjes naar andere leermiddelen.
+            <br>
+            Hieronder zie je per toets de beschikbare leermiddelen.
+            <br>
+            Veel succes met leren!
+        </p>
+        <p id="feeds">
+            <a href="/rss.xml"><i class="fa-solid fa-square-rss"></i> RSS</a>
+            <a href="/atom.xml"><i class="fa-solid fa-square-rss"></i> Atom</a>
+        </p>
+        {% for year, year_data in homepage_data.items() %}
+            <h2>{{ year }}</h2>
+            {% for period, period_data in year_data.items() %}
+                <h3>{{ period }}</h3>
+                <ul>
+                    {% for test_data in period_data %}
+                        <li>
+                            {% if test_data.icon in ["NETL", "ENTL", "FATL"] %}
+                                <img src="/assets/images/{{ test_data.icon }}.png"
+                                     alt="Een vlag om het vak {{ test_data.icon }} te duiden">
+                            {% else %}
+                                <i class="{{ test_data.icon }}"></i>
+                            {% endif %}
+                            <span class="subject">{{ test_data.subject }}:</span>
+                            <span class="test_material">{{ test_data.test_material }}</span>
+                            <span class="test_code">({{ test_data.test_code }})</span>
+                            <ul>
+                                {% if not test_data.get('summary_made') %}
+                                    {% if test_data.get('summary_link') %}
                                         <li class="link active">
-                                            <a href="{{ resource.link }}">
-                                                {{ resource.title }}
-                                                {% if resource.get('type') == "internal" %}
-                                                    <i class="fa-solid fa-arrow-right"></i>
-                                                {% else %}
-                                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                                {% endif %}
+                                            <a href="{{ test_data.summary_link }}">
+                                                {{ test_data.get('summary_name', 'Samenvatting') }} <i class="fa-solid fa-arrow-right"></i>
                                             </a>
                                         </li>
-                                    {% endfor %}
-                                </ul>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                {% endfor %}
-            {% endfor %}
-            <h1 id="archive">Onderbouw</h1>
-            {% set vwo3_pages = [] %}
-            {% for root, dirs, files in vwo_pages %}
-                {% if "3VWO" in root %}
-                    {% for file in files %}
-                        {% if file.endswith('.md') %}
-                            {% set _ = vwo3_pages.append((root, file)) %}
-                        {% endif %}
+                                    {% elif test_data.get('make_summary') %}
+                                        <li class="link notyetactive">Samenvatting nog niet beschikbaar</li>
+                                    {% else %}
+                                        <li class="link neveractive">Geen samenvatting</li>
+                                    {% endif %}
+                                {% endif %}
+                                {% for resource in test_data.get('resources', []) %}
+                                    <li class="link active">
+                                        <a href="{{ resource.link }}">
+                                            {{ resource.title }}
+                                            {% if resource.get('type') == "internal" %}
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            {% else %}
+                                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            {% endif %}
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </li>
                     {% endfor %}
-                {% endif %}
+                </ul>
             {% endfor %}
-            <h2>3VWO</h2>
-            <ul>
-                {% for root, filename in vwo3_pages %}
-                    {% set path_parts = root.split('/') + [filename] %}
-                    <li>
-                        <a href="/{{ '/'.join(path_parts[-2:]).replace('.md', '.html') }}">{{ filename.replace('.md', '').replace('_', ' ').replace('-', ': ') }}</a>
-                    </li>
+        {% endfor %}
+        <h1 id="archive">Onderbouw</h1>
+        {% set vwo3_pages = [] %}
+        {% for root, dirs, files in vwo_pages %}
+            {% if "3VWO" in root %}
+                {% for file in files %}
+                    {% if file.endswith('.md') %}
+                        {% set _ = vwo3_pages.append((root, file)) %}
+                    {% endif %}
                 {% endfor %}
-            </ul>
-            {% set vwo2_pages = [] %}
-            {% for root, dirs, files in vwo_pages %}
-                {% if "2VWO" in root %}
-                    {% for file in files %}
-                        {% if file.endswith('.md') %}
-                            {% set _ = vwo2_pages.append((root, file)) %}
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
+            {% endif %}
+        {% endfor %}
+        <h2>3VWO</h2>
+        <ul>
+            {% for root, filename in vwo3_pages %}
+                {% set path_parts = root.split('/') + [filename] %}
+                <li>
+                    <a href="/{{ '/'.join(path_parts[-2:]).replace('.md', '.html') }}">{{ filename.replace('.md', '').replace('_', ' ').replace('-', ': ') }}</a>
+                </li>
             {% endfor %}
-            <h2>2VWO</h2>
-            <ul>
-                {% for root, filename in vwo2_pages %}
-                    {% set path_parts = root.split('/') + [filename] %}
-                    <li>
-                        <a href="/{{ '/'.join(path_parts[-2:]).replace('.md', '.html') }}">{{ filename.replace('.md', '').replace('_', ' ').replace('-', ': ') }}</a>
-                    </li>
+        </ul>
+        {% set vwo2_pages = [] %}
+        {% for root, dirs, files in vwo_pages %}
+            {% if "2VWO" in root %}
+                {% for file in files %}
+                    {% if file.endswith('.md') %}
+                        {% set _ = vwo2_pages.append((root, file)) %}
+                    {% endif %}
                 {% endfor %}
-            </ul>
-        </main>
-        <footer>
-            <hr>
-            <p>Een website van Gijs ten Berg</p>
-            <p>
-                Geen rechten voorbehouden: alle orignele inhoud is vrijgegeven in het <a href="https://creativecommons.org/public-domain/cc0/" target="_blank">publieke domein (CC0)</a>
-            </p>
-            <p>
-                Gebouwd met <em>Binder</em>, gehost door <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
-            </p>
-            <p>
-                Bekijk de <a href="https://github.com/Gijs6/school.gijs6.nl" target="_blank">repo</a> op GitHub
-            </p>
-        </footer>
-    </body>
-</html>
+            {% endif %}
+        {% endfor %}
+        <h2>2VWO</h2>
+        <ul>
+            {% for root, filename in vwo2_pages %}
+                {% set path_parts = root.split('/') + [filename] %}
+                <li>
+                    <a href="/{{ '/'.join(path_parts[-2:]).replace('.md', '.html') }}">{{ filename.replace('.md', '').replace('_', ' ').replace('-', ': ') }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </main>
+{% endblock %}
