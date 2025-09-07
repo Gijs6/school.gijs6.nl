@@ -136,6 +136,16 @@ def copy_static_assets(build_dir):
     if os.path.exists(assets_src):
         shutil.copytree(assets_src, os.path.join(build_dir, "assets"))
 
+    # Copy .well-known directory
+    wellknown_src = "site/.well-known"
+    if os.path.exists(wellknown_src):
+        shutil.copytree(wellknown_src, os.path.join(build_dir, ".well-known"))
+
+    # Copy robots.txt from site directory
+    robots_src = "site/robots.txt"
+    if os.path.exists(robots_src):
+        shutil.copy2(robots_src, os.path.join(build_dir, "robots.txt"))
+
     # Copy images from year directories
     for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
         year_path = os.path.join("site", year_dir)
@@ -151,10 +161,9 @@ def copy_static_assets(build_dir):
                         os.makedirs(os.path.dirname(dest_file), exist_ok=True)
                         shutil.copy2(src_file, dest_file)
 
-    static_files = ["CNAME"]
-    for file in static_files:
-        if os.path.exists(file):
-            shutil.copy2(file, os.path.join(build_dir, file))
+    # Copy CNAME from root if it exists
+    if os.path.exists("CNAME"):
+        shutil.copy2("CNAME", os.path.join(build_dir, "CNAME"))
 
 
 def generate_feeds(build_dir, homepage_data, md_processor):
