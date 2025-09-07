@@ -323,7 +323,7 @@ def process_markdown_files(build_dir, template_env, md_processor):
                             rendered = template.render(
                                 content=html_content,
                                 page=front_matter,
-                                page_path=page_path
+                                page_path=page_path,
                             )
                         else:
                             rendered = f"<html><body>{html_content}</body></html>"
