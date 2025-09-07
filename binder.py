@@ -271,6 +271,7 @@ def process_markdown_files(build_dir, template_env, md_processor):
         site={
             "data": {"homepage_data": homepage_data},
         },
+        page_path="site/templates/home.html"
     )
 
     with open(os.path.join(build_dir, "index.html"), "w", encoding="utf-8") as f:
@@ -317,9 +318,7 @@ def process_markdown_files(build_dir, template_env, md_processor):
 
                         if front_matter.get("layout") == "summary":
                             template = template_env.get_template("summary.html")
-                            page_path = os.path.relpath(md_file_path, "site").replace(
-                                ".md", ""
-                            )
+                            page_path = os.path.relpath(md_file_path, "site")
                             rendered = template.render(
                                 content=html_content,
                                 page=front_matter,

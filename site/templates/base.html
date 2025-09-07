@@ -11,7 +11,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
               rel="stylesheet">
         <link rel="stylesheet" href="/assets/styles/basic.css">
-        {% block extra_css %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="/assets/images/samva.ico">
         {% block extra_head %}{% endblock %}
     </head>
@@ -20,15 +19,18 @@
         {% block footer %}
             <footer>
                 <hr>
-                <p>Een website van Gijs ten Berg</p>
+                <p>Geschreven door Gijs ten Berg</p>
+                <p>
+                    Gebouwd met <a href="https://github.com/Gijs6/school.gijs6.nl/blob/main/binder.py">Binder</a>, gehost door <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+                </p>
                 <p>
                     Geen rechten voorbehouden: alle orignele inhoud is vrijgegeven in het <a href="https://creativecommons.org/public-domain/cc0/" target="_blank">publieke domein (CC0)</a>
                 </p>
                 <p>
-                    Gebouwd met <em>Binder</em>, gehost door <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+                    Foutje gevonden? <a href="mailto:gijs6@dupunkto.org" target="_blank">Laat het me weten!</a>
                 </p>
                 <p>
-                    Bekijk de <a href="https://github.com/Gijs6/school.gijs6.nl" target="_blank">repo</a> op GitHub
+                    Bekijk de <a href="https://github.com/Gijs6/school.gijs6.nl" target="_blank">repo</a> of de <a href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}">broncode van deze pagina</a> op GitHub
                 </p>
             </footer>
         {% endblock %}
