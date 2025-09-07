@@ -33,7 +33,7 @@ def sort_period(period):
 
 def build_archive_data():
     vwo_pages = []
-    for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
+    for year_dir in [d for d in os.listdir("site") if re.match(r"[0-3]VWO", d)]:
         year_path = os.path.join("site", year_dir)
         if os.path.isdir(year_path):
             for root, dirs, files in os.walk(year_path):
@@ -42,7 +42,7 @@ def build_archive_data():
     # Process all VWO years dynamically
     archive_data = {}
     vwo_years = sorted(
-        [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)],
+        [d for d in os.listdir("site") if re.match(r"[0-3]VWO", d)],
         key=lambda x: int(x[0]),
         reverse=True,
     )
