@@ -10,7 +10,7 @@ You can find the site at [school.gijs6.nl](https://school.gijs6.nl).
 
 ## How it works behind the scenes
 
-All the magic happens in `binder.py`. It's basically my own static site generator that:
+All the magic happens in [`binder.py`](binder.py). It's basically my own static site generator that:
 
 - Crawls through all the Markdown files in the `site/` folder
 - Converts them to HTML using Jinja2 templates
