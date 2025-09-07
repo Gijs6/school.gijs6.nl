@@ -75,43 +75,15 @@
             {% endfor %}
         {% endfor %}
         <h1 id="archive">Onderbouw</h1>
-        {% set vwo3_pages = [] %}
-        {% for root, dirs, files in vwo_pages %}
-            {% if "3VWO" in root %}
-                {% for file in files %}
-                    {% if file.endswith('.md') %}
-                        {% set _ = vwo3_pages.append((root, file)) %}
-                    {% endif %}
+        {% for year, pages in archive_data.items() %}
+            <h2>{{ year }}</h2>
+            <ul>
+                {% for page in pages %}
+                    <li>
+                        <a href="{{ page.link }}">{{ page.title }}</a>
+                    </li>
                 {% endfor %}
-            {% endif %}
+            </ul>
         {% endfor %}
-        <h2>3VWO</h2>
-        <ul>
-            {% for root, filename in vwo3_pages %}
-                {% set path_parts = root.split('/') + [filename] %}
-                <li>
-                    <a href="/{{ '/'.join(path_parts[-2:]).replace('.md', '.html') }}">{{ filename.replace('.md', '').replace('_', ' ').replace('-', ': ') }}</a>
-                </li>
-            {% endfor %}
-        </ul>
-        {% set vwo2_pages = [] %}
-        {% for root, dirs, files in vwo_pages %}
-            {% if "2VWO" in root %}
-                {% for file in files %}
-                    {% if file.endswith('.md') %}
-                        {% set _ = vwo2_pages.append((root, file)) %}
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-        {% endfor %}
-        <h2>2VWO</h2>
-        <ul>
-            {% for root, filename in vwo2_pages %}
-                {% set path_parts = root.split('/') + [filename] %}
-                <li>
-                    <a href="/{{ '/'.join(path_parts[-2:]).replace('.md', '.html') }}">{{ filename.replace('.md', '').replace('_', ' ').replace('-', ': ') }}</a>
-                </li>
-            {% endfor %}
-        </ul>
     </main>
 {% endblock %}

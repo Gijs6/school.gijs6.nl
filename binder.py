@@ -31,6 +31,39 @@ def sort_period(period):
     return (float("inf"), period)
 
 
+def build_archive_data():
+    vwo_pages = []
+    for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
+        year_path = os.path.join("site", year_dir)
+        if os.path.isdir(year_path):
+            for root, dirs, files in os.walk(year_path):
+                vwo_pages.append((root, dirs, files))
+
+    # Process all VWO years dynamically
+    archive_data = {}
+    vwo_years = sorted(
+        [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)],
+        key=lambda x: int(x[0]),
+        reverse=True,
+    )
+
+    for year in vwo_years:
+        year_pages = []
+        for root, dirs, files in vwo_pages:
+            if year in root:
+                for file in files:
+                    if file.endswith(".md"):
+                        path_parts = root.split("/") + [file]
+                        link = f"/{'/'.join(path_parts[-2:]).replace('.md', '.html')}"
+                        title = (
+                            file.replace(".md", "").replace("_", " ").replace("-", ": ")
+                        )
+                        year_pages.append({"link": link, "title": title})
+        archive_data[year] = year_pages
+
+    return archive_data
+
+
 def build_homepage_data():
     with open("site/data/test_data.json", "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -265,22 +298,16 @@ def setup_markdown_processor():
 def process_markdown_files(build_dir, template_env, md_processor):
     # Always generate index.html from home template
     homepage_data = build_homepage_data()
-
-    vwo_pages = []
-    for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
-        year_path = os.path.join("site", year_dir)
-        if os.path.isdir(year_path):
-            for root, dirs, files in os.walk(year_path):
-                vwo_pages.append((root, dirs, files))
+    archive_data = build_archive_data()
 
     template = template_env.get_template("home.html")
     rendered = template.render(
         homepage_data=homepage_data,
-        vwo_pages=vwo_pages,
+        archive_data=archive_data,
         site={
             "data": {"homepage_data": homepage_data},
         },
-        page_path="site/templates/home.html"
+        page_path="site/templates/home.html",
     )
 
     with open(os.path.join(build_dir, "index.html"), "w", encoding="utf-8") as f:
