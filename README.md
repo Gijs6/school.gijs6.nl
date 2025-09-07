@@ -1,7 +1,38 @@
 # [school.gijs6.nl](https://school.gijs6.nl)
 
-This repo is where I host all my *samenvattingen* (**summaries**) and a list of other learning resources. The summaries are written in Markdown, converted to HTML with my own script called Binder, and hosted using GitHub Pages.
+So this is basically where I put all my school summaries.
 
-I used to use Google Docs for everything, but managing and sharing files got annoying (plus I really wanted to use LaTeX). Summaries made before 4VWO P3 weren't originally in Markdown, so their formatting might be a bit off.
+## What's this about
 
-The idea to move everything to Markdown and GitHub Pages came from seeing [Robin](https://github.com/RobinBoers)'s [*amazing* site with his own summaries](https://github.com/RobinBoers/school.geheimesite.nl), so huge thanks to him!
+I got tired of Google Docs being a mess so I moved everything to Markdown. So now I can use *proper* LaTeX math and actually organize things without going insane. And version control via Git is actually very handy for notes.
+
+You can find the site at [school.gijs6.nl](https://school.gijs6.nl).
+
+## How it works behind the scenes
+
+All the magic happens in `binder.py`. It's basically my own static site generator that:
+
+- Crawls through all the Markdown files in the `site/` folder
+- Converts them to HTML using Jinja2 templates
+- Generates an RSS and Atom feed because why not
+- Builds a nice homepage that organizes everything by school year and period, based on the test codes
+- Has a dev server with file watching
+
+## Running it locally
+
+```bash
+# Install deps
+pip install -r requirements.txt
+
+# Start dev server with hot reload
+bake serve
+
+# Or build static files
+bake build
+```
+
+The `bake` command is just a simple alternative to `make`. To use it, you'll need to install `[bake](https://git.dupunkto.org/~meta/dotfiles/blob/master/bin/bake)` in your `PATH`. Or you can run the Python commands directly: `python binder.py serve` or `python binder.py build`.
+
+---
+
+Huge thanks to [Robin](https://github.com/RobinBoers) for the original inspiration. His [school site](https://github.com/RobinBoers/school.geheimesite.nl) is what got me started on this whole workflow.
