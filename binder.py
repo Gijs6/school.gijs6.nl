@@ -13,6 +13,10 @@ from jinja2 import Environment, FileSystemLoader
 from markdown import Markdown
 from feedgen.feed import FeedGenerator
 from datetime import datetime, timezone
+from tqdm import tqdm
+from colorama import Fore, Style, init
+
+init()
 
 
 def sort_years(yearstr):
@@ -352,10 +356,11 @@ class BuildHandler(FileSystemEventHandler):
             return
 
         self.last_build = now
-        print(f"\nFile changed: {event.src_path}")
-        print("Rebuilding...")
+        filename = os.path.basename(event.src_path)
+        print(
+            f"\n{Fore.YELLOW}Restarting! {Style.BRIGHT}{filename} has changed.{Style.RESET_ALL}\n"
+        )
         self.build_func()
-        print("Build complete!")
 
 
 class BuildHTTPServer(SimpleHTTPRequestHandler):
@@ -364,36 +369,69 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
 
 
 def build():
-    """Build the site"""
-    print("Building with Binder...")
+    print(f"{Fore.CYAN}=> Binder is binding <={Style.RESET_ALL}")
 
-    build_dir = setup_build_directory()
-    print(f"Build directory created: {build_dir}")
+    tasks = [
+        ("Setup", setup_build_directory),
+        ("Templates", lambda: Environment(loader=FileSystemLoader("site/templates"))),
+        ("Markdown", setup_markdown_processor),
+        ("Data", build_homepage_data),
+        ("Assets", lambda: copy_static_assets("build")),
+        (
+            "Pages",
+            lambda: process_markdown_files(
+                "build",
+                Environment(loader=FileSystemLoader("site/templates")),
+                setup_markdown_processor(),
+            ),
+        ),
+        (
+            "Feeds",
+            lambda: generate_feeds(
+                "build", build_homepage_data(), setup_markdown_processor()
+            ),
+        ),
+    ]
 
-    template_env = Environment(loader=FileSystemLoader("site/templates"))
-    print("Template environment set up")
+    results = {}
 
-    md_processor = setup_markdown_processor()
-    print("Markdown processor ready")
+    with tqdm(
+        total=len(tasks),
+        desc="Building",
+        bar_format="{desc}[{bar:60}] {percentage:3.0f}%",
+        ascii="-#",
+    ) as pbar:
+        for desc, task in tasks:
+            pbar.set_description(desc)
+            if desc == "Setup":
+                results["build_dir"] = task()
+            elif desc == "Templates":
+                results["template_env"] = task()
+            elif desc == "Markdown":
+                results["md_processor"] = task()
+            elif desc == "Data":
+                results["homepage_data"] = task()
+            elif desc == "Assets":
+                copy_static_assets(results["build_dir"])
+            elif desc == "Pages":
+                process_markdown_files(
+                    results["build_dir"],
+                    results["template_env"],
+                    results["md_processor"],
+                )
+            elif desc == "Feeds":
+                generate_feeds(
+                    results["build_dir"],
+                    results["homepage_data"],
+                    results["md_processor"],
+                )
+            pbar.update(1)
 
-    copy_static_assets(build_dir)
-    print("Static assets copied")
-
-    homepage_data = build_homepage_data()
-
-    process_markdown_files(build_dir, template_env, md_processor)
-    print("Markdown files processed")
-
-    generate_feeds(build_dir, homepage_data, md_processor)
-    print("RSS and Atom feeds generated")
-
-    print(f"Build complete! Output in {build_dir}/")
+    print(f"{Fore.GREEN}Build complete!{Style.RESET_ALL}\n")
 
 
 def serve(port=8000):
-    """Serve the site with auto-rebuild on file changes"""
-    print(f"Starting development server on port {port}")
-    print("Watching for file changes...")
+    print(f"{Fore.BLUE}Development server{Style.RESET_ALL}\n")
 
     # Initial build
     build()
@@ -402,7 +440,6 @@ def serve(port=8000):
     event_handler = BuildHandler(build)
     observer = Observer()
     observer.schedule(event_handler, "site", recursive=True)
-    observer.schedule(event_handler, "404.html", recursive=False)
     observer.start()
 
     # Start HTTP server in a separate thread
@@ -411,14 +448,16 @@ def serve(port=8000):
     server_thread.daemon = True
     server_thread.start()
 
-    print(f"Server running at http://localhost:{port}")
-    print("Press Ctrl+C to stop")
+    print(
+        f"{Fore.GREEN}Serving on {Style.BRIGHT}http://localhost:{port}{Style.RESET_ALL}"
+    )
+    print(f"{Fore.MAGENTA}Watching for changes...{Style.RESET_ALL}")
 
     try:
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
-        print("\nStopping server...")
+        print(f"\n{Fore.RED}Stopping server...{Style.RESET_ALL}")
         observer.stop()
         server.shutdown()
         observer.join()
