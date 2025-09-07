@@ -31,7 +31,7 @@ bake serve
 bake build
 ```
 
-The `bake` command is just a simple alternative to `make`. To use it, you'll need to install `[bake](https://git.dupunkto.org/~meta/dotfiles/blob/master/bin/bake)` in your `PATH`. Or you can run the Python commands directly: `python binder.py serve` or `python binder.py build`.
+The `bake` command is just a simple alternative to `make`. To use it, you'll need to install [`bake`](https://git.dupunkto.org/~meta/dotfiles/blob/master/bin/bake) in your `PATH`. Or you can run the Python commands directly: `python binder.py serve` or `python binder.py build`.
 
 ---
 
