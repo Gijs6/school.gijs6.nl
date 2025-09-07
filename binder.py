@@ -269,7 +269,6 @@ def process_markdown_files(build_dir, template_env, md_processor):
         homepage_data=homepage_data,
         vwo_pages=vwo_pages,
         site={
-            "title": "Leermiddelenoverzicht",
             "data": {"homepage_data": homepage_data},
         },
     )
@@ -279,9 +278,7 @@ def process_markdown_files(build_dir, template_env, md_processor):
 
     # Process 404 page
     template = template_env.get_template("404.html")
-    rendered = template.render(
-        site={"title": "Leermiddelenoverzicht"},
-    )
+    rendered = template.render()
 
     with open(os.path.join(build_dir, "404.html"), "w", encoding="utf-8") as f:
         f.write(rendered)
@@ -326,9 +323,7 @@ def process_markdown_files(build_dir, template_env, md_processor):
                             rendered = template.render(
                                 content=html_content,
                                 page=front_matter,
-                                page_path=page_path,
-                                github_repo="gijs6/school.gijs6.nl",
-                                site={"title": "Leermiddelenoverzicht"},
+                                page_path=page_path
                             )
                         else:
                             rendered = f"<html><body>{html_content}</body></html>"
