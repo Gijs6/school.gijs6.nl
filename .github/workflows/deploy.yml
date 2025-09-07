@@ -1,4 +1,4 @@
-name: Build and Deploy to GitHub Pages
+name: Build with Binder and deploy to GitHub Pages
 
 on:
     push:
