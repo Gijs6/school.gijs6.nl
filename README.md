@@ -4,7 +4,7 @@ So this is basically where I put all my school summaries.
 
 ## What's this about
 
-I got tired of Google Docs being a mess so I moved everything to Markdown. So now I can use *proper* LaTeX math and actually organize things without going insane. And version control via Git is actually very handy for notes.
+I got tired of Google Docs being a mess so I moved everything to Markdown. So now I can use *proper* LaTeX math and actually organize things without going insane. And version control via Git is actually very handy.
 
 You can find the site at [school.gijs6.nl](https://school.gijs6.nl).
 
