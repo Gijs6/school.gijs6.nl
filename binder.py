@@ -13,8 +13,8 @@ from jinja2 import Environment, FileSystemLoader
 from markdown import Markdown
 from feedgen.feed import FeedGenerator
 from datetime import datetime, timezone
-from tqdm import tqdm
 from colorama import Fore, Style, init
+import subprocess
 
 init()
 
@@ -199,6 +199,39 @@ def copy_static_assets(build_dir):
         shutil.copy2("CNAME", os.path.join(build_dir, "CNAME"))
 
 
+def get_git_dates(filepath):
+    print(filepath)
+
+    lines = (
+        subprocess.check_output(
+            [
+                "git",
+                "log",
+                "--follow",
+                "--format=%H %ct",
+                "--",
+                filepath,
+            ],
+            text=True,
+        )
+        .strip()
+        .split("\n")
+    )
+    try:
+        first_commit = lines[-1].split()
+        last_commit = lines[0].split()
+        first_commit_ts = int(first_commit[1])
+        last_commit_ts = int(last_commit[1])
+        first_commit_dt = datetime.fromtimestamp(first_commit_ts, tz=timezone.utc)
+        last_commit_dt = datetime.fromtimestamp(last_commit_ts, tz=timezone.utc)
+
+        return first_commit_dt, last_commit_dt
+    except:
+        print(f"Failed to get git dates for {filepath}")
+
+    return datetime.now(timezone.utc), datetime.now(timezone.utc)
+
+
 def generate_feeds(build_dir, homepage_data, md_processor):
     fg = FeedGenerator()
     fg.title("Leermiddelenoverzicht")
@@ -240,7 +273,10 @@ def generate_feeds(build_dir, homepage_data, md_processor):
                     fe.link(href=f"https://school.gijs6.nl{test['summary_link']}")
                     fe.id(f"https://school.gijs6.nl{test['summary_link']}")
                     fe.description(html_content)
-                    fe.pubDate(datetime.now(timezone.utc))
+
+                    first_commit, last_commit = get_git_dates(md_file_path)
+                    fe.pubDate(first_commit)
+                    fe.updated(last_commit)
 
                 for resource in test.get("resources", []):
                     if resource.get("type") == "internal":
@@ -272,13 +308,18 @@ def generate_feeds(build_dir, homepage_data, md_processor):
                         fe.link(href=f"https://school.gijs6.nl{resource['link']}")
                         fe.id(f"https://school.gijs6.nl{resource['link']}")
                         fe.description(html_content)
-                        fe.pubDate(datetime.now(timezone.utc))
 
-    fg.rss_str(pretty=True)
-    fg.rss_file(os.path.join(build_dir, "rss.xml"))
+                        first_commit, last_commit = get_git_dates(md_file_path)
+                        fe.pubDate(first_commit)
+                        fe.updated(last_commit)
 
-    fg.atom_str(pretty=True)
-    fg.atom_file(os.path.join(build_dir, "atom.xml"))
+    rss_xml = fg.rss_str(pretty=True)
+    with open(os.path.join(build_dir, "rss.xml"), "wb") as f:
+        f.write(rss_xml)
+
+    atom_xml = fg.atom_str(pretty=True)
+    with open(os.path.join(build_dir, "atom.xml"), "wb") as f:
+        f.write(atom_xml)
 
 
 def remove_base64_images(html_content):
@@ -401,61 +442,42 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
 def build():
     print(f"{Fore.CYAN}=> Binder is binding <={Style.RESET_ALL}")
 
-    tasks = [
-        ("Setup", setup_build_directory),
-        ("Templates", lambda: Environment(loader=FileSystemLoader("site/templates"))),
-        ("Markdown", setup_markdown_processor),
-        ("Data", build_homepage_data),
-        ("Assets", lambda: copy_static_assets("build")),
-        (
-            "Pages",
-            lambda: process_markdown_files(
-                "build",
-                Environment(loader=FileSystemLoader("site/templates")),
-                setup_markdown_processor(),
-            ),
-        ),
-        (
-            "Feeds",
-            lambda: generate_feeds(
-                "build", build_homepage_data(), setup_markdown_processor()
-            ),
-        ),
-    ]
+    # Step 1: Setup build directory
+    print("=> Setup ...")
+    build_dir = setup_build_directory()
+    print(f"{Fore.GREEN}=> Setup done{Style.RESET_ALL}")
 
-    results = {}
+    # Step 2: Templates
+    print("=> Templates ...")
+    template_env = Environment(loader=FileSystemLoader("site/templates"))
+    print(f"{Fore.GREEN}=> Templates done{Style.RESET_ALL}")
 
-    with tqdm(
-        total=len(tasks),
-        desc="Building",
-        bar_format="{desc}[{bar:60}] {percentage:3.0f}%",
-        ascii="-#",
-    ) as pbar:
-        for desc, task in tasks:
-            pbar.set_description(desc)
-            if desc == "Setup":
-                results["build_dir"] = task()
-            elif desc == "Templates":
-                results["template_env"] = task()
-            elif desc == "Markdown":
-                results["md_processor"] = task()
-            elif desc == "Data":
-                results["homepage_data"] = task()
-            elif desc == "Assets":
-                copy_static_assets(results["build_dir"])
-            elif desc == "Pages":
-                process_markdown_files(
-                    results["build_dir"],
-                    results["template_env"],
-                    results["md_processor"],
-                )
-            elif desc == "Feeds":
-                generate_feeds(
-                    results["build_dir"],
-                    results["homepage_data"],
-                    results["md_processor"],
-                )
-            pbar.update(1)
+    # Step 3: Markdown processor
+    print("=> Markdown ...")
+    md_processor = setup_markdown_processor()
+    print(f"{Fore.GREEN}=> Markdown done{Style.RESET_ALL}")
+
+    # Step 4: Build homepage data
+    print("=> Data ...")
+    homepage_data = build_homepage_data()
+    print(f"{Fore.GREEN}=> Data done{Style.RESET_ALL}")
+
+    # Step 5: Copy static assets
+    print("=> Assets ...")
+    copy_static_assets(build_dir)
+    print(f"{Fore.GREEN}=> Assets done{Style.RESET_ALL}")
+
+    # Step 6: Process markdown files
+    print("=> Pages ...")
+    process_markdown_files(build_dir, template_env, md_processor)
+    print(f"{Fore.GREEN}=> Pages done{Style.RESET_ALL}")
+
+    # Step 7: Generate feeds
+    print("=> Feeds ...")
+    generate_feeds(build_dir, homepage_data, md_processor)
+    print(f"{Fore.GREEN}=> Feeds done{Style.RESET_ALL}")
+
+    print(f"{Fore.GREEN}Build complete!{Style.RESET_ALL}\n")
 
     print(f"{Fore.GREEN}Build complete!{Style.RESET_ALL}\n")
 
