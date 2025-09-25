@@ -11,7 +11,7 @@ icon: fa-solid fa-calculator
 
 ## Lijnen
 
-Stelsels kun je op [verschillende manieren oplossen](../../4VWO/P3/wisb_h4.md).
+Stelsels kun je op [verschillende manieren oplossen](../../4VWO/P3/wisb_h4#getallenparen-en-stelsels).
 
 Voor de lijnen $ax+by=c$ en $px+qy=r$ geldt:
 
