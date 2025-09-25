@@ -63,7 +63,8 @@ def build_archive_data():
                             file.replace(".md", "").replace("_", " ").replace("-", ": ")
                         )
                         year_pages.append({"link": link, "title": title})
-        archive_data[year] = year_pages
+
+        archive_data[year] = sorted(year_pages, key=lambda p: p["title"])
 
     return archive_data
 
