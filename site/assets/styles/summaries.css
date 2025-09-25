@@ -50,9 +50,9 @@ svg {
     fill: var(--front);
 }
 
-p:has(mjx-container[jax="CHTML"][display="true"]),
 p mjx-container[jax="CHTML"][display="true"] {
-    margin: 0 !important;
+    margin-top: 0.25em !important;
+    margin-bottom: 0 !important;
 }
 
 mjx-container[display="true"] {
