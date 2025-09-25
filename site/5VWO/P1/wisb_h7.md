@@ -70,6 +70,6 @@ $$d(P, k) = \frac{\lvert ax_P + by_P - c \rvert}{\sqrt{a^2 + b^2}}$$
 De cirkel met middelpunt $M(x_M, y_M)$ en straal $r$ heeft vergelijking:
 $$(x - x_M)^2 + (y - y_M)^2 = r^2$$
 
-Als de lijn $k$ de cirkel $c$ met middelpunt $M$ en straal $r$ raakt in punt $A$, dan geldt: $MA \perp k$ en $ \quad d(M, k) = r$.
+Als de lijn $k$ de cirkel $c$ met middelpunt $M$ en straal $r$ raakt in punt $A$, dan geldt: $MA \perp k$ en $d(M, k) = r$.
 
 Bij raaklijnen van cirkels is het dus belangrijk dat de afstand van het middelpunt tot de lijn gelijk is aan de straal.
