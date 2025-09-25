@@ -32,25 +32,19 @@ def sort_period(period):
 
 
 def build_archive_data():
-    vwo_pages = []
-    for year_dir in [d for d in os.listdir("site") if re.match(r"[0-3]VWO", d)]:
-        year_path = os.path.join("site", year_dir)
-        if os.path.isdir(year_path):
-            for root, dirs, files in os.walk(year_path):
-                vwo_pages.append((root, dirs, files))
-
-    # Process all VWO years dynamically
     archive_data = {}
+    site_dir = "site"
     vwo_years = sorted(
-        [d for d in os.listdir("site") if re.match(r"[0-3]VWO", d)],
+        [d for d in os.listdir(site_dir) if re.match(r"[0-3]VWO", d)],
         key=lambda x: int(x[0]),
         reverse=True,
     )
 
     for year in vwo_years:
         year_pages = []
-        for root, dirs, files in vwo_pages:
-            if year in root:
+        year_path = os.path.join(site_dir, year)
+        if os.path.isdir(year_path):
+            for root, _, files in os.walk(year_path):
                 for file in files:
                     if file.endswith(".md"):
                         path_parts = root.split("/") + [file]
@@ -65,52 +59,49 @@ def build_archive_data():
 
 
 def build_homepage_data():
-    with open("site/data/test_data.json", "r", encoding="utf-8") as f:
+    site_dir = "site"
+    with open(
+        os.path.join(site_dir, "data/test_data.json"), "r", encoding="utf-8"
+    ) as f:
         data = json.load(f)
 
-    site_dir = "site"
-    main_dirs = [d for d in os.listdir(site_dir) if re.match(r"\dVWO", d)]
-
-    for main_dir in main_dirs:
+    file_cache = {}
+    for main_dir in [d for d in os.listdir(site_dir) if re.match(r"\dVWO", d)]:
         main_path = os.path.join(site_dir, main_dir)
-        sub_dirs = [
+        if not os.path.isdir(main_path):
+            continue
+        for sub_dir in [
             d
             for d in os.listdir(main_path)
             if os.path.isdir(os.path.join(main_path, d))
-        ]
-        for sub_dir in sub_dirs:
+        ]:
             sub_path = os.path.join(main_path, sub_dir)
-            files = [f for f in os.listdir(sub_path) if f.endswith(".md")]
-            for file in files:
+            for file in [f for f in os.listdir(sub_path) if f.endswith(".md")]:
                 file_path = os.path.join(sub_path, file)
-
                 with open(file_path, "r", encoding="utf-8") as f:
                     content = f.read()
+                front_matter = {}
+                test_code = []
+                summary_name = "Samenvatting"
+                summary_type = "basic"
 
                 match = re.match(r"---\n(.*?)\n---", content, re.DOTALL)
                 if match:
                     front_matter = yaml.safe_load(match.group(1))
-
                     test_code = front_matter.get("test_code", [])
                     if isinstance(test_code, str):
                         test_code = [test_code]
-
                     summary_name = front_matter.get("summary_name", "Samenvatting")
                     summary_type = front_matter.get("summary_type", "basic")
 
-                else:
-                    front_matter = []
-                    test_code = []
-                    summary_name = "Samenvatting"
-                    summary_type = "basic"
+                file_cache[file_path] = (test_code, summary_name, summary_type)
 
                 for test_data in filter(
                     lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]
                 ):
                     if summary_type != "basic":
                         if not any(
-                            summary_name in resource["title"]
-                            for resource in test_data["resources"]
+                            summary_name in r["title"] for r in test_data["resources"]
                         ):
                             test_data["resources"].append(
                                 {
@@ -120,36 +111,30 @@ def build_homepage_data():
                                 }
                             )
                         test_data["resources"].sort(key=lambda r: r["title"])
-
                     else:
                         test_data["summary_link"] = (
                             f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}"
                         )
                         test_data["summary_name"] = summary_name
-
                     if not test_data.get("summary_link") and "summary" in summary_type:
                         test_data["summary_made"] = True
 
     sorted_data = {}
-
     for year in sorted(data.keys(), key=sort_years):
         year_data = {}
-
         for period in sorted(data[year].keys(), key=sort_period, reverse=True):
-            if [
-                "Ouioui"
+            if any(
+                test.get("summary_link") or test.get("resources")
                 for test in data[year][period]
-                if test.get("summary_link") or test.get("resources")
-            ]:
-                tests_to_include = [
-                    test
-                    for test in data[year][period]
-                    if test.get("make_summary") or test.get("resources")
-                ]
+            ):
                 year_data[period] = sorted(
-                    tests_to_include, key=lambda subjectdata: subjectdata["subject"]
+                    [
+                        test
+                        for test in data[year][period]
+                        if test.get("make_summary") or test.get("resources")
+                    ],
+                    key=lambda t: t["subject"],
                 )
-
         if year_data:
             sorted_data[year] = year_data
 
@@ -169,76 +154,61 @@ def copy_static_assets(build_dir):
     if os.path.exists(assets_src):
         shutil.copytree(assets_src, os.path.join(build_dir, "assets"))
 
-    # Copy .well-known directory
     wellknown_src = "site/.well-known"
     if os.path.exists(wellknown_src):
         shutil.copytree(wellknown_src, os.path.join(build_dir, ".well-known"))
 
-    # Copy robots.txt from site directory
     robots_src = "site/robots.txt"
     if os.path.exists(robots_src):
         shutil.copy2(robots_src, os.path.join(build_dir, "robots.txt"))
 
-    # Copy images from year directories
     for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
         year_path = os.path.join("site", year_dir)
         if os.path.isdir(year_path):
             build_year_dir = os.path.join(build_dir, year_dir)
-            for root, dirs, files in os.walk(year_path):
+            for root, _, files in os.walk(year_path):
                 for file in files:
-                    if not file.endswith(".md"):  # Copy all non-markdown files
+                    if not file.endswith(".md"):
                         src_file = os.path.join(root, file)
-                        rel_path = os.path.relpath(src_file, year_path)
-                        dest_file = os.path.join(build_year_dir, rel_path)
-
+                        dest_file = os.path.join(
+                            build_year_dir, os.path.relpath(src_file, year_path)
+                        )
                         os.makedirs(os.path.dirname(dest_file), exist_ok=True)
                         shutil.copy2(src_file, dest_file)
 
-    # Copy CNAME from root if it exists
     if os.path.exists("CNAME"):
         shutil.copy2("CNAME", os.path.join(build_dir, "CNAME"))
 
 
 def get_git_dates(filepath):
-    print(filepath)
-
-    lines = (
-        subprocess.check_output(
-            [
-                "git",
-                "log",
-                "--follow",
-                "--format=%H %ct",
-                "--",
-                filepath,
-            ],
-            text=True,
-        )
-        .strip()
-        .split("\n")
-    )
     try:
-        first_commit = lines[-1].split()
-        last_commit = lines[0].split()
-        first_commit_ts = int(first_commit[1])
-        last_commit_ts = int(last_commit[1])
-        first_commit_dt = datetime.fromtimestamp(first_commit_ts, tz=timezone.utc)
-        last_commit_dt = datetime.fromtimestamp(last_commit_ts, tz=timezone.utc)
+        output = subprocess.check_output(
+            ["git", "log", "--follow", "--format=%H %ct", "--", filepath],
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
 
-        return first_commit_dt, last_commit_dt
-    except:
-        print(f"Failed to get git dates for {filepath}")
+        if not output:
+            raise ValueError("No git history found for the file.")
 
-    return datetime.now(timezone.utc), datetime.now(timezone.utc)
+        lines = output.split("\n")
+        first_commit_ts = int(lines[-1].split()[1])
+        last_commit_ts = int(lines[0].split()[1])
+
+        return datetime.fromtimestamp(
+            first_commit_ts, tz=timezone.utc
+        ), datetime.fromtimestamp(last_commit_ts, tz=timezone.utc)
+
+    except (subprocess.CalledProcessError, FileNotFoundError, ValueError) as e:
+        return datetime.now(timezone.utc), datetime.now(timezone.utc)
 
 
-def generate_feeds(build_dir, homepage_data, md_processor):
+def generate_feeds(build_dir, homepage_data, md_cache):
     fg = FeedGenerator()
     fg.title("Leermiddelenoverzicht")
     fg.description("Een verzameling van samenvattingen en leermiddelen")
     fg.id("https://school.gijs6.nl")
     fg.link(href="https://school.gijs6.nl", rel="alternate")
-    fg.link(href="https://school.gijs6.nl/rss.xml", rel="self")
     fg.language("nl")
     fg.author(name="Gijs ten Berg", email="gijs6@dupunkto.org")
     fg.generator("Binder")
@@ -246,85 +216,51 @@ def generate_feeds(build_dir, homepage_data, md_processor):
     for year, year_data in homepage_data.items():
         for period, tests in year_data.items():
             for test in tests:
-                if test.get("summary_link"):
-                    md_file_path = os.path.join(
-                        "site", test["summary_link"].lstrip("/") + ".md"
-                    )
-                    if os.path.exists(md_file_path):
-                        with open(md_file_path, "r", encoding="utf-8") as f:
-                            content = f.read()
-
-                        if content.startswith("---"):
-                            _, front_matter_str, markdown_content = content.split(
-                                "---", 2
-                            )
-                        else:
-                            markdown_content = content
-
-                        html_content = md_processor.convert(markdown_content.strip())
-                        html_content = remove_base64_images(html_content)
-                    else:
-                        html_content = f"Samenvatting voor {test['subject']} - {test['test_material']}"
-
+                entries = (
+                    [
+                        {
+                            "link": test.get("summary_link"),
+                            "title": f"{test['subject']} - {test['test_material']}",
+                        }
+                    ]
+                    if test.get("summary_link")
+                    else []
+                )
+                entries.extend(
+                    [
+                        {
+                            "link": r["link"],
+                            "title": f"{r['title']} - {test['subject']}",
+                            "internal": r.get("type") == "internal",
+                        }
+                        for r in test.get("resources", [])
+                    ]
+                )
+                for entry in entries:
+                    if not entry["link"]:
+                        continue
+                    html_content = md_cache.get(entry["link"], entry["title"])
                     fe = fg.add_entry()
-                    fe.title(
-                        f"{test['subject']} - {test['test_material']} ({year} {period})"
-                    )
-                    fe.link(href=f"https://school.gijs6.nl{test['summary_link']}")
-                    fe.id(f"https://school.gijs6.nl{test['summary_link']}")
+                    fe.title(entry["title"] + f" ({year} {period})")
+                    fe.link(href=f"https://school.gijs6.nl{entry['link']}")
+                    fe.id(f"https://school.gijs6.nl{entry['link']}")
                     fe.description(html_content)
-
-                    first_commit, last_commit = get_git_dates(md_file_path)
-                    fe.pubDate(first_commit)
-                    fe.updated(last_commit)
-
-                for resource in test.get("resources", []):
-                    if resource.get("type") == "internal":
-                        md_file_path = os.path.join(
-                            "site", resource["link"].lstrip("/") + ".md"
-                        )
-                        if os.path.exists(md_file_path):
-                            with open(md_file_path, "r", encoding="utf-8") as f:
-                                content = f.read()
-
-                            if content.startswith("---"):
-                                _, front_matter_str, markdown_content = content.split(
-                                    "---", 2
-                                )
-                            else:
-                                markdown_content = content
-
-                            html_content = md_processor.convert(
-                                markdown_content.strip()
-                            )
-                            html_content = remove_base64_images(html_content)
-                        else:
-                            html_content = f"{resource['title']} voor {test['subject']} - {test['test_material']}"
-
-                        fe = fg.add_entry()
-                        fe.title(
-                            f"{resource['title']} - {test['subject']} ({year} {period})"
-                        )
-                        fe.link(href=f"https://school.gijs6.nl{resource['link']}")
-                        fe.id(f"https://school.gijs6.nl{resource['link']}")
-                        fe.description(html_content)
-
+                    md_file_path = os.path.join(
+                        "site", entry["link"].lstrip("/") + ".md"
+                    )
+                    if md_file_path:
                         first_commit, last_commit = get_git_dates(md_file_path)
                         fe.pubDate(first_commit)
                         fe.updated(last_commit)
 
-    rss_xml = fg.rss_str(pretty=True)
     with open(os.path.join(build_dir, "rss.xml"), "wb") as f:
-        f.write(rss_xml)
-
-    atom_xml = fg.atom_str(pretty=True)
+        f.write(fg.rss_str(pretty=True))
     with open(os.path.join(build_dir, "atom.xml"), "wb") as f:
-        f.write(atom_xml)
+        f.write(fg.atom_str(pretty=True))
 
 
 def remove_base64_images(html_content):
-    img_pattern = r'<img[^>]*src="data:image/[^"]*"[^>]*>'
-    return re.sub(img_pattern, "", html_content)
+    return re.sub(r'<img[^>]*src="data:image/[^"]*"[^>]*>', "", html_content)
 
 
 def setup_markdown_processor():
@@ -337,75 +273,75 @@ def setup_markdown_processor():
 
 
 def process_markdown_files(build_dir, template_env, md_processor):
-    # Always generate index.html from home template
     homepage_data = build_homepage_data()
     archive_data = build_archive_data()
 
-    template = template_env.get_template("home.html")
-    rendered = template.render(
-        homepage_data=homepage_data,
-        archive_data=archive_data,
-        site={
-            "data": {"homepage_data": homepage_data},
-        },
-        page_path="site/templates/home.html",
-    )
+    md_cache = {}
 
+    # index.html
     with open(os.path.join(build_dir, "index.html"), "w", encoding="utf-8") as f:
-        f.write(rendered)
+        f.write(
+            template_env.get_template("home.html").render(
+                homepage_data=homepage_data,
+                archive_data=archive_data,
+                site={"data": {"homepage_data": homepage_data}},
+                page_path="site/templates/home.html",
+            )
+        )
 
-    # Process 404 page
-    template = template_env.get_template("404.html")
-    rendered = template.render()
-
+    # 404.html
     with open(os.path.join(build_dir, "404.html"), "w", encoding="utf-8") as f:
-        f.write(rendered)
+        f.write(template_env.get_template("404.html").render())
 
     for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
         year_path = os.path.join("site", year_dir)
-        if os.path.isdir(year_path):
-            build_year_dir = os.path.join(build_dir, year_dir)
-            os.makedirs(build_year_dir, exist_ok=True)
+        if not os.path.isdir(year_path):
+            continue
+        build_year_dir = os.path.join(build_dir, year_dir)
+        os.makedirs(build_year_dir, exist_ok=True)
 
-            for root, dirs, files in os.walk(year_path):
-                for file in files:
-                    if file.endswith(".md"):
-                        md_file_path = os.path.join(root, file)
-                        relative_path = os.path.relpath(md_file_path, year_path)
-                        build_path = os.path.join(
-                            build_year_dir, os.path.splitext(relative_path)[0] + ".html"
-                        )
+        for root, _, files in os.walk(year_path):
+            for file in files:
+                if not file.endswith(".md"):
+                    continue
+                md_file_path = os.path.join(root, file)
+                relative_path = os.path.relpath(md_file_path, year_path)
+                build_path = os.path.join(
+                    build_year_dir, os.path.splitext(relative_path)[0] + ".html"
+                )
+                os.makedirs(os.path.dirname(build_path), exist_ok=True)
+                with open(md_file_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                if content.startswith("---"):
+                    _, front_matter_str, markdown_content = content.split("---", 2)
+                    front_matter = yaml.safe_load(front_matter_str)
+                else:
+                    front_matter = {}
+                    markdown_content = content
 
-                        os.makedirs(os.path.dirname(build_path), exist_ok=True)
+                html_content = remove_base64_images(
+                    md_processor.convert(markdown_content.strip())
+                )
+                md_processor.reset()  # reset processor to reuse
 
-                        with open(md_file_path, "r", encoding="utf-8") as f:
-                            content = f.read()
+                md_cache[f"/{year_dir}/{os.path.splitext(relative_path)[0]}"] = (
+                    html_content
+                )
 
-                        if content.startswith("---"):
-                            _, front_matter_str, markdown_content = content.split(
-                                "---", 2
-                            )
-                            front_matter = yaml.safe_load(front_matter_str)
-                        else:
-                            front_matter = {}
-                            markdown_content = content
+                if front_matter.get("layout") == "summary":
+                    rendered = template_env.get_template("summary.html").render(
+                        content=html_content,
+                        page=front_matter,
+                        page_path=os.path.relpath(md_file_path, "site"),
+                    )
+                else:
+                    rendered = f"<html><body>{html_content}</body></html>"
 
-                        html_content = md_processor.convert(markdown_content.strip())
-                        html_content = remove_base64_images(html_content)
+                with open(build_path, "w", encoding="utf-8") as f:
+                    f.write(rendered)
 
-                        if front_matter.get("layout") == "summary":
-                            template = template_env.get_template("summary.html")
-                            page_path = os.path.relpath(md_file_path, "site")
-                            rendered = template.render(
-                                content=html_content,
-                                page=front_matter,
-                                page_path=page_path,
-                            )
-                        else:
-                            rendered = f"<html><body>{html_content}</body></html>"
-
-                        with open(build_path, "w", encoding="utf-8") as f:
-                            f.write(rendered)
+    # Return md_cache for feed generation
+    return homepage_data, md_cache
 
 
 class BuildHandler(FileSystemEventHandler):
@@ -414,22 +350,14 @@ class BuildHandler(FileSystemEventHandler):
         self.last_build = 0
 
     def on_modified(self, event):
-        if event.is_directory:
+        if event.is_directory or "build/" in event.src_path:
             return
-
-        # Ignore build directory changes
-        if "build/" in event.src_path:
-            return
-
-        # Debounce builds (max once per second)
         now = time.time()
         if now - self.last_build < 1:
             return
-
         self.last_build = now
-        filename = os.path.basename(event.src_path)
         print(
-            f"\n{Fore.YELLOW}Restarting! {Style.BRIGHT}{filename} has changed.{Style.RESET_ALL}\n"
+            f"\n{Fore.YELLOW}Restarting! {Style.BRIGHT}{os.path.basename(event.src_path)} changed.{Style.RESET_ALL}\n"
         )
         self.build_func()
 
@@ -457,54 +385,38 @@ def build():
     md_processor = setup_markdown_processor()
     print(f"{Fore.GREEN}=> Markdown done{Style.RESET_ALL}")
 
-    # Step 4: Build homepage data
-    print("=> Data ...")
-    homepage_data = build_homepage_data()
-    print(f"{Fore.GREEN}=> Data done{Style.RESET_ALL}")
-
-    # Step 5: Copy static assets
+    # Step 4: Copy static assets
     print("=> Assets ...")
     copy_static_assets(build_dir)
     print(f"{Fore.GREEN}=> Assets done{Style.RESET_ALL}")
 
-    # Step 6: Process markdown files
+    # Step 5: Process markdown files
     print("=> Pages ...")
-    process_markdown_files(build_dir, template_env, md_processor)
+    homepage_data, md_cache = process_markdown_files(
+        build_dir, template_env, md_processor
+    )
     print(f"{Fore.GREEN}=> Pages done{Style.RESET_ALL}")
 
-    # Step 7: Generate feeds
+    # Step 6: Generate feeds
     print("=> Feeds ...")
-    generate_feeds(build_dir, homepage_data, md_processor)
+    generate_feeds(build_dir, homepage_data, md_cache)
     print(f"{Fore.GREEN}=> Feeds done{Style.RESET_ALL}")
-
-    print(f"{Fore.GREEN}Build complete!{Style.RESET_ALL}\n")
 
     print(f"{Fore.GREEN}Build complete!{Style.RESET_ALL}\n")
 
 
 def serve(port=8000):
     print(f"{Fore.BLUE}Development server{Style.RESET_ALL}\n")
-
-    # Initial build
     build()
-
-    # Set up file watcher
-    event_handler = BuildHandler(build)
     observer = Observer()
-    observer.schedule(event_handler, "site", recursive=True)
+    observer.schedule(BuildHandler(build), "site", recursive=True)
     observer.start()
-
-    # Start HTTP server in a separate thread
     server = HTTPServer(("localhost", port), BuildHTTPServer)
-    server_thread = threading.Thread(target=server.serve_forever)
-    server_thread.daemon = True
-    server_thread.start()
-
+    threading.Thread(target=server.serve_forever, daemon=True).start()
     print(
         f"{Fore.GREEN}Serving on {Style.BRIGHT}http://localhost:{port}{Style.RESET_ALL}"
     )
     print(f"{Fore.MAGENTA}Watching for changes...{Style.RESET_ALL}")
-
     try:
         while True:
             time.sleep(1)
