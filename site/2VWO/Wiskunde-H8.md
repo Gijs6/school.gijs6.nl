@@ -14,8 +14,8 @@ De **vergrotingsfactor (k)** vertelt je hoeveel keer groter of kleiner een **bee
 
 |  | ***K* berekenen** | **… van beeld berekenen** | **… van origineel berekenen** |
 |----|----|----|----|
-| **Lengte** | $`\frac{Beeld}{Origineel}`$ | Origineel × *K* | Beeld ÷ *K* |
-| **Oppervlakte** | $``$ | Opp origineel × *K*² | Opp beeld ÷ *K*² |
-| **Inhoud** | $`\sqrt[3]{\frac{Beeld}{Origineel}}`$ | Inh origineel × *K*³ | Inh beeld ÷ *K*³ |
+| **Lengte** | $\frac{Beeld}{Origineel}$ | Origineel × *K* | Beeld ÷ *K* |
+| **Oppervlakte** | $$ | Opp origineel × *K*² | Opp beeld ÷ *K*² |
+| **Inhoud** | $\sqrt[3]{\frac{Beeld}{Origineel}}$ | Inh origineel × *K*³ | Inh beeld ÷ *K*³ |
 
 Let op! Gebruik altijd een overeenkomende afmeting, oppervlakte of inhoud bij het beeld en origineel! Als je bij het beeld dus *AB* meet, moet je dat bij het origineel ook doen.

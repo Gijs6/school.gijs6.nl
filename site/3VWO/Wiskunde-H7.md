@@ -62,7 +62,7 @@ Je kunt de formules voor sin, cos en tan ook ombouwen, om zijdes te berekenen.
 
 ## Ruimtelijke hoeken berekenen
 
-Ruimtelijk hoeken worden vaak aangegeven met 3 letters, zoals $`\angle`$BAC. In dit geval is de hoek die van de lijnstukken AB en AC. De letter waar de hoek bij staat, staat in het midden (dus A).
+Ruimtelijk hoeken worden vaak aangegeven met 3 letters, zoals $\angle$BAC. In dit geval is de hoek die van de lijnstukken AB en AC. De letter waar de hoek bij staat, staat in het midden (dus A).
 
 Om een hoek in een ruimte te berekenen, gebruik je het volgende stappenplan:
 

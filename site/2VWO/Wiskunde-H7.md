@@ -6,7 +6,7 @@ layout: summary
 
 ## Makkelijke vergelijkingen oplossen
 
-Als je een vergelijking hebt met in de vorm $`x² = c`$, kun je deze oplossen door de wortel te nemen van $`c`$. Er zijn **2 mogelijke uitkomsten**, net als in de vergelijking hiernaast.
+Als je een vergelijking hebt met in de vorm $x² = c$, kun je deze oplossen door de wortel te nemen van $c$. Er zijn **2 mogelijke uitkomsten**, net als in de vergelijking hiernaast.
 
 ## Ontbinden in factoren
 

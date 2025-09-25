@@ -24,7 +24,7 @@ De afgelegde afstand is niet uit een (x,t)-diagram te halen als de beweging eind
 
 ## Gemiddelde snelheid
 
-De **gemiddelde snelheid** geeft aan hoe snel iets of iemand beweegt. De formule hiervoor is $`gemiddelde\ snelheid = \frac{afstand}{tijd}`$ of in letters $`v_{gem} = \frac{s}{t}`$. De gemiddelde snelheid kun je uitdrukken in meters per seconde (m/s) of in kilometer per uur (km/h). Als de de formule $`v_{gem} = \frac{s}{t}`$ wilt gebruiken moeten *s* en *t* dus meters en seconden zijn of kilometers en uren. Je kan met de gemiddelde snelheid ook weer de tijd en afstand berekenen: $`s = v_{gem} \bullet t`$ en $`t = \frac{s}{v_{gem}}`$.
+De **gemiddelde snelheid** geeft aan hoe snel iets of iemand beweegt. De formule hiervoor is $gemiddelde\ snelheid = \frac{afstand}{tijd}$ of in letters $v_{gem} = \frac{s}{t}$. De gemiddelde snelheid kun je uitdrukken in meters per seconde (m/s) of in kilometer per uur (km/h). Als de de formule $v_{gem} = \frac{s}{t}$ wilt gebruiken moeten *s* en *t* dus meters en seconden zijn of kilometers en uren. Je kan met de gemiddelde snelheid ook weer de tijd en afstand berekenen: $s = v_{gem} \cdot t$ en $t = \frac{s}{v_{gem}}$.
 
 Een **(v,t)-diagram** is een snelheid-tijddiagram: je kan op elk tijdstip aflezen hoe groot de snelheid was.
 

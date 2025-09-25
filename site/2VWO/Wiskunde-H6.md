@@ -45,10 +45,10 @@ Bij een procentuele toename komt er een percentage van de waarde bij die waarde.
 
 Een schoenenwinkel verhoogt de prijs van een paar laarzen met 5 euro. De oude prijs was 10 euro, dus de nieuwe prijs is 15 euro. Om te weten met hoeveel procent de prijs is veranderd moet je de absolute toename weten: 5 euro, en de oude prijs: 10 euro. Vervolgens deel je de toename door oude waarde en vermenigvuldig je de uitkomst met 100%. Voor procentuele afname geldt hetzelfde, maar dan deel je de afname door de oude prijs.
 
-|     | **Procentuele toename** | $`\frac{toename}{oud}`$$`\  \times \ 100\%`$ |
+|     | **Procentuele toename** | $\frac{toename}{oud}$$\  \times \ 100\%$ |
 |-----|-------------------------|----------------------------------------------|
 |     |                         |                                              |
-|     | **Procentuele afname**  | $`\frac{afname}{oud}`$$`\  \times \ 100\%`$  |
+|     | **Procentuele afname**  | $\frac{afname}{oud}$$\  \times \ 100\%$  |
 
 ## Diagrammen
 
@@ -56,10 +56,10 @@ De *MediaSuper* heeft in juni bijgehouden hoeveel laptops er zijn verkocht per m
 
 Een cirkeldiagram bestaat uit sectoren van verschillende kleuren, en een legenda. De hoeken en de waardes van sectoren kun je berekenen:
 
-|  | **Hoek van sector** | $`\frac{aantal\ van\ sector}{totaal}`$$`\  \times 360`$º of $`\frac{percentage\ sector}{100}`$$`\  \times 360`$º |
+|  | **Hoek van sector** | $\frac{aantal\ van\ sector}{totaal}$$\  \times 360$º of $\frac{percentage\ sector}{100}$$\  \times 360$º |
 |----|----|----|
 |  |  |  |
-|  | **Aantal van sector** | $`\frac{hoek\ sector}{360º}`$$`\  \times totaal`$ |
+|  | **Aantal van sector** | $\frac{hoek\ sector}{360º}$$\  \times totaal$ |
 
 ## Frequentietabel en histogram
 
@@ -89,7 +89,7 @@ Joost heeft de afgelopen maand bijgehouden hoeveel mails hij per dag ontvangt:
 
 Om een indruk te krijgen van een serie getallen kun je gebruik maken van het **gemiddelde**:
 
-|  | **Gemiddelde =** $`\frac{som\ van\ waarnemingsgetallen}{aantal\ waarnemingsgetallen}`$ |
+|  | **Gemiddelde =** $\frac{som\ van\ waarnemingsgetallen}{aantal\ waarnemingsgetallen}$ |
 |----|----|
 
 Het gemiddelde is niet altijd de beste manier om een indruk weer te geven van getallen, want het zou kunnen dat je te maken hebt met bijna dezelfde getallen, of met veel kleine en een groot getal. Als dit het getal is, kun je beter de **mediaan** gebruiken:
@@ -108,9 +108,9 @@ Soms geeft het waarnemingsgetal met dat het meest voorkomt de beste indruk van e
 
 *<span class="mark">9 10 8 2 9 7 1 4 3 14 11 11 3</span>*
 
-Het gemiddelde is $`\frac{14 + ... + 3}{26}`$$`\  \approx 7,8`$.
+Het gemiddelde is $\frac{14 + ... + 3}{26}$$\  \approx 7,8$.
 
-Omdat er 26 waarnemingsgetallen zijn is de mediaan het gemiddelde van het 13e en 14e getal, dus $`\frac{7 + 8}{2}`$$`\  = \ 7,5`$.
+Omdat er 26 waarnemingsgetallen zijn is de mediaan het gemiddelde van het 13e en 14e getal, dus $\frac{7 + 8}{2}$$\  = \ 7,5$.
 
 De modus is het meest voorkomende waarnemingsgetal, dus dat is 7.
 
@@ -122,9 +122,9 @@ Lampenwinkel *De Verlichting* heeft in de maand augustus bijgehouden hoeveel lam
 |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
 | **<span class="mark">Frequentie</span>** | <span class="mark">3</span> | <span class="mark">1</span> | <span class="mark">2</span> | <span class="mark">1</span> | <span class="mark">1</span> | <span class="mark">1</span> | <span class="mark">4</span> | <span class="mark">1</span> | <span class="mark">2</span> | <span class="mark">1</span> | <span class="mark">3</span> | <span class="mark">1</span> | <span class="mark">2</span> | <span class="mark">2</span> | <span class="mark">1</span> |
 
-Het gemiddelde aantal verkochte lampen per dag krijg je door het totale aantal verkochte lampen te delen door de totale frequentie, dus dat is $`\frac{1 \times 3 + ... + 15 \times 1}{26}`$ $`\approx 7,8`$.
+Het gemiddelde aantal verkochte lampen per dag krijg je door het totale aantal verkochte lampen te delen door de totale frequentie, dus dat is $\frac{1 \times 3 + ... + 15 \times 1}{26}$ $\approx 7,8$.
 
-De totale frequentie is 26, dus de mediaan = $`\frac{13e + 14e\ getal}{2}`$$`\  = \ `$$`\frac{7 + 8}{2}`$$`\  = 7,5\ `$
+De totale frequentie is 26, dus de mediaan = $\frac{13e + 14e\ getal}{2}$$\  = \ $$\frac{7 + 8}{2}$$\  = 7,5\ $
 
 Je weet welk(e) getal(len) je moet gebruiken om de mediaan te krijgen door de frequenties op te tellen, totdat je bij het betreffende getal komt. Het 13e getal is dus 3+1+2+1+1+1+4 = 13. Dit is een 7.
 
@@ -138,7 +138,7 @@ Stefan heeft elke dinsdag in de zomer bijgehouden hoe warm het was om 12:00 uur:
 |-----------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | **Frequentie**  | 1   | 3   | 5   | 4   | 2   | 3   | 8   | 4   | 7   | 4   | 3   |
 
-De **totale frequentie** is 44. De **absolute frequentie** van het waarnemingsgetal 30 is 8. Stefan heeft dus 8 keer 30 graden gemeten. Om te weten op hoeveel procent van de dagen dit is, bereken je $`\frac{8}{44} \times 100\% \approx 18,2\%`$. Op 18,2% van de dagen is er dus 30 graden gemeten.
+De **totale frequentie** is 44. De **absolute frequentie** van het waarnemingsgetal 30 is 8. Stefan heeft dus 8 keer 30 graden gemeten. Om te weten op hoeveel procent van de dagen dit is, bereken je $\frac{8}{44} \times 100\% \approx 18,2\%$. Op 18,2% van de dagen is er dus 30 graden gemeten.
 
-|  | **Relatieve frequentie (hoeveel % een bepaald waarnemingsgetal voorkomt) =** $`\frac{absolute\ frequentie}{totale\ frequentie}`$$`\  \times 100\%`$ |
+|  | **Relatieve frequentie (hoeveel % een bepaald waarnemingsgetal voorkomt) =** $\frac{absolute\ frequentie}{totale\ frequentie}$$\  \times 100\%$ |
 |----|----|

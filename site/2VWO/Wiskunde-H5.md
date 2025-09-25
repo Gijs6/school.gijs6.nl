@@ -10,7 +10,7 @@ Bij een rechthoekige driehoek heb je een hoek van 90 graden. De 2 zijden die dez
 
 ## Pythagoras in de ruimte
 
-In de figuur zie je het diagonaalvlak *BCGH* (blauw) van de balk *ABCD EFGH*. Er zijn altijd 6 mogelijke diagonaalvlakken bij een balk. Een diagonaal van een diagonaalvlak is een lichaamsdiagonaal (rood). Van deze balk zijn de lichaamsdiagonalen *AF*, *BG*, *DE* en *HC*. Een lichaamsdiagonaal kun je berekenen met de uitgebreide stelling van Pythagoras: **lichaamsdiagonaal² = lengte² + breedte² + hoogte²**, of makkelijker **lichaamsdiagonaal =** $``$**.** Om de lengte van *GI* (groen) te berekenen, moet je de afmetingen gebruiken van de kleinere balk *AIJD HKLG*. Je haalt dus eigenlijk een stukje van de balk weg.
+In de figuur zie je het diagonaalvlak *BCGH* (blauw) van de balk *ABCD EFGH*. Er zijn altijd 6 mogelijke diagonaalvlakken bij een balk. Een diagonaal van een diagonaalvlak is een lichaamsdiagonaal (rood). Van deze balk zijn de lichaamsdiagonalen *AF*, *BG*, *DE* en *HC*. Een lichaamsdiagonaal kun je berekenen met de uitgebreide stelling van Pythagoras: **lichaamsdiagonaal² = lengte² + breedte² + hoogte²**, of makkelijker **lichaamsdiagonaal =** $$**.** Om de lengte van *GI* (groen) te berekenen, moet je de afmetingen gebruiken van de kleinere balk *AIJD HKLG*. Je haalt dus eigenlijk een stukje van de balk weg.
 
 ## *Bach*-stelling
 

@@ -41,11 +41,11 @@ De **netspanning** uit het stopcontact in Nederland is **230 V**. Deze spanninge
 
 ## Formules
 
-Het **vermogen** kun je berekenen met de formule $`P = U \bullet I`$.
+Het **vermogen** kun je berekenen met de formule $P = U \cdot I$.
 
-De **stroomsterkte** kun je berekenen met de formule $`I = \ `$$`\frac{P}{U}`$.
+De **stroomsterkte** kun je berekenen met de formule $I = \ $$\frac{P}{U}$.
 
-De **spanning** kun je berekenen met de formule $`U = \ `$$`\frac{P}{I}`$.
+De **spanning** kun je berekenen met de formule $U = \ $$\frac{P}{I}$.
 
 ## Begrippenlijst
 

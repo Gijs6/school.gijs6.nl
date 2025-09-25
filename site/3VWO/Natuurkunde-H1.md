@@ -52,15 +52,15 @@ De spanning in de primaire spoel is de primaire spanning, en in de secundaire sp
 
 ## Rekenen met transformatoren
 
-De verhouding tussen het aantal windingen in de primaire en secundaire spoel is hetzelfde als de verhouding tussen de primaire en secundaire spanning. Hiernaast zie dat in formulevorm. Bij een **ideale transformator** gaat er geen energie verloren, en is het primaire en secundaire vermogen gelijk. Daarbij hoort de formule $`U_{P} \bullet I_{P} = U_{S} \bullet I_{S}`$.
+De verhouding tussen het aantal windingen in de primaire en secundaire spoel is hetzelfde als de verhouding tussen de primaire en secundaire spanning. Hiernaast zie dat in formulevorm. Bij een **ideale transformator** gaat er geen energie verloren, en is het primaire en secundaire vermogen gelijk. Daarbij hoort de formule $U_{P} \cdot I_{P} = U_{S} \cdot I_{S}$.
 
 ## Huisinstallaties
 
-De totale stroomsterkte in een groep kun je berekenen door de stroomsterkte van alle takken bij elkaar op te tellen: $`I_{tot} = I_{1} + I_{2} + I_{3} + ...`$.
+De totale stroomsterkte in een groep kun je berekenen door de stroomsterkte van alle takken bij elkaar op te tellen: $I_{tot} = I_{1} + I_{2} + I_{3} + ...$.
 
-Met de formule $`P = U \bullet I`$ kun je het vermogen, de spanning en de stroomsterkte berekenen.
+Met de formule $P = U \cdot I$ kun je het vermogen, de spanning en de stroomsterkte berekenen.
 
-Het totale vermogen in een groep kun je berekenen door het vermogen van alle apparaten bij elkaar op te tellen: $`P_{tot} = P_{1} + P_{2} + P_{3} + ...`$.
+Het totale vermogen in een groep kun je berekenen door het vermogen van alle apparaten bij elkaar op te tellen: $P_{tot} = P_{1} + P_{2} + P_{3} + ...$.
 
 De spanning is in een huisinstallatie overal gelijk: **230 V**.
 
