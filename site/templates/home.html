@@ -42,7 +42,7 @@
                                 {% endif %}
                                 <span class="subject">{{ test_data.subject }}:</span>
                                 <span class="test_material">{{ test_data.test_material }}</span>
-                                <span class="test_code">({{ test_data.test_code }})</span>
+                                {% if test_data.test_code %}<span class="test_code">({{ test_data.test_code }})</span>{% endif %}
                                 <ul>
                                     {% if not test_data.get('summary_made') %}
                                         {% if test_data.get('summary_link') %}
