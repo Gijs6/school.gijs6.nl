@@ -4,6 +4,7 @@ import re
 import subprocess
 import time
 import threading
+import tempfile
 
 import argparse
 
@@ -148,14 +149,6 @@ def build_homepage_data():
             sorted_data[year] = year_data
 
     return sorted_data
-
-
-def setup_build_directory():
-    build_dir = "build"
-    if os.path.exists(build_dir):
-        shutil.rmtree(build_dir)
-    os.makedirs(build_dir)
-    return build_dir
 
 
 def copy_static_assets(build_dir):
@@ -381,7 +374,7 @@ def build():
 
     # Step 1: Setup build directory
     print("=> Setup ...")
-    build_dir = setup_build_directory()
+    temp_build_dir = tempfile.mkdtemp()
     print(f"{Fore.GREEN}=> Setup done{Style.RESET_ALL}")
 
     # Step 2: Templates
@@ -396,20 +389,28 @@ def build():
 
     # Step 4: Copy static assets
     print("=> Assets ...")
-    copy_static_assets(build_dir)
+    copy_static_assets(temp_build_dir)
     print(f"{Fore.GREEN}=> Assets done{Style.RESET_ALL}")
 
     # Step 5: Process markdown files
     print("=> Pages ...")
     homepage_data, md_cache = process_markdown_files(
-        build_dir, template_env, md_processor
+        temp_build_dir, template_env, md_processor
     )
     print(f"{Fore.GREEN}=> Pages done{Style.RESET_ALL}")
 
     # Step 6: Generate feeds
     print("=> Feeds ...")
-    generate_feeds(build_dir, homepage_data, md_cache)
+    generate_feeds(temp_build_dir, homepage_data, md_cache)
     print(f"{Fore.GREEN}=> Feeds done{Style.RESET_ALL}")
+
+    # Step 7: Output to build
+    print("=> Output ...")
+    final_build_dir = "build"
+    if os.path.exists(final_build_dir):
+        shutil.rmtree(final_build_dir)
+    shutil.move(temp_build_dir, final_build_dir)
+    print(f"{Fore.GREEN}=> Output donne{Style.RESET_ALL}")
 
     print(f"{Fore.GREEN}Build complete!{Style.RESET_ALL}\n")
 
