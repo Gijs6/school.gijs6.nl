@@ -76,6 +76,8 @@ def build_homepage_data():
         data = json.load(f)
 
     file_cache = {}
+    manual_entries = []
+
     for main_dir in [d for d in os.listdir(site_dir) if re.match(r"\dVWO", d)]:
         main_path = os.path.join(site_dir, main_dir)
         if not os.path.isdir(main_path):
@@ -97,15 +99,33 @@ def build_homepage_data():
 
                 match = re.match(r"---\n(.*?)\n---", content, re.DOTALL)
                 if match:
-                    front_matter = yaml.safe_load(match.group(1))
+                    front_matter = yaml.safe_load(match.group(1)) or {}
                     test_code = front_matter.get("test_code", [])
                     if isinstance(test_code, str):
                         test_code = [test_code]
                     summary_name = front_matter.get("summary_name", "Samenvatting")
                     summary_type = front_matter.get("summary_type", "basic")
 
-                file_cache[file_path] = (test_code, summary_name, summary_type)
+                if front_matter.get("data-source") == "manual":
+                    manual_entries.append(
+                        {
+                            "year": main_dir,
+                            "period": sub_dir,
+                            "subject": front_matter.get("subject", "Onbekend"),
+                            "test_type": front_matter.get("test_type", "Toets"),
+                            "test_material": front_matter.get("test_material", ""),
+                            "make_summary": front_matter.get("make_summary", True),
+                            "icon": front_matter.get("icon", "fa-solid fa-file-lines"),
+                            "resources": front_matter.get("resources", []),
+                            "summary_link": f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}",
+                            "summary_name": front_matter.get(
+                                "summary_name", "Samenvatting"
+                            ),
+                        }
+                    )
+                    continue
 
+                file_cache[file_path] = (test_code, summary_name, summary_type)
                 for test_data in filter(
                     lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]
                 ):
@@ -128,6 +148,10 @@ def build_homepage_data():
                         test_data["summary_name"] = summary_name
                     if not test_data.get("summary_link") and "summary" in summary_type:
                         test_data["summary_made"] = True
+
+    for entry in manual_entries:
+        year, period = entry["year"], entry["period"]
+        data.setdefault(year, {}).setdefault(period, []).append(entry)
 
     sorted_data = {}
     for year in sorted(data.keys(), key=sort_years):
