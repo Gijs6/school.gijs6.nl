@@ -2,6 +2,9 @@
 layout: summary
 title: WISB - H7 - Samenvatting
 data-source: manual
+subject: WISB
+test_material: H7 (Meetkunde met coördinaten)
+icon: fa-solid fa-calculator
 ---
 
 # Wiskunde B: Hoofdstuk 7 (Meetkunde met coördinaten)
