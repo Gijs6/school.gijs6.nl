@@ -27,52 +27,54 @@
             <a href="/atom.xml"><i class="fa-solid fa-square-rss"></i> Atom</a>
         </p>
         {% for year, year_data in homepage_data.items() %}
-            <h2>{{ year }}</h2>
-            {% for period, period_data in year_data.items() %}
-                <h3>{{ period }}</h3>
-                <ul>
-                    {% for test_data in period_data %}
-                        <li>
-                            {% if test_data.icon in ["NETL", "ENTL", "FATL"] %}
-                                <img src="/assets/images/{{ test_data.icon }}.png"
-                                     alt="Een vlag om het vak {{ test_data.icon }} te duiden">
-                            {% else %}
-                                <i class="{{ test_data.icon }}"></i>
-                            {% endif %}
-                            <span class="subject">{{ test_data.subject }}:</span>
-                            <span class="test_material">{{ test_data.test_material }}</span>
-                            <span class="test_code">({{ test_data.test_code }})</span>
-                            <ul>
-                                {% if not test_data.get('summary_made') %}
-                                    {% if test_data.get('summary_link') %}
+            <section class="year-container">
+                <h2>{{ year }}</h2>
+                {% for period, period_data in year_data.items() %}
+                    <h3>{{ period }}</h3>
+                    <ul>
+                        {% for test_data in period_data %}
+                            <li>
+                                {% if test_data.icon in ["NETL", "ENTL", "FATL"] %}
+                                    <img src="/assets/images/{{ test_data.icon }}.png"
+                                         alt="Een vlag om het vak {{ test_data.icon }} te duiden" />
+                                {% else %}
+                                    <i class="{{ test_data.icon }}"></i>
+                                {% endif %}
+                                <span class="subject">{{ test_data.subject }}:</span>
+                                <span class="test_material">{{ test_data.test_material }}</span>
+                                <span class="test_code">({{ test_data.test_code }})</span>
+                                <ul>
+                                    {% if not test_data.get('summary_made') %}
+                                        {% if test_data.get('summary_link') %}
+                                            <li class="link active">
+                                                <a href="{{ test_data.summary_link }}">
+                                                    {{ test_data.get('summary_name', 'Samenvatting') }} <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </li>
+                                        {% elif test_data.get('make_summary') %}
+                                            <li class="link notyetactive">Samenvatting nog niet beschikbaar</li>
+                                        {% else %}
+                                            <li class="link neveractive">Geen samenvatting</li>
+                                        {% endif %}
+                                    {% endif %}
+                                    {% for resource in test_data.get('resources', []) %}
                                         <li class="link active">
-                                            <a href="{{ test_data.summary_link }}">
-                                                {{ test_data.get('summary_name', 'Samenvatting') }} <i class="fa-solid fa-arrow-right"></i>
+                                            <a href="{{ resource.link }}">
+                                                {{ resource.title }}
+                                                {% if resource.get('type') ==  "internal" %}
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                {% else %}
+                                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                                {% endif %}
                                             </a>
                                         </li>
-                                    {% elif test_data.get('make_summary') %}
-                                        <li class="link notyetactive">Samenvatting nog niet beschikbaar</li>
-                                    {% else %}
-                                        <li class="link neveractive">Geen samenvatting</li>
-                                    {% endif %}
-                                {% endif %}
-                                {% for resource in test_data.get('resources', []) %}
-                                    <li class="link active">
-                                        <a href="{{ resource.link }}">
-                                            {{ resource.title }}
-                                            {% if resource.get('type') == "internal" %}
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            {% else %}
-                                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                            {% endif %}
-                                        </a>
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        </li>
-                    {% endfor %}
-                </ul>
-            {% endfor %}
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endfor %}
+            </section>
         {% endfor %}
         <h1 id="archive">Onderbouw</h1>
         {% for year, pages in archive_data.items() %}
