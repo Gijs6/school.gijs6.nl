@@ -58,7 +58,7 @@ def build_archive_data():
                 for file in files:
                     if file.endswith(".md"):
                         path_parts = root.split("/") + [file]
-                        link = f"/{'/'.join(path_parts[-2:]).replace('.md', '.html')}"
+                        link = f"/{'/'.join(path_parts[-2:]).replace('.md', '')}"
                         title = (
                             file.replace(".md", "").replace("_", " ").replace("-", ": ")
                         )
@@ -367,6 +367,16 @@ class BuildHandler(FileSystemEventHandler):
 class BuildHTTPServer(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory="build", **kwargs)
+
+    def do_GET(self):
+        path = self.translate_path(self.path)
+        if not os.path.exists(path):
+            if not self.path.endswith("/") and "." not in path:
+                new_path = path + ".html"
+                if os.path.exists(new_path):
+                    self.path += ".html"
+        return super().do_GET()
+
 
 
 def build():
