@@ -341,7 +341,7 @@ def process_markdown_files(build_dir, template_env, md_processor):
                     rendered = template_env.get_template("summary.html").render(
                         content=html_content,
                         page=front_matter,
-                        page_path=os.path.relpath(md_file_path, "site"),
+                        page_path=md_file_path,
                     )
                 else:
                     rendered = f"<html><body>{html_content}</body></html>"
