@@ -31,6 +31,12 @@ body {
     }
 }
 
+a {
+    text-decoration-color: var(--blue);
+    color: inherit;
+    font-weight: 600;
+}
+
 a:hover {
     color: var(--blue);
 }
@@ -44,6 +50,7 @@ li {
     display: flex;
     flex-direction: column;
 }
+
 #feeds a {
     display: flex;
     flex-direction: row;

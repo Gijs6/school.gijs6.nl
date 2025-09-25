@@ -33,12 +33,6 @@ header a {
     width: fit-content;
 }
 
-a {
-    text-decoration-color: var(--blue);
-    color: inherit;
-    font-weight: 600;
-}
-
 main a[href*="http"]::after {
     content: "\f08e";
     font-family: "Font Awesome 6 Free";

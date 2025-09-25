@@ -50,15 +50,18 @@ li ul li {
 }
 
 a {
-    text-decoration-color: light-dark(#777, #888);
+    text-decoration-color: #888;
     color: var(--blue);
     font-weight: 600;
 }
 
-footer a {
-    color: inherit;
-}
-
 a:hover {
     text-decoration-color: var(--blue);
+}
+
+
+footer a {
+    text-decoration-color: var(--blue);
+    color: inherit;
+    font-weight: 600;
 }
