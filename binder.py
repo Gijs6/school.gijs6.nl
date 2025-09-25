@@ -403,7 +403,6 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
         return super().do_GET()
 
 
-
 def build():
     print(f"{Fore.CYAN}=> Binder is binding <={Style.RESET_ALL}")
 
