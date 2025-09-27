@@ -396,7 +396,18 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
     def do_GET(self):
         path = self.translate_path(self.path)
 
-        # if request maps directly to a file
+        # root or directory request -> try index.html
+        if self.path.endswith("/") or self.path == "":
+            index_path = os.path.join(path, "index.html")
+            if os.path.isfile(index_path):
+                self.path = (
+                    self.path.rstrip("/") + "/index.html"
+                    if not self.path.endswith("index.html")
+                    else self.path
+                )
+                return super().do_GET()
+
+        # direct file
         if os.path.isfile(path):
             return super().do_GET()
 
