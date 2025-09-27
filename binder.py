@@ -395,12 +395,30 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         path = self.translate_path(self.path)
-        if not os.path.exists(path):
-            if not self.path.endswith("/") and "." not in path:
-                new_path = path + ".html"
-                if os.path.exists(new_path):
-                    self.path += ".html"
-        return super().do_GET()
+
+        # if request maps directly to a file
+        if os.path.isfile(path):
+            return super().do_GET()
+
+        # try with ".html" extension
+        if not self.path.endswith("/") and "." not in os.path.basename(self.path):
+            html_path = path + ".html"
+            if os.path.isfile(html_path):
+                self.path += ".html"
+                return super().do_GET()
+
+        # serve 404.html if nothing matches
+        not_found_path = os.path.join(self.directory, "404.html")
+        if os.path.isfile(not_found_path):
+            self.send_response(404)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            with open(not_found_path, "rb") as f:
+                self.wfile.write(f.read())
+            return
+
+        # fallback: plain 404 if 404.html missing
+        self.send_error(404, "File not found")
 
 
 def build():
