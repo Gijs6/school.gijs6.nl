@@ -41,4 +41,8 @@ Beide harthelften pompen evenveel bloed, maar de linkerhelft doet dit met hogere
 
 ## Embryonale bloedsomloop
 
-Bij een embryo spelen de longen nog geen rol. Zuurstof en voedingsstoffen komen via de **placenta** van de moeder via de **navelstreng**. Het zuurstofrijke bloed uit de **naverstrengader** komt in de onderste holle ader en mengt zich met zuurstofarm bloed. Een embryo heeft dus **gemengd bloed**.
+Bij een embryo spelen de longen nog geen rol. Zuurstof en voedingsstoffen komen via de **placenta** en de **navelstreng**. Het zuurstofrijke bloed uit de navelstrengader mengt zich met zuurstofarm bloed in de onderste holle ader. Embryo's hebben dus **gemengd bloed**.
+
+Omdat de longen nog niet functioneren, hebben embryo's twee speciale verbindingen: het **foramen ovale** (tussen de rechter- en linkerboezem) en de **ductus Botalli** (tussen de longslagader en de aorta). Hierdoor kan bloed de longen deels overslaan en rechtstreeks in de aorta of linkerboezem stromen.
+
+Na de geboorte scheiden de grote en kleine bloedsomloop zich. De longen vullen zich met lucht (ipv met vruchtwater). Hierdoor stijgt de druk in de linkerharthelft boven die van de rechterharthelft, waardoor het foramen ovale en de ductus Botalli zich sluiten.
