@@ -50,17 +50,17 @@ $$x_M = \frac{1}{2}(x_A + x_B) \quad\quad y_M = \frac{1}{2}(y_A + y_B)$$
 
 ### Loodrechte lijnen
 
-Voor twee lijnen die loodrecht op elkaar staan geldt: $\text{rc}_k \cdot \text{rc}_l = -1$
+Voor twee lijnen die loodrecht op elkaar staan geldt: $\text{rc}_k \cdot \text{rc}_l = -1$.
 
-Voor de lijn $ax+by=c$ met $b \neq 0$ geldt: $\text{rc} = -\frac{a}{b}$
+Voor de lijn $ax+by=c$ met $b \neq 0$ geldt: $\text{rc} = -\tfrac{a}{b}$.
 
-Voor de lijn $bx - ay = d$ met $a \neq 0$ geldt: $\text{rc} = \frac{b}{a}$
+Voor de lijn $bx - ay = d$ met $a \neq 0$ geldt: $\text{rc} = \tfrac{b}{a}$.
 
 Hieruit volgt dat de lijnen $ax+by=c$ en $bx-ay=d$ loodrecht op elkaar staan.
 
 ### Afstand van een punt tot een lijn
 
-Bij de afstand van een punt tot een lijn speelt de **loodrechte projectie** een rol. Dit is de lijn vanuit het punt die loodrecht op de lijn staat. De afstand van een punt $P$ tot de lijn $l$ is de afstand van $P$ tot zijn loodrechte projectie $P'$ op $l$.
+Bij de afstand van een punt tot een lijn speelt de **loodrechte projectie** een rol. Dit is de lijn vanuit het punt die loodrecht op de gegeven lijn staat. De afstand van een punt $P$ tot de lijn $l$ is de afstand van $P$ tot zijn loodrechte projectie $P'$ op $l$.
 
 De afstand kan sneller worden berekend met de **afstandsformule**. Voor een punt $P(x_P, y_P)$ en een lijn $k: ax + by = c$ geldt:
 $$d(P, k) = \frac{\lvert ax_P + by_P - c \rvert}{\sqrt{a^2 + b^2}}$$
