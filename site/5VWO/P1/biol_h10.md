@@ -47,3 +47,13 @@ Bij een embryo spelen de longen nog geen rol. Zuurstof en voedingsstoffen komen 
 Omdat de longen nog niet functioneren, hebben embryo's twee speciale verbindingen: het **foramen ovale** (tussen de rechter- en linkerboezem) en de **ductus Botalli** (tussen de longslagader en de aorta). Hierdoor kan bloed de longen deels overslaan en rechtstreeks in de aorta of linkerboezem stromen.
 
 Na de geboorte scheiden de grote en kleine bloedsomloop zich. De longen vullen zich met lucht (ipv met vruchtwater). Hierdoor stijgt de druk in de linkerharthelft boven die van de rechterharthelft, waardoor het foramen ovale en de ductus Botalli zich sluiten.
+
+## Bloeddruk
+
+De **bloeddruk** ontstaat door het samentrekken van de kamers. De druk in de slagaders stijgt bij het samentrekken van de kamers: de **systolische druk** (**bovendruk**). Tijdens de **diastole** daalt de druk: dit is de **diastolische druk** (**onderdruk**). Het verschil tussen beide wordt kleiner naarmate het bloed verder van het hart stroomt, omdat het pomp-effect afneemt.
+
+Bloeddruk wordt officieel gemeten in Pascal (Pa), maar meestal in millimeter kwik (mm Hg).
+
+> Millimeter kwik als eenheid voor bloeddruk is volkomen achterhaald. We hebben een universele eenheid voor druk, maar nee, we blijven lekker meten met een stukje vloeibaar metaal uit de 18e eeuw.
+
+Om bloeddruk te meten gebruik je een **manchet** en een **stethoscoop**. De manchet wordt opgeblazen en sluit de armslagader af. Bij het langzaam laten ontsnappen van lucht hoort de arts eerst het bloed stromen (**bovendruk**) en later wanneer het ongehinderd doorstroomt (**onderdruk**).
