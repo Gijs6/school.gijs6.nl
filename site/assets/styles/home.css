@@ -26,7 +26,16 @@ li ul li {
 }
 
 #header-txt {
-    font-size: 1.2em;
+    font-size: 1.1em;
+}
+
+#header-txt p {
+    margin-block: 0.25em;
+}
+
+.header-txt-name {
+    color: inherit;
+    font-weight: unset;
 }
 
 .subject,
