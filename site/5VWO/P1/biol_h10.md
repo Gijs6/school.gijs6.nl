@@ -5,6 +5,7 @@ data-source: manual
 subject: BIOL
 test_material: H10 (Bloedsomloop)
 icon: fa-solid fa-seedling
+hidden: true
 ---
 
 # Biologie: Hoofdstuk 10 (Bloedsomloop)
