@@ -108,28 +108,34 @@ def build_homepage_data():
                     summary_type = front_matter.get("summary_type", "basic")
 
                 if front_matter.get("data-source") == "manual":
-                    manual_entries.append(
-                        {
-                            "year": main_dir,
-                            "period": sub_dir,
-                            "subject": front_matter.get("subject", "Onbekend"),
-                            "test_type": front_matter.get("test_type", "Toets"),
-                            "test_material": front_matter.get("test_material", ""),
-                            "make_summary": front_matter.get("make_summary", True),
-                            "icon": front_matter.get("icon", "fa-solid fa-file-lines"),
-                            "resources": front_matter.get("resources", []),
-                            "summary_link": f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}",
-                            "summary_name": front_matter.get(
-                                "summary_name", "Samenvatting"
-                            ),
-                        }
-                    )
+                    if not front_matter.get("hidden"):
+                        manual_entries.append(
+                            {
+                                "year": main_dir,
+                                "period": sub_dir,
+                                "subject": front_matter.get("subject", "Onbekend"),
+                                "test_type": front_matter.get("test_type", "Toets"),
+                                "test_material": front_matter.get("test_material", ""),
+                                "make_summary": front_matter.get("make_summary", True),
+                                "icon": front_matter.get(
+                                    "icon", "fa-solid fa-file-lines"
+                                ),
+                                "resources": front_matter.get("resources", []),
+                                "summary_link": f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}",
+                                "summary_name": front_matter.get(
+                                    "summary_name", "Samenvatting"
+                                ),
+                            }
+                        )
                     continue
 
                 file_cache[file_path] = (test_code, summary_name, summary_type)
                 for test_data in filter(
                     lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]
                 ):
+                    if front_matter.get("hidden"):
+                        continue
+
                     if summary_type != "basic":
                         if not any(
                             summary_name in r["title"] for r in test_data["resources"]
