@@ -1,35 +1,104 @@
-.page-opening p {
-    margin-block: 0.5em;
+.page-opening {
+    p {
+        margin-block: 0.5em;
+    }
+
+    .page-opening-author-link {
+        color: var(--blue);
+        font-weight: 500;
+    }
 }
 
 .page-feeds {
     display: flex;
-    flex-direction: column;
-}
-
-.test-item {
+    flex-direction: row;
+    gap: 1em;
     margin-block: 1em;
+
+    margin-bottom:;
+    .page-feeds-link {
+        display: flex;
+        align-items: center;
+        gap: 0.25em;
+        color: var(--blue);
+        font-weight: 500;
+        text-decoration: none;
+
+        i {
+            font-size: 1.2em;
+        }
+    }
 }
 
-.test-item-subject {
-    font-weight: 900;
+.homepage-years {
+    .year-header {
+        font-size: 1.75em;
+        font-weight: 700;
+        margin-block-end: 0.5em;
+    }
+
+    .period-header {
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-block-end: 0.25em;
+    }
+
+    .test-item {
+        margin-block: 1em;
+
+        .test-item-icon {
+            display: inline-block;
+            width: 1.5em;
+            text-align: center;
+
+            img.test-item-icon-img {
+                max-width: 100%;
+            }
+        }
+
+        .test-item-subject {
+            font-weight: 900;
+        }
+
+        .test-item-code {
+            font-size: 0.8em;
+            font-weight: 200;
+        }
+
+        .test-link {
+            margin-block: 0.25em;
+
+            &.test-link-active a {
+                color: var(--blue);
+                font-weight: 500;
+            }
+
+            &.test-link-pending,
+            &.test-link-none {
+                color: light-dark(var(--oc-gray-6), var(--oc-gray-4));
+                font-style: italic;
+            }
+        }
+    }
 }
 
-.test-item-code {
-    font-size: 0.8em;
-    font-weight: 200;
-}
+.archive-container {
+    .archive-title {
+        font-size: 1.8em;
+        margin-block: 1em 0.5em;
+    }
 
-.test-link {
-    margin-block: 0.25em;
-}
+    .archive-year-header {
+        font-size: 1.5em;
+        margin-block: 0.5em;
+    }
 
-.test-item-icon {
-    display: inline-block;
-    width: 1.5em;
-    text-align: center;
-}
+    .archive-page-item {
+        margin-block: 0.5em;
 
-.archive-page-item {
-    margin-block: 0.5em;
+        .archive-page-link {
+            color: var(--blue);
+            font-weight: 500;
+        }
+    }
 }

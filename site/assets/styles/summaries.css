@@ -28,54 +28,58 @@ strong {
 table {
     border-collapse: collapse;
     border: 1px solid light-dark(var(--oc-gray-5), var(--oc-gray-6));
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-}
+    margin-block: 1em;
 
-td,
-th {
-    border: 1px solid var(--front);
-    padding: 5px 10px;
-}
+    td,
+    th {
+        border: 1px solid var(--front);
+        padding: 5px 10px;
+    }
 
-th {
-    background-color: light-dark(var(--oc-gray-0), var(--back));
-}
+    th {
+        background-color: light-dark(var(--oc-gray-0), var(--back));
+    }
 
-tr:nth-child(even) td {
-    background-color: light-dark(var(--oc-gray-0), var(--back));
-}
+    tr {
+        &:nth-child(even) td {
+            background-color: light-dark(var(--oc-gray-0), var(--back));
+        }
 
-tr:nth-child(odd) td {
-    background-color: light-dark(var(--oc-gray-2), var(--oc-gray-9));
-}
+        &:nth-child(odd) td {
+            background-color: light-dark(var(--oc-gray-2), var(--oc-gray-9));
+        }
 
-tr:first-child td {
-    border-top: none; /* Only for tables with no headers */
-}
+        &:first-child {
+            td {
+                border-top: none;
+            }
+            th {
+                border-top: none;
+            }
+        }
 
-tr:last-child td {
-    border-bottom: none;
-}
+        &:last-child td {
+            border-bottom: none;
+        }
 
-td:first-child {
-    border-left: none;
-}
+        td {
+            &:first-child {
+                border-left: none;
+            }
+            &:last-child {
+                border-right: none;
+            }
+        }
 
-td:last-child {
-    border-right: none;
-}
-
-tr:first-child th {
-    border-top: none;
-}
-
-th:first-child {
-    border-left: none;
-}
-
-th:last-child {
-    border-right: none;
+        th {
+            &:first-child {
+                border-left: none;
+            }
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
 }
 
 blockquote {
@@ -87,31 +91,26 @@ blockquote {
 
 img {
     width: 50%;
-}
 
-img[alt~="(img-large)"] {
-    width: 100%;
-}
-
-img[alt~="(img-semilarge)"] {
-    width: 80%;
-}
-
-img[alt~="(img-medium)"] {
-    width: 60%;
-}
-
-img[alt~="(img-small)"] {
-    width: 40%;
-}
-
-img[alt~="(img-padding)"] {
-    padding: 20px;
-    background: white;
-}
-
-img[alt~="(img-float-right)"] {
-    float: right;
-    margin: 10px;
-    margin-right: 0;
+    &[alt~="(img-large)"] {
+        width: 100%;
+    }
+    &[alt~="(img-semilarge)"] {
+        width: 80%;
+    }
+    &[alt~="(img-medium)"] {
+        width: 60%;
+    }
+    &[alt~="(img-small)"] {
+        width: 40%;
+    }
+    &[alt~="(img-padding)"] {
+        padding: 20px;
+        background: white;
+    }
+    &[alt~="(img-float-right)"] {
+        float: right;
+        margin: 10px;
+        margin-right: 0;
+    }
 }
