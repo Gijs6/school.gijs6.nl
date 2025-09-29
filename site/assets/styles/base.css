@@ -14,7 +14,7 @@ body {
     max-width: 850px;
     padding: 40px;
     margin: auto;
-    font-size: clamp(0.8em, 2.5vw, 1.15em);
+    font-size: clamp(0.9em, 2.4vw, 1.05em);
 
     footer {
         margin-top: 3em;
