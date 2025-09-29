@@ -18,7 +18,7 @@ body {
     footer {
         margin-top: 3em;
         padding-top: 0.5em;
-        border-top: 1px solid light-dark(var(--oc-gray-6), var(--oc-gray-3));
+        border-top: 1px solid light-dark(var(--oc-gray-7), var(--oc-gray-3));
 
         p,
         .footer-links {
