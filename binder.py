@@ -233,8 +233,8 @@ def get_git_dates(filepath):
         ), datetime.fromtimestamp(last_commit_ts, tz=timezone.utc)
 
     except (subprocess.CalledProcessError, FileNotFoundError, ValueError) as e:
+        print(e)
         return datetime.now(timezone.utc), datetime.now(timezone.utc)
-
 
 def generate_feeds(build_dir, homepage_data, md_cache):
     fg = FeedGenerator()
@@ -245,6 +245,8 @@ def generate_feeds(build_dir, homepage_data, md_cache):
     fg.language("nl")
     fg.author(name="Gijs ten Berg", email="gijs6@dupunkto.org")
     fg.generator("Binder")
+
+    feed_items = []
 
     for year, year_data in homepage_data.items():
         for period, tests in year_data.items():
@@ -262,35 +264,64 @@ def generate_feeds(build_dir, homepage_data, md_cache):
                 entries.extend(
                     [
                         {
-                            "link": r["link"],
-                            "title": f"{r['title']} - {test['subject']}",
+                            "link": r.get("link"),
+                            "title": f"{r.get('title','')} - {test['subject']}".strip(" -"),
                             "internal": r.get("type") == "internal",
                         }
                         for r in test.get("resources", [])
                     ]
                 )
+
                 for entry in entries:
-                    if not entry["link"]:
+                    if not entry.get("link"):
                         continue
                     html_content = md_cache.get(entry["link"], entry["title"])
-                    fe = fg.add_entry()
-                    fe.title(entry["title"] + f" ({year} {period})")
-                    fe.link(href=f"https://school.gijs6.nl{entry['link']}")
-                    fe.id(f"https://school.gijs6.nl{entry['link']}")
-                    fe.description(html_content)
-                    md_file_path = os.path.join(
-                        "site", entry["link"].lstrip("/") + ".md"
-                    )
+
+                    md_file_path = None
+                    if entry.get("internal", False) or entry["link"].startswith("/"):
+                        candidate = os.path.join("site", entry["link"].lstrip("/") + ".md")
+                        if os.path.isfile(candidate):
+                            md_file_path = candidate
+
+                    first_commit, last_commit = (None, None)
                     if md_file_path:
                         first_commit, last_commit = get_git_dates(md_file_path)
-                        fe.pubDate(first_commit)
-                        fe.updated(last_commit)
+
+                    feed_items.append(
+                        {
+                            "link": entry["link"],
+                            "title": entry["title"] + f" ({year} {period})",
+                            "html": html_content,
+                            "first_commit": first_commit,
+                            "last_commit": last_commit,
+                        }
+                    )
+
+    def item_sort_key(it):
+        if it["last_commit"]:
+            return int(it["last_commit"].timestamp())
+        if it["first_commit"]:
+            return int(it["first_commit"].timestamp())
+        return float("-inf")
+
+    feed_items.sort(key=item_sort_key)
+
+    for item in feed_items:
+        fe = fg.add_entry()
+        fe.title(item["title"])
+        fe.link(href=f"https://school.gijs6.nl{item['link']}")
+        fe.id(f"https://school.gijs6.nl{item['link']}")
+        fe.description(item["html"] or item["title"])
+
+        if item["first_commit"]:
+            fe.pubDate(item["first_commit"])
+        if item["last_commit"]:
+            fe.updated(item["last_commit"])
 
     with open(os.path.join(build_dir, "rss.xml"), "wb") as f:
         f.write(fg.rss_str(pretty=True))
     with open(os.path.join(build_dir, "atom.xml"), "wb") as f:
         f.write(fg.atom_str(pretty=True))
-
 
 def remove_base64_images(html_content):
     return re.sub(r'<img[^>]*src="data:image/[^"]*"[^>]*>', "", html_content)
