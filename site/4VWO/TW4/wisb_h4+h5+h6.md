@@ -71,10 +71,10 @@ De vergelijking $x^2 = 5$ heeft oplossingen $x = \sqrt{5}$ en $x = -\sqrt{5}$. $
 
 In de tabel staat het aantal oplossingen van $x^n = a$:
 
-|   $x^n = a$   |            $a > 0$             |          $a < 0$          |
-| :-----------: | :----------------------------: | :-----------------------: |
-|  $n$ even     | 2 oplossingen: $x = \pm \sqrt[n]{a}$ | geen reële oplossingen  |
-| $n$ oneven    | 1 oplossing: $x = \sqrt[n]{a}$ | 1 oplossing: $x = \sqrt[n]{a}$ |
+| $x^n = a$  |               $a > 0$                |            $a < 0$             |
+| :--------: | :----------------------------------: | :----------------------------: |
+|  $n$ even  | 2 oplossingen: $x = \pm \sqrt[n]{a}$ |     geen reële oplossingen     |
+| $n$ oneven |    1 oplossing: $x = \sqrt[n]{a}$    | 1 oplossing: $x = \sqrt[n]{a}$ |
 
 Sommige hogeregraadsvergelijkingen kun je algebraïsch oplossen door ontbinden in factoren, bijvoorbeeld door een factor buiten haakjes te halen of te substitueren.  
 In $x^4 - 3x^2 + 2 = 0$ kun je $x^2 = u$ substitueren. Dan krijg je $u^2 - 3u + 2 = 0$, die je oplost met de product-som-methode. (Let op: je hebt $u$ opgelost, niet $x$!)

@@ -20,33 +20,33 @@ test_code: 4A-ENTL-T01
 
 ## Past continuous
 
-| Vorm | *Was* / *were* \+ werkwoord \+ *\-ing* |
-| :---- | :---- |
+| Vorm    | *Was* / *were* \+ werkwoord \+ *\-ing*                                                                                                                                                                                                                                                                                                                              |
+| :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Gebruik | Iets van korte duur was een bepaald moment in het verleden aan de gang. Iets was aan de gang (past continuous) en werd door iets anders onderbroken (past simple). Let op\! Als deze handelingen **na elkaar** plaatsvinden, gebruik je **2 keer de past simple**, en als de handelingen **tegelijkertijd** plaatsvinden, gebruik je **2 keer de past continuous**. |
 
 ## Past perfect
 
-| Vorm | *Had* \+ voltooid deelwoord |
-| :---- | :---- |
+| Vorm    | *Had* \+ voltooid deelwoord                                                                                                                                                                                                                                                                                                                                                                                                      |
+| :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Gebruik | Als de nadruk ligt op het feit dat een handeling was afgelopen toen de andere begon: *When he got to the gate, the plane **had taken off**.* Als op een moment in het verleden een handeling of toestand al een tijdje duurde: *They **had known** each other for six years when they got married.* Zinnen met een 3rd conditional (iets zou gebeurd zijn). Indirecte reden: *He told me that he had seen her the night before.* |
 
 ## Comparisons
 
 Om woorden in het Engels te vergelijken, gebruik je de vergrotende trap en de overtreffende trap.
 
-|  | Basisvorm | Vergrotende trap  | Overtreffende trap |
-| :---: | :---: | :---: | :---: |
-| **1 lettergreep** | great | great**er** | great**est** |
-| **Twee lettergrepen op *\-y*, *\-er*, *\-le* of *\-ow*** | crazy | crazi**er** | crazi**est** |
-|  | clever | clever**er** | clever**est** |
-| **2 of meer lettergrepen** | polite | **more** polite | **most** polite |
-| **Onregelmatig** | good | better | best |
-|  | bad | worse | worst |
-|  | much | more | most |
-|  | many |  |  |
-|  | little (tijd) | less | least |
-|  | little (klein) | smaller | smallest |
-| **(Not) as … as** | (not) as talented as |  |  |
+|                                                          |      Basisvorm       | Vergrotende trap | Overtreffende trap |
+| :------------------------------------------------------: | :------------------: | :--------------: | :----------------: |
+|                    **1 lettergreep**                     |        great         |   great**er**    |    great**est**    |
+| **Twee lettergrepen op *\-y*, *\-er*, *\-le* of *\-ow*** |        crazy         |   crazi**er**    |    crazi**est**    |
+|                                                          |        clever        |   clever**er**   |   clever**est**    |
+|                **2 of meer lettergrepen**                |        polite        | **more** polite  |  **most** polite   |
+|                     **Onregelmatig**                     |         good         |      better      |        best        |
+|                                                          |         bad          |      worse       |       worst        |
+|                                                          |         much         |       more       |        most        |
+|                                                          |         many         |                  |                    |
+|                                                          |    little (tijd)     |       less       |       least        |
+|                                                          |    little (klein)    |     smaller      |      smallest      |
+|                    **(Not) as … as**                     | (not) as talented as |                  |                    |
 
 ## Bijvoeglijke naamwoorden en bijwoorden
 
@@ -66,11 +66,11 @@ Een adverb maak je meestal door *adjective* \+ *\-ly*. Soms veranderd de spellin
 *Sure →  sure**ly**   eas**y** →  eas**ily**   realist**ic** →  realist**ically***  
 De onregelmatige adverbs moet je uit je hoofd leren:
 
-| *good* | *well* | *hard* | *hard* |
-| ----: | :---- | ----: | :---- |
-| *early* | *early* | *late* | *late* |
-| *fast* | *fast* | *left* | *left* |
-| *fine* | *fine* | *right* | *right* |
+|  *good* | *well*  |  *hard* | *hard*  |
+| ------: | :------ | ------: | :------ |
+| *early* | *early* |  *late* | *late*  |
+|  *fast* | *fast*  |  *left* | *left*  |
+|  *fine* | *fine*  | *right* | *right* |
 
 ## Ontkenning en vragen
 
