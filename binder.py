@@ -236,6 +236,7 @@ def get_git_dates(filepath):
         print(e)
         return datetime.now(timezone.utc), datetime.now(timezone.utc)
 
+
 def generate_feeds(build_dir, homepage_data, md_cache):
     fg = FeedGenerator()
     fg.title("Leermiddelenoverzicht")
@@ -265,7 +266,9 @@ def generate_feeds(build_dir, homepage_data, md_cache):
                     [
                         {
                             "link": r.get("link"),
-                            "title": f"{r.get('title','')} - {test['subject']}".strip(" -"),
+                            "title": f"{r.get('title', '')} - {test['subject']}".strip(
+                                " -"
+                            ),
                             "internal": r.get("type") == "internal",
                         }
                         for r in test.get("resources", [])
@@ -278,7 +281,9 @@ def generate_feeds(build_dir, homepage_data, md_cache):
 
                     md_file_path = None
                     if entry.get("internal", False) or entry["link"].startswith("/"):
-                        candidate = os.path.join("site", entry["link"].lstrip("/") + ".md")
+                        candidate = os.path.join(
+                            "site", entry["link"].lstrip("/") + ".md"
+                        )
                         if os.path.isfile(candidate):
                             md_file_path = candidate
 
@@ -288,7 +293,9 @@ def generate_feeds(build_dir, homepage_data, md_cache):
 
                     md_file_path = None
                     if entry.get("internal", False) or entry["link"].startswith("/"):
-                        candidate = os.path.join("site", entry["link"].lstrip("/") + ".md")
+                        candidate = os.path.join(
+                            "site", entry["link"].lstrip("/") + ".md"
+                        )
                         if os.path.isfile(candidate):
                             md_file_path = candidate
 
@@ -331,6 +338,7 @@ def generate_feeds(build_dir, homepage_data, md_cache):
         f.write(fg.rss_str(pretty=True))
     with open(os.path.join(build_dir, "atom.xml"), "wb") as f:
         f.write(fg.atom_str(pretty=True))
+
 
 def remove_base64_images(html_content):
     return re.sub(r'<img[^>]*src="data:image/[^"]*"[^>]*>', "", html_content)
