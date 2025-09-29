@@ -275,6 +275,15 @@ def generate_feeds(build_dir, homepage_data, md_cache):
                 for entry in entries:
                     if not entry.get("link"):
                         continue
+
+                    md_file_path = None
+                    if entry.get("internal", False) or entry["link"].startswith("/"):
+                        candidate = os.path.join("site", entry["link"].lstrip("/") + ".md")
+                        if os.path.isfile(candidate):
+                            md_file_path = candidate
+
+                    if not md_file_path:
+                        continue
                     html_content = md_cache.get(entry["link"], entry["title"])
 
                     md_file_path = None
