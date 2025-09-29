@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="nl">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             {% block title %}Leermiddelenoverzicht{% endblock %}
         </title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-              rel="stylesheet" />
-        <link rel="stylesheet" href="/assets/styles/basic.css" />
-        <link rel="icon" type="image/x-icon" href="/assets/images/samva.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+              rel="stylesheet">
+        <link rel="stylesheet" href="/assets/styles/skeleton.css">
+        <link rel="stylesheet" href="/assets/styles/base.css">
+        <link rel="stylesheet" href="/assets/styles/colors.css">
+        <link rel="icon" type="image/x-icon" href="/assets/images/samva.ico">
         {% block extra_head %}{% endblock %}
     </head>
-    <body>
-        {% block content %}{% endblock %}
+    <body class="site-body">
+        <main class="site-main">
+            {% block content %}{% endblock %}
+        </main>
         {% block footer %}
-            <footer>
-                <hr />
-                <p>Geschreven door Gijs ten Berg</p>
-                <p>
-                    Gebouwd met <a href="https://github.com/Gijs6/school.gijs6.nl/blob/main/binder.py">Binder</a>, gehost door <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+            <footer class="site-footer">
+                <p class="footer-author">
+                    Geschreven door <strong>Gijs ten Berg</strong>
                 </p>
-                <p>
-                    Geen rechten voorbehouden: alle orignele inhoud is vrijgegeven in het <a href="https://creativecommons.org/public-domain/cc0/" target="_blank">publieke domein (CC0)</a>
+                <p class="footer-built">
+                    Gebouwd met
+                    <a class="footer-link"
+                       href="https://github.com/Gijs6/school.gijs6.nl/blob/main/binder.py">Binder</a>,
+                    gehost door
+                    <a class="footer-link" href="https://pages.github.com/" target="_blank">GitHub Pages</a>
                 </p>
-                <p>
-                    Foutje gevonden? <a href="mailto:gijs6@dupunkto.org" target="_blank">Laat het me weten!</a>
+                <p class="footer-license">
+                    Geen rechten voorbehouden: alle originele inhoud is vrijgegeven in het
+                    <a class="footer-link"
+                       href="https://creativecommons.org/public-domain/cc0/"
+                       target="_blank"
+                       rel="license">publieke domein (CC0)</a>
                 </p>
-                <p>
-                    Bekijk de <a href="https://github.com/Gijs6/school.gijs6.nl" target="_blank">repo</a> of de <a href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
-    target="_blank">broncode van deze pagina</a> op GitHub
+                <p class="footer-contact">
+                    Foutje gevonden?
+                    <a class="footer-link" href="mailto:gijs6@dupunkto.org">Laat het me weten!</a>
                 </p>
+                <ul class="footer-links">
+                    <li class="footer-link-item">
+                        <a class="footer-link"
+                           href="https://github.com/Gijs6/school.gijs6.nl"
+                           target="_blank">Repository</a>
+                    </li>
+                    <li class="footer-link-item">
+                        <a class="footer-link"
+                           href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
+                           target="_blank">Broncode van deze pagina</a>
+                    </li>
+                </ul>
             </footer>
         {% endblock %}
     </body>

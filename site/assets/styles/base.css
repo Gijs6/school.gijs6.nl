@@ -1,0 +1,49 @@
+:root {
+    color-scheme: light dark;
+
+    --back: light-dark(white, black);
+    --front: light-dark(black, white);
+    --blue: light-dark(var(--oc-blue-8), var(--oc-blue-4));
+}
+
+body {
+    background: var(--back);
+    color: var(--front);
+    font-family: "Ubuntu", sans-serif;
+    max-width: 850px;
+    padding: 40px;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+footer {
+    margin-top: 3em;
+    border-top: 1px solid var(--oc-gray-6);
+}
+
+a {
+    color: var(--blue);
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.25em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+@media print {
+    :root {
+        color-scheme: light;
+    }
+
+    body {
+        max-width: unset;
+    }
+}
