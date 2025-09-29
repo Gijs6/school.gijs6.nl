@@ -1,5 +1,5 @@
 :root {
-    color-scheme: light dark;
+    color-scheme: dark;
 
     --back: light-dark(white, black);
     --front: light-dark(black, white);
