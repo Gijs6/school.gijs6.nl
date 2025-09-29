@@ -12,31 +12,31 @@ summary_name: Samenvatting H4
 
 De zouten die we tot nu toe behandeld hebben bestaan uit enkelvoudige ionen (ionen die bestaan uit 1 atoomsoort), zoals aluminiumoxide ($\ce{Al2O3}$). Er bestaan ook ionen die uit verschillende elementen bestaan: **samengestelde ionen**.
 
-| Lading  | Naam                         | Formule                         |
-| ------- | ---------------------------- | ------------------------------- |
-|   1+    | Zilverion                    | $\ce{Ag^+}$                     |
-|         | Lithiumion                   | $\ce{Li^+}$                     |
-|         | Natriumion                   | $\ce{Na^+}$                     |
-|         | Kaliumion                    | $\ce{K^+}$                      |
-|         | Ammonium                     | $\ce{NH4^+}$                    |
-|   2+    | **Overige metalen**          | -                               |
+|  Lading |             Naam             | Formule                         |
+| ------: | :--------------------------: | :------------------------------ |
+|      1+ |          Zilverion           | $\ce{Ag^+}$                     |
+|         |          Lithiumion          | $\ce{Li^+}$                     |
+|         |          Natriumion          | $\ce{Na^+}$                     |
+|         |          Kaliumion           | $\ce{K^+}$                      |
+|         |           Ammonium           | $\ce{NH4^+}$                    |
+|      2+ |     **Overige metalen**      | -                               |
 | 2+ / 3+ | IJzer(II)ion / IJzer(III)ion | $\ce{Fe^{2+}}$ / $\ce{Fe^{3+}}$ |
-|   3+    | Aluminiumion                 | $\ce{Al^{3+}}$                  |
-|   1-    | Fluoride                     | $\ce{F^-}$                      |
-|         | Chloride                     | $\ce{Cl^-}$                     |
-|         | Bromide                      | $\ce{Br^-}$                     |
-|         | Jodide                       | $\ce{I^-}$                      |
-|         | Hydroxide                    | $\ce{OH^-}$                     |
-|         | Nitriet                      | $\ce{NO2^-}$                    |
-|         | Nitraat                      | $\ce{NO3^-}$                    |
-|         | Waterstofcarbonaat           | $\ce{HCO3^-}$                   |
-|         | Acetaat / ethanoaat          | $\ce{CH3COO^-}$                 |
-|   2-    | Oxide                        | $\ce{O^{2-}}$                   |
-|         | Sulfide                      | $\ce{S^{2-}}$                   |
-|         | Carbonaat                    | $\ce{CO3^{2-}}$                 |
-|         | Sulfiet                      | $\ce{SO3^{2-}}$                 |
-|         | Sulfaat                      | $\ce{SO4^{2-}}$                 |
-|   3-    | Fosfaat                      | $\ce{PO4^{3-}}$                 |
+|      3+ |         Aluminiumion         | $\ce{Al^{3+}}$                  |
+|      1- |           Fluoride           | $\ce{F^-}$                      |
+|         |           Chloride           | $\ce{Cl^-}$                     |
+|         |           Bromide            | $\ce{Br^-}$                     |
+|         |            Jodide            | $\ce{I^-}$                      |
+|         |          Hydroxide           | $\ce{OH^-}$                     |
+|         |           Nitriet            | $\ce{NO2^-}$                    |
+|         |           Nitraat            | $\ce{NO3^-}$                    |
+|         |      Waterstofcarbonaat      | $\ce{HCO3^-}$                   |
+|         |     Acetaat / ethanoaat      | $\ce{CH3COO^-}$                 |
+|      2- |            Oxide             | $\ce{O^{2-}}$                   |
+|         |           Sulfide            | $\ce{S^{2-}}$                   |
+|         |          Carbonaat           | $\ce{CO3^{2-}}$                 |
+|         |           Sulfiet            | $\ce{SO3^{2-}}$                 |
+|         |           Sulfaat            | $\ce{SO4^{2-}}$                 |
+|      3- |           Fosfaat            | $\ce{PO4^{3-}}$                 |
 
 > $\rightarrow$ Zie ook Binas 66B voor de ionen
 
@@ -58,21 +58,21 @@ Zouten kunnen slecht oplossen in water, matig oplossen in water, reageren met wa
 Als zouten **goed** oplossen in water, splitsen alle ionen zich: het zout **hydrateert**. Elk ion lost individueel op in water.  
 Je kunt het oplossen van een goed oplosbaar zout zout neerzetten in een **oplosvergelijking**. Het oplossen van aluminiumsulfaat ($\ce{Al2(SO4)3}$) ziet er dus als volgt uit:
 
-$$\ce{Al2(SO4)3 (s) ->[\text{opl.}] 2\~Al^{3+} (aq) + 3\~SO4^{2-} (aq)}$$
+$$\ce{Al2(SO4)3 (s) ->[\text{opl.}] 2~Al^{3+} (aq) + 3~SO4^{2-} (aq)}$$
 
 Als zouten **matig** oplossen in water, zet je dat in de oplosvergelijking neer als pijlen in beide kanten, omdat niet alle ionen hydrateren.
 
-$$\ce{Ca(OH)2 (s) <-->[\text{opl.}] Ca^{2+} (aq) + 2\~OH- (aq)}$$
+$$\ce{Ca(OH)2 (s) <-->[\text{opl.}] Ca^{2+} (aq) + 2~OH- (aq)}$$
 Als zouten **slecht** oplossen in water, is er geen oplosvergelijking, want de ionen worden niet gehydrateerd.
 
-> Als je bij het oplossen van een zout een los oxide-ion ($\ce{O^{-2}}$) krijgt, gaat deze een reactie aan met water: $\ce{O^{-2} (aq) + H2O (l) -> 2\~OH- (aq)}$.
+> Als je bij het oplossen van een zout een los oxide-ion ($\ce{O^{-2}}$) krijgt, gaat deze een reactie aan met water: $\ce{O^{-2} (aq) + H2O (l) -> 2~OH- (aq)}$.
 > Als je $\ce{Na2O}$ zou oplossen, zou je dus een natriumhydroxide-oplossing krijgen.
 
 LET OP! Als je de oplossing van een zout wilt opschrijven, kun je niet "$\ce{\text{zout} (aq)}$" opschrijven, omdat het zout niet is opgelost, maar de losse ionen. De oplossing van bijvoorbeeld bariumchloride schrijf je op als $\ce{Ba^{2+} (aq) + Cl^- (aq)}$.  
 En bij een slecht oplosbaar zout kun je ook niet "$\ce{\text{zout} (aq)}$" opschrijven, omdat het zout niet is opgelost. Als je een slecht oplosbaar zout in water doet, zal er een suspentie ontstaan, en dus geen opgelost zout.
 
 Als je een zout gaat indampen, worden de losse ionen weer samen een zout:
-$$\ce{2\~Al^3+ (aq) + 3\~SO4^2- (aq) ->[\text{warmte}] Al2(SO4)3 (s)}$$
+$$\ce{2~Al^3+ (aq) + 3~SO4^2- (aq) ->[\text{warmte}] Al2(SO4)3 (s)}$$
 
 ### Triviale namen
 
@@ -112,6 +112,6 @@ Je kunt de oplosbaarheid van de verschillende ionencombinaties ook in een tabel 
 | $\ce{K+}$    | g          | g            |
 | $\ce{Cu^2+}$ | s          | g            |
 
-De reactie die hier plaatsvindt, is dus $\ce{Cu^2+ (aq) + 2\~OH^- (aq) -> Cu(OH)2 (s)}$. De rest van de ionen ($\ce{NO3^-}$ en $\ce{K+}$) reageren niet, dus deze komen ook niet in de reactievergelijking voor. Deze ionen (die dus niet reageren) noem je **tribune-ionen**.
+De reactie die hier plaatsvindt, is dus $\ce{Cu^2+ (aq) + 2~OH^- (aq) -> Cu(OH)2 (s)}$. De rest van de ionen ($\ce{NO3^-}$ en $\ce{K+}$) reageren niet, dus deze komen ook niet in de reactievergelijking voor. Deze ionen (die dus niet reageren) noem je **tribune-ionen**.
 
 Je kunt ook de aanwezigheid van een enkel ion aantonen met neerslagreacties.
