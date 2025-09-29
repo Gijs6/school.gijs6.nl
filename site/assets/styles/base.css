@@ -4,6 +4,7 @@
     --back: light-dark(white, black);
     --front: light-dark(black, white);
     --blue: light-dark(var(--oc-blue-8), var(--oc-blue-4));
+    --blue-accent: light-dark(var(--oc-blue-5), var(--oc-blue-7));
 }
 
 body {
@@ -41,14 +42,20 @@ body {
     a {
         color: var(--blue);
         font-weight: 500;
+
+        &:hover {
+            color: var(--blue-accent);
+        }
     }
 
     h1 {
         font-size: 2.25em;
     }
+
     h2 {
         font-size: 1.75em;
     }
+
     h3 {
         font-size: 1.3em;
     }

@@ -53,6 +53,7 @@ table {
             td {
                 border-top: none;
             }
+
             th {
                 border-top: none;
             }
@@ -66,6 +67,7 @@ table {
             &:first-child {
                 border-left: none;
             }
+
             &:last-child {
                 border-right: none;
             }
@@ -75,6 +77,7 @@ table {
             &:first-child {
                 border-left: none;
             }
+
             &:last-child {
                 border-right: none;
             }
@@ -95,19 +98,24 @@ img {
     &[alt~="(img-large)"] {
         width: 100%;
     }
+
     &[alt~="(img-semilarge)"] {
         width: 80%;
     }
+
     &[alt~="(img-medium)"] {
         width: 60%;
     }
+
     &[alt~="(img-small)"] {
         width: 40%;
     }
+
     &[alt~="(img-padding)"] {
         padding: 20px;
         background: white;
     }
+
     &[alt~="(img-float-right)"] {
         float: right;
         margin: 10px;
