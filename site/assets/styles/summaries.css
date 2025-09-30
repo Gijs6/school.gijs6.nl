@@ -122,3 +122,15 @@ img {
         margin-right: 0;
     }
 }
+
+@media print {
+    p:has(> img:only-child:not([alt~="(img-float-right)"])) {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        max-width: 55%;
+        margin: auto;
+    }
+}
