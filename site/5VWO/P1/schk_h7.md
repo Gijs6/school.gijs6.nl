@@ -33,6 +33,7 @@ Zuren die je moet kennen:
 **Zoutzuur** is de oplossing van waterstofchloride ($\ce{HCl}$) in water.  
 
 De **waardigheid** van een zuur = het aantal $\ce{H+}$ dat het kan afstaan.  
+
 - Bij anorganische zuren: vaak gelijk aan het aantal H-atomen in de formule.  
 - Bij organische zuren: gelijk aan het aantal $\ce{-COOH}$-groepen.  
 
@@ -71,12 +72,14 @@ Algemeen:
 $$\ce{H3O+ + B- -> HB + H2O}$$
 
 Voorbeelden:  
+
 - Zoutzuur + natronloog: $\ce{H3O+ + OH- -> 2 ~ H2O}$  
 - Zoutzuur + natriumoxide: $\ce{2 ~ H3O+ + O^{2-} -> 3 ~ H2O}$  
 
 Controleer ook of er neerslag optreedt.  
 
 Sommige ionen bestaan trouwens niet los in water:  
+
 - $\ce{HCO3-}$ kan uiteenvallen in $\ce{H2O + CO2}$.  
 - $\ce{O^{2-}}$ reageert direct met water: $\ce{O^{2-} + H2O -> 2 ~ OH-}$.  
 
