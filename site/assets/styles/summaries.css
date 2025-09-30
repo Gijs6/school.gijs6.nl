@@ -127,6 +127,8 @@ img {
     p:has(> img:only-child:not([alt~="(img-float-right)"])) {
         display: flex;
         justify-content: center;
+        page-break-inside: avoid;
+        break-inside: avoid;
     }
 
     img {
