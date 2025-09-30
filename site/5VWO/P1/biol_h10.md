@@ -49,7 +49,7 @@ Na de geboorte scheiden de grote en kleine bloedsomloop zich. De longen vullen z
 
 ## Bloeddruk
 
-De **bloeddruk** ontstaat door het samentrekken van de kamers. De druk in de slagaders stijgt bij het samentrekken van de kamers: de **systolische druk** (**bovendruk**). Tijdens de **diastole** daalt de druk: de **diastolische druk** (**onderdruk**) (Binas 84E1). Het verschil tussen beide wordt kleiner naarmate het bloed verder van het hart stroomt, omdat het pomp-effect afneemt.
+De **bloeddruk** ontstaat door het samentrekken van de kamers. De druk in de slagaders stijgt bij het samentrekken van de kamers: de **systolische druk** (**bovendruk**). Tijdens de **diastole** daalt de druk: de **diastolische druk** (**onderdruk**) (Binas 84E1). Het verschil tussen beide wordt kleiner naarmate het bloed verder van het hart stroomt, omdat het pompeffect afneemt.
 
 ![Bloeddrukverloop (img-large) (img-padding)](images/biol_h10_bloeddruk.jpg)
 
@@ -78,7 +78,7 @@ Het bloed bestaat uit verschillende delen (Binas 84H):
 - **Bloedplaatjes** zijn geen cellen, maar celdeeltjes die een rol spelen bij bloedstolling.
 
 Zuurstof wordt voor een klein deel (max. 3 mL per liter) opgelost in plasma, maar vooral door rode bloedcellen (max. 200 mL per liter) vervoerd.  
-Rode bloedcellen hebben geen kern en weinig organellen. Ze bevatten 200 - 300 miljoen moleculen **hemoglobine**.
+Rode bloedcellen hebben geen kern en weinig organellen. Ze bevatten 200 tot 300 miljoen moleculen **hemoglobine**.
 
 Hemoglobine ($\ce{Hb}$) bestaat uit vier eiwitketens, elk met een **heemgroep** met een ijzer(II)-ion.  
 Zodra zuurstof bindt, ontstaat oxihemoglobine ($\ce{HbO2}$). De bindingsreactie is een [evenwichtsreactie](../../4VWO/TW4/schk_h6#evenwichten):  
@@ -88,7 +88,7 @@ Elke heemgroep bindt 1 zuurstofmolecuul. Aan de **zuurstofverzadigingsdiagrammen
 
 ![Zuurstofverzadigingscurve van myoglobine, hemoglobine van een ongeboren kind en volwassene (img-small) (img-padding) (img-float-right)](images/biol_h10_hemo_myo.jpg)
 
-Naast hemoglobine kan **myoglobine** ($\ce{Mb}$) zuurstof binden. Dit eiwit zit in hart- en skeletspieren en slaat zuurstof op als reserve. Myoglobine heeft hogere affiniteit dan hemoglobine, waardoor het zuurstof langer vasthoudt. Het is geschikt voor opslag, niet transport.
+Naast hemoglobine kan **myoglobine** ($\ce{Mb}$) zuurstof binden. Dit eiwit zit in hart- en skeletspieren en slaat zuurstof op als reserve. Myoglobine heeft hogere affiniteit dan hemoglobine, waardoor het zuurstof langer vasthoudt. Het is geschikt voor opslag, niet voor transport.
 
 Het hemoglobine van een ongeboren kind heeft hogere affiniteit dan dat van volwassenen, zodat zuurstof efficiënt via de placenta wordt overgedragen.
 
@@ -100,18 +100,18 @@ Koolstofdioxide wordt op drie manieren vervoerd (Binas 83E):
 
 De pH moet redelijk constant blijven voor enzymwerking, daarom zijn er buffers zoals hemoglobine.
 
-De zuurstofverzadiging van hemoglobine hangt af van de zuurstofdruk. In de longen is dit ~96%, in weefsels ~75%, waardoor 21% van de zuurstof wordt afgegeven. Bij inspanning daalt de zuurstofdruk verder en stijgt CO₂ en temperatuur, waardoor hemoglobine extra zuurstof afgeeft. Koolstofdioxide beïnvloedt oxihemoglobine door pH te verlagen en zuurstof te verdringen. Dit is het **Bohr-effect**.
+De zuurstofverzadiging van hemoglobine hangt af van de zuurstofdruk. In de longen is dit ongeveer 96%, en in weefsels ongeveer 75%, waardoor ongeveer 21% van de zuurstof wordt afgegeven. Bij inspanning daalt de zuurstofdruk verder en stijgt de koolstofdioxide- en temperatuurwaarde, waardoor hemoglobine extra zuurstof afgeeft. Koolstofdioxide beïnvloedt oxihemoglobine door de pH te verlagen en zuurstof te verdringen. Dit is het **Bohr-effect**.
 
 ## Bloedvaten
 
 Er zijn 3 soorten bloedvaten: slagaders, aders en haarvaten.  
-Bloedvaten zijn buizen van levende cellen. Slagaders en aders hebben 3 lagen (Binas 84C2): dekweefsel met basaal membraan, elastisch bindweefsel en glad spierweefsel, en bindweefsel buitenste laag.
+Bloedvaten zijn buizen van levende cellen. Slagaders en aders hebben drie lagen (Binas 84C2): dekweefsel met basaal membraan, elastisch bindweefsel en glad spierweefsel, en een buitenste laag bindweefsel.
 
 Haarvaten hebben 1 laag dekweefsel met basaal membraan. Door de grote gezamenlijke doorsnede is de stroomsnelheid laag, zodat stoffen kunnen worden uitgewisseld.
 
 Slagaders hebben sterke elastische wanden; aders hebben kleppen tegen terugstroom.
 
-Beschadiging of ontsteking kan de vaatwand verdikken, waardoor plaques ontstaan (**atherosclerose**). Ernstig vernauwde slagaders beperken bloedtoevoer. Bij scheuren van een plaque kunnen stolsels ontstaan, waardoor weefsel afsterft: een infarct.
+Beschadiging of ontsteking kan de vaatwand verdikken, waardoor plaques ontstaan (**atherosclerose**). Ernstig vernauwde slagaders beperken de bloedtoevoer. Bij scheuren van een plaque kunnen stolsels ontstaan, waardoor weefsel afsterft: een infarct.
 
 > Zie [samenvatting NLT - Leef met je hart!](../../4VWO/TW3/nlt_lmjhart) voor meer informatie hierover
 
@@ -125,16 +125,16 @@ Na herstel worden de fibrinedraden afgebroken door **streptokinase**. Soms ontst
 
 ## Weefselvloeistof
 
-Cellen wisselen stoffen uit via openingen in endotheelcellen of door de cellen zelf. Bloeddruk perst deel van plasma uit het haarvat (**filtratiedruk**). De bloeddruk neemt af van begin tot eind van het haarvat. Plasma buiten het haarvat heet **weefselvloeistof**.
+Cellen wisselen stoffen uit via openingen in endotheelcellen of door de cellen zelf. De bloeddruk perst een deel van het plasma uit het haarvat (**filtratiedruk**). De bloeddruk neemt af van het begin tot het eind van het haarvat. Plasma buiten het haarvat heet **weefselvloeistof**.
 
-Grote eiwitten blijven achter, waardoor een **colloid-osmotische druk (COD)** ontstaat, die filtratiedruk tegenwerkt.
+Grote eiwitten blijven achter, waardoor een **colloïd-osmotische druk (COD)** ontstaat, die de filtratiedruk tegenwerkt.
 
 > Herhaling osmose: Water stroomt naar de kant met hogere concentratie opgeloste stoffen om concentraties gelijk te maken.
 
 De **nettofiltratiedruk** is bloeddruk minus COD.
 
-Niet alle weefselvloeistof keert terug via COD. Het **lymfestelsel** (Binas 84N) voert overschot terug naar bloedplasma. Binnenstromend in **lymfevaten** heet het **lymfe**. Lymfe lijkt op weefselvloeistof, maar bevat geen rode bloedcellen, bloedplaatjes of grote eiwitten.
+Niet alle weefselvloeistof keert terug via COD. Het **lymfestelsel** (Binas 84N) voert het overschot terug naar het bloedplasma. Binnenstromend in **lymfevaten** heet het **lymfe**. Lymfe lijkt op weefselvloeistof, maar bevat geen rode bloedcellen, bloedplaatjes of grote eiwitten.
 
 Lymfe wordt voortgestuwd door spierbewegingen en kleppen en stroomt via de borstbuis terug naar het bloed. Onderweg passeert het **lymfeknopen**, belangrijk voor afweer.
 
-Een hoge bloeddruk of slecht werkend lymfestelsel kan leiden tot **oedeem**, ophoping van vocht en eiwitten.
+Een hoge bloeddruk of een slecht werkend lymfestelsel kan leiden tot **oedeem**, ophoping van vocht en eiwitten.
