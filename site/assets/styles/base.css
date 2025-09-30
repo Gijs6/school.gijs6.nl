@@ -11,6 +11,7 @@ body {
     background: var(--back);
     color: var(--front);
     font-family: "Ubuntu", sans-serif;
+    line-height: 1.45;
     max-width: 850px;
     padding: 40px;
     margin: auto;
