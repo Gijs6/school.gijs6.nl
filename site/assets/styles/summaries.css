@@ -1,3 +1,7 @@
+.summary-header {
+    margin-bottom: 1em;
+}
+
 h2,
 h3,
 h4 {
@@ -124,6 +128,10 @@ img {
 }
 
 @media print {
+    .summary-header {
+        display: none;
+    }
+    
     p:has(> img:only-child:not([alt~="(img-float-right)"])) {
         display: flex;
         justify-content: center;
