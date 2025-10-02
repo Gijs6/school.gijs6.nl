@@ -131,7 +131,7 @@ img {
     .summary-header {
         display: none;
     }
-    
+
     p:has(> img:only-child:not([alt~="(img-float-right)"])) {
         display: flex;
         justify-content: center;
