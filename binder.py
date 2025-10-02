@@ -38,6 +38,7 @@ except locale.Error:
         print("ERROR WITH LOCAL")
         pass
 
+
 def sort_years(yearstr):
     match = re.match(r"(\d)(VWO)", yearstr)
     return -int(match.group(1)) if match else float("inf")
