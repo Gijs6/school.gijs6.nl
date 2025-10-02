@@ -17,8 +17,7 @@ format() {
 }
 
 deploy_info() {
-  id=$(gh api repos/:owner/:repo/deployments --jq '.[0].id')
-  url=$(gh api repos/:owner/:repo/deployments/$id/statuses --jq '.[0].log_url')
+  url=$(gh api repos/:owner/:repo/actions/runs --jq '.workflow_runs[0].html_url')
   [ -n "$url" ] && xdg-open "$url"
 }
 
