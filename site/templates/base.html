@@ -43,28 +43,6 @@
                     Foutje gevonden?
                     <a class="footer-link" href="mailto:gijs6@dupunkto.org">Laat het me weten!</a>
                 </p>
-                <p class="footer-deployment">
-                    {% if deployment_info.run_id %}
-                        <a class="footer-link"
-                           href="https://github.com/Gijs6/school.gijs6.nl/actions/runs/{{ deployment_info.run_id }}"
-                           target="_blank">Gedeployed op {{ deployment_info.time }}</a>
-                    {% else %}
-                        Gedeployed op {{ deployment_info.time }}
-                    {% endif %}
-                    met commit
-                    <a class="footer-link"
-                       href="https://github.com/Gijs6/school.gijs6.nl/commit/{{ deployment_info.commit_full }}"
-                       target="_blank">{{ deployment_info.commit }}</a>
-                    ({{ deployment_info.commit_time }}).
-                </p>
-                <p class="footer-last-edited">
-                    {% if page_last_modified %}
-                        Laatst bewerkt op {{ page_last_modified }} in
-                        <a class="footer-link"
-                           href="https://github.com/Gijs6/school.gijs6.nl/commit/{{ page_last_commit_full }}"
-                           target="_blank">{{ page_last_commit }}</a>.
-                    {% endif %}
-                </p>
                 <ul class="footer-links">
                     <li class="footer-link-item">
                         <a class="footer-link"

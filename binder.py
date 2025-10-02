@@ -5,7 +5,6 @@ import subprocess
 import time
 import threading
 import tempfile
-import locale
 
 import argparse
 
@@ -28,15 +27,6 @@ from colorama import Fore, Style, init
 
 
 init()
-
-try:
-    locale.setlocale(locale.LC_TIME, "nl_NL.UTF-8")
-except locale.Error:
-    try:
-        locale.setlocale(locale.LC_TIME, "nl_NL")
-    except locale.Error:
-        print("ERROR WITH LOCAL")
-        pass
 
 
 def sort_years(yearstr):
@@ -235,16 +225,12 @@ def get_git_dates(filepath):
             raise ValueError("No git history found for the file.")
 
         lines = output.split("\n")
-        first_commit_hash = lines[-1].split()[0]
         first_commit_ts = int(lines[-1].split()[1])
-        last_commit_hash = lines[0].split()[0]
         last_commit_ts = int(lines[0].split()[1])
 
         return (
             datetime.fromtimestamp(first_commit_ts, tz=timezone.utc),
             datetime.fromtimestamp(last_commit_ts, tz=timezone.utc),
-            first_commit_hash,
-            last_commit_hash,
         )
 
     except (subprocess.CalledProcessError, FileNotFoundError, ValueError) as e:
@@ -321,7 +307,7 @@ def generate_feeds(build_dir, homepage_data, md_cache):
 
                     first_commit, last_commit = (None, None)
                     if md_file_path:
-                        first_commit, last_commit, _, _ = get_git_dates(md_file_path)
+                        first_commit, last_commit = get_git_dates(md_file_path)
 
                     feed_items.append(
                         {
@@ -373,41 +359,9 @@ def setup_markdown_processor():
     )
 
 
-def get_deployment_info():
-    try:
-        git_log = (
-            subprocess.check_output(
-                ["git", "log", "-1", "--format=%H %ct"],
-                text=True,
-                stderr=subprocess.DEVNULL,
-            )
-            .strip()
-            .split()
-        )
-        commit_hash_full = git_log[0]
-        commit_hash_short = commit_hash_full[:7]
-        commit_date = datetime.fromtimestamp(int(git_log[1]))
-    except (subprocess.CalledProcessError, FileNotFoundError, ValueError, IndexError):
-        commit_hash_full = "unknown"
-        commit_hash_short = "unknown"
-        commit_date = datetime.now()
-
-    now = datetime.now()
-    deployment_time = now.strftime("%A %-d %B %Y om %H:%M:%S")
-    commit_time = commit_date.strftime("%A %-d %B %Y om %H:%M:%S")
-
-    return {
-        "time": deployment_time,
-        "commit": commit_hash_short,
-        "commit_full": commit_hash_full,
-        "commit_time": commit_time,
-    }
-
-
 def process_markdown_files(build_dir, template_env, md_processor):
     homepage_data = build_homepage_data()
     archive_data = build_archive_data()
-    deployment_info = get_deployment_info()
 
     md_cache = {}
 
@@ -419,17 +373,12 @@ def process_markdown_files(build_dir, template_env, md_processor):
                 archive_data=archive_data,
                 site={"data": {"homepage_data": homepage_data}},
                 page_path="site/templates/home.html",
-                deployment_info=deployment_info,
             )
         )
 
     # 404.html
     with open(os.path.join(build_dir, "404.html"), "w", encoding="utf-8") as f:
-        f.write(
-            template_env.get_template("404.html").render(
-                deployment_info=deployment_info
-            )
-        )
+        f.write(template_env.get_template("404.html").render())
 
     for year_dir in [d for d in os.listdir("site") if re.match(r"[0-9]VWO", d)]:
         year_path = os.path.join("site", year_dir)
@@ -466,23 +415,11 @@ def process_markdown_files(build_dir, template_env, md_processor):
                     html_content
                 )
 
-                _, page_last_modified, _, page_last_commit_hash = get_git_dates(
-                    md_file_path
-                )
-                page_last_modified_str = page_last_modified.strftime(
-                    "%A %-d %B %Y om %H:%M:%S"
-                )
-                page_last_commit_short = page_last_commit_hash[:7]
-
                 if front_matter.get("layout") == "summary":
                     rendered = template_env.get_template("summary.html").render(
                         content=html_content,
                         page=front_matter,
                         page_path=md_file_path,
-                        deployment_info=deployment_info,
-                        page_last_modified=page_last_modified_str,
-                        page_last_commit=page_last_commit_short,
-                        page_last_commit_full=page_last_commit_hash,
                     )
                 else:
                     rendered = f"<html><body>{html_content}</body></html>"
