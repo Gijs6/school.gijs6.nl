@@ -29,6 +29,14 @@ from colorama import Fore, Style, init
 
 init()
 
+try:
+    locale.setlocale(locale.LC_TIME, "nl_NL.UTF-8")
+except locale.Error:
+    try:
+        locale.setlocale(locale.LC_TIME, "nl_NL")
+    except locale.Error:
+        print("ERROR WITH LOCAL")
+        pass
 
 def sort_years(yearstr):
     match = re.match(r"(\d)(VWO)", yearstr)
@@ -551,14 +559,6 @@ def build():
 
     # Step 1: Setup build directory
     print("=> Setup ...")
-
-    try:
-        locale.setlocale(locale.LC_TIME, "nl_NL.UTF-8")
-    except locale.Error:
-        try:
-            locale.setlocale(locale.LC_TIME, "nl_NL")
-        except locale.Error:
-            pass
     temp_build_dir = tempfile.mkdtemp()
 
     print(f"{Fore.GREEN}=> Setup done{Style.RESET_ALL}")
