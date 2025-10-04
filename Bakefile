@@ -21,3 +21,9 @@ deploy_info() {
   [ -n "$url" ] && xdg-open "$url"
 }
 
+deploy() {
+  build
+  lift deploy
+}
+
+
