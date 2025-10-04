@@ -24,4 +24,4 @@ Or just run the Python commands directly: `python binder.py serve` or `python bi
 
 ---
 
-Huge thanks to [Robin](https://github.com/RobinBoers) for the original inspiration for this whole workflow, so do also chech out his [school site](https://github.com/RobinBoers/school.geheimesite.nl) (or even his [university site](https://github.com/RobinBoers/uni.geheimesite.nl))
+Huge thanks to [Robin](https://github.com/RobinBoers) for the original inspiration for this whole workflow, so do also check out his [school site](https://github.com/RobinBoers/school.geheimesite.nl) (or even his [university site](https://github.com/RobinBoers/uni.geheimesite.nl))
