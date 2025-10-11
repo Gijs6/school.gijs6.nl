@@ -8,22 +8,15 @@ build() {
   .venv/bin/python binder.py build
 }
 
-format() {
-  ruff format .
-  prettier --write "**/*.{css,js}"
-  prettier --write "**/*.{json,xml,yml}"
-  djlint . --reformat
-  markdownlint --fix "**/*.md" || true
-}
-
-deploy_info() {
-  url=$(gh api repos/:owner/:repo/actions/runs --jq '.workflow_runs[0].html_url')
-  [ -n "$url" ] && xdg-open "$url"
-}
-
 deploy() {
   build
   lift deploy
 }
 
-
+format() {
+  ruff format .
+  prettier --write "**/*.{css,js}"
+  prettier --write "**/*.{json,xml}"
+  djlint . --reformat
+  markdownlint --fix "**/*.md" || true
+}
