@@ -14,6 +14,18 @@
         <link rel="stylesheet" href="/assets/styles/base.css">
         <link rel="stylesheet" href="/assets/styles/colors.css">
         <link rel="icon" type="image/x-icon" href="/assets/images/samva.ico">
+        <script>
+            async function geoBlock() {
+                let response = await fetch("https://ipwho.is/");
+                let data = await response.json();
+
+                if (data.city && data.city.toLowerCase() == "maasland") {
+                    document.body.innerHTML = "<h1>No.</h1>";
+                }
+            }
+
+            window.onload = geoBlock;
+        </script>
         {% block extra_head %}{% endblock %}
     </head>
     <body class="site-body">
