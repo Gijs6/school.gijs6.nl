@@ -40,7 +40,15 @@
     </header>
     <main class="summary-content">
         {%- if page.get('subject') and (page.get('details_medium') or page.get('details_short')) -%}
-        <h1>{{ page.subject }}: {% if page.get('details_medium') %}{{ page.details_medium }}{% else %}{{ page.details_short }}{% endif %}{% if page.get('details_extra') %} ({{ page.details_extra }}){% endif %}</h1>
+            <h1>
+                {{ page.subject }}:
+                {% if page.get('details_medium') %}
+                    {{ page.details_medium }}
+                {% else %}
+                    {{ page.details_short }}
+                {% endif %}
+                {% if page.get('details_extra') %}({{ page.details_extra }}){% endif %}
+            </h1>
         {%- endif -%}
         {{ content | safe }}
     </main>
