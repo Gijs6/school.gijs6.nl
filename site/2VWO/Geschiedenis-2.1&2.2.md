@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# GS - SO 2.1 &2.2
+# GS - SO 2.1 & 2.2
 
 ## Kritiek en onrust in de kerk
 

@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: WISB - H4 + H5 + H6 - Samenvatting
-test_code: 4A-WISB-T08
+subject: WISB
+details_short: H4 & H5 & H6
+details_medium: Hoofdstuk 4 & hoofdstuk 5 & hoofdstuk 6
+details_extra: Vergelijkingen & herleidingen, machten & exponenten & logaritmen, differentiaalrekening
 ---
-
-# Wiskunde B: Hoofdstuk 4 (Vergelijkingen en herleidingen) + Hoofdstuk 5 (Machten, exponenten en logaritmen) + Hoofdstuk 6 (Differentiaalrekening)
 
 ## Getallenparen en stelsels
 

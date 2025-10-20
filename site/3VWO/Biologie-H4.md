@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # BI - H4 - TW4
 
 ## Puberteit en geslacht

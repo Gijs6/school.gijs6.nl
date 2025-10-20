@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # AK - SO 1.1 & 1.2
 
 ## Ontstaan van de Himalaya, fossielen, stollingsgesteenten en oceaanbodem

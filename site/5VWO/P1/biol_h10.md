@@ -1,13 +1,9 @@
 ---
-layout: summary
-title: BIOL - H10 - Samenvatting
-data-source: manual
 subject: BIOL
-test_material: H10 (Bloedsomloop)
-icon: fa-solid fa-seedling
+details_short: H10
+details_medium: Hoofdstuk 10
+details_extra: Bloedsomloop
 ---
-
-# Biologie: Hoofdstuk 10 (Bloedsomloop)
 
 ## Bloedsomloop
 

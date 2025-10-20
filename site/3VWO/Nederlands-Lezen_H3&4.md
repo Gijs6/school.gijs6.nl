@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# NE - Lezen H3 + 4 - TW2
+# NE - Lezen H3 & H4 - TW2
 
 ## Argumentatie
 

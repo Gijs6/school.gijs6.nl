@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H5
 
 ## De stelling van Pythagoras

@@ -1,12 +1,9 @@
 ---
-layout: summary
-title: NETL - Literatuur V2 - Samenvatting
-test_code: 4A-NETL-T02
-summary_type: summary2
-summary_name: Tweede samenvatting
+subject: NETL
+details_short: Literatuur V2
+details_medium: Literatuur V2
+details_extra: Verhaalanalyse
 ---
-
-# Nederlandse taal en literatuur: Literatuur (verhaalanalyse) VERSIE 2
 
 ## Literatuur en lectuur
 

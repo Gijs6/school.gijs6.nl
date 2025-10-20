@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# DU - H2&3 - TW2
+# DU - H2 & H3 - TW2
 
 ## Ontleden met naamvallen
 

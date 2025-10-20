@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: BIOL - H1 - Samenvatting
-test_code: 4A-BIOL-T01
+subject: BIOL
+details_short: H1
+details_medium: Hoofdstuk 1
+details_extra: Gedrag
 ---
-
-# Biologie: Hoofdstuk 1 (Gedrag)
 
 ## Gedrag en dierenwelzijn
 
@@ -32,4 +31,4 @@ Elke diersoort communiceert op een eigen manier met soortgenoten. **Signalen** z
 ## Omgaan met elkaar
 
 Sociaal gedrag in groepen is ingewikkelder, omdat elk individu een groot aantal relaties heeft met andere dieren. Sociaal gedrag in groepen leidt tot grotere overlevingskansen voor de individuen en een versterking van de band tussen groepsleden. **Cultuur** is het verschijnsel dat individuen binnen een groep vergelijkbaar gedrag vertonen. Als dieren **leren door inzicht**, leggen ze nieuwe verbanden tussen situaties. **Inlevingsvermogen** is het inzicht door andermans gevoelens te begrijpen. Inlevingsvermogen stelt dieren in staat om sociaal gedrag te vertonen. Meevoelen met de ander is **empathie**.  
-Een **waarde** is een opvatting over wat belangrijk is in ons bestaan. De gedragsregels die daarop worden gebaseerd zijn **normen**.  
+Een **waarde** is een opvatting over wat belangrijk is in ons bestaan. De gedragsregels die daarop worden gebaseerd zijn **normen**.

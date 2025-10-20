@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: BIOL - H5 - Samenvatting
-test_code: 4A-BIOL-T05
+subject: BIOL
+details_short: H5
+details_medium: Hoofdstuk 5
+details_extra: Erfelijkheid
 ---
-
-# Biologie: Hoofdstuk 5 (Erfelijkheid)
 
 ## Genetische eigenschappen
 

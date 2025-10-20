@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: NETL - Literatuurgeschiedenis - Samenvatting
-test_code: 4A-NETL-T05
+subject: NETL
+details_short: Literatuurgeschiedenis
+details_medium: Literatuurgeschiedenis
+details_extra: Oudheid & middeleeuwen
 ---
-
-# Nederlandse taal en literatuur: Literatuurgeschiedenis (Oudheid & middeleeuwen)
 
 ## Oudheid
 

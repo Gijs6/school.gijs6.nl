@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: NAT - H2 - Samenvatting
-test_code: 4A-NAT-T03
+subject: NAT
+details_short: H2
+details_medium: Hoofdstuk 2
+details_extra: Bewegingen
 ---
-
-# Natuurkunde: Hoofdstuk 2 (Bewegingen)
 
 ## Kracht en snelheid
 

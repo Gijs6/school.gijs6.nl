@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NE - H6 Lezen - TW4
 
 ## Tekst en Publiek

@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# AK - SO 2.1&2.2
+# AK - SO 2.1 & 2.2
 
 ## Een grote stad
 

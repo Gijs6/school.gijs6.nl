@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # BI - H1 - TW2
 
 ## Stofwisseling

@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: ENTL - H1 & H2 - Samenvatting
-test_code: 4A-ENTL-T01
+subject: ENTL
+details_short: H1 & H2
+details_medium: Hoofdstuk 1 & hoofdstuk 2
 ---
-
-# Engelse taal en literatuur: Hoofdstuk 1 + Hoofdstuk 2
 
 ## Past simple
 

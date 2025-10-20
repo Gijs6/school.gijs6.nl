@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # EC - H1 - TW1
 
 ## Wat je nodig hebt

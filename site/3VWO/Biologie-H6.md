@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # BI - H6 - TW2
 
 ## Ecosystemen

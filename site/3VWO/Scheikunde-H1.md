@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # SK - H1 - TW1
 
 ## Eenheden en dichtheid

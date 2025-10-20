@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # SK - H2 - TW2
 
 ## Energie en moleculen

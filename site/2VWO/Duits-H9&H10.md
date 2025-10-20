@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# DU - H9+10
+# DU - H9 & H10
 
 ## Grammatica
 

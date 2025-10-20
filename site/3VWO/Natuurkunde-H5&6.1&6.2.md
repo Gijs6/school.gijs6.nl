@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# NA - H5 & 6.1 + 6.2 - TW4
+# NA - H5 & 6.1 & 6.2 - TW4
 
 ## Herhaling
 

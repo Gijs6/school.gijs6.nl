@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# MU - Akko. + Mu en Mtsh. - TW1
+# MU - Akko. & Mu & Mtsh. - TW1
 
 ## Akkoorden
 

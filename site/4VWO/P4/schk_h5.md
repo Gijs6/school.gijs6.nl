@@ -1,12 +1,9 @@
 ---
-layout: summary
-title: SCHK - H5 - Samenvatting
-test_code: 4A-SCHK-T06
-summary_type: summary2
-summary_name: Samenvatting H5
+subject: SCHK
+details_short: H5
+details_medium: Hoofdstuk 5
+details_extra: Mengen & oplossen
 ---
-
-# Scheikunde: Hoofdstuk 5 (Mengen en oplossen)
 
 ## Atomen en moleculen
 

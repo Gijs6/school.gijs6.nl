@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # DU - H6
 
 ## Grammatica

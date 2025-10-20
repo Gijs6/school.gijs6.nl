@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - 7.2 & 7.3
 
 ## Na de oorlog

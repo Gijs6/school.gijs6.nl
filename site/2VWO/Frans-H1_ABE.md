@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # FA - SO H1 ABE-DH-CG
 
 ## Grammatica

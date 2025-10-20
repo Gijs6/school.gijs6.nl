@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - H4 - TW3
 
 ## Lodewijk XIV

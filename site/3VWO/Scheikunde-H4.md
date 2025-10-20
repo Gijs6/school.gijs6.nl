@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # SK - H4
 
 ## Verbranding

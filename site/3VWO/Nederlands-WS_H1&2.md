@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# NE - SO WS H1&2
+# NE - SO WS H1 & H2
 
 ## Stijlfiguren in een tekst
 

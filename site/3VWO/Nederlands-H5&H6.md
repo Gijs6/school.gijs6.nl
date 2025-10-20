@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NE - H5 & H6
 
 ## Uitdrukkingen en spreekwoorden

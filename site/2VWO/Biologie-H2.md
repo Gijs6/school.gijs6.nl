@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # BI - H2 - TW3
 
 ## Voedingsstoffen en -middelen

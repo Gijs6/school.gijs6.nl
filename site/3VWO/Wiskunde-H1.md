@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H1
 
 ## Lineaire vergelijkingen

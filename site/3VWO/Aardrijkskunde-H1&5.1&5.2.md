@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# AK - H1 + 5.1 + 5.2 - TW1
+# AK - H1 & 5.1 & 5.2 - TW1
 
 ## Grote economische veranderingen
 

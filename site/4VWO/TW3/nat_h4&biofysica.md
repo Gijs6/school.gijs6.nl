@@ -1,12 +1,9 @@
 ---
-layout: summary
-title: NAT - H4 + Biofysica - Samenvatting
-test_code:
-- 4A-NAT-T04
-- 4A-NAT-T06
+subject: NAT
+details_short: H4 & biofysica
+details_medium: Hoofdstuk 4 & biofysica
+details_extra: Krachten & biofysica
 ---
-
-# Natuurkunde: Hoofdstuk 4 (Krachten) + Biofysica (Ogen/lenzen & Hefbomen)
 
 ## Krachten
 

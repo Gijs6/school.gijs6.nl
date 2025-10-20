@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # EC - H3 - TW2
 
 ## Markten

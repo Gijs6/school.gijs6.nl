@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: ENTL - H3 - Samenvatting
-test_code: 4A-ENTL-T04
+subject: ENTL
+details_short: H3
+details_medium: Hoofdstuk 3
 ---
-
-# Engelse taal en literatuur: Hoofdstuk 3
 
 ## Grammatica
 

@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # DU - H4 & H5 - TW3
 
 ## Grammatica

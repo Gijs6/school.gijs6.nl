@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: ENTL - Literatuurgeschiedenis - Samenvatting
-test_code: 4A-ENTL-T06
+subject: ENTL
+details_short: Literatuurgeschiedenis
+details_medium: Literatuurgeschiedenis
+details_extra: Middeleeuwen
 ---
-
-# Engelse taal en literatuur: Literatuurgeschiedenis (Middeleeuwen)
 
 ## History of the English language
 

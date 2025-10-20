@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: WISB - H5 - Samenvatting
-test_code: 4A-WISB-T06
+subject: WISB
+details_short: H5
+details_medium: Hoofdstuk 5
+details_extra: Machten, exponenten & logaritmen
 ---
-
-# Wiskunde B: Hoofdstuk 5 (Machten, exponenten en logaritmen)
 
 ## Rekenregels machten
 
@@ -92,4 +91,4 @@ Een **exponentiele vergelijking** als $2^{12+x}=\sqrt{2}$ kun je oplossen met de
 > $8\cdot 3^x=72$  
 > $3^x=9$  
 > $3^x=3^2$  
-> $x=2$  
+> $x=2$

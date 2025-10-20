@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - H2 - TW2
 
 ## Kritiek op de kerk

@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NA - H1 - TW1
 
 ## Elektriciteitscentrales

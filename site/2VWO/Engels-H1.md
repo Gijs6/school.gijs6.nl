@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # EN - Toets H1
 
 ## Grammatica

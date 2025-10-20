@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NE - H1 - TW1
 
 ## Tekststructuren

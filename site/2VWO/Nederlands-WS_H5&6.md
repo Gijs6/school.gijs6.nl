@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# NE - WS H5+6
+# NE - WS H5 & H6
 
 ## Bijbelse en mythologische uitdrukkingen
 

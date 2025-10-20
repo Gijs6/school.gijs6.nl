@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# MU - Koor, Mrstemmig. en Articul. - TW3
+# MU - Koor, Mrstemmig. & Articul. - TW3
 
 ## Meerstemmigheid
 

@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H7
 
 ## Makkelijke vergelijkingen oplossen

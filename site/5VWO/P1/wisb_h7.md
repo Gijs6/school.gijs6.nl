@@ -1,13 +1,9 @@
 ---
-layout: summary
-title: WISB - H7 - Samenvatting
-data-source: manual
 subject: WISB
-test_material: H7 (Meetkunde met coördinaten)
-icon: fa-solid fa-calculator
+details_short: H7
+details_medium: Hoofdstuk 7
+details_extra: Meetkunde met coördinaten
 ---
-
-# Wiskunde B: Hoofdstuk 7 (Meetkunde met coördinaten)
 
 ## Lijnen
 

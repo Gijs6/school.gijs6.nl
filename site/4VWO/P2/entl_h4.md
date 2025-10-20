@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: ENTL - H4 - Samenvatting
-test_code: 4A-ENTL-T03
+subject: ENTL
+details_short: H4
+details_medium: Hoofdstuk 4
 ---
-
-# Engelse taal en literatuur: Hoofdstuk 4
 
 ## Werkwoordstijden
 

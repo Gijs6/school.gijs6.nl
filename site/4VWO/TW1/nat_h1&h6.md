@@ -1,12 +1,9 @@
 ---
-layout: summary
-title: NAT - H1 & H6 - Samenvatting
-test_code:
-- 4A-NAT-T01
-- 4A-NAT-T02
+subject: NAT
+details_short: H1 & H6
+details_medium: Hoofdstuk 1 & hoofdstuk 6
+details_extra: Elektriciteit & onderzoeksvaardigheden
 ---
-
-# Natuurkunde: Hoofdstuk 1 (Elektriciteit) + Hoofdstuk 6 (Onderzoeksvaardigheden)
 
 ## Lading, energie en vermogen
 

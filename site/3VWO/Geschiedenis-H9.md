@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - H9 - TW4
 
 ## Werken na de oorlog

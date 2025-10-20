@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: FATL - H1 - Samenvatting
-test_code: 4A-FATL-T02
+subject: FATL
+details_short: H1
+details_medium: Hoofdstuk 1
 ---
-
-# Franse taal en literatuur: Hoofdstuk 1
 
 ## Wederkerende werkwoorden
 
@@ -82,4 +80,4 @@ Als het bijvoeglijk naamwoord normaal voor het werkwoord staat, doe je dat ook b
 *C'est la plus petite maison du monde.*   *Dat is het kleinste huis ter wereld.*  
 Als het bijvoeglijk naamwoord normaal achter het werkwoord staat, doe je dat ook bij de overtreffende trap. Het lidwoord wordt herhaald.  
 *Il est **le** garçon **le** plus sportif.*    *Hij is de meest sportieve jongen.*  
-Een **bijwoord** maak je door bijvoeglijk naamwoord \+ *\-ment*. Als het bijvoeglijk naamwoord niet op een klinker eindigt, gebruik je de vrouwelijke vorm.  
+Een **bijwoord** maak je door bijvoeglijk naamwoord \+ *\-ment*. Als het bijvoeglijk naamwoord niet op een klinker eindigt, gebruik je de vrouwelijke vorm.

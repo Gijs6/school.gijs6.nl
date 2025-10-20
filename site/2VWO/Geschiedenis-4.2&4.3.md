@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# GS - 4.2&3
+# GS - 4.2 & 4.3
 
 ## Lodewijk XIV
 

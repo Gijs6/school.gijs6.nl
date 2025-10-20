@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# DU - H7+8 - TW3
+# DU - H7 & H8 - TW3
 
 ## Vierde naamval
 

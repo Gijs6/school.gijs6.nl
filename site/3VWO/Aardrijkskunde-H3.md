@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # AK - H3 - TW3
 
 ## De aarde warmt op

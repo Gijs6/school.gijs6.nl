@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - SO H1
 
 ## Haakjes wegwerken & herleiden van breuken

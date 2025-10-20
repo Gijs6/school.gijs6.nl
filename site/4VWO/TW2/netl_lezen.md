@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: NETL - Lezen - Samenvatting
-test_code: 4A-NETL-T04
+subject: NETL
+details_short: Lezen
+details_medium: Lezen
 ---
-
-# Nederlandse taal en literatuur: Lezen
 
 ## Tekstsoorten
 

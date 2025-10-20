@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: BIOL - H6 - Samenvatting
-test_code: 4A-BIOL-T06
+subject: BIOL
+details_short: H6
+details_medium: Hoofdstuk 6
+details_extra: Soorten & populaties
 ---
-
-# Biologie: Hoofdstuk 6 (Soorten en populaties)
 
 ## Soorten en verwantschap
 

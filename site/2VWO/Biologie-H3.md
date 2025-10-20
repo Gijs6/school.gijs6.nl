@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # BI - H3 - TW4
 
 ## Bloed

@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: NETL - Argumenteren - Samenvatting
-test_code: 4A-NETL-T08
+subject: NETL
+details_short: Lezen
+details_medium: Leestoets
+details_extra: Argumenten
 ---
-
-# Nederlandse taal en literatuur: Leestoets (Argumenten)
 
 ## Standpunt en argument
 

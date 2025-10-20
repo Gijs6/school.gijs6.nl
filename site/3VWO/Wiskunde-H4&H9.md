@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H4 & H9
 
 ## Cijfers en tabellen

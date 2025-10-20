@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # AK - SO 1.3 & 1.4
 
 ## Verplaatst gesteente

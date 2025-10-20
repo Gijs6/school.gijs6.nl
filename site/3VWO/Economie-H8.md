@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # EC - H8 - TW4
 
 ## Welvaart en productie

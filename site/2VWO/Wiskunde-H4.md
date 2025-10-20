@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H4 - TW2
 
 ## Kwadratische formules

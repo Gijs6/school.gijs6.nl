@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # EN - H1
 
 ## Comparisons

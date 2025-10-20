@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - H6 - TW2
 
 ## Italiaans fascisme

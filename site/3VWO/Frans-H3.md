@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # FA - H3 - TW3
 
 ## Grammatica

@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# NE - H5&6
+# NE - H5 & H6
 
 ## Woordenschat
 

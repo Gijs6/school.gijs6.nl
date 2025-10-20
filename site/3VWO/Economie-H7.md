@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # EC - H7
 
 ## Lenen en sparen

@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: BIOL - H3 - Samenvatting
-test_code: 4A-BIOL-T03
+subject: BIOL
+details_short: H3
+details_medium: Hoofdstuk 3
+details_extra: Wetenschappelijk onderzoek
 ---
-
-# Biologie: Hoofdstuk 3 (Wetenschappelijk onderzoek)
 
 ## Experimenteel onderzoek
 

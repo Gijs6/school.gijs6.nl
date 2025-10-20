@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - H5 - TW4
 
 ## Grote veranderingen in Engeland

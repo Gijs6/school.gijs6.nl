@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# MU - Vorm, Motief & Thema - TW2
+# MU - Vorm, motief & thema - TW2
 
 ## Motief en Thema
 

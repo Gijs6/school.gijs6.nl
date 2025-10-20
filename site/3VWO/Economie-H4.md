@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # EC - H4
 
 ## Een nieuw bedrijf

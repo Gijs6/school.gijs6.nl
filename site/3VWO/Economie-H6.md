@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # EC - H6 - TW3
 
 ## Een moeilijke keuze

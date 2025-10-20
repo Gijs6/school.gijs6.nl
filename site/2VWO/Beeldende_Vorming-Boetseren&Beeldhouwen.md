@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # BV - Boetseren & Beeldhouwen - TW2
 
 ## Boetseren en Beeldhouwen

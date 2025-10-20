@@ -29,6 +29,20 @@ from colorama import Fore, Style, init
 init()
 
 
+# Subject icon mapping
+SUBJECT_ICONS = {
+    "BIOL": "fa-solid fa-seedling",
+    "ENTL": "ENTL",
+    "FATL": "FATL",
+    "NETL": "NETL",
+    "NAT": "fa-solid fa-atom",
+    "SCHK": "fa-solid fa-flask-vial",
+    "WISB": "fa-solid fa-calculator",
+    "MAAT": "fa-solid fa-people-group",
+    "NLT": "fa-solid fa-microscope",
+}
+
+
 def sort_years(yearstr):
     match = re.match(r"(\d)(VWO)", yearstr)
     return -int(match.group(1)) if match else float("inf")
@@ -71,18 +85,32 @@ def build_archive_data():
 
 def build_homepage_data():
     site_dir = "site"
-    with open(
-        os.path.join(site_dir, "data/test_data.json"), "r", encoding="utf-8"
-    ) as f:
-        data = json.load(f)
 
-    file_cache = {}
-    manual_entries = []
+    # Load resources mapping
+    resources_file = os.path.join(site_dir, "data/resources.json")
+    resources_map = {}
+    if os.path.exists(resources_file):
+        with open(resources_file, "r", encoding="utf-8") as f:
+            resources_map = json.load(f)
+
+    data = {}
 
     for main_dir in [d for d in os.listdir(site_dir) if re.match(r"\dVWO", d)]:
         main_path = os.path.join(site_dir, main_dir)
         if not os.path.isdir(main_path):
             continue
+
+        # Archive years (2VWO, 3VWO) - keep old test_data.json system
+        if re.match(r"[23]VWO", main_dir):
+            test_data_file = os.path.join(site_dir, "data/test_data.json")
+            if os.path.exists(test_data_file):
+                with open(test_data_file, "r", encoding="utf-8") as f:
+                    test_data_json = json.load(f)
+                    if main_dir in test_data_json:
+                        data[main_dir] = test_data_json[main_dir]
+            continue
+
+        # Modern years (4VWO, 5VWO, 6VWO) - use front matter
         for sub_dir in [
             d
             for d in os.listdir(main_path)
@@ -93,73 +121,55 @@ def build_homepage_data():
                 file_path = os.path.join(sub_path, file)
                 with open(file_path, "r", encoding="utf-8") as f:
                     content = f.read()
-                front_matter = {}
-                test_code = []
-                summary_name = "Samenvatting"
-                summary_type = "basic"
 
+                front_matter = {}
                 match = re.match(r"---\n(.*?)\n---", content, re.DOTALL)
                 if match:
                     front_matter = yaml.safe_load(match.group(1)) or {}
-                    test_code = front_matter.get("test_code", [])
-                    if isinstance(test_code, str):
-                        test_code = [test_code]
-                    summary_name = front_matter.get("summary_name", "Samenvatting")
-                    summary_type = front_matter.get("summary_type", "basic")
 
-                if front_matter.get("data-source") == "manual":
-                    if not front_matter.get("hidden"):
-                        manual_entries.append(
-                            {
-                                "year": main_dir,
-                                "period": sub_dir,
-                                "subject": front_matter.get("subject", "Onbekend"),
-                                "test_type": front_matter.get("test_type", "Toets"),
-                                "test_material": front_matter.get("test_material", ""),
-                                "make_summary": front_matter.get("make_summary", True),
-                                "icon": front_matter.get(
-                                    "icon", "fa-solid fa-file-lines"
-                                ),
-                                "resources": front_matter.get("resources", []),
-                                "summary_link": f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}",
-                                "summary_name": front_matter.get(
-                                    "summary_name", "Samenvatting"
-                                ),
-                            }
-                        )
+                # Skip if hidden
+                if front_matter.get("hidden"):
                     continue
 
-                file_cache[file_path] = (test_code, summary_name, summary_type)
-                for test_data in filter(
-                    lambda t: t["test_code"] in test_code, data[main_dir][sub_dir]
-                ):
-                    if front_matter.get("hidden"):
-                        continue
+                # Extract data from front matter
+                subject = front_matter.get("subject", "").upper()
+                details_short = front_matter.get("details_short", "")
+                details_medium = front_matter.get("details_medium", "")
+                details_extra = front_matter.get("details_extra", "")
 
-                    if summary_type != "basic":
-                        if not any(
-                            summary_name in r["title"] for r in test_data["resources"]
-                        ):
-                            test_data["resources"].append(
-                                {
-                                    "link": f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}",
-                                    "title": summary_name,
-                                    "type": "internal",
-                                }
-                            )
-                        test_data["resources"].sort(key=lambda r: r["title"])
-                    else:
-                        test_data["summary_link"] = (
-                            f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}"
-                        )
-                        test_data["summary_name"] = summary_name
-                    if not test_data.get("summary_link") and "summary" in summary_type:
-                        test_data["summary_made"] = True
+                if not subject:
+                    continue
 
-    for entry in manual_entries:
-        year, period = entry["year"], entry["period"]
-        data.setdefault(year, {}).setdefault(period, []).append(entry)
+                # Build test_material from details
+                test_material_parts = []
+                if details_medium:
+                    test_material_parts.append(details_medium)
+                if details_extra:
+                    test_material_parts.append(f"({details_extra})")
+                test_material = " ".join(test_material_parts) if test_material_parts else details_short
 
+                # Get icon from mapping
+                icon = SUBJECT_ICONS.get(subject, "fa-solid fa-file-lines")
+
+                # Get resources for this file
+                relative_file_path = f"{main_dir}/{sub_dir}/{file}"
+                file_resources = resources_map.get(relative_file_path, [])
+
+                # Create entry
+                entry = {
+                    "subject": subject,
+                    "test_type": front_matter.get("test_type", "Toets"),
+                    "test_material": test_material,
+                    "make_summary": True,
+                    "icon": icon,
+                    "resources": file_resources,
+                    "summary_link": f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}",
+                    "summary_name": "Samenvatting",
+                }
+
+                data.setdefault(main_dir, {}).setdefault(sub_dir, []).append(entry)
+
+    # Sort and filter data
     sorted_data = {}
     for year in sorted(data.keys(), key=sort_years):
         year_data = {}
@@ -415,14 +425,11 @@ def process_markdown_files(build_dir, template_env, md_processor):
                     html_content
                 )
 
-                if front_matter.get("layout") == "summary":
-                    rendered = template_env.get_template("summary.html").render(
-                        content=html_content,
-                        page=front_matter,
-                        page_path=md_file_path,
-                    )
-                else:
-                    rendered = f"<html><body>{html_content}</body></html>"
+                rendered = template_env.get_template("summary.html").render(
+                    content=html_content,
+                    page=front_matter,
+                    page_path=md_file_path,
+                )
 
                 with open(build_path, "w", encoding="utf-8") as f:
                     f.write(rendered)

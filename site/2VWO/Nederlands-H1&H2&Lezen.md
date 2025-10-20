@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NE - H1 & H2_ Lezen - TW1
 
 ## Hoofd-, bijzaken en kernzinnen

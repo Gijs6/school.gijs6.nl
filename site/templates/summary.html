@@ -1,5 +1,11 @@
 {% extends "base.html" %}
-{% block title %}{{ page.get('title', 'Samenvatting') }}{% endblock %}
+{% block title %}
+    {%- if page.get('subject') and page.get('details_short') -%}
+        {{ page.subject }} - {{ page.details_short }} - Samenvatting
+    {%- else -%}
+        {{ page.get('title', 'Samenvatting') }}
+    {%- endif -%}
+{% endblock %}
 {% block extra_head %}
     <link rel="stylesheet" href="/assets/styles/summaries.css" />
     <script src="https://kit.fontawesome.com/4a94c21782.js"
@@ -33,6 +39,9 @@
         </a>
     </header>
     <main class="summary-content">
+        {%- if page.get('subject') and (page.get('details_medium') or page.get('details_short')) -%}
+        <h1>{{ page.subject }}: {% if page.get('details_medium') %}{{ page.details_medium }}{% else %}{{ page.details_short }}{% endif %}{% if page.get('details_extra') %} ({{ page.details_extra }}){% endif %}</h1>
+        {%- endif -%}
         {{ content | safe }}
     </main>
 {% endblock %}

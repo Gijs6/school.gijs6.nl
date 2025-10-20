@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NST - H4 - TW4
 
 ## De stroomkring

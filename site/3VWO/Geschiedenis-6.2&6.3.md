@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - 6.2 & 6.3
 
 ## Italiaans fascisme

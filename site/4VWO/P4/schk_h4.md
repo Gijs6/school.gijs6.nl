@@ -1,12 +1,9 @@
 ---
-layout: summary
-title: SCHK - H4 - Samenvatting
-test_code: 4A-SCHK-T06
-summary_type: summary1
-summary_name: Samenvatting H4
+subject: SCHK
+details_short: H4
+details_medium: Hoofdstuk 4
+details_extra: Zouten
 ---
-
-# Scheikunde: Hoofdstuk 4 (Zouten)
 
 ## Ionen
 

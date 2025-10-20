@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: BIOL - H8 - Samenvatting
-test_code: 4A-BIOL-T08
+subject: BIOL
+details_short: H8
+details_medium: Hoofdstuk 8
+details_extra: Kenmerken van ecosystemen
 ---
-
-# Biologie: Hoofdstuk 8 (Kenmerken van ecosystemen)
 
 ## Organisch en anorganisch
 

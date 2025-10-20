@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # DU - Instaptoets
 
 ## Tegenwoordige tijd (präzens)

@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# NE - H3&4
+# NE - H3 & H4
 
 ## Hoofdstuk 3
 

@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - 9.2 & 9.3 & NL-Indië
 
 ## Werken na de oorlog

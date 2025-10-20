@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H8 - TW4
 
 ## Grafieken (herhaling)

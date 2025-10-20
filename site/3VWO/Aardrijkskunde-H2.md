@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # AK - H2 - TW2
 
 ## Het begin van leven

@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: SCHK - H2 - Samenvatting
-test_code: 4A-SCHK-T02
+subject: SCHK
+details_short: H2
+details_medium: Hoofdstuk 2
+details_extra: Koolstofchemie
 ---
-
-# Scheikunde: Hoofdstuk 2 (Koolstofchemie)
 
 Bij het importeren van de afbeeldingen uit de pdf is er iets fout gegaan, sorry. Hopelijk is het alsnog bruikbaar!
 

@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# WI - SO 2.1 t_m 2.3
+# WI - SO 2.1 t/m 2.3
 
 ## Afstanden
 

@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - H7 - TW3
 
 ## Na de oorlog

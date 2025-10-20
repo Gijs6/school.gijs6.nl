@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: FATL - H4 - Samenvatting
-test_code: 4A-FATL-T06
+subject: FATL
+details_short: H4
+details_medium: Hoofdstuk 4
 ---
-
-# Franse taal en literatuur: Hoofdstuk 4
 
 ## Persoonlijke voornaamwoorden
 

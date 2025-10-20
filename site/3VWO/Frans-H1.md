@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # FA - H1 - TW1
 
 ## Het bijvoeglijke naamwoord

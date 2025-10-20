@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: BIOL - H4 - Samenvatting
-test_code: 4A-BIOL-T04
+subject: BIOL
+details_short: H4
+details_medium: Hoofdstuk 4
+details_extra: Voortplanting
 ---
-
-# Biologie: Hoofdstuk 4 (Voortplanting)
 
 ## Bevruchting
 

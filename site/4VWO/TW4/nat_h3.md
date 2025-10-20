@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: NAT - H3 - Samenvatting
-test_code: 4A-NAT-T05
+subject: NAT
+details_short: H3
+details_medium: Hoofdstuk 3
+details_extra: Materialen
 ---
-
-# Natuurkunde: Hoofdstuk 3 (Materialen)
 
 ## Moleculen
 

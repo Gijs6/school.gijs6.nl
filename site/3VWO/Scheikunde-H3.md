@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # SK - H3 - TW3
 
 ## Het periodiek systeem

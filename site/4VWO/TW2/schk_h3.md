@@ -1,12 +1,9 @@
 ---
-layout: summary
-title: SCHK - H3 - Samenvatting
-test_code:
-- 4A-SCHK-T04
-- 4A-SCHK-T03
+subject: SCHK
+details_short: H3
+details_medium: Hoofdstuk 3
+details_extra: Chemisch rekenen
 ---
-
-# Scheikunde: Hoofdstuk 3 (Chemisch rekenen)
 
 ## Significantie, wetenschappelijke notatie en eenheden
 

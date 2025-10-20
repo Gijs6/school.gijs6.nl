@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# GS - SO 3.2&3.3
+# GS - SO 3.2 & 3.3
 
 ## De nieuwe industrie
 

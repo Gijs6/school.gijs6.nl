@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# AK - 1.1&1.2
+# AK - 1.1 & 1.2
 
 ## Grote economische veranderingen
 

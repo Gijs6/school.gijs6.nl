@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NL - Lezen H5 & H6 - TW4
 
 ## Functiewoorden

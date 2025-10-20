@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # FA - SO Werkwoorden
 
 ## Regelmatige werkwoorden op -er

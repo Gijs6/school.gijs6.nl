@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: NLT - HEL - Samenvatting
-test_code: 4A-NLT-T02
+subject: NLT
+details_short: HEL
+details_medium: Hersenen en leren
 ---
-
-# Natuur, leven en technologie: Hersenen en leren
 
 ## Voorkennis/introductie
 

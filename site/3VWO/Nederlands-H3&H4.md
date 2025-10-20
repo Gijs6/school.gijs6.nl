@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NE - H3 & H4 - TW3
 
 ## Beeldspraak

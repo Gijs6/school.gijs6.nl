@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # AK - H1 - TW1
 
 ## Ontstaan van de Himalaya, fossielen, stollingsgesteenten en oceaanbodem

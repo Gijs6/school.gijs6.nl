@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# AK - 2.1&2.2
+# AK - 2.1 & 2.2
 
 ## Het begin van leven
 

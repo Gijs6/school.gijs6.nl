@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # DU - H1 - TW1
 
 ## De verleden tijd (*das Päteritum*)

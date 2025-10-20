@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# AK - SO 3.1&2
+# AK - SO 3.1 & 3.2
 
 ## Water in beweging
 

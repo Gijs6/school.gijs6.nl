@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# NA - H3 & 2.1 + 2.2 - TW2
+# NA - H3 & 2.1 & 2.2 - TW2
 
 ## Energie en apparaten
 

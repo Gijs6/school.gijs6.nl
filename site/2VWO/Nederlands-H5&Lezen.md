@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NE - H5_ Lezen - TW3
 
 ## Kritisch Lezen

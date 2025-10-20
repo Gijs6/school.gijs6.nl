@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NA - H2 & H4 - TW3
 
 ## Soorten krachten

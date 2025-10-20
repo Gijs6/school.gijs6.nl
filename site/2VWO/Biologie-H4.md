@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # BI - H4 - TW1
 
 ## Het skelet & bouw van botten

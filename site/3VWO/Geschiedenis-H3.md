@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - H3 - TW1
 
 ## De nieuwe industrie

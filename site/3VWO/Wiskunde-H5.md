@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H5 - TW2
 
 ## *ABC*-formules en discriminant

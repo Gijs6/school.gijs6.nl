@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: SCHK - H1 - Samenvatting
-test_code: 4A-SCHK-T01
+subject: SCHK
+details_short: H1
+details_medium: Hoofdstuk 1
+details_extra: Atoombouw
 ---
-
-# Scheikunde: Hoofdstuk 1 (Atoombouw)
 
 ## Basiskennis
 

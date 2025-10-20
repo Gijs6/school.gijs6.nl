@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# AK - 4.1 t_m 4.3
+# AK - 4.1 t/m 4.3
 
 ## De wereld duurzaam
 

@@ -1,11 +1,9 @@
 ---
-layout: summary
-title: NETL - Literatuur - Samenvatting
-test_code: 4A-NETL-T02
+subject: NETL
+details_short: Literatuur
+details_medium: Literatuur
+details_extra: Verhaalanalyse
 ---
-
-# Nederlandse taal en literatuur: Literatuur (verhaalanalyse)
-
 ## Literatuur en lectuur
 
 **Literatuur** is een verzamelnaam voor verhalen (**proza**: novellen en romans), gedichten en toneel. Literatuur wordt gekenmerkt door **originaliteit**, **onvoorspelbaarheid**, **stijl**, een **diepere laag** en **meerduidigheid**.  

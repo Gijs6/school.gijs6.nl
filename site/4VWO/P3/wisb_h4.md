@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: WISB - H4 - Samenvatting
-test_code: 4A-WISB-T05
+subject: WISB
+details_short: H4
+details_medium: Hoofdstuk 4
+details_extra: Vergelijkingen & herleidingen
 ---
-
-# Wiskunde B: Hoofdstuk 4 (Vergelijkingen en herleidingen)
 
 ## Getallenparen en stelsels
 

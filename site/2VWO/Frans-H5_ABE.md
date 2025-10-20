@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # FA - SO H5_ AB
 
 ## Woordenlijst

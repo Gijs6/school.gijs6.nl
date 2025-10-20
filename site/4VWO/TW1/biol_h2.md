@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: BIOL - H2 - Samenvatting
-test_code: 4A-BIOL-T02
+subject: BIOL
+details_short: H2
+details_medium: Hoofdstuk 2
+details_extra: Cel & leven
 ---
-
-# Biologie: Hoofdstuk 2 (Cel en leven)
 
 ## Cellen leven samen
 

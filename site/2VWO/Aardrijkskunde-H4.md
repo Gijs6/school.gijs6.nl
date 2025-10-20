@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # AK - H4 - TW4
 
 ## Onze ecologische voetafdruk

@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H3
 
 ## Product-som methode

@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # AK - 3.1 & 3.2
 
 ## De aarde warmt op

@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# BI - 5.1 t_m 5.3 & 5.8 & 5.9
+# BI - 5.1 t/m 5.3 & 5.8 & 5.9
 
 ## Genen en eigenschappen
 

@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: NETL - FO - Samenvatting
-test_code: 4A-NLT-T01
+subject: NLT
+details_short: FO
+details_medium: Forensisch onderzoek
 ---
-
-# Natuur, leven en technologie: Forensisch onderzoek
 
 ## Onderzoek doen
 

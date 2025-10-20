@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# WI - H2_2.4 t_m 2.6 - TW1
+# WI - H2_2.4 t/m 2.6 - TW1
 
 ## De omtrek en oppervlakte van een cirkel
 

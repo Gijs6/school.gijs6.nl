@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # EN - H3
 
 ## Grammatica

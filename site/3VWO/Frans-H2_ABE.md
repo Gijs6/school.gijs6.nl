@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # FA - H2 ABE
 
 ## Grammatica

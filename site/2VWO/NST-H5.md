@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NST - H5 - TW1
 
 ## Beweging vastleggen

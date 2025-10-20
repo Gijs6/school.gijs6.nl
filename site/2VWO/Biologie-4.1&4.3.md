@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# BI - SO 4.1 t_m 4.3
+# BI - SO 4.1 t/m 4.3
 
 ## Het skelet & bouw van botten
 

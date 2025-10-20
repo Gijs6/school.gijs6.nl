@@ -1,13 +1,9 @@
 ---
-layout: summary
-title: SCHK - H7 - Samenvatting
-data-source: manual
 subject: SCHK
-test_material: H7 (Zuren en basen)
-icon: fa-solid fa-flask-vial
+details_short: H7
+details_medium: Hoofdstuk 7
+details_extra: Zuren & basen
 ---
-
-# Scheikunde: Hoofdstuk 7 (Zuren en basen)
 
 ## Zuren en basen
 

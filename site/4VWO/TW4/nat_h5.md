@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: NAT - H5 - Samenvatting
-test_code: 4A-NAT-T07
+subject: NAT
+details_short: H5
+details_medium: Hoofdstuk 5
+details_extra: Ioniserende straling
 ---
-
-# Natuurkunde: Hoofdstuk 5 (Ioniserende straling)
 
 ## Röntgenstraling
 

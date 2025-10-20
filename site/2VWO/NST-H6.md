@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NST - H6 - TW2
 
 ## Licht en kleur

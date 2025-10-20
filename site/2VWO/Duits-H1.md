@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # DU - SO K1
 
 ## Grammatica

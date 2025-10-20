@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: MAAT - H4 - Samenvatting
-test_code: 4A-MAAT-T03
+subject: MAAT
+details_short: H4
+details_medium: Hoofdstuk 4
+details_extra: Pluriforme samenleving
 ---
-
-# Maatschappijleer: Hoofdstuk 4 (Pluriforme samenleving)
 
 ## Pluriforme samenleving
 

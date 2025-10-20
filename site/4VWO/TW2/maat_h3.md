@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: MAAT - H3 - Samenvatting
-test_code: 4A-MAAT-T02
+subject: MAAT
+details_short: H3
+details_medium: Hoofdstuk 3
+details_extra: Parlementaire democratie
 ---
-
-# Maatschappijleer: Hoofdstuk 3 (Parlementaire democratie)
 
 ## Democratie
 

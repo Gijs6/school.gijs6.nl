@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # BI - H5 - TW3
 
 ## Genen en eigenschappen

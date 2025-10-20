@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: WISB - H6 - Samenvatting
-test_code: 4A-WISB-T07
+subject: WISB
+details_short: H6
+details_medium: Hoofdstuk 6
+details_extra: Differentiaalrekening
 ---
-
-# Wiskunde B: Hoofdstuk 6 (Differentiaalrekening)
 
 ## De afgeleide
 

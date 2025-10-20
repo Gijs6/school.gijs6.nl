@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - H1 - TW1
 
 ## Op zoek naar Indië

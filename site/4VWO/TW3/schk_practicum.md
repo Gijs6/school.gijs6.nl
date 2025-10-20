@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: SCHK - Practicumtoets - Samenvatting
-test_code: 4A-SCHK-T05
+subject: SCHK
+details_short: Practicum
+details_medium: Practicumtoets
 ---
-
-# Scheikunde: Practicumtoets
 
 ## Structuur verslag
 

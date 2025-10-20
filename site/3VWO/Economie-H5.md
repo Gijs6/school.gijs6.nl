@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # EC - H5
 
 ## Activa en passiva

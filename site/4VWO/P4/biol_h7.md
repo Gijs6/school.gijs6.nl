@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: BIOL - H7 - Samenvatting
-test_code: 4A-BIOL-T07
+subject: BIOL
+details_short: H7
+details_medium: Hoofdstuk 7
+details_extra: Evolutie
 ---
-
-# Biologie: Hoofdstuk 7 (Evolutie)
 
 ## Ontstaan van de mens
 

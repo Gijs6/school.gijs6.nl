@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H7 - TW3
 
 ## Hellingen en tangens

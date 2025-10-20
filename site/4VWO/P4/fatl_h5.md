@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: FATL - H5 - Samenvatting
-test_code: 4A-FATL-T08
+subject: FATL
+details_short: H5
+details_medium: Hoofdstuk 5
 ---
-
-# Franse taal en literatuur: Hoofdstuk 5
 
 ## Onregelmatige werkwoorden
 

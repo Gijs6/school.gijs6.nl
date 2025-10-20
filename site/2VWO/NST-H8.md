@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # NST - H8 - TW3
 
 ## Geluid maken en horen

@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# NE - SO WSD H1&2
+# NE - SO WSD H1 & H2
 
 ## Theorie
 

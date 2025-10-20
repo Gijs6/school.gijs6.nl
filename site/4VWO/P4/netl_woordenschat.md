@@ -1,12 +1,8 @@
 ---
-layout: summary
-title: NETL - Woordenschat - Woordenlijst
-test_code: 4A-NETL-T07
-summary_name: Woordenlijst
+subject: NETL
+details_short: Woordenschat
+details_medium: Woordenschat
 ---
-
-# Nederlandse taal en literatuur: woordenschat
-
 | Woord                            | Definitie                                                                                                                 |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | aan de knoppen draaien           | voor verandering zorgen                                                                                                   |

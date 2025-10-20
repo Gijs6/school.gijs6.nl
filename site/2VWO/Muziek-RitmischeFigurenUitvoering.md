@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# MU - Ritmische fig. en Uitvoering - TW4
+# MU - Ritmische fig. & Uitvoering - TW4
 
 ## Ritmische Figuren
 

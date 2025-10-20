@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # GS - SO 1.2 & 1.3
 
 ## Op zoek naar Indië

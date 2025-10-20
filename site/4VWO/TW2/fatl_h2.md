@@ -1,10 +1,8 @@
 ---
-layout: summary
-title: FATL - H2 - Samenvatting
-test_code: 4A-FATL-T03
+subject: FATL
+details_short: H2
+details_medium: Hoofdstuk 2
 ---
-
-# Franse taal en literatuur: Hoofdstuk 2
 
 ## Het bijwoord
 

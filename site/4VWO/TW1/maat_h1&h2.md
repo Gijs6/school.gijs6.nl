@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: MAAT - H1 & H2 - Samenvatting
-test_code: 4A-MAAT-T01
+subject: MAAT
+details_short: H1 & H2
+details_medium: Hoofdstuk 1 & hoofdstuk 2
+details_extra: Rechtsstaat
 ---
-
-# Maatschappijleer: Hoofdstuk 1 + Hoofdstuk 2 (Rechtsstaat)
 
 ## De maatschappij
 

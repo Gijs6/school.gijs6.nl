@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H2 - TW1
 
 ## Verhoudingstabellen en projecties

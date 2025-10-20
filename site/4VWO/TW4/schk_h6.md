@@ -1,10 +1,9 @@
 ---
-layout: summary
-title: SCHK - H6 - Samenvatting
-test_code: 4A-SCHK-T07
+subject: SCHK
+details_short: H6
+details_medium: Hoofdstuk 6
+details_extra: Evenwichten & reactiesnelheid
 ---
-
-# Scheikunde: Hoofdstuk 6 (Evenwichten & Reactiesnelheid)
 
 ## Reactiesnelheid
 

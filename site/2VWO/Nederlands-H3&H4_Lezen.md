@@ -1,8 +1,4 @@
----
-layout: summary
----
-
-# NE - H3&H4 Lezen - TW2
+# NE - H3 & H4 Lezen - TW2
 
 ## Tekstverbanden en signaalwoorden
 

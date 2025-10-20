@@ -1,7 +1,3 @@
----
-layout: summary
----
-
 # WI - H6
 
 ## Haakjes wegwerken
