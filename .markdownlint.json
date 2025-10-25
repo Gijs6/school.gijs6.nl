@@ -1,7 +1,7 @@
 {
     "MD013": false,
     "MD025": {
-        "front_matter_title": ""
+        "front_matter_title": "^details-(short|medium|extra)\s*[:=]"
     },
     "MD033": false
 }
