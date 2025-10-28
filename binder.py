@@ -108,6 +108,10 @@ def build_archive_data():
     archive_data = {}
 
     for year in get_vwo_years():
+        # Only process archive years (2VWO, 3VWO)
+        if not ARCHIVE_YEAR_PATTERN.match(year):
+            continue
+
         year_pages = []
         year_path = os.path.join(SITE_DIR, year)
 
