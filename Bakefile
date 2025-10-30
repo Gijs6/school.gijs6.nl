@@ -18,5 +18,4 @@ format() {
   prettier --write "**/*.{css,js}"
   prettier --write "**/*.{json,xml}"
   djlint . --reformat
-  markdownlint --fix "**/*.md" || true
 }
