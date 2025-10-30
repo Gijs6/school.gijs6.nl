@@ -56,37 +56,34 @@
                                                     <i class="{{ test_data.icon }}"></i>
                                                 {% endif %}
                                             </span>
-                                            <span class="test-item-subject">{{ test_data.subject }}:</span>
-                                            <span class="test-item-material">{{ test_data.test_material }}</span>
-                                            {% if test_data.test_code %}<span class="test-item-code">({{ test_data.test_code }})</span>{% endif %}
-                                            <ul class="test-item-links">
-                                                {% if not test_data.get('summary_made') %}
-                                                    {% if test_data.get('summary_link') %}
+                                            {% if test_data.get('summary_link') %}
+                                                <a class="test-link-anchor" href="{{ test_data.summary_link }}">
+                                                    <span class="test-item-subject">{{ test_data.subject }}:</span>
+                                                    <span class="test-item-material">{{ test_data.test_material }}</span>
+                                                    {% if test_data.test_code %}<span class="test-item-code">({{ test_data.test_code }})</span>{% endif %}
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            {% else %}
+                                                <span class="test-item-subject">{{ test_data.subject }}:</span>
+                                                <span class="test-item-material">{{ test_data.test_material }}</span>
+                                                {% if test_data.test_code %}<span class="test-item-code">({{ test_data.test_code }})</span>{% endif %}
+                                            {% endif %}
+                                            {% if test_data.get('resources') %}
+                                                <ul class="test-item-links">
+                                                    {% for resource in test_data.resources %}
                                                         <li class="test-link test-link-active">
-                                                            <a class="test-link-anchor" href="{{ test_data.summary_link }}">
-                                                                {{ test_data.get('summary_name', 'Samenvatting') }}
-                                                                <i class="fa-solid fa-arrow-right"></i>
+                                                            <a class="test-link-anchor" href="{{ resource.link }}">
+                                                                {{ resource.title }}
+                                                                {% if resource.get('type') == "internal" %}
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                {% else %}
+                                                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                                                {% endif %}
                                                             </a>
                                                         </li>
-                                                    {% elif test_data.get('make_summary') %}
-                                                        <li class="test-link test-link-pending">Samenvatting nog niet beschikbaar</li>
-                                                    {% else %}
-                                                        <li class="test-link test-link-none">Geen samenvatting</li>
-                                                    {% endif %}
-                                                {% endif %}
-                                                {% for resource in test_data.get('resources', []) %}
-                                                    <li class="test-link test-link-active">
-                                                        <a class="test-link-anchor" href="{{ resource.link }}">
-                                                            {{ resource.title }}
-                                                            {% if resource.get('type') == "internal" %}
-                                                                <i class="fa-solid fa-arrow-right"></i>
-                                                            {% else %}
-                                                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                                            {% endif %}
-                                                        </a>
-                                                    </li>
-                                                {% endfor %}
-                                            </ul>
+                                                    {% endfor %}
+                                                </ul>
+                                            {% endif %}
                                         </li>
                                     {% endfor %}
                                 </ul>

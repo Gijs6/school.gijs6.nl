@@ -161,11 +161,9 @@ def create_test_entry(front_matter, main_dir, sub_dir, file, resources_map):
         "subject": subject,
         "test_type": front_matter.get("test_type", "Toets"),
         "test_material": build_test_material(front_matter),
-        "make_summary": True,
         "icon": SUBJECT_ICONS.get(subject, "fa-solid fa-file-lines"),
         "resources": resources_map.get(f"{main_dir}/{sub_dir}/{file}", []),
         "summary_link": f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}",
-        "summary_name": "Samenvatting",
     }
 
     return entry
@@ -239,7 +237,7 @@ def build_homepage_data():
 
             # Filter and sort tests
             filtered_tests = [
-                t for t in tests if t.get("make_summary") or t.get("resources")
+                t for t in tests if t.get("summary_link") or t.get("resources")
             ]
             year_data[period] = sorted(filtered_tests, key=lambda t: t["subject"])
 
