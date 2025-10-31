@@ -448,10 +448,6 @@ def process_markdown_file(
 
     front_matter, markdown_content = parse_front_matter(content)
 
-    # Skip if hide or hidden is set to true
-    if front_matter.get("hide") or front_matter.get("hidden"):
-        return None
-
     # Convert to HTML
     html_content = remove_base64_images(md_processor.convert(markdown_content))
     md_processor.reset()
@@ -468,7 +464,10 @@ def process_markdown_file(
     with open(build_path, "w", encoding="utf-8") as f:
         f.write(rendered)
 
-    return relative_path, html_content
+    # Mark as hidden if hide/hidden flag is set (for feed exclusion)
+    is_hidden = front_matter.get("hide") or front_matter.get("hidden")
+
+    return relative_path, html_content, is_hidden
 
 
 def process_markdown_files(build_dir, template_env, md_processor):
@@ -493,19 +492,14 @@ def process_markdown_files(build_dir, template_env, md_processor):
 
             for file in md_files:
                 md_file_path = os.path.join(root, file)
-                result = process_markdown_file(
+                relative_path, html_content, is_hidden = process_markdown_file(
                     md_file_path, year_path, build_year_dir, md_processor, template_env
                 )
 
-                # Skip hidden files
-                if result is None:
-                    continue
-
-                relative_path, html_content = result
-
-                # Cache HTML content for feed generation
-                cache_key = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
-                md_cache[cache_key] = html_content
+                # Cache HTML content for feed generation (unless hidden)
+                if not is_hidden:
+                    cache_key = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
+                    md_cache[cache_key] = html_content
 
     return homepage_data, md_cache
 
