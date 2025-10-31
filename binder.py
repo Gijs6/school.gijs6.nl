@@ -188,7 +188,11 @@ def process_modern_year(year_dir, resources_map):
             front_matter, _ = parse_front_matter(content)
 
             # Skip if hide/hidden or no subject
-            if front_matter.get("hide") or front_matter.get("hidden") or not front_matter.get("subject"):
+            if (
+                front_matter.get("hide")
+                or front_matter.get("hidden")
+                or not front_matter.get("subject")
+            ):
                 continue
 
             entry = create_test_entry(
