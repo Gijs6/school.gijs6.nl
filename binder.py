@@ -575,39 +575,39 @@ def build():
     print(f"{Fore.CYAN}=> Binder is binding <={Style.RESET_ALL}")
 
     # Setup temporary build directory
-    print("=> Setup... ", end="", flush=True)
+    print("> Setup... ", end="", flush=True)
     temp_build_dir = tempfile.mkdtemp()
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
     # Initialize template environment
-    print("=> Templates... ", end="", flush=True)
+    print("> Templates... ", end="", flush=True)
     template_env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
     # Initialize markdown processor
-    print("=> Markdown... ", end="", flush=True)
+    print("> Markdown... ", end="", flush=True)
     md_processor = setup_markdown_processor()
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
     # Copy static assets
-    print("=> Assets... ", end="", flush=True)
+    print("> Assets... ", end="", flush=True)
     copy_static_assets(temp_build_dir)
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
     # Process markdown files
-    print("=> Pages... ", end="", flush=True)
+    print("> Pages... ", end="", flush=True)
     homepage_data, md_cache = process_markdown_files(
         temp_build_dir, template_env, md_processor
     )
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
     # Generate RSS and Atom feeds
-    print("=> Feeds... ", end="", flush=True)
+    print("> Feeds... ", end="", flush=True)
     generate_feeds(temp_build_dir, homepage_data, md_cache)
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
     # Move to final build directory
-    print("=> Output... ", end="", flush=True)
+    print("> Output... ", end="", flush=True)
     if os.path.exists(BUILD_DIR):
         shutil.rmtree(BUILD_DIR)
     shutil.move(temp_build_dir, BUILD_DIR)

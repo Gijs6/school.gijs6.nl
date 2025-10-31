@@ -140,11 +140,11 @@ Voor $x^{\frac{a}{b}} = c$ met $x > 0$ en $c > 0$ geldt:
 $$x = c^{\frac{b}{a}}$$  
 Gebruik deze regel om $x$ vrij te maken bij $y = ax^p$.
 
-> Voorbeeld:
-> $y = 19x^{-3\frac{1}{2}}$
-> $19x^{-\frac{7}{2}} = y$
-> $x^{-\frac{7}{2}} = \frac{1}{19}y$
-> $x = \left(\frac{1}{19}y\right)^{-\frac{2}{7}} = 19^{\frac{2}{7}} \cdot y^{-\frac{2}{7}}$
+> Voorbeeld:  
+> $y = 19x^{-3\frac{1}{2}}$  
+> $19x^{-\frac{7}{2}} = y$  
+> $x^{-\frac{7}{2}} = \frac{1}{19}y$  
+> $x = \left(\frac{1}{19}y\right)^{-\frac{2}{7}} = 19^{\frac{2}{7}} \cdot y^{-\frac{2}{7}}$  
 
 ## Standaardfuncties
 
