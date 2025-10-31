@@ -99,7 +99,7 @@ details_medium: Woordenschat
 | frequentie                       | aantal per tijdseenheid                                                                                                   |
 | gaat gepaard met                 | gaat samen met                                                                                                            |
 | gedegen                          | grondig / doortimmerd / deugdelijk                                                                                        |
-| generaliseerden                  | veralgemeniseren                                                                                                          |
+| generaliseerden                  | veralgemenen                                                                                                              |
 | geschifte                        | idiote / gekke                                                                                                            |
 | groene energie                   | energie afkomstig uit natuurlijke bronnen                                                                                 |
 | het heilzame effect              | de positieve invloed                                                                                                      |
@@ -140,7 +140,7 @@ details_medium: Woordenschat
 | mondiale                         | wereldwijde                                                                                                               |
 | monogamie                        | samenleven met 1 vaste partner                                                                                            |
 | morituri te salutant             | zij die gaan sterven, groeten u                                                                                           |
-| muntunie                         | landen met een gemeentschappelijke valuta                                                                                 |
+| muntunie                         | landen met een gemeenschappelijke valuta                                                                                  |
 | mutatis mutandis                 | met de veranderingen die nodig zijn bij een andere toepassing                                                             |
 | naar je hand zetten              | het zo regelen dat iets gebeurt zoals jij wilt                                                                            |
 | negeren                          | geen aandacht schenken aan                                                                                                |

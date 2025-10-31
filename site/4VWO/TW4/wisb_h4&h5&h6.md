@@ -66,7 +66,7 @@ De getallen waarmee je vermenigvuldigt noteer je tussen verticale strepen.
 
 ## Hogeregraadsvergelijkingen
 
-De vergelijking $x^2 = 5$ heeft oplossingen $x = \sqrt{5}$ en $x = -\sqrt{5}$. $\sqrt{5}$ is de tweedemachtswortel, want $(\sqrt{5})^2 = 5$. Bij het wortelteken staat eigenlijk een verborgen 2: $\sqrt{a} = \sqrt[2]{a}$ (alleen als er geen getal bij het wortelteken staat). Er bestaan ook hogeremachtswortels, zoals derdemachtswortels. Bijvoorbeeld: $x^3 = 20$ heeft oplossing $x = \sqrt[3]{20}$.
+De vergelijking $x^2 = 5$ heeft oplossingen $x = \sqrt{5}$ en $x = -\sqrt{5}$. $\sqrt{5}$ is de tweede machtswortel, want $(\sqrt{5})^2 = 5$. Bij het wortelteken staat eigenlijk een verborgen 2: $\sqrt{a} = \sqrt[2]{a}$ (alleen als er geen getal bij het wortelteken staat). Er bestaan ook hogere machtswortels, zoals derde machtswortels. Bijvoorbeeld: $x^3 = 20$ heeft oplossing $x = \sqrt[3]{20}$.
 
 In de tabel staat het aantal oplossingen van $x^n = a$:
 
@@ -116,7 +116,7 @@ Regels voor breuken:
 - $\frac{A}{\frac{B}{C}} = \frac{AC}{B}$ mits $C \neq 0$ (delen door een breuk is vermenigvuldigen met het omgekeerde)
 - $\frac{\frac{A}{B}}{C} = \frac{A}{BC}$
 
-Bij de vergelijking $\frac{x^2-3x+5}{x}$ mag je $x$ niet wegstrepen, want dag mag alleen bij de **factoren** van een teller of noemer. Wel kun je $x$ bij deze vergelijking **uitdelen**:
+Bij de vergelijking $\frac{x^2-3x+5}{x}$ mag je $x$ niet wegstrepen, want dat mag alleen bij de **factoren** van een teller of noemer. Wel kun je $x$ bij deze vergelijking **uitdelen**:
 
 $$\frac{x^2-3x+5}{x}$$
 
@@ -140,10 +140,10 @@ Voor $x^{\frac{a}{b}} = c$ met $x > 0$ en $c > 0$ geldt:
 $$x = c^{\frac{b}{a}}$$  
 Gebruik deze regel om $x$ vrij te maken bij $y = ax^p$.
 
-> Voorbeeld:  
-> $y = 19x^{-3 \frac{1}{2}}$  
-> $19x^{-\frac{7}{2}} = y$  
-> $x^{-\frac{7}{2}} = \frac{1}{19}y$  
+> Voorbeeld:
+> $y = 19x^{-3\frac{1}{2}}$
+> $19x^{-\frac{7}{2}} = y$
+> $x^{-\frac{7}{2}} = \frac{1}{19}y$
 > $x = \left(\frac{1}{19}y\right)^{-\frac{2}{7}} = 19^{\frac{2}{7}} \cdot y^{-\frac{2}{7}}$
 
 ## Standaardfuncties
@@ -221,9 +221,9 @@ Om zo'n vergelijking op te lossen moeten beide leden hetzelfde grondtal hebben. 
 
 ## De logaritme
 
-Om te weten tot welke macht je een bepaald getal moet heffen om een bepaalde uitkosmt te krijgen, gebruik je een **logaritme**.  
+Om te weten tot welke macht je een bepaald getal moet heffen om een bepaalde uitkomst te krijgen, gebruik je een **logaritme**.  
 Dus voor $2^n=16$ geeft de logaritme met grondtal 2 de macht. Dus $^2\log (16) = 4$, want $2^4=16$.
-Dus $^g\log(x)$ is de expoent van een macht met grondta $g$ waarbij de uitkomst $x$ is.
+Dus $^g\log(x)$ is de expoent van een macht met grondtal $g$ waarbij de uitkomst $x$ is.
 
 $$^g\log(x) = y \implies x=g^y$$
 

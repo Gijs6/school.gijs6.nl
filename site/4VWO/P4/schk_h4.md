@@ -62,7 +62,7 @@ Als zouten **matig** oplossen in water, zet je dat in de oplosvergelijking neer 
 $$\ce{Ca(OH)2 (s) <-->[\text{opl.}] Ca^{2+} (aq) + 2~OH- (aq)}$$
 Als zouten **slecht** oplossen in water, is er geen oplosvergelijking, want de ionen worden niet gehydrateerd.
 
-> Als je bij het oplossen van een zout een los oxide-ion ($\ce{O^{-2}}$) krijgt, gaat deze een reactie aan met water: $\ce{O^{-2} (aq) + H2O (l) -> 2~OH- (aq)}$.
+> Als je bij het oplossen van een zout een los oxide-ion ($\ce{O^{2-}}$) krijgt, gaat deze een reactie aan met water: $\ce{O^{2-} (aq) + H2O (l) -> 2~OH- (aq)}$.
 > Als je $\ce{Na2O}$ zou oplossen, zou je dus een natriumhydroxide-oplossing krijgen.
 
 LET OP! Als je de oplossing van een zout wilt opschrijven, kun je niet "$\ce{\text{zout} (aq)}$" opschrijven, omdat het zout niet is opgelost, maar de losse ionen. De oplossing van bijvoorbeeld bariumchloride schrijf je op als $\ce{Ba^{2+} (aq) + Cl^- (aq)}$.  
