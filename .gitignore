@@ -1,5 +1,6 @@
 build
-build2
+
+dev
 
 .venv
 __pycache__
