@@ -40,7 +40,6 @@ DATA_DIR = "site/data"
 
 # File paths
 RESOURCES_JSON = "site/data/resources.json"
-TEST_DATA_JSON = "site/data/test_data.json"
 
 # Web configuration
 SITE_URL = "https://school.gijs6.nl"
@@ -159,7 +158,6 @@ def create_test_entry(front_matter, main_dir, sub_dir, file, resources_map):
 
     entry = {
         "subject": subject,
-        "test_type": front_matter.get("test_type", "Toets"),
         "test_material": build_test_material(front_matter),
         "icon": SUBJECT_ICONS.get(subject, "fa-solid fa-file-lines"),
         "resources": resources_map.get(f"{main_dir}/{sub_dir}/{file}", []),
@@ -189,8 +187,8 @@ def process_modern_year(year_dir, resources_map):
 
             front_matter, _ = parse_front_matter(content)
 
-            # Skip if hidden or no subject
-            if front_matter.get("hidden") or not front_matter.get("subject"):
+            # Skip if hide/hidden or no subject
+            if front_matter.get("hide") or front_matter.get("hidden") or not front_matter.get("subject"):
                 continue
 
             entry = create_test_entry(
@@ -203,7 +201,6 @@ def process_modern_year(year_dir, resources_map):
 
 def build_homepage_data():
     resources_map = load_json_file(RESOURCES_JSON)
-    test_data = load_json_file(TEST_DATA_JSON)
     data = {}
 
     for year_dir in get_vwo_years():
@@ -211,10 +208,8 @@ def build_homepage_data():
         if not os.path.isdir(year_path):
             continue
 
-        # Archive years (2VWO, 3VWO) - use old test_data.json system
+        # Archive years (2VWO, 3VWO) - skip, handled by build_archive_data()
         if ARCHIVE_YEAR_PATTERN.match(year_dir):
-            if year_dir in test_data:
-                data[year_dir] = test_data[year_dir]
             continue
 
         # Modern years (4VWO, 5VWO, 6VWO) - use front matter
@@ -453,6 +448,10 @@ def process_markdown_file(
 
     front_matter, markdown_content = parse_front_matter(content)
 
+    # Skip if hide or hidden is set to true
+    if front_matter.get("hide") or front_matter.get("hidden"):
+        return None
+
     # Convert to HTML
     html_content = remove_base64_images(md_processor.convert(markdown_content))
     md_processor.reset()
@@ -494,9 +493,15 @@ def process_markdown_files(build_dir, template_env, md_processor):
 
             for file in md_files:
                 md_file_path = os.path.join(root, file)
-                relative_path, html_content = process_markdown_file(
+                result = process_markdown_file(
                     md_file_path, year_path, build_year_dir, md_processor, template_env
                 )
+
+                # Skip hidden files
+                if result is None:
+                    continue
+
+                relative_path, html_content = result
 
                 # Cache HTML content for feed generation
                 cache_key = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
