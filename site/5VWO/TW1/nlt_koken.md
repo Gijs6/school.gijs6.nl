@@ -63,7 +63,10 @@ Als elk aminozuur 1 keer gebruikt moet worden is het aantal mogelijke combinatie
 
 ## Sensorisch onderzoek
 
-Bij dit onderzoek kijk je naar **geur**, **smaak** en **textuur**. Maar je kunt ook kijken naar de **verpakking**, de **prijs** en het **verhaal achter het product**.
+Bij dit onderzoek kijk je naar **geur**, **smaak** en **textuur**. Maar je kunt ook kijken naar de **verpakking**, de **prijs** en het **verhaal achter het product**.  
+Er zijn 5 basissmaken die we kunnen proeven: **zoet**, **zout**, **zuur**, **bitter** en **umami**.
+
+Sensorische tests worden uitgevoerd om producten objectief te beoordelen en te vergelijken.
 
 Bij dit onderzoek is het belangrijk dat je geen vooroordelen vormt. Zo moet je de samples niet nummeren in oplopende volgorde, maar je moet willekeurige 3-cijferige codes gebruiken die ook geen betekenis hebben, zoals de codes 538, 404, 112, 911, 123 of 420.
 
