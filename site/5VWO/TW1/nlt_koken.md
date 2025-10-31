@@ -79,10 +79,7 @@ Een emulgator is een molecuul met een hydrofiele kop en een hydrofobe staart. De
 
 Schuim in een biertje zakt langzaam in. Hierbij kun je de halfwaardetijd van het inzakken van het schuim berekenen.
 
-**Stap 1:** Bereken de **genormeerde waarde** voor elke meting. Dit doe je door van alle waardes de waarde van de laatste meting af te trekken. Eigenlijk bereken je dus het verschil met de eindmeting, zodat je grafiek op 0 eindigt.
-
-**Stap 2:** Maak een grafiek met op de x-as de tijd en op de y-as de natuurlijke logaritme van de genormeerde waarde ($\ln(\text{genormeerde waarde})$).
-
-**Stap 3:** Bepaal de richtingscoëfficiënt (rc) van de rechte lijn in deze grafiek.
-
-**Stap 4:** Bereken de halfwaardetijd met de formule: $t_{\frac{1}{2}} = \frac{\ln (\frac{1}{2})}{\text{rc}}$.
+1. Bereken de **genormeerde waarde** voor elke meting. Dit doe je door van alle waardes de waarde van de laatste meting af te trekken. Eigenlijk bereken je dus het verschil met de eindmeting, zodat je grafiek op 0 eindigt.
+2. Maak een grafiek met op de x-as de tijd en op de y-as de natuurlijke logaritme van de genormeerde waarde ($\ln(\text{genormeerde waarde})$).
+3. Bepaal de richtingscoëfficiënt (rc) van de rechte lijn in deze grafiek.
+4. Bereken de halfwaardetijd met de formule: $t_{\frac{1}{2}} = \frac{\ln (\frac{1}{2})}{\text{rc}}$.
