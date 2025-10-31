@@ -54,7 +54,7 @@ Hieronder zie je een overzicht van verwijs- en signaalwoorden.
 | Waar+voorzetsel / wie+voorzetsel | waarmee, waarover, met wie, over wie |
 | **Signaalwoorden** |  |
 | opsomming | om te beginnen, ook, bovendien, daarnaast, vervolgens, verder, ten slotte, en |
-| tegenstelling | maar, toch, daar staat tegenover, desondanks, echter, aan de ene kant … aan de andere kant |
+| tegenstelling | maar, toch, daar staat tegenover, desondanks, echter, aan de ene kant ... aan de andere kant |
 | tijd (chronologie) | eerst, daarna, dan, toen, eens, vroeger, nu, ooit, later, voordat, nadat, uiteindelijk |
 | oorzaak-gevolg | daardoor, doordat, als gevolg van, zodat |
 | reden | daarom, dus, omdat, want, namelijk, immers |

@@ -286,27 +286,27 @@ Hier zijn de hoofdregels voor het meervoud voor zelfstandige naamwoorden
 
 | Wie is dat? | Wer ist das? |
 |----|----|
-| Dat is mijn \[…\]. | Das ist mein / meine \[…\]. |
-| Hij / Zij heet \[…\]. | Er / Sie heißt \[…\]. |
-| Zijn / Haar naam is \[…\]. | Sein / Ihr Name ist \[…\]. |
-| Dat zijn onze \[…\]. | Das sind unsere \[…\]. |
-| Kun je \[…\] beschrijven? | Kannst du \[…\] beschreiben? |
-| Hij is mijn \[…\]. | Er ist mein \[…\]. |
-| Zij is mijn \[…\]. | Sie ist meine \[…\]. |
+| Dat is mijn \[...\]. | Das ist mein / meine \[...\]. |
+| Hij / Zij heet \[...\]. | Er / Sie heißt \[...\]. |
+| Zijn / Haar naam is \[...\]. | Sein / Ihr Name ist \[...\]. |
+| Dat zijn onze \[...\]. | Das sind unsere \[...\]. |
+| Kun je \[...\] beschrijven? | Kannst du \[...\] beschreiben? |
+| Hij is mijn \[...\]. | Er ist mein \[...\]. |
+| Zij is mijn \[...\]. | Sie ist meine \[...\]. |
 | Heb je broers of zussen? | Hast du Geschwister? |
-| Ja, ik heb \[…\]. | Ja, ich habe \[…\]. |
+| Ja, ik heb \[...\]. | Ja, ich habe \[...\]. |
 | Nee, ik heb geen broers en zussen. | Nein, ich habe keine Geschwister. |
 | Op welke school zit je? | Auf welche Schule gehst du? |
-| Ik zit op \[…\]. | Ich gehe auf \[…\]. |
-| In welke klas zit \[…\] ? | In welche Klasse geht \[…\] ? |
+| Ik zit op \[...\]. | Ich gehe auf \[...\]. |
+| In welke klas zit \[...\] ? | In welche Klasse geht \[...\] ? |
 | Ze zit in de tweede klas. | Sie geht in die achte Klasse. |
-| Hoe ziet \[…\] eruit? | Wie sieht \[…\] aus? |
-| Wanneer heb je \[…\]? | Wann hast du \[…\]? |
-| Op \[…\] heb ik \[…\]. | Am \[…\] habe ich \[…\]. |
-| Om \[…\] hebben we \[…\]. | Um \[…\] haben wir \[…\]. |
-| \[…\] hebben we een toets. | \[…\] schreiben wir einen Test. |
-| \[…\] maak ik huiswerk. | \[…\] mache ich Hausaufgaben. |
-| Hoe vind je \[…\]? | Wie findest du \[…\]? |
-| \[…\] vind ik \[…\] maar ook \[…\] . | \[…\] finde ich \[…\] aber auch \[…\] . |
-| \[…\] vind ik \[…\] en niet \[…\]. | \[…\] finde ich \[…\] und nicht \[…\]. |
-| \[…\] is mijn lievelingsvak. | \[…\] ist mein Lieblingsfach. |
+| Hoe ziet \[...\] eruit? | Wie sieht \[...\] aus? |
+| Wanneer heb je \[...\]? | Wann hast du \[...\]? |
+| Op \[...\] heb ik \[...\]. | Am \[...\] habe ich \[...\]. |
+| Om \[...\] hebben we \[...\]. | Um \[...\] haben wir \[...\]. |
+| \[...\] hebben we een toets. | \[...\] schreiben wir einen Test. |
+| \[...\] maak ik huiswerk. | \[...\] mache ich Hausaufgaben. |
+| Hoe vind je \[...\]? | Wie findest du \[...\]? |
+| \[...\] vind ik \[...\] maar ook \[...\] . | \[...\] finde ich \[...\] aber auch \[...\] . |
+| \[...\] vind ik \[...\] en niet \[...\]. | \[...\] finde ich \[...\] und nicht \[...\]. |
+| \[...\] is mijn lievelingsvak. | \[...\] ist mein Lieblingsfach. |

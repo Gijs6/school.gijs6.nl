@@ -23,7 +23,7 @@ Door **voorbeelden** te gebruiken kun je een tekst aantrekkelijker maken. Een vo
 
 ### ## Spelling: Koppelteken en weglatingsstreepje
 
-Je gebruikt het **koppelteken …**
+Je gebruikt het **koppelteken ...**
 
 - in samenkoppelingen, die anders onoverzichtelijk worden: *doe-het-zelfwinkel*
 
@@ -120,7 +120,7 @@ Een tekst kun je aantrekkelijker maken door woorden of zinsdelen bij elkaar te z
 
 Soms moet je bij een samenstelling **tussenletters** toevoegen: *-e-, -en-, -n-* of *-s-*.
 
-Een *-s-* gebruik je als …
+Een *-s-* gebruik je als ...
 
 - Je een *-s-* hoort: *passagierslijst*.
 
@@ -128,7 +128,7 @@ Een *-s-* gebruik je als …
 
 Een *-(e)n-* gebruik je als het eerste deel een zelfstandig naamwoord is dat alleen een meervoud op -en heeft: *berenkuil*.
 
-Je gebruikt <u>geen</u> *-(e)n-* (maar soms wel *-e-*) als …
+Je gebruikt <u>geen</u> *-(e)n-* (maar soms wel *-e-*) als ...
 
 - Het eerste deel geen meervoud heeft: *roggebrood*.
 
@@ -164,7 +164,7 @@ Om te weten hoe je zwakke werkwoorden met een ik-vorm op *-d* of *-t* in de verl
 | in verband met | vanwege | Pecunia non olet. | Geld stinkt niet; Als je maar geld hebt |
 | op grond van | dankzij; door | Van de hand in de tand leven | meteen weer uitgeven wat je verdient |
 | na afloop van | na | geen boe of bah zeggen | niets zeggen |
-| in tegenstelling tot | ondanks; anders dan … vermeld/gezegd | zich groen en geel ergeren | zich heel erg ergeren |
+| in tegenstelling tot | ondanks; anders dan ... vermeld/gezegd | zich groen en geel ergeren | zich heel erg ergeren |
 | door middel van | door | jachten en jagen | zich erg haasten |
 | in aansluiting op | (direct) na | (iets) tegen heug en meug (opeten) | (iets) met grote weerzin (opeten) |
 | met het oog op | vanwege; rekening houdend met | (de) handel en wandel (van iemand) | (iemands) gedragingen |
@@ -172,12 +172,12 @@ Om te weten hoe je zwakke werkwoorden met een ik-vorm op *-d* of *-t* in de verl
 | in aanloop naar | voorafgaand aan | kant-en-klaar | helemaal klaar |
 | te midden van | met; in gezelschap van | heg noch steg weten | totaal de weg niet weten |
 | met behulp van | met; gebruikmakend van; door | iets dubbel en dwars verdienen | zeer terecht krijgen |
-| aan de hand van | door; (…) volgend | hoog en droog | veilig en beschut |
+| aan de hand van | door; (...) volgend | hoog en droog | veilig en beschut |
 | bij de gratie van | dankzij | buigen of barsten | meegeven of kapotgaan |
 | op basis van | op grond van | in kannen en kruiken | tot in detail geregeld |
-| in geval van | bij; als er … is | een heitje voor een karweitje | geld voor een klusje |
-| met betrekking tot | wat … betreft; aangaande | in geuren en kleuren | met allerlei (spannende) details |
-| ten aanzien van | wat … betreft; bij | zonder slag of stoot | zonder op verzet te stuiten |
+| in geval van | bij; als er ... is | een heitje voor een karweitje | geld voor een klusje |
+| met betrekking tot | wat ... betreft; aangaande | in geuren en kleuren | met allerlei (spannende) details |
+| ten aanzien van | wat ... betreft; bij | zonder slag of stoot | zonder op verzet te stuiten |
 | circuleren | rondgaan | door schade en schande | door allerlei negatieve ervaringen |
 | oppotten | bewaren; sparen | over koetjes en kalfjes (praten) | (praten) over onbelangrijke zaken |
 | stagneren | vertragen; niet verder gaan | de lusten en de lasten | de negatieve en de positieve dingen |

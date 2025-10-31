@@ -4,7 +4,7 @@
 
 ### De/à + lidwoord
 
-Als het Franse voorzetsel **à** (in, naar, op, bij, …) voor **le** of **les** staat, wordt het samengevoegd tot 1 woord:
+Als het Franse voorzetsel **à** (in, naar, op, bij, ...) voor **le** of **les** staat, wordt het samengevoegd tot 1 woord:
 
 à + le → au Je suis **au** club de foot.
 
@@ -66,7 +66,7 @@ De passé composé maak je door de *-r* weg te halen: J'**ai** **choisi** la sé
 | ik heb me vergist | je me suis trompé(e) | wandelen | faire des randonnées |
 | ik moet | je dois | wanneer, toen | quand |
 | ik sta op | je me lève | wielrennen | faire du cyclisme |
-| ik vind … vreselijk | j'ai horreur de | zeilen | faire de la voile |
+| ik vind ... vreselijk | j'ai horreur de | zeilen | faire de la voile |
 | ik wilde | je voulais | zich ontspannen | se relaxer |
 | in plaats van | au lieu de | zin hebben in | avoir envie de |
 | irritant | énervant(e) | zingen | chanter |

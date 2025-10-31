@@ -4,7 +4,7 @@
 
 ### De/à + lidwoord
 
-Als het Franse voorzetsel **à** (in, naar, op, bij, …) voor **le** of **les** staat, wordt het samengevoegd tot 1 woord:
+Als het Franse voorzetsel **à** (in, naar, op, bij, ...) voor **le** of **les** staat, wordt het samengevoegd tot 1 woord:
 
 à + le → au Je suis **au** club de foot.
 

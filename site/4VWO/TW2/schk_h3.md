@@ -53,8 +53,8 @@ Voorbeeld: Hoeveel gram zuurstof ontstaat bij de volledige ontleding van 10,0 g 
 Binas 99 geeft MH₂O = 18,015 g/mol  
 nH₂O = mH₂O / MH₂O = 10,0 / 18,015 = 0,55... mol  
 Volgens de reactievergelijking is de molverhouding H₂O : O₂ = 2 : 1  
-nO₂ = nH₂O / 2 = 0,55… / 2 = 0,27... mol  
-MO₂ = 32,00 g/mol → mO₂ = nO₂ × MO₂ = 0,27… × 32,00 = 8,88 g (de molverhouding telt niet mee voor significantie, omdat het geen meetwaarden zijn)
+nO₂ = nH₂O / 2 = 0,55... / 2 = 0,27... mol  
+MO₂ = 32,00 g/mol → mO₂ = nO₂ × MO₂ = 0,27... × 32,00 = 8,88 g (de molverhouding telt niet mee voor significantie, omdat het geen meetwaarden zijn)
 
 # Uitgebreid schema chemisch rekenen
 

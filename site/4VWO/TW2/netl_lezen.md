@@ -26,7 +26,7 @@ Als je een tekst **actief leest** maak je bijvoorbeeld aantekeningen, markeer je
 
 ## Afbeeldingen
 
-**Schematische afbeeldingen**, zoals diagrammen, infographics (combinatie van tekst, afbeeldingen, schema's, …), pictogrammen enz., worden gebruikt om de inhoud van een tekst te verduidelijken. Ze bevatten vaak een **legenda**.
+**Schematische afbeeldingen**, zoals diagrammen, infographics (combinatie van tekst, afbeeldingen, schema's, ...), pictogrammen enz., worden gebruikt om de inhoud van een tekst te verduidelijken. Ze bevatten vaak een **legenda**.
 
 ## Teksten vergelijken
 
@@ -113,7 +113,7 @@ Een **tekstverband** is een samenhang van woorden, zinnen en alinea's binnen een
 * toelichtend verband: geeft extra informatie, vaak in de vorm van een voorbeeld  
    → signaalwoorden: als, bijvoorbeeld, denk (maar) aan, neem nou, zo, zoals  
 * vergelijkend verband: laat een verschil of een overeenkomst zien  
-   → signaalwoorden: evenals, in vergelijking met, (even / net (zo) … als, zoals enz.  
+   → signaalwoorden: evenals, in vergelijking met, (even / net (zo) ... als, zoals enz.  
 * voorwaardelijk verband: maakt duidelijk onder welke voorwaarden iets gebeurt
 
 → signaalwoorden: als (... dan), indien, mits, tenzij, wanneer

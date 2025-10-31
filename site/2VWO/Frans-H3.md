@@ -67,9 +67,9 @@ De werkwoorden **vouloir** en **pouvoir** zijn onregelmatig.
 </tr>
 <tr>
 <th style="text-align: center;">Passé composé:</th>
-<th style="text-align: center;">(J'ai/tu as/…) <strong>pu</strong></th>
+<th style="text-align: center;">(J'ai/tu as/...) <strong>pu</strong></th>
 <th style="text-align: center;">Passé composé:</th>
-<th style="text-align: center;">(J'ai/tu as/…) <strong>voulu</strong></th>
+<th style="text-align: center;">(J'ai/tu as/...) <strong>voulu</strong></th>
 </tr>
 </thead>
 <tbody>

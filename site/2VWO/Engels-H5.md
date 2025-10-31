@@ -30,7 +30,7 @@ De *present continuous* gebruik je voor dingen die gepland zijn en bijna zeker g
 
 ***To be going to* + hele werkwoord**
 
-Je gebruikt *to be going to* + hele werkwoord …
+Je gebruikt *to be going to* + hele werkwoord ...
 
 - Als het plan al bestond voor het gesprek  
   *We **are going to make** a video. Wij gaan een video maken.*
@@ -42,7 +42,7 @@ Je gebruikt *to be going to* + hele werkwoord …
 
 ***Will* + hele werkwoord**
 
-Je gebruikt *will* + hele werkwoord …
+Je gebruikt *will* + hele werkwoord ...
 
 - Als het plan ontstaat tijdens het gesprek.  
   *I'**ll get** you something to drink, if you're thirsty, Ik haal drinken voor je als je dorst hebt.*
@@ -61,7 +61,7 @@ Je gebruikt *will* + hele werkwoord …
 
 ***Shall +* hele werkwoord**
 
-Je gebruikt *shall* + hele werkwoord …
+Je gebruikt *shall* + hele werkwoord ...
 
 - Bij een voorstel in de vraagvorm met *I* of *We* als onderwerp  
   ***Shall** I **give** this key to him? Zal ik hem deze sleutel geven?*

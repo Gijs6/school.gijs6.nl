@@ -40,11 +40,11 @@ De present continuous gebruik je voor
 
 > They are forever losing their keys Ze zijn altijd hun sleutels kwijt
 
-### Possessives (the Genitive): ‘s, ‘ and … of …
+### Possessives (the Genitive): ‘s, ‘ and ... of ...
 
 | **Bezit van mensen of dieren** |  |  | **Bezit van dingen** |  |  |
 |----|----|----|----|----|----|
-| enkelvoud | ‘s | The cat's food | enkelvoud | … of … | The screen of the laptop |
+| enkelvoud | ‘s | The cat's food | enkelvoud | ... of ... | The screen of the laptop |
 | meervoud op -s | ‘ | My sisters' books | meervoud |  | The brakes of the bike |
 | meervoud zonder -s | ‘s | The children's laptops | locaties |  | The city of Rotterdam |
 | namen op -s | ‘ / ‘s | Dennis'(s) phone |  |  |  |
@@ -171,7 +171,7 @@ Conjunctions zij voegwoorden. Ze verbinden zinsdelen. Conjunctions hebben een ei
 | knorrig | grumpy | hoofdstad | capital |
 | in de twintig / dertig / veertig, etc. | in your twenties / thirties / forties, etc. | grot | cave |
 | er onverzorgd uitzien | to look scruffy | uitbarsten | to erupt |
-| er moe uitzien | to look tired | naar … toe gaan | to head to |
+| er moe uitzien | to look tired | naar ... toe gaan | to head to |
 | kaal worden | to lose your hair | vlakte | plain |
 | middelbare leeftijd | middle-aged | bevolkt | populated |
 | klein en tenger | petite | rots | rock |

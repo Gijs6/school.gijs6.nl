@@ -44,12 +44,12 @@ Om woorden in het Engels te vergelijken, gebruik je de vergrotende trap en de ov
 |                                                          |         many         |                  |                    |
 |                                                          |    little (tijd)     |       less       |       least        |
 |                                                          |    little (klein)    |     smaller      |      smallest      |
-|                    **(Not) as … as**                     | (not) as talented as |                  |                    |
+|                    **(Not) as ... as**                     | (not) as talented as |                  |                    |
 
 ## Bijvoeglijke naamwoorden en bijwoorden
 
 Je gebruikt **adjectives** (bijvoeglijke naamwoorden) als je iets zegt over een **zelfstandig naamwoord**. Bijvoeglijke naamwoorden met getallen schrijf je met streepjes ertussen.  
-Een **adverb** (bijwoord) kan iets zeggen over…
+Een **adverb** (bijwoord) kan iets zeggen over...
 
 1. Een werkwoord  
    *You worked **excellently** today\!*  

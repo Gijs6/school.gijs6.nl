@@ -96,9 +96,9 @@ Om de **passé composé** te maken met een werkwoord op *-re* voeg je een *-u* t
 
 | Wat is de wificode? | Quel est le code WiFi? |
 |----|----|
-| Het is … en het wachtwoord is … | C'est … et le mot de passe c'est … |
+| Het is ... en het wachtwoord is ... | C'est ... et le mot de passe c'est ... |
 | Heb je Insta? | Tu as Insta? |
-| Natuurlijk, mijn account is … Voeg je me toe? | Bien sûr, mon compte c'est … Tu m'ajoutes? |
+| Natuurlijk, mijn account is ... Voeg je me toe? | Bien sûr, mon compte c'est ... Tu m'ajoutes? |
 | Post je veel foto's? | Tu publies beaucoup de photos? |
 | Ja, en ik post ook stories. | Oui, et je publie aussi des stories. |
 | Hoeveel volgers heb je? | Tu as combien de followers? |

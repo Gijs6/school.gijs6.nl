@@ -8,7 +8,7 @@ details_medium: Hoofdstuk 4
 
 | Present Simple                 | Hele werkwoord, bij he/she/it \+ *\-s*                                                                                                                                                                                                                                                                                                                                                         |
 | :----------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                                | Iets gebeurt altijd, nooit of regelmatig Iets is een feit Werkwoorden met een zintuigelijke waarneming (*to see*, *to hear*, …) Werkwoorden met een gedachte/geestelijke staat (*to know*, *to doubt*, …) Werkwoorden met een voorkeur (*to like*, *to prefer*, …) Vaste tijden (volgens een schema) Bij *before*, *after*, *as soon as*, *if*, *until* of *when* (bij een toekomstverwijzing) |
+|                                | Iets gebeurt altijd, nooit of regelmatig Iets is een feit Werkwoorden met een zintuigelijke waarneming (*to see*, *to hear*, ...) Werkwoorden met een gedachte/geestelijke staat (*to know*, *to doubt*, ...) Werkwoorden met een voorkeur (*to like*, *to prefer*, ...) Vaste tijden (volgens een schema) Bij *before*, *after*, *as soon as*, *if*, *until* of *when* (bij een toekomstverwijzing) |
 | **Present continuous**         | *To be* \+ ww \+ *\-ing*                                                                                                                                                                                                                                                                                                                                                                       |
 |                                | Iets is nu bezig of aan de gang Iets toekomstig is al voorbereid (*I'm flying to London this monday*) Bij irritatie (vaak met *always* of *constantly*)                                                                                                                                                                                                                                        |
 | **Past simple**                | Hele werkwoord \+ *\-ed* Sommige werkwoorden hebben een onregelmatige vorm                                                                                                                                                                                                                                                                                                                     |
@@ -71,7 +71,7 @@ Je gebruikt *have to*, *must* en *should* om te zeggen dat iets (zou) moeten.
 
 |   Bezit van mensen of dieren   |        |                          | Bezit van dingen |        |                            |
 | :----------------------------: | :----: | :----------------------: | :--------------: | :----: | :------------------------: |
-|           Enkelvoud            |   's   |     *The cat's food*     |    Enkelvoud     | … of … | *The screen of the laptop* |
+|           Enkelvoud            |   's   |     *The cat's food*     |    Enkelvoud     | ... of ... | *The screen of the laptop* |
 |        Meervoud op \-s         |   '    |   *My sisters' books*    |     Meervoud     |        |  *The brakes of the bike*  |
 |      Meervoud zonder \-s       |   's   | *The children's laptops* |     Locaties     |        |  *The city of Rotterdam*   |
 |          Namen op \-s          | ' / 's |    *Dennis'(s) phone*    |                  |        |                            |
@@ -86,7 +86,7 @@ Je gebruikt *have to*, *must* en *should* om te zeggen dat iets (zou) moeten.
   Bijwoorden over **tijd** komen aan het **eind van een zin**, of aan **het begin van een zin** als de **nadruk op de tijd** ligt.  
 * Bijwoorden over **plaats komen altijd voor tijd**.  
 * Regelmaat  
-  Bijwoorden die aangeven **hoe vaak** iets voorkomt/onbepaalde tijd (*always*, *never*, *often*, …) komen **voor** het hoofdwerkwoord (bij 1 werkwoord), **na** het eerste hulpwerkwoord (als er meerdere werkwoorden in een zin staan), **na** een vorm van *to be* (als deze in de zin staat), **na** het onderwerp (in vragende zinnen) of **voor** het onderwerp (in korte bevestigende zinnen).
+  Bijwoorden die aangeven **hoe vaak** iets voorkomt/onbepaalde tijd (*always*, *never*, *often*, ...) komen **voor** het hoofdwerkwoord (bij 1 werkwoord), **na** het eerste hulpwerkwoord (als er meerdere werkwoorden in een zin staan), **na** een vorm van *to be* (als deze in de zin staat), **na** het onderwerp (in vragende zinnen) of **voor** het onderwerp (in korte bevestigende zinnen).
 
 ## Prepositions
 

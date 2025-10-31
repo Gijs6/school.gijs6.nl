@@ -6,7 +6,7 @@ details_medium: Hoofdstuk 2
 
 ## Het bijwoord
 
-Een bijvoeglijk naamwoord zegt iets over een zelfstandig naamwoord (*la voiture rouge*, *la piscine confortable*, …). Een bijwoord zegt iets over een …
+Een bijvoeglijk naamwoord zegt iets over een zelfstandig naamwoord (*la voiture rouge*, *la piscine confortable*, ...). Een bijwoord zegt iets over een ...
 
 * **Werkwoord**  
   *Il conduit très **lentement*** (Hij rijdt erg langzaam)  

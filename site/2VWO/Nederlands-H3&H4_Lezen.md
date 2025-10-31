@@ -15,8 +15,8 @@ In een goede tekst hangen woorden, zinnen en alinea's samen. Deze samenhang noem
 | Een **oorzakelijk verband** laat zien waardoor iets is gebeurd, zonder dat iemand daar invloed op heeft. | doordat, daardoor, als gevolg van, dat komt door, het gevolg is, dus, dankzij, door te | Omdat het zo koud is buiten, konden wij gisteren schaatsen. |
 | Een **vergelijkend verband** maakt iets duidelijk op basis van een verschil of overeenkomst. | in vergelijking met, (net) als, evenals, zoals, meer/groter/beter dan, vergeleken met | Ben kan sneller rennen dan Joep. |
 | Een **chronologisch verband** beschrijft gebeurtenissen in de juiste tijdsvolgorde. | vroeger, later, nu, eerst, daarna, vervolgens, nadat, terwijl, dadelijk, intussen, binnenkort; ook jaartallen en data | Nadat ik een broodje kocht, ging ik de les in. |
-| Een **opsommend verband** noemt dingen achter elkaar. | ten eerste, ten tweede, om te beginnen, bovendien, ook (nog), verder, ten slotte, en, niet aleen … (maar) ook; opsommingstekens | Sjoerd doet echt onaardig: hij scheldt mij uit, hij slaat mij en bovendien negeert hij mij. |
-| Een **tegenstellend verband** noemt tegenovergestelde dingen. | maar, tegenover, daarentegen, toch, echter, hoewel, ofschoon, ondanks, aan de ene kant … aan de andere kant | Aan de ene kant vind ik dat idee erg leuk, maar aan de andere kant is het wel een beetje duur. |
+| Een **opsommend verband** noemt dingen achter elkaar. | ten eerste, ten tweede, om te beginnen, bovendien, ook (nog), verder, ten slotte, en, niet aleen ... (maar) ook; opsommingstekens | Sjoerd doet echt onaardig: hij scheldt mij uit, hij slaat mij en bovendien negeert hij mij. |
+| Een **tegenstellend verband** noemt tegenovergestelde dingen. | maar, tegenover, daarentegen, toch, echter, hoewel, ofschoon, ondanks, aan de ene kant ... aan de andere kant | Aan de ene kant vind ik dat idee erg leuk, maar aan de andere kant is het wel een beetje duur. |
 | Een **toelichtend verband** geeft extra informatie. | bijvoorbeeld, zo, als, zoals, denk aan | Er zijn veel verschillende valuta's, zoals de euro en de dollar. |
 
 ## Feiten en meningen

@@ -42,7 +42,7 @@ De *passive* (lijdende vorm) maak je met een voltooid deelwoord en een vorm van 
 * "Er" in een lijdende zin? Dan wordt in het Engels een ander woord het onderwerp  
   *"Er is te weinig aandacht besteed aan de natuur" → "Too little attention has been paid to the nature"*  
 * Als je "er" gebruikt in een zin **waar je ook men** kan gebruiken, gebruik je in het Engels *it*.  
-  "Er wordt gezegd dat de president opstapt" → je kunt men gebruiken ("men zegt dat …"), dus je zegt "*It is said that the president will resign"*.  
+  "Er wordt gezegd dat de president opstapt" → je kunt men gebruiken ("men zegt dat ..."), dus je zegt "*It is said that the president will resign"*.  
 * Als je van een actieve naar een passieve zin gaat, zijn er meerdere opties voor het onderwerp  
   *He told us a secret → A secret was told to us* OF *We were told a secret*
 
@@ -59,7 +59,7 @@ Deze tijd geeft aan dat iets in het verleden te lang duurde.
 ## Het schrijven van een brief (*motivation letter*)
 
 * Begin met "Dear Mr./Ms. \[achternaam\]"  
-* In de eerste paragraaf schrijf je o.a. over het doel van je brief (*I am writing with reference to …*), je introduceert jezelf en je beschrijft je interesse in de vacature.  
+* In de eerste paragraaf schrijf je o.a. over het doel van je brief (*I am writing with reference to ...*), je introduceert jezelf en je beschrijft je interesse in de vacature.  
 * In het middenstuk schrijf je over je vaardigheden, kennis en eerdere ervaringen. Ook schrijf je waarom jij de beste kandidaat bent, laat je enthousiasme voor de vacature en het bedrijf zien  
 * In het slot herhaal je jouw interesse en je kunt vragen stellen  
 * Je sluit af met "yours sincerely, \[witregel\] \[je naam\]" of met "kind regards, \[witregel\] \[je naam\]"

@@ -12,7 +12,7 @@ Om woorden in het Engels te vergelijken, gebruik je de vergrotende trap en de ov
 | **2 of meer lettergrepen** | polite | more polite | most polite |
 | **Onregelmatig** | good | better | best |
 |  | bad | worse | worst |
-| **(Not) as … as** | (not) as talented as |  |  |
+| **(Not) as ... as** | (not) as talented as |  |  |
 
 ## Relative pronouns
 

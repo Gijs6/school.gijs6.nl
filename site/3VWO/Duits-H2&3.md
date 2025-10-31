@@ -108,7 +108,7 @@ Der Arzt operiert **mich**. *De arts opereert mij.*
 
 | also | dus | eine Menge | veel |
 |----|----|----|----|
-| anschauen | bekijken | entweder … oder | of ... of |
+| anschauen | bekijken | entweder ... oder | of ... of |
 | anstrengend | vermoeiend | Es ist egal. | Het maakt niet uit. |
 | bequem | comfortabel | etwa | ongeveer |
 | bestätigen | bevestigen | etwas schaffen | voor elkaar krijgen |

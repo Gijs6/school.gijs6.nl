@@ -8,7 +8,7 @@ De inhoud van een prisma is **oppervlakte grondvlak** **× hoogte**. Het grondvl
 
 De **vergrotingsfactor (k)** vertelt je hoeveel keer groter of kleiner een **beeld** is tegenover het **origineel**. De figuur behoudt altijd dezelfde vorm. Hieronder zie je een overzicht van formules voor vergroten en verkleinen.
 
-|  | ***K* berekenen** | **… van beeld berekenen** | **… van origineel berekenen** |
+|  | ***K* berekenen** | **... van beeld berekenen** | **... van origineel berekenen** |
 |----|----|----|----|
 | **Lengte** | $\frac{Beeld}{Origineel}$ | Origineel × *K* | Beeld ÷ *K* |
 | **Oppervlakte** | $$ | Opp origineel × *K*² | Opp beeld ÷ *K*² |

@@ -35,7 +35,7 @@ Bij een zuivere stof is de temperatuur tijdens het stollen gelijk. Bij een mengs
 
 Om een mengsel te scheiden moet je een van de scheidingsmethodes gebruiken. De stoffen scheiden door een verschil in stofeigenschappen.
 
-| **Naam scheidingsmethode** | **Voor wat te gebruiken?** | **Hoe werkt het?** | **Op basis van een verschil in …** |
+| **Naam scheidingsmethode** | **Voor wat te gebruiken?** | **Hoe werkt het?** | **Op basis van een verschil in ...** |
 |----|----|----|----|
 | Bezinken en afschenken | Suspensies en emulsies | Zware deeltjes zakken naar bodem | Dichtheid |
 | Centrifugeren |  |  |  |

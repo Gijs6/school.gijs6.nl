@@ -40,7 +40,7 @@
 
 Je vergelijkt een beeld (b) en een object (o)
 
-Je vergelijkt twee dingen die iets gemeen hebben: het object (o) en het beeld (b). Het object komt uit de werkelijkheid. Bij een vergelijking worden meestal signaalwoorden gebruikt zoals: als, zo … als, lijkt wel, is net & een … van een …
+Je vergelijkt twee dingen die iets gemeen hebben: het object (o) en het beeld (b). Het object komt uit de werkelijkheid. Bij een vergelijking worden meestal signaalwoorden gebruikt zoals: als, zo ... als, lijkt wel, is net & een ... van een ...
 
 *Pieter* (o) is zo lang als een *giraffe* (b).
 

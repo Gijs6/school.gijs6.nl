@@ -56,11 +56,11 @@ Als de stam van een werkwoord eindigt op een medeklinker volgend op een **-m** o
 
 | Wat doe je graag? | Was machst du gern? |
 |----|----|
-| … vind ik leuk. | … finde ich toll/macht mir Spaß/gefällt mir total. |
+| ... vind ik leuk. | ... finde ich toll/macht mir Spaß/gefällt mir total. |
 | Wat zijn je hobby's? | Was sind deine Hobbys? |
-| Mijn hobby is … | Mein Hobby ist … . |
-| Mijn hobby's zijn … en … . | Meine Hobbys sind … und …. |
-| Wanneer speel je? | Wann spielst du … ? |
-| Met wie ga je meestal …? | Mit wem gehst du meistens …? |
-| Ik speel elke maandag na school …. | Ich spiele jeden Montag nach der Schule ….. |
-| Ik ga vaak met vrienden …. | Ich gehe oft/manchmal mit Freunden …. |
+| Mijn hobby is ... | Mein Hobby ist ... . |
+| Mijn hobby's zijn ... en ... . | Meine Hobbys sind ... und .... |
+| Wanneer speel je? | Wann spielst du ... ? |
+| Met wie ga je meestal ...? | Mit wem gehst du meistens ...? |
+| Ik speel elke maandag na school .... | Ich spiele jeden Montag nach der Schule ..... |
+| Ik ga vaak met vrienden .... | Ich gehe oft/manchmal mit Freunden .... |

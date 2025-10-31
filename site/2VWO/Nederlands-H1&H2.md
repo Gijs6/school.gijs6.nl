@@ -4,7 +4,7 @@
 
 ### Vergelijking, metafoor, personificatie
 
-Bij een vergelijking vergelijk je twee dingen die iets gemeen hebben: het object (o) en het beeld (b). Het object komt uit de werkelijkheid. Bij een vergelijking worden meestal signaalwoorden gebruikt zoals: als, zo … als, lijkt wel, is net & een … van een …
+Bij een vergelijking vergelijk je twee dingen die iets gemeen hebben: het object (o) en het beeld (b). Het object komt uit de werkelijkheid. Bij een vergelijking worden meestal signaalwoorden gebruikt zoals: als, zo ... als, lijkt wel, is net & een ... van een ...
 
 *Pieter (o) is zo lang als een giraffe (b).*
 
@@ -56,7 +56,7 @@ Wederkerende werkwoorden keren terug op het onderwerp.
 
 Je kan de juiste woordsoort vaststellen door het woord *me, je* of *ons* te vervangen door *hij, hem, zijn* of *zich*.
 
-Als je het woord kunt vervangen door…
+Als je het woord kunt vervangen door...
 
 - *hij* of *hem*, dan is het een persoonlijk voornaamwoord
 

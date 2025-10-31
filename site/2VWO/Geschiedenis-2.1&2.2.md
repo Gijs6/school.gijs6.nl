@@ -2,7 +2,7 @@
 
 ## Kritiek en onrust in de kerk
 
-Een **humanist** (bijvoorbeeld Desiderius Erasmus van Rotterdam) is een persoon die…
+Een **humanist** (bijvoorbeeld Desiderius Erasmus van Rotterdam) is een persoon die...
 
 - kritiek uitte op de katholieke kerk
 

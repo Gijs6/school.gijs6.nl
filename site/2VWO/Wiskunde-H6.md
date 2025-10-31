@@ -73,7 +73,7 @@ Joost heeft de afgelopen maand bijgehouden hoeveel mails hij per dag ontvangt:
 |----|----|----|----|----|----|----|----|----|
 | **<span class="mark">Frequentie</span>** | <span class="mark">2</span> | <span class="mark">5</span> | <span class="mark">1</span> | <span class="mark">5</span> | <span class="mark">4</span> | <span class="mark">7</span> | <span class="mark">1</span> | <span class="mark">3</span> |
 
-<span class="mark">Om bij deze frequentietabel het totaal aantal dagen te berekenen waarop is gemeten, tel je alle frequenties bij elkaar op. Dit is dus ook het aantal waarnemingsgetallen. Om te berekenen hoeveel mails Joost de afgelopen maand heeft gekregen vermenigvuldig je alle aantallen met hun bijbehorende frequentie, dus 0 × 2 + … + 7 × 3.</span>
+<span class="mark">Om bij deze frequentietabel het totaal aantal dagen te berekenen waarop is gemeten, tel je alle frequenties bij elkaar op. Dit is dus ook het aantal waarnemingsgetallen. Om te berekenen hoeveel mails Joost de afgelopen maand heeft gekregen vermenigvuldig je alle aantallen met hun bijbehorende frequentie, dus 0 × 2 + ... + 7 × 3.</span>
 
 <span class="mark">Het waarnemingsgetal 3 komt dus 5 keer voor. Van een frequentietabel kun je een histogram maken.</span>
 

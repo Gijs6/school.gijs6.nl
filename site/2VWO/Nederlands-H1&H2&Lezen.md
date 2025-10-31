@@ -15,6 +15,6 @@ In een goede tekst hangen woorden, zinnen en alinea's met elkaar samen. Die same
 | Oorzakelijk verband | Laat de reden zien waardoor iets gebeurd waar je zelf geen invloed op hebt. | doordat, daardoor, als gevolg van, dat komt door, het gevolg is, dus, dankzij, door te |
 | Vergelijkend verband | Iets duidelijk maken door een verschil of overeenkomst te noemen. | in vergelijking met, (net) als, evenals, zoals, meer/groter/beter dan, vergeleken met |
 | Chronologisch verband | Beschrijft gebeurtenissen in tijdsvolgorde | vroeger, later, nu, eerst, daarna, vervolgens, nadat, terwijl, dadelijk, intussen, binnenkort en jaartallen & datums |
-| Opsommend verband | Zaken worden achter elkaar opgesomd | ten eerste, ten tweede, om te beginnen, bovendien, ook (nog), verder, ten slotte, en, niet alleen … (maar) ook |
-| Tegenstellend verband | Tegenovergestelde zaken worden genoemd | maar, tegenover, daarentegen, toch, echter, hoewel, ofschoon, ondanks dat, aan de ene kant … aan de andere kant |
+| Opsommend verband | Zaken worden achter elkaar opgesomd | ten eerste, ten tweede, om te beginnen, bovendien, ook (nog), verder, ten slotte, en, niet alleen ... (maar) ook |
+| Tegenstellend verband | Tegenovergestelde zaken worden genoemd | maar, tegenover, daarentegen, toch, echter, hoewel, ofschoon, ondanks dat, aan de ene kant ... aan de andere kant |
 | Toelichtend verband | Extra informatie wordt verteld over een onderwerp, vaak een voorbeeld | bijvoorbeeld, zo, als, zoals, denk aan, neem nou |

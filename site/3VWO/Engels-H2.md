@@ -6,7 +6,7 @@ Je gebruikt de *possesive* op bezit aan te geven.
 
 | **Bezit van mensen of dieren** |  |  | **Bezit van dingen** |  |  |
 |----|----|----|----|----|----|
-| enkelvoud | ‘s | *The cat's food* | enkelvoud | … of … | *The screen of the laptop* |
+| enkelvoud | ‘s | *The cat's food* | enkelvoud | ... of ... | *The screen of the laptop* |
 | meervoud op -s | ‘ | *My sisters' books* | meervoud |  | *The brakes of the bike* |
 | meervoud zonder -s | ‘s | *The children's laptops* | locaties |  | *The city of Rotterdam* |
 | namen op -s | ‘ / ‘s | *Dennis'(s) phone* |  |  |  |

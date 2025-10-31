@@ -42,10 +42,10 @@ Als je *beter dan* wilt zeggen in het Frans gebruik je **geen *plus*, *moins* of
 
 De ontkenning in het Frans uit *ne* of *n'* en een ander woord. *Ne* of *n'* staat voor de persoonsvorm, het andere woord erna.
 
-| ne … pas    | niet      | ne … rien       | niets    |
+| ne ... pas    | niet      | ne ... rien       | niets    |
 |-------------|-----------|-----------------|----------|
-| ne … plus   | niet meer | ne … pas encore | nog niet |
-| ne … jamais | nooit     |                 |          |
+| ne ... plus   | niet meer | ne ... pas encore | nog niet |
+| ne ... jamais | nooit     |                 |          |
 
 De ontkenning van *c'est* is *n'est pas*. De ontkenning van *il y a* is *il n'y a pas*.
 

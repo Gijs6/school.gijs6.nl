@@ -6,7 +6,7 @@ De grafiek van een lijn is de formule $y = ax + b$. Hierin is $a$ de hellingsco�
 
 ## Exponentiële groei
 
-Bij **lineaire groei** tel je steeds met hetzelfde getal op (2 → 5 → 8 → 11 → …). Bij **exponentiële groei** vermenigvuldig je steeds met hetzelfde getal (2 → 6 → 18 → 54 → …). Het getal waarmee je vermenigvuldigt, is de **groeifactor**. Als de groeifactor per jaar is, en je wilt de groei na 5 jaar weten, dan weet je dat $t = 5$.
+Bij **lineaire groei** tel je steeds met hetzelfde getal op (2 → 5 → 8 → 11 → ...). Bij **exponentiële groei** vermenigvuldig je steeds met hetzelfde getal (2 → 6 → 18 → 54 → ...). Het getal waarmee je vermenigvuldigt, is de **groeifactor**. Als de groeifactor per jaar is, en je wilt de groei na 5 jaar weten, dan weet je dat $t = 5$.
 
 Let op! Als $t = 0$ weet je dat $g^{0} = 1$, want bij een tijdsverandering van 0 krijg je de beginwaarde.
 

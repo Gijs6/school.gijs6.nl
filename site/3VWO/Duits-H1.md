@@ -97,16 +97,16 @@ Als de stam van een werkwoord eindigt op *-d,* *-t*, *-m* of *-n* wordt er voor 
 
 | Wat voor weer wordt het? | Wie wird das Wetter? |
 |----|----|
-| … is / wordt het … graden. | … sind / werden es … Grad. |
-| Morgen gaat het hard … . | Morgen wird es stark … . |
-| … wordt het … bevolkt. | … wird es … bewölkt. |
-| Waarschijnlijk regent het … . | Es regnet wahrscheinlich … . |
-| Het gaat vast … . | Es … bestimmt gleich. |
-| Het wordt … dan … . | Es wird … als … . |
-| … is het weer in Spanje …, maar … . | … ist das Wetter in Spanien …, aber … . |
-| … is het weer … echt geweldig. | … ist das Wetter … echt super. |
-| Hoe ziet de streek … eruit? | Wie sieht die Gegend … aus? |
-| … zijn er … rivieren en meren. | … gibt es … Flüsse und Seen. |
-| Op het strand is het … mooi als … . | Am Strand ist es … schön wie … . |
-| … is het niet zo … als thuis. | … ist es nicht so … wie zu Hause. |
-| Het is … mooier, want er is / er zijn … . | Es ist … schöner, denn es gibt … . |
+| ... is / wordt het ... graden. | ... sind / werden es ... Grad. |
+| Morgen gaat het hard ... . | Morgen wird es stark ... . |
+| ... wordt het ... bevolkt. | ... wird es ... bewölkt. |
+| Waarschijnlijk regent het ... . | Es regnet wahrscheinlich ... . |
+| Het gaat vast ... . | Es ... bestimmt gleich. |
+| Het wordt ... dan ... . | Es wird ... als ... . |
+| ... is het weer in Spanje ..., maar ... . | ... ist das Wetter in Spanien ..., aber ... . |
+| ... is het weer ... echt geweldig. | ... ist das Wetter ... echt super. |
+| Hoe ziet de streek ... eruit? | Wie sieht die Gegend ... aus? |
+| ... zijn er ... rivieren en meren. | ... gibt es ... Flüsse und Seen. |
+| Op het strand is het ... mooi als ... . | Am Strand ist es ... schön wie ... . |
+| ... is het niet zo ... als thuis. | ... ist es nicht so ... wie zu Hause. |
+| Het is ... mooier, want er is / er zijn ... . | Es ist ... schöner, denn es gibt ... . |

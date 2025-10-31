@@ -128,7 +128,7 @@ Let op! Bij de regelmatige werkwoorden op *-re* zet je de uitgang niet achter he
 | Hoelang duurt de reis?             | Le voyage dure combien de temps?     |
 | De reis duurt een uur.             | Le voyage dure une heure.            |
 | Is het een rechtstreekse trein?    | C'est un train direct?               |
-| Nee, je moet overstappen in …      | Non, il faut changer à …             |
+| Nee, je moet overstappen in ...      | Non, il faut changer à ...             |
 | Moet je reserveren?                | Il faut réserver?                    |
 | Ja, dat is verplicht.              | Oui, c'est obligatoire.              |
 | Nee, dat is niet nodig.            | Non, ce n'est pas nécessaire.        |

@@ -77,7 +77,7 @@ Als een kabinet is gevallen of afgetreden, wordt het een **demissionair kabinet*
 ## Parlement, kabinet, regering
 
 Het **kabinet** (ministers en staatssecretarissen) vormt het dagelijks bestuur van het land. De **regering** bestaat uit de ministers en de koning.  
-Elke **minister** heeft een eigen beleidsterrein (denk aan Onderwijs, Defensie, Buitenlandse Zaken, …). Bijna alle ministers staan aan het hoofd van een **ministerie**. Alle ministers overleggen elke vrijdag in de ministerraad. De **premier** (**minister-president**) is de voorzitter van deze raad.  
+Elke **minister** heeft een eigen beleidsterrein (denk aan Onderwijs, Defensie, Buitenlandse Zaken, ...). Bijna alle ministers staan aan het hoofd van een **ministerie**. Alle ministers overleggen elke vrijdag in de ministerraad. De **premier** (**minister-president**) is de voorzitter van deze raad.  
 Een **staatssecretaris** is verantwoordelijk voor een deel van het beleidsterrein van een minister.
 
 Volgens de **ministeriële verantwoordelijkheid** zijn niet de koning zelf, maar de ministers verantwoordelijk voor zijn uitspraken en gedrag. Ook zijn de ministers verantwoordelijk voor hun eigen beleid en voor wat hun ambtenaren doen.
