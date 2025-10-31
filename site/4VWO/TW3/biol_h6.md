@@ -42,7 +42,7 @@ De maximale capaciteit van een gebied om voldoende voedsel en schuil- en nestpla
 
 Door menselijk handelen zijn veel leefgebieden van elkaar geïsoleerd: **versnippering**. Maatregelen als ecoducten (zie afbeelding) kunnen gebieden weer **ontsnipperen**.
 
-![Een ecoduct (img-medium)](images/biol_h6_ecoduct.jpg)  
+![Een ecoduct (img-m)](images/biol_h6_ecoduct.jpg)  
 <span class="img-txt">Een ecoduct</span>
 
 Ook kunnen dieren worden **uitgezet** om de natuur te beheren. Zo kunnen grazers (dieren die planten eten) worden ingezet om de leefomgeving aantrekkelijker te maken voor andere soorten. Een te groot aantal grazers kan echter voor een **verstoring** (een snelle en blijvende verandering in een ecosysteem) zorgen.
@@ -58,7 +58,7 @@ Een leefomgeving die voldoet aan de specifieke biotische en abiotische eisen van
 Voor iedere abiotische factor heeft elke soort **tolerantiegrenzen** (een soort maximum en minimum). Buiten deze grenzen blijft geen enkel individu in leven. Veel organismen hebben, naast de tolerantiegrenzen, ook een **optimumgebied** voor abiotische factoren.
 De tolerantiegrenzen en het optimumgebied kun je weergeven in een **tolerantiecurve**.
 
-![Een tolerantiecurve (img-medium)](images/biol_h6_tolerantiecurve.jpg)  
+![Een tolerantiecurve (img-m)](images/biol_h6_tolerantiecurve.jpg)  
 <span class="credit-text">Zelf gemaakt, vrijgegeven onder [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).</span>
 
 De **niche** van een soort is de omschrijving hoe die soort de omgeving gebruikt en beïnvloedt.  
@@ -68,12 +68,12 @@ Een **adaptatie** is een erfelijke aanpassing aan het uiterlijk of het gedrag di
 
 Als een soort een andere eet, spreek je van een **voedselrelatie**. Voedselrelaties kun je in een **voedselketen** zetten. Een voedselketen begint altijd met een producent (een plant of alg). Daarna komt de **consument van de eerste orde**, daarna de **consument van de tweede orde** enz.
 
-![Een voedselketen (img-medium)](images/biol_h6_voedselketen.jpg)
+![Een voedselketen (img-m)](images/biol_h6_voedselketen.jpg)
 
 De pijlen binnen de voedselketen volgen de organische stoffen: dus van wat gegeten wordt naar door wat het wordt gegeten.  
 Je kunt ook meerdere voedselketens aan elkaar koppelen. Je krijgt dan een **voedselweb**.
 
-![Een voedselweb (img-medium)](images/biol_h6_voedselweb.jpg)
+![Een voedselweb (img-m)](images/biol_h6_voedselweb.jpg)
 
 > Een voedselketen is dus gewoon van het ene organisme naar het andere, terwijl een voedselweb een overzicht is van alle onderlinge voedselrelaties.
 
@@ -110,4 +110,4 @@ Als er een nieuwe populatie ontstaat (kolonisatie), is de allelensamenstelling b
 Er is een verband tussen de grootte van een eiland, de afstand tot het vasteland en de soortenrijkdom. De **eilandtheorie** beschrijft dit verband ($\rightarrow$ Binas 93C) Grote eilanden bieden meer niches en er kunnen meer soorten leven dan op kleine eilanden. Nabijgelegen eilanden ontvangen sneller nieuwe soorten dan afgelegen eilanden. Dus hoe groter en hoe dichter bij het vasteland, hoe groter de soortenrijkdom.
 Op sommige punten ontstaat er dan een evenwicht tussen de immigratie en de sterfte.
 
-![De eilandtheorie (img-semilarge)](images/biol_h6_eiland.jpg)
+![De eilandtheorie (img-l)](images/biol_h6_eiland.jpg)

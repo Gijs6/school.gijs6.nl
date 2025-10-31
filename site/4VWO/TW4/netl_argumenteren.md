@@ -36,22 +36,22 @@ Argumenten kunnen op verschillende manieren het standpunt ondersteunen. Zo'n **a
 - **Enkelvoudige argumentatie**  
   Er is 1 argument dat het standpunt onderbouwt.
 
-  ![Enkelvoudige argumentatie (img-medium) (img-padding)](images/netl_argstruct_enkv.jpg)
+  ![Enkelvoudige argumentatie (img-m) (img-padding)](images/netl_argstruct_enkv.jpg)
 
 - **Onderschikkende argumentatie**  
   Het argument wordt zelf ondersteund door ten minste 1 **subargument**.
 
-  ![Onderschikkende argumentatie (img-medium) (img-padding)](images/netl_argstruct_onder.jpg)
+  ![Onderschikkende argumentatie (img-m) (img-padding)](images/netl_argstruct_onder.jpg)
 
 - **Nevenschikkende argumentatie met onafhankelijke argumenten**  
   Het standpunt wordt ondersteund door meerdere argumenten die **los van elkaar te gebruiken zijn**.
 
-  ![Nevenschikkende argumentatie met onafhankelijke argumenten (img-medium) (img-padding)](images/netl_argstruct_neven_onaf.jpg)
+  ![Nevenschikkende argumentatie met onafhankelijke argumenten (img-m) (img-padding)](images/netl_argstruct_neven_onaf.jpg)
 
 - **Nevenschikkende argumentatie met afhankelijke argumenten**  
   Het standpunt wordt ondersteund door meerdere argumenten die **niet los van elkaar te gebruiken zijn**. De argumenten werken alleen in combinatie met elkaar.
 
-  ![Nevenschikkende argumentatie met afhankelijke argumenten (img-medium) (img-padding)](images/netl_argstruct_neven_afhan.jpg)
+  ![Nevenschikkende argumentatie met afhankelijke argumenten (img-m) (img-padding)](images/netl_argstruct_neven_afhan.jpg)
 
 Je kunt ook een combinatie hebben van deze argumentatiestructuren, zoals een **onder- en nevenschikkende argumentatie**, dus met meerdere argumenten en met (een) subargument(en).
 

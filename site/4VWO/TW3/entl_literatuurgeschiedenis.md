@@ -26,7 +26,7 @@ Old English displaced (*verdrong*) 2 languages that were spoken at the time on t
 
 Middle English was mainly influenced by the Norman Conquest of 1066.
 
-![An image of the Norman Conquest of 1066 on the Bayeux Tapestry (img-medium)](images/entl_litges_norman.jpg)  
+![An image of the Norman Conquest of 1066 on the Bayeux Tapestry (img-m)](images/entl_litges_norman.jpg)  
 <span class="credit-text">[Dan Koehl](https://commons.wikimedia.org/wiki/File:Normans_Bayeux.jpg), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons</span>
 
 > This image, depicting the Battle of Hastings (one of the most important battles during the Norman Conquest), is from the *Bayeux Tapestry*, which is a very cool 70(!!!) meter long embroidered cloth depicting all kinds of events around the Norman Conquest.
@@ -57,7 +57,7 @@ Beowulf is an **epic**: a long narrative (*voorgelezen*) poem. The most importan
 
 Beowulf is one of the most important works of **Old English** literature. The story is set in Scandinavia in the 5th and 6th centuries.
 
-![A map of where Beowulf takes part (img-semilarge)](images/entl_litges_beowulfmap.jpg)
+![A map of where Beowulf takes part (img-l)](images/entl_litges_beowulfmap.jpg)
 
 There are elements of 2 different religions in Beowulf:
 
@@ -110,7 +110,7 @@ After he dies, Wiglaf is furious at the warriors that ran away. The story ends w
 The Canterbury Tales, written by Geoffrey Chaucer, is one of the most important works of **Middle English** literature. It is a collection of tales told in a frame narrative.  
 The story is set in the Tabard Inn (near London) in April. A group of pilgrims is preparing a journey to Canterbury. Chaucer himself, so he is both narrator and participant, introduces all the pilgrims, and he joins them on their journey.
 
-![The Tabard Inn in the 19th century (img-medium)](images/entl_litges_tabardinn.jpg)  
+![The Tabard Inn in the 19th century (img-m)](images/entl_litges_tabardinn.jpg)  
 <span class="img-txt">The Tabard Inn in the 19th century</span>
 
 The society was divided into 3 classes: the **clergy** (church people), **nobility** (noble people), and the **people** (the tax-paying citizens).

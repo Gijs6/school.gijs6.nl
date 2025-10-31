@@ -14,7 +14,7 @@ De biologie kent verschillende organisatieniveaus: **molecuul**, **organel** (on
 
 Het **hart** is de pomp die het bloed door alle bloedvaten pompt. Het hart ligt bij de mens in de borstholte, boven het middenrif. Het hart is een **holle spier**, die uit 4 holtes bestaat. De 2 onderste holtes zijn de grotere **hartkamers** (of **ventrikels**). De bovenste holtes zijn de kleinere **boezems** (of **atria**). De boezems en kamers zijn van elkaar gescheiden met de **hartkleppen**.
 
-![De anatomie van het hart (img-large)](images/nlt_lmjhart_hart.jpg)  
+![De anatomie van het hart (img-xl)](images/nlt_lmjhart_hart.jpg)  
 <span class="credit-text">Zelf gemaakt, vrijgegeven onder [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).</span>
 
 De mens heeft een dubbele bloedsomloop:
@@ -40,7 +40,7 @@ De **bloeddruk** die door het hart wordt gemaakt is aan het begin van de slagade
 
 Bloeddruk zou je kunnen meten in een normale eenheid, maar vrijwel iedereen gebruikt **millimeter kwikdruk** (mmHg). De **bovendruk** is de hoogste druk, dus tijdens een kamersystole. De **onderdruk** is de laagste druk, dus tijdens kamerdiastole.
 
-![Een grafiek van de bloeddruk (img-semilarge)](images/nlt_lmjhart_bloeddruk.jpg)
+![Een grafiek van de bloeddruk (img-l)](images/nlt_lmjhart_bloeddruk.jpg)
 
 Je kunt de bloeddruk meten. Er wordt dan een manchet om de bovenarm of pols gewikkeld. Deze wordt zo opgeblazen dat er net geen bloed meer kan stromen. Dit kan worden bepaald met een stethoscoop (als je niets meer hoort stromen). De druk op dat moment in de manchet is gelijk aan de bovendruk. Vervolgens wordt de manchet zo ontspannen dat er geen kloppend geluid meer is te horen (dan stroomt het bloed weer normaal). De druk op dat moment in de manchet is gelijk aan de onderdruk.
 
@@ -80,7 +80,7 @@ Een **dotterbehandeling** is een manier om een kransslagader te verwijden. De ar
 
 Er kan hierbij ook nog een **stent** geplaatst worden: een soort metalen roostertje die de kransslagader ook open houdt.
 
-![Een dotter- en stentbehandeling (img-large)](images/nlt_lmjhart_dotterstent.jpg)
+![Een dotter- en stentbehandeling (img-xl)](images/nlt_lmjhart_dotterstent.jpg)
 
 Als dotteren niet effectief genoeg is, kan er een **bypassoperatie** worden uitgevoerd. Er wordt een stukje ader (een ader uit het lichaam waarvan je een stukje kunt missen) om de vernauwing heen geleid. De vernauwing wordt dus niet weggehaald.
 

@@ -32,7 +32,7 @@ Bij een extreme waarde is de raaklijn aan de grafiek horizontaal, dus de raaklij
 
 Een **buigpunt** is een punt op de grafiek waar de richtingscoëfficiënt van de raaklijn verandert, bijvoorbeeld van toenemend stijgend naar afnemend stijgend.
 
-![Buigpunt (img-medium)](images/wisb_h6_buigpunt.jpg)
+![Buigpunt (img-m)](images/wisb_h6_buigpunt.jpg)
 
 Op een buigpunt heeft de afgeleide een extreme waarde, omdat de helling daar tijdelijk stopt met toenemen of afnemen; het bereikt een maximum of minimum. Om de coördinaten van een buigpunt te bepalen, gebruik je daarom de tweede afgeleide (notatie: $f''(x)$).
 

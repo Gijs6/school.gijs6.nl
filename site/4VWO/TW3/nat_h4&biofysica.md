@@ -74,13 +74,13 @@ Een kracht kun je ontbinden in 2 **krachtcomponenten**.
 
 In de afbeelding hieronder zie je een bewegend blokje op een helling. De zwaartekracht is getekend. De zwaartekracht heeft ook een effect in de bewegingsrichting. Om dit effect duidelijk te maken kun je de zwaartekracht ontbinden in 2 krachten, waarbij 1 kracht in de bewegingsrichting werkt ($F_\text{z,x}$) en 1 kracht loodrecht op de helling ($F_\text{z,y}$).
 
-![Een blokje op een helling (img-semilarge)](images/nat_h4bio_ontbinden1.jpg)
+![Een blokje op een helling (img-l)](images/nat_h4bio_ontbinden1.jpg)
 
-![Een blokje op een helling met ontbonden krachten (img-semilarge)](images/nat_h4bio_ontbinden2.jpg)
+![Een blokje op een helling met ontbonden krachten (img-l)](images/nat_h4bio_ontbinden2.jpg)
 
 De steilheid van een helling hangt af van de hellingshoek ($\alpha$). Soms wordt in plaats van de hellingshoek het hellingspercentage gegeven. Je kunt van hellingshoek naar hellingspercentage rekenen met de tangens:
 
-![Gebruik van tangens (img-small)](https://mermaid.ink/img/pako:eNplUD1rwzAQ_SviyJCCDcnSwUPBdoYsnZqpVQuHdZFMbMko537g-L9XiVUnbTUI3fu4J94AlVMEGewb91EZ9Cx2G2lFOPnLlpqmtvpoHB1eJ7CYQU2MTUTLGe3IV2QZNUUqF2n6cJKwWEjJaJfhpk8ezM3q8S6QcBJFjPjteBvS9fjXdgn_8eX_fZVyLNar1SQo4y9vBKp-v_IFJNCSb7FWoYnhrJbAhlqSkIWnQn-QIO0YdNize_qyFWTse0rAu14byPbYHMPUdwqZNjVqj-2MdmifnbvOpGp2_nEq_tJ_Atqfw-NOsop86XrLkN2P358OhuM?type=png)
+![Gebruik van tangens (img-s)](https://mermaid.ink/img/pako:eNplUD1rwzAQ_SviyJCCDcnSwUPBdoYsnZqpVQuHdZFMbMko537g-L9XiVUnbTUI3fu4J94AlVMEGewb91EZ9Cx2G2lFOPnLlpqmtvpoHB1eJ7CYQU2MTUTLGe3IV2QZNUUqF2n6cJKwWEjJaJfhpk8ezM3q8S6QcBJFjPjteBvS9fjXdgn_8eX_fZVyLNar1SQo4y9vBKp-v_IFJNCSb7FWoYnhrJbAhlqSkIWnQn-QIO0YdNize_qyFWTse0rAu14byPbYHMPUdwqZNjVqj-2MdmifnbvOpGp2_nEq_tJ_Atqfw-NOsop86XrLkN2P358OhuM?type=png)
 
 Als je $F_\text{z,x}$ wil berekenen in de figuur van het blokje, kun je de hoeken gebruiken van de helling.  
 $F_\text{z,x}=F_\text{z}\cdot \sin(\alpha)$
@@ -98,11 +98,11 @@ $F_\text{z,y}=F_\text{z}\cdot \cos(\alpha)$
 
 Je kunt voorwerpen uit de omgeving zien, doordat ze licht weerkaatsen en jouw oog dat opvangt. Een spiegel weerkaatst licht in 1 richting, maar de meeste voorwerpen weerkaatsen licht in alle richtingen (**diffuse weerkaatsing**), zoals in de afbeelding hieronder. Weerkaatst licht vormt een divergente bundel.
 
-![Diffuse weerkaatsing (img-medium)](images/nat_h4bio_diffuus.jpg)
+![Diffuse weerkaatsing (img-m)](images/nat_h4bio_diffuus.jpg)
 
 Spiegels weerkaatsen volgens de spiegelwet: $\angle i = \angle t$ (hoek van inval = hoek van terugkaatsing). De hoeken zijn de hoeken met de normaal: een denkbeeldige lijn, loodrecht op het oppervlakte waar de lichtstraal invalt.
 
-![De spiegelwet (img-semilarge)](images/nat_h4bio_spiegel.jpg)
+![De spiegelwet (img-l)](images/nat_h4bio_spiegel.jpg)
 
 ### Lenzen
 
@@ -172,10 +172,10 @@ Voor de "neiging tot draaiing" van een hefboom zijn 2 dingen belangrijk: de groo
 $$M=F\cdot r$$
 Hierin is $M$ het krachtmoment (in $\text{Nm}$), $F$ de kracht (in $\text{N}$) en $r$ de arm (in $\text{m}$). De arm is de **LOODRECHTE** afstand van het draaipunt ($S$) tot de **WERKLIJN** van de kracht.
 
-![Een hefboom met 2 krachten (img-medium)](images/nat_h4bio_hefboom1.jpg)  
+![Een hefboom met 2 krachten (img-m)](images/nat_h4bio_hefboom1.jpg)  
 <span class="img-txt">In deze situatie zijn de momenten even groot</span>
 
-![Een hefboom met 2 krachten, waarvan 1 schuin (img-medium)](images/nat_h4bio_hefboom2.jpg)  
+![Een hefboom met 2 krachten, waarvan 1 schuin (img-m)](images/nat_h4bio_hefboom2.jpg)  
 <span class="img-txt">In deze situatie zijn de momenten ook even groot. De zwarte kracht bij $F_1$ is de origine kracht en de grijze kracht is de verticale component.</span>
 
 Als een hefboom niet of eenparig draait, geldt de **hefboomwet**:

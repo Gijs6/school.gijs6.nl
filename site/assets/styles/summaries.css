@@ -99,20 +99,28 @@ blockquote {
 img {
     width: 50%;
 
-    &[alt~="(img-large)"] {
+    &[alt~="(img-xl)"] {
         width: 100%;
     }
 
-    &[alt~="(img-semilarge)"] {
+    &[alt~="(img-l)"] {
         width: 80%;
     }
 
-    &[alt~="(img-medium)"] {
+    &[alt~="(img-m)"] {
         width: 60%;
     }
 
-    &[alt~="(img-small)"] {
+    &[alt~="(img-s)"] {
         width: 40%;
+    }
+
+    &[alt~="(img-xs)"] {
+        width: 25%;
+    }
+
+    &[alt~="(img-2xs)"] {
+        width: 15%;
     }
 
     &[alt~="(img-padding)"] {
@@ -122,8 +130,11 @@ img {
 
     &[alt~="(img-float-right)"] {
         float: right;
-        margin: 10px;
-        margin-right: 0;
+        margin: 0 0 10px 10px;
+    }
+    
+    &[alt~="(img-clear-both)"] {
+        clear: both;
     }
 }
 
