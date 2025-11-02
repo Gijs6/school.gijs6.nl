@@ -183,7 +183,7 @@ def create_test_entry(front_matter, main_dir, sub_dir, file, resources_map):
     return entry
 
 
-def process_modern_year(year_dir, resources_map):
+def process_modern_year(year_dir, resources_map, dev=False):
     year_data = {}
     year_path = os.path.join(SITE_DIR, year_dir)
 
@@ -203,12 +203,12 @@ def process_modern_year(year_dir, resources_map):
 
             front_matter, _ = parse_front_matter(content)
 
-            # Skip if hide/hidden or no subject
-            if (
-                front_matter.get("hide")
-                or front_matter.get("hidden")
-                or not front_matter.get("subject")
-            ):
+            # Skip if no subject
+            if not front_matter.get("subject"):
+                continue
+
+            # Skip if hide/hidden (unless in dev mode)
+            if not dev and (front_matter.get("hide") or front_matter.get("hidden")):
                 continue
 
             entry = create_test_entry(
@@ -219,7 +219,7 @@ def process_modern_year(year_dir, resources_map):
     return year_data
 
 
-def build_homepage_data():
+def build_homepage_data(dev=False):
     resources_map = load_json_file(RESOURCES_JSON)
     data = {}
 
@@ -233,7 +233,7 @@ def build_homepage_data():
             continue
 
         # Modern years (4VWO, 5VWO, 6VWO) - use front matter
-        data[year_dir] = process_modern_year(year_dir, resources_map)
+        data[year_dir] = process_modern_year(year_dir, resources_map, dev)
 
     # Sort and filter data
     sorted_data = {}
@@ -548,8 +548,8 @@ def process_markdown_file(
     return relative_path, html_content, is_hidden
 
 
-def process_markdown_files(build_dir, template_env, md_processor):
-    homepage_data = build_homepage_data()
+def process_markdown_files(build_dir, template_env, md_processor, dev=False):
+    homepage_data = build_homepage_data(dev)
     archive_data = build_archive_data()
     md_cache = {}
 
@@ -656,8 +656,12 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
 # BUILD PROCESS
 
 
-def build():
+def build(dev=False):
     print(f"{Fore.CYAN}=> Binder is binding <={Style.RESET_ALL}")
+    if dev:
+        print(
+            f"{Fore.YELLOW}Development mode enabled (including hidden pages){Style.RESET_ALL}"
+        )
 
     # Setup temporary build directory
     print("> Setup... ", end="", flush=True)
@@ -682,7 +686,7 @@ def build():
     # Process markdown files
     print("> Pages... ", end="", flush=True)
     homepage_data, md_cache = process_markdown_files(
-        temp_build_dir, template_env, md_processor
+        temp_build_dir, template_env, md_processor, dev
     )
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
@@ -701,15 +705,15 @@ def build():
     print(f"{Fore.GREEN}Build complete!{Style.RESET_ALL}\n")
 
 
-def serve(port=8000):
-    print(f"{Fore.BLUE}Development server{Style.RESET_ALL}\n")
+def serve(port=8000, dev=False):
+    print(f"{Fore.BLUE}Server{Style.RESET_ALL}\n")
 
     # Initial build
-    build()
+    build(dev)
 
     # Setup file watcher
     observer = Observer()
-    handler = BuildHandler(build)
+    handler = BuildHandler(lambda: build(dev))
     observer.schedule(handler, SITE_DIR, recursive=True)
     observer.schedule(handler, ".", recursive=False)
     observer.start()
@@ -751,12 +755,17 @@ if __name__ == "__main__":
         "--port",
         type=int,
         default=8000,
-        help="Port for development server (default: 8000)",
+        help="Port for server (default: 8000)",
+    )
+    parser.add_argument(
+        "--dev",
+        action="store_true",
+        help="Enable development mode (include hidden pages)",
     )
 
     args = parser.parse_args()
 
     if args.command == "serve":
-        serve(args.port)
+        serve(args.port, dev=args.dev)
     else:
-        build()
+        build(dev=args.dev)
