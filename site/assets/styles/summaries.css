@@ -16,8 +16,7 @@ h2 {
 }
 
 p mjx-container[jax="CHTML"][display="true"] {
-    margin-top: 0.25em !important;
-    margin-bottom: 0 !important;
+    margin: 0.25em 0 !important;
 }
 
 mjx-container[display="true"] {
