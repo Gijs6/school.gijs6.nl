@@ -1,4 +1,5 @@
 import os
+import sys
 import shutil
 import re
 import subprocess
@@ -596,6 +597,13 @@ class BuildHandler(FileSystemEventHandler):
         if now - self.last_build < 1:
             return
         self.last_build = now
+
+        if os.path.basename(event.src_path) == "binder.py":
+            print(
+                f"\n{Fore.YELLOW}Binder changed! Restarting process...{Style.RESET_ALL}\n"
+            )
+            os.execv(sys.executable, [sys.executable] + sys.argv)
+
         print(
             f"\n{Fore.YELLOW}Restarting! {Style.BRIGHT}{os.path.basename(event.src_path)} changed.{Style.RESET_ALL}\n"
         )
@@ -701,7 +709,9 @@ def serve(port=8000):
 
     # Setup file watcher
     observer = Observer()
-    observer.schedule(BuildHandler(build), SITE_DIR, recursive=True)
+    handler = BuildHandler(build)
+    observer.schedule(handler, SITE_DIR, recursive=True)
+    observer.schedule(handler, ".", recursive=False)
     observer.start()
 
     # Start HTTP server
