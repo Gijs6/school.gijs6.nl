@@ -20,6 +20,9 @@ from watchdog.events import FileSystemEventHandler
 
 from jinja2 import Environment, FileSystemLoader
 from markdown import Markdown
+from markdown.preprocessors import Preprocessor
+from markdown.postprocessors import Postprocessor
+from markdown.extensions import Extension
 
 from feedgen.feed import FeedGenerator
 
@@ -424,11 +427,64 @@ def remove_base64_images(html_content):
     return re.sub(r'<img[^>]*src="data:image/[^"]*"[^>]*>', "", html_content)
 
 
+class MathProtectPreprocessor(Preprocessor):
+    def __init__(self, md):
+        super().__init__(md)
+        self.math_store = {}
+        self.counter = 0
+
+    def run(self, lines):
+        text = "\n".join(lines)
+
+        def replace_display(match):
+            key = f"MATH_DISPLAY_{self.counter}"
+            self.counter += 1
+            self.math_store[key] = match.group(0)
+            return key
+
+        def replace_inline(match):
+            key = f"MATH_INLINE_{self.counter}"
+            self.counter += 1
+            self.math_store[key] = match.group(0)
+            return key
+
+        text = re.sub(r"\$\$([^\$]+)\$\$", replace_display, text)
+        text = re.sub(r"\$([^\$\n]+)\$", replace_inline, text)
+
+        return text.split("\n")
+
+
+class MathProtectPostprocessor(Postprocessor):
+    def __init__(self, md, math_store):
+        super().__init__(md)
+        self.math_store = math_store
+
+    def run(self, text):
+        for key, value in self.math_store.items():
+            text = text.replace(key, value)
+        return text
+
+
+class MathProtectExtension(Extension):
+    def extendMarkdown(self, md):
+        preprocessor = MathProtectPreprocessor(md)
+        md.preprocessors.register(preprocessor, "math_protect", 27)
+
+        postprocessor = MathProtectPostprocessor(md, preprocessor.math_store)
+        md.postprocessors.register(postprocessor, "math_restore", 0)
+
+
 def setup_markdown_processor():
     return Markdown(
-        extensions=["meta", "codehilite", "tables", "toc"],
+        extensions=[
+            "meta",
+            "codehilite",
+            "tables",
+            "toc",
+            MathProtectExtension(),
+        ],
         extension_configs={
-            "codehilite": {"css_class": "highlight", "use_pygments": False}
+            "codehilite": {"css_class": "highlight", "use_pygments": False},
         },
     )
 
