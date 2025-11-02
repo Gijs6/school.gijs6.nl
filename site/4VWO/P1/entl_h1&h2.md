@@ -1,7 +1,7 @@
 ---
 subject: ENTL
-details_short: H1 & H2
-details_medium: Hoofdstuk 1 & hoofdstuk 2
+short: H1 & H2
+title: Hoofdstuk 1 & hoofdstuk 2
 ---
 
 ## Past simple

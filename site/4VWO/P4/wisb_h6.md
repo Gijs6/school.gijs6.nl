@@ -1,8 +1,8 @@
 ---
 subject: WISB
-details_short: H6
-details_medium: Hoofdstuk 6
-details_extra: Differentiaalrekening
+short: H6
+title: Hoofdstuk 6
+description: Differentiaalrekening
 ---
 
 ## De afgeleide

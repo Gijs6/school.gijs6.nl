@@ -1,8 +1,8 @@
 ---
 subject: ENTL
-details_short: Literatuurgeschiedenis
-details_medium: Literatuurgeschiedenis
-details_extra: Middeleeuwen
+short: Literatuurgeschiedenis
+title: Literatuurgeschiedenis
+description: Middeleeuwen
 ---
 
 ## History of the English language

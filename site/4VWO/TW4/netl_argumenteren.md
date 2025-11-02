@@ -1,8 +1,8 @@
 ---
 subject: NETL
-details_short: Lezen
-details_medium: Leestoets
-details_extra: Argumenten
+short: Lezen
+title: Leestoets
+description: Argumenten
 ---
 
 ## Standpunt en argument

@@ -67,6 +67,18 @@ SUBJECT_ICONS = {
     "NLT": "fa-solid fa-microscope",
 }
 
+SUBJECT_NAMES = {
+    "BIOL": "Biologie",
+    "ENTL": "Engels",
+    "FATL": "Frans",
+    "NETL": "Nederlands",
+    "NAT": "Natuurkunde",
+    "SCHK": "Scheikunde",
+    "WISB": "Wiskunde B",
+    "MAAT": "Maatschappijleer",
+    "NLT": "NLT",
+}
+
 
 # HELPER FUNCTIONS
 
@@ -140,17 +152,17 @@ def load_json_file(filepath):
 
 
 def build_test_material(front_matter):
-    details_short = front_matter.get("details_short", "")
-    details_medium = front_matter.get("details_medium", "")
-    details_extra = front_matter.get("details_extra", "")
+    short = front_matter.get("short", "")
+    title = front_matter.get("title", "")
+    description = front_matter.get("description", "")
 
     parts = []
-    if details_medium:
-        parts.append(details_medium)
-    if details_extra:
-        parts.append(f"({details_extra})")
+    if title:
+        parts.append(title)
+    if description:
+        parts.append(f"({description})")
 
-    return " ".join(parts) if parts else details_short
+    return " ".join(parts) if parts else short
 
 
 def create_test_entry(front_matter, main_dir, sub_dir, file, resources_map):
@@ -451,6 +463,11 @@ def process_markdown_file(
         content = f.read()
 
     front_matter, markdown_content = parse_front_matter(content)
+
+    # Add full subject name to front matter
+    if front_matter.get("subject"):
+        subject_abbr = front_matter["subject"].upper()
+        front_matter["subject_name"] = SUBJECT_NAMES.get(subject_abbr, subject_abbr)
 
     # Convert to HTML
     html_content = remove_base64_images(md_processor.convert(markdown_content))

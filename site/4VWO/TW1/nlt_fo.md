@@ -1,7 +1,7 @@
 ---
 subject: NLT
-details_short: FO
-details_medium: Forensisch onderzoek
+short: FO
+title: Forensisch onderzoek
 ---
 
 ## Onderzoek doen

@@ -1,8 +1,8 @@
 ---
 subject: BIOL
-details_short: H7
-details_medium: Hoofdstuk 7
-details_extra: Evolutie
+short: H7
+title: Hoofdstuk 7
+description: Evolutie
 ---
 
 ## Ontstaan van de mens

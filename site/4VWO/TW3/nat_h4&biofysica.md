@@ -1,8 +1,8 @@
 ---
 subject: NAT
-details_short: H4 & biofysica
-details_medium: Hoofdstuk 4 & biofysica
-details_extra: Krachten & biofysica
+short: H4 & biofysica
+title: Hoofdstuk 4 & biofysica
+description: Krachten & biofysica
 ---
 
 ## Krachten

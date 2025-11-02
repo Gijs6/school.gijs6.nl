@@ -1,8 +1,8 @@
 ---
 subject: NAT
-details_short: H1 & H6
-details_medium: Hoofdstuk 1 & hoofdstuk 6
-details_extra: Elektriciteit & onderzoeksvaardigheden
+short: H1 & H6
+title: Hoofdstuk 1 & hoofdstuk 6
+description: Elektriciteit & onderzoeksvaardigheden
 ---
 
 ## Lading, energie en vermogen

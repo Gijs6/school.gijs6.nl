@@ -1,8 +1,8 @@
 ---
 subject: WISB
-details_short: H4 & H5 & H6
-details_medium: Hoofdstuk 4 & hoofdstuk 5 & hoofdstuk 6
-details_extra: Vergelijkingen & herleidingen, machten & exponenten & logaritmen, differentiaalrekening
+short: H4 & H5 & H6
+title: Hoofdstuk 4 & hoofdstuk 5 & hoofdstuk 6
+description: Vergelijkingen & herleidingen, machten & exponenten & logaritmen, differentiaalrekening
 ---
 
 ## Getallenparen en stelsels

@@ -1,7 +1,7 @@
 ---
 subject: SCHK
-details_short: Practicum
-details_medium: Practicumtoets
+short: Practicum
+title: Practicumtoets
 ---
 
 ## Structuur verslag

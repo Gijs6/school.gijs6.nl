@@ -1,8 +1,8 @@
 ---
 subject: SCHK
-details_short: H5
-details_medium: Hoofdstuk 5
-details_extra: Mengen & oplossen
+short: H5
+title: Hoofdstuk 5
+description: Mengen & oplossen
 ---
 
 ## Atomen en moleculen

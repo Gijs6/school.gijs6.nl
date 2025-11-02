@@ -1,7 +1,7 @@
 ---
 subject: NETL
-details_short: Woordenschat
-details_medium: Woordenschat
+short: Woordenschat
+title: Woordenschat
 ---
 | Woord                            | Definitie                                                                                                                 |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |

@@ -1,8 +1,8 @@
 ---
 subject: MAAT
-details_short: H3
-details_medium: Hoofdstuk 3
-details_extra: Parlementaire democratie
+short: H3
+title: Hoofdstuk 3
+description: Parlementaire democratie
 ---
 
 ## Democratie

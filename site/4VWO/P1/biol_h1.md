@@ -1,8 +1,8 @@
 ---
 subject: BIOL
-details_short: H1
-details_medium: Hoofdstuk 1
-details_extra: Gedrag
+short: H1
+title: Hoofdstuk 1
+description: Gedrag
 ---
 
 ## Gedrag en dierenwelzijn

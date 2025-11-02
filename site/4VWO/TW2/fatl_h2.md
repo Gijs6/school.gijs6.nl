@@ -1,7 +1,7 @@
 ---
 subject: FATL
-details_short: H2
-details_medium: Hoofdstuk 2
+short: H2
+title: Hoofdstuk 2
 ---
 
 ## Het bijwoord

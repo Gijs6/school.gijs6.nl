@@ -1,8 +1,8 @@
 ---
 subject: NETL
-details_short: Literatuurgeschiedenis
-details_medium: Literatuurgeschiedenis
-details_extra: Oudheid & middeleeuwen
+short: Literatuurgeschiedenis
+title: Literatuurgeschiedenis
+description: Oudheid & middeleeuwen
 ---
 
 ## Oudheid

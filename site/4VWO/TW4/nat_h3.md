@@ -1,8 +1,8 @@
 ---
 subject: NAT
-details_short: H3
-details_medium: Hoofdstuk 3
-details_extra: Materialen
+short: H3
+title: Hoofdstuk 3
+description: Materialen
 ---
 
 ## Moleculen

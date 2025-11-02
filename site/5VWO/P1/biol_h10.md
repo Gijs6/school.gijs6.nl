@@ -1,8 +1,8 @@
 ---
 subject: BIOL
-details_short: H10
-details_medium: Hoofdstuk 10
-details_extra: Bloedsomloop
+short: H10
+title: Hoofdstuk 10
+description: Bloedsomloop
 ---
 
 ## Bloedsomloop

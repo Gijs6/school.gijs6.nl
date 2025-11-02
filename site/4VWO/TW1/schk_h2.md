@@ -1,8 +1,8 @@
 ---
 subject: SCHK
-details_short: H2
-details_medium: Hoofdstuk 2
-details_extra: Koolstofchemie
+short: H2
+title: Hoofdstuk 2
+description: Koolstofchemie
 ---
 
 Bij het importeren van de afbeeldingen uit de pdf is er iets fout gegaan, sorry. Hopelijk is het alsnog bruikbaar!

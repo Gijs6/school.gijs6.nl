@@ -1,8 +1,8 @@
 ---
 subject: SCHK
-details_short: H6
-details_medium: Hoofdstuk 6
-details_extra: Evenwichten & reactiesnelheid
+short: H6
+title: Hoofdstuk 6
+description: Evenwichten & reactiesnelheid
 ---
 
 ## Reactiesnelheid

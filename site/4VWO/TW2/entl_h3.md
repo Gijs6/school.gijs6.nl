@@ -1,7 +1,7 @@
 ---
 subject: ENTL
-details_short: H3
-details_medium: Hoofdstuk 3
+short: H3
+title: Hoofdstuk 3
 ---
 
 ## Grammatica

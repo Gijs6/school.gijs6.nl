@@ -1,8 +1,8 @@
 ---
 subject: NAT
-details_short: H2
-details_medium: Hoofdstuk 2
-details_extra: Bewegingen
+short: H2
+title: Hoofdstuk 2
+description: Bewegingen
 ---
 
 ## Kracht en snelheid

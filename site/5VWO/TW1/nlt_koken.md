@@ -1,7 +1,7 @@
 ---
 subject: NLT
-details_short: Koken
-details_medium: Moleculaire gastronomie
+short: Koken
+title: Moleculaire gastronomie
 ---
 
 ## Voedingsstoffen

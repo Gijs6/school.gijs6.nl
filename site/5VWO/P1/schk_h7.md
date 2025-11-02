@@ -1,8 +1,8 @@
 ---
 subject: SCHK
-details_short: H7
-details_medium: Hoofdstuk 7
-details_extra: Zuren & basen
+short: H7
+title: Hoofdstuk 7
+description: Zuren & basen
 ---
 
 ## Zuren en basen

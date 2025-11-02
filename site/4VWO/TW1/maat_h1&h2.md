@@ -1,8 +1,8 @@
 ---
 subject: MAAT
-details_short: H1 & H2
-details_medium: Hoofdstuk 1 & hoofdstuk 2
-details_extra: Rechtsstaat
+short: H1 & H2
+title: Hoofdstuk 1 & hoofdstuk 2
+description: Rechtsstaat
 ---
 
 ## De maatschappij

@@ -1,8 +1,8 @@
 ---
 subject: BIOL
-details_short: H4
-details_medium: Hoofdstuk 4
-details_extra: Voortplanting
+short: H4
+title: Hoofdstuk 4
+description: Voortplanting
 ---
 
 ## Bevruchting

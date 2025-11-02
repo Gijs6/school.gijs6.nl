@@ -1,7 +1,7 @@
 ---
 subject: NLT
-details_short: HEL
-details_medium: Hersenen en leren
+short: HEL
+title: Hersenen & leren
 ---
 
 ## Voorkennis/introductie

@@ -1,8 +1,8 @@
 ---
 subject: BIOL
-details_short: H5
-details_medium: Hoofdstuk 5
-details_extra: Erfelijkheid
+short: H5
+title: Hoofdstuk 5
+description: Erfelijkheid
 ---
 
 ## Genetische eigenschappen

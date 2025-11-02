@@ -1,8 +1,8 @@
 ---
 subject: SCHK
-details_short: H1
-details_medium: Hoofdstuk 1
-details_extra: Atoombouw
+short: H1
+title: Hoofdstuk 1
+description: Atoombouw
 ---
 
 ## Basiskennis

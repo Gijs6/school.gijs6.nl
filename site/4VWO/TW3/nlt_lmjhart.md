@@ -1,7 +1,7 @@
 ---
 subject: NLT
-details_short: LMJH
-details_medium: Leef met je hart
+short: LMJH
+title: Leef met je hart
 ---
 
 ## Hart en vaten

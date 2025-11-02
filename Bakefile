@@ -10,12 +10,13 @@ build() {
 
 deploy() {
   build
+  npx prettier --write --ignore-path /dev/null "build/**/*.{css,js,xml,html}"
   lift deploy
 }
 
 format() {
   ruff format .
-  prettier --write "**/*.{css,js}"
-  prettier --write "**/*.{json,xml}"
+  npx prettier --write "**/*.{css,js}"
+  npx prettier --write "**/*.{json,xml}"
   djlint . --reformat
 }

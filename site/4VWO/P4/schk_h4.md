@@ -1,8 +1,8 @@
 ---
 subject: SCHK
-details_short: H4
-details_medium: Hoofdstuk 4
-details_extra: Zouten
+short: H4
+title: Hoofdstuk 4
+description: Zouten
 ---
 
 ## Ionen

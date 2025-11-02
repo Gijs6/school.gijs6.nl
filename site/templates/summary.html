@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block title %}
-    {%- if page.get('subject') and page.get('details_short') -%}
-        {{ page.subject }} - {{ page.details_short }} - Samenvatting
+    {%- if page.get('subject') and page.get('short') -%}
+        {{ page.subject_name }} - {{ page.short }} - Samenvatting
     {%- else -%}
-        {{ page.get('title', 'Samenvatting') }}
+        Samenvatting
     {%- endif -%}
 {% endblock %}
 {% block extra_head %}
@@ -39,15 +39,15 @@
         </a>
     </header>
     <main class="summary-content">
-        {%- if page.get('subject') and (page.get('details_medium') or page.get('details_short')) -%}
+        {%- if page.get('subject') and (page.get('title') or page.get('short')) -%}
             <h1>
-                {{ page.subject }}:
-                {% if page.get('details_medium') %}
-                    {{ page.details_medium }}
+                {{ page.subject_name }}:
+                {% if page.get('title') %}
+                    {{ page.title }}
                 {% else %}
-                    {{ page.details_short }}
+                    {{ page.short }}
                 {% endif %}
-                {% if page.get('details_extra') %}({{ page.details_extra }}){% endif %}
+                {% if page.get('description') %}({{ page.description }}){% endif %}
             </h1>
         {%- endif -%}
         {{ content | safe }}

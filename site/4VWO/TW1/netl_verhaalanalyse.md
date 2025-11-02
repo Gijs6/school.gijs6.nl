@@ -1,8 +1,8 @@
 ---
 subject: NETL
-details_short: Literatuur
-details_medium: Literatuur
-details_extra: Verhaalanalyse
+short: Literatuur
+title: Literatuur
+description: Verhaalanalyse
 ---
 ## Literatuur en lectuur
 

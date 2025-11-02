@@ -1,7 +1,7 @@
 ---
 subject: FATL
-details_short: H5
-details_medium: Hoofdstuk 5
+short: H5
+title: Hoofdstuk 5
 ---
 
 ## Onregelmatige werkwoorden

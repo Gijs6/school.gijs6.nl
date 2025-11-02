@@ -1,7 +1,7 @@
 ---
 subject: NETL
-details_short: Lezen
-details_medium: Lezen
+short: Lezen
+title: Lezen
 ---
 
 ## Tekstsoorten

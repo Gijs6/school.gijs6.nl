@@ -1,8 +1,8 @@
 ---
 subject: WISB
-details_short: H7
-details_medium: Hoofdstuk 7
-details_extra: Meetkunde met coördinaten
+short: H7
+title: Hoofdstuk 7
+description: Meetkunde met coördinaten
 ---
 
 ## Lijnen

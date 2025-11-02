@@ -1,8 +1,8 @@
 ---
 subject: WISB
-details_short: H4
-details_medium: Hoofdstuk 4
-details_extra: Vergelijkingen & herleidingen
+short: H4
+title: Hoofdstuk 4
+description: Vergelijkingen & herleidingen
 ---
 
 ## Getallenparen en stelsels

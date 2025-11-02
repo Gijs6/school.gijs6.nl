@@ -1,8 +1,8 @@
 ---
 subject: BIOL
-details_short: H8
-details_medium: Hoofdstuk 8
-details_extra: Kenmerken van ecosystemen
+short: H8
+title: Hoofdstuk 8
+description: Kenmerken van ecosystemen
 ---
 
 ## Organisch en anorganisch

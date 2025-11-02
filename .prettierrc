@@ -1,5 +1,7 @@
 {
+    "printWidth": 999999,
     "tabWidth": 4,
     "useTabs": false,
-    "trailingComma": "none"
+    "trailingComma": "none",
+    "plugins": ["@prettier/plugin-xml"]
 }
