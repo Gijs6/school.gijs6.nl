@@ -55,11 +55,11 @@ Zouten kunnen slecht oplossen in water, matig oplossen in water, reageren met wa
 Als zouten **goed** oplossen in water, splitsen alle ionen zich: het zout **hydrateert**. Elk ion lost individueel op in water.  
 Je kunt het oplossen van een goed oplosbaar zout zout neerzetten in een **oplosvergelijking**. Het oplossen van aluminiumsulfaat ($\ce{Al2(SO4)3}$) ziet er dus als volgt uit:
 
-$$\ce{Al2(SO4)3 (s) ->[\text{opl.}] 2~Al^{3+} (aq) + 3~SO4^{2-} (aq)}$$
+$$\ce{Al2(SO4)3 (s) ->[\mathrm{opl.}] 2~Al^{3+} (aq) + 3~SO4^{2-} (aq)}$$
 
 Als zouten **matig** oplossen in water, zet je dat in de oplosvergelijking neer als pijlen in beide kanten, omdat niet alle ionen hydrateren.
 
-$$\ce{Ca(OH)2 (s) <-->[\text{opl.}] Ca^{2+} (aq) + 2~OH- (aq)}$$
+$$\ce{Ca(OH)2 (s) <-->[\mathrm{opl.}] Ca^{2+} (aq) + 2~OH- (aq)}$$
 Als zouten **slecht** oplossen in water, is er geen oplosvergelijking, want de ionen worden niet gehydrateerd.
 
 > Als je bij het oplossen van een zout een los oxide-ion ($\ce{O^{2-}}$) krijgt, gaat deze een reactie aan met water: $\ce{O^{2-} (aq) + H2O (l) -> 2~OH- (aq)}$.
@@ -69,7 +69,7 @@ LET OP! Als je de oplossing van een zout wilt opschrijven, kun je niet "$\ce{\te
 En bij een slecht oplosbaar zout kun je ook niet "$\ce{\text{zout} (aq)}$" opschrijven, omdat het zout niet is opgelost. Als je een slecht oplosbaar zout in water doet, zal er een suspentie ontstaan, en dus geen opgelost zout.
 
 Als je een zout gaat indampen, worden de losse ionen weer samen een zout:
-$$\ce{2~Al^3+ (aq) + 3~SO4^2- (aq) ->[\text{warmte}] Al2(SO4)3 (s)}$$
+$$\ce{2~Al^3+ (aq) + 3~SO4^2- (aq) ->[\mathrm{warmte}] Al2(SO4)3 (s)}$$
 
 ### Triviale namen
 

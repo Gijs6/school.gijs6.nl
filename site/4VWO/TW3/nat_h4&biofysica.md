@@ -16,43 +16,43 @@ De twee krachten van een wisselwerking zijn precies even groot en werken in de t
 Deze eigenschappen van een wisselwerking worden de **derde wet van Newton** genoemd:
 
 $$\overrightarrow{F_{AB}}=-\overrightarrow{F_{BA}}$$
-Hierin is $\overrightarrow{F_{AB}}$ de kracht van A op B (in $\text{N}$) en $\overrightarrow{F_{BA}}$ de kracht van B op A (in $\text{N}$).
+Hierin is $\overrightarrow{F_{AB}}$ de kracht van A op B (in $\mathrm{N}$) en $\overrightarrow{F_{BA}}$ de kracht van B op A (in $\mathrm{N}$).
 
 Er zijn veel soorten krachten:
 
-- **Spierkracht** ($F_\text{spier}$)  
+- **Spierkracht** ($F_\mathrm{spier}$)  
   De kracht vanuit je spieren op andere voorwerpen.
-- **Veerkracht** ($F_\text{v}$)  
+- **Veerkracht** ($F_\mathrm{v}$)  
   Voor de veerkracht geldt:  
-  $F_\text{v}=C \cdot u$  
-  Hierin is $F_\text{v}$ de veerkracht (in $\text{N}$), $u$ de uitrekking (in $\text{m}$) en $C$ de veerconstante (in $\text{N}/\text{m}$). Voor de veerconstante geldt: hoe groter de veerconstante, hoe stugger de veer.  
+  $F_\mathrm{v}=C \cdot u$  
+  Hierin is $F_\mathrm{v}$ de veerkracht (in $\mathrm{N}$), $u$ de uitrekking (in $\mathrm{m}$) en $C$ de veerconstante (in $\mathrm{N}/\mathrm{m}$). Voor de veerconstante geldt: hoe groter de veerconstante, hoe stugger de veer.  
   
   De veerkracht werkt altijd in de richting van de veer.
-- **Spankracht** ($F_\text{s}$)  
+- **Spankracht** ($F_\mathrm{s}$)  
   De kracht van een touw op een voorwerp doordat er aan het touw wordt getrokken. De spankracht werkt altijd in de richting van het touw.
-- **Zwaartekracht** ($F_\text{z}$)  
+- **Zwaartekracht** ($F_\mathrm{z}$)  
   De zwaartekracht is de kracht tussen de aarde en een massa. Voor de zwaartekracht geldt:  
-  $F_\text{z}=m \cdot g$  
-  Hierin is $F_\text{z}$ de zwaartekracht (in $\text{N}$), $m$ de massa (in $\text{kg}$) en $g$ de valversnelling (in $\text{N}/\text{kg}$ of $\text{m}/\text{s}^2$).  
+  $F_\mathrm{z}=m \cdot g$  
+  Hierin is $F_\mathrm{z}$ de zwaartekracht (in $\mathrm{N}$), $m$ de massa (in $\mathrm{kg}$) en $g$ de valversnelling (in $\mathrm{N}/\mathrm{kg}$ of $\mathrm{m}/\mathrm{s}^2$).  
   
-  De valversnelling hangt af van de planeet. Op aarde is de gemiddelde valversnelling $9,81~\text{m}/\text{s}^2$.  
+  De valversnelling hangt af van de planeet. Op aarde is de gemiddelde valversnelling $9,81~\mathrm{m}/\mathrm{s}^2$.  
   De zwaartekracht grijpt altijd aan in het **zwaartepunt** van een voorwerp.
-- **Normaalkracht** ($F_\text{n}$) en **gewicht** ($F_\text{gewicht}$)  
+- **Normaalkracht** ($F_\mathrm{n}$) en **gewicht** ($F_\mathrm{gewicht}$)  
   Als de zwaartekracht een object naar beneden trekt, oefent het een kracht uit op de grond: het **gewicht**. Volgens de derde wet van Newton moet op deze actiekracht een reactiekracht zijn. Deze reactiekracht is de kracht van de grond die het object omhoog duwt: de **normaalkracht**. Deze staat altijd loodrecht op het oppervlak.  
-  Op een horizontale ondergrond is de zwaartekracht even groot als de normaalkracht. Als je omhoog springt, duw je tegen de grond (met $F_\text{spier}$), wat de normaalkracht vergroot. Hierdoor wordt deze groter dan de zwaartekracht en kom je van de grond af.  
-- **Schuifwrijvingskracht** ($F_\text{w,s}$)  
+  Op een horizontale ondergrond is de zwaartekracht even groot als de normaalkracht. Als je omhoog springt, duw je tegen de grond (met $F_\mathrm{spier}$), wat de normaalkracht vergroot. Hierdoor wordt deze groter dan de zwaartekracht en kom je van de grond af.  
+- **Schuifwrijvingskracht** ($F_\mathrm{w,s}$)  
   Deze hangt af van hoe hard de oppervlakten tegen elkaar worden gedrukt en hoe ruw de oppervlakten zijn.  
-  Er kan ook een schuifwrijving zijn als er nog geen bewering is. Als je bijvoorbeeld duwt tegen een zware kast, beweegt hij niet, terwijl je er wel een kracht op uitoefent. Er moet dus een reactiekracht aanwezig zijn: de schuifwrijving. Deze schuifwrijving past zich aan de actiekracht aan, maar niet boven de **maximale schuifwrijving** ($F_\text{w,s,max}$). Om de kast te verplaatsen heb je dus een uitwendige kracht nodig die gelijk is aan (of groter dan) de maximale schuifwrijving.  
-  
-  Voor de maximale schuifwrijving geldt:  
-  $F_\text{w,s,max} = f \cdot F_\text{n}$  
-  Hierin is $F_\text{w,s,max}$ de maximale schuifwrijvingskracht (in $\text{N}$), f de **wrijvingscoëfficiënt** (zonder eenheid) en $F_\text{n}$ de normaalkracht (in $\text{N}$).
-- **Rolweerstandskracht** ($F_\text{w,r}$)  
+  Er kan ook een schuifwrijving zijn als er nog geen bewering is. Als je bijvoorbeeld duwt tegen een zware kast, beweegt hij niet, terwijl je er wel een kracht op uitoefent. Er moet dus een reactiekracht aanwezig zijn: de schuifwrijving. Deze schuifwrijving past zich aan de actiekracht aan, maar niet boven de **maximale schuifwrijving** ($F_\mathrm{w,s,max}$). Om de kast te verplaatsen heb je dus een uitwendige kracht nodig die gelijk is aan (of groter dan) de maximale schuifwrijving.
+
+  Voor de maximale schuifwrijving geldt:
+  $F_\mathrm{w,s,max} = f \cdot F_\mathrm{n}$
+  Hierin is $F_\mathrm{w,s,max}$ de maximale schuifwrijvingskracht (in $\mathrm{N}$), f de **wrijvingscoëfficiënt** (zonder eenheid) en $F_\mathrm{n}$ de normaalkracht (in $\mathrm{N}$).
+- **Rolweerstandskracht** ($F_\mathrm{w,r}$)  
   De grootte van deze kracht hangt af van de vervorming van het voorwerp dat rolt (zoals een band).
-- **Luchtweerstandskracht** ($F_\text{w,l}$)  
+- **Luchtweerstandskracht** ($F_\mathrm{w,l}$)  
   De grootte van deze kracht hangt af van de snelheid, de frontale oppervlakte, hoe gestroomlijnd het voorwerp is en de dichtheid van de lucht. In een formule:  
-  $F_\text{w,l}=\frac{1}{2} \cdot \rho \cdot A \cdot c_w \cdot v^2$  
-  Hierin is $F_\text{w,l}$ de luchtweerstandskracht (in $\text{N}$), $\rho$ de luchtdichtheid (in $\text{kg}/\text{m}^3$), $A$ de frontale oppervlakte (in $\text{m}^2$), $c_w$ de stroomlijnfactor (zonder eenheid) en $v$ de snelheid (in $\text{m}/\text{s}$).
+  $F_\mathrm{w,l}=\frac{1}{2} \cdot \rho \cdot A \cdot c_w \cdot v^2$  
+  Hierin is $F_\mathrm{w,l}$ de luchtweerstandskracht (in $\mathrm{N}$), $\rho$ de luchtdichtheid (in $\mathrm{kg}/\mathrm{m}^3$), $A$ de frontale oppervlakte (in $\mathrm{m}^2$), $c_w$ de stroomlijnfactor (zonder eenheid) en $v$ de snelheid (in $\mathrm{m}/\mathrm{s}$).
 
 ### Krachten samenstellen
 
@@ -64,7 +64,7 @@ Als je van 2 krachten alleen de richting en de somkracht weet, kun je de **omgek
 
 Bij een versnelde of vertraagde beweging geldt dat de richting van de versnelling hetzelfde is als de richting van de somkracht. In een formule:
 
-$$\vec{F}_\text{res} = \sum_i \vec{F}_i=m \cdot \vec{a}$$
+$$\vec{F}_\mathrm{res} = \sum_i \vec{F}_i=m \cdot \vec{a}$$
 
 Het $\sum$-teken betekent dat de krachten moeten worden samengesteld via de parallellogrammethode.
 
@@ -72,7 +72,7 @@ Het $\sum$-teken betekent dat de krachten moeten worden samengesteld via de para
 
 Een kracht kun je ontbinden in 2 **krachtcomponenten**.
 
-In de afbeelding hieronder zie je een bewegend blokje op een helling. De zwaartekracht is getekend. De zwaartekracht heeft ook een effect in de bewegingsrichting. Om dit effect duidelijk te maken kun je de zwaartekracht ontbinden in 2 krachten, waarbij 1 kracht in de bewegingsrichting werkt ($F_\text{z,x}$) en 1 kracht loodrecht op de helling ($F_\text{z,y}$).
+In de afbeelding hieronder zie je een bewegend blokje op een helling. De zwaartekracht is getekend. De zwaartekracht heeft ook een effect in de bewegingsrichting. Om dit effect duidelijk te maken kun je de zwaartekracht ontbinden in 2 krachten, waarbij 1 kracht in de bewegingsrichting werkt ($F_\mathrm{z,x}$) en 1 kracht loodrecht op de helling ($F_\mathrm{z,y}$).
 
 ![Een blokje op een helling (img-l)](images/nat_h4bio_ontbinden1.jpg)
 
@@ -82,11 +82,11 @@ De steilheid van een helling hangt af van de hellingshoek ($\alpha$). Soms wordt
 
 ![Gebruik van tangens (img-s)](https://mermaid.ink/img/pako:eNplUD1rwzAQ_SviyJCCDcnSwUPBdoYsnZqpVQuHdZFMbMko537g-L9XiVUnbTUI3fu4J94AlVMEGewb91EZ9Cx2G2lFOPnLlpqmtvpoHB1eJ7CYQU2MTUTLGe3IV2QZNUUqF2n6cJKwWEjJaJfhpk8ezM3q8S6QcBJFjPjteBvS9fjXdgn_8eX_fZVyLNar1SQo4y9vBKp-v_IFJNCSb7FWoYnhrJbAhlqSkIWnQn-QIO0YdNize_qyFWTse0rAu14byPbYHMPUdwqZNjVqj-2MdmifnbvOpGp2_nEq_tJ_Atqfw-NOsop86XrLkN2P358OhuM?type=png)
 
-Als je $F_\text{z,x}$ wil berekenen in de figuur van het blokje, kun je de hoeken gebruiken van de helling.  
-$F_\text{z,x}=F_\text{z}\cdot \sin(\alpha)$
+Als je $F_\mathrm{z,x}$ wil berekenen in de figuur van het blokje, kun je de hoeken gebruiken van de helling.  
+$F_\mathrm{z,x}=F_\mathrm{z}\cdot \sin(\alpha)$
 
-Als je $F_\text{z,y}$ wil berekenen in de figuur van het blokje, kun je weer de hoeken gebruiken van de helling.  
-$F_\text{z,y}=F_\text{z}\cdot \cos(\alpha)$
+Als je $F_\mathrm{z,y}$ wil berekenen in de figuur van het blokje, kun je weer de hoeken gebruiken van de helling.  
+$F_\mathrm{z,y}=F_\mathrm{z}\cdot \cos(\alpha)$
 
 > Tip: leer niet deze formules voor deze specefieke situaties uit je hoofd, maar kijk of je een driehoek kan maken, welke je hoeken je dan hebt en pas vervolgens SOS-CAS-TOA toe.
 
@@ -113,10 +113,10 @@ Lenzen kun je vereenvoudigd tekenen. Je verwaarloost dan de dikte van de lens en
 De sterkte van de lens hangt enkel af van de brandpuntsafstand:
 
 $$S=\frac{1}{f}$$
-Hierin is $S$ de sterkte van de lens (in $\text{dpt}=\text{m}^{-1}$) en $f$ de brandpuntsafstand (in $\text{m}$).
+Hierin is $S$ de sterkte van de lens (in $\mathrm{dpt}=\mathrm{m}^{-1}$) en $f$ de brandpuntsafstand (in $\mathrm{m}$).
 
-Een **voorwerpspunt** geef je aan met een $V$, de grootte (vaak lengte) van een voorwerp is de **voorwerpsgrootte** ($L_\text{v}$) en de afstand van het voorwerp tot de lens is de **voorwerpsafstand** ($v$).  
-Door gebruik te maken van constructiestralen kun je bepalen waar een **beeldpunt** ($B$) zich bevindt. Ook kun je dan de **beeldgrootte** ($L_\text{b}$) en de **beeldafstand** ($b$) bepalen.
+Een **voorwerpspunt** geef je aan met een $V$, de grootte (vaak lengte) van een voorwerp is de **voorwerpsgrootte** ($L_\mathrm{v}$) en de afstand van het voorwerp tot de lens is de **voorwerpsafstand** ($v$).  
+Door gebruik te maken van constructiestralen kun je bepalen waar een **beeldpunt** ($B$) zich bevindt. Ook kun je dan de **beeldgrootte** ($L_\mathrm{b}$) en de **beeldafstand** ($b$) bepalen.
 
 De regels voor constructie bij een positieve lens zijn:
 
@@ -136,13 +136,13 @@ Bij een negatieve lens ontstaat er geen beeld na de lens, maar als je de lichtst
 
 Bij lenzen is er sprake van een **lineare vergroting**:
 
-$$N=\frac{L_\text{b}}{L_\text{v}}=\frac{b}{v}$$
-Hierin is $N$ de lineare vergroting (zonder eenheid, het is een verhouding), $L_\text{b}$ de beeldgrootte (in $\text{m}$), $L_\text{v}$ de voorwerpgrootte (in $\text{m}$), $b$ de beeldafstand (in $\text{m}$) en $v$ de voorwerpsafstand (in $\text{m}$).
+$$N=\frac{L_\mathrm{b}}{L_\mathrm{v}}=\frac{b}{v}$$
+Hierin is $N$ de lineare vergroting (zonder eenheid, het is een verhouding), $L_\mathrm{b}$ de beeldgrootte (in $\mathrm{m}$), $L_\mathrm{v}$ de voorwerpgrootte (in $\mathrm{m}$), $b$ de beeldafstand (in $\mathrm{m}$) en $v$ de voorwerpsafstand (in $\mathrm{m}$).
 
 De lenzenwet luidt:
 
 $$S=\frac{1}{f}=\frac{1}{v}+\frac{1}{b}$$
-Hierin is $S$ de sterkte van de lens (in $\text{dpt}=\text{m}^{-1}$), $f$ de brandpuntsafstand (in $\text{m}$), $v$ de voorwerpsafstand (in $\text{m}$) en $b$ de beeldafstand (in $\text{m}$).
+Hierin is $S$ de sterkte van de lens (in $\mathrm{dpt}=\mathrm{m}^{-1}$), $f$ de brandpuntsafstand (in $\mathrm{m}$), $v$ de voorwerpsafstand (in $\mathrm{m}$) en $b$ de beeldafstand (in $\mathrm{m}$).
 
 ### In het oog
 
@@ -170,7 +170,7 @@ Binnen de natuurkunde noem je een draaibaar en onbuigbaar voorwerp een **hefboom
 Voor de "neiging tot draaiing" van een hefboom zijn 2 dingen belangrijk: de grootte van de kracht en de aangrijping van de kracht op de hefboom. Het krachtmoment is een grootheid voor deze "neiging tot draaiing".
 
 $$M=F\cdot r$$
-Hierin is $M$ het krachtmoment (in $\text{Nm}$), $F$ de kracht (in $\text{N}$) en $r$ de arm (in $\text{m}$). De arm is de **LOODRECHTE** afstand van het draaipunt ($S$) tot de **WERKLIJN** van de kracht.
+Hierin is $M$ het krachtmoment (in $\mathrm{Nm}$), $F$ de kracht (in $\mathrm{N}$) en $r$ de arm (in $\mathrm{m}$). De arm is de **LOODRECHTE** afstand van het draaipunt ($S$) tot de **WERKLIJN** van de kracht.
 
 ![Een hefboom met 2 krachten (img-m)](images/nat_h4bio_hefboom1.jpg)  
 <span class="img-txt">In deze situatie zijn de momenten even groot</span>
@@ -180,10 +180,10 @@ Hierin is $M$ het krachtmoment (in $\text{Nm}$), $F$ de kracht (in $\text{N}$) e
 
 Als een hefboom niet of eenparig draait, geldt de **hefboomwet**:
 
-$M_\text{L}=M_\text{R}$  
+$M_\mathrm{L}=M_\mathrm{R}$  
 dus  
-$F_\text{L}\cdot r_\text{L}=F_\text{R}\cdot r_\text{R}$  
-Hierin is $M_\text{L}$ het linksdraaiend moment (in $\text{Nm}$), $M_\text{R}$ het rechtsdraaiend moment (in $\text{Nm}$), $F_\text{L}$ en $F_\text{R}$ zijn de krachten (in $\text{N}$) en $r_\text{L}$ en $r_\text{R}$ zijn de bijbehorende armen (in $\text{m}$).
+$F_\mathrm{L}\cdot r_\mathrm{L}=F_\mathrm{R}\cdot r_\mathrm{R}$  
+Hierin is $M_\mathrm{L}$ het linksdraaiend moment (in $\mathrm{Nm}$), $M_\mathrm{R}$ het rechtsdraaiend moment (in $\mathrm{Nm}$), $F_\mathrm{L}$ en $F_\mathrm{R}$ zijn de krachten (in $\mathrm{N}$) en $r_\mathrm{L}$ en $r_\mathrm{R}$ zijn de bijbehorende armen (in $\mathrm{m}$).
 
 > Om te kijken of een kracht een links- of rechtsdraaiend moment heeft moet je kijken in welke richting de kracht de hefboom laat draaien:  
 > Rechtsdraaiend moment = met de klok mee  
@@ -192,8 +192,8 @@ Hierin is $M_\text{L}$ het linksdraaiend moment (in $\text{Nm}$), $M_\text{R}$ h
 
 Als er meer dan 2 krachten een moment uitoefenen op de hefboom, moet er een evenwicht zijn tussen alle linksdraaiende momenten en alle rechtsdraaiende momenten:  
 
-$$\sum_{M_\text{L}}=\sum_{M_\text{R}}$$
+$$\sum_{M_\mathrm{L}}=\sum_{M_\mathrm{R}}$$
 
-Naast de hefboomwet geldt als evenwichtsvoorwaarde dat $F_\text{res}=0$.
+Naast de hefboomwet geldt als evenwichtsvoorwaarde dat $F_\mathrm{res}=0$.
 
 De kracht die de as op een hefboom uitoefent noem je de **draaipuntkracht**.

@@ -120,6 +120,6 @@ Het numerieke voorvoegsel voor 7 is *hepta*, dus de systematische naam van de st
 
 Je kunt door te verwarmen ook het water weer uit het rooster halen:
 
-$$\ce{FeSO4 * 7~H2O ->[\text{warmte}] FeSO4 + 7~H2O }$$
+$$\ce{FeSO4 * 7~H2O ->[\mathrm{warmte}] FeSO4 + 7~H2O }$$
 
 Zouten die water in hun ionrooster kunnen opnemen kunnen gebruikt worden om water uit een andere stof te halen.

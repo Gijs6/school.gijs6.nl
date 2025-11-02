@@ -17,7 +17,7 @@ De **dichtheid** van een stof geeft de massa per volume-eenheid aan:
 
 $$\rho = \frac{m}{V}$$
 
-Hierin is $\rho$ de dichtheid (in $\text{kg}/\text{m}^3$), $m$ de massa (in $\text{kg}$) en $V$ het volume (in $\text{m}^3$).
+Hierin is $\rho$ de dichtheid (in $\mathrm{kg}/\mathrm{m}^3$), $m$ de massa (in $\mathrm{kg}$) en $V$ het volume (in $\mathrm{m}^3$).
 
 ## Luchtdruk
 
@@ -25,7 +25,7 @@ De druk van een gas of vloeistof geeft de kracht aan die het gas per oppervlakte
 
 $$p=\frac{F}{A}$$
 
-Hierin is $p$ de druk (in $\text{Pa}$), $F$ de kracht (in $\text{N}$) en $A$ de oppervlakte (in $\text{m}^2$).
+Hierin is $p$ de druk (in $\mathrm{Pa}$), $F$ de kracht (in $\mathrm{N}$) en $A$ de oppervlakte (in $\mathrm{m}^2$).
 
 De druk van afgesloten lucht stijgt bij hogere dichtheid en temperatuur. Dit wordt verklaard met het **gasmodel**:
 
@@ -39,26 +39,26 @@ De **wet van Boyle** beschrijft dit verband tussen druk en volume bij een consta
 
 $$pV = c$$
 
-Hierin is $p$ de druk (in $\text{Pa}$), $V$ het volume (in $\text{m}^3$) en $c$ een constante afhankelijk van de temperatuur en hoeveelheid gas.
+Hierin is $p$ de druk (in $\mathrm{Pa}$), $V$ het volume (in $\mathrm{m}^3$) en $c$ een constante afhankelijk van de temperatuur en hoeveelheid gas.
 
 De druk van een gas is alleen evenredig als de druk bij 0 kelvin ook 0 pascal is. Daarom gebruik je de eenheid kelvin, waarbij 0 kelvin het **absolute nulpunt** is (de laagst mogelijke temperatuur). Bij deze temperatuur zouden de deeltjes stils staan.
 
-$$T_\text{celcius} = T_\text{kelvin} - 273$$
+$$T_\mathrm{celcius} = T_\mathrm{kelvin} - 273$$
 
 Bij hogere temperatuur bewegen de deeltjes sneller, waardoor de botsingen krachtiger zijn.  
 De **drukwet van Gay-Lussac** geeft het verband tussen druk en absolute temperatuur bij een constante hoeveelheid gas:
 
 $$\frac{p}{T} = c$$
 
-Hierin is $p$ de druk (in $\text{Pa}$), $T$ de absolute temperatuur (in $\text{K}$) en $c$ een constante afhankelijk van de dichtheid.
+Hierin is $p$ de druk (in $\mathrm{Pa}$), $T$ de absolute temperatuur (in $\mathrm{K}$) en $c$ een constante afhankelijk van de dichtheid.
 
 De combinatie van de wetten van Boyle en Gay-Lussac levert de **algemene gaswet**:
 
 $$pV = nRT$$
 
-Hierin is $p$ de druk (in $\text{Pa}$), $V$ het volume (in $\text{m}^3$), $n$ de hoeveelheid gas (in $\text{mol}$), $R$ de gasconstante ($\approx 8{,}31\ \text{J} \ \text{mol}^{-1} \ \text{K}^{-1}$) en $T$ de absolute temperatuur (in $\text{K}$).
+Hierin is $p$ de druk (in $\mathrm{Pa}$), $V$ het volume (in $\mathrm{m}^3$), $n$ de hoeveelheid gas (in $\mathrm{mol}$), $R$ de gasconstante ($\approx 8{,}31\ \mathrm{J} \ \mathrm{mol}^{-1} \ \mathrm{K}^{-1}$) en $T$ de absolute temperatuur (in $\mathrm{K}$).
 
-Bij druk wordt vaak de eenheid **bar** gebruikt: $1 \ \text{bar} = 1 \cdot 10^5 \ \text{Pa}$.
+Bij druk wordt vaak de eenheid **bar** gebruikt: $1 \ \mathrm{bar} = 1 \cdot 10^5 \ \mathrm{Pa}$.
 
 Omdat de gasconstante constant is, kun je met de algemene gaswet ook veranderingen in druk, volume, temperatuur of checmische hoeveelheid berekenen. Je krijgt dan:
 
@@ -93,7 +93,7 @@ De **soortelijke warmte** van een stof is de hoeveelheid energie die nodig is om
 
 $$Q=cm\Delta T$$
 
-Hierin is $Q$ de warmte (in $\text{J}$), $c$ de soortelijke warmte (in $\text{J} \ \text{kg}^{-1} \ \text{K}^{-1}$), $m$ de massa van de stof (in $\text{kg}$) en $\Delta T$ het temperatuurverschil (in $\text{K}$).
+Hierin is $Q$ de warmte (in $\mathrm{J}$), $c$ de soortelijke warmte (in $\mathrm{J} \ \mathrm{kg}^{-1} \ \mathrm{K}^{-1}$), $m$ de massa van de stof (in $\mathrm{kg}$) en $\Delta T$ het temperatuurverschil (in $\mathrm{K}$).
 
 Hoe zwaarder de deeltjes van een stof, hoe groter de dichtheid en hoe kleiner de soortelijke warmte.
 
@@ -104,7 +104,7 @@ De **warmtestroom** geeft aan hoeveel energie er per seconde naar buiten stroomt
 
 $$P=\lambda A \frac{\Delta T}{d}$$
 
-Hierin is $P$ de warmtestroom (in $\text{W}$), $\lambda$ de warmtegeleidingscoëfficiënt (in $\text{W} \ \text{m}^{-1} \ \text{K}^{-1}$), $A$ de oppervlakte van de stof (in $\text{m}^2$), $\Delta T$ het temperatuurverschil tussen weerzijden van de stof (in $\text{K}$) en $d$ de dikte van de stof (in $\text{m}$).  
+Hierin is $P$ de warmtestroom (in $\mathrm{W}$), $\lambda$ de warmtegeleidingscoëfficiënt (in $\mathrm{W} \ \mathrm{m}^{-1} \ \mathrm{K}^{-1}$), $A$ de oppervlakte van de stof (in $\mathrm{m}^2$), $\Delta T$ het temperatuurverschil tussen weerzijden van de stof (in $\mathrm{K}$) en $d$ de dikte van de stof (in $\mathrm{m}$).  
 De **warmtegeleidingscoëfficiënt** geeft aan hoe groot de warmtestroom is door een oppervlakte van 1 vierkante meter bij een dikte van 1 meter en bij een temperatuursverschil van 1 kelvin.
 
 Naast geleiding door muren speelt ook stroming in spouwmuren (holle laag tussen muren) en uitstraling een rol bij warmteverlies bij huizen.
@@ -133,7 +133,7 @@ De **spanning** is de trekkracht per oppervlakte-eenheid:
 
 $$\sigma=\frac{F}{A}$$
 
-Hierin is $\sigma$ de spanning (in $\text{Pa}=\text{N}/\text{m}^2$), $F$ de uitgeoefende kracht (in $\text{N}$) en $A$ de oppervlakte van de dwarsdoorsnede (in $\text{m}^2$).
+Hierin is $\sigma$ de spanning (in $\mathrm{Pa}=\mathrm{N}/\mathrm{m}^2$), $F$ de uitgeoefende kracht (in $\mathrm{N}$) en $A$ de oppervlakte van de dwarsdoorsnede (in $\mathrm{m}^2$).
 
 In een **spanning,rek-diagram** is de spanning uitgezet tegen de relatieve rek. Tot aan de **elasticiteitsgrens** is de vervorming elastisch. Daarna is de vervorming plastisch.  
 De **treksterkte** van een materiaal is de maximale spanning.
@@ -142,6 +142,6 @@ De **elasticiteitsmodulus** is de spanning in het materiaal bij een uitrekking v
 
 $$E=\frac{\sigma}{\epsilon}$$
 
-Hierin is $E$ de elasticiteitsmodulus (in $\text{Pa}=\text{N}/\text{m}^2$), $\sigma$ de spanning (in $\text{Pa}=\text{N}/\text{m}^2$) en $\epsilon$ de relatieve rek (zonder eenheid).
+Hierin is $E$ de elasticiteitsmodulus (in $\mathrm{Pa}=\mathrm{N}/\mathrm{m}^2$), $\sigma$ de spanning (in $\mathrm{Pa}=\mathrm{N}/\mathrm{m}^2$) en $\epsilon$ de relatieve rek (zonder eenheid).
 
 **Let op!** Deze formule geldt alleen in het gebied waar de spanning evenredig is met de relatieve rek (in het spanning,rek-diagram is dat een rechte lijn). Dus bij een plastische vervorming kun je deze formule sowieso niet gebruiken.

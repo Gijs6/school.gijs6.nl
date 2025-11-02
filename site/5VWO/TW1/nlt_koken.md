@@ -58,8 +58,8 @@ Zo'n keten kun je makkelijk opschrijven met de 3-letterige afkortingen van de am
 
 Net als bij vetten en koolhydraten kun je met hydrolyse een polypeptideketen weer afbreken in aminozuren. In je lichaam worden aminozuren afgebroken tot **ureum**.
 
-Als je elk aminozuur meerdere keren kunt gebruiken is het aantal mogelijke combinaties gelijk aan $\text{aantal aminozuren}^{\text{ketenlengte}}$.  
-Als elk aminozuur 1 keer gebruikt moet worden is het aantal mogelijke combinaties gelijk aan $\text{aantal aminozuren}!$. (*De $!$ is de **faculteit**: $5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$.*)
+Als je elk aminozuur meerdere keren kunt gebruiken is het aantal mogelijke combinaties gelijk aan $\mathrm{aantal~aminozuren}^{\mathrm{ketenlengte}}$.  
+Als elk aminozuur 1 keer gebruikt moet worden is het aantal mogelijke combinaties gelijk aan $\mathrm{aantal~aminozuren}!$. (*De $!$ is de **faculteit**: $5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$.*)
 
 ## Sensorisch onderzoek
 
@@ -83,6 +83,6 @@ Een emulgator is een molecuul met een hydrofiele kop en een hydrofobe staart. De
 Schuim in een biertje zakt langzaam in. Hierbij kun je de halfwaardetijd van het inzakken van het schuim berekenen.
 
 1. Bereken de **genormeerde waarde** voor elke meting. Dit doe je door van alle waardes de waarde van de laatste meting af te trekken. Eigenlijk bereken je dus het verschil met de eindmeting, zodat je grafiek op 0 eindigt.
-2. Maak een grafiek met op de x-as de tijd en op de y-as de natuurlijke logaritme van de genormeerde waarde ($\ln(\text{genormeerde waarde})$).
+2. Maak een grafiek met op de x-as de tijd en op de y-as de natuurlijke logaritme van de genormeerde waarde ($\ln(\mathrm{genormeerde~waarde})$).
 3. Bepaal de richtingscoëfficiënt (rc) van de rechte lijn in deze grafiek.
-4. Bereken de halfwaardetijd met de formule: $t_{\frac{1}{2}} = \frac{\ln (\frac{1}{2})}{\text{rc}}$.
+4. Bereken de halfwaardetijd met de formule: $t_{\frac{1}{2}} = \frac{\ln (\frac{1}{2})}{\mathrm{rc}}$.

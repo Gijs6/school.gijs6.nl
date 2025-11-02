@@ -23,7 +23,7 @@ De lijn door de punten $(a, 0)$ en $(0, b)$ met $a \neq 0 \land b \neq 0$ heeft 
 
 Een **richtingshoek** van een lijn is de hoek waarmee je de $x$-as moet draaien om deze lijn te laten samenvallen met de as. We nemen altijd de hoek waarvoor geldt $-90^{\circ} < \alpha \leq 90^{\circ}$.
 
-Voor de richtingshoek $\alpha$ van de lijn $k$ geldt: $\tan (\alpha) = \text{rc}_k \land -90^{\circ} < \alpha \leq 90^{\circ}$
+Voor de richtingshoek $\alpha$ van de lijn $k$ geldt: $\tan (\alpha) = \mathrm{rc}_k \land -90^{\circ} < \alpha \leq 90^{\circ}$
 
 De hoek tussen twee lijnen vind je door hun richtingshoeken van elkaar af te trekken. We nemen altijd de hoek waarvoor geldt $0^{\circ} \leq \varphi \leq 90^{\circ}$.
 
@@ -46,11 +46,11 @@ $$x_M = \frac{1}{2}(x_A + x_B) \quad\quad y_M = \frac{1}{2}(y_A + y_B)$$
 
 ### Loodrechte lijnen
 
-Voor twee lijnen die loodrecht op elkaar staan geldt: $\text{rc}_k \cdot \text{rc}_l = -1$.
+Voor twee lijnen die loodrecht op elkaar staan geldt: $\mathrm{rc}_k \cdot \mathrm{rc}_l = -1$.
 
-Voor de lijn $ax+by=c$ met $b \neq 0$ geldt: $\text{rc} = -\tfrac{a}{b}$.
+Voor de lijn $ax+by=c$ met $b \neq 0$ geldt: $\mathrm{rc} = -\tfrac{a}{b}$.
 
-Voor de lijn $bx - ay = d$ met $a \neq 0$ geldt: $\text{rc} = \tfrac{b}{a}$.
+Voor de lijn $bx - ay = d$ met $a \neq 0$ geldt: $\mathrm{rc} = \tfrac{b}{a}$.
 
 Hieruit volgt dat de lijnen $ax+by=c$ en $bx-ay=d$ loodrecht op elkaar staan.
 

@@ -84,16 +84,16 @@ Sommige ionen bestaan niet los in water:
 ## pH-rekenen
 
 De pH van een zuur kan worden berekend met de formule:  
-$$\text{pH} = -\log [\ce{H3O+}]$$
+$$\mathrm{pH} = -\log [\ce{H3O+}]$$
 
 > Het aantal significante cijfers in de concentratie bepaalt het aantal decimalen van de pH.
 
 Met deze formule kan ook de concentratie $\ce{H3O+}$ bij een bepaalde pH worden berekend:  
-$$[\ce{H3O+}] = 10^{-\text{pH}}$$
+$$[\ce{H3O+}] = 10^{-\mathrm{pH}}$$
 
 Bij basen werkt het berekenen van de pH anders. Van een base kan de pH namelijk niet direct worden berekend. Eerst moet je de pOH berekenen:  
-$$\text{pOH} = - \log [\ce{OH-}]$$
-$$[\ce{OH-}] = 10^{-\text{pOH}}$$
+$$\mathrm{pOH} = - \log [\ce{OH-}]$$
+$$[\ce{OH-}] = 10^{-\mathrm{pOH}}$$
 
 Je kunt omrekenen tussen pH en pOH met de formule:  
-$$\text{pH} + \text{pOH} = 14$$
+$$\mathrm{pH} + \mathrm{pOH} = 14$$

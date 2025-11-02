@@ -13,8 +13,8 @@ De fotonenergie is evenredig met de frequentie:
 
 $$E_f = hf$$
 
-Hierin is $E_f$ de fotonenergie (in $\text{J}$), $h$ de constante van Planck ($\approx 6{,}626 \cdot 10^{-34} \ \text{J} \ \text{s}$) en $f$ de frequentie (in $\text{Hz}$).  
-Soms wordt **elektronvolt** ($\text{eV}$) gebruikt als eenheid voor energie: $1 \ \text{eV}= 1{,}6 \cdot 10^{-19} \ \text{J}$.
+Hierin is $E_f$ de fotonenergie (in $\mathrm{J}$), $h$ de constante van Planck ($\approx 6{,}626 \cdot 10^{-34} \ \mathrm{J} \ \mathrm{s}$) en $f$ de frequentie (in $\mathrm{Hz}$).  
+Soms wordt **elektronvolt** ($\mathrm{eV}$) gebruikt als eenheid voor energie: $1 \ \mathrm{eV}= 1{,}6 \cdot 10^{-19} \ \mathrm{J}$.
 
 Het **ioniserend vermogen** is het vermogen om elektronen uit atomen los te maken.  
 Het **doordringend vermogen** is het gemak waarmee straling door huid en weefsel dringt.
@@ -39,7 +39,7 @@ De doorgelaten intensiteit na $n$ halveringsdiktes is:
 $$I = I_0 \cdot \left(\frac{1}{2}\right)^n$$
 
 Hierin is $I$ de doorgelaten intensiteit, $I_0$ de invallende intensiteit, en $n$ het aantal halveringsdiktes.  
-De intensiteit staat vaak in $\text{W}/\text{m}^2$, maar soms in procenten.
+De intensiteit staat vaak in $\mathrm{W}/\mathrm{m}^2$, maar soms in procenten.
 
 $n$ is het aantal keren dat de dikte $d$ in $d_{1/2}$ past:
 
@@ -71,7 +71,7 @@ Aan de hand van de halveringstijd kun je de activiteit van een radioactieve bron
 
 $$A=A_0 \cdot \left(\frac{1}{2}\right)^n$$
 
-Hierin is $A$ de activiteit (in $\text{Bq}$), $A_0$ de beginactiviteit (in $\text{Bq}$), en $n$ het aantal halveringstijden.  
+Hierin is $A$ de activiteit (in $\mathrm{Bq}$), $A_0$ de beginactiviteit (in $\mathrm{Bq}$), en $n$ het aantal halveringstijden.  
 
 $n$ is dus hoe vaak de tijd in de halveringstijd past:
 
@@ -136,37 +136,37 @@ Hierin is $N$ het aantal kernen, $N_0$ het aantal kernen op $t=0$, $t$ het tijds
 De activiteit van een radioactieve bron is het aantal instabiele atoomkernen dat per seconde vervalt. Dat is dus gelijk aan de helling van een N,t-diagram, want het gaat om de afname op dat moment.  
 De activiteit is dus gelijk aan de helling van de raaklijn (of de afgeleide) van een N,t-diagram.
 
-$$A = -\left(\frac{\Delta N}{\Delta t}\right)_{\text{raaklijn}}$$  
+$$A = -\left(\frac{\Delta N}{\Delta t}\right)_{\mathrm{raaklijn}}$$  
 $$A = -\frac{dN}{dt}$$  
-$$A_{\text{gem}} = -\frac{\Delta N}{\Delta t}$$
+$$A_{\mathrm{gem}} = -\frac{\Delta N}{\Delta t}$$
 
 Je kunt de afgeleide ook uitschrijven als:
 
 $$A = \frac{\ln(2) \cdot N}{t_{1/2}}$$
 
-Hierin is $A$ de activiteit (in $\text{Bq}$), $\ln(2)$ is de natuurlijke logaritme van 2 ($\approx 0{,}693$), $N$ het aantal instabiele atoomkernen en $t_{1/2}$ de halveringstijd (in $\text{s}$).
+Hierin is $A$ de activiteit (in $\mathrm{Bq}$), $\ln(2)$ is de natuurlijke logaritme van 2 ($\approx 0{,}693$), $N$ het aantal instabiele atoomkernen en $t_{1/2}$ de halveringstijd (in $\mathrm{s}$).
 
 ### Atoommassa's
 
-Soms moet je de massa van 1 enkel atoom van een element weten. In Binas zie je de atoommassa in de **atomaire massa-eenheid** ($\text{u}$). $1 \ \text{u} = 1{,}66 \cdot 10^{-27} \ \text{kg}$.
+Soms moet je de massa van 1 enkel atoom van een element weten. In Binas zie je de atoommassa in de **atomaire massa-eenheid** ($\mathrm{u}$). $1 \ \mathrm{u} = 1{,}66 \cdot 10^{-27} \ \mathrm{kg}$.
 
 ## Dosis
 
 UV-straling, röntgenstraling en gammastraling kunnen door hun ioniserend vermogen schadelijk zijn voor het lichaam. Hetzelfde geldt voor $\alpha$-straling en $\beta$-straling.  
 De **stralingsenergie** van ioniserende straling wordt in het lichaam opgenomen.  
-De **dosis** is de geabsorbeerde stralingsenergie per kg van het voorwerp, gemeten in **gray** ($\text{Gy} = \text{J} \ \text{kg}^{-1}$).  
+De **dosis** is de geabsorbeerde stralingsenergie per kg van het voorwerp, gemeten in **gray** ($\mathrm{Gy} = \mathrm{J} \ \mathrm{kg}^{-1}$).  
 
-$$D = \frac{E_{\text{str}}}{m}$$
+$$D = \frac{E_{\mathrm{str}}}{m}$$
 
-Hierin is $D$ de dosis (in $\text{Gy}$), $E_{str}$ de stralingsenergie (in $\text{J}$) en $m$ de massa van het voorwerp (in $\text{kg}$).
+Hierin is $D$ de dosis (in $\mathrm{Gy}$), $E_{str}$ de stralingsenergie (in $\mathrm{J}$) en $m$ de massa van het voorwerp (in $\mathrm{kg}$).
 
-Maar niet elke soort straling doet evenveel schade. Om "schade" te meten kun je beter de **equivalente dosis** gebruiken, gemeten in **sievert** ($\text{Sv} = \text{J} \ \text{kg}^{-1}$).
+Maar niet elke soort straling doet evenveel schade. Om "schade" te meten kun je beter de **equivalente dosis** gebruiken, gemeten in **sievert** ($\mathrm{Sv} = \mathrm{J} \ \mathrm{kg}^{-1}$).
 
 $$H = w_R \cdot D$$
 
-Hierin is $H$ de equivalente dosis (in $\text{Sv}$), $w_R$ de **stralingsweegfactor** (zonder eenheid) en $D$ de dosis (in $\text{Gy}$).
+Hierin is $H$ de equivalente dosis (in $\mathrm{Sv}$), $w_R$ de **stralingsweegfactor** (zonder eenheid) en $D$ de dosis (in $\mathrm{Gy}$).
 
-> Ook al zijn zowel $\text{Sv}$ als $\text{Gy}$ in principe gelijk aan $\text{J} \ \text{kg}^{-1}$, betekenen ze dus niet hetzelfde!
+> Ook al zijn zowel $\mathrm{Sv}$ als $\mathrm{Gy}$ in principe gelijk aan $\mathrm{J} \ \mathrm{kg}^{-1}$, betekenen ze dus niet hetzelfde!
 
 De stralingsweegfactor (zie ook Binas 27D3) verschilt per type straling:
 

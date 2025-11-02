@@ -153,12 +153,12 @@ Bij even waarden van $n$ is de grafiek lijnsymmetrisch met de $y$-as.
 Bij oneven waarden van $n$ is de grafiek puntsymmetrisch met de oorsprong als punt van symmetrie.
 
 Een grafiek kun je verschuiven: er ontstaat dan een **beeldgrafiek**. Deze verschuiving heet een **translatie**.  
-$$y=ax^n \xrightarrow{\text{translatie}~(p,~q)} y=a(x-p)^n+q$$  
+$$y=ax^n \xrightarrow{\mathrm{translatie}~(p,~q)} y=a(x-p)^n+q$$  
 Voor een horizontale translatie van $p$ naar rechts vervang je $x$ dus door $x-p$, en voor een horizontale translatie van $p$ naar links vervang je $x$ dus door $x+p$.  
 Voor een verticale translatie van $q$ tel je $q$ op bij de functiewaarde.
 
 Voor een **vermenigvuldiging ten opzichte van de $x$-as** vermenigvuldig je de functiewaarde:  
-$$y=x^n \xrightarrow{\text{verm.}~x\text{-as met}~a} y=ax^n$$  
+$$y=x^n \xrightarrow{\mathrm{verm.}~x\mathrm{-as~met}~a} y=ax^n$$  
 Translaties en vermenigvuldigingen zijn voorbeelden van **transformaties**.
 
 ## Wortelfuncties
@@ -199,10 +199,10 @@ Het bereik is $B_f=\langle 0, \rightarrow \rangle$ en het domein is $D_f=\mathbb
 
 Hieronder een overzicht van transformaties op $y=g^x$:
 
-- $y=g^x \xrightarrow{\text{verm.}~x\text{-as met}~a} y=a\cdot g^x$ (asymptoot $y=0$)
-- $y=g^x \xrightarrow{\text{verm.}~y\text{-as met}~b} y=g^{\frac{1}{b}\cdot x}$ (asymptoot $y=0$)
-- $y=g^x \xrightarrow{\text{translatie}~(0,~q)} y=g^x+q$ (asymptoot $y=q$)
-- $y=g^x \xrightarrow{\text{translatie}~(p,~0)} y=g^{x-p}$ (asymptoot $y=0$)
+- $y=g^x \xrightarrow{\mathrm{verm.}~x\mathrm{-as~met}~a} y=a\cdot g^x$ (asymptoot $y=0$)
+- $y=g^x \xrightarrow{\mathrm{verm.}~y\mathrm{-as~met}~b} y=g^{\frac{1}{b}\cdot x}$ (asymptoot $y=0$)
+- $y=g^x \xrightarrow{\mathrm{translatie}~(0,~q)} y=g^x+q$ (asymptoot $y=q$)
+- $y=g^x \xrightarrow{\mathrm{translatie}~(p,~0)} y=g^{x-p}$ (asymptoot $y=0$)
 
 Je kunt vergelijkingen als $y=120\cdot 3^{2x-1}$ herleiden tot de vorm $y=b\cdot g^x$. Je maakt dan gebruik van de regels $(a^p)^q=a^{pq}$ en $a^p \cdot a^q=a^{p+q}$.  
 Voorbeeld: $2^{3x-4}=2^{3x}\cdot 2^{-4}=(2^3)^x\cdot \frac{1}{16}=8^x\cdot \frac{1}{16}$
