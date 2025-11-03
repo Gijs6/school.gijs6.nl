@@ -7,7 +7,7 @@ description: Argumentatiestructuren & argumentatieschema's
 
 ## Standpunt en argument
 
-De essentie van een overtuigende tekst is het **standpunt**. Dit is een mening, gedachte, visie of idee die de auteur wil overbrengen. Een standpunt kun je herkennen aan signaalwoorden als *volgens mij*, *daarom*, *dus* etc.  
+De essentie van een overtuigende tekst is het **standpunt**. Dit is een mening, gedachte, visie of idee die de auteur wil overbrengen. Een standpunt kun je herkennen aan signaalwoorden als *volgens mij*, *daarom*, *dus* enz.  
 Een standpunt staat niet altijd expliciet in de tekst.
 
 > *Het is niet te rechtvaardigen dat leerlingen zo veel naar school moeten*  

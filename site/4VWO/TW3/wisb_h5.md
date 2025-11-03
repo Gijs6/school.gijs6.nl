@@ -69,7 +69,7 @@ $x=y^2-4y+7$
 
 De functies $f(x)=g^x$ met $g>0$ en $g\neq 1$ zijn **exponentiele standaardfuncties**.
 
-Exponentiële standaardfuncties hebben een **asymptoot**: een lijn waarmee de grafiel op den duur vrijwel samenvalt.
+Exponentiële standaardfuncties hebben een **asymptoot**: een lijn waarmee de grafiek op den duur vrijwel samenvalt.
 
 De functie $f(x)=2^x$ valt samen met de $x$-as, dus de $x$-as is de **horizontale asymptoot**. Het bereik van deze functie is $B_f=\langle 0, \rightarrow \rangle$. Het domein bestaat uit alle reële getallen, dus $D_f=\mathbb{R}$.
 

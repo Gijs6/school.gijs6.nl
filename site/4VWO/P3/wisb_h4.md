@@ -7,7 +7,7 @@ description: Vergelijkingen & herleidingen
 
 ## Getallenparen en stelsels
 
-De algemene vorm van een lineaire vergelijking met $x$ en $y$ is $ax+by=c$. Uit deze verglijking kun je $x$ of $y$ vrijmaken.  
+De algemene vorm van een lineaire vergelijking met $x$ en $y$ is $ax+by=c$. Uit deze vergelijking kun je $x$ of $y$ vrijmaken.  
 De getallenparen $(x, y) = (4, -1)$ en $(x, y) = (-12, 5)$ zijn oplossingen van de vergelijking $3x+8y=4$.  
 Het getallenpaar $(x, y) = (2, -1)$ is zowel een oplossing van $2x+y=3$ als van $x-2y=4$. Je kunt ook zeggen dat $(2, -1)$ de oplossing is van het onderstaande stelsel.
 

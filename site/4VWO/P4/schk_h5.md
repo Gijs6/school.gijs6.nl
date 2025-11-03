@@ -19,7 +19,7 @@ Bij een covalente binding in $\ce{H2}$ wordt het elektronenpaar gelijk verdeeld.
 
 ![Polaire atoombinding (img-m)](./images/schk_h5_polair.jpg)
 
-Elementen die graag een elektron willen hebben zijn **elektronegatief**, zoals fluor, zuurstof, chloor, broom en jood (FONClBrI), die rechtsboven in het periodiek systeem staan.
+Elementen die graag een elektron willen hebben zijn **elektronegatief**, zoals fluor, zuurstof, stikstof, chloor, broom en jood (FONClBrI), die rechtsboven in het periodiek systeem staan.
 
 > Let op! De elektronen zijn nog steeds gedeeld. Bij een ionbinding binnen een zout gaat er echt een elektron van het ene atoom naar het andere, maar hier blijft het een gedeeld elektronenpaar.
 

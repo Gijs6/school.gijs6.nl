@@ -70,7 +70,7 @@ Je maakt de imparfait door bij de *nous*-vorm van het présent de uitgang *\-ons
 | *vous*       | **\-iez**   |
 | *ils/elles*  | **\-aient** |
 
-Let op! Bij *être* gebruik je de stam **ét-** (*j'étais*, *tu étais*, *c'était*
+Let op! Bij *être* gebruik je de stam **ét-** (*j'étais*, *tu étais*, *c'était*)
 
 Bij werkwoorden op *\-cer* krijg je een *ç* voor de *a*.
 *je commençais*

@@ -88,7 +88,7 @@ $F_\mathrm{z,x}=F_\mathrm{z}\cdot \sin(\alpha)$
 Als je $F_\mathrm{z,y}$ wil berekenen in de figuur van het blokje, kun je weer de hoeken gebruiken van de helling.  
 $F_\mathrm{z,y}=F_\mathrm{z}\cdot \cos(\alpha)$
 
-> Tip: leer niet deze formules voor deze specefieke situaties uit je hoofd, maar kijk of je een driehoek kan maken, welke je hoeken je dan hebt en pas vervolgens SOS-CAS-TOA toe.
+> Tip: leer niet deze formules voor deze specifieke situaties uit je hoofd, maar kijk of je een driehoek kan maken, welke je hoeken je dan hebt en pas vervolgens SOS-CAS-TOA toe.
 
 ## Ogen en lenzen
 

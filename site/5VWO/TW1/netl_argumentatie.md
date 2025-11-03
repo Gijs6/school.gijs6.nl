@@ -178,4 +178,4 @@ De auteur van een argumentatie kan ook **taalgebruik** inzetten om de lezer of l
 
 Sommige woorden hebben een **gevoelswaarde**: ze roepen gevoelens op, zoals *vloedgolf*, *verschrikkelijk* of *nachtmerrie*. Deze woorden kunnen ingezet worden om emoties op te roepen bij de lezer of luisteraar, waardoor de argumentatie overtuigender wordt.
 
-Tenslotte kunnen **stijlfiguren** zoals ironie, eufemisme en understatement gebruikt worden om de **toon** te beïnvloeden.
+Ten slotte kunnen **stijlfiguren** zoals ironie, eufemisme en understatement gebruikt worden om de **toon** te beïnvloeden.

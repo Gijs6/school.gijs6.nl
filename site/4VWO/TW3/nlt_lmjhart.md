@@ -26,7 +26,7 @@ Om het bloed rond te pompen, trekt de hartspier zich samen in een bepaalde volgo
 
 - Eerst trekken de boezems zich samen: **boezemsystole**; het bloed gaat naar de hartkamers toe. De hartkleppen zijn geopend en de halvemaanvormige kleppen zijn gesloten.
 - Vervolgens trekken de kamers zich samen: **kamersystole**; het bloed wordt de longslagader en de aorta in gepompt. De hartkleppen zijn gesloten en de halvemaanvormige kleppen zijn geopend.
-- Tenslotte ontspant het hart zich: **diastole**; alle kamers en boezems zijn ontspannen. De boezems vullen zich met bloed.
+- Ten slotte ontspant het hart zich: **diastole**; alle kamers en boezems zijn ontspannen. De boezems vullen zich met bloed.
 
 De bloedvaten vertakken zich steeds. Vanuit de aorta $\rightarrow$ een slagader $\rightarrow$ een slagadertje $\rightarrow$ haarvaten (waar de stofwisseling plaatsvindt) $\rightarrow$ een adertje $\rightarrow$ een ader $\rightarrow$ een holle ader. De druk in de slagaders is veel hoger dan in de aders.
 

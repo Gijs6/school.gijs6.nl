@@ -66,7 +66,7 @@ De precieze invloeden van ***nature*** (genoom) en ***nurture*** (milieu) op all
 
 Vroeger werden kinderen er bij adoptietweelingen van elkaar gescheiden voor onderzoek. Zo'n experiment mag tegenwoordig niet meer. In de **ethiek** zoeken mensen naar criteria voor correct handelen. Deze criteria zijn voor iedereen verschillend.
 
-Onderzoek naar het beïnvloeden van de genactivieit en het aansturen van allelen noem je **epigenetica**.  
+Onderzoek naar het beïnvloeden van de genactiviteit en het aansturen van allelen noem je **epigenetica**.  
 Methylgroepen kunnen zich aan het aan het DNA koppelen waardoor een gen kan worden gedeactiveerd: **methylering**.  
 Epigenetische aanpassingen kunnen erfelijk zijn. Ouders geven niet alleen hun DNA door, maar ook een **epigenetische code** die bepaalt hoe dat DNA wordt afgelezen. Hierdoor kunnen omgevingsfactoren en leefstijl invloed hebben op de eigenschappen van volgende generaties.
 

@@ -79,7 +79,7 @@ Stereotypen en vooroordelen kunnen leiden tot **discriminatie**: het ongelijk be
 
 Wij-zij-denken kan bijvoorbeeld **xenofobie** (angst en afkeer voor het vreemde) tot gevolge hebben. Maar het kan ook positief zijn: zo wordt de **sociale cohesie** binnen een groep groter.
 
-Als tegenstellingen tussen twee groepen burger sterken worden en zij steeds meer tegenover elkaar komen te staan, spreken we van **polarisatie**.
+Als tegenstellingen tussen twee groepen burgers sterker worden en zij steeds meer tegenover elkaar komen te staan, spreken we van **polarisatie**.
 
 ## Migratie
 

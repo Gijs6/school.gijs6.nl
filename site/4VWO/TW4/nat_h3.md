@@ -41,7 +41,7 @@ $$pV = c$$
 
 Hierin is $p$ de druk (in $\mathrm{Pa}$), $V$ het volume (in $\mathrm{m}^3$) en $c$ een constante afhankelijk van de temperatuur en hoeveelheid gas.
 
-De druk van een gas is alleen evenredig als de druk bij 0 kelvin ook 0 pascal is. Daarom gebruik je de eenheid kelvin, waarbij 0 kelvin het **absolute nulpunt** is (de laagst mogelijke temperatuur). Bij deze temperatuur zouden de deeltjes stils staan.
+De druk van een gas is alleen evenredig als de druk bij 0 kelvin ook 0 pascal is. Daarom gebruik je de eenheid kelvin, waarbij 0 kelvin het **absolute nulpunt** is (de laagst mogelijke temperatuur). Bij deze temperatuur zouden de deeltjes stil staan.
 
 $$T_\mathrm{celcius} = T_\mathrm{kelvin} - 273$$
 
@@ -60,7 +60,7 @@ Hierin is $p$ de druk (in $\mathrm{Pa}$), $V$ het volume (in $\mathrm{m}^3$), $n
 
 Bij druk wordt vaak de eenheid **bar** gebruikt: $1 \ \mathrm{bar} = 1 \cdot 10^5 \ \mathrm{Pa}$.
 
-Omdat de gasconstante constant is, kun je met de algemene gaswet ook veranderingen in druk, volume, temperatuur of checmische hoeveelheid berekenen. Je krijgt dan:
+Omdat de gasconstante constant is, kun je met de algemene gaswet ook veranderingen in druk, volume, temperatuur of chemische hoeveelheid berekenen. Je krijgt dan:
 
 $$\frac{p_1 V_1}{T_1 n_1}=\frac{p_2 V_2}{T_2 n_2}$$
 
