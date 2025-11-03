@@ -3,7 +3,6 @@ subject: NETL
 short: Argumentatie
 title: Argumentatie
 description: Drogredenen & aanvaardbaarheid
-hidden: true
 ---
 
 ## Standpunt en argument
@@ -141,3 +140,42 @@ Drogredenen zijn argumentatiefouten. Hierbij kun je onderscheid maken in het **v
 - **Cirkelredenering**  
   Het standpunt wordt ondersteund door zichzelf, maar dan anders geformuleerd. Als er geen andere argumenten worden genoemd, is er ook sprake van ontduiken van de bewijslast.  
   > *Ik ben hier de baas want ik heb het voor het zeggen.*
+
+## Aanvaardbaarheid
+
+De **aanvaardbaarheid** van een argumentatie geeft aan hoe overtuigend de argumentatie is. Om dit te beoordelen, stel je eerst een aantal vragen over de gehele argumentatie.
+
+1. Welke argumenten worden er gebruikt?
+2. Zijn het feitelijke of waarderende argumenten?
+3. Hoe worden de argumenten ondersteund?
+4. Zijn de argumenten geen drogredenen?
+5. Worden er tegenargumenten genoemd?
+6. Worden de tegenargumenten (voldoende) weerlegd?
+
+Daarnaast moeten de argumenten ook aan deze 4 **eisen** voldoen.
+
+1. **De argumenten zijn op zichzelf aanvaardbaar**  
+  Een waarderend argument is aanvaardbaar als het overeenstemt met de kennis en opvattingen van het publiek.  
+
+  Een feitelijk argument is aanvaardbaar als het voldoet aan de volgende eisen:
+
+  1. Het argument is in overeenstemming met de kennis van de wereld bij het publiek
+  2. Het argument is controleerbaar en blijkt waar te zijn
+  3. Het argument is afkomstig uit een betrouwbare bron (deskundig, onafhankelijk en niet tegensprekend)
+
+2. **De argumenten zijn relevant**  
+  Argumenten zijn relevant als ze het standpunt aannemelijker maken.
+
+3. **De argumenten zijn onderling consistent**  
+  De argumenten spreken elkaar niet tegen.
+
+4. **De argumenten zijn samen toereikend voor het standpunt**  
+  De argumentatie is toereikend als de argumenten samen voldoende zijn om het standpunt aanvaardbaar te maken.
+
+## Taalgebruik in een argumentatie
+
+De auteur van een argumentatie kan ook **taalgebruik** inzetten om de lezer of luisteraar te overtuigen. Zo kan een auteur deskundig proberen over te komen door veel moeilijke woorden te gebruiken. Of hij kan door informeel taalgebruik juist sympathiek overkomen.
+
+Sommige woorden hebben een **gevoelswaarde**: ze roepen gevoelens op, zoals *vloedgolf*, *verschrikkelijk* of *nachtmerrie*. Deze woorden kunnen ingezet worden om emoties op te roepen bij de lezer of luisteraar, waardoor de argumentatie overtuigender wordt.
+
+Tenslotte kunnen **stijlfiguren** zoals ironie, eufemisme en understatement gebruikt worden om de **toon** te beïnvloeden.
