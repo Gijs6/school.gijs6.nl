@@ -109,6 +109,54 @@ Het faseverschil tussen 2 punten bij een lopende golf is constant. Er geldt:
 $$\Delta \phi = \frac{\Delta x}{\lambda}$$
 Hierin is $\Delta \phi$ het faseverschil, $\Delta x$ het afstandsverschil tussen de punten (in $\mathrm{m}$) en $\lambda$ de golflengte (in $\mathrm{m}$).
 
+## Staande golven
+
+Een **staande golf** ontstaat door interferentie van twee lopende golven met dezelfde frequentie, golflengte en amplitude die in tegengestelde richting bewegen.
+
+![Een staande golf met subgolven (img-xl)](images/nat_h7_staande_golf_subgolven.gif)
+
+In de animatie zie je 2 lopende golven die met elkaar intefereren. Op sommige punten versterken de golven elkaar maximaal (daar komen dan twee pieken of twee dalen samen). Deze punten noem je **buiken**. Op andere punten doven de golven elkaar juist volledig uit. Deze punten noem je **knopen**.
+
+Een staande golf staat dus stil.
+
+![Een staande golf](images/nat_h7_staande_golf.gif)
+
+## Staande golven in buizen
+
+Blaasinstrumenten werken met staande golven in een buis. In de buis zit een **luchtkolom** die gaat trillen door een geluidsbron (bijvoorbeeld je adem bij een fluit). De luchtkolom resoneert alleen bij frequenties die passen bij de lengte van de buis. Als de golflengte niet klopt, versterken de heen- en weergaande golven elkaar niet, en ontstaat er geen staande golf.
+
+Bij een **open buis** (beide uiteinden open) ontstaan aan de uiteinden altijd buiken, omdat de lucht daar vrij kan bewegen. De eenvoudigste staande golf is de **grondtoon**: dan ontstaat in het midden van de buis een knoop. Er past dan precies een halve golf in de buis (van buik naar buik), want tussen een buik en een knoop zit altijd $\frac{1}{4}\lambda$ (want tussen 2 toppen zit 1 golflengte). Bij de eerste boventoon is de golflengte dus ook gelijk aan de lengte van de buis.
+
+![Grondtoon en boventonen in een open buis (img-padding)](images/nat_h7_open_buis.png)
+
+Naast de grondtoon kunnen er ook **boventonen** ontstaan. Bij de eerste boventoon past er precies 1 golf in de buis (met 2 knopen). Bij de tweede boventoon passen er 1,5 golven in de buis (met 3 knopen), enzovoort. Bij elke boventoon komt er een knoop en een buik bij.
+
+Voor een open buis geldt:
+$$l = n \cdot \frac{1}{2}\lambda$$
+Hierin is $l$ de lengte van de buis (in $\mathrm{m}$), $n$ een geheel getal (waarbij $n=1$ voor de grondtoon, $n=2$ voor de eerste boventoon etc) en $\lambda$ de golflengte (in $\mathrm{m}$).
+
+De verhoudingen tussen de golflengtes dan dus zijn:
+$$\lambda_0 : \lambda_1 : \lambda_2 : \lambda_3 = \frac{1}{2} : \frac{2}{2} : \frac{3}{2} : \frac{4}{2}$$
+
+De frequentie hangt samen met de golflengte ($f = \frac{v}{\lambda}$). Als de golflengte kleiner wordt, wordt de frequentie dus groter. De verhoudingen tussen de frequenties zijn daarom omgekeerd aan de verhoudingen tussen de golflengtes:
+$$f_0 : f_1 : f_2 : f_3 = 1 : 2 : 3 : 4$$
+De boventonen hebben dus steeds een frequentie die 2x, 3x, 4x, enzovoort zo hoog is als de grondtoon.
+
+Bij een **eenzijdig gesloten buis** onstaat bij de gesloten kant altijd een knoop (de lucht kan daar niet bewegen), en bij de open kant ontstaat altijd een buik. Bij de grondtoon past er dan een kwart golf in de buis. De golflengte van de grondtoon is dus 4 keer zo groot als de lengte van de buis.
+
+![Grondtoon en boventonen in een eenzijdig gesloten buis (img-padding)](images/nat_h7_gesloten_buis.png)
+
+Voor een eenzijdig gesloten buis geldt:
+$$l = (2n - 1) \cdot \frac{1}{4}\lambda$$
+Hierin is $l$ de lengte van de buis (in $\mathrm{m}$), $n$ een geheel getal (waarbij $n=1$ voor de grondtoon, $n=2$ voor de eerste boventoon etc) en $\lambda$ de golflengte (in $\mathrm{m}$).
+
+Uit de formule volgt de verhouding tussen de golflengtes:
+$$\lambda_0 : \lambda_1 : \lambda_2 : \lambda_3 = \frac{1}{4} : \frac{3}{4} : \frac{5}{4} : \frac{7}{4}$$
+
+De frequentie is omgekeerd evenredig met de golflengte ($f = \frac{v}{\lambda}$), dus hieruit volgt:
+$$f_0 : f_1 : f_2 : f_3 = 1 : 3 : 5 : 7$$
+De frequentie van de eerste boventoon is dus 3x de frequentie van de grondtoon.
+
 <!--
 Todo 
 
