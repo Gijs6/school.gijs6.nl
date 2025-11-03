@@ -95,6 +95,10 @@ blockquote {
     border-left: 0.25em solid light-dark(var(--oc-gray-4), var(--oc-gray-6));
 }
 
+ul, ol {
+    padding-inline-start: 1em;
+}
+
 img {
     width: 50%;
 
