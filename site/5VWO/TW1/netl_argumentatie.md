@@ -97,7 +97,7 @@ Drogredenen zijn argumentatiefouten. Hierbij kun je onderscheid maken in het **v
 
 - **Onjuist beroep op het kenmerk- of eigenschapschema**  
   Er wordt aan 1 kenmerk of eigenschap betekenis gegeven, terwijl andere kenmerken of eigenschappen worden genegeerd.  
-  > *Hij heeft 5 huizen in Wassenaar, hij zal dus wel VVD stemmen.*
+  > *Hij heeft 5 huizen in Wassenaar en hij heeft geen idee wat er speelt in de wereld, hij zal dus wel VVD stemmen.*
 
 - **Onjuist beroep op het voor- en nadelenschema**  
   Hierbij zijn er 2 vormen:  
