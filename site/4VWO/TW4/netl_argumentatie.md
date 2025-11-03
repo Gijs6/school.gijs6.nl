@@ -1,8 +1,8 @@
 ---
 subject: NETL
-short: Lezen
-title: Leestoets
-description: Argumenten
+short: Argumentatie
+title: Argumentatie
+description: Argumentatiestructuren & argumentatieschema's
 ---
 
 ## Standpunt en argument
