@@ -8,7 +8,7 @@ hidden: true
 
 ## Standpunt en argument
 
-De essentie van een overtuigende tekst is het **standpunt**. Dit is een mening, gedachte, visie of idee die de auteur wil overbrengen. Een standpunt kun je herkennen aan signaalwoorden als *volgens mij*, *daarom*, *dus* etc.  
+De essentie van een overtuigende tekst is het **standpunt**. Dit is een mening, gedachte, visie of idee die de auteur wil overbrengen. Een standpunt kun je herkennen aan signaalwoorden als *volgens mij*, *daarom*, *dus* enz.  
 Een standpunt staat niet altijd expliciet in de tekst.
 
 > *Het is niet te rechtvaardigen dat leerlingen zo veel naar school moeten*  
@@ -39,15 +39,15 @@ Argumenten kunnen op verschillende manieren het standpunt ondersteunen. Zo'n **a
   ![Enkelvoudige argumentatie (img-m) (img-padding)](images/netl_argstruct_enkv.jpg)
 
 - **Onderschikkende argumentatie**  
-  Het argument wordt zelf ondersteund door ten minste 1 **subargument**.  
+  Een argument wordt ondersteund door ten minste 1 **subargument**.  
   ![Onderschikkende argumentatie (img-m) (img-padding)](images/netl_argstruct_onder.jpg)
 
 - **Nevenschikkende argumentatie met onafhankelijke argumenten**  
-  Het standpunt wordt ondersteund door meerdere argumenten die **los van elkaar te gebruiken zijn**.  
+  Er zijn meerdere argumenten die **los van elkaar te gebruiken zijn**.  
   ![Nevenschikkende argumentatie met onafhankelijke argumenten (img-m) (img-padding)](images/netl_argstruct_neven_onaf.jpg)
 
 - **Nevenschikkende argumentatie met afhankelijke argumenten**  
-  Het standpunt wordt ondersteund door meerdere argumenten die **niet los van elkaar te gebruiken zijn**. De argumenten werken alleen in combinatie met elkaar.  
+  Er zijn meerdere argumenten die **niet los van elkaar te gebruiken zijn**. De argumenten werken alleen in combinatie met elkaar.  
   ![Nevenschikkende argumentatie met afhankelijke argumenten (img-m) (img-padding)](images/netl_argstruct_neven_afhan.jpg)
 
 Je kunt ook een combinatie hebben van deze argumentatiestructuren, zoals een **onder- en nevenschikkende argumentatie**, dus met meerdere argumenten en met (een) subargument(en).
@@ -65,7 +65,7 @@ Een **argumentatieschema** geeft het verband aan tussen een standpunt en het arg
   > *Studenten zijn vaak creatief en flexibel, daarom zijn ze geschikt voor banen in de creatieve sector.*
 
 - **Argumentatie op basis van oorzaak en gevolg**  
-  Een feit of gebeurtenis zal leiden tot een ander feit of een andere gebeurtenis.  
+  Er wordt beweerd dat een feit of gebeurtenis zal leiden tot een ander feit of een andere gebeurtenis.  
   > *Als we meer bomen kappen, neemt de luchtvervuiling toe.*
 
 - **Argumentatie op basis van vergelijking**  
@@ -73,7 +73,7 @@ Een **argumentatieschema** geeft het verband aan tussen een standpunt en het arg
   > *In Nederland is het rookverbod in cafés succesvol, daarom zal een rookverbod op terrassen ook goed werken.*
 
 - **Argumentatie op basis van voor- en nadelen**  
-  De voordelen worden afgezet tegen de nadelen, waarna er een oordeel wordt gegeven.  
+  Er worden voordelen afgezet tegen nadelen, waarna er een oordeel wordt gegeven.  
   > *Elektrisch autorijden vermindert de uitstoot van broeikasgassen en geluidsoverlast, maar de batterijen zijn milieubelastend om te produceren. Omdat batterijen maar één keer geproduceerd hoeven te worden, is het wel voordelig om over te stappen op elektrische auto's.*
 
 - **Argumentatie op basis van voorbeelden**  
@@ -82,41 +82,62 @@ Een **argumentatieschema** geeft het verband aan tussen een standpunt en het arg
 
 ## Drogredenen
 
-Drogredenen zijn argumentatiefouten. Hierbij kun je onderscheid maken in het **verkeerd gebruik van een argumentatiecshema** en het **overtreden van een discussieregel**.
+Drogredenen zijn argumentatiefouten. Hierbij kun je onderscheid maken in het **verkeerd gebruik van een argumentatieschema** en het **overtreden van een discussieregel**.
 
 - **Onjuist beroep op het oorzaak-gevolgschema**  
   Hierbij kan er sprake zijn van 3 verschillende varianten:
 
-  - De genoemde oorzaak is niet voldoende om tot het genoemde gevolg te leiden  
-    > *VOORBEELD*
-  
-  - Het genoemde gevolg kan ook nog andere oorzaken hebben die niet worden genoemd  
-    > *VOORBEELD*
-  
-  - Er is helemaal geen relatie tussen de genoemde oorzaak en het genoemde gevolg  
-    > *VOORBEELD*
+  - Er wordt een oorzaak genoemd die niet voldoende is om tot het genoemde gevolg te leiden  
+    > *We moeten de belastingen verlagen, want dan gaat de economie groeien.*
+
+  - Er wordt een gevolg genoemd dat ook nog andere oorzaken kan hebben die niet worden genoemd  
+    > *De jeugdcriminaliteit is toegenomen sinds computergames populairder zijn geworden, dus computergames leiden tot criminaliteit.*
+
+  - Er wordt een relatie gesuggereerd tussen een oorzaak en een gevolg die er helemaal niet is  
+    > *Sinds we een nieuwe burgemeester hebben, regent het veel meer. We moeten een andere burgemeester kiezen.*
 
 - **Onjuist beroep op het kenmerk- of eigenschapschema**  
   Er wordt aan 1 kenmerk of eigenschap betekenis gegeven, terwijl andere kenmerken of eigenschappen worden genegeerd.  
   > *Hij heeft 5 huizen in Wassenaar, hij zal dus wel VVD stemmen.*
 
 - **Onjuist beroep op het voor- en nadelenschema**  
-  Hierbij zijn er 2 vormen
+  Hierbij zijn er 2 vormen:  
 
-  - Voordelen of nadelen worden overdreven  
-    > *VOORBEELD*
-  
-  - Vals dilemma: er wordt gesuggereed dat er maar 2 (elkaar uitsluitende) mogelijkheden zijn, terwijl er veel meer mogelijkheden zijn.  
-    Let op! Het vals dillema is hierbij het standpunt  
-    > *VOORBEELD*
+  - Er worden voordelen of nadelen overdreven  
+    > *Als we een avondklok invoeren, zal alle jeugdcriminaliteit verdwijnen.*
+
+  - Vals dilemma: er wordt gesuggereerd dat er maar 2 (elkaar uitsluitende) mogelijkheden zijn, terwijl er veel meer mogelijkheden zijn.  
+    Let op! Het vals dilemma is hierbij het standpunt.  
+    > *Het kabinet moet nu echt een keuze maken: of ze zijn voor vrijheid van meningsuiting, of ze zijn voor censuur.*
 
 - **Onjuist beroep op het voorbeeldschema**: **overhaaste generalisatie**  
-  Op basis van 1 of enkele gevallen wordt een conclusie getrokken voor veel of zelfs alle gevallen.  
-  > *Je hoort altijd dat er zo veel berovingen zijn in Rotterdam, maar ik ben er eens een weekend geweest, en toen heb ik geen berovingen gezien.*
+  Er wordt op basis van 1 of enkele gevallen een conclusie getrokken voor veel of zelfs alle gevallen.  
+  > *Je hoort altijd dat er zo veel berovingen zijn in Rotterdam, maar ik ben er eens een weekend geweest, en toen heb ik geen berovingen gezien. Het valt dus wel mee met die berovingen in Rotterdam.*
 
-- **Onjuist beroep op het vergelijkingsschema**: **verkeerde vegelijking**  
+- **Onjuist beroep op het vergelijkingsschema**: **verkeerde vergelijking**  
   Er worden 2 zaken met elkaar vergeleken die eigenlijk niet vergelijkbaar zijn. Meestal wordt er een overeenkomst gesuggereerd.  
-  > *VOORBEELD*
+  > *Net zoals we ons huis 's nachts op slot doen, moeten we ook onze landsgrenzen sluiten.*
 
+- **Onjuist beroep op het autoriteitsschema**  
+  Er wordt dan vaak een autoriteit gebruikt die niet deskundig (genoeg) is of die zelf een belang heeft.  
+  > *Volgens Dick Schoof is dit het beste huidverzorgingsproduct op de markt, dus het zal wel werken.*
 
+- **Persoonlijke aanval**  
+  Er wordt niet ingegaan op de argumenten, maar de tegenstander wordt beschuldigd van onkunde, onbetrouwbaarheid of andere slechte eigenschappen. De persoon wordt dus aangevallen, in plaats van zijn standpunt.  
+  > *Je kunt toch niet serieus luisteren naar zijn ideeën over het onderwijs? Hij heeft zelf niet eens gestudeerd.*
 
+- **Ontduiken van de bewijslast**  
+  Het standpunt wordt niet bewezen, maar de tegenpartij wordt "uitgedaagd" om bewijs te leveren voor het tegendeel.  
+  > *Geef mij eens 1 goede reden waarom ik niet op mijn telefoon zou mogen op de fiets.*
+
+- **Vertekenen van het standpunt**  
+  Het standpunt of argument van de tegenstander wordt onjuist weergegeven. Er wordt een standpunt in zijn mond gelegd dat hij niet heeft ingenomen.  
+  > *Jij wil vluchtelingen menselijker opvangen? Dan kunnen we net zo goed direct alle grenzen opengooien voor de hele wereldbevolking!*
+
+- **Bespelen van het publiek**  
+  Het standpunt wordt zo geformuleerd dat het moeilijker wordt om er tegenin te gaan. Hierdoor worden afwijkende meningen 'onderdrukt'.  
+  > *Iedereen die een beetje verstandig zijn hersenen kan gebruiken ziet direct dat dit complete onzin is.*
+
+- **Cirkelredenering**  
+  Het standpunt wordt ondersteund door zichzelf, maar dan anders geformuleerd. Als er geen andere argumenten worden genoemd, is er ook sprake van ontduiken van de bewijslast.  
+  > *Ik ben hier de baas want ik heb het voor het zeggen.*

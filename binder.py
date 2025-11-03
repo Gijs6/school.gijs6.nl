@@ -487,6 +487,7 @@ def setup_markdown_processor():
         extension_configs={
             "codehilite": {"css_class": "highlight", "use_pygments": False},
         },
+        tab_length=2,
     )
 
 
