@@ -207,8 +207,8 @@ def process_modern_year(year_dir, resources_map, dev=False):
             if not front_matter.get("subject"):
                 continue
 
-            # Skip if hide/hidden (unless in dev mode)
-            if not dev and (front_matter.get("hide") or front_matter.get("hidden")):
+            # Skip if hidden (unless in dev mode)
+            if not dev and front_matter.get("hidden"):
                 continue
 
             entry = create_test_entry(
@@ -542,8 +542,8 @@ def process_markdown_file(
     with open(build_path, "w", encoding="utf-8") as f:
         f.write(rendered)
 
-    # Mark as hidden if hide/hidden flag is set (for feed exclusion)
-    is_hidden = front_matter.get("hide") or front_matter.get("hidden")
+    # Mark as hidden if hidden flag is set (for feed exclusion)
+    is_hidden = front_matter.get("hidden")
 
     return relative_path, html_content, is_hidden
 
