@@ -11,7 +11,7 @@ build() {
 deploy() {
   build
   npx prettier --write --ignore-path /dev/null "build/**/*.{css,js,xml,html}"
-  lift deploy
+  lift deploy && echo "Deployed successfully to https://$(yq .name Liftfile)"
 }
 
 format() {
