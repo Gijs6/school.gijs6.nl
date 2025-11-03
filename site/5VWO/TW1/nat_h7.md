@@ -3,7 +3,6 @@ subject: NAT
 short: H7
 title: Hoofdstuk 7
 description: Trillingen & golven
-hidden: true
 ---
 
 ## Geluid
