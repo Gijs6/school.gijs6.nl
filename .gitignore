@@ -1,9 +1,6 @@
 build
-
 dev
 
 .venv
 __pycache__
-.idea
 .vscode
-.obsidian
