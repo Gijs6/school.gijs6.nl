@@ -123,7 +123,6 @@ def build_archive_data():
     archive_data = {}
 
     for year in get_vwo_years():
-        # Only process archive years (2VWO, 3VWO)
         if not ARCHIVE_YEAR_PATTERN.match(year):
             continue
 
@@ -203,11 +202,9 @@ def process_modern_year(year_dir, resources_map, dev=False):
 
             front_matter, _ = parse_front_matter(content)
 
-            # Skip if no subject
             if not front_matter.get("subject"):
                 continue
 
-            # Skip if hidden (unless in dev mode)
             if not dev and front_matter.get("hidden"):
                 continue
 
@@ -228,14 +225,11 @@ def build_homepage_data(dev=False):
         if not os.path.isdir(year_path):
             continue
 
-        # Archive years (2VWO, 3VWO) - skip, handled by build_archive_data()
         if ARCHIVE_YEAR_PATTERN.match(year_dir):
             continue
 
-        # Modern years (4VWO, 5VWO, 6VWO) - use front matter
         data[year_dir] = process_modern_year(year_dir, resources_map, dev)
 
-    # Sort and filter data
     sorted_data = {}
     for year in sorted(data.keys(), key=sort_years):
         year_data = {}
@@ -243,14 +237,12 @@ def build_homepage_data(dev=False):
         for period in sorted(data[year].keys(), key=sort_period, reverse=True):
             tests = data[year][period]
 
-            # Only include periods with content
             has_content = any(
                 t.get("summary_link") or t.get("resources") for t in tests
             )
             if not has_content:
                 continue
 
-            # Filter and sort tests
             filtered_tests = [
                 t for t in tests if t.get("summary_link") or t.get("resources")
             ]
@@ -273,13 +265,11 @@ def copy_if_exists(src, dest):
 
 
 def copy_static_assets(build_dir):
-    # Copy standard directories and files
     copy_if_exists("site/assets", os.path.join(build_dir, "assets"))
     copy_if_exists("site/.well-known", os.path.join(build_dir, ".well-known"))
     copy_if_exists("site/robots.txt", os.path.join(build_dir, "robots.txt"))
     copy_if_exists("CNAME", os.path.join(build_dir, "CNAME"))
 
-    # Copy non-markdown files from VWO year directories
     for year_dir in get_vwo_years():
         year_path = os.path.join(SITE_DIR, year_dir)
         if not os.path.isdir(year_path):
@@ -338,7 +328,6 @@ def setup_feed_generator():
 def create_feed_entry_list(test):
     entries = []
 
-    # Add summary link if exists
     if test.get("summary_link"):
         entries.append(
             {
@@ -347,7 +336,6 @@ def create_feed_entry_list(test):
             }
         )
 
-    # Add resource links
     for resource in test.get("resources", []):
         entries.append(
             {
@@ -375,7 +363,6 @@ def generate_feeds(build_dir, homepage_data, md_cache):
                     if not link:
                         continue
 
-                    # Get markdown file path if it's an internal link
                     is_internal = entry.get("internal", False) or link.startswith("/")
                     md_file_path = get_md_file_path(link) if is_internal else None
                     if not md_file_path:
@@ -434,6 +421,10 @@ class MathProtectPreprocessor(Preprocessor):
         self.math_store = {}
         self.counter = 0
 
+    def reset(self):
+        self.math_store.clear()
+        self.counter = 0
+
     def run(self, lines):
         text = "\n".join(lines)
 
@@ -461,8 +452,8 @@ class MathProtectPostprocessor(Postprocessor):
         self.math_store = math_store
 
     def run(self, text):
-        for key, value in self.math_store.items():
-            text = text.replace(key, value)
+        for key in sorted(self.math_store.keys(), key=len, reverse=True):
+            text = text.replace(key, self.math_store[key])
         return text
 
 
@@ -492,7 +483,6 @@ def setup_markdown_processor():
 
 
 def render_special_pages(build_dir, template_env, homepage_data, archive_data):
-    # index.html
     with open(os.path.join(build_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(
             template_env.get_template("home.html").render(
@@ -503,7 +493,6 @@ def render_special_pages(build_dir, template_env, homepage_data, archive_data):
             )
         )
 
-    # 404.html
     with open(os.path.join(build_dir, "404.html"), "w", encoding="utf-8") as f:
         f.write(template_env.get_template("404.html").render())
 
@@ -516,34 +505,28 @@ def process_markdown_file(
         build_year_dir, os.path.splitext(relative_path)[0] + ".html"
     )
 
-    # Read and parse markdown
     with open(md_file_path, "r", encoding="utf-8") as f:
         content = f.read()
 
     front_matter, markdown_content = parse_front_matter(content)
 
-    # Add full subject name to front matter
     if front_matter.get("subject"):
         subject_abbr = front_matter["subject"].upper()
         front_matter["subject_name"] = SUBJECT_NAMES.get(subject_abbr, subject_abbr)
 
-    # Convert to HTML
     html_content = remove_base64_images(md_processor.convert(markdown_content))
     md_processor.reset()
 
-    # Render template
     rendered = template_env.get_template("summary.html").render(
         content=html_content,
         page=front_matter,
         page_path=md_file_path,
     )
 
-    # Write output
     os.makedirs(os.path.dirname(build_path), exist_ok=True)
     with open(build_path, "w", encoding="utf-8") as f:
         f.write(rendered)
 
-    # Mark as hidden if hidden flag is set (for feed exclusion)
     is_hidden = front_matter.get("hidden")
 
     return relative_path, html_content, is_hidden
@@ -554,10 +537,8 @@ def process_markdown_files(build_dir, template_env, md_processor, dev=False):
     archive_data = build_archive_data()
     md_cache = {}
 
-    # Render special pages
     render_special_pages(build_dir, template_env, homepage_data, archive_data)
 
-    # Process markdown files for each VWO year
     for year_dir in get_vwo_years():
         year_path = os.path.join(SITE_DIR, year_dir)
         if not os.path.isdir(year_path):
@@ -575,7 +556,6 @@ def process_markdown_files(build_dir, template_env, md_processor, dev=False):
                     md_file_path, year_path, build_year_dir, md_processor, template_env
                 )
 
-                # Cache HTML content for feed generation (unless hidden)
                 if not is_hidden:
                     cache_key = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
                     md_cache[cache_key] = html_content
@@ -618,7 +598,6 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
     def do_GET(self):
         path = self.translate_path(self.path)
 
-        # root or directory request -> try index.html
         if self.path.endswith("/") or self.path == "":
             index_path = os.path.join(path, "index.html")
             if os.path.isfile(index_path):
@@ -629,18 +608,15 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
                 )
                 return super().do_GET()
 
-        # direct file
         if os.path.isfile(path):
             return super().do_GET()
 
-        # try with ".html" extension
         if not self.path.endswith("/") and "." not in os.path.basename(self.path):
             html_path = path + ".html"
             if os.path.isfile(html_path):
                 self.path += ".html"
                 return super().do_GET()
 
-        # serve 404.html if nothing matches
         not_found_path = os.path.join(self.directory, "404.html")
         if os.path.isfile(not_found_path):
             self.send_response(404)
@@ -650,7 +626,6 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
                 self.wfile.write(f.read())
             return
 
-        # fallback: plain 404 if 404.html missing
         self.send_error(404, "File not found")
 
 
@@ -664,39 +639,32 @@ def build(dev=False):
             f"{Fore.YELLOW}Development mode enabled (including hidden pages){Style.RESET_ALL}"
         )
 
-    # Setup temporary build directory
     print("> Setup... ", end="", flush=True)
     temp_build_dir = tempfile.mkdtemp()
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
-    # Initialize template environment
     print("> Templates... ", end="", flush=True)
     template_env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
-    # Initialize markdown processor
     print("> Markdown... ", end="", flush=True)
     md_processor = setup_markdown_processor()
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
-    # Copy static assets
     print("> Assets... ", end="", flush=True)
     copy_static_assets(temp_build_dir)
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
-    # Process markdown files
     print("> Pages... ", end="", flush=True)
     homepage_data, md_cache = process_markdown_files(
         temp_build_dir, template_env, md_processor, dev
     )
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
-    # Generate RSS and Atom feeds
     print("> Feeds... ", end="", flush=True)
     generate_feeds(temp_build_dir, homepage_data, md_cache)
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
-    # Move to final build directory
     print("> Output... ", end="", flush=True)
     if os.path.exists(BUILD_DIR):
         shutil.rmtree(BUILD_DIR)
@@ -709,17 +677,14 @@ def build(dev=False):
 def serve(port=8000, dev=False):
     print(f"{Fore.BLUE}Server{Style.RESET_ALL}\n")
 
-    # Initial build
     build(dev)
 
-    # Setup file watcher
     observer = Observer()
     handler = BuildHandler(lambda: build(dev))
     observer.schedule(handler, SITE_DIR, recursive=True)
     observer.schedule(handler, ".", recursive=False)
     observer.start()
 
-    # Start HTTP server
     server = HTTPServer(("localhost", port), BuildHTTPServer)
     threading.Thread(target=server.serve_forever, daemon=True).start()
 
