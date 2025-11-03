@@ -136,10 +136,9 @@ Voor een open buis geldt:
 $$l = n \cdot \frac{1}{2}\lambda$$
 Hierin is $l$ de lengte van de buis (in $\mathrm{m}$), $n$ een geheel getal (waarbij $n=1$ voor de grondtoon, $n=2$ voor de eerste boventoon etc) en $\lambda$ de golflengte (in $\mathrm{m}$).
 
-De verhoudingen tussen de golflengtes zijn dan dus:
-$$\lambda_0 : \lambda_1 : \lambda_2 : \lambda_3 = \frac{1}{2} : \frac{2}{2} : \frac{3}{2} : \frac{4}{2}$$
+Bij elke boventoon komt er een halve golflengte bij in de buis. Bij de grondtoon past er $\frac{1}{2}\lambda$ in de buis, bij de eerste boventoon past er $1\lambda$ in de buis (dus twee keer zoveel), bij de tweede boventoon $1\frac{1}{2}\lambda$ (drie keer zoveel), enzovoort. Omdat er steeds meer golf in dezelfde buis past, wordt de golflengte steeds korter.
 
-De frequentie hangt samen met de golflengte ($f = \frac{v}{\lambda}$). Als de golflengte kleiner wordt, wordt de frequentie dus groter. De verhoudingen tussen de frequenties zijn daarom omgekeerd aan de verhoudingen tussen de golflengtes:
+De frequentie hangt samen met de golflengte: $f = \frac{v}{\lambda}$. Als de golflengte korter wordt, wordt de frequentie dus hoger. De frequenties hebben daarom de volgende verhoudingen:
 $$f_0 : f_1 : f_2 : f_3 = 1 : 2 : 3 : 4$$
 De boventonen hebben dus steeds een frequentie die 2x, 3x, 4x, enzovoort zo hoog is als de grondtoon.
 
@@ -151,18 +150,30 @@ Voor een eenzijdig gesloten buis geldt:
 $$l = (2n - 1) \cdot \frac{1}{4}\lambda$$
 Hierin is $l$ de lengte van de buis (in $\mathrm{m}$), $n$ een geheel getal (waarbij $n=1$ voor de grondtoon, $n=2$ voor de eerste boventoon etc) en $\lambda$ de golflengte (in $\mathrm{m}$).
 
-Uit de formule volgt de verhouding tussen de golflengtes:
-$$\lambda_0 : \lambda_1 : \lambda_2 : \lambda_3 = \frac{1}{4} : \frac{3}{4} : \frac{5}{4} : \frac{7}{4}$$
+Bij een gesloten buis kunnen alleen bepaalde boventonen ontstaan, omdat er aan de gesloten kant altijd een knoop moet zitten en aan de open kant altijd een buik. Bij de grondtoon past er $\frac{1}{4}\lambda$ in de buis, bij de eerste boventoon $\frac{3}{4}\lambda$ (drie keer zoveel), bij de tweede boventoon $\frac{5}{4}\lambda$ (vijf keer zoveel), enzovoort. Je ziet dat alleen de oneven veelvouden mogelijk zijn.
 
-De frequentie is omgekeerd evenredig met de golflengte ($f = \frac{v}{\lambda}$), dus hieruit volgt:
+De frequentie hangt samen met de golflengte: $f = \frac{v}{\lambda}$. Omdat de golflengte steeds korter wordt, wordt de frequentie hoger. De frequenties hebben daarom de volgende verhoudingen:
 $$f_0 : f_1 : f_2 : f_3 = 1 : 3 : 5 : 7$$
-De frequentie van de eerste boventoon is dus 3x de frequentie van de grondtoon.
+De frequentie van de eerste boventoon is dus 3x de frequentie van de grondtoon, de tweede boventoon 5x, enzovoort.
 
-<!--
-Todo 
+## Interferentie
 
-Inteferentie, buiklijnen/knooplijnen
-Staande golven
-Check taal + gewoon inhoudelijk alles kloppend
-Hier en daar miss wat herschrijven
--->
+Volgens het **superpositiebeginsel** mag je 2 golven die elkaar kruisen op dat punt optellen.
+
+Als je twee **coherente** puntbronnen naast elkaar zet, kunnen de golven van beide bronnen met elkaar interfereren. Coherente bronnen hebben dezelfde frequentie en een constant faseverschil. De golven van beide bronnen overlappen dan met elkaar, en op elk punt in de ruimte tellen de uitwijkingen van beide golven zich op.
+
+Op sommige plekken komen twee toppen tegelijk aan, of twee dalen tegelijk. Dan versterken de golven elkaar maximaal, en ontstaat er een extra hoge top of een extra diep dal. Op andere plekken komt een top van de ene bron tegelijk aan met een dal van de andere bron. Dan doven de golven elkaar juist (gedeeltelijk) uit.
+
+Door dit verschijnsel ontstaat een **interferentiepatroon**. Daarin kun je lijnen met extra hoge pieken en dalen zien (de **buiklijnen**) en lijnen waar de bronnen elkaar (gedeeltelijk) uitdoven (de **knooplijnen**). Op de buiklijnen zijn de golven uit beide bronnen dus in fase (het faseverschil is 0), en op de knooplijnen in tegenfase (het faseverschil is $\frac{1}{2}$).
+
+![Interferentiepatronen (img-xl)](images/nat_h7_interferentie.png)
+
+Om te bepalen of een punt op een buiklijn of knooplijn ligt, moet je kijken naar het **weglengteverschil**. Het weglengteverschil in een punt is het verschil tussen de afstand van bron A tot het punt en de afstand van bron B tot het punt.
+
+Als het weglengteverschil een geheel aantal keer de golflengte is (dus $0\lambda$, $1\lambda$, $2\lambda$, ...), ligt het punt op een buiklijn. Dat komt omdat de golven dan in fase aankomen: als de ene golf precies 1 golflengte (of 2, of 3, enzovoort) meer heeft afgelegd dan de andere golf, zijn beide golven toch op hetzelfde punt in hun trilling. Ze hebben allebei precies een geheel aantal trillingen gemaakt, dus ze komen tegelijk aan met een top (of tegelijk met een dal).
+
+Als het weglengteverschil een halve golflengte is (of een meervoud daarvan, dus $\frac{1}{2}\lambda$, $1\frac{1}{2}\lambda$, $2\frac{1}{2}\lambda$, ...), ligt het punt op een knooplijn. De golven komen dan in tegenfase aan: de ene golf heeft een halve trilling meer gemaakt dan de andere. Als de ene golf aankomt met een top, komt de andere golf dus aan met een dal, en ze doven elkaar uit.
+
+Als je de bronnen dichter naar elkaar toe brengt, worden de weglengteverschillen naar punten in de ruimte kleiner. Hierdoor zullen de buik- en knooplijnen divergeren (verder uit elkaar gaan). Als je de bronnen juist uit elkaar beweegt, convergeren de buik- en knooplijnen (ze gaan dichter bij elkaar staan).
+
+Op knooplijnen is de amplitude echter niet helemaal nul. Dat kan alleen als de amplitude van beide golven op dat punt precies even groot is, en dat kan alleen als de golven precies dezelfde afstand hebben afgelegd (want de amplitude neemt geleidelijk af naarmate de golf zich voortplant).
