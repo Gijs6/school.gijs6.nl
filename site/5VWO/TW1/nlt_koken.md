@@ -20,7 +20,8 @@ Er zijn 5 belangrijke (soorten) voedingsstoffen: water, mineralen, koolhydraten,
 
 ![Een disacharide (img-s) (img-float-right) (img-clear-both)](images/nlt_koken/disacharide.png)
 
-**Disachariden** (dubbele suikers) (Binas 67F2) bestaan uit twee monosachariden die aan elkaar zijn gekoppeld. Hierbij wordt water afgesplitst. De reactie van disacharide naar monosacharide is een **hydrolyse**. Voorbeelden van disachariden zijn sacharose (gewone tafelsuiker) en lactose (melksuiker).
+**Disachariden** (dubbele suikers) (Binas 67F2) bestaan uit twee monosachariden die aan elkaar zijn gekoppeld. Hierbij wordt water afgesplitst. De reacti andersom (van disacharide naar monosacharide) is een **hydrolyse**. Er wordt dan water gebruikt om de binding weer te verbreken.  
+Voorbeelden van disachariden zijn sacharose (gewone tafelsuiker) en lactose (melksuiker).
 
 **Polysachariden** (meervoudige suikers) zijn lange ketens van monosachariden. Voorbeelden van polysachariden zijn zetmeel en cellulose.
 
@@ -35,7 +36,7 @@ Vetzuren bestaan uit een lange koolstofketen met een zuurgroep. Glycerol is een 
 
 Bij het maken van een vet of olie reageren drie vetzuren met glycerol (Binas 67G1). Hierbij wordt water afgesplitst. Het gevormde vet of olie is een **triglyceride** (of een **ester**).
 
-De binding die ontstaat tussen het vetzuur en glycerol is een **estergroep** (de $\ce{COO}$-groep). Bij vetten zie je deze groep drie keer, omdat drie vetzuren aan glycerol zijn gebonden.
+De binding die ontstaat tussen het vetzuur en glycerol is een **estergroep** (de $\ce{COCO}$-groep). Bij vetten zie je deze groep drie keer, omdat drie vetzuren aan glycerol zijn gebonden.
 
 De omgekeerde reactie, waarbij een vet wordt gesplitst in glycerol en vetzuren door toevoeging van water, is een **hydrolyse**. Dit proces vindt plaats bij de vertering van vetten in je lichaam.
 
