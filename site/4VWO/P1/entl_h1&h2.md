@@ -58,9 +58,9 @@ Een **adverb** (bijwoord) kan iets zeggen over...
 3. Een ander bijwoord  
    *They reacted **very** angrily.*  
 4. Een hele zin  
-   ***Unfortunaly**, she was late again\!*
+   ***Unfortunately**, she was late again\!*
 
-Een adverb maak je meestal door *adjective* \+ *\-ly*. Soms veranderd de spelling:  
+Een adverb maak je meestal door *adjective* \+ *\-ly*. Soms verandert de spelling:  
 *Sure →  sure**ly**   eas**y** →  eas**ily**   realist**ic** →  realist**ically***  
 De onregelmatige adverbs moet je uit je hoofd leren:
 

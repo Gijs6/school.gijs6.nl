@@ -13,14 +13,14 @@ Losse handelingen binnen het gedrag zijn **gedragselementen**. Een groep samenha
 ## Gedragsonderzoek
 
 De wetenschap die diergedrag onderzoekt, is de **ethologie**. Een **ethogram** is een lijst met objectief en nauwkeurig beschreven gedragselementen van een bepaald dier. Het koppelen van een subjectieve menselijke emotie aan dierlijk gedrag is **antropomorf**. In een **protocol** staat welk gedrag een dier ook echt heeft uitgevoerd.  
-Een prikkel waar altijd hetzelfde gedrag op volgt, is een **sleutelprikkel**. Als een sleutelprikkel door mensen wordt aangepast zodat deze versterkt wekt, is dat een **supernormale prikkel**.  
+Een prikkel waar altijd hetzelfde gedrag op volgt, is een **sleutelprikkel**. Als een sleutelprikkel door mensen wordt aangepast zodat deze versterkt werkt, is dat een **supernormale prikkel**.  
 Het leren van gedrag in de gevoelige periode na de geboorte heet **inprenting**. Als een dier een zintuigelijke prikkel koppelt aan een andere prikkel, dan heet dit **associatief leren**.
 
 ## Communicatie
 
 Elke diersoort communiceert op een eigen manier met soortgenoten. **Signalen** zijn prikkels waarmee dieren het gedrag van hun soortgenoten willen beïnvloeden.  
 **Ritueel gedrag** is gedrag dat niet praktisch is, maar wel een symbolische betekenis heeft. Ritueel gedrag is belangrijk voor de rangorde binnen een groep, en voor voortplanting (**balts**). De balts is een gedragsketen die voor beide partners herkenbaar is.  
-**Conflictgedrag** is gedrag dat ontstaat als een dier prikkels voor tegengestelde typen gedrag. Er zijn 3 vormen conflictgedrag: **ambivalent** (afwisseling gedrag), **omgericht** (uiting gedrag op iets anders) en **overspronggedrag** (past niet in situatie). **Dreiggedrag** is een agressieve houding naar soortgenoten. Door de **taakverdeling** binnen een groep heeft elk individu een eigen functie bij het voortbestaan van de groep.
+**Conflictgedrag** is gedrag dat ontstaat als een dier prikkels ontvangt voor tegengestelde typen gedrag. Er zijn 3 vormen van conflictgedrag: **ambivalent** (afwisseling van gedrag), **omgericht** (uiting van gedrag op iets anders) en **overspronggedrag** (past niet in situatie). **Dreiggedrag** is een agressieve houding naar soortgenoten. Door de **taakverdeling** binnen een groep heeft elk individu een eigen functie bij het voortbestaan van de groep.
 
 ## Aangeboren of aangeleerd
 

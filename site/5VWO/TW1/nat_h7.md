@@ -108,7 +108,7 @@ $$\Delta \varphi = \frac{\Delta t}{T}$$
 Hierin is $\Delta \varphi$ het faseverschil, $\Delta t$ het tijdsverschil (in $\mathrm{s}$) en $T$ de trillingstijd (in $\mathrm{s}$).
 
 Het faseverschil tussen 2 punten bij een lopende golf is constant. Er geldt:
-$$\Delta \varphi = \frac{\Delta x}{\lambda}$$N
+$$\Delta \varphi = \frac{\Delta x}{\lambda}$$
 Hierin is $\Delta \varphi$ het faseverschil, $\Delta x$ het afstandsverschil tussen de punten (in $\mathrm{m}$) en $\lambda$ de golflengte (in $\mathrm{m}$).
 
 ## Staande golven

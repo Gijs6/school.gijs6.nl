@@ -47,7 +47,7 @@ Door menselijk handelen zijn veel leefgebieden van elkaar geïsoleerd: **versnip
 
 Ook kunnen dieren worden **uitgezet** om de natuur te beheren. Zo kunnen grazers (dieren die planten eten) worden ingezet om de leefomgeving aantrekkelijker te maken voor andere soorten. Een te groot aantal grazers kan echter voor een **verstoring** (een snelle en blijvende verandering in een ecosysteem) zorgen.
 
-Natuurbeheerders proberen soms soorten die waren verdwenen uit een gebied te **herintroduceren**: door uitzetting proberen een nieuwe populatie proberen te maken.
+Natuurbeheerders proberen soms soorten die waren verdwenen uit een gebied te **herintroduceren**: door uitzetting proberen ze een nieuwe populatie te maken.
 
 ## Soorten en hun omgeving
 
