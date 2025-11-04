@@ -108,7 +108,7 @@ $$\Delta \varphi = \frac{\Delta t}{T}$$
 Hierin is $\Delta \varphi$ het faseverschil, $\Delta t$ het tijdsverschil (in $\mathrm{s}$) en $T$ de trillingstijd (in $\mathrm{s}$).
 
 Het faseverschil tussen 2 punten bij een lopende golf is constant. Er geldt:
-$$\Delta \varphi = \frac{\Delta x}{\lambda}$$
+$$\Delta \varphi = \frac{\Delta x}{\lambda}$$N
 Hierin is $\Delta \varphi$ het faseverschil, $\Delta x$ het afstandsverschil tussen de punten (in $\mathrm{m}$) en $\lambda$ de golflengte (in $\mathrm{m}$).
 
 ## Staande golven
@@ -179,7 +179,15 @@ Om te bepalen of een punt op een buiklijn of knooplijn ligt, moet je kijken naar
 
 Als het weglengteverschil een geheel aantal keer de golflengte is (dus $0\lambda$, $1\lambda$, $2\lambda$, ...), ligt het punt op een buiklijn. Dat komt omdat de golven dan in fase aankomen: als de ene golf precies 1 golflengte (of 2, of 3, enzovoort) meer heeft afgelegd dan de andere golf, zijn beide golven alsnog op hetzelfde punt in hun trilling. Ze hebben allebei precies een geheel aantal trillingen gemaakt, dus ze komen tegelijk aan met een top (of tegelijk met een dal).
 
+Voor een **buiklijn** geldt:
+$$\Delta x = n \cdot \lambda$$
+Hierin is $\Delta x$ het weglengteverschil (in $\mathrm{m}$), $n$ een geheel getal en $\lambda$ de golflengte (in $\mathrm{m}$).
+
 Als het weglengteverschil een halve golflengte is (of een meervoud daarvan, dus $\frac{1}{2}\lambda$, $1\frac{1}{2}\lambda$, $2\frac{1}{2}\lambda$, ...), ligt het punt op een knooplijn. De golven komen dan in tegenfase aan: de ene golf heeft een halve trilling meer gemaakt dan de andere. Als de ene golf aankomt met een top, komt de andere golf aan met een dal, en ze doven elkaar uit.
+
+Voor een **knooplijn** geldt:
+$$\Delta x = n \cdot \lambda + \frac{1}{2}\lambda$$
+Hierin is $\Delta x$ het weglengteverschil (in $\mathrm{m}$), $n$ een geheel getal en $\lambda$ de golflengte (in $\mathrm{m}$).
 
 Als je de bronnen dichter naar elkaar toe brengt, worden de weglengteverschillen naar punten in de ruimte kleiner. Hierdoor zullen de buik- en knooplijnen divergeren (verder uit elkaar gaan). Als je de bronnen juist uit elkaar beweegt, convergeren de buik- en knooplijnen (ze gaan dichter bij elkaar staan).
 
