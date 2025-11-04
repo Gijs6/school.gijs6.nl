@@ -14,11 +14,11 @@ Er zijn 5 belangrijke (soorten) voedingsstoffen: water, mineralen, koolhydraten,
 
 **Koolhydraten** zijn verbindingen die bestaan uit koolstof-, waterstof- en zuurstofatomen. Alle koolhydraten bevatten meerdere $\ce{OH}$-groepen.
 
-![Een monosacharide (img-2xs) (img-float-right)](images/nlt_koken_monosacharide.png)
+![Een monosacharide (img-xs) (img-float-right)](images/nlt_koken_monosacharide.png)
 
 **Monosachariden** (enkelvoudige suikers) (Binas 67F1) zijn de simpelste koolhydraten. Ze bestaan uit een koolstofring met daaraan $\ce{OH}$-groepen die naar boven of beneden kunnen staan. Je kunt de verschillende monosachariden dus onderscheiden op basis van de "richting" van de $\ce{OH}$-groepen. Je telt dan vanaf het zuurstofatoom in de ring naar de koolstofstaart.
 
-![Een disacharide (img-xs) (img-float-right) (img-clear-both)](images/nlt_koken_disacharide.png)
+![Een disacharide (img-s) (img-float-right) (img-clear-both)](images/nlt_koken_disacharide.png)
 
 **Disachariden** (dubbele suikers) (Binas 67F2) bestaan uit twee monosachariden die aan elkaar zijn gekoppeld. Hierbij wordt water afgesplitst. De reactie van disacharide naar monosacharide is een **hydrolyse**. Voorbeelden van disachariden zijn sacharose (gewone tafelsuiker) en lactose (melksuiker).
 
