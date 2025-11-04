@@ -50,11 +50,11 @@ De past continuous gebruik je om te zeggen dat iets een tijd duurde of aan de ga
 
 *Was it raining that day?*
 
-Als het werkwoord eindigd op een -e, laat je die weg. to lose ➜ losing
+Als het werkwoord eindigt op een -e, laat je die weg. to lose ➜ losing
 
-Als het werkwoord eindigd op een medeklinker (niet -w of -x) met 1 klinker ervoor, verdubbel je de medeklinker. to run ➜ running
+Als het werkwoord eindigt op een medeklinker (niet -w of -x) met 1 klinker ervoor, verdubbel je de medeklinker. to run ➜ running
 
-Als een werkwoord veranderd op een -ie, wordt dat een -y. to die ➜ dying
+Als een werkwoord eindigt op -ie, wordt dat een -y. to die ➜ dying
 
 ## Woordenlijst
 

@@ -2,7 +2,7 @@
 
 ## Het skelet & bouw van botten
 
-Het lichaam van de mens is ingedeeld in delen: **het hoofd**, **de romp** en **de ledematen** (armen en benen). Het **skelet** (of geraamte) bestaat uit **botten** (of beenderen). Het skelet heeft functies:
+Het lichaam van de mens is ingedeeld in **3** delen: **het hoofd**, **de romp** en **de ledematen** (armen en benen). Het **skelet** (of geraamte) bestaat uit **botten** (of beenderen). Het skelet heeft **4** functies:
 
 1. Stevigheid geven, zodat je rechtop kunt staan
 
@@ -18,7 +18,7 @@ Botten bestaan voor het grootste deel uit **collageen (lijmstof)** en **kalkzout
 
 *Afbeelding wervelkolom op pag. 4.*
 
-Er zijn verschillende typen weefsel in het skelet van de mens: **het kraakbeenweefsel en botweefsel**. Tussen de cellen in beide weefsels zit tussencelstof. In het kraakbeenweefsel liggen de cellen in groepjes bij elkaar. De tussencelstof is elastisch, waardoor kraakbeen een beetje buigzaam is. In botweefsel liggen de cellen in kringen rondom kleine kanaaltjes. Door die kanaaltjes lopen bloedvaten. De botcellen zijn aan elkaar verbonden met uitlopers. De tussencelstof van bot bestaat vooral uit kalkzouten en collageen. Daardoor is botweefsel hard en niet buigzaam.
+Er zijn **2** verschillende typen weefsel in het skelet van de mens: **het kraakbeenweefsel en botweefsel**. Tussen de cellen in beide weefsels zit tussencelstof. In het kraakbeenweefsel liggen de cellen in groepjes bij elkaar. De tussencelstof is elastisch, waardoor kraakbeen een beetje buigzaam is. In botweefsel liggen de cellen in kringen rondom kleine kanaaltjes. Door die kanaaltjes lopen bloedvaten. De botcellen zijn aan elkaar verbonden met uitlopers. De tussencelstof van bot bestaat vooral uit kalkzouten en collageen. Daardoor is botweefsel hard en niet buigzaam.
 
 |  |  |
 |----|----|
@@ -28,11 +28,11 @@ Bij baby's bestaat het skelet vooral uit kraakbeenweefsel, waardoor baby's erg f
 
 ## Beenverbindingen
 
-Er zijn soorten **beenverbindingen**. Het heiligbeen bestaat uit **vergroeide** wervels. De schedelbeenderen zitten aan elkaar vast met een **naad**. Tussen je ribben en borstbeen zit kraakbeen. Dit **kraakbeen** kan een beetje bewegen, zodat je borstkas groter kan worden bij ademhaling.
+Er zijn **4** soorten **beenverbindingen**. Het heiligbeen bestaat uit **vergroeide** wervels. De schedelbeenderen zitten aan elkaar vast met een **naad**. Tussen je ribben en borstbeen zit kraakbeen. Dit **kraakbeen** kan een beetje bewegen, zodat je borstkas groter kan worden bij ademhaling.
 
-Een gewricht is een verbinding tussen botten. Het ene bot heeft een **gewrichtskom** en de andere bot heeft een **gewrichtskogel**. De gewrichtskogel kan bewegen in de gewrichtskom. Op de kogel en in de kom van een gewricht zit een laagje **kraakbeen**, zodat het bot soepel kan bewegen. De botten van het gewricht worden bij elkaar gehouden door het **gewrichtskapsel**. Bij sommige gewrichten zijn er ook stevige **kapselbanden** om het gewricht heen. De binnenkant van het gewrichtskapsel geeft **gewrichtssmeer** af. Deze stroperige vloeistof zorgt ervoor dat de botten soepel kunnen bewegen.
+Een gewricht is een verbinding tussen **2** botten. Het ene bot heeft een **gewrichtskom** en de andere bot heeft een **gewrichtskogel**. De gewrichtskogel kan bewegen in de gewrichtskom. Op de kogel en in de kom van een gewricht zit een laagje **kraakbeen**, zodat het bot soepel kan bewegen. De botten van het gewricht worden bij elkaar gehouden door het **gewrichtskapsel**. Bij sommige gewrichten zijn er ook stevige **kapselbanden** om het gewricht heen. De binnenkant van het gewrichtskapsel geeft **gewrichtssmeer** af. Deze stroperige vloeistof zorgt ervoor dat de botten soepel kunnen bewegen.
 
-Er zijn typen gewrichten. Bij een **rolgewricht** draait het ene bot over het andere bot. Bij het **scharniergewricht** kan het gewricht als een scharnier bewegen. Bij een **kogelgewricht** draait de **gewrichtskogel** van het ene bot in de **gewrichtskom** van het andere bot. Daardoor is beweging in verschillende richtingen mogelijk.
+Er zijn **3** typen gewrichten. Bij een **rolgewricht** draait het ene bot over het andere bot. Bij het **scharniergewricht** kan het gewricht als een scharnier bewegen. Bij een **kogelgewricht** draait de **gewrichtskogel** van het ene bot in de **gewrichtskom** van het andere bot. Daardoor is beweging in verschillende richtingen mogelijk.
 
 ## Spieren
 

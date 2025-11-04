@@ -6,15 +6,15 @@ Een **humanist** (bijvoorbeeld Desiderius Erasmus van Rotterdam) is een persoon 
 
 - kritiek uitte op de katholieke kerk
 
-- teksten uit de oudheid (griekse en romeinse tijd) bestudeerd
+- teksten uit de oudheid (Griekse en Romeinse tijd) bestudeerde
 
 - oude teksten (waaronder de bijbel) vertaalde
 
 - vaak filosoof, geleerde of onderzoeker was
 
-De kritiek van Erasmus op de katholieke kerk bestond voornamelijk uit
+De kritiek van Erasmus op de katholieke kerk bestond voornamelijk uit:
 
-- de hebzucht, domheid en het rijkdom van de kerk
+- de hebzucht, domheid en de rijkdom van de kerk
 
 - het machtsmisbruik door de kerk
 

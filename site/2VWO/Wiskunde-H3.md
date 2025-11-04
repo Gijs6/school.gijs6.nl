@@ -54,7 +54,7 @@ $10x + 10 = - 10$ $8a = 3a + 50$
 
 $10x = - 20$ $5a = 50$
 
-$x = - 2$ $a = 50$
+$x = - 2$ $a = 10$
 
 Als er haakjes in de opgave staan, werk je eerst de haakjes weg, en vervolgens los je de rest van de opgave op.
 

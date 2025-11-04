@@ -14,7 +14,7 @@ In de **waterbalans** kun je de hoeveelheid water zien die een gebied binnenkomt
 
 3. De aanvoer van **fossiel water** uit andere tijdvakken. Dit water is opgeslagen in een **aquifer**. Dit water is niet duurzaam, want het wordt niet meer aangevoerd.
 
-**Virtueel water** is geen echt water, maar het water dat verwerkt zit in producten die je importeert. Als je alleen je vernieuwbare voorraad water gebruikt, is er sprake van **duurzaam waterbeheer**. Door de groeiende wereldbevolking zorgt voor meer gebruik van **niet-vernieuwbaar water**.
+**Virtueel water** is geen echt water, maar het water dat verwerkt zit in producten die je importeert. Als je alleen je vernieuwbare voorraad water gebruikt, is er sprake van **duurzaam waterbeheer**. De groeiende wereldbevolking zorgt voor meer gebruik van **niet-vernieuwbaar water**.
 
 ## Het gevaar van water
 

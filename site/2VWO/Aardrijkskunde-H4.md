@@ -24,7 +24,7 @@ De **energietransitie** is de overstap van fossiele energiebronnen naar duurzame
 
 ## Duurzame landbouw
 
-In Nederland wordt aan **intensive** **landbouw** gedaan: er is een hoge opbrengst. In veel kassen is er maar 1 product te vinden, dat is een **monocultuur**. Als er dan een ziekte komt, moeten er vaak veel chemicaliën gebruikt worden om de planten weer gezond te maken. **Biologische landbouw** is een betere en duurzamere manier van voedsel verbouwen.
+In Nederland wordt aan **intensieve landbouw** gedaan: er is een hoge opbrengst. In veel kassen is er maar 1 product te vinden, dat is een **monocultuur**. Als er dan een ziekte komt, moeten er vaak veel chemicaliën gebruikt worden om de planten weer gezond te maken. **Biologische landbouw** is een betere en duurzamere manier van voedsel verbouwen.
 
 ## Een duurzame stad: Almere
 

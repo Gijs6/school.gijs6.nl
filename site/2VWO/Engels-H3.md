@@ -80,7 +80,7 @@ Om beleefd te vragen of iets mag of kan, gebruik je *can* of *could*, soms in co
 
 | artificial      | kunstmatig        | to fold            | vouwen                 |
 |-----------------|-------------------|--------------------|------------------------|
-| avenue          | brede straat      | barn               | schuurpapier           |
+| avenue          | brede straat      | barn               | schuur                 |
 | to be founded   | gesticht worden   | conditions         | omstandigheden         |
 | community       | gemeenschap       | to disinfect       | ontsmetten             |
 | council         | gemeenteraad      | (farm) machinery   | (landbouw)machienes    |

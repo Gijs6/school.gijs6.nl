@@ -2,7 +2,7 @@
 
 ## Regelmatige werkwoorden op -er
 
-Als je regelmatige werkwoorden wilt vervoegen in het Frans, haal je -er weg en ze je er een uitgang achter.
+Als je regelmatige werkwoorden wilt vervoegen in het Frans, haal je -er weg en zet je er een uitgang achter.
 
 |           | Uitgang |                        |
 |-----------|---------|------------------------|

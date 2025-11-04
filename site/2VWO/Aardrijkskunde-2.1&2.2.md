@@ -45,7 +45,7 @@ De steden groeien door:
 | Wereldstad | Stad die erg belangrijk is voor de wereld op cultureel, financieel en politiek gebied |
 | Hoofdsteden | Belangrijkste stad van een land, waar vaak de regering zetelt |
 | Koloniale dubbelstad | Stadsopbouw uit de koloniale tijd die bestaat uit een westers stadsdeel en een niet-westers stadsdeel |
-| Verstedelijkingsgraad | Percentage van de bevolking dat steden woont |
+| Verstedelijkingsgraad | Percentage van de bevolking dat in steden woont |
 | Verstedelijking | Proces waarbij mensen van het platteland naar de stad trekken |
 | verstedelijkingstempo | Percentage waarmee de verstedelijkingsgraad jaarlijks toeneemt |
 | Vestigingsoverschot | Het positieve verschil tussen het aantal mensen dat vertrekt en dat zich vestigt. |

@@ -125,7 +125,7 @@ J'**ai fait** un livre Ik **heb** een boek **gemaakt**.
 | il fait mauvais | het is slecht weer | le château | het kasteel |
 | il a plu | het heeft geregend | l'escalade **v** | het klimmen |
 | il pleut | het regent | faire les magasins | winkelen |
-| le temps | het weer, de tijd | la soirée | de Avond |
+| le temps | het weer, de tijd | la soirée | de avond |
 
 ## Zinnenlijst
 

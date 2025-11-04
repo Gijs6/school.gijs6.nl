@@ -72,11 +72,11 @@ De *first conditional* gebruik je om aan te geven dat iets waarschijnlijk gebeur
 
 Een *conditional* bestaat uit een *if*-zin en een hoofdzin. De *if*-zin staat in de *present simple*, in de hoofdzin gebruik je *will + hele werkwoord*.
 
-*If you **make** your homework, the teacher **will be** happy.*
+*If you **do** your homework, the teacher **will be** happy.*
 
 Je kan de zinsdelen ook omdraaien.
 
-*The teacher **will be** happy, if you **make** your homework.*
+*The teacher **will be** happy, if you **do** your homework.*
 
 ### Adjectives and adverbs
 
@@ -158,7 +158,7 @@ Een bijwoord maak meestal door -ly achter een bijvoeglijk naamwoord te zetten. S
 | Ik keek zo uit naar de muziek. | I was so looking forward to the music. |
 | Jammer dat we de optocht hebben gemist. | Too bad we missed the parade. |
 | Ik wilde dat het beter weer was. | I wish the weather had been better. |
-| Ik was blij zo veel bezoekers van buiten de stad te zien. | Why did it have to rain? |
+| Ik was blij zo veel bezoekers van buiten de stad te zien. | I was glad to see so many visitors from outside the city. |
 | Ik was erg tevreden met de kwaliteit van de muziekgroepen. | I was quite happy about the quality of the minstrel groups. |
 | Ik vond vooral de solist die een komisch liedje zong erg goed. | I especially loved this soloist, who was singing a comical song. |
 | Het is heerlijk om te zien dat iedereen zo veel plezier heeft. | I'm delighted to see everyone having so much fun. |

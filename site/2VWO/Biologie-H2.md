@@ -26,7 +26,7 @@ Er zijn 6 groepen voedingsstoffen:
 
 **Voedingsvezels** zijn niet verteerbaar, maar zijn wel belangrijk voor een goede darmwerking. Voedingsvezels zijn afkomstig uit celwanden van planten.
 
-**Essentiële voedingsstoffen** zijn voedingsstoffen die je lichaam niet zelf kam maken, maar die je wel nodig hebt. Stoffen die je lichaam zelf kan maken, zijn **niet-essentiële voedingsstoffen**. Deze worden gevormd in de lever.
+**Essentiële voedingsstoffen** zijn voedingsstoffen die je lichaam niet zelf kan maken, maar die je wel nodig hebt. Stoffen die je lichaam zelf kan maken, zijn **niet-essentiële voedingsstoffen**. Deze worden gevormd in de lever.
 
 ## Het verteringsstelsel
 

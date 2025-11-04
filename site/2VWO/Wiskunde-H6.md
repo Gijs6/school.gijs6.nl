@@ -93,7 +93,7 @@ Het gemiddelde is niet altijd de beste manier om een indruk weer te geven van ge
 |  | **De mediaan is het middelste, of het gemiddelde van de middelste twee, waarnemingsgetal(len) bij een volgorde van klein naar groot.** |
 |----|----|
 
-Soms geeft het waarnemingsgetal met dat het meest voorkomt de beste indruk van een serie waarnemingsgetallen. Dit getal is de **modus**:
+Soms geeft het waarnemingsgetal dat het meest voorkomt de beste indruk van een serie waarnemingsgetallen. Dit getal is de **modus**:
 
 |  | **De modus is het waarnemingsgetal met de grootste frequentie. Er is niet altijd een modus.** |
 |----|----|

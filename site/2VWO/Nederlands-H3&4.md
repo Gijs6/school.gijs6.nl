@@ -21,7 +21,7 @@ Door **voorbeelden** te gebruiken kun je een tekst aantrekkelijker maken. Een vo
 
 *Bart vindt het maken van zijn huiswerk erg moeilijk. Hij heeft bijvoorbeeld moeite met het leren van Franse woordjes.*
 
-### ## Spelling: Koppelteken en weglatingsstreepje
+### Spelling: Koppelteken en weglatingsstreepje
 
 Je gebruikt het **koppelteken ...**
 

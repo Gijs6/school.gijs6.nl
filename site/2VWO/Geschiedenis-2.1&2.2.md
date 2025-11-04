@@ -40,7 +40,7 @@ De hervormers hadden in de Nederlanden ook veel aanhangers gekregen. Karel V wil
 
 Karel V trad af in 1555, want na 40 jaar was hij het besturen, oorlog voeren en reizen zat. Hij verdeelde zijn gebieden: Ferdinand werd keizer van het Duitse Rijk en Filips II werd koning van Spanje en landsheer over de Nederlanden. Filips was tijdens zijn regeerperiode vooral bezig met Spanje. Het bestuur van de Nederlanden liet hij over aan zijn halfzuster Margaretha van Parma die landvoogdes werd. Vanuit Spanje probeerde Filips de controle over het bestuur te bewaren. Hij verbood Margaretha bijvoorbeeld de Staten-Generaal bijeen te roepen, omdat die volgens hem te veel eisen stelden. Daarnaast eiste hij dat het Bloedplakkaat strikt zou worden nageleefd, wat voor veel onrust zorgde. De opstand over de vervolging van ketters door de inquisitie werd steeds groter.
 
-## # Begrippenlijst en tijdsvolgorde
+## Begrippenlijst en tijdsvolgorde
 
 | Humanist | Geleerde die de klassieke cultuur en literatuur bestudeerde en imiteerde. |
 |----|----|

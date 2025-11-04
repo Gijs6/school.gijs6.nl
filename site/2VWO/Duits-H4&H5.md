@@ -90,7 +90,7 @@ Het voltooid deelwoord van werkwoorden op **-ieren**, **be-** of **ve-** maak je
 
 fotografieren \> fotografiert versorgen \> versorgt besuchen \> besucht
 
-Je maakt het voltooid deelwoord van sterke werkwoorden moet je kennen. Deze voltooide deelwoorden staan ook in de woordenlijst.
+Het voltooid deelwoord van sterke werkwoorden moet je kennen. Deze voltooide deelwoorden staan ook in de woordenlijst.
 
 ### De uitgangen van ein- een kein-
 
@@ -111,7 +111,7 @@ Het onbepaald lidwoord ein- (een) en het woord kein- (geen) krijgen bij de vrouw
 
 Net als bij ein(e) en kein(e) krijgen deze woorden in de vrouwelijke- en meervoudsvorm een extra -e als uitgang.
 
-Mij mannelijke en onzijdige woorden verandert er dus niks.
+Bij mannelijke en onzijdige woorden verandert er dus niets.
 
 Let op: bij *euer* is de vrouwelijke/meervoudsvorm ***eure*** en niet *euere.*
 

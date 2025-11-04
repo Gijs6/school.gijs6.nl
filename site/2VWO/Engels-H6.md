@@ -46,7 +46,7 @@ Je gebruikt de *second conditional* voor dingen waarschijnlijk **niet** gaan geb
 
 *If I **won** the lottery, I **would buy** a nice car. If I **<u>were</u>** a doctor, I **would help** everyone.*
 
-## # Woordenlijst
+## Woordenlijst
 
 | (hoofd)personage | (main) character | ontwikkelen | to develop |
 |----|----|----|----|

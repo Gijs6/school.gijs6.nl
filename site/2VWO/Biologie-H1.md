@@ -10,7 +10,7 @@ Alle organen in je lichaam hebben energie nodig, om bijvoorbeeld te bewegen en v
 
 glucose + zuurstof → water + koolstofdioxide + energie. De energie die vrijkomt, wordt omgezet in beweging en warmte. Hoe groter de lichamelijke inspanning, hoe meer verbranding er plaatsvindt. Je hart en je longen werken dan harder om ervoor te zorgen dat de cellen voldoende **brandstof** en zuurstof krijgen, en om de afvalstoffen water en koolstofdioxide af te voeren uit de cellen. Dieren waarbij de lichaamstemperatuur constant is noem je **warmbloedig**. **Koudbloedige** dieren passen hun lichaamstemperatuur aan aan hun omgeving. Alleen vogels en zoogdieren zijn warmbloedig. De mate van verbranding in de cellen is afhankelijke van de temperatuur: hoe warmer het is, hoe meer verbranding er is. Koudbloedige dieren zijn dus niet erg actief bij koud weer, want dan is er weinig verbranding. Veel koudbloedige dieren houden een **winterslaap**. In de winter hebben warmbloedige dieren meer eten nodig, want ze hebben meer energie nodig om hun lichaam warm te houden, en voor energie in de cellen. Warmbloedige dieren hebben **isolatie** voor het constant houden van hun lichaamstemperatuur. Zoogdieren hebben een vetlaag onder de huid en een dikke vacht van haren. Veel vogels trekken in de herfst naar warmere gebieden: de **trek**. Ook sommige zoogdieren kunnen wegtrekken.
 
-## # Ademhalingsstelsel
+## Ademhalingsstelsel
 
 De neusholte is bedekt met neusslijmvlies. Dit vlies bevat cellen die slijm produceren, waardoor de ingeademde lucht vochtig wordt. Dit vlies wordt ook verwarmd door bloedvaatjes, waardoor de lucht ook wordt verwarmd. De neusharen voorin de neusholte houden de grote stofdeeltjes tegen. Kleine stofdeeltjes en ziekteverwekkers blijven plakken aan het neusslijmvlies, die vervolgens door trilharen worden verplaatst met het sijm naar de keelholte. Bovenin de neusholte bevindt zich het reukzintuig, die de lucht keurt en waarschuwt voor gevaarlijke stoffen. Als je door je mond ademt, wordt de lucht minder goed gezuiverd, verwarmd en vochtig gemaakt, waardoor het longslijmvlies beschadigd kan raken. Als je inademt stroomt de lucht via je mond- of neusholte naar de keelholte, waarna het de luchtpijp instroomt. De luchtpijp staat altijd open. De luchtpijp vertakt zich in twee **bronchiën**, die zich weer vertakken in steeds kleinere buisjes: de luchtpijptakjes. Aan het einde van de **luchtpijptakjes** bevinden zich trosjes **longblaasjes**. Hieromheen zitten **longhaarvaten**. De wanden van longhaarvaten en longblaasjes zijn erg dun, waardoor CO<sub>2</sub> en zuurstof makkelijk door de wanden heen kunnen. Het **middenrif** is een stevig, gespierd vlies onder de longen dat de romp verdeelt in de borstholte en de buikholte. Als je voedsel inslikt, sluit de huig de neusholte af en het strotklepje de luchtpijp. Als dit niet goed gaat, verslik je.
 
@@ -121,7 +121,7 @@ Het belangrijkste wat je kunt doen om je luchtwegen gezond te houden is niet rok
 
 Eencellige dieren (zoals amoeben) halen adem via het celmembraan (buitenste laag van de cel), hier vindt dus ook de gaswisseling plaats. Eencelligen hebben dan ook geen speciale ademhalingsorganen. Bij dieren die uit veel cellen bestaan (meercelligen), is het oppervlak van het lichaam niet groot genoeg om voldoende zuurstof en koolstofdioxide uit te wisselen met de omgeving. Insecten hebben tracheeën: vertakte buisjes met lucht die overal in het lichaam eindigen. Stigma's zijn openingen waardoor de lucht de tracheeën in stroomt. Vissen hebben kieuwen. Deze liggen vlak achter de kop in kieuwholten. De kieuwholten zijn bedekt door kieuwdeksels. Elke kieuw bestaat uit een kieuwboog, met daarop een groot aantal kieuwplaatjes. In kieuwen kan veel gaswisseling plaatsvinden doordat de kieuwlamellen zorgen voor een groot oppervlak en doordat bloed en water in tegenovergestelde richting stromen (tegenstroomprincipe). Vogels hebben longen met luchtzakken. De longen van vogels worden niet groter en/of kleiner, de luchtzakken wel. Door de luchtzakken en het tegenstroomprincipe gaat de gaswisseling sneller dan bij zoogdieren.
 
-## # De stembanden
+## De stembanden
 
 Aan de voorkant van het strottenhoofd bevindt zich het **schildkraakbeen**. Dit is in je hals te voelen (adamsappel). Aan de bovenkant bevindt zich het **tongbeen**, waaraan spieren voor je tongbeweging zijn gevestigd. Achter het schildkraakbeen en tussen de bekerkraakbeentjes liggen de stembanden. De bekerkraakbeentjes maken het mogelijk dat de stembanden naar elkaar toe of van elkaar weg bewegen. De stemspleet wordt hierdoor nauwer of wijder. Als je geluid wilt maken, breng je de stembanden dichter bij elkaar.
 
@@ -139,7 +139,7 @@ De hoeveelheid lucht die maximaal per ademhaling kan worden in- of uitgeademd, h
 
 Er blijft altijd lucht achter in de longen. Na een diepe uitademing blijft bij volwassenen gemiddeld zo'n 1,5 L lucht achter in de longen en in de luchtwegen. Dit noem je het **restvolume**. De vitale capaciteit plus het restvolume is het **longvolume**. Met een spirometer kun je de vitale capaciteit meten.
 
-## # Begrippenlijst
+## Begrippenlijst
 
 | glucose | stof die veel energie bevat, met behulp van deze energie worden allerlei andere stoffen gemaakt |
 |----|----|

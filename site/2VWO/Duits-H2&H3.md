@@ -282,7 +282,7 @@ Hier zijn de hoofdregels voor het meervoud voor zelfstandige naamwoorden
 | stattfinden             | plaatsvinden                           |
 | der Buchstabe           | de letter                              |
 
-## # Zinnenlijst
+## Zinnenlijst
 
 | Wie is dat? | Wer ist das? |
 |----|----|

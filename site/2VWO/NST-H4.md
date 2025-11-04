@@ -4,7 +4,7 @@
 
 Als je een apparaat wilt laten werken op stroom, moet je een gesloten **stroomkring** maken: er mag geen opening in zitten. Als de stroomkring open is, kan de **lading** niet bewegen. Stoffen waar stroom gemakkelijk doorheen kan lopen, heten **geleiders**, zoals alle metalen en koolstof. Stoffen die stroom niet of heel slecht doorlaten, heten **isolatoren**, zoals rubber, glas en plastic.
 
-## Stoomsterkte, spanning en vermogen
+## Stroomsterkte, spanning en vermogen
 
 De **stroomsterkte** is de hoeveelheid stroom die door een kabel gaat. De **spanning** is de "druk" van de stroom. Het **vermogen** is hoeveel elektrische energie een apparaat in een seconde verbruikt. Hieronder vind je meer informatie over deze grootheden.
 

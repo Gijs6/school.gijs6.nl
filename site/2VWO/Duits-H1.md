@@ -96,7 +96,7 @@
 | Hoe oud ben je?           | Wie alt bist du?             |
 | Ik ben \[...\] jaar oud.  | Ich bin \[...\] Jahre alt.   |
 | Waar kom je vandaan?      | Woher kommst du?             |
-| Ik kom uit \[...\].       | Ik komme aus \[...\].        |
+| Ik kom uit \[...\].       | Ich komme aus \[...\].        |
 | Waar woon je?             | Wo wohnst du?                |
 | Ik woon in \[...\].       | Ich wohne in \[...\]         |
 | Wat is je adres?          | Was ist deine Adresse?       |

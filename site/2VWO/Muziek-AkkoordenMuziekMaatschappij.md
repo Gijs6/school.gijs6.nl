@@ -26,7 +26,7 @@ Ritme is de opeenvolging van verschillende **notenwaarden**: lange noten, korten
   Met hoge en lage tonen kan een **melodie** gemaakt worden.
 
 - Tempo (snel en langzaam)  
-  Het tempo toont hoe snel de muziek gaat. Snelle muziek heeft een hoog tempo en langzame muziek heeft een laag tempo. Een **tempoaanduiding** laat zien hoe snel de muziek gespeeld moet worden. Hiervoor kun je ook de woorden **adiago, andante of allegro** gebruiken.
+  Het tempo toont hoe snel de muziek gaat. Snelle muziek heeft een hoog tempo en langzame muziek heeft een laag tempo. Een **tempoaanduiding** laat zien hoe snel de muziek gespeeld moet worden. Hiervoor kun je ook de woorden **adagio, andante of allegro** gebruiken.
 
 Een **metronoom** is een apparaat (of app) dat het tempo aangeeft. Het tempo wordt aangeduid in beats per minute (**bpm**). Tijdens een compositie kan het tempo veranderen. Dit wordt aangegeven met **accelerando** (sneller spelen) en **ritenuto** (langzamer spelen).
 

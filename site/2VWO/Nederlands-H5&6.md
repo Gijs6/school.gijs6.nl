@@ -66,7 +66,7 @@ Hieronder zie je een overzicht van verwijs- en signaalwoorden.
 
 ### Hoofdletters en aanhalingstekens
 
-Je gebuikt een hoofdletter aan het begin van een zin, behalve als een zin niet begint met een letter. Ook gebruik je hoofdletters bij namen. Je gebruikt aanhalingstekens bij citaten, bij titels en als je een woord zelf bedoelt, en niet de betekenis.
+Je gebruikt een hoofdletter aan het begin van een zin, behalve als een zin niet begint met een letter. Ook gebruik je hoofdletters bij namen. Je gebruikt aanhalingstekens bij citaten, bij titels en als je een woord zelf bedoelt, en niet de betekenis.
 
 ### Persoonsvormen in samengestelde zinnen
 

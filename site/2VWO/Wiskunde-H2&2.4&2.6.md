@@ -26,11 +26,11 @@ Het maakt niet uit welke hoogte je gebruikt. In de figuur hieronder is de opperv
 
 ### Trapezium
 
-Een trapezium is een vierhoek met minsten 1 paar evenwijdige zijden. Om de oppervlakte van een trapezium te berekenen, moet je in gedachten er een parallelogram van maken, door de trapezium om te draaien en erachter te zetten. Omdat de zijde van deze parallellogram de som is van de evenwijdige zijden van de trapezium, is de formule voor het berekenen van de oppervlakte van een trapezium: $\frac{1}{2} \times \ som\ van\ de\ evenwijdige\ zijden\  \times \ hoogte$. De oppervlakte van de trapezium hieronder is dus: $\frac{1}{2}\  \times \ (AB + DC)\  \times \ DG$
+Een trapezium is een vierhoek met minstens 1 paar evenwijdige zijden. Om de oppervlakte van een trapezium te berekenen, moet je in gedachten er een parallelogram van maken, door de trapezium om te draaien en erachter te zetten. Omdat de zijde van deze parallellogram de som is van de evenwijdige zijden van de trapezium, is de formule voor het berekenen van de oppervlakte van een trapezium: $\frac{1}{2} \times \ som\ van\ de\ evenwijdige\ zijden\  \times \ hoogte$. De oppervlakte van de trapezium hieronder is dus: $\frac{1}{2}\  \times \ (AB + DC)\  \times \ DG$
 
 ### Overige figuren
 
-Op de oppervlakte te berekenen van een figuur, moet je de figuur soms opsplitsen, of een stukje erbij berekenen.
+Om de oppervlakte te berekenen van een figuur, moet je de figuur soms opsplitsen, of een stukje erbij berekenen.
 
 De oppervlakte van de eerste figuur is dus *opp ABEI - opp △BDC - opp GFJH - opp △HJI*
 

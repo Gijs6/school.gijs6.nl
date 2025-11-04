@@ -86,7 +86,7 @@ Het Nederlands kent 8 werkwoordstijden
 | voltooid tegenwoordig toekomende tijd (vttt) | <u>Zullen</u> jullie naar Alkmaar zijn vertrokken? Bart <u>zal</u> nieuwe sokken gekocht kunnen hebben. |
 | voltooid verleden toekomende tijd (vvtt) | <u>Zouden</u> jullie naar Alkmaar zijn vertrokken? Bart <u>zou</u> nieuwe sokken gekocht kunnen hebben. |
 
-#### ### Stappenplan voor het vaststellen van de werkwoordstijd
+#### Stappenplan voor het vaststellen van de werkwoordstijd
 
 1. Bevat de zin een vorm van het **hulpwerkwoord** hebben of zijn?
 

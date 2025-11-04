@@ -30,9 +30,9 @@ De locatie van een stad hangt samen met:
 
 Het aantal mensen dat in steden woont (verstedelijkingsgraad) is in arme landen nog laag, maar dit aantal groeit wel snel, want het verstedelijkingstempo is wel hoog. Het proces dat mensen die van het platteland naar de stad verhuizen heet verstedelijking.
 
-het De steden groeien door:
+De steden groeien door:
 
-- hoge vestigingsoverschot
+- het hoge vestigingsoverschot
 
 - het hoge geboorteoverschot
 

@@ -8,9 +8,7 @@ Als je een vergelijking hebt met in de vorm $x² = c$, kun je deze oplossen door
 
 Het schrijven van een vergelijking in een producten heet **ontbinden in factoren**, zoals in de vergelijking hiernaast. Als je dit doet kan je de **gemeenschappelijke factor** (de factor die beide getallen hebben) voor de haakjes zetten. In dit geval is dat 2b.
 
-Ook kun je gebruik maken van de **product-som-methode**, zoals hiernaast. Om dit te doen, moet je 2 getallen zoeken met het product 14, en som 9. Dit zijn 2 en 7, want 2×7=14, en 2+7=9. Deze getallen kunnen ook negatief zijn, zoals hiernaast. In dit geval zijn de getallen -3 en -7, want -3×-7=21, en -3+-7=-10. Let goed op dat je nu dus zoekt naar een som voor **-**10. Je mag de %%jqq
-
-product-som-methode alleen gebruiken als je een kwadratische letter hebt, een getal met een letter, en een los getalletje.
+Ook kun je gebruik maken van de **product-som-methode**, zoals hiernaast. Om dit te doen, moet je 2 getallen zoeken met het product 14, en som 9. Dit zijn 2 en 7, want 2×7=14, en 2+7=9. Deze getallen kunnen ook negatief zijn, zoals hiernaast. In dit geval zijn de getallen -3 en -7, want -3×-7=21, en -3+-7=-10. Let goed op dat je nu dus zoekt naar een som voor **-**10. Je mag de product-som-methode alleen gebruiken als je een kwadratische letter hebt, een getal met een letter, en een los getalletje.
 
 ## Kwadratische vergelijkingen oplossen
 
@@ -30,6 +28,4 @@ Om de snijpunten van twee grafieken te berekenen, stel je een vergelijking op wa
 
 ### Balansmethode
 
-Bij het toepassen van de balansmethode geld: alles wat je aan de ene kant doet, moet je ook aan de andere kant doen. Haal je bijvoorbeeld links 2x weg, moet je dat rechts ook doen.
-
-##
+Bij het toepassen van de balansmethode geldt: alles wat je aan de ene kant doet, moet je ook aan de andere kant doen. Haal je bijvoorbeeld links 2x weg, moet je dat rechts ook doen.

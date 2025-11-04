@@ -13,7 +13,7 @@ Het bijvoegelijk naamwoord in het Frans heeft verschillende uitgangen, die veran
 
 *Il est grand Ils sont grand**s** Elle est grand**e** Elles sont grand**es***
 
-Als een bijvoeglijk naamwoord eindigt op een -e, dan krijgt het woord in de vrouwlijke vormen geen extra e. Dit geld ook voor een -s bij het mannelijk meervoud.
+Als een bijvoeglijk naamwoord eindigt op een -e, dan krijgt het woord in de vrouwlijke vormen geen extra e. Dit geldt ook voor een -s bij het mannelijk meervoud.
 
 Let op: een é of è telt niet voor deze regel.
 

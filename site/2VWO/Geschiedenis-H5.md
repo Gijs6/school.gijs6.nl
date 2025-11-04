@@ -10,7 +10,7 @@ Door de agrarische en transportrevolutie, verbeteringen in de medische zorg en t
 
 ## Fabrieken op stoomkracht
 
-In de 17e begonnen boeren ook **huisnijverheid** uit te voeren: het thuis verwerken van grondstoffen. Hieronder zie je een overzicht van belangrijke uitvindingen uit die tijd:
+In de 17e eeuw begonnen boeren ook **huisnijverheid** uit te voeren: het thuis verwerken van grondstoffen. Hieronder zie je een overzicht van belangrijke uitvindingen uit die tijd:
 
 | **Uitvinding** | **Uitvinder** | **Gevolg/doel** |
 |----|----|----|

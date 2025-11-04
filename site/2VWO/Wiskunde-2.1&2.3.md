@@ -18,6 +18,6 @@ Het middelpunt van de omgeschreven cirkel is het snijpunt van de middelloodlijne
 
 ## Bissectrice en ingeschreven cirkel
 
-De bissectrice deelt een hoek door 2. In de afbeelding hiernaast zie je de bissectrices van ∠A, ∠B en ∠C. Elk punt van de bissectrice ligt even ver van de beenderen uit de hoek die de bissectrice middendoor deelt. De elk punt op bissectrice van uit hoek C ligt dus even ver van AC als van BC.
+De bissectrice deelt een hoek door 2. In de afbeelding hiernaast zie je de bissectrices van ∠A, ∠B en ∠C. Elk punt van de bissectrice ligt even ver van de benen van de hoek die de bissectrice middendoor deelt. Elk punt op de bissectrice vanuit hoek C ligt dus even ver van AC als van BC.
 
 De ingeschreven cirkel van een driehoek is de cirkel die alle 3 de zijden raakt. Het middelpunt van deze cirkel is het snijpunt van de bissectrices van de driehoek. Je hoeft maar 2 bissectrices te tekenen om het middelpunt te vinden.

@@ -45,7 +45,7 @@ Er zijn 3 typen gewrichten. Bij een **rolgewricht** draait het ene bot over het 
 | Pijpbeenderen | Botten met geel beenmerg in de mergholte en rood beenmerg in de kop |
 | Geel beenmerg | Beenmerg dat zich bevindt in de mergholte van pijpbeenderen |
 | Rood beenmerg | Beenmerg dat zich bevindt in de koppen van pijpbeenderen en in platte beenderen |
-| Platte beenderen | In deze boten zit rood beenmerg |
+| Platte beenderen | In deze **botten** zit rood beenmerg |
 | Kalkzouten | Geven stevigheid aan het botweefsel |
 | Collageen | Zorgt ervoor dat botweefsel een beetje buigzaam blijft |
 | Kraakbeenweefsel | Weefsel dat stevig en goed buigzaam is |

@@ -75,7 +75,7 @@ Je kunt ***used t**o* gebruiken voor iets wat vroeger zo was, maar nu niet meer.
 
 ### Conjunctions
 
-Conjunctions zij voegwoorden. Ze verbinden zinsdelen. Conjunctions hebben een eigen functie.
+Conjunctions zijn voegwoorden. Ze verbinden zinsdelen. Conjunctions hebben een eigen functie.
 
 <table>
 <colgroup>

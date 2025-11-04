@@ -16,7 +16,7 @@ Beeldhouwen is het maken van een voorstelling met hard materiaal, bijvoorbeeld s
 
 - **Beitel**: dit platte gereedschap heeft een scherp randje. Je plaatst de beitel op de plek waar je wat materiaal af wilt slaan en slaat er met je hamer tegen aan.
 
-- **Vijl**: met gereedschap kun je je werkstuk glad schuren.
+- **Vijl**: met dit gereedschap kun je je werkstuk glad schuren.
 
 Een **constructie** is een nieuw stevig geheel dat gemaakt is van losse onderdelen; er worden vaste verbindingen gemaakt. **Formeren** is het samenvoegen van losse onderdelen tot een nieuw geheel, zonder dat er gebruik wordt gemaakt van vaste verbindingen. Bijvoorbeeld het opstapelen of bij elkaar leggen van onderdelen. Een beeld dat beweging suggereert, noem je **dynamisch**. Dit geldt voor platte en ruimtelijke voorstellingen. Een **statisch** beeld is het tegenovergestelde van een dynamisch beeld; het suggereert geen beweging. Een beeld is **open** als de houding van het mensbeeld een open suggestie heeft: de ledematen steken de ruimte in. Een open beeld gaat vaak samen met dynamische mensbeelden. Een beeld is **gesloten** als de houding van het mensbeeld een gesloten suggestie heeft: de ledematen zijn tegen het lichaam geplaatst. Een gesloten beeld gaat vaak samen met statische mensbeelden. Als je een kunstwerk **abstraheert** versimpel je hoe het beeld eruit ziet, zonder dat het beeld onherkenbaar wordt. De plasticiteit geeft de kenmerken aan die een beeld levendig doen maken. Deze kenmerken verschillen dus per beeld. Als een kunstwerk **gedeformeerd** is de voorstelling vervormd. Het kunstwerk/de voorstelling is nog wel (deels) te herkennen.
 

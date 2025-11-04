@@ -28,7 +28,7 @@ Bij een **medley** worden verschillende nummers of een gedeelte ervan direct na 
 
 Het **8<sup>VA</sup>-teken** geeft aan dat alle noten onder de stippellijn een octaaf hoger moeten worden gespeeld. Het **8<sup>VB</sup>-teken** geeft aan dat alle noten onder de stippellijn een octaaf lager moeten worden gespeeld.
 
-## # Speeltechnieken
+## Speeltechnieken
 
 Strijkinstrumenten kunnen worden aangestreken (**arco**) of er kan worden getokkeld met de vingers (**pizzicato**).
 
