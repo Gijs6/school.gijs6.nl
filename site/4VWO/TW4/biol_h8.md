@@ -13,7 +13,7 @@ Elke voedselketen begint met een **producent** die **anorganische stoffen** omze
 Ook sommige bacteriën zijn producenten. Bepaalde bacteriën in de grond maken gebruik van **chemosynthese**: ze bouwen organische stoffen op met energie die vrijkomt bij chemische reacties. Deze bacteriën zijn **chemo-autotroof**.  
 Door **voortgezette assimilatie** ontstaan andere organische stoffen. Hiervoor zijn stoffen uit de bodem nodig, zoals stikstof en fosfor.
 
-![Producenten, reducenten en consumenten (img-s) (img-padding) (img-float-right)](images/biol_h8_proredcon.jpg)
+![Producenten, reducenten en consumenten (img-s) (img-padding) (img-float-right)](images/biol_h8/proredcon.jpg)
 
 De **consumenten** eten producenten of andere consumenten, waardoor organische stoffen zich door de voedselketen verplaatsen. Deze organismen zijn **heterotroof**: ze gebruiken organische stoffen van andere organismen.  
 Dode resten van planten en dieren zijn voedsel voor **detrituseters**. Alle overgebleven restjes uit de voedselketens komen uiteindelijk bij de **reducenten** terecht: bacteriën en schimmels. Zij zetten organische stoffen weer om in anorganische stoffen.
@@ -50,7 +50,7 @@ Trofische relaties in ecosystemen zijn moeilijk in kaart te brengen vanwege de e
 
 Een **energiestroomschema** toont op trofisch niveau wat er met de biomassa gebeurt.
 
-![Een energiestroomschema (img-m) (img-padding)](images/biol_h8_energiestroom.jpg)
+![Een energiestroomschema (img-m) (img-padding)](images/biol_h8/energiestroom.jpg)
 
 - De *intake* (**I**) is de hoeveelheid energierijke stoffen die het organisme binnenkrijgt  
 - De *feces* (**F**) is het onverteerbare deel van de voeding dat als ontlasting het lichaam verlaat  
@@ -75,7 +75,7 @@ De primaire productie (groei van fytoplankton) wordt beïnvloed door:
 
 ### Koolstofkringloop
 
-![De snelle koolstofkringloop (img-xl) (img-padding)](images/biol_h8_snkokrlo.jpg)
+![De snelle koolstofkringloop (img-xl) (img-padding)](images/biol_h8/snkokrlo.jpg)
 
 De **snelle koolstofkringloop** bestaat uit alle voedselketens. Planten gebruiken koolstofdioxide uit de atmosfeer om glucose te maken. Consumenten eten deze planten, waarna reducenten de consumenten afbreken. Door **dissimilatie** (het afbreken van organische stoffen) door producenten, consumenten en reducenten komt koolstofdioxide weer vrij in de atmosfeer.
 
@@ -84,7 +84,7 @@ Een opslagplaats van koolstof heet een **sink**. Een plaats waar koolstof vrijko
 
 ### Stikstofkringloop
 
-![De stikstofkringloop (img-xl) (img-padding)](images/biol_h8_stikstof.jpg)
+![De stikstofkringloop (img-xl) (img-padding)](images/biol_h8/stikstof.jpg)
 
 Producenten gebruiken stikstof uit nitraat om aminozuren te vormen. Deze plantaardige eiwitten worden in de voedselketen omgezet in dierlijke eiwitten.
 
@@ -124,7 +124,7 @@ In het **climaxstadium** neemt het aantal soorten toe, terwijl het aantal indivi
 
 Soms blijft de successie steken in een **subclimaxstadium** door het gedrag van dieren.
 
-![Brandganzen in een kwelder (img-m)](images/biol_h8_brandganzen_in_de_kwelder.jpg)
+![Brandganzen in een kwelder (img-m)](images/biol_h8/brandganzen_in_de_kwelder.jpg)
 
 Op de afbeelding zie je brandganzen in een *kwelder*. Hun eetgedrag remt de successie omdat er te weinig organisch materiaal in de bodem komt.
 

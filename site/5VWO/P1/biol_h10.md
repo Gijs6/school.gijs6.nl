@@ -25,7 +25,7 @@ De dubbele bloedsomloop maakt het mogelijk snel en gericht zuurstofrijk bloed na
 
 Het hart bestaat uit twee helften, elk met een **kamer** en een **boezem** (Binas 84C1). Tussen boezems en kamers zitten **hartkleppen**. Tussen kamers en slagaders bevinden zich de **slagaderkleppen** (of **halvemaanvormige kleppen**).
 
-![De anatomie van het hart (img-xl)](images/biol_h10_hart.jpg)
+![De anatomie van het hart (img-xl)](images/biol_h10/hart.jpg)
 
 Het hart pompt bloed door ritmische samentrekkingen (Binas 84D1):
 
@@ -47,7 +47,7 @@ Na de geboorte scheiden de grote en kleine bloedsomloop zich. De longen vullen z
 
 De **bloeddruk** ontstaat door het samentrekken van de kamers. De druk in de slagaders stijgt bij het samentrekken van de kamers: de **systolische druk** (**bovendruk**). Tijdens de **diastole** daalt de druk: de **diastolische druk** (**onderdruk**) (Binas 84E1). Het verschil tussen beide wordt kleiner naarmate het bloed verder van het hart stroomt, omdat het pompeffect afneemt.
 
-![Bloeddrukverloop (img-xl) (img-padding)](images/biol_h10_bloeddruk.jpg)
+![Bloeddrukverloop (img-xl) (img-padding)](images/biol_h10/bloeddruk.jpg)
 
 Bloeddruk wordt officieel gemeten in Pascal (Pa), maar meestal in millimeter kwik (mm Hg).
 
@@ -82,7 +82,7 @@ $\ce{Hb + O2 <--> HbO2}$
 
 Elke heemgroep bindt 1 zuurstofmolecuul. Aan de **zuurstofverzadigingsdiagrammen** (Binas 83D) kun je zien hoe sterk hemoglobine zuurstof bindt bij verschillende concentraties. De **affiniteit** neemt toe naarmate meer zuurstof gebonden is, waardoor hemoglobine efficiënt opneemt in de longen en afgeeft in de organen.
 
-![Zuurstofverzadigingscurve van myoglobine, hemoglobine van een ongeboren kind en volwassene (img-s) (img-padding) (img-float-right)](images/biol_h10_hemo_myo.jpg)
+![Zuurstofverzadigingscurve van myoglobine, hemoglobine van een ongeboren kind en volwassene (img-s) (img-padding) (img-float-right)](images/biol_h10/hemo_myo.jpg)
 
 Naast hemoglobine kan **myoglobine** ($\ce{Mb}$) zuurstof binden. Dit eiwit zit in hart- en skeletspieren en slaat zuurstof op als reserve. Myoglobine heeft hogere affiniteit dan hemoglobine, waardoor het zuurstof langer vasthoudt. Het is geschikt voor opslag, niet voor transport.
 

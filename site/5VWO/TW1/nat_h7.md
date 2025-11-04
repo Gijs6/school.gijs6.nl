@@ -26,7 +26,7 @@ Een trilling kun je weergeven in een **oscillogram** (een u,t-diagram). In dit d
 
 Een **zuivere toon** bestaat uit 1 losse trilling (met dus ook 1 frequentie). Het u,t-diagram van een zuivere toon ziet eruit als een sinuslijn.
 
-![Sinusvormig u,t-diagram van een zuivere toon](images/nat_h7_ut_zuiver.png)
+![Sinusvormig u,t-diagram van een zuivere toon](images/nat_h7/ut_zuiver.png)
 
 De formule die hoort bij het u,t-diagram van een zuivere toon is:
 $$u(t)=A \cdot \sin(\frac{2 \pi}{T} \cdot t)$$
@@ -38,7 +38,7 @@ Hierin is $v_\mathrm{max}$ de maximale snelheid (in $\mathrm{m}/\mathrm{s}$), $A
 
 Een **samengestelde toon** is een samenstelling van meerdere trillingen met verschillende frequenties. De toonhoogte van een samengestelde toon wordt bepaald door de frequentie van de laagste toon (de **grondtoon**). Het u,t-diagram van een samengestelde golf heeft nog wel een herhalend patroon, maar het is geen sinuslijn.
 
-![u,t-diagram van een samengestelde toon met herhalend patroon](images/nat_h7_ut_samengesteld.png)
+![u,t-diagram van een samengestelde toon met herhalend patroon](images/nat_h7/ut_samengesteld.png)
 
 ## Massa-veersysteem
 
@@ -72,14 +72,14 @@ Hierin is $\lambda$ de golflengte (in $\mathrm{m}$), $v$ de golfsnelheid (in $\m
 
 Een **lopende golf** beweegt zich door een tussenstof. De toppen en dalen van zo'n golf verplaatsen zich dus in de tussenstof.
 
-![Lopende golf](images/nat_h7_lopende_golf.gif)
+![Lopende golf](images/nat_h7/lopende_golf.gif)
 
 Er zijn 2 soorten lopende golven:
 
 - **Transversale golven** bewegen op en neer. De trillingsrichting is dan loodrecht op de voortplantingsrichting, zoals golven in water.
 - **Longitudinale golven** zijn drukgolven: ze bewegen heen en weer door uit te rekken en samen te trekken. De trillingsrichting is dan hetzelfde als de voortplantingsrichting, zoals geluidsgolven (zie animatie).
 
-![Longitudinale golven (img-padding)](images/nat_h7_longitudinaal.gif)
+![Longitudinale golven (img-padding)](images/nat_h7/longitudinaal.gif)
 
 In lucht zijn alleen longitudinale golven mogelijk, omdat de deeltjes niet aan elkaar vast zitten.
 
@@ -101,7 +101,7 @@ Om zweven uit te leggen moeten we kijken naar **fase**. De fase ($\phi$) is het 
 
 Door de verschillende frequenties bij zweven komen de golven soms **in fase** aan en soms **uit fase**. Als de golven in fase ($\Delta \phi_\mathrm{red} = 0$) aankomen, versterken ze elkaar. Als de golven uit fase ($\Delta \phi_\mathrm{red} = \frac{1}{2}$) aankomen, heffen ze elkaar juist op. Doordat de frequenties van de twee stemvorken niet gelijk zijn, wisselen de momenten waarop de golven in fase en uit fase zijn steeds af.
 
-![Constructieve en destructieve interferentie](images/nat_h7_faseverschil.png)
+![Constructieve en destructieve interferentie](images/nat_h7/faseverschil.png)
 
 Voor het verschil in fase van 1 punt tussen 2 tijdstippen geldt:
 $$\Delta \phi = \frac{\Delta t}{T}$$
@@ -115,13 +115,13 @@ Hierin is $\Delta \phi$ het faseverschil, $\Delta x$ het afstandsverschil tussen
 
 Een **staande golf** ontstaat door interferentie van twee lopende golven met dezelfde frequentie, golflengte en amplitude die in tegengestelde richting bewegen.
 
-![Een staande golf met subgolven (img-xl)](images/nat_h7_staande_golf_subgolven.gif)
+![Een staande golf met subgolven (img-xl)](images/nat_h7/staande_golf_subgolven.gif)
 
 In de animatie zie je 2 lopende golven die met elkaar interfereren. Op sommige punten versterken de golven elkaar maximaal (daar komen dan twee pieken of twee dalen samen). Deze punten noem je **buiken**. Op andere punten doven de golven elkaar juist volledig uit. Deze punten noem je **knopen**.
 
 Een staande golf staat dus stil.
 
-![Een staande golf](images/nat_h7_staande_golf.gif)
+![Een staande golf](images/nat_h7/staande_golf.gif)
 
 ## Staande golven in buizen
 
@@ -131,7 +131,7 @@ Blaasinstrumenten werken met staande golven in een buis. In de buis zit een **lu
 
 Bij een **open buis** (beide uiteinden open) ontstaan aan de uiteinden altijd buiken, omdat de lucht daar vrij kan bewegen. De eenvoudigste staande golf is de **grondtoon**: dan ontstaat in het midden van de buis een knoop. Er past dan precies een halve golf in de buis (van buik naar buik), want tussen een buik en een knoop zit altijd $\frac{1}{4}\lambda$. Bij de grondtoon is de golflengte dus twee keer zo groot als de lengte van de buis.
 
-![Grondtoon en boventonen in een open buis (img-padding)](images/nat_h7_open_buis.png)
+![Grondtoon en boventonen in een open buis (img-padding)](images/nat_h7/open_buis.png)
 
 Naast de grondtoon kunnen er ook **boventonen** ontstaan. Bij de eerste boventoon past er precies 1 golf in de buis (met 2 knopen). Bij de tweede boventoon passen er 1,5 golven in de buis (met 3 knopen), enzovoort. Bij elke boventoon komt er een knoop en een buik bij.
 
@@ -151,7 +151,7 @@ De boventonen hebben dus steeds een frequentie die 2x, 3x, 4x, enzovoort zo hoog
 
 Bij een **eenzijdig gesloten buis** ontstaat bij de gesloten kant altijd een knoop (de lucht kan daar niet bewegen), en bij de open kant ontstaat altijd een buik. Bij de grondtoon past er dan een kwart golflengte in de buis. De golflengte van de grondtoon is dus 4 keer zo groot als de lengte van de buis.
 
-![Grondtoon en boventonen in een eenzijdig gesloten buis (img-padding)](images/nat_h7_gesloten_buis.png)
+![Grondtoon en boventonen in een eenzijdig gesloten buis (img-padding)](images/nat_h7/gesloten_buis.png)
 
 Voor een eenzijdig gesloten buis geldt:
 $$l = (2n - 1) \cdot \frac{1}{4}\lambda$$
@@ -173,7 +173,7 @@ Op sommige plekken komen twee toppen tegelijk aan, of twee dalen tegelijk. Dan v
 
 Door dit verschijnsel ontstaat een **interferentiepatroon**. Daarin kun je lijnen met extra hoge pieken en dalen zien (de **buiklijnen**) en lijnen waar de bronnen elkaar (gedeeltelijk) uitdoven (de **knooplijnen**). Op de buiklijnen zijn de golven uit beide bronnen dus in fase (het faseverschil is 0), en op de knooplijnen in tegenfase (het faseverschil is $\frac{1}{2}$).
 
-![Interferentiepatronen (img-xl)](images/nat_h7_interferentie.png)
+![Interferentiepatronen (img-xl)](images/nat_h7/interferentie.png)
 
 Om te bepalen of een punt op een buiklijn of knooplijn ligt, moet je kijken naar het **weglengteverschil**. Het weglengteverschil in een punt is het verschil tussen de afstand van bron A tot het punt en de afstand van bron B tot het punt.
 
@@ -189,7 +189,7 @@ Op knooplijnen is de amplitude echter niet helemaal nul. Dat kan alleen als de a
 
 Wanneer een golf door een opening in een scherm gaat, kan deze gaan **buigen** (uitwaaieren). Of dit gebeurt hangt af van de verhouding tussen de golflengte en de grootte van de opening. **Sterke buiging treedt op wanneer de opening ongeveer even groot is als (of kleiner is dan) de golflengte**. Bij een veel grotere opening buigt de golf nauwelijks.
 
-![Buiging bij een kleine en grote opening (img-padding) (img-xl)](images/nat_h7_buiging.png)
+![Buiging bij een kleine en grote opening (img-padding) (img-xl)](images/nat_h7/buiging.png)
 
 Een golfbundel waaiert tijdens het voortplanten steeds verder uit. De snelheid waarmee dit gebeurt hangt af van de verhouding tussen golflengte en bundelbreedte: een grotere golflengte zorgt voor sneller uitwaaieren.
 
@@ -197,7 +197,7 @@ Een golfbundel waaiert tijdens het voortplanten steeds verder uit. De snelheid w
 
 Als een golf tegen een obstakel aankomt in plaats van door een opening te gaan, krijg je **reflectie** (weerkaatsing). Het gedrag is vergelijkbaar met buiging, maar dan omgekeerd.
 
-![Reflectie bij een groot en klein obstakel (img-padding) (img-xl)](images/nat_h7_reflectie.png)
+![Reflectie bij een groot en klein obstakel (img-padding) (img-xl)](images/nat_h7/reflectie.png)
 
 Als het obstakel groot is ten opzichte van de golflengte (linker figuur), ontstaat er achter het obstakel een "schaduw": de golven buigen niet om het obstakel heen. De gereflecteerde golf kaatst terug alsof het obstakel een vlakke spiegel is. Als het obstakel klein is ten opzichte van de golflengte (rechter figuur), buigen de golven wel om het obstakel heen. De gereflecteerde golf is dan bolvormig, alsof het obstakel een puntbron is geworden.
 

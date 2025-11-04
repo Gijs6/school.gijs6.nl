@@ -19,7 +19,7 @@ Soms wordt **elektronvolt** ($\mathrm{eV}$) gebruikt als eenheid voor energie: $
 Het **ioniserend vermogen** is het vermogen om elektronen uit atomen los te maken.  
 Het **doordringend vermogen** is het gemak waarmee straling door huid en weefsel dringt.
 
-![De eerste röntgenfoto ooit (img-s)](images/nat_h5_rontgenfotohand.jpg)
+![De eerste röntgenfoto ooit (img-s)](images/nat_h5/rontgenfotohand.jpg)
 
 Op röntgenfoto's zie je donkere en lichte gebieden. Donkere gebieden ontstaan door **transmissie** (veel straling doorgelaten), lichte gebieden door **absorptie** (veel straling geabsorbeerd).
 

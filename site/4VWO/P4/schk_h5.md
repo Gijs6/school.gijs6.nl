@@ -17,7 +17,7 @@ Bij vaste stoffen vallen de moleculen uit elkaar, waardoor het een vloeistof wor
 
 Bij een covalente binding in $\ce{H2}$ wordt het elektronenpaar gelijk verdeeld. Maar in $\ce{HF}$ trekt fluor harder aan het gedeelde elektronenpaar dan waterstof, waardoor de binding verschuift. Fluor krijgt hierdoor een gedeeltelijke negatieve lading ($\delta^-$) en waterstof een positieve lading ($\delta^+$). Dit noem je **partiële ladingen**. Zo'n binding heet een **polaire (atoom)binding**.
 
-![Polaire atoombinding (img-m)](./images/schk_h5_polair.jpg)
+![Polaire atoombinding (img-m)](./images/schk_h5/polair.jpg)
 
 Elementen die graag een elektron willen hebben zijn **elektronegatief**, zoals fluor, zuurstof, stikstof, chloor, broom en jood (FONClBrI), die rechtsboven in het periodiek systeem staan.
 
@@ -36,7 +36,7 @@ Bij polaire stoffen is er ook een dipool-dipoolbinding, waarbij de negatieve kan
 
 Ondanks dat $\ce{CO2}$ een elektronegatief element heeft, is het een apolaire stof, omdat de 2 polaire bindingen elkaar opheffen doordat de atomen op 1 lijn liggen.
 
-![Koolstofdioxide (img-m)](./images/schk_h5_co2.jpg)
+![Koolstofdioxide (img-m)](./images/schk_h5/co2.jpg)
 
 Bij water liggen de atomen niet op 1 lijn, waardoor het wel polair is.
 
@@ -54,7 +54,7 @@ Het maximale aantal waterstofbruggen hangt af van de atomen in de groep:
 De waterstofbrug is de sterkste kracht tussen moleculen.  
 Waterstofbruggen teken je als stippellijntjes tussen de atomen.
 
-![Waterstofbruggen (img-m)](./images/schk_h5_hbrug.jpg)
+![Waterstofbruggen (img-m)](./images/schk_h5/hbrug.jpg)
 
 ## Oplossen en mengen
 
@@ -68,7 +68,7 @@ Ethanol lost goed op in water doordat de $\ce{OH}$-groep waterstofbruggen vormt 
 
 Carbonzuren hebben een **carboxylgroep** ($\ce{COOH}$). Deze zuurgroep bestaat uit een koolstofatoom, een $\ce{OH}$-groep en een zuurstofatoom dat dubbel gebonden is aan koolstof.
 
-![Carboxylgroep (img-s)](./images/schk_h5_carbonzuur.jpg)
+![Carboxylgroep (img-s)](./images/schk_h5/carbonzuur.jpg)
 
 Een **alkaanzuur** is een eenvoudig carbonzuur met een alkaanketen en 1 carboxylgroep. De algemene formule van een alkaanzuur is $\ce{C_{n-1}H_{2n-1}COOH}$. De systematische naam bestaat uit de stamnaam van de koolstofketen en het achtervoegsel *-zuur*, zoals ethaanzuur. Het koolstofatoom in de carboxylgroep telt ook mee voor de langste koolstofketen.  
 Kleine carbonzuren zijn hydrofiel, maar naarmate de koolstofketen langer wordt, neemt de oplosbaarheid af.
@@ -82,25 +82,25 @@ Aminozuren bevatten zowel een $\ce{COOH}$-groep als een $\ce{NH2}$-groep. De mee
 Een **emulgator** zorgt dat twee stoffen die normaal niet mengen, toch mengen. Zo'n mengsel heet een **emulsie** (inclusief de emulgator zelf).  
 De emulgator heeft een apolaire koolstofstaart en een polaire hydrofiele kop.
 
-![Een stearaation (img-m)](./images/schk_h5_stearaat.jpg)
+![Een stearaation (img-m)](./images/schk_h5/stearaat.jpg)
 
 Een bekende emulgator is natriumstearaat. Deze emulgator wordt bijvoorbeeld in handzeep gebruikt. Het stearaation (zie afbeelding) is een emulgator.  
 De apolaire staarten gaan het vet binnen, terwijl de polaire koppen in het water blijven. Zo ontstaan er bolletjes van vet met emulgator eromheen: **micellen**.  
 Deze micellen zijn goed oplosbaar in water, want de koppen zijn wel polair.
 
-![Stearaat in een bol vet (img-m)](./images/schk_h5_stearaat_vetbol.jpg)
+![Stearaat in een bol vet (img-m)](./images/schk_h5/stearaat_vetbol.jpg)
 
 Je kunt dit ook omgekeerd toepassen: als je een druppeltje water in een fles olie doet, en je voegt een emulgator toe, zullen de polaire koppen in het druppeltje water gaan zitten en de apolaire staarten steken naar buiten.
 
 En als je natriumstearaat in water oplost, zullen de polaire koppen in het water gaan zitten, maar de hydrofobe apolaire staarten willen niet in het water. Die zullen daarom in de lucht steken.
 
-![Stearaat met staarten in de lucht (img-m)](./images/schk_h5_stearaat_water_lucht.jpg)
+![Stearaat met staarten in de lucht (img-m)](./images/schk_h5/stearaat_water_lucht.jpg)
 
 ## Oppervlaktespanning
 
 Watermoleculen trekken elkaar sterk aan door waterstofbruggen. De bovenste watermoleculen hebben geen moleculen boven zich, waardoor ze naar binnen worden getrokken. Dit zorgt ervoor dat het wateroppervlak als een vlies aanvoelt: **oppervlaktespanning**.
 
-![Oppervlaktespanning (img-s)](./images/schk_h5_oppervlaktespanning.jpg)
+![Oppervlaktespanning (img-s)](./images/schk_h5/oppervlaktespanning.jpg)
 
 ## Hydratatie
 

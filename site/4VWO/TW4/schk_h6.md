@@ -34,7 +34,7 @@ $\ce{2 \ NO2 (g) <--> N2O4 (g)}$
 - **Homogeen evenwicht**: alle stoffen hebben dezelfde fase  
 - **Heterogeen evenwicht**: er zijn verschillende fasen
 
-![Grafiek van reactiesnelheden (img-m) (img-padding)](images/schk_h6_evenwicht.jpg)
+![Grafiek van reactiesnelheden (img-m) (img-padding)](images/schk_h6/evenwicht.jpg)
 
 De heengaande reactie begint snel en neemt af tot het punt waar de reactiesnelheden gelijk aan elkaar zijn. De teruggaande reactie begint op 0, omdat er nog geen stoffen aan de rechterkant zijn. Vanaf de **insteltijd** ($t_{ev}$) gaan de reacties even snel: er is een evenwicht ontstaan.
 

@@ -14,11 +14,11 @@ Er zijn 5 belangrijke (soorten) voedingsstoffen: water, mineralen, koolhydraten,
 
 **Koolhydraten** zijn verbindingen die bestaan uit koolstof-, waterstof- en zuurstofatomen. Alle koolhydraten bevatten meerdere $\ce{OH}$-groepen.
 
-![Een monosacharide (img-xs) (img-float-right)](images/nlt_koken_monosacharide.png)
+![Een monosacharide (img-xs) (img-float-right)](images/nlt_koken/monosacharide.png)
 
 **Monosachariden** (enkelvoudige suikers) (Binas 67F1) zijn de simpelste koolhydraten. Ze bestaan uit een koolstofring met daaraan $\ce{OH}$-groepen die naar boven of beneden kunnen staan. Je kunt de verschillende monosachariden dus onderscheiden op basis van de "richting" van de $\ce{OH}$-groepen. Je telt dan vanaf het zuurstofatoom in de ring naar de koolstofstaart.
 
-![Een disacharide (img-s) (img-float-right) (img-clear-both)](images/nlt_koken_disacharide.png)
+![Een disacharide (img-s) (img-float-right) (img-clear-both)](images/nlt_koken/disacharide.png)
 
 **Disachariden** (dubbele suikers) (Binas 67F2) bestaan uit twee monosachariden die aan elkaar zijn gekoppeld. Hierbij wordt water afgesplitst. De reactie van disacharide naar monosacharide is een **hydrolyse**. Voorbeelden van disachariden zijn sacharose (gewone tafelsuiker) en lactose (melksuiker).
 
@@ -26,12 +26,12 @@ Er zijn 5 belangrijke (soorten) voedingsstoffen: water, mineralen, koolhydraten,
 
 ### Vetten
 
-![Glycerol (img-xs) (img-float-right) (img-padding)](images/nlt_koken_glycerol.png)
+![Glycerol (img-xs) (img-float-right) (img-padding)](images/nlt_koken/glycerol.png)
 
 Vetten en oliën bestaan uit 2 belangrijke beginstoffen: **vetzuren** (Binas 67G2) en **glycerol** (propaan-1,2,3-triol).  
 Vetzuren bestaan uit een lange koolstofketen met een zuurgroep. Glycerol is een alcohol.
 
-![Glycerol (img-s) (img-float-right) (img-clear-both)](images/nlt_koken_vetvorming_ester.png)
+![Glycerol (img-s) (img-float-right) (img-clear-both)](images/nlt_koken/vetvorming_ester.png)
 
 Bij het maken van een vet of olie reageren drie vetzuren met glycerol (Binas 67G1). Hierbij wordt water afgesplitst. Het gevormde vet of olie is een **triglyceride** (of een **ester**).
 
@@ -47,7 +47,7 @@ Een triglyceride met **3 verzadigde vetzuren** is een **vet** (vast bij kamertem
 
 ### Eiwitten
 
-![Basis van een aminozuur (img-s) (img-float-right)](images/nlt_koken_aminozuur.png)
+![Basis van een aminozuur (img-s) (img-float-right)](images/nlt_koken/aminozuur.png)
 
 **Eiwitten** bestaan uit **aminozuren** (Binas 67H1). Deze stoffen bestaan uit een **aminegroep** en een **organisch zuur**. In de afbeelding zie je de basis van alle aminozuren. De aminozuren verschillen alleen door de verschillende restgroepen.
 
@@ -76,7 +76,7 @@ Bij dit onderzoek is het belangrijk dat je geen vooroordelen vormt. Zo moet je d
 
 Een emulgator is een molecuul met een hydrofiele kop en een hydrofobe staart. Deze moleculen vormen **micellen**: de emulgator plaatst zich rondom druppeltjes van de ene stof, waardoor kleine stabiele belletjes in de andere stof kunnen blijven zweven.
 
-![Emulsie met emulgator onder de microscoop (img-s)](images/nlt_koken_microscoop_emulgator.png) ![Emulsie zonder emulgator onder de microscoop (img-s)](images/nlt_koken_microscoop_zonder_emulgator.png)
+![Emulsie met emulgator onder de microscoop (img-s)](images/nlt_koken/microscoop_emulgator.png) ![Emulsie zonder emulgator onder de microscoop (img-s)](images/nlt_koken/microscoop_zonder_emulgator.png)
 
 ## Schuim (dataverwerking)
 

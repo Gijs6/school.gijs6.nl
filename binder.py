@@ -36,29 +36,24 @@ init()
 # CONSTANTS
 
 
-# Directory paths
 SITE_DIR = "site"
 BUILD_DIR = "build"
 TEMPLATES_DIR = "site/templates"
 DATA_DIR = "site/data"
 
-# File paths
 RESOURCES_JSON = "site/data/resources.json"
 
-# Web configuration
 SITE_URL = "https://school.gijs6.nl"
 SITE_TITLE = "Leermiddelenoverzicht"
 SITE_DESCRIPTION = "Een verzameling van samenvattingen en leermiddelen"
 AUTHOR_NAME = "Gijs ten Berg"
 AUTHOR_EMAIL = "gijs6@dupunkto.org"
 
-# Regex patterns
 VWO_YEAR_PATTERN = re.compile(r"(\d)VWO")
 ARCHIVE_YEAR_PATTERN = re.compile(r"[23]VWO")
 PERIOD_PATTERN = re.compile(r"([A-Z]+)(\d+)")
 FRONT_MATTER_PATTERN = re.compile(r"^---\n(.*?)\n---", re.DOTALL)
 
-# Subject icon mapping
 SUBJECT_ICONS = {
     "BIOL": "fa-solid fa-seedling",
     "ENTL": "ENTL",
@@ -82,9 +77,6 @@ SUBJECT_NAMES = {
     "MAAT": "Maatschappijleer",
     "NLT": "NLT",
 }
-
-
-# HELPER FUNCTIONS
 
 
 def parse_front_matter(content):
@@ -408,9 +400,6 @@ def generate_feeds(build_dir, homepage_data, md_cache):
         f.write(fg.atom_str(pretty=True))
 
 
-# CONTENT PROCESSING
-
-
 def remove_base64_images(html_content):
     return re.sub(r'<img[^>]*src="data:image/[^"]*"[^>]*>', "", html_content)
 
@@ -563,9 +552,6 @@ def process_markdown_files(build_dir, template_env, md_processor, dev=False):
     return homepage_data, md_cache
 
 
-# DEV SERVER
-
-
 class BuildHandler(FileSystemEventHandler):
     def __init__(self, build_func):
         self.build_func = build_func
@@ -627,9 +613,6 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
             return
 
         self.send_error(404, "File not found")
-
-
-# BUILD PROCESS
 
 
 def build(dev=False):
@@ -701,9 +684,6 @@ def serve(port=8000, dev=False):
         observer.stop()
         server.shutdown()
         observer.join()
-
-
-# CLI ENTRY POINT
 
 
 if __name__ == "__main__":
