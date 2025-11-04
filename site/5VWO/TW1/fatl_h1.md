@@ -50,12 +50,15 @@ Als je *être* gebruikt als hulpwerkwoord, moet je het voltooid deelwoord laten 
 
 Bij de onregelmatige werkwoorden gebruik je een ander voltooid deelwoord:
 
-| **Werkwoord** | **Voltooid deelwoord** | **Werkwoord** | **Voltooid deelwoord** |
-| ------------- | ---------------------- | ------------- | ---------------------- |
-| *avoir*       | *eu*                   | *pouvoir*     | *pu*                   |
-| *être*        | *été*                  | *vouloir*     | *voulu*                |
-| *faire*       | *fait*                 | *voir*        | *vu*                   |
-| *prendre*     | *pris*                 | *devoir*      | *dû*                   |
+| **Werkwoord** | **Voltooid deelwoord** |
+| ------------- | ---------------------- |
+| *avoir*       | *eu*                   |
+| *être*        | *été*                  |
+| *faire*       | *fait*                 |
+| *prendre*     | *pris*                 |
+| *pouvoir*     | *pu*                   |
+| *vouloir*     | *voulu*                |
+| *voir*        | *vu*                   |
 
 #### Imparfait
 
@@ -95,12 +98,16 @@ Bij zinnen die beginnen met *si* (als), en dus een voorwaarde aangeven, gebruik 
 
 Bij de onregelmatige werkwoorden gebruik je een andere stam:
 
-| **Werkwoord** | **Stam** | **Werkwoord** | **Stam**  |
-| ------------- | -------- | ------------- | --------- |
-| *avoir*       | *aur-*   | *pouvoir*     | *pourr-*  |
-| *être*        | *ser-*   | *vouloir*     | *voudr-*  |
-| *aller*       | *ir-*    | *venir*       | *viendr-* |
-| *faire*       | *fer-*   | *voir*        | *verr-*   |
+| **Werkwoord** | **Stam**  |
+| ------------- | --------- |
+| *avoir*       | *aur-*    |
+| *être*        | *ser-*    |
+| *aller*       | *ir-*     |
+| *faire*       | *fer-*    |
+| *pouvoir*     | *pourr-*  |
+| *vouloir*     | *voudr-*  |
+| *venir*       | *viendr-* |
+| *voir*        | *verr-*   |
 
 #### Conditionnel
 
