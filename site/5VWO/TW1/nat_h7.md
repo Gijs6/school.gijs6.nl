@@ -97,19 +97,19 @@ Het **dopplereffect** treedt op als de geluidsbron en de waarnemer van elkaar af
 
 Als je 2 stemvorken met net een andere frequentie beide aanslaat, hoor je steeds dezelfde toonhoogte, maar de geluidssterkte varieert. Dit afwisselend luider en zachter worden van het geluid noem je **zweven**.
 
-Om zweven uit te leggen moeten we kijken naar **fase**. De fase ($\phi$) is het aantal trillingen dat een punt heeft gemaakt. De gereduceerde fase $\phi_\mathrm{red}$ is het deel van de trilling binnen de huidige periode (dus een getal tussen 0 en 1). Je kijkt dan dus niet naar de volledige trillingen ervoor.
+Om zweven uit te leggen moeten we kijken naar **fase**. De fase ($\varphi$) is het aantal trillingen dat een punt heeft gemaakt. De gereduceerde fase $\varphi_\mathrm{red}$ is het deel van de trilling binnen de huidige periode (dus een getal tussen 0 en 1). Je kijkt dan dus niet naar de volledige trillingen ervoor.
 
-Door de verschillende frequenties bij zweven komen de golven soms **in fase** aan en soms **uit fase**. Als de golven in fase ($\Delta \phi_\mathrm{red} = 0$) aankomen, versterken ze elkaar. Als de golven uit fase ($\Delta \phi_\mathrm{red} = \frac{1}{2}$) aankomen, heffen ze elkaar juist op. Doordat de frequenties van de twee stemvorken niet gelijk zijn, wisselen de momenten waarop de golven in fase en uit fase zijn steeds af.
+Door de verschillende frequenties bij zweven komen de golven soms **in fase** aan en soms **uit fase**. Als de golven in fase ($\Delta \varphi_\mathrm{red} = 0$) aankomen, versterken ze elkaar. Als de golven uit fase ($\Delta \varphi_\mathrm{red} = \frac{1}{2}$) aankomen, heffen ze elkaar juist op. Doordat de frequenties van de twee stemvorken niet gelijk zijn, wisselen de momenten waarop de golven in fase en uit fase zijn steeds af.
 
 ![Constructieve en destructieve interferentie](images/nat_h7/faseverschil.png)
 
 Voor het verschil in fase van 1 punt tussen 2 tijdstippen geldt:
-$$\Delta \phi = \frac{\Delta t}{T}$$
-Hierin is $\Delta \phi$ het faseverschil, $\Delta t$ het tijdsverschil (in $\mathrm{s}$) en $T$ de trillingstijd (in $\mathrm{s}$).
+$$\Delta \varphi = \frac{\Delta t}{T}$$
+Hierin is $\Delta \varphi$ het faseverschil, $\Delta t$ het tijdsverschil (in $\mathrm{s}$) en $T$ de trillingstijd (in $\mathrm{s}$).
 
 Het faseverschil tussen 2 punten bij een lopende golf is constant. Er geldt:
-$$\Delta \phi = \frac{\Delta x}{\lambda}$$
-Hierin is $\Delta \phi$ het faseverschil, $\Delta x$ het afstandsverschil tussen de punten (in $\mathrm{m}$) en $\lambda$ de golflengte (in $\mathrm{m}$).
+$$\Delta \varphi = \frac{\Delta x}{\lambda}$$
+Hierin is $\Delta \varphi$ het faseverschil, $\Delta x$ het afstandsverschil tussen de punten (in $\mathrm{m}$) en $\lambda$ de golflengte (in $\mathrm{m}$).
 
 ## Staande golven
 
