@@ -15,34 +15,34 @@ Een constante nettokracht kun je ook terugzien in een v,t-diagram: er is dan een
 
 ## Versnellen en vertragen
 
-De **versnelling** is de snelheidsverandering per seconde. De versnelling is dus niet nul als de nettokracht niet nul is. De versnelling is altijd de helling (richtingscoëfficiënt) van een v,t-diagram. De versnelling kun je bij een eenparig versnelde beweging berekenen met a=vt . De gemiddelde versnelling bereken je met agem=vt, waarbij je gebruikt maakt van het begin- en eindpunt van de grafiek. Om de versnelling op 1 tijdstip te berekenen moet je een raaklijn tekenen in het v,t-diagram, en daar vervolgens de helling (met vt) van berekenen.
+De **versnelling** is de snelheidsverandering per seconde. De versnelling is dus niet nul als de nettokracht niet nul is. De versnelling is altijd de helling (richtingscoëfficiënt) van een v,t-diagram. De versnelling kun je bij een eenparig versnelde beweging berekenen met $a = \frac{\Delta v}{\Delta t}$. De gemiddelde versnelling bereken je met $a_{\text{gem}} = \frac{\Delta v}{\Delta t}$, waarbij je gebruikt maakt van het begin- en eindpunt van de grafiek. Om de versnelling op 1 tijdstip te berekenen moet je een raaklijn tekenen in het v,t-diagram, en daar vervolgens de helling (met $\frac{\Delta v}{\Delta t}$) van berekenen.
 
-Er is een **evenredig verband** tussen de versnelling en de nettokracht bij een versnelde of vertraagde beweging. Hoe groter de nettokracht, hoe groter de versnelling.  
-De versnelling van een voorwerp hangt naast de nettokracht ook af van de massa. Om een vrachtwagen te laten versnellen heb je meer nettokracht nodig dan bij een fiets. De versnelling is dus **omgekeerd evenredig** met de massa (bij een gelijke nettokracht).  
-Deze twee verbanden kun je in een formule zetten: Fres=ma (tweede wet van Newton).
+Er is een **evenredig verband** tussen de versnelling en de nettokracht bij een versnelde of vertraagde beweging. Hoe groter de nettokracht, hoe groter de versnelling.
+De versnelling van een voorwerp hangt naast de nettokracht ook af van de massa. Om een vrachtwagen te laten versnellen heb je meer nettokracht nodig dan bij een fiets. De versnelling is dus **omgekeerd evenredig** met de massa (bij een gelijke nettokracht).
+Deze twee verbanden kun je in een formule zetten: $F_{\text{res}} = m \cdot a$ (tweede wet van Newton).
 
 De **traagheid** van een voorwerp geeft aan hoeveel "moeite" er gedaan moet worden om de snelheid te veranderen. Een zwaar voorwerp heeft dus een grote traagheid.
 
 ## Afstand en beweging
 
 Een x,t-diagram geeft de positie van het startpunt weer op elk tijdstip. In een x,t-diagram is de helling van de lijn op een bepaald punt (of de helling van de raaklijn op dat punt) gelijk aan de snelheid op dat punt.
-Bij een constante snelheid is het x,t-diagram een rechte lijn. Hoe steiler deze lijn, hoe hoger de snelheid.  
-Bij een versnelde of vertraagde beweging, is het x,t-diagram een kromme lijn.  
-In een x,t-diagram kun je zowel de gemiddelde snelheid als de snelheid op 1 punt bepalen. De gemiddelde snelheid bereken je met vgem=xt. De snelheid op een bepaald moment is gelijk aan de helling van de raaklijn op dat punt.
+Bij een constante snelheid is het x,t-diagram een rechte lijn. Hoe steiler deze lijn, hoe hoger de snelheid.
+Bij een versnelde of vertraagde beweging, is het x,t-diagram een kromme lijn.
+In een x,t-diagram kun je zowel de gemiddelde snelheid als de snelheid op 1 punt bepalen. De gemiddelde snelheid bereken je met $v_{\text{gem}} = \frac{\Delta x}{\Delta t}$. De snelheid op een bepaald moment is gelijk aan de helling van de raaklijn op dat punt.
 
-Bij een eenparige beweging mag je de formule s=vt gebruiken. Bij alle beweging mag je de formule s=vgemt (of x=vgemt) gebruiken.
+Bij een eenparige beweging mag je de formule $s = v \cdot t$ gebruiken. Bij alle beweging mag je de formule $s = v_{\text{gem}} \cdot t$ (of $x = v_{\text{gem}} \cdot t$) gebruiken.
 
 In een v,t-diagram is de oppervlakte onder de grafiek gelijk aan de afgelegde afstand. Soms moet je hiervoor het aantal hokjes tellen.
 
 ## Vallen
 
-Een licht voorwerp met een groot oppervlakte valt langzamer dan een zwaar voorwerp met een klein oppervlakte. Dit komt doordat de zwaartekracht en de luchtweerstandskracht bij het lichte voorwerp sneller aan elkaar gelijk zijn dan bij het zware voorwerp. Zodra deze twee krachten aan elkaar gelijk zijn, is de nettokracht nul, waardoor het voorwerp niet meer versnelt. Bij een zwaar voorwerp is de zwaartekracht groter (want Fz=mg), waardoor het langer duurt voordat de nettokracht nul is, waardoor het voorwerp dus langer kan versnellen.
+Een licht voorwerp met een groot oppervlakte valt langzamer dan een zwaar voorwerp met een klein oppervlakte. Dit komt doordat de zwaartekracht en de luchtweerstandskracht bij het lichte voorwerp sneller aan elkaar gelijk zijn dan bij het zware voorwerp. Zodra deze twee krachten aan elkaar gelijk zijn, is de nettokracht nul, waardoor het voorwerp niet meer versnelt. Bij een zwaar voorwerp is de zwaartekracht groter (want $F_z = m \cdot g$), waardoor het langer duurt voordat de nettokracht nul is, waardoor het voorwerp dus langer kan versnellen.
 
-Een **vrije val** is een val zonder luchtweerstandskracht. Bij een vrije val is er altijd sprake van een eenparig versnelde beweging, met als versnelling de valversnelling (g). Op aarde is deze valversnelling ongeveer 9,81 m/s².  
-De valversnelling is hier gelijk aan de versnelling, omdat Fz=Fres, dus mg=ma, dus g=a.
+Een **vrije val** is een val zonder luchtweerstandskracht. Bij een vrije val is er altijd sprake van een eenparig versnelde beweging, met als versnelling de valversnelling ($g$). Op aarde is deze valversnelling ongeveer $9{,}81~\mathrm{m/s^2}$.
+De valversnelling is hier gelijk aan de versnelling, omdat $F_z = F_{\text{res}}$, dus $m \cdot g = m \cdot a$, dus $g = a$.
 
-De luchtweerstandskracht bereken je met Fw,l=kv2, met k=Acw (dichtheid × frontaal oppervlakte × luchtweerstandscoëfficiënt). Je ziet dus dat de luchtweerstandskracht toeneemt met de snelheid. Bij een val met luchtweerstandskracht is de nettokracht dus niet constant, omdat de luchtweerstand niet constant is.  
-Bij een val met luchtweerstand ontstaat na een tijd een constante snelheid. Dan is Fz=Fw,l.
+De luchtweerstandskracht bereken je met $F_{w,l} = k \cdot v^2$, met $k = \rho \cdot A \cdot c_w$ (dichtheid × frontaal oppervlakte × luchtweerstandscoëfficiënt). Je ziet dus dat de luchtweerstandskracht toeneemt met de snelheid. Bij een val met luchtweerstandskracht is de nettokracht dus niet constant, omdat de luchtweerstand niet constant is.
+Bij een val met luchtweerstand ontstaat na een tijd een constante snelheid. Dan is $F_z = F_{w,l}$.
 
 In het v,t-diagram van een vrije val is de helling gelijk aan de valversnelling.  
 De afgelegde (val)afstand (voor alle soorten vallen) kun je berekenen met de oppervlakte-methode (in het v,t-diagram).

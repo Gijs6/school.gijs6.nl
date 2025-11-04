@@ -116,7 +116,7 @@ Er zijn veel planten die aan **ongeslachtelijke voortplanting** doen, zoals aard
 
 Sommige **anticonceptiemiddelen** voorkomen (naast het voorkomen van zwangerschap) ook de besmetting met soa's.
 
-## Handige Binas-tabellen
+## Handige binas-tabellen
 
 * 76B2 en 76B3: meiose I en II  
 * 84B: bloedsomloop foetus  
