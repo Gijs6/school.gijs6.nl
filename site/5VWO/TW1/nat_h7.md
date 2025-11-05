@@ -175,7 +175,7 @@ De frequentie hangt samen met de golflengte: $f = \frac{v}{\lambda}$. Als de gol
 $$f_0 : f_1 : f_2 : f_3 = 1 : 2 : 3 : 4$$
 De boventonen hebben dus steeds een frequentie die 2x, 3x, 4x, enzovoort zo hoog is als de grondtoon.
 
-> De regels die hier zijn genoemd voor open buizen gelden ook voor snaren.
+> **Snaren** gedragen zich hetzelfde als open buizen, maar dan met knopen in plaats van buiken aan de uiteinden (omdat de snaar daar is vastgemaakt en niet kan bewegen). Bij de grondtoon ontstaat in het midden een buik.
 
 ### Eenzijdig gesloten buis
 
