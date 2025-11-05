@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="nl">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description"
+              content="{% block description %}Samenvattingen en leermiddelen voor school{% endblock %}" />
         <title>
             {% block title %}Leermiddelenoverzicht{% endblock %}
         </title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
-              rel="stylesheet">
-        <link rel="stylesheet" href="/assets/styles/skeleton.css">
-        <link rel="stylesheet" href="/assets/styles/base.css">
-        <link rel="stylesheet" href="/assets/styles/colors.css">
-        <link rel="icon" type="image/x-icon" href="/assets/images/samva.ico">
+              rel="stylesheet" />
+        <link rel="stylesheet" href="/assets/styles/skeleton.css" />
+        <link rel="stylesheet" href="/assets/styles/base.css" />
+        <link rel="stylesheet" href="/assets/styles/colors.css" />
+        <link rel="icon" type="image/x-icon" href="/assets/images/samva.ico" />
+        <link rel="alternate"
+              type="application/rss+xml"
+              title="RSS feed"
+              href="/rss.xml" />
+        <link rel="alternate"
+              type="application/atom+xml"
+              title="Atom feed"
+              href="/atom.xml" />
+        <script src="https://kit.fontawesome.com/4a94c21782.js"
+                crossorigin="anonymous"
+                defer></script>
+        {% block extra_head %}{% endblock %}
         <script>
             async function geoBlock() {
                 let response = await fetch("https://ipwho.is/");
@@ -26,13 +40,15 @@
 
             window.onload = geoBlock;
         </script>
-        <!-- Privacy-friendly analytics by Plausible -->
         <script async src="https://plausible.io/js/pa-4kr7oA2eNIxlj8Ld4UWvF.js"></script>
         <script>
-            window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+            window.plausible = window.plausible || function() {
+                (plausible.q = plausible.q || []).push(arguments)
+            }, plausible.init = plausible.init || function(i) {
+                plausible.o = i || {}
+            };
             plausible.init()
         </script>
-        {% block extra_head %}{% endblock %}
     </head>
     <body class="site-body">
         <main class="site-main">
@@ -53,7 +69,7 @@
                     <a class="footer-link"
                        href="https://creativecommons.org/public-domain/cc0/"
                        target="_blank"
-                       rel="license">publieke domein (CC0)</a>
+                       rel="license noopener">publieke domein (CC0)</a>
                 </p>
                 <p class="footer-contact">
                     Foutje gevonden?
@@ -63,12 +79,14 @@
                     <li class="footer-link-item">
                         <a class="footer-link"
                            href="https://github.com/Gijs6/school.gijs6.nl"
-                           target="_blank">Repository</a>
+                           target="_blank"
+                           rel="noopener">Repository</a>
                     </li>
                     <li class="footer-link-item">
                         <a class="footer-link"
                            href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
-                           target="_blank">Broncode van deze pagina</a>
+                           target="_blank"
+                           rel="noopener">Broncode van deze pagina</a>
                     </li>
                 </ul>
             </footer>

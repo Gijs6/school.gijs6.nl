@@ -29,7 +29,6 @@ publish() {
 
 format() {
   ruff format .
-  npx prettier --write "**/*.{css,js}"
-  npx prettier --write "**/*.{json,xml}"
+  npx prettier --write "**/*.{css,js,json,xml}"
   djlint . --reformat
 }

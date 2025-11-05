@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+
 {% block title %}
     {%- if page.get('subject') and page.get('short') -%}
         {{ page.subject_name }} - {{ page.short }} - Samenvatting
@@ -8,16 +9,6 @@
 {% endblock %}
 {% block extra_head %}
     <link rel="stylesheet" href="/assets/styles/summary.css" />
-    <script src="https://kit.fontawesome.com/4a94c21782.js"
-            crossorigin="anonymous"></script>
-    <link rel="alternate"
-          type="application/rss+xml"
-          title="RSS feed"
-          href="/rss.xml" />
-    <link rel="alternate"
-          type="application/atom+xml"
-          title="Atom feed"
-          href="/atom.xml" />
     <script async
             src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>

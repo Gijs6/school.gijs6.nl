@@ -1,16 +1,7 @@
 {% extends "base.html" %}
+
 {% block extra_head %}
     <link rel="stylesheet" href="/assets/styles/home.css" />
-    <script src="https://kit.fontawesome.com/4a94c21782.js"
-            crossorigin="anonymous"></script>
-    <link rel="alternate"
-          type="application/rss+xml"
-          title="RSS feed"
-          href="/rss.xml" />
-    <link rel="alternate"
-          type="application/atom+xml"
-          title="Atom feed"
-          href="/atom.xml" />
 {% endblock %}
 {% block content %}
     <main class="homepage-container">
@@ -29,12 +20,8 @@
             </p>
         </section>
         <nav class="page-feeds">
-            <a class="page-feeds-link" href="/rss.xml">
-                <i class="fa-solid fa-square-rss"></i> RSS
-            </a>
-            <a class="page-feeds-link" href="/atom.xml">
-                <i class="fa-solid fa-square-rss"></i> Atom
-            </a>
+            <a class="page-feeds-link" href="/rss.xml"> <i class="fa-solid fa-square-rss"></i> RSS </a>
+            <a class="page-feeds-link" href="/atom.xml"> <i class="fa-solid fa-square-rss"></i> Atom </a>
         </nav>
         <section class="homepage-years">
             {% for year, year_data in homepage_data.items() %}
@@ -60,13 +47,17 @@
                                                 <a class="test-link-anchor" href="{{ test_data.summary_link }}">
                                                     <span class="test-item-subject">{{ test_data.subject }}:</span>
                                                     <span class="test-item-material">{{ test_data.test_material }}</span>
-                                                    {% if test_data.test_code %}<span class="test-item-code">({{ test_data.test_code }})</span>{% endif %}
+                                                    {% if test_data.test_code %}
+                                                        <span class="test-item-code">({{ test_data.test_code }})</span>
+                                                    {% endif %}
                                                     <i class="fa-solid fa-arrow-right"></i>
                                                 </a>
                                             {% else %}
                                                 <span class="test-item-subject">{{ test_data.subject }}:</span>
                                                 <span class="test-item-material">{{ test_data.test_material }}</span>
-                                                {% if test_data.test_code %}<span class="test-item-code">({{ test_data.test_code }})</span>{% endif %}
+                                                {% if test_data.test_code %}
+                                                    <span class="test-item-code">({{ test_data.test_code }})</span>
+                                                {% endif %}
                                             {% endif %}
                                             {% if test_data.get('resources') %}
                                                 <ul class="test-item-links">

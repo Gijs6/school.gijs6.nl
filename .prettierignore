@@ -1,0 +1,4 @@
+**/*.html
+site/templates/
+
+build/
