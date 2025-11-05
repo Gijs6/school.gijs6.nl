@@ -10,7 +10,7 @@
 body {
     background: var(--back);
     color: var(--front);
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", "Inter", "Barlow", sans-serif;
     line-height: 1.4;
     max-width: 850px;
     padding: 40px;
