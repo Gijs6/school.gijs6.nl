@@ -32,11 +32,11 @@ Geluid heeft 2 belangrijke eigenschappen: de **frequentie** (bepaalt de toonhoog
 
 Een **klankkast** versterkt geluid door mee te trillen met de bron (bijvoorbeeld een stemvork). De lucht in de klankkast gaat dan mee trillen, waardoor het geluid harder wordt.
 
-**Resonantie** is het meetrillen van twee bronnen. Dit gebeurt alleen als beide bronnen dezelfde frequentie hebben.
+**Resonantie** is het mee trillen van een object met een trillende bron. Dit gebeurt alleen als het object en de bron dezelfde eigenfrequentie hebben.
 
 ## Trillingen weergeven
 
-Een trilling kun je weergeven in een **oscillogram** (een u,t-diagram). In dit diagram zie je op elk tijdstip de **uitwijking** van **1 bepaald punt op de golf**. Je kunt hieruit dus de periode van de trilling aflezen.
+Een trilling kun je weergeven in een **oscillogram** (een u,t-diagram). In dit diagram zie je voor **1 bepaald punt** hoe de **uitwijking** verandert in de tijd. Je kunt hieruit de periode van de trilling aflezen.
 
 Een **zuivere toon** bestaat uit 1 losse trilling (met dus ook 1 frequentie). Het u,t-diagram van een zuivere toon ziet eruit als een sinuslijn.
 
@@ -46,7 +46,7 @@ De formule die hoort bij het u,t-diagram van een zuivere toon is:
 $$u(t)=A \cdot \sin(\frac{2 \pi}{T} \cdot t)$$
 Hierin is $u$ de uitwijking (in $\mathrm{m}$), $A$ de amplitude (in $\mathrm{m}$), $T$ de trillingstijd (in $\mathrm{s}$) en $t$ de tijd (in $\mathrm{s}$).
 
-De maximale snelheid van een trillend punt ontstaat wanneer het punt door de evenwichtsstand gaat, want dan is de helling van het u,t-diagram het steilst. Er geldt:
+De maximale snelheid van een trillend punt treedt op bij de evenwichtsstand, waar de helling van het u,t-diagram het grootst is. Er geldt:
 $$v_\mathrm{max} = \frac{2 \pi \cdot A}{T}$$
 Hierin is $v_\mathrm{max}$ de maximale snelheid (in $\mathrm{m}/\mathrm{s}$), $A$ de amplitude (in $\mathrm{m}$) en $T$ de trillingstijd (in $\mathrm{s}$).
 
@@ -56,17 +56,17 @@ Een **samengestelde toon** is een samenstelling van meerdere trillingen met vers
 
 ## Massa-veersysteem
 
-Een **massa-veersysteem** (simpelweg een massa aan een veer) voert een **harmonische trilling** uit als je de massa naar beneden trekt en weer loslaat. Deze trilling noem je de **eigentrilling** (dus de trilling die ontstaat zonder externe krachten). De frequentie van een massa-veersysteem wordt bepaald door de trillende massa en door de stugheid van de veer die de massa laat trillen.
+Een **massa-veersysteem** (een massa aan een veer) voert een **harmonische trilling** uit als je de massa uitwijkt en loslaat. Deze trilling noem je de **eigentrilling** (de trilling die ontstaat zonder externe krachten). De frequentie wordt bepaald door de massa en de veerconstante.
 
 De trillingstijd van een massa-veersysteem wordt gegeven door:
 $$T = 2\pi \sqrt{\frac{m}{C}}$$
 Hierin is $T$ de trillingstijd (in $\mathrm{s}$), $m$ de massa (in $\mathrm{kg}$) en $C$ de veerconstante (in $\mathrm{N}/\mathrm{m}$).
 
 De veerkracht wordt gegeven door:
-$$\vec{F}_\mathrm{v} = C \cdot \vec{u}$$
+$$\vec{F}_\mathrm{v} = -C \cdot \vec{u}$$
 Hierin is $\vec{F}_\mathrm{v}$ de veerkracht (in $\mathrm{N}$), $C$ de veerconstante (in $\mathrm{N}/\mathrm{m}$) en $\vec{u}$ de uitwijking van de veer (in $\mathrm{m}$).
 
-**Snaren** kunnen trillen op hun eigenfrequentie. Deze hangt af van de massa van de snaar en de spanning die erop staat. Je kunt de massa van het trillende deel aanpassen door de snaar korter of langer te maken (denk aan hoe je je vinger op verschillende plekken op een gitaarsnaar zet). Een snaar gedraagt zich hierdoor vergelijkbaar met een massa-veersysteem.
+**Snaren** kunnen trillen op hun eigenfrequentie. Deze hangt af van de massa van de snaar en de spanning erop. Je kunt de massa van het trillende deel aanpassen door de snaar korter of langer te maken (denk aan hoe je je vinger op verschillende plekken op een gitaarsnaar zet). Een snaar gedraagt zich vergelijkbaar met een massa-veersysteem.
 
 ## Lopende golven
 
@@ -85,21 +85,21 @@ In lucht zijn alleen longitudinale golven mogelijk, omdat de deeltjes niet aan e
 
 ## u,x-diagrammen
 
-Naast u,t-diagrammen kun je ook u,x-diagrammen maken. Bij een u,t-diagram zie je van **1 punt** de uitwijking door de tijd heen. Bij een u,x-diagram zie je voor elk punt in de ruimte wat de uitwijking op dat moment is. Een u,x-diagram is dus eigenlijk een 'foto' van de golf.
+Naast u,t-diagrammen kun je ook u,x-diagrammen maken. Bij een u,t-diagram zie je van **1 punt** de uitwijking door de tijd heen. Bij een u,x-diagram zie je de uitwijking van alle punten op 1 tijdstip. Een u,x-diagram is dus een 'foto' van de golf.
 
 In een u,t-diagram kun je op de x-as de periode bepalen. In een u,x-diagram kun je op de x-as de golflengte bepalen.
 
 ## Dopplereffect
 
-Het **dopplereffect** treedt op als de geluidsbron en de waarnemer van elkaar af bewegen of naar elkaar toe bewegen. Als de bron naar de waarnemer toe beweegt, hoort de waarnemer een hogere frequentie, omdat de geluidsgolven worden "samengedrukt". Als de bron juist van de waarnemer weg beweegt, worden de geluidsgolven "uitgerekt", waardoor de frequentie lager klinkt.
+Het **dopplereffect** treedt op als de geluidsbron en de waarnemer naar elkaar toe of van elkaar af bewegen. Als de bron naar de waarnemer toe beweegt, hoort de waarnemer een hogere frequentie, omdat de geluidsgolven worden "samengedrukt". Als de bron van de waarnemer weg beweegt, worden de geluidsgolven "uitgerekt", waardoor de frequentie lager klinkt.
 
 ## Fase
 
-Als je 2 stemvorken met net een andere frequentie beide aanslaat, hoor je steeds dezelfde toonhoogte, maar de geluidssterkte varieert. Dit afwisselend luider en zachter worden van het geluid noem je **zweven**.
+Als je 2 stemvorken met net een iets andere frequentie beide aanslaat, hoor je steeds dezelfde toonhoogte, maar de geluidssterkte varieert. Dit afwisselend luider en zachter worden van het geluid noem je **zweven**.
 
 Om zweven uit te leggen moeten we kijken naar **fase**. De fase ($\varphi$) is het aantal trillingen dat een punt heeft gemaakt. De gereduceerde fase $\varphi_\mathrm{red}$ is het deel van de trilling binnen de huidige periode (dus een getal tussen 0 en 1). Je kijkt dan dus niet naar de volledige trillingen ervoor.
 
-Door de verschillende frequenties bij zweven komen de golven soms **in fase** aan en soms **uit fase**. Als de golven in fase ($\Delta \varphi_\mathrm{red} = 0$) aankomen, versterken ze elkaar. Als de golven uit fase ($\Delta \varphi_\mathrm{red} = \frac{1}{2}$) aankomen, heffen ze elkaar juist op. Doordat de frequenties van de twee stemvorken niet gelijk zijn, wisselen de momenten waarop de golven in fase en uit fase zijn steeds af.
+Door de verschillende frequenties bij zweven komen de golven soms **in fase** aan en soms **uit fase**. Als de golven in fase ($\Delta \varphi_\mathrm{red} = 0$) aankomen, versterken ze elkaar. Als de golven uit fase ($\Delta \varphi_\mathrm{red} = \frac{1}{2}$) aankomen, heffen ze elkaar op. Doordat de frequenties van de twee stemvorken niet gelijk zijn, wisselen de momenten waarop de golven in fase en uit fase zijn steeds af.
 
 ![Constructieve en destructieve interferentie](images/nat_h7/faseverschil.png)
 
@@ -115,31 +115,31 @@ Hierin is $\Delta \varphi$ het faseverschil, $\Delta x$ het afstandsverschil tus
 
 Volgens het **superpositiebeginsel** mag je 2 golven die elkaar kruisen op dat punt optellen.
 
-Als je twee **coherente** puntbronnen naast elkaar zet, kunnen de golven van beide bronnen met elkaar interfereren. Coherente bronnen hebben dezelfde frequentie en een constant faseverschil. De golven van beide bronnen overlappen dan met elkaar, en op elk punt in de ruimte tellen de uitwijkingen van beide golven zich op.
+Als je twee **coherente** puntbronnen naast elkaar zet, kunnen de golven met elkaar interfereren. Coherente bronnen hebben dezelfde frequentie en een constant faseverschil. De golven overlappen, en op elk punt in de ruimte tellen de uitwijkingen van beide golven zich op.
 
-Op sommige plekken komen twee toppen tegelijk aan, of twee dalen tegelijk. Dan versterken de golven elkaar maximaal, en ontstaat er een extra hoge top of een extra diep dal. Op andere plekken komt een top van de ene bron tegelijk aan met een dal van de andere bron. Dan doven de golven elkaar juist (gedeeltelijk) uit.
+Op sommige plekken komen twee toppen of twee dalen tegelijk aan. Dan versterken de golven elkaar maximaal, en ontstaat er een extra hoge top of een extra diep dal. Op andere plekken komt een top van de ene bron tegelijk aan met een dal van de andere bron. Dan doven de golven elkaar (gedeeltelijk) uit.
 
-Door dit verschijnsel ontstaat een **interferentiepatroon**. Daarin kun je lijnen met extra hoge pieken en dalen zien (de **buiklijnen**) en lijnen waar de bronnen elkaar (gedeeltelijk) uitdoven (de **knooplijnen**). Op de buiklijnen zijn de golven uit beide bronnen dus in fase (het faseverschil is 0), en op de knooplijnen in tegenfase (het faseverschil is $\frac{1}{2}$).
+Door dit verschijnsel ontstaat een **interferentiepatroon** met **buiklijnen** (lijnen met extra hoge pieken en dalen) en **knooplijnen** (lijnen waar de golven elkaar (gedeeltelijk) uitdoven). Op de buiklijnen zijn de golven uit beide bronnen in fase (faseverschil = 0), en op de knooplijnen in tegenfase (faseverschil = $\frac{1}{2}$).
 
 ![Interferentiepatronen (img-xl)](images/nat_h7/interferentie.png)
 
-Om te bepalen of een punt op een buiklijn of knooplijn ligt, moet je kijken naar het **weglengteverschil**. Het weglengteverschil in een punt is het verschil tussen de afstand van bron A tot het punt en de afstand van bron B tot het punt.
+Om te bepalen of een punt op een buiklijn of knooplijn ligt, moet je kijken naar het **weglengteverschil**: het verschil in afstand van beide bronnen tot het punt.
 
-Als het weglengteverschil een geheel aantal keer de golflengte is (dus $0\lambda$, $1\lambda$, $2\lambda$, ...), ligt het punt op een buiklijn. Dat komt omdat de golven dan in fase aankomen: als de ene golf precies 1 golflengte (of 2, of 3, enzovoort) meer heeft afgelegd dan de andere golf, zijn beide golven alsnog op hetzelfde punt in hun trilling. Ze hebben allebei precies een geheel aantal trillingen gemaakt, dus ze komen tegelijk aan met een top (of tegelijk met een dal).
+Als het weglengteverschil een geheel aantal keer de golflengte is ($0\lambda$, $1\lambda$, $2\lambda$, ...), ligt het punt op een buiklijn. De golven komen dan in fase aan: de ene golf heeft precies 1 golflengte (of 2, 3, enzovoort) meer afgelegd dan de andere, waardoor beide golven op hetzelfde punt in hun trilling zijn. Ze komen tegelijk aan met een top (of tegelijk met een dal).
 
 Voor een **buiklijn** geldt:
 $$\Delta x = n \cdot \lambda$$
 Hierin is $\Delta x$ het weglengteverschil (in $\mathrm{m}$), $n$ een geheel getal en $\lambda$ de golflengte (in $\mathrm{m}$).
 
-Als het weglengteverschil een halve golflengte is (of een meervoud daarvan, dus $\frac{1}{2}\lambda$, $1\frac{1}{2}\lambda$, $2\frac{1}{2}\lambda$, ...), ligt het punt op een knooplijn. De golven komen dan in tegenfase aan: de ene golf heeft een halve trilling meer gemaakt dan de andere. Als de ene golf aankomt met een top, komt de andere golf aan met een dal, en ze doven elkaar uit.
+Als het weglengteverschil een oneven aantal halve golflengtes is ($\frac{1}{2}\lambda$, $1\frac{1}{2}\lambda$, $2\frac{1}{2}\lambda$, ...), ligt het punt op een knooplijn. De golven komen dan in tegenfase aan: de ene golf heeft een halve trilling meer gemaakt dan de andere. Als de ene golf aankomt met een top, komt de andere aan met een dal, en ze doven elkaar uit.
 
 Voor een **knooplijn** geldt:
 $$\Delta x = n \cdot \lambda + \frac{1}{2}\lambda$$
 Hierin is $\Delta x$ het weglengteverschil (in $\mathrm{m}$), $n$ een geheel getal en $\lambda$ de golflengte (in $\mathrm{m}$).
 
-Als je de bronnen dichter naar elkaar toe brengt, worden de weglengteverschillen naar punten in de ruimte kleiner. Hierdoor zullen de buik- en knooplijnen divergeren (verder uit elkaar gaan). Als je de bronnen juist uit elkaar beweegt, convergeren de buik- en knooplijnen (ze gaan dichter bij elkaar staan).
+Als je de bronnen dichter naar elkaar toe brengt, worden de weglengteverschillen kleiner. Hierdoor divergeren de buik- en knooplijnen (gaan verder uit elkaar). Als je de bronnen uit elkaar beweegt, convergeren de buik- en knooplijnen (gaan dichter bij elkaar staan).
 
-Op knooplijnen is de amplitude echter niet helemaal nul. Dat kan alleen als de amplitude van beide golven op dat punt precies even groot is, en dat kan alleen als de golven precies dezelfde afstand hebben afgelegd (want de amplitude neemt geleidelijk af naarmate de golf zich voortplant).
+Op knooplijnen is de amplitude echter niet altijd helemaal nul. Dat kan alleen als de amplitude van beide golven op dat punt precies even groot is, wat alleen geldt als de golven dezelfde afstand hebben afgelegd (de amplitude neemt af naarmate de golf zich voortplant).
 
 ## Staande golven
 
@@ -147,7 +147,7 @@ Een **staande golf** ontstaat door interferentie van twee lopende golven met dez
 
 ![Een staande golf met subgolven (img-xl)](images/nat_h7/staande_golf_subgolven.gif)
 
-In de animatie zie je 2 lopende golven die met elkaar interfereren. Op sommige punten versterken de golven elkaar maximaal (daar komen dan twee pieken of twee dalen samen). Deze punten noem je **buiken**. Op andere punten doven de golven elkaar juist volledig uit. Deze punten noem je **knopen**.
+In de animatie zie je 2 lopende golven die met elkaar interfereren. Op sommige punten versterken de golven elkaar maximaal (daar komen twee pieken of twee dalen samen). Deze punten noem je **buiken**. Op andere punten doven de golven elkaar volledig uit. Deze punten noem je **knopen**.
 
 Een staande golf staat dus stil.
 
@@ -159,17 +159,17 @@ Blaasinstrumenten werken met staande golven in een buis. In de buis zit een **lu
 
 ### Open buis
 
-Bij een **open buis** (beide uiteinden open) ontstaan aan de uiteinden altijd buiken, omdat de lucht daar vrij kan bewegen. De eenvoudigste staande golf is de **grondtoon**: dan ontstaat in het midden van de buis een knoop. Er past dan precies een halve golf in de buis (van buik naar buik), want tussen een buik en een knoop zit altijd $\frac{1}{4}\lambda$. Bij de grondtoon is de golflengte dus twee keer zo groot als de lengte van de buis.
+Bij een **open buis** (beide uiteinden open) ontstaan aan de uiteinden altijd buiken, omdat de lucht daar vrij kan bewegen. De eenvoudigste staande golf is de **grondtoon**: dan ontstaat in het midden van de buis een knoop. Er past dan precies een halve golf in de buis (van buik naar buik). Bij de grondtoon is de golflengte dus twee keer de lengte van de buis.
 
 ![Grondtoon en boventonen in een open buis (img-padding)](images/nat_h7/open_buis.png)
 
-Naast de grondtoon kunnen er ook **boventonen** ontstaan. Bij de eerste boventoon past er precies 1 golf in de buis (met 2 knopen). Bij de tweede boventoon passen er 1,5 golven in de buis (met 3 knopen), enzovoort. Bij elke boventoon komt er een knoop en een buik bij.
+Naast de grondtoon kunnen er ook **boventonen** ontstaan. Bij de eerste boventoon past er precies 1 golf in de buis (met 2 knopen). Bij de tweede boventoon passen er 1,5 golven in de buis (met 3 knopen). Bij elke boventoon komt er een knoop en een buik bij.
 
 Voor een open buis geldt:
 $$l = n \cdot \frac{1}{2}\lambda$$
-Hierin is $l$ de lengte van de buis (in $\mathrm{m}$), $n$ een geheel getal (waarbij $n=1$ voor de grondtoon, $n=2$ voor de eerste boventoon etc) en $\lambda$ de golflengte (in $\mathrm{m}$).
+Hierin is $l$ de lengte van de buis (in $\mathrm{m}$), $n$ een geheel getal (waarbij $n=1$ voor de grondtoon, $n=2$ voor de eerste boventoon, etc.) en $\lambda$ de golflengte (in $\mathrm{m}$).
 
-Bij elke boventoon komt er een halve golflengte bij in de buis. Bij de grondtoon past er $\frac{1}{2}\lambda$ in de buis, bij de eerste boventoon past er $1\lambda$ in de buis (dus twee keer zoveel), bij de tweede boventoon $1\frac{1}{2}\lambda$ (drie keer zoveel), enzovoort. Omdat er steeds meer golf in dezelfde buis past, wordt de golflengte steeds korter.
+Bij elke boventoon komt er een halve golflengte bij in de buis. Bij de grondtoon past er $\frac{1}{2}\lambda$ in de buis, bij de eerste boventoon $1\lambda$ (twee keer zoveel), bij de tweede boventoon $1\frac{1}{2}\lambda$ (drie keer zoveel), enzovoort. Omdat er steeds meer golf in dezelfde buis past, wordt de golflengte steeds korter.
 
 De frequentie hangt samen met de golflengte: $f = \frac{v}{\lambda}$. Als de golflengte korter wordt, wordt de frequentie dus hoger. De frequenties hebben daarom de volgende verhoudingen:
 $$f_0 : f_1 : f_2 : f_3 = 1 : 2 : 3 : 4$$
@@ -185,7 +185,7 @@ Bij een **eenzijdig gesloten buis** ontstaat bij de gesloten kant altijd een kno
 
 Voor een eenzijdig gesloten buis geldt:
 $$l = (2n - 1) \cdot \frac{1}{4}\lambda$$
-Hierin is $l$ de lengte van de buis (in $\mathrm{m}$), $n$ een geheel getal (waarbij $n=1$ voor de grondtoon, $n=2$ voor de eerste boventoon etc) en $\lambda$ de golflengte (in $\mathrm{m}$).
+Hierin is $l$ de lengte van de buis (in $\mathrm{m}$), $n$ een geheel getal (waarbij $n=1$ voor de grondtoon, $n=2$ voor de eerste boventoon, etc.) en $\lambda$ de golflengte (in $\mathrm{m}$).
 
 Bij een gesloten buis kunnen alleen bepaalde boventonen ontstaan, omdat er aan de gesloten kant altijd een knoop moet zitten en aan de open kant altijd een buik. Bij de grondtoon past er $\frac{1}{4}\lambda$ in de buis, bij de eerste boventoon $\frac{3}{4}\lambda$ (drie keer zoveel), bij de tweede boventoon $\frac{5}{4}\lambda$ (vijf keer zoveel), enzovoort. Je ziet dat alleen de oneven veelvouden mogelijk zijn.
 
@@ -195,7 +195,7 @@ De frequentie van de eerste boventoon is dus 3x de frequentie van de grondtoon, 
 
 ## Buiging
 
-Wanneer een golf door een opening in een scherm gaat, kan deze gaan **buigen** (uitwaaieren). Of dit gebeurt hangt af van de verhouding tussen de golflengte en de grootte van de opening. **Sterke buiging treedt op wanneer de opening ongeveer even groot is als (of kleiner is dan) de golflengte**. Bij een veel grotere opening buigt de golf nauwelijks.
+Wanneer een golf door een opening in een scherm gaat, kan deze **buigen** (uitwaaieren). Of dit gebeurt hangt af van de verhouding tussen de golflengte en de grootte van de opening. **Sterke buiging treedt op wanneer de opening ongeveer even groot is als (of kleiner dan) de golflengte**. Bij een veel grotere opening buigt de golf nauwelijks.
 
 ![Buiging bij een kleine en grote opening (img-padding) (img-xl)](images/nat_h7/buiging.png)
 
