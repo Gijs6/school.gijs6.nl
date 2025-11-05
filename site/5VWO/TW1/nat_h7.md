@@ -5,16 +5,30 @@ title: Hoofdstuk 7
 description: Trillingen & golven
 ---
 
+## Golven
+
+Golven hebben een aantal eigenschappen:
+
+- **Frequentie ($f$)**: het aantal trillingen per seconde.
+- **Periode / trillingstijd ($T$)**: de tijd waarin precies 1 trilling plaatsvindt.
+- **Amplitude ($A$)**: de maximale uitwijking van een golf.
+- **Golflengte ($\lambda$)**: de afstand die een golf in 1 periode aflegt.
+- **Golfsnelheid ($v_\mathrm{golf}$)**: de snelheid waarmee de golf zich voortplant.
+
+De golflengte hangt af van de frequentie en de golfsnelheid. In een formule:
+$$\lambda = \frac{v}{f}$$
+Hierin is $\lambda$ de golflengte (in $\mathrm{m}$), $v$ de golfsnelheid (in $\mathrm{m}/\mathrm{s}$) en $f$ de frequentie (in $\mathrm{Hz}$).
+
+De frequentie hangt samen met de periode (de tijd van 1 trilling):
+$$f = \frac{1}{T}$$
+Hierin is $f$ de frequentie (in $\mathrm{Hz}$) en $T$ de trillingstijd/periode (in $\mathrm{s}$).
+
 ## Geluid
 
 **Geluidsgolven** ontstaan door een trillend onderdeel in een geluidsbron.
 De snelheid van geluid verschilt per stof. Hoe sterker de binding tussen moleculen, hoe sneller het geluid. In lucht is de geluidssnelheid ongeveer $343~\mathrm{m}/\mathrm{s}$ (bij kamertemperatuur).
 
-Geluid heeft 2 belangrijke eigenschappen: de **frequentie** (bepaalt de toonhoogte) en de **amplitude** (maximale uitwijking, bepaalt de geluidssterkte). De frequentie hangt samen met de periode (de tijd van 1 trilling).
-
-$$f = \frac{1}{T}$$
-
-Hierin is $f$ de frequentie (in $\mathrm{Hz}$) en $T$ de trillingstijd/periode (in $\mathrm{s}$).
+Geluid heeft 2 belangrijke eigenschappen: de **frequentie** (bepaalt de toonhoogte) en de **amplitude** (maximale uitwijking, bepaalt de geluidssterkte).
 
 Een **klankkast** versterkt geluid door mee te trillen met de bron (bijvoorbeeld een stemvork). De lucht in de klankkast gaat dan mee trillen, waardoor het geluid harder wordt.
 
@@ -53,20 +67,6 @@ $$\vec{F}_\mathrm{v} = C \cdot \vec{u}$$
 Hierin is $\vec{F}_\mathrm{v}$ de veerkracht (in $\mathrm{N}$), $C$ de veerconstante (in $\mathrm{N}/\mathrm{m}$) en $\vec{u}$ de uitwijking van de veer (in $\mathrm{m}$).
 
 **Snaren** kunnen trillen op hun eigenfrequentie. Deze hangt af van de massa van de snaar en de spanning die erop staat. Je kunt de massa van het trillende deel aanpassen door de snaar korter of langer te maken (denk aan hoe je je vinger op verschillende plekken op een gitaarsnaar zet). Een snaar gedraagt zich hierdoor vergelijkbaar met een massa-veersysteem.
-
-## Golven
-
-Golven hebben een aantal eigenschappen:
-
-- **Frequentie ($f$)**: het aantal trillingen per seconde.
-- **Periode / trillingstijd ($T$)**: de tijd waarin precies 1 trilling plaatsvindt.
-- **Amplitude ($A$)**: de maximale uitwijking van een golf.
-- **Golflengte ($\lambda$)**: de afstand die een golf in 1 periode aflegt.
-- **Golfsnelheid ($v_\mathrm{golf}$)**: de snelheid waarmee de golf zich voortplant.
-
-De golflengte hangt af van de frequentie en de golfsnelheid. In een formule:
-$$\lambda = \frac{v}{f}$$
-Hierin is $\lambda$ de golflengte (in $\mathrm{m}$), $v$ de golfsnelheid (in $\mathrm{m}/\mathrm{s}$) en $f$ de frequentie (in $\mathrm{Hz}$).
 
 ## Lopende golven
 
@@ -110,6 +110,36 @@ Hierin is $\Delta \varphi$ het faseverschil, $\Delta t$ het tijdsverschil (in $\
 Het faseverschil tussen 2 punten bij een lopende golf is constant. Er geldt:
 $$\Delta \varphi = \frac{\Delta x}{\lambda}$$
 Hierin is $\Delta \varphi$ het faseverschil, $\Delta x$ het afstandsverschil tussen de punten (in $\mathrm{m}$) en $\lambda$ de golflengte (in $\mathrm{m}$).
+
+## Interferentie
+
+Volgens het **superpositiebeginsel** mag je 2 golven die elkaar kruisen op dat punt optellen.
+
+Als je twee **coherente** puntbronnen naast elkaar zet, kunnen de golven van beide bronnen met elkaar interfereren. Coherente bronnen hebben dezelfde frequentie en een constant faseverschil. De golven van beide bronnen overlappen dan met elkaar, en op elk punt in de ruimte tellen de uitwijkingen van beide golven zich op.
+
+Op sommige plekken komen twee toppen tegelijk aan, of twee dalen tegelijk. Dan versterken de golven elkaar maximaal, en ontstaat er een extra hoge top of een extra diep dal. Op andere plekken komt een top van de ene bron tegelijk aan met een dal van de andere bron. Dan doven de golven elkaar juist (gedeeltelijk) uit.
+
+Door dit verschijnsel ontstaat een **interferentiepatroon**. Daarin kun je lijnen met extra hoge pieken en dalen zien (de **buiklijnen**) en lijnen waar de bronnen elkaar (gedeeltelijk) uitdoven (de **knooplijnen**). Op de buiklijnen zijn de golven uit beide bronnen dus in fase (het faseverschil is 0), en op de knooplijnen in tegenfase (het faseverschil is $\frac{1}{2}$).
+
+![Interferentiepatronen (img-xl)](images/nat_h7/interferentie.png)
+
+Om te bepalen of een punt op een buiklijn of knooplijn ligt, moet je kijken naar het **weglengteverschil**. Het weglengteverschil in een punt is het verschil tussen de afstand van bron A tot het punt en de afstand van bron B tot het punt.
+
+Als het weglengteverschil een geheel aantal keer de golflengte is (dus $0\lambda$, $1\lambda$, $2\lambda$, ...), ligt het punt op een buiklijn. Dat komt omdat de golven dan in fase aankomen: als de ene golf precies 1 golflengte (of 2, of 3, enzovoort) meer heeft afgelegd dan de andere golf, zijn beide golven alsnog op hetzelfde punt in hun trilling. Ze hebben allebei precies een geheel aantal trillingen gemaakt, dus ze komen tegelijk aan met een top (of tegelijk met een dal).
+
+Voor een **buiklijn** geldt:
+$$\Delta x = n \cdot \lambda$$
+Hierin is $\Delta x$ het weglengteverschil (in $\mathrm{m}$), $n$ een geheel getal en $\lambda$ de golflengte (in $\mathrm{m}$).
+
+Als het weglengteverschil een halve golflengte is (of een meervoud daarvan, dus $\frac{1}{2}\lambda$, $1\frac{1}{2}\lambda$, $2\frac{1}{2}\lambda$, ...), ligt het punt op een knooplijn. De golven komen dan in tegenfase aan: de ene golf heeft een halve trilling meer gemaakt dan de andere. Als de ene golf aankomt met een top, komt de andere golf aan met een dal, en ze doven elkaar uit.
+
+Voor een **knooplijn** geldt:
+$$\Delta x = n \cdot \lambda + \frac{1}{2}\lambda$$
+Hierin is $\Delta x$ het weglengteverschil (in $\mathrm{m}$), $n$ een geheel getal en $\lambda$ de golflengte (in $\mathrm{m}$).
+
+Als je de bronnen dichter naar elkaar toe brengt, worden de weglengteverschillen naar punten in de ruimte kleiner. Hierdoor zullen de buik- en knooplijnen divergeren (verder uit elkaar gaan). Als je de bronnen juist uit elkaar beweegt, convergeren de buik- en knooplijnen (ze gaan dichter bij elkaar staan).
+
+Op knooplijnen is de amplitude echter niet helemaal nul. Dat kan alleen als de amplitude van beide golven op dat punt precies even groot is, en dat kan alleen als de golven precies dezelfde afstand hebben afgelegd (want de amplitude neemt geleidelijk af naarmate de golf zich voortplant).
 
 ## Staande golven
 
@@ -162,36 +192,6 @@ Bij een gesloten buis kunnen alleen bepaalde boventonen ontstaan, omdat er aan d
 De frequentie hangt samen met de golflengte: $f = \frac{v}{\lambda}$. Omdat de golflengte steeds korter wordt, wordt de frequentie hoger. De frequenties hebben daarom de volgende verhoudingen:
 $$f_0 : f_1 : f_2 : f_3 = 1 : 3 : 5 : 7$$
 De frequentie van de eerste boventoon is dus 3x de frequentie van de grondtoon, de tweede boventoon 5x, enzovoort.
-
-## Interferentie
-
-Volgens het **superpositiebeginsel** mag je 2 golven die elkaar kruisen op dat punt optellen.
-
-Als je twee **coherente** puntbronnen naast elkaar zet, kunnen de golven van beide bronnen met elkaar interfereren. Coherente bronnen hebben dezelfde frequentie en een constant faseverschil. De golven van beide bronnen overlappen dan met elkaar, en op elk punt in de ruimte tellen de uitwijkingen van beide golven zich op.
-
-Op sommige plekken komen twee toppen tegelijk aan, of twee dalen tegelijk. Dan versterken de golven elkaar maximaal, en ontstaat er een extra hoge top of een extra diep dal. Op andere plekken komt een top van de ene bron tegelijk aan met een dal van de andere bron. Dan doven de golven elkaar juist (gedeeltelijk) uit.
-
-Door dit verschijnsel ontstaat een **interferentiepatroon**. Daarin kun je lijnen met extra hoge pieken en dalen zien (de **buiklijnen**) en lijnen waar de bronnen elkaar (gedeeltelijk) uitdoven (de **knooplijnen**). Op de buiklijnen zijn de golven uit beide bronnen dus in fase (het faseverschil is 0), en op de knooplijnen in tegenfase (het faseverschil is $\frac{1}{2}$).
-
-![Interferentiepatronen (img-xl)](images/nat_h7/interferentie.png)
-
-Om te bepalen of een punt op een buiklijn of knooplijn ligt, moet je kijken naar het **weglengteverschil**. Het weglengteverschil in een punt is het verschil tussen de afstand van bron A tot het punt en de afstand van bron B tot het punt.
-
-Als het weglengteverschil een geheel aantal keer de golflengte is (dus $0\lambda$, $1\lambda$, $2\lambda$, ...), ligt het punt op een buiklijn. Dat komt omdat de golven dan in fase aankomen: als de ene golf precies 1 golflengte (of 2, of 3, enzovoort) meer heeft afgelegd dan de andere golf, zijn beide golven alsnog op hetzelfde punt in hun trilling. Ze hebben allebei precies een geheel aantal trillingen gemaakt, dus ze komen tegelijk aan met een top (of tegelijk met een dal).
-
-Voor een **buiklijn** geldt:
-$$\Delta x = n \cdot \lambda$$
-Hierin is $\Delta x$ het weglengteverschil (in $\mathrm{m}$), $n$ een geheel getal en $\lambda$ de golflengte (in $\mathrm{m}$).
-
-Als het weglengteverschil een halve golflengte is (of een meervoud daarvan, dus $\frac{1}{2}\lambda$, $1\frac{1}{2}\lambda$, $2\frac{1}{2}\lambda$, ...), ligt het punt op een knooplijn. De golven komen dan in tegenfase aan: de ene golf heeft een halve trilling meer gemaakt dan de andere. Als de ene golf aankomt met een top, komt de andere golf aan met een dal, en ze doven elkaar uit.
-
-Voor een **knooplijn** geldt:
-$$\Delta x = n \cdot \lambda + \frac{1}{2}\lambda$$
-Hierin is $\Delta x$ het weglengteverschil (in $\mathrm{m}$), $n$ een geheel getal en $\lambda$ de golflengte (in $\mathrm{m}$).
-
-Als je de bronnen dichter naar elkaar toe brengt, worden de weglengteverschillen naar punten in de ruimte kleiner. Hierdoor zullen de buik- en knooplijnen divergeren (verder uit elkaar gaan). Als je de bronnen juist uit elkaar beweegt, convergeren de buik- en knooplijnen (ze gaan dichter bij elkaar staan).
-
-Op knooplijnen is de amplitude echter niet helemaal nul. Dat kan alleen als de amplitude van beide golven op dat punt precies even groot is, en dat kan alleen als de golven precies dezelfde afstand hebben afgelegd (want de amplitude neemt geleidelijk af naarmate de golf zich voortplant).
 
 ## Buiging
 
