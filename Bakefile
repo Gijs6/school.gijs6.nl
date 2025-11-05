@@ -14,6 +14,19 @@ deploy() {
   lift deploy && echo "Deployed successfully to https://$(yq .name Liftfile)"
 }
 
+publish() {
+  git stash push -m "bake-publish"
+
+  format
+  git commit -a -m "Format repo" || true
+
+  if git stash list | grep -q "bake-publish"; then
+    git stash pop
+  fi
+
+  git push & deploy & wait
+}
+
 format() {
   ruff format .
   npx prettier --write "**/*.{css,js}"
