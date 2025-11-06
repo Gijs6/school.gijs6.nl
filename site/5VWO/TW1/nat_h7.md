@@ -119,7 +119,7 @@ Als je twee **coherente** puntbronnen naast elkaar zet, kunnen de golven met elk
 
 Op sommige plekken komen twee toppen of twee dalen tegelijk aan. Dan versterken de golven elkaar maximaal, en ontstaat er een extra hoge top of een extra diep dal. Op andere plekken komt een top van de ene bron tegelijk aan met een dal van de andere bron. Dan doven de golven elkaar (gedeeltelijk) uit.
 
-Door dit verschijnsel ontstaat een **interferentiepatroon** met **buiklijnen** (lijnen met extra hoge pieken en dalen) en **knooplijnen** (lijnen waar de golven elkaar (gedeeltelijk) uitdoven). Op de buiklijnen zijn de golven uit beide bronnen in fase (faseverschil = 0), en op de knooplijnen in tegenfase (faseverschil = $\frac{1}{2}$).
+Door dit verschijnsel ontstaat een **interferentiepatroon** met **buiklijnen** (lijnen met extra hoge pieken en dalen) en **knooplijnen** (lijnen waar de golven elkaar (gedeeltelijk) uitdoven). Op de buiklijnen zijn de golven uit beide bronnen in fase ($\Delta \varphi$ = 0), en op de knooplijnen in tegenfase ($\Delta \varphi$ = $\frac{1}{2}$).
 
 ![Interferentiepatronen (img-xl)](images/nat_h7/interferentie.png)
 
