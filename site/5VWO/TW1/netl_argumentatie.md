@@ -24,7 +24,7 @@ Argumenten kunnen **feitelijk** of **waarderend** zijn.
 Waarderende argumenten worden soms onderbouwd met feitelijke **subargumenten**:  
 > *De overheid moet meer investeren in het openbaar vervoer, want iedereen moet vervoer kunnen betalen, **en in Nederland is meer dan 50% van de huishoudens afhankelijk van het openbaar vervoer**.*
 
-**Tegenargumenten** ontkrachten een standpunt of argument. Je kunt een tegenargument ook weer ontkrachten: een **weerlegging**.
+**Tegenargumenten** gaan tegen het standpunt in. **Weerleggingen** gaan tegen een (tegen)argument in.
 
 ## Argumentatiestructuren
 
