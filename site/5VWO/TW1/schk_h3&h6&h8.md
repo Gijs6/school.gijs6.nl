@@ -113,7 +113,7 @@ Om te rekenen met evenwichten gebruik je een **BOEC-schema**: Begin, Omzetting, 
 > | **E**venwicht (mol)  | 3         | 2           | 4            |
 > | **C**oncentratie (M) | 1         | 0,7         | 1,3          |
 
-## Evenwichten verschuiven
+### Evenwichten verschuiven
 
 Het evenwicht verschuift bij veranderingen in:
 
