@@ -3,103 +3,71 @@
 {% block extra_head %}
     <link rel="stylesheet" href="/assets/styles/home.css" />
 {% endblock %}
+
 {% block content %}
-    <main class="homepage-container">
-        <h1 class="homepage-title">Leermiddelenoverzicht</h1>
-        <section class="page-opening">
-            <p class="page-opening-text">
-                Welkom! Op deze ronduit prachtige site vind je al mijn zelfgemaakte samenvattingen en linkjes voor vrijwel alle toetsen.
+    <main>
+        <section>
+            <h1>Samenvattingen :)</h1>
+            <p>
+                Welkom! Op deze prachtige site vind je al mijn zelfgemaakte samenvattingen en linkjes voor heel veel toetsen.
             </p>
-            <p class="page-opening-text">
-                Scroll gerust even door de lijst hieronder. Vanaf de bovenbouw staan de toetsen per periode, daarvoor is het een beetje een rootzooi, maar dat zie je zelf wel!
-            </p>
-            <p class="page-opening-text">Succes met leren en veel plezier!</p>
-            <p class="page-opening-author">
-                ~ Gemaakt met liefde en heel veel geduld door
-                <a class="page-opening-author-link" href="https://gijs6.nl">Gijs</a>
+            <p>Succes met leren en veel maak er wat moois van!</p>
+            <p class="author">
+                ~ Gemaakt met liefde en heel veel geduld door <a href="https://gijs6.nl">Gijs</a>
             </p>
         </section>
-        <nav class="page-feeds">
-            <a class="page-feeds-link" href="/rss.xml"> <i class="fa-solid fa-square-rss"></i> RSS </a>
-            <a class="page-feeds-link" href="/atom.xml"> <i class="fa-solid fa-square-rss"></i> Atom </a>
-        </nav>
-        <section class="homepage-years">
+
+        <section class="years">
             {% for year, year_data in homepage_data.items() %}
-                <div class="year-container">
-                    <h2 class="year-header">{{ year }}</h2>
-                    <div class="year-periods">
-                        {% for period, period_data in year_data.items() %}
-                            <div class="period-container">
-                                <h3 class="period-header">{{ period }}</h3>
-                                <ul class="period-tests">
-                                    {% for test_data in period_data %}
-                                        <li class="test-item">
-                                            <span class="test-item-icon">
-                                                {% if test_data.icon in ["NETL", "ENTL", "FATL"] %}
-                                                    <img class="test-item-icon-img"
-                                                         src="/assets/images/{{ test_data.icon }}.png"
-                                                         alt="Een vlag om het vak {{ test_data.icon }} te duiden" />
-                                                {% else %}
-                                                    <i class="{{ test_data.icon }}"></i>
-                                                {% endif %}
-                                            </span>
-                                            {% if test_data.get('summary_link') %}
-                                                <a class="test-link-anchor" href="{{ test_data.summary_link }}">
-                                                    <span class="test-item-subject">{{ test_data.subject }}:</span>
-                                                    <span class="test-item-material">{{ test_data.test_material }}</span>
-                                                    {% if test_data.test_code %}
-                                                        <span class="test-item-code">({{ test_data.test_code }})</span>
-                                                    {% endif %}
-                                                    <i class="fa-solid fa-arrow-right"></i>
+                <h2>{{ year }}</h2>
+                {% for period, tests in year_data.items() %}
+                    <h3>{{ period }}</h3>
+                    <ul>
+                        {% for test in tests %}
+                            <li class="test">
+                                <span class="icon">
+                                    {% if test.icon in ["NETL", "ENTL", "FATL"] %}
+                                        <img src="/assets/images/{{ test.icon }}.png"
+                                             alt="Een vlag om het vak {{ test.icon }} te duiden" />
+                                    {% else %}
+                                        <i class="{{ test.icon }}"></i>
+                                    {% endif %}
+                                </span>
+                                <a href="{{ test.summary_link }}">
+                                    <span class="subject">{{ test.subject_name }}:</span>
+                                    <span class="material">{{ test.test_material }}</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                                {% if test.resources %}
+                                    <ul class="resources">
+                                        {% for resource in test.resources %}
+                                            <li>
+                                                <a href="{{ resource.link }}">
+                                                    {{ resource.title }}
+                                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                                 </a>
-                                            {% else %}
-                                                <span class="test-item-subject">{{ test_data.subject }}:</span>
-                                                <span class="test-item-material">{{ test_data.test_material }}</span>
-                                                {% if test_data.test_code %}
-                                                    <span class="test-item-code">({{ test_data.test_code }})</span>
-                                                {% endif %}
-                                            {% endif %}
-                                            {% if test_data.get('resources') %}
-                                                <ul class="test-item-links">
-                                                    {% for resource in test_data.resources %}
-                                                        <li class="test-link test-link-active">
-                                                            <a class="test-link-anchor" href="{{ resource.link }}">
-                                                                {{ resource.title }}
-                                                                {% if resource.get('type') == "internal" %}
-                                                                    <i class="fa-solid fa-arrow-right"></i>
-                                                                {% else %}
-                                                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                                                {% endif %}
-                                                            </a>
-                                                        </li>
-                                                    {% endfor %}
-                                                </ul>
-                                            {% endif %}
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </li>
                         {% endfor %}
-                    </div>
-                </div>
+                    </ul>
+                {% endfor %}
             {% endfor %}
         </section>
-        <section class="archive-container">
-            <h1 id="archive" class="archive-title">Onderbouw</h1>
-            <div class="archive-years">
-                {% for year, pages in archive_data.items() %}
-                    <div class="archive-year-container">
-                        <h2 class="archive-year-header">{{ year }}</h2>
-                        <ul class="archive-pages">
-                            {% for page in pages %}
-                                <li class="archive-page-item">
-                                    <a class="archive-page-link" href="{{ page.link }}">{{ page.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                {% endfor %}
-            </div>
+
+        <section class="years archive">
+            {% for year, pages in archive_data.items() %}
+                <h2>{{ year }}</h2>
+                <ul>
+                    {% for page in pages %}
+                        <li class="test">
+                            <a href="{{ page.link }}">{{ page.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
         </section>
     </main>
 {% endblock %}

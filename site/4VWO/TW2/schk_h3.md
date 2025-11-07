@@ -54,7 +54,7 @@ Binas 99 geeft $M_{\ce{H2O}} = 18{,}015~\mathrm{g/mol}$
 $n_{\ce{H2O}} = \frac{m_{\ce{H2O}}}{M_{\ce{H2O}}} = \frac{10{,}0}{18{,}015} = 0{,}55...~\mathrm{mol}$
 Volgens de reactievergelijking is de molverhouding $\ce{H2O} : \ce{O2} = 2 : 1$
 $n_{\ce{O2}} = \frac{n_{\ce{H2O}}}{2} = \frac{0{,}55...}{2} = 0{,}27...~\mathrm{mol}$
-$M_{\ce{O2}} = 32{,}00~\mathrm{g/mol}$ → $m_{\ce{O2}} = n_{\ce{O2}} \times M_{\ce{O2}} = 0{,}27... \times 32{,}00 = 8{,}88~\mathrm{g}$ (de molverhouding telt niet mee voor significantie, omdat het geen meetwaarden zijn)
+$M_{\ce{O2}} = 32{,}00~\mathrm{g/mol}$ → $m_{\ce{O2}} = n_{\ce{O2}} \cdot M_{\ce{O2}} = 0{,}27... \cdot 32{,}00 = 8{,}88~\mathrm{g}$ (de molverhouding telt niet mee voor significantie, omdat het geen meetwaarden zijn)
 
 # Uitgebreid schema chemisch rekenen
 

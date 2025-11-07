@@ -1,14 +1,16 @@
 {% extends "base.html" %}
 
 {% block title %}
-    {%- if page.get('subject') and page.get('short') -%}
-        {{ page.subject_name }} - {{ page.short }} - Samenvatting
+    {%- if meta.subject and meta.short -%}
+        {{ meta.subject_name }} - {{ meta.short }} - Samenvatting
     {%- else -%}
         Samenvatting
     {%- endif -%}
 {% endblock %}
+
 {% block extra_head %}
     <link rel="stylesheet" href="/assets/styles/summary.css" />
+
     <script async
             src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>
@@ -22,25 +24,27 @@
         };
     </script>
 {% endblock %}
+
 {% block content %}
     <header class="summary-header">
         <a class="summary-header-backlink" href="/">
             <i class="fa-solid fa-arrow-left"></i>
-            <span class="summary-header-backtext">Naar alle leermiddelen</span>
+            <span class="summary-header-backtext">Naar overzicht</span>
         </a>
     </header>
-    <main class="summary-content">
-        {%- if page.get('subject') and (page.get('title') or page.get('short')) -%}
-            <h1>
-                {{ page.subject_name }}:
-                {% if page.get('title') %}
-                    {{ page.title }}
-                {% else %}
-                    {{ page.short }}
-                {% endif %}
-                {% if page.get('description') %}({{ page.description }}){% endif %}
+    <article class="summary-content">
+        {%- if meta.subject_name and (meta.title or meta.short) -%}
+            <h1 class="summary-subject-header">
+                {{ meta.subject_name }}
+                {%- if meta.year and meta.period %} ({{ meta.year }}/{{ meta.period }})
+                {% endif -%}
             </h1>
+            <p class="summary-material-subheader">
+                {{ meta.title or meta.short }}
+                {%- if meta.description %} ({{ meta.description }})
+                {% endif -%}
+            </p>
         {%- endif -%}
         {{ content | safe }}
-    </main>
+    </article>
 {% endblock %}

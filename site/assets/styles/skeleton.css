@@ -71,11 +71,6 @@ pre {
     scrollbar-width: none;
 }
 
-ul li,
-ol li {
-    margin-block: 0.3em;
-}
-
 button,
 input,
 select,

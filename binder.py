@@ -44,8 +44,8 @@ DATA_DIR = "site/data"
 RESOURCES_JSON = "site/data/resources.json"
 
 SITE_URL = "https://school.gijs6.nl"
-SITE_TITLE = "Leermiddelenoverzicht"
-SITE_DESCRIPTION = "Een verzameling van samenvattingen en leermiddelen"
+SITE_TITLE = "Samenvattingen :)"
+SITE_DESCRIPTION = "Een verzameling van zelfgemaakte samenvattingen"
 AUTHOR_NAME = "Gijs ten Berg"
 AUTHOR_EMAIL = "gijs6@dupunkto.org"
 
@@ -79,7 +79,7 @@ SUBJECT_NAMES = {
 }
 
 
-def parse_front_matter(content):
+def parse_metadata(content):
     match = FRONT_MATTER_PATTERN.match(content)
     if match:
         return yaml.safe_load(match.group(1)) or {}, content.split("---", 2)[2].strip()
@@ -146,26 +146,33 @@ def load_json_file(filepath):
         return json.load(f)
 
 
-def build_test_material(front_matter):
-    short = front_matter.get("short", "")
-    title = front_matter.get("title", "")
-    description = front_matter.get("description", "")
+def build_test_material(metadata):
+    short = metadata.get("short", "")
+    title = metadata.get("title", "")
+    description = metadata.get("description", "")
 
-    parts = []
+    if short and description:
+        return f"{short} ({description})"
+    if short:
+        return short
+
+    if title and description:
+        return f"{title} ({description})"
     if title:
-        parts.append(title)
+        return title
     if description:
-        parts.append(f"({description})")
+        return f"({description})"
 
-    return " ".join(parts) if parts else short
+    return ""
 
 
-def create_test_entry(front_matter, main_dir, sub_dir, file, resources_map):
-    subject = front_matter.get("subject", "").upper()
+def create_test_entry(metadata, main_dir, sub_dir, file, resources_map):
+    subject = metadata.get("subject", "").upper()
 
     entry = {
         "subject": subject,
-        "test_material": build_test_material(front_matter),
+        "subject_name": SUBJECT_NAMES.get(subject, subject),
+        "test_material": build_test_material(metadata),
         "icon": SUBJECT_ICONS.get(subject, "fa-solid fa-file-lines"),
         "resources": resources_map.get(f"{main_dir}/{sub_dir}/{file}", []),
         "summary_link": f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}",
@@ -192,17 +199,15 @@ def process_modern_year(year_dir, resources_map, dev=False):
             with open(file_path, "r", encoding="utf-8") as f:
                 content = f.read()
 
-            front_matter, _ = parse_front_matter(content)
+            metadata, _ = parse_metadata(content)
 
-            if not front_matter.get("subject"):
+            if not metadata.get("subject"):
                 continue
 
-            if not dev and front_matter.get("hidden"):
+            if not dev and metadata.get("hidden"):
                 continue
 
-            entry = create_test_entry(
-                front_matter, year_dir, sub_dir, file, resources_map
-            )
+            entry = create_test_entry(metadata, year_dir, sub_dir, file, resources_map)
             year_data.setdefault(sub_dir, []).append(entry)
 
     return year_data
@@ -333,7 +338,6 @@ def create_feed_entry_list(test):
             {
                 "link": resource.get("link"),
                 "title": f"{resource.get('title', '')} - {test['subject']}".strip(" -"),
-                "internal": resource.get("type") == "internal",
             }
         )
 
@@ -355,7 +359,7 @@ def generate_feeds(build_dir, homepage_data, md_cache):
                     if not link:
                         continue
 
-                    is_internal = entry.get("internal", False) or link.startswith("/")
+                    is_internal = link.startswith("/")
                     md_file_path = get_md_file_path(link) if is_internal else None
                     if not md_file_path:
                         continue
@@ -497,18 +501,26 @@ def process_markdown_file(
     with open(md_file_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    front_matter, markdown_content = parse_front_matter(content)
+    metadata, markdown_content = parse_metadata(content)
 
-    if front_matter.get("subject"):
-        subject_abbr = front_matter["subject"].upper()
-        front_matter["subject_name"] = SUBJECT_NAMES.get(subject_abbr, subject_abbr)
+    # Add computed fields
+    if metadata.get("subject"):
+        subject_abbr = metadata["subject"].upper()
+        metadata["subject_name"] = SUBJECT_NAMES.get(subject_abbr, subject_abbr)
+
+    # Extract year and period from path
+    year_dir = os.path.basename(year_path)
+    period_dir = relative_path.split(os.sep)[0] if os.sep in relative_path else ""
+
+    metadata["year"] = year_dir
+    metadata["period"] = period_dir
 
     html_content = remove_base64_images(md_processor.convert(markdown_content))
     md_processor.reset()
 
     rendered = template_env.get_template("summary.html").render(
         content=html_content,
-        page=front_matter,
+        meta=metadata,
         page_path=md_file_path,
     )
 
@@ -516,7 +528,7 @@ def process_markdown_file(
     with open(build_path, "w", encoding="utf-8") as f:
         f.write(rendered)
 
-    is_hidden = front_matter.get("hidden")
+    is_hidden = metadata.get("hidden")
 
     return relative_path, html_content, is_hidden
 

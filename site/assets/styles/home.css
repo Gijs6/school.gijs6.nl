@@ -1,101 +1,44 @@
-.page-opening {
-    p {
-        margin-block: 0.5em;
-    }
-
-    .page-opening-author-link {
-        color: var(--blue);
-        font-weight: 500;
-    }
+h1 {
+    margin-block-start: 0;
 }
 
-.page-feeds {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-    margin-block: 1em;
-
-    .page-feeds-link {
-        display: flex;
-        align-items: center;
-        gap: 0.25em;
-        font-weight: 500;
-        text-decoration: none;
-
-        i {
-            font-size: 1.2em;
-        }
-    }
-}
-
-.homepage-years {
-    .year-header {
-        font-size: 2em;
-        font-weight: 900;
-        margin-block-end: 0.5em;
+.years {
+    h2 {
+        border-bottom: none;
+        padding: 0;
     }
 
-    .period-header {
-        font-size: 1.5em;
-        font-weight: 600;
-        margin-block-end: 0.25em;
+    h3 {
+        margin-block-start: 0.7em;
     }
 
-    .test-item {
+    .test {
         margin-block: 1em;
 
-        .test-item-icon {
+        a {
+            color: var(--front);
+            text-decoration: underline 1px solid light-dark(var(--oc-blue-8), var(--oc-blue-4));
+        }
+
+        .icon {
             display: inline-block;
             width: 1.5em;
             text-align: center;
 
-            img.test-item-icon-img {
-                max-width: 100%;
+            img {
+                width: 90%;
             }
         }
 
-        .test-item-subject {
-            font-weight: 900;
-        }
-
-        .test-item-code {
-            font-size: 0.8em;
-            font-weight: 200;
-        }
-
-        .test-link {
-            margin-block: 0.25em;
-
-            &.test-link-active a {
-                color: var(--blue);
-                font-weight: 500;
-            }
-
-            &.test-link-pending,
-            &.test-link-none {
-                color: light-dark(var(--oc-gray-6), var(--oc-gray-4));
-                font-style: italic;
-            }
+        .subject {
+            font-weight: 700;
         }
     }
-}
 
-.archive-container {
-    .archive-title {
-        font-size: 1.8em;
-        margin-block: 1em 0.5em;
-    }
-
-    .archive-year-header {
-        font-size: 1.5em;
-        margin-block: 0.5em;
-    }
-
-    .archive-page-item {
+    &.archive .test {
         margin-block: 0.5em;
 
-        .archive-page-link {
-            color: var(--blue);
+        a {
             font-weight: 500;
         }
     }

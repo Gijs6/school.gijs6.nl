@@ -1,84 +1,55 @@
 :root {
-    color-scheme: dark;
+    color-scheme: light dark;
 
     --back: light-dark(white, black);
     --front: light-dark(black, white);
-    --blue: light-dark(var(--oc-blue-8), var(--oc-blue-4));
-    --blue-accent: light-dark(var(--oc-blue-5), var(--oc-blue-7));
 }
 
 body {
     background: var(--back);
     color: var(--front);
-    font-family: "Ubuntu", "Inter", "Barlow", sans-serif;
+
+    font-family: "Inter", sans-serif;
     line-height: 1.4;
+
     max-width: 850px;
-    padding: 40px;
+    padding: 2.5em;
     margin: auto;
-    font-size: clamp(0.9em, 2.4vw, 1.05em);
+}
 
-    footer {
-        margin-top: 3em;
-        padding-top: 0.5em;
-        border-top: 1px solid light-dark(var(--oc-gray-7), var(--oc-gray-3));
+a {
+    color: light-dark(var(--oc-blue-8), var(--oc-blue-4));
+}
 
-        p,
-        .footer-links {
-            margin-block: 0.5em;
-        }
+footer {
+    margin-top: 3.5em;
+    padding-top: 0.5em;
 
-        .footer-links {
-            padding: 0;
-            display: flex;
-            flex-direction: row;
-            gap: 1em;
-            list-style: none;
+    border-top: 1px solid light-dark(var(--oc-gray-6), var(--oc-gray-5));
 
-            .footer-link-item {
-                margin-block: 0;
-            }
-        }
-    }
+    display: flex;
+    flex-direction: row;
 
     a {
-        color: var(--blue);
-        font-weight: 500;
+        color: light-dark(var(--oc-gray-6), var(--oc-gray-5));
+        padding: 0 0.7em;
 
-        &:hover {
-            color: var(--blue-accent);
+        strong {
+            text-decoration: none;
         }
-    }
 
-    h1 {
-        margin-block-start: 0;
-        font-size: 2.25em;
-    }
+        &:first-child {
+            padding-left: 0;
+        }
 
-    h2 {
-        font-size: 1.75em;
-    }
-
-    h3 {
-        font-size: 1.3em;
+        &:last-child {
+            padding-right: 0;
+        }
     }
 }
 
 @media print {
     :root {
         color-scheme: light;
-    }
-
-    body {
-        max-width: unset;
-        padding: 0;
-        font-size: 0.95em;
-
-        footer {
-            .footer-built,
-            .footer-contact,
-            .footer-links {
-                display: none;
-            }
-        }
     }
 }
