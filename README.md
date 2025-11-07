@@ -1,10 +1,8 @@
 # [school.gijs6.nl](https://school.gijs6.nl)
 
-The *famous* place I dump all my school summaries.
+The place I dump all my school summaries.
 
-## How shit works
-
-[`binder.py`](binder.py) is a custom simple ssg that deals with the build output, templating and feeds.
+It uses [`binder.py`](binder.py), a custom simple ssg that deals with the build output, templating and feeds.
 
 ## Running locally
 
