@@ -159,7 +159,3 @@ Je vervoegt de **bezittelijke voornaamwoorden** op dezelfde manier als de **ein-
 | der Zweck | het doel | als | toen |
 | das Ziel | het doel | vorhersagen | voorspellen |
 | die Ausrüstung | het equipment | sich kümmern um | zorgen voor |
-
-### Zinnenlijst
-
-Kijk voor een overzicht van de zinnen op pagina 113 van je leerboek.

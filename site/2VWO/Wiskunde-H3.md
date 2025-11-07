@@ -62,7 +62,7 @@ Breuken kun je voor of na de haakjes wegwerken, dat ligt aan de opgave. Vermenig
 
 $\frac{1}{3}(x + 21) = 4$
 
-$\times 3\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \times 3$
+$\cdot 3\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \cdot 3$
 
 $1(x + 21) = 12$
 

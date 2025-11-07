@@ -41,10 +41,10 @@ Bij een procentuele toename komt er een percentage van de waarde bij die waarde.
 
 Een schoenenwinkel verhoogt de prijs van een paar laarzen met 5 euro. De oude prijs was 10 euro, dus de nieuwe prijs is 15 euro. Om te weten met hoeveel procent de prijs is veranderd moet je de absolute toename weten: 5 euro, en de oude prijs: 10 euro. Vervolgens deel je de toename door oude waarde en vermenigvuldig je de uitkomst met 100%. Voor procentuele afname geldt hetzelfde, maar dan deel je de afname door de oude prijs.
 
-|     | **Procentuele toename** | $\frac{toename}{oud}$$\  \times \ 100\%$ |
+|     | **Procentuele toename** | $\frac{toename}{oud}$$\  \cdot \ 100\%$ |
 |-----|-------------------------|----------------------------------------------|
 |     |                         |                                              |
-|     | **Procentuele afname**  | $\frac{afname}{oud}$$\  \times \ 100\%$  |
+|     | **Procentuele afname**  | $\frac{afname}{oud}$$\  \cdot \ 100\%$  |
 
 ## Diagrammen
 
@@ -52,10 +52,10 @@ De *MediaSuper* heeft in juni bijgehouden hoeveel laptops er zijn verkocht per m
 
 Een cirkeldiagram bestaat uit sectoren van verschillende kleuren, en een legenda. De hoeken en de waardes van sectoren kun je berekenen:
 
-|  | **Hoek van sector** | $\frac{aantal\ van\ sector}{totaal}$$\  \times 360$º of $\frac{percentage\ sector}{100}$$\  \times 360$º |
+|  | **Hoek van sector** | $\frac{aantal\ van\ sector}{totaal}$$\  \cdot 360$º of $\frac{percentage\ sector}{100}$$\  \cdot 360$º |
 |----|----|----|
 |  |  |  |
-|  | **Aantal van sector** | $\frac{hoek\ sector}{360º}$$\  \times totaal$ |
+|  | **Aantal van sector** | $\frac{hoek\ sector}{360º}$$\  \cdot totaal$ |
 
 ## Frequentietabel en histogram
 
@@ -118,7 +118,7 @@ Lampenwinkel *De Verlichting* heeft in de maand augustus bijgehouden hoeveel lam
 |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
 | **<span class="mark">Frequentie</span>** | <span class="mark">3</span> | <span class="mark">1</span> | <span class="mark">2</span> | <span class="mark">1</span> | <span class="mark">1</span> | <span class="mark">1</span> | <span class="mark">4</span> | <span class="mark">1</span> | <span class="mark">2</span> | <span class="mark">1</span> | <span class="mark">3</span> | <span class="mark">1</span> | <span class="mark">2</span> | <span class="mark">2</span> | <span class="mark">1</span> |
 
-Het gemiddelde aantal verkochte lampen per dag krijg je door het totale aantal verkochte lampen te delen door de totale frequentie, dus dat is $\frac{1 \times 3 + ... + 15 \times 1}{26}$ $\approx 7,8$.
+Het gemiddelde aantal verkochte lampen per dag krijg je door het totale aantal verkochte lampen te delen door de totale frequentie, dus dat is $\frac{1 \cdot 3 + ... + 15 \cdot 1}{26}$ $\approx 7,8$.
 
 De totale frequentie is 26, dus de mediaan = $\frac{13e + 14e\ getal}{2}$$\  = \ $$\frac{7 + 8}{2}$$\  = 7,5\ $
 
@@ -134,7 +134,7 @@ Stefan heeft elke dinsdag in de zomer bijgehouden hoe warm het was om 12:00 uur:
 |-----------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | **Frequentie**  | 1   | 3   | 5   | 4   | 2   | 3   | 8   | 4   | 7   | 4   | 3   |
 
-De **totale frequentie** is 44. De **absolute frequentie** van het waarnemingsgetal 30 is 8. Stefan heeft dus 8 keer 30 graden gemeten. Om te weten op hoeveel procent van de dagen dit is, bereken je $\frac{8}{44} \times 100\% \approx 18,2\%$. Op 18,2% van de dagen is er dus 30 graden gemeten.
+De **totale frequentie** is 44. De **absolute frequentie** van het waarnemingsgetal 30 is 8. Stefan heeft dus 8 keer 30 graden gemeten. Om te weten op hoeveel procent van de dagen dit is, bereken je $\frac{8}{44} \cdot 100\% \approx 18,2\%$. Op 18,2% van de dagen is er dus 30 graden gemeten.
 
-|  | **Relatieve frequentie (hoeveel % een bepaald waarnemingsgetal voorkomt) =** $\frac{absolute\ frequentie}{totale\ frequentie}$$\  \times 100\%$ |
+|  | **Relatieve frequentie (hoeveel % een bepaald waarnemingsgetal voorkomt) =** $\frac{absolute\ frequentie}{totale\ frequentie}$$\  \cdot 100\%$ |
 |----|----|

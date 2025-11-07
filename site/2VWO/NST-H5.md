@@ -61,24 +61,3 @@ De totale afstand die een auto nodig heeft om te stoppen, de **stopafstand**, vi
 remweg en reactieafstand bij elkaar op te tellen.
 
 Die formule is dus: **stopafstand = reactieafstand + remweg**
-
-## Begrippenlijst
-
-| (v,t)-diagram | Andere notatie voor een snelheid-tijddiagram. |
-|----|----|
-| (x,t)-diagram | Andere notatie voor een plaats-tijddiagram. |
-| afgelegde afstand | Verschil in afstand tussen twee meetwaarden. Het symbool voor afstand is s. |
-| eenparige beweging | Beweging waarvan de snelheid constant is. |
-| gemiddelde snelheid | Afstand die is afgelegd gedeeld door de benodigde tijd. |
-| plaats-tijddiagram | Assenstelsel waarin de plaats (x) is uitgezet tegen de tijd (t). |
-| plaats-tijdtabel | Tabel waarin de plaats (x) van een voorwerp op een aantal tijdstippen (t) is vastgelegd. |
-| reactie-afstand | Afstand die een voertuig aflegt tijdens de reactietijd. |
-| reactietijd | Tijd tussen het zien van het gevaar en het aangrijpen van de remmen. |
-| remweg | Afstand die een voertuig tijdens het remmen aflegt. |
-| schaal | Verhouding tussen de werkelijke grootte van een voorwerp en de grootte waarop dit voorwerp op een afbeelding is weergegeven. |
-| snelheid-tijddiagram | Assenstelsel waarin de snelheid (v) is uitgezet tegen de tijd (t). |
-| stopafstand | Totale afstand die een auto nodig heeft om tot stilstand te komen. |
-| stroboscopische foto | Foto die is gemaakt in een verduisterde ruimte, met als enige verlichting een stroboscooplamp. |
-| versnelde beweging | Beweging waarvan de snelheid toeneemt. |
-| vertraagde beweging | Beweging waarvan de snelheid afneemt. |
-| video-opname | Serie beelden die met korte tussenpozen is gemaakt. |

@@ -56,7 +56,7 @@ De **Schijf van Vijf** is een hulpmiddel voor het kiezen van gezonde voeding. De
 
 De aanbevolen dagelijkse hoeveelheid (ADH) geeft aan hoeveel van een bepaalde voedingsstof je per dag nodig hebt om je lichaam goed te laten functioneren. De hoeveelheid energie in voedsel wordt aangegeven in kilojoule (kJ) of in kilocalorie (kcal). Je gewicht wordt beïnvloed door wat en hoeveel je eet, en erfelijke aanleg zoals bouw, stofwisseling en dikte van onderhuids vet. **Overgewicht** en **obesitas** ontstaan door overtollige vetopslag en verhogen het risico op gezondheidsproblemen. **Ondergewicht** kan leiden tot tekorten en verhoogt de kans op ziekte en botbreuken. **Ondervoeding**, door te weinig voedsel of te weinig voedingsstoffen, kan leiden tot ondergewicht, en overmatige consumptie van junkfood kan leiden tot tekorten aan voedingsstoffen. ADH staat voor aanbevolen dagelijkse hoeveelheid en staat op voedingsmiddelen vermeld als percentage van de referentie-inname (RI). Body Mass Index (BMI) bereken je met de formule:
 
-$BMI = \ $$\frac{gewicht\ (in\ kg)}{lengte\  \times \ lengte\ (in\ m)}$ Een BMI tussen de 20 en 25 duidt meestal op een gezond gewicht voor volwassenen, maar voor jongeren is het lastiger omdat ze nog in de groei zijn. Naast de BMI is ook de buikomvang belangrijk, omdat vet in en rond de buik nadelig kan zijn voor de gezondheid. Om een gezond gewicht te bereiken, is het niet aan te raden om minder te eten dan de aanbevolen hoeveelheid of maaltijden over te slaan, omdat dit kan leiden tot eetbuien. Ook is het niet verstandig om veel te veel of ongezond voedsel te eten als je wilt aankomen. Mensen met een eetstoornis zijn geobsedeerd door eten en hebben een negatief zelfbeeld. **Anorexia nervosa** is een eetstoornis waarbij iemand extreem afvalt en weigert te eten, wat kan leiden tot ondervoeding en andere gezondheidsproblemen. **Boulimia nervosa** is vergelijkbaar, maar met eetbuien en braken of laxeermiddelen, terwijl een **eetbuistoornis** eetbuien en obesitas veroorzaakt. De oorzaken zijn vaak psychisch en kunnen worden veroorzaakt door cultuur, nare gebeurtenissen, controle willen hebben, faalangst of ontevredenheid over uiterlijk. Het is belangrijk om professionele hulp te zoeken bij het behandelen van een eetstoornis.
+$BMI = \ $$\frac{gewicht\ (in\ kg)}{lengte\  \cdot \ lengte\ (in\ m)}$ Een BMI tussen de 20 en 25 duidt meestal op een gezond gewicht voor volwassenen, maar voor jongeren is het lastiger omdat ze nog in de groei zijn. Naast de BMI is ook de buikomvang belangrijk, omdat vet in en rond de buik nadelig kan zijn voor de gezondheid. Om een gezond gewicht te bereiken, is het niet aan te raden om minder te eten dan de aanbevolen hoeveelheid of maaltijden over te slaan, omdat dit kan leiden tot eetbuien. Ook is het niet verstandig om veel te veel of ongezond voedsel te eten als je wilt aankomen. Mensen met een eetstoornis zijn geobsedeerd door eten en hebben een negatief zelfbeeld. **Anorexia nervosa** is een eetstoornis waarbij iemand extreem afvalt en weigert te eten, wat kan leiden tot ondervoeding en andere gezondheidsproblemen. **Boulimia nervosa** is vergelijkbaar, maar met eetbuien en braken of laxeermiddelen, terwijl een **eetbuistoornis** eetbuien en obesitas veroorzaakt. De oorzaken zijn vaak psychisch en kunnen worden veroorzaakt door cultuur, nare gebeurtenissen, controle willen hebben, faalangst of ontevredenheid over uiterlijk. Het is belangrijk om professionele hulp te zoeken bij het behandelen van een eetstoornis.
 
 ## Voedselbederf
 
@@ -99,98 +99,3 @@ Planteneters eten alleen planten, vleeseters eten alleen dieren en alleseters et
 ## Nadenken over eten
 
 Voedselverspilling en ondervoeding door eiwitgebrek zijn wereldwijd problemen. **Veganisten** vermijden alle dierlijke producten. **Vegetariërs** vermijden vlees vanwege verschillende redenen, zoals respect voor dieren, gezondheid, milieu en voedselvraagstukken. **Flexitariërs** eten soms vlees. **Vleesvervangers**, zoals peulvruchten en noten, zijn goede alternatieven en hebben een lagere impact op het milieu. Vegetariërs moeten erop letten voldoende vitamine C en B12 binnen te krijgen. Vleesvervangers bevatten soms extra voedingsstoffen, zoals ijzer en vitamine B.
-
-## Begrippenlijst
-
-| aanbevolen dagelijkse hoeveelheid | hoeveelheid aan voedingsstoffen die je lichaam per dag gemiddeld nodig heeft om goed te functioneren |
-|----|----|
-| additieven | stoffen die toegevoegd worden aan voedingsmiddelen om ze langer houdbaar of aantrekkelijker te maken |
-| alleseters | zoogdieren die planten en dieren eten |
-| alvleesklier | klier die alvleessap produceert |
-| alvleessap | verteringssap met verschillende enzymen die zorgen voor de vertering van eiwitten, koolhydraten en vetten |
-| anorexia nervosa | eetstoornis waarbij mensen extreem weinig eten |
-| anus | kringspier die de endeldarm afsluit |
-| appendix (wormvormig aanhangsel) | uitstulping aan de onderkant van de blindedarm |
-| beschermende stoffen | voedingsstoffen die ervoor zorgen dat je niet ziek wordt |
-| blindedarm | het stuk darm dat geen eigen functie heeft bij de vertering |
-| Body Mass Index (BMI) | meetmethode om te meten of je een gezond gewicht hebt |
-| boulimia nervosa | eetstoornis met eetbuien waarbij vervolgens het voedsel wordt uitgebraakt of laxeermiddelen worden gebruikt |
-| bouwstoffen | voedingsstoffen die worden gebruikt bij de vorming van cellen en weefsels |
-| brandstoffen | voedingsstoffen die energie leveren |
-| carnivoren | vleeseters |
-| chemische vertering | vorm van vertering waarbij stoffen worden omgezet in andere stoffen door middel van scheikundige reacties |
-| conserveermiddelen | stoffen die de leefomgeving voor bacteriën en schimmels ongunstig maken |
-| conserveren | voedingsmiddelen behandelen waardoor ze langer houdbaar zijn |
-| darmkanaal | kanaal van de mond tot de anus |
-| darmperistaltiek (peristaltische bewegingen) | het afwisselend samentrekken en ontspannen van de kringspieren en lengtespieren in de wand van het darmkanaal |
-| darmplooien | plooien in de dunne darm |
-| darmsap | verteringssap met enzymen dat de vertering van eiwitten, koolhydraten en vetten afmaakt |
-| darmsapklieren | klieren in de wand van de dunne darm die darmsap produceren |
-| darmvlokken | de uitstulpingen op de darmplooien, waardoor de dunne darm een zeer groot oppervlakte heeft |
-| dikke darm | het stuk darm waar al het water uit de brij van onverteerde voedselresten wordt opgenomen |
-| dunne darm | het stuk darm waar via de darmwand verteringsproducten worden opgenomen in het bloed |
-| eetbuistoornis | eetstoornis met eetbuien, waarbij niet wordt gebraakt of een laxeermiddel wordt gebruikt |
-| eetstoornis | stoornis waarbij iemand constant in het hoofd bezig is met eten en de invloed daarvan op het lichaam |
-| eiwitten | voedingsstoffen die voornamelijk dienen als bouwstof, maar ook als brandstof kunnen dienen |
-| emulgeren | het verdelen van grote vetdruppels in kleinere vetdruppels |
-| endeldarm | het stuk darm waar onverteerde voedselresten tijdelijk worden opgeslagen |
-| enzymen | stoffen die scheikundige processen versnellen |
-| essentiële voedingsstoffen | stoffen die je lichaam niet zelf kan maken |
-| flexitariërs | mensen die af en toe vlees eten |
-| gal | verteringssap dat grote vetdruppels in kleinere druppeltjes verdeelt |
-| galblaas | orgaan dat dient als tijdelijke opslagplaats voor gal |
-| galbuis | buis waardoor gal van de galblaas naar de twaalfvingerige darm wordt vervoerd |
-| geurstoffen | stoffen die worden toegevoegd om een voedingsmiddel lekkerder te laten ruiken |
-| herbivoren | planteneters |
-| hoektanden | tanden waarmee stukken van voedsel wordt afgebeten, en die bij de mens iets puntiger zijn dan snijtanden |
-| kiezen | tanden waarmee voedsel wordt fijngemalen |
-| kilocalorie (kcal) | eenheid voor de energie in voedsel |
-| kilojoule (kJ) | eenheid voor de energie in voedsel |
-| kleurstoffen | stoffen die worden toegevoegd om een voedingsmiddel er mooier uit te laten zien |
-| knipkiezen | de kiezen van vleeseters met scherpe randen om het voedsel "door te knippen" |
-| knobbelkiezen | de kiezen van alleseters met een knobbelig oppervlak om het voedsel fijn te malen |
-| koolhydraten | voedingsstoffen die vooral dienen als brandstof, maar ook als bouwstof kunnen dienen |
-| kringspieren | spieren in de darmwand die, samen met de lengtespieren, ervoor zorgen dat de voedselbrij wordt voortgeduwd, gekneed en vermengd met verteringssappen |
-| lengtespieren | spieren in de darmwand die, samen met de kringspieren, ervoor zorgen dat de voedselbrij wordt voortgeduwd, gekneed en vermengd met verteringssappen |
-| lever | orgaan dat gal produceert |
-| maag | orgaan dat voedsel tijdelijk opslaat en kneedt |
-| maagportier | kringspier die de uitgang van de maag af kan sluiten |
-| maagsap | verteringssap dat bestaat uit water, zoutzuur en een enzym |
-| maagsapklieren | klieren in de maagwand die maagsap produceert |
-| mechanische vertering | voedsel in kleine stukjes kauwen |
-| mineralen | voedingsstoffen die dienen als bouwstoffen en beschermende stoffen (en ook wel zouten worden genoemd) |
-| niet-essentiële voedingsstoffen | stoffen die je lichaam zelf kan maken |
-| obesitas | ernstig overgewicht |
-| omnivoren | alleseters (planten en vlees) |
-| ondergewicht | een te laag lichaamsgewicht |
-| ondervoeding | te weinig energie of voedingstoffen binnenkrijgen |
-| ontlasting | het legen van de endeldarm |
-| overgewicht | een te hoog lichaamsgewicht, waarbij er te veel vet in het lichaam is opgeslagen |
-| pasteuriseren | verhitten tot 72 ℃ (meeste bacteriën en schimmels gaan dood) |
-| planteneters | zoogdieren die alleen planten eten |
-| plooikiezen | de kiezen van planteneters met harde richels om voedsel fijn te malen |
-| reservestoffen | voedingsstoffen die worden opgeslagen in bepaalde delen van het lichaam |
-| salmonellabacteriën | bacteriën die giftige afvalstoffen produceren |
-| sleutel-slotprincipe | principe waarbij een deeltje van een stof precies past in een enzym |
-| slokdarm | orgaan dat voedsel verplaatst van de keelholte naar de maag |
-| smaakstoffen | stoffen die worden toegevoegd om een voedingsmiddel lekkerder te laten smaken |
-| snijtanden | tanden waarmee stukken van voedsel wordt afgebeten, en die bij de mens minder puntig zijn dan hoektanden |
-| speeksel | een verteringssap dat bestaat uit water, slijm en een enzym |
-| steriliseren | verhitten tot 130-140 ℃ (alle bacteriën en schimmels gaan dood) |
-| twaalfvingerige darm | orgaan dat voedselbrij vermengt met gal en alvleessap |
-| veganisten | mensen die geen dierlijke producten eten en gebruiken |
-| vegetariërs | mensen die geen vlees eten |
-| vertering | het afbreken van grotere voedingsstoffen tot kleinere verteringproducten die in het bloed kunnen worden opgenomen |
-| verteringsklieren | klieren die verteringssappen aanmaken |
-| verteringsproducten | voedingsstoffen die door de darmwand in het bloed kunnen worden opgenomen |
-| verteringssappen | sappen die voedsel afbreken in kleinere stukjes |
-| verteringsstelsel | alle delen van het lichaam die betrokken zijn bij de vertering van voedsel |
-| vetten | voedingsstoffen die vooral dienen als brandstof, maar ook worden gebruikt als bouwstof en als reservestof |
-| vitaminen | voedingsstoffen die dienen als bouwstoffen en beschermende stoffen |
-| vleeseters | zoogdieren die alleen dieren eten |
-| vleesvervangers | voedselproducten die lijken op vlees maar die gemaakt zijn van bijvoorbeeld sojabonen of granen |
-| voedingsmiddelen | alle producten die men eet of drinkt |
-| voedingsstoffen | stoffen die je lichaam nodig heeft voor energie, groei en herstel |
-| voedingsvezel | onverteerbare stoffen in plantaardig voedsel |
-| voedselvergiftiging | infectie die ontstaat door het eten van voedsel dat is besmet met chemische stoffen, bacteriën of andere ziekteverwekkers |
-| water | voedingsstof die dient als bouwstof en die nodig is voor het vervoer van stoffen in je lichaam |

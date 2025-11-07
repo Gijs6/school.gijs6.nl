@@ -1,15 +1,5 @@
 # NE - H5 & H6
 
-## Woordenschat
-
-### Bijbelse en mythologische uitdrukkingen
-
-Veel uitdrukkingen uit de mythologie en de Bijbel gebruiken we nog in het Nederlands. Zoals adamsappel uit de Bijbel, en spartaans uit de Griekse en Romeinse mythologie.
-
-### Oude naamvallen
-
-In het Nederlands vind je nog veel resten van **oude naamvallen**. Oude naamvallen bestaan vaak uit vormen van *de* (*den*, *der*, *des*) of *te* (*ten*, *ter*).
-
 ## Grammatica
 
 ### Werkwoorden in samengestelde zinnen

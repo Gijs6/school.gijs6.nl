@@ -141,24 +141,3 @@ Let op! Bij être gebruik je *ét* als stam.
 | il est assis         | hij zit           | s'asseoir          | zitten         |
 | l'adversaire         | de tegenstander   | sauter             | springen       |
 | l'arbitre            | de scheidsrechter | toucher            | aanraken       |
-
-## Zinnenlijst
-
-| Wat ga je morgen doen? | Qu'est-ce que tu vas faire demain? |
-|----|----|
-| Morgenochtend ga ik uitslapen. | Demain matin, je vais faire la grasse matinée. |
-| En daarna? | Et après? |
-| 's Middags ga ik met mijn vrienden naar de stad. | L'après-midi, je vais aller en ville avec mes copains. |
-| Wat ga je nog meer doen dit weekend? | Qu'est-ce que tu vas faire d'autre ce weekend? |
-| Ik ga series kijken. | Je vais regarder des séries. |
-| Wat is je lievelingsserie? | Quelle est ta série préférée? |
-| Dat is Le bureau des légendes. | C'est Le bureau des légendes. |
-| Wat vind je leuk om te doen? | Qu'est-ce que tu aimes faire? |
-| Ik vind het leuk om te sporten. | J'aime faire du sport. |
-| Ik vind het leuk om naar de bioscoop te gaan. | J'aime aller au cinéma. |
-| Waarom vind je dat leuk? | Pourquoi tu aimes ça? |
-| Omdat ik graag buiten ben. | Parce que j'aime être dehors. |
-| Omdat het super is. | Parce que c'est super. |
-| Omdat ik sportief ben. | Parce que je suis sportif. |
-| Wat vind je niet leuk om te doen? | Qu'est-ce que tu n'aimes pas faire? |
-| Ik heb een hekel aan mijn kamer opruimen. | Je déteste ranger ma chambre. |

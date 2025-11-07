@@ -42,25 +42,3 @@ Het **vermogen** kun je berekenen met de formule $P = U \cdot I$.
 De **stroomsterkte** kun je berekenen met de formule $I = \ $$\frac{P}{U}$.
 
 De **spanning** kun je berekenen met de formule $U = \ $$\frac{P}{I}$.
-
-## Begrippenlijst
-
-| lading | Hoeveelheid elektriciteit |
-|----|----|
-| geleider | Stof waar een elektrische stroom gemakkelijk doorheen kan lopen |
-| isolator | Stof die een elektrische stroom niet of heel slecht doorlaat |
-| schakelaar | Apparaat waarmee je een stroomkring kan openen en sluiten |
-| stroomkring | Het geheel van apparaten waar stroom doorheen kan lopen |
-| stroommeter | Meter voor stroomsterkte |
-| stroomsterkte | De hoeveelheid lading die per seconde voorbijkomt |
-| herbruikbare batterij | Een batterij die je opnieuw kunt opladen. |
-| netspanning | De spanning die op stopcontacten staat (in Nederland is dit 230 V) |
-| spanning | Een soort ‘elektrische druk' |
-| spanningsbron | Het onderdeel van een stroomkring dat de spanning levert |
-| spanningsmeter | Meter voor spanning |
-| transformator | Apparaat dat netspanning omzet in een andere spanning |
-| bronspanning | De spanning van de spanningsbron |
-| parallelschakeling | Een schakeling met meerdere stroomkringen |
-| schakelschema | Tekening van een schakeling, met symbolen |
-| serieschakeling | Een schakeling die bestaat uit één stroomkring zonder vertakkingen. |
-| vermogen | Het elektrisch energieverbruik van een apparaat per seconde. |

@@ -141,34 +141,3 @@ Der Arzt operiert **mich**. *De arts opereert mij.*
 | die Studie | het onderzoek | während | terwijl |
 | die Welle | de golf | zeigen | laten zien |
 | dort drüben | daarginds |  |  |
-
-## Zinnenlijst
-
-| Hoe gaat het ... vandaag? | Wie geht es ... heute? |
-|----|----|
-| Het gaat ... met mij. | Es geht mir ... . |
-| Ik ben ... blij, omdat ik ... heb. | Ich bin ... froh, weil ich ... habe. |
-| Ik ben nogal ..., omdat ik ... heb. | Ich bin ziemlich ..., weil ich ... habe. |
-| Hoe voel je je? | Wie fühlst du dich? |
-| Ik ben heel ... . | Mir ist sehr ... . |
-| Ik voel mij ... duizelig. | Mir ist ... schwindlig. |
-| Ik heb sinds gisteren ... . | Ich habe seit gestern ... . |
-| Ik heb ... hoofdpijn. | Ich habe ... Kopfschmerzen. |
-| Ik heb iets nodig tegen ... . | Ich brauche etwas gegen ... . |
-| Ik ben ... aan mijn been gewond geraakt. | Ich habe mich ... am Bein verletzt. |
-| Beterschap! | Gute Besserung! |
-| ... ben je gewond geraakt? | ... hast du dich verletzt? |
-| Ik ben helaas ... gewond geraakt. | Ich habe mich leider ... verletzt. |
-| Mag ik u iets vragen? | Darf ich Sie etwas fragen? |
-| Hoe kom ik ...? | Wie komme ich ...? |
-| Je moet bij het stoplicht ... gaan en dan ... | Du musst an der Ampel ... gehen und dann ... . |
-| U moet ... links afslaan. | Sie müssen ... links abbiegen. |
-| Kunt u mij vertellen waar ... heen rijdt? | Können Sie mir sagen, wohin ... fährt? |
-| Weet u wanneer ... vertrekt? | Wissen Sie, wann ... abfährt? |
-| Weet u waar de bus ...? | Wissen Sie, wo der Bus ...? |
-| Ik wil graag ... . | Ich möchte ... . |
-| ... moet ik nemen? | ... muss ich nehmen? |
-| ... moet ik overstappen? | ... muss ich umsteigen? |
-| Wanneer moet ik ...? | Wann muss ich ...? |
-| De metro rijdt ... . | Die U-Bahn fährt ... . |
-| ... rijdt elke 15 minuten. | ... fährt alle 15 Minuten. |
