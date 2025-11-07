@@ -73,7 +73,7 @@ Een **argumentatieschema** geeft het verband aan tussen een standpunt en het arg
 
 - **Argumentatie op basis van voor- en nadelen**  
   Er worden voordelen afgezet tegen nadelen, waarna er een oordeel wordt gegeven.  
-  > *Elektrisch autorijden vermindert de uitstoot van broeikasgassen en geluidsoverlast, maar de batterijen zijn milieubelastend om te produceren. Omdat batterijen maar één keer geproduceerd hoeven te worden, is het wel voordelig om over te stappen op elektrische auto's.*
+  > *Elektrisch autorijden vermindert de uitstoot van broeikasgassen en geluidsoverlast, maar de batterijen zijn milieubelastend om te produceren. Omdat batterijen maar 1 keer geproduceerd hoeven te worden, is het wel voordelig om over te stappen op elektrische auto's.*
 
 - **Argumentatie op basis van voorbeelden**  
   Er worden voorbeelden gegeven om het standpunt te ondersteunen.  

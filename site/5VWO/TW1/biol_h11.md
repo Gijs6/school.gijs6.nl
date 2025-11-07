@@ -99,7 +99,7 @@ Door het verteren van macromoleculen uit voedingsstoffen ontstaan bruikbare bouw
 
 ### Koolhydraten verteren
 
-Er zijn verschillende typen enzymen voor de koolhydraatvertering. Tijdens het kauwen breekt amylase de **polysacharide** zetmeel via hydrolyse af tot de **disacharide** maltose (Binas 82G). De afbraak stopt in de maag (vanwege de zure omgeving), maar gaat verder in de twaalfvingerige darm (daar wordt extra amylase toegevoegd). In de dunne darm zet maltase maltose om in twee glucosemoleculen, de **monosacharide** glucose.
+Er zijn verschillende typen enzymen voor de koolhydraatvertering. Tijdens het kauwen breekt amylase de **polysacharide** zetmeel via hydrolyse af tot de **disacharide** maltose (Binas 82G). De afbraak stopt in de maag (vanwege de zure omgeving), maar gaat verder in de twaalfvingerige darm (daar wordt extra amylase toegevoegd). In de dunne darm zet maltase maltose om in 2 glucosemoleculen, de **monosacharide** glucose.
 In de dunne darm worden ook andere disachariden afgebroken tot monosachariden, zoals lactose (door lactase) en sucrose (door sucrase).
 
 Niet alle koolhydraten kunnen door mensen verteerd worden, zoals cellulose, omdat we geen cellulase hebben. Cellulose is wel belangrijk als voedingsvezel.

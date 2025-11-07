@@ -12,7 +12,7 @@ Insecten hebben een **open circulatiesysteem**. Hun bloedvatenstelsel bestaat ui
 Vissen, amfibieën, reptielen, vogels en zoogdieren hebben een **gesloten bloedsomloop**, waarbij bloed door bloedvaten stroomt.  
 Vissen hebben een **enkele bloedsomloop**: bloed stroomt per circulatie 1 keer door het hart.
 
-Amfibieën, reptielen, vogels en zoogdieren hebben een **dubbele bloedsomloop**, waarbij bloed per circulatie twee keer door het hart stroomt. De harthelften zijn gescheiden (Binas 84C1).
+Amfibieën, reptielen, vogels en zoogdieren hebben een **dubbele bloedsomloop**, waarbij bloed per circulatie 2 keer door het hart stroomt. De harthelften zijn gescheiden (Binas 84C1).
 
 - De **rechterkamer** pompt zuurstofarm bloed via de **longslagader** naar de longen. Hier neemt het bloed zuurstof op en geeft koolstofdioxide af. Het zuurstofrijke bloed stroomt via de **longaders** naar de **linkerboezem**. Dit is de **kleine bloedsomloop**.
 - Vanuit de linkerboezem stroomt het bloed naar de **linkerkamer**, die het via de **aorta** en andere **slagaders** naar de organen pompt. In de **haarvaten** geeft het bloed zuurstof af en neemt afvalstoffen op. Het bloed keert via **aders** terug naar de **rechterboezem**. Dit is de **grote bloedsomloop**.
@@ -23,7 +23,7 @@ De dubbele bloedsomloop maakt het mogelijk snel en gericht zuurstofrijk bloed na
 
 ## Het hart
 
-Het hart bestaat uit twee helften, elk met een **kamer** en een **boezem** (Binas 84C1). Tussen boezems en kamers zitten **hartkleppen**. Tussen kamers en slagaders bevinden zich de **slagaderkleppen** (of **halvemaanvormige kleppen**).
+Het hart bestaat uit 2 helften, elk met een **kamer** en een **boezem** (Binas 84C1). Tussen boezems en kamers zitten **hartkleppen**. Tussen kamers en slagaders bevinden zich de **slagaderkleppen** (of **halvemaanvormige kleppen**).
 
 ![De anatomie van het hart (img-xl)](images/biol_h10/hart.jpg)
 
@@ -39,7 +39,7 @@ Beide harthelften pompen evenveel bloed, maar de linkerhelft doet dit met hogere
 
 Bij een embryo spelen de longen nog geen rol. Zuurstof en voedingsstoffen komen via de **placenta** en **navelstreng**. Het zuurstofrijke bloed uit de navelstrengader mengt zich met zuurstofarm bloed in de onderste holle ader. Embryo's hebben dus **gemengd bloed**.
 
-Omdat de longen nog niet werken, hebben embryo's twee speciale verbindingen: het **foramen ovale** (tussen rechter- en linkerboezem) en de **ductus Botalli** (tussen longslagader en aorta) (Binas 84B). Hierdoor kan bloed de longen deels overslaan en rechtstreeks in de aorta of linkerboezem stromen.
+Omdat de longen nog niet werken, hebben embryo's 2 speciale verbindingen: het **foramen ovale** (tussen rechter- en linkerboezem) en de **ductus Botalli** (tussen longslagader en aorta) (Binas 84B). Hierdoor kan bloed de longen deels overslaan en rechtstreeks in de aorta of linkerboezem stromen.
 
 Na de geboorte scheiden de grote en kleine bloedsomloop zich. De longen vullen zich met lucht in plaats van vruchtwater. Hierdoor stijgt de druk in de linkerharthelft boven die van de rechterharthelft, waardoor het foramen ovale en de ductus Botalli sluiten.
 
@@ -76,7 +76,7 @@ Het bloed bestaat uit verschillende delen (Binas 84H):
 Zuurstof wordt voor een klein deel (max. 3 mL per liter) opgelost in plasma, maar vooral door rode bloedcellen (max. 200 mL per liter) vervoerd.  
 Rode bloedcellen hebben geen kern en weinig organellen. Ze bevatten 200 tot 300 miljoen moleculen **hemoglobine**.
 
-Hemoglobine ($\ce{Hb}$) bestaat uit vier eiwitketens, elk met een **heemgroep** met een ijzer(II)-ion.  
+Hemoglobine ($\ce{Hb}$) bestaat uit 4 eiwitketens, elk met een **heemgroep** met een ijzer(II)-ion.  
 Zodra zuurstof bindt, ontstaat oxihemoglobine ($\ce{HbO2}$). De bindingsreactie is een [evenwichtsreactie](../../4VWO/TW4/schk_h6#evenwichten):  
 $\ce{Hb + O2 <--> HbO2}$
 
@@ -88,7 +88,7 @@ Naast hemoglobine kan **myoglobine** ($\ce{Mb}$) zuurstof binden. Dit eiwit zit 
 
 Het hemoglobine van een ongeboren kind heeft hogere affiniteit dan dat van volwassenen, zodat zuurstof efficiënt via de placenta wordt overgedragen.
 
-Koolstofdioxide wordt op drie manieren vervoerd (Binas 83E):
+Koolstofdioxide wordt op 3 manieren vervoerd (Binas 83E):
 
 1. Opgelost in bloedplasma (ongeveer 5%).  
 2. Gebonden aan hemoglobine als carbaminohemoglobine ($\ce{HbCO2}$) (ongeveer 25%).  
@@ -101,7 +101,7 @@ De zuurstofverzadiging van hemoglobine hangt af van de zuurstofdruk. In de longe
 ## Bloedvaten
 
 Er zijn 3 soorten bloedvaten: slagaders, aders en haarvaten.  
-Bloedvaten zijn buizen van levende cellen. Slagaders en aders hebben drie lagen (Binas 84C2): dekweefsel met basaal membraan, elastisch bindweefsel en glad spierweefsel, en een buitenste laag bindweefsel.
+Bloedvaten zijn buizen van levende cellen. Slagaders en aders hebben 3 lagen (Binas 84C2): dekweefsel met basaal membraan, elastisch bindweefsel en glad spierweefsel, en een buitenste laag bindweefsel.
 
 Haarvaten hebben 1 laag dekweefsel met basaal membraan. Door de grote gezamenlijke doorsnede is de stroomsnelheid laag, zodat stoffen kunnen worden uitgewisseld.
 

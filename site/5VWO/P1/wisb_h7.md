@@ -25,18 +25,18 @@ Een **richtingshoek** van een lijn is de hoek waarmee je de $x$-as moet draaien 
 
 Voor de richtingshoek $\alpha$ van de lijn $k$ geldt: $\tan (\alpha) = \mathrm{rc}_k \land -90^{\circ} < \alpha \leq 90^{\circ}$
 
-De hoek tussen twee lijnen vind je door hun richtingshoeken van elkaar af te trekken. We nemen altijd de hoek waarvoor geldt $0^{\circ} \leq \varphi \leq 90^{\circ}$.
+De hoek tussen 2 lijnen vind je door hun richtingshoeken van elkaar af te trekken. We nemen altijd de hoek waarvoor geldt $0^{\circ} \leq \varphi \leq 90^{\circ}$.
 
-Voor de hoek $\varphi$ tussen twee lijnen met richtingshoeken $\alpha$ en $\beta$, waarbij $\alpha > \beta$, geldt:
+Voor de hoek $\varphi$ tussen 2 lijnen met richtingshoeken $\alpha$ en $\beta$, waarbij $\alpha > \beta$, geldt:
 
 - $\varphi = \alpha - \beta$ als $\alpha - \beta \leq 90^{\circ}$
 - $\varphi = 180^{\circ} - (\alpha - \beta)$ als $\alpha - \beta > 90^{\circ}$
 
 ## Afstanden
 
-### Afstand tussen twee punten
+### Afstand tussen 2 punten
 
-De afstand tussen twee punten bereken je met de stelling van Pythagoras. Hierbij is de afstand de schuine zijde, en de verschillen in coördinaten zijn de lengtes van de rechthoekszijden.
+De afstand tussen 2 punten bereken je met de stelling van Pythagoras. Hierbij is de afstand de schuine zijde, en de verschillen in coördinaten zijn de lengtes van de rechthoekszijden.
 
 Voor de afstand tussen de punten $A(x_A, y_A)$ en $B(x_B, y_B)$ geldt:
 $$d(A, B) = \sqrt{(x_B-x_A)^2 + (y_B-y_A)^2}$$
@@ -46,7 +46,7 @@ $$x_M = \frac{1}{2}(x_A + x_B) \quad\quad y_M = \frac{1}{2}(y_A + y_B)$$
 
 ### Loodrechte lijnen
 
-Voor twee lijnen die loodrecht op elkaar staan geldt: $\mathrm{rc}_k \cdot \mathrm{rc}_l = -1$.
+Voor 2 lijnen die loodrecht op elkaar staan geldt: $\mathrm{rc}_k \cdot \mathrm{rc}_l = -1$.
 
 Voor de lijn $ax+by=c$ met $b \neq 0$ geldt: $\mathrm{rc} = -\tfrac{a}{b}$.
 

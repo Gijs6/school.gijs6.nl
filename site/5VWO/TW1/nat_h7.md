@@ -99,7 +99,7 @@ Als je 2 stemvorken met net een iets andere frequentie beide aanslaat, hoor je s
 
 Om zweven uit te leggen moeten we kijken naar **fase**. De fase ($\varphi$) is het aantal trillingen dat een punt heeft gemaakt. De gereduceerde fase $\varphi_\mathrm{red}$ is het deel van de trilling binnen de huidige periode (dus een getal tussen 0 en 1). Je kijkt dan dus niet naar de volledige trillingen ervoor.
 
-Door de verschillende frequenties bij zweven komen de golven soms **in fase** aan en soms **uit fase**. Als de golven in fase ($\Delta \varphi_\mathrm{red} = 0$) aankomen, versterken ze elkaar. Als de golven uit fase ($\Delta \varphi_\mathrm{red} = \frac{1}{2}$) aankomen, heffen ze elkaar op. Doordat de frequenties van de twee stemvorken niet gelijk zijn, wisselen de momenten waarop de golven in fase en uit fase zijn steeds af.
+Door de verschillende frequenties bij zweven komen de golven soms **in fase** aan en soms **uit fase**. Als de golven in fase ($\Delta \varphi_\mathrm{red} = 0$) aankomen, versterken ze elkaar. Als de golven uit fase ($\Delta \varphi_\mathrm{red} = \frac{1}{2}$) aankomen, heffen ze elkaar op. Doordat de frequenties van de 2 stemvorken niet gelijk zijn, wisselen de momenten waarop de golven in fase en uit fase zijn steeds af.
 
 ![Constructieve en destructieve interferentie](images/nat_h7/faseverschil.png)
 
@@ -115,9 +115,9 @@ Hierin is $\Delta \varphi$ het faseverschil, $\Delta x$ het afstandsverschil tus
 
 Volgens het **superpositiebeginsel** mag je 2 golven die elkaar kruisen op dat punt optellen.
 
-Als je twee **coherente** puntbronnen naast elkaar zet, kunnen de golven met elkaar interfereren. Coherente bronnen hebben dezelfde frequentie en een constant faseverschil. De golven overlappen, en op elk punt in de ruimte tellen de uitwijkingen van beide golven zich op.
+Als je 2 **coherente** puntbronnen naast elkaar zet, kunnen de golven met elkaar interfereren. Coherente bronnen hebben dezelfde frequentie en een constant faseverschil. De golven overlappen, en op elk punt in de ruimte tellen de uitwijkingen van beide golven zich op.
 
-Op sommige plekken komen twee toppen of twee dalen tegelijk aan. Dan versterken de golven elkaar maximaal, en ontstaat er een extra hoge top of een extra diep dal. Op andere plekken komt een top van de ene bron tegelijk aan met een dal van de andere bron. Dan doven de golven elkaar (gedeeltelijk) uit.
+Op sommige plekken komen 2 toppen of 2 dalen tegelijk aan. Dan versterken de golven elkaar maximaal, en ontstaat er een extra hoge top of een extra diep dal. Op andere plekken komt een top van de ene bron tegelijk aan met een dal van de andere bron. Dan doven de golven elkaar (gedeeltelijk) uit.
 
 Door dit verschijnsel ontstaat een **interferentiepatroon** met **buiklijnen** (lijnen met extra hoge pieken en dalen) en **knooplijnen** (lijnen waar de golven elkaar (gedeeltelijk) uitdoven). Op de buiklijnen zijn de golven uit beide bronnen in fase ($\Delta \varphi$ = 0), en op de knooplijnen in tegenfase ($\Delta \varphi$ = $\frac{1}{2}$).
 
@@ -143,11 +143,11 @@ Op knooplijnen is de amplitude echter niet altijd helemaal nul. Dat kan alleen a
 
 ## Staande golven
 
-Een **staande golf** ontstaat door interferentie van twee lopende golven met dezelfde frequentie, golflengte en amplitude die in tegengestelde richting bewegen.
+Een **staande golf** ontstaat door interferentie van 2 lopende golven met dezelfde frequentie, golflengte en amplitude die in tegengestelde richting bewegen.
 
 ![Een staande golf met subgolven (img-xl)](images/nat_h7/staande_golf_subgolven.gif)
 
-In de animatie zie je 2 lopende golven die met elkaar interfereren. Op sommige punten versterken de golven elkaar maximaal (daar komen twee pieken of twee dalen samen). Deze punten noem je **buiken**. Op andere punten doven de golven elkaar volledig uit. Deze punten noem je **knopen**.
+In de animatie zie je 2 lopende golven die met elkaar interfereren. Op sommige punten versterken de golven elkaar maximaal (daar komen 2 pieken of 2 dalen samen). Deze punten noem je **buiken**. Op andere punten doven de golven elkaar volledig uit. Deze punten noem je **knopen**.
 
 Een staande golf staat dus stil.
 
@@ -159,7 +159,7 @@ Blaasinstrumenten werken met staande golven in een buis. In de buis zit een **lu
 
 ### Open buis
 
-Bij een **open buis** (beide uiteinden open) ontstaan aan de uiteinden altijd buiken, omdat de lucht daar vrij kan bewegen. De eenvoudigste staande golf is de **grondtoon**: dan ontstaat in het midden van de buis een knoop. Er past dan precies een halve golf in de buis (van buik naar buik). Bij de grondtoon is de golflengte dus twee keer de lengte van de buis.
+Bij een **open buis** (beide uiteinden open) ontstaan aan de uiteinden altijd buiken, omdat de lucht daar vrij kan bewegen. De eenvoudigste staande golf is de **grondtoon**: dan ontstaat in het midden van de buis een knoop. Er past dan precies een halve golf in de buis (van buik naar buik). Bij de grondtoon is de golflengte dus 2 keer de lengte van de buis.
 
 ![Grondtoon en boventonen in een open buis (img-padding)](images/nat_h7/open_buis.png)
 
@@ -169,7 +169,7 @@ Voor een open buis geldt:
 $$l = n \cdot \frac{1}{2}\lambda$$
 Hierin is $l$ de lengte van de buis (in $\mathrm{m}$), $n$ een geheel getal (waarbij $n=1$ voor de grondtoon, $n=2$ voor de eerste boventoon, etc.) en $\lambda$ de golflengte (in $\mathrm{m}$).
 
-Bij elke boventoon komt er een halve golflengte bij in de buis. Bij de grondtoon past er $\frac{1}{2}\lambda$ in de buis, bij de eerste boventoon $1\lambda$ (twee keer zoveel), bij de tweede boventoon $1\frac{1}{2}\lambda$ (drie keer zoveel), enzovoort. Omdat er steeds meer golf in dezelfde buis past, wordt de golflengte steeds korter.
+Bij elke boventoon komt er een halve golflengte bij in de buis. Bij de grondtoon past er $\frac{1}{2}\lambda$ in de buis, bij de eerste boventoon $1\lambda$ (2 keer zoveel), bij de tweede boventoon $1\frac{1}{2}\lambda$ (3 keer zoveel), enzovoort. Omdat er steeds meer golf in dezelfde buis past, wordt de golflengte steeds korter.
 
 De frequentie hangt samen met de golflengte: $f = \frac{v}{\lambda}$. Als de golflengte korter wordt, wordt de frequentie dus hoger. De frequenties hebben daarom de volgende verhoudingen:
 $$f_0 : f_1 : f_2 : f_3 = 1 : 2 : 3 : 4$$
@@ -187,11 +187,11 @@ Voor een eenzijdig gesloten buis geldt:
 $$l = (2n - 1) \cdot \frac{1}{4}\lambda$$
 Hierin is $l$ de lengte van de buis (in $\mathrm{m}$), $n$ een geheel getal (waarbij $n=1$ voor de grondtoon, $n=2$ voor de eerste boventoon, etc.) en $\lambda$ de golflengte (in $\mathrm{m}$).
 
-Bij een gesloten buis kunnen alleen bepaalde boventonen ontstaan, omdat er aan de gesloten kant altijd een knoop moet zitten en aan de open kant altijd een buik. Bij de grondtoon past er $\frac{1}{4}\lambda$ in de buis, bij de eerste boventoon $\frac{3}{4}\lambda$ (drie keer zoveel), bij de tweede boventoon $\frac{5}{4}\lambda$ (vijf keer zoveel), enzovoort. Je ziet dat alleen de oneven veelvouden mogelijk zijn.
+Bij een gesloten buis kunnen alleen bepaalde boventonen ontstaan, omdat er aan de gesloten kant altijd een knoop moet zitten en aan de open kant altijd een buik. Bij de grondtoon past er $\frac{1}{4}\lambda$ in de buis, bij de eerste boventoon $\frac{3}{4}\lambda$ (3 keer zoveel), bij de tweede boventoon $\frac{5}{4}\lambda$ (5 keer zoveel), enzovoort. Je ziet dat alleen de oneven veelvouden mogelijk zijn.
 
 De frequentie hangt samen met de golflengte: $f = \frac{v}{\lambda}$. Omdat de golflengte steeds korter wordt, wordt de frequentie hoger. De frequenties hebben daarom de volgende verhoudingen:
 $$f_0 : f_1 : f_2 : f_3 = 1 : 3 : 5 : 7$$
-De frequentie van de eerste boventoon is dus 3x de frequentie van de grondtoon, de tweede boventoon 5x, enzovoort.
+De frequentie van de eerste boventoon is dus 3x de frequentie van de grondtoon, de 2de boventoon 5x, enzovoort.
 
 ## Buiging
 
