@@ -1,7 +1,10 @@
 {
     "MD013": false,
+    "MD024": {
+        "siblings_only": true
+    },
     "MD025": {
-        "front_matter_title": "^details-(short|medium|extra)\\s*[:=]"
+        "front_matter_title": "title"
     },
     "MD033": false
 }
