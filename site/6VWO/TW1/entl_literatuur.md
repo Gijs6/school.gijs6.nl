@@ -14,6 +14,8 @@ The story is set before the American Civil War (1861-1865) during the **Antebell
 
 Chopin was a part of the **Louisiana creole social elite**. These were wealthy families who came from French and Spanish settlers. They kept their European culture, traditions and language.
 
+The story is an example of **American Realism**.
+
 ### Summary
 
 Désirée is the adopted daughter of Monsieur and Madame Valmondé. When she was a baby, she was found abandoned in the shadow of a stone pillar by Monsieur Valmondé. Désirée marries Armand Aubigny, and they have a child together. Armand was a slave owner, but he became kinder and softer after he married Désirée and after they had the baby. However, after a few months, Armand's behavior suddenly changes. He avoids being with the baby and becomes very harsh toward the slaves again.  
@@ -37,6 +39,8 @@ A few weeks later, Armand burns all of Désirée's belongings. In the drawer whe
 
 The story is set during the **fin de siècle** (end of century) period. This period was characterized by **decay**, **anxiety**, and **fear of the future**.
 People began to question the authority of religion, morality, and traditional gender roles. There was a growing fascination with the mind and dreams.
+
+The story is considered an important work of **early feminism**.
 
 ### Summary
 
@@ -70,6 +74,8 @@ By the end, the woman has gone completely insane. She is convinced that there ar
 ### Gothic writing
 
 Gothic literature is characterized by fear, horror, death and gloom, combined with romantic elements such as nature, individuality and emotion. It emerged as a reaction to the **Age of Reason** (*verlichting*), emphasizing the dark side of human progress and its limits rather than celebrating scientific advancement. Gothic writing focuses on what cannot be explained by logic and science, exploring the supernatural and the unknown. Death and nature are portrayed as forces superior to humans. The typical **Gothic hero** is a romantic figure who rejects social norms and conventions, but is also rejected by society.
+
+*Frankenstein* was written at the end of the Enlightenment period and is an important work of **Romanticism**.
 
 ### Summary
 
@@ -142,7 +148,9 @@ The story is an **allegory**: it has a hidden political meaning. Nearly all even
 
 ### Historical context
 
-The story was written during World War II and published shortly after the war ended. It is an allegory of the Russian Revolution of 1917) and the rise of Stalinism.
+The story was written during World War II and published shortly after the war ended. It is an allegory of the Russian Revolution of 1917 and the rise of Stalinism.
+
+*Animal Farm* is a **modernist** story.
 
 ### Characters
 
@@ -240,3 +248,39 @@ The pigs invite human farmers to a dinner party. Napoleon announces the farm wil
   The pigs manipulate language to control reality. They change the commandments to justify their actions and use complex words the other animals don't understand.
 - **Manipulation and propaganda**  
   Squealer constantly rewrites history and spreads lies to make the animals believe Napoleon is always right. The pigs control information to maintain power.
+
+## The Great Gatsby
+
+**The Great Gatsby**, written by F. Scott Fitzgerald in 1925, tells the story of Jay Gatsby, a wealthy man who throws lavish parties in hopes of reuniting with his lost love, Daisy Buchanan.
+
+### Historical context
+
+The story is set in New York during the summer of 1922. This was during the **Jazz Age** (1920-early 1930s), a period characterized by wealth, materialism, and post-WWI optimism.
+
+**West Egg** and **East Egg** are two areas in New York. West Egg is where people with new money live (less fashionable). East Egg is where people with old money live (more fashionable).
+
+*The Great Gatsby* is a **modernist** story.
+
+### Characters
+
+**Nick Carraway** is the narrator. He comes from a wealthy family in Minnesota that runs a hardware business. He fought in World War I. After the war, he moved to West Egg. He rents a small house between two huge mansions.
+
+**Jay Gatsby** is Nick's neighbor. He lives in a huge mansion next door with a tower, a marble swimming pool, and over forty acres of lawn and garden.
+
+**Tom Buchanan** is Daisy's husband. He was a famous football player at Yale. His family is extremely rich. He and Daisy live in a huge mansion in East Egg.
+
+**Daisy Buchanan** is Nick's second cousin and Tom's wife.
+
+### Summary
+
+Nick moves from Minnesota to New York in 1922 to work in the bond business. He rents a small house in West Egg. His neighbor is Jay Gatsby, who lives in a huge mansion. Across the bay in East Egg live Tom and Daisy Buchanan.
+
+### Themes
+
+- **Class difference**  
+  West Egg has new money and East Egg has old money. Tom and Daisy live in East Egg, while Nick and Gatsby live in West Egg.
+- **Money and wealth**  
+  Tom and Gatsby are extremely rich, while Nick is not.
+- **The American Dream**  
+  Nick moves East to make his fortune.
+
