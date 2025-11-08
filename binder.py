@@ -38,6 +38,7 @@ init()
 
 SITE_DIR = "site"
 BUILD_DIR = "build"
+BUILD_DEV_DIR = "build-dev"
 TEMPLATES_DIR = "site/templates"
 DATA_DIR = "site/data"
 
@@ -590,8 +591,10 @@ class BuildHandler(FileSystemEventHandler):
 
 
 class BuildHTTPServer(SimpleHTTPRequestHandler):
+    directory = BUILD_DIR
+
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, directory="build", **kwargs)
+        super().__init__(*args, directory=self.directory, **kwargs)
 
     def do_GET(self):
         path = self.translate_path(self.path)
@@ -627,7 +630,10 @@ class BuildHTTPServer(SimpleHTTPRequestHandler):
         self.send_error(404, "File not found")
 
 
-def build(dev=False):
+def build(dev=False, output_dir=None):
+    if output_dir is None:
+        output_dir = BUILD_DIR
+
     print(f"{Fore.CYAN}=> Binder is binding <={Style.RESET_ALL}")
     if dev:
         print(
@@ -661,9 +667,9 @@ def build(dev=False):
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
     print("> Output... ", end="", flush=True)
-    if os.path.exists(BUILD_DIR):
-        shutil.rmtree(BUILD_DIR)
-    shutil.move(temp_build_dir, BUILD_DIR)
+    if os.path.exists(output_dir):
+        shutil.rmtree(output_dir)
+    shutil.move(temp_build_dir, output_dir)
     print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
     print(f"{Fore.GREEN}Build complete!{Style.RESET_ALL}\n")
@@ -672,15 +678,19 @@ def build(dev=False):
 def serve(port=8000, dev=False):
     print(f"{Fore.BLUE}Server{Style.RESET_ALL}\n")
 
-    build(dev)
+    build(dev, output_dir=BUILD_DEV_DIR)
 
     observer = Observer()
-    handler = BuildHandler(lambda: build(dev))
+    handler = BuildHandler(lambda: build(dev, output_dir=BUILD_DEV_DIR))
     observer.schedule(handler, SITE_DIR, recursive=True)
     observer.schedule(handler, ".", recursive=False)
     observer.start()
 
-    server = HTTPServer(("localhost", port), BuildHTTPServer)
+    # Create a custom handler class with dev directory
+    class DevHTTPServer(BuildHTTPServer):
+        directory = BUILD_DEV_DIR
+
+    server = HTTPServer(("localhost", port), DevHTTPServer)
     threading.Thread(target=server.serve_forever, daemon=True).start()
 
     print(
