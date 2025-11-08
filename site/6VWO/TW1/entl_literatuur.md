@@ -76,4 +76,69 @@ By the end, the woman has gone completely insane. She is convinced that there ar
 - **Perception vs. reality**  
   Because the narrator is unreliable, readers are forced to question what is real and what is her imagination. Her changing perception of the wallpaper reflects her deteriorating mental state.
 
+## Frankenstein
 
+**Frankenstein** is a **Gothic novel** written by English writer **Mary Shelley** in 1818. The novel is often considered one of the first works of **science fiction**.
+
+### Gothic writing
+
+Gothic literature is characterized by fear, horror, death and gloom, combined with romantic elements such as nature, individuality and emotion. It emerged as a reaction to the **Age of Reason** (*verlichting*), emphasizing the dark side of human progress and its limits rather than celebrating scientific advancement. Gothic writing focuses on what cannot be explained by logic and science, exploring the supernatural and the unknown. Death and nature are portrayed as forces superior to humans. The typical **Gothic hero** is a romantic figure who rejects social norms and conventions, but is also rejected by society.
+
+### Summary
+
+Frankenstein suddenly sees the creature he created approaching him at the top of a mountain in the Swiss Alps. Frankenstein calls the creature a devil and threatens to kill him. The creature wants Frankenstein to listen to his story, telling him that society has rejected him and he has been miserable.
+
+When the creature wakes up, he does not understand anything. He slowly learns to use his senses, fire and how to find food. When he first meets people, they scream or attack him because of his appearance.
+
+Eventually, the creature finds a small hut next to a cottage and hides there. From inside, he watches a poor family: an old blind man (De Lacey), a young man (Felix) and a young woman (Agatha). The creature notices they are kind and loving to each other, even though they are sad. He admires them and feels joy from watching their happiness, but also pain from realising he can never be part of their world because of how people have treated him.
+
+The creature doesn't understand why Felix and Agatha cry so much, because he thinks they have everything they need, but eventually, he realises they are poor. He stops stealing their food and instead eats berries from the forest. To help them, he secretly gathers firewood and leaves it at their door.
+
+The creature starts learning about speech and picks up a couple of words, including the family's names.
+
+As spring arrives, the family's situation improves. The creature continues to secretly help them and study them. He imagines that if he could first master their language, they might not care about his appearance and accept him.
+
+One day, a woman (Safie) wearing a dark veil arrives at the cottage. When Felix sees her, he is very happy. She doesn't speak the family's language, but is welcomed anyway. She tries to learn from the cottagers, and the creature learns with her. Felix gives her lessons and reads her *Ruins of Empires*. Through these lessons, the creature learns about human society, wealth, poverty, kings, slaves, good and evil. He becomes both fascinated and troubled, because humans can be both kind and cruel.
+He realises he has no family, no money, no friends and a frightening appearance.
+
+The creature begins to understand love, family and human relations. The more he learns, the more miserable he becomes. He finds that knowledge only brings pain. But he still adores the cottagers (he calls them "my protectors") who represent everything beautiful and good to him.
+
+---
+
+The creature also learns the family's story.
+The old man used to be wealthy and respected in France. His son (Felix) and Agatha grew up wealthy and lived in Paris.
+
+Their happiness ended because of Safie's father (a Turkish merchant), who was imprisoned by the French government. Felix saw the trial, was outraged by the injustice and dedicated himself to rescuing him. When visiting the merchant in prison, Safie expressed gratitude to Felix, who was moved by her beauty. Her father promised they could marry if Felix saved him.
+
+Felix succeeded and guided them from Paris through France and Italy. Safie and Felix grew close, but her father intended to take her back to Turkey. When Felix was exiled, Safie left Italy alone with money and jewels. Her helper died on the way, but she finally reached safety near the cottage.
+
+---
+
+Around August, the creature finds some books in the woods: *Paradise Lost*, *Plutarch's Lives*, and *The Sorrows of Werter*. From *Paradise Lost*, he learns about religion and spirituality, but takes it as "true history" rather than fiction. From *Plutarch's Lives*, he learns about society and the importance of perspective and education. From *The Sorrows of Werter*, he learns about domestic life, death and darker emotions.
+
+He also finds Frankenstein's journal describing his creation. Reading it fills him with horror and despair as he sees himself as a monstrous, abandoned being, unlike any human.
+
+The family grows happier, especially with Safie's arrival. The creature's knowledge increases, but so does his awareness of his appearance. In the winter, he plans to reveal himself when the blind old man is alone, hoping his blindness will allow him to judge the creature by words rather than appearance.
+
+The creature nervously approaches the cottage and asks for shelter. De Lacey speaks kindly and offers help. The creature tells him of his loneliness, hoping to gain the family's trust. But then, Felix, Agatha and Safie return and are horrified: Agatha faints, Safie runs away and Felix attacks him. The creature escapes to his hut, heartbroken and rejected. He thinks they might still accept him if he approaches more carefully, but when he returns, the cottage is deserted. Out of revenge, he sets it on fire.
+
+The creature curses his creator for giving him life and declares eternal hate toward humanity and Frankenstein. He travels towards Frankenstein's home in Geneva, suffering from hunger, cold and loneliness. At one point, he saves a drowning girl, but instead of gratitude, a man shoots him.
+
+Near Geneva, the creature meets a small boy. He hopes the boy won't fear him, but the boy screams, calls him a monster and reveals his father is Frankenstein. The creature kills the boy, finds a picture of a woman on him and plants it on another woman to frame her for the murder.
+
+At the end, the creature tells Frankenstein he will not stop his violence unless Frankenstein creates a female companion for him.
+
+### Themes
+
+- **Supernatural**  
+  Creating life from dead matter defies the natural order and represents the Gothic fascination with what lies beyond human understanding.
+- **Emotions**  
+  The story emphasizes emotions over rationality. The creature shows that emotions are fundamental to existence.
+- **Knowledge**  
+  The creature discovers that knowledge only brings pain.
+- **Revenge**  
+  Rejection drives the creature to revenge.
+- **Criticism of society**  
+  Society judges by appearance rather than character. Despite his intelligence and goodness, the creature is rejected purely because of his looks. The creature also questions human society itself: why people are cruel, why they murder, why there is inequality in wealth and status, and why property and money are so important.
+- **Abandonment**  
+  The creature's existence is defined by abandonment: by his creator, the cottagers and society.
