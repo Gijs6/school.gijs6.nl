@@ -6,7 +6,7 @@ hidden: true
 
 ## Désirée's Baby
 
-Désirée's Baby is a short story about multi-ethnic relationships written by American writer Kate Chopin (born Katherine O'Flaherty) in 1893.
+**Désirée's Baby** is a short story about multi-ethnic relationships written by American writer **Kate Chopin** (born Katherine O'Flaherty) in 1893.
 
 Chopin was a part of the **creole social elite**. These were wealthy families in Louisiana who came from French and Spanish settlers, who kept their European culture and traditions.
 
@@ -30,3 +30,50 @@ A few weeks later, Armand burns all of Désirée's belongings. In the drawer whe
 - **Racism**
 - **Love/marriage**
 - **Sexism**
+
+## The Yellow Wallpaper
+
+**The Yellow Wallpaper** is a short story written by American writer **Charlotte Perkins Gilman** in 1892. The story is an important work of **feminist literature**.
+
+The story is a collection of first-person narrated journal entries.
+
+### Historical context
+
+The story is set during the **fin de siècle** (end of century) period. This period was characterized by **decay**, **anxiety**, and **fear of the future**.
+People began to question the authority of religion, morality, and traditional gender roles. There was a growing fascination with the mind and dreams.
+
+### Summary
+
+A young woman and her husband (John) spend the summer at a mansion, where the narrator is confined to an upstairs nursery. Her husband had imposed a **rest cure** on her after she suffered a **postpartum depression** (depression after giving birth). John is belittling of her illness and dismissive of her perspective. He believes she is not really sick. The woman keeps a secret journal to "relieve her mind."
+
+The woman develops an obsession with the yellow wallpaper in the nursery. She finds the pattern disturbing. John worries about her obsession and refuses to replace the wallpaper.
+As her obsession grows, the sub-pattern of the wallpaper begins to resemble a woman "stooping down and creeping."
+
+Her obsession intensifies. She believes the wallpaper is moving, and her imagination becomes completely focused on it. She is losing touch with reality. She can smell the paper throughout the whole house. She believes that a woman trapped inside the paper is making it move. She descends into total madness and even sees that woman outside her window. She starts to identify with the woman in the wallpaper.
+
+She starts peeling off the wallpaper during the night because she suspects that John knows about her obsession. The next day, she starts biting and tearing the paper to free the trapped woman inside.
+By the end, the woman has gone completely insane. She is convinced that there are many women creeping around, and that she herself has come out of the wallpaper. When John breaks into the locked room and sees the full horror of the situation, he faints in the doorway.
+
+### Characters
+
+|  Character   |                                                             Description                                                              |
+| :----------: | :----------------------------------------------------------------------------------------------------------------------------------: |
+| **Narrator** |            A young woman suffering from postpartum depression. Her name might be Jane. She is an **unreliable narrator**.            |
+|   **John**   | The narrator's husband and a physician. He dismisses his wife's illness and forces her to rest. He represents authority and control. |
+|  **Jennie**  |                                                John's sister who acts as housekeeper.                                                |
+|   **Mary**   |                                           The nanny who takes care of the narrator's baby.                                           |
+
+### Themes
+
+- **Mental health and insanity**  
+  The story shows how the rest cure and isolation drive the narrator to madness. Her descent into insanity is portrayed through her obsession with the wallpaper.
+- **The rest cure**  
+  The rest cure was a real medical treatment prescribed to women in the 19th century. The story criticizes this treatment by showing how it worsens the narrator's condition instead of curing it. Charlotte Perkins Gilman herself was placed on a rest cure after suffering from postpartum depression. She wrote this story as a critique of the treatment and to raise awareness about its harmful effects.
+- **Gender roles**  
+  John dismisses his wife's concerns and he controls every aspect of her life. The collapse of John at the end symbolizes the collapse of his power.
+- **Freedom**  
+  The woman in the wallpaper represents the narrator's desire to break free from her confinement. By tearing down the wallpaper, she symbolically frees herself.
+- **Perception vs. reality**  
+  Because the narrator is unreliable, readers are forced to question what is real and what is her imagination. Her changing perception of the wallpaper reflects her deteriorating mental state.
+
+
