@@ -1,6 +1,5 @@
 ---
 subject: NETL
-short: Literatuur V2
 title: Literatuur V2
 description: Verhaalanalyse
 ---

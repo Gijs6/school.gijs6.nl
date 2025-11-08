@@ -1,6 +1,5 @@
 ---
 subject: NETL
-short: Literatuurgeschiedenis
 title: Literatuurgeschiedenis
 description: Oudheid & middeleeuwen
 ---

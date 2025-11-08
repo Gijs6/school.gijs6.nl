@@ -1,6 +1,5 @@
 ---
 subject: NETL
-short: Literatuur
 title: Literatuur
 description: Verhaalanalyse
 ---

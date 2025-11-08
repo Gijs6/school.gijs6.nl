@@ -1,7 +1,6 @@
 ---
 subject: WISB
-short: H5
-title: Hoofdstuk 5
+title: H5
 description: Machten, exponenten & logaritmen
 ---
 

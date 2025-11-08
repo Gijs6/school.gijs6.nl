@@ -1,7 +1,6 @@
 ---
 subject: BIOL
-short: H7
-title: Hoofdstuk 7
+title: H7
 description: Evolutie
 ---
 

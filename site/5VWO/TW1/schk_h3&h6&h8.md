@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-short: H3 & H6 & H8
-title: Hoofdstuk 3 & hoofdstuk 6 & hoofdstuk 8
+title: H3 & H6 & H8
 description: Chemisch rekenen, evenwichten & reactiesnelheid
 ---
 

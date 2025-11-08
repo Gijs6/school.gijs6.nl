@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-short: H1
-title: Hoofdstuk 1
+title: H1
 description: Atoombouw
 ---
 

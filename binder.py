@@ -147,19 +147,19 @@ def load_json_file(filepath):
 
 
 def build_test_material(metadata):
-    short = metadata.get("short", "")
     title = metadata.get("title", "")
+    short = metadata.get("short", "")
     description = metadata.get("description", "")
-
-    if short and description:
-        return f"{short} ({description})"
-    if short:
-        return short
 
     if title and description:
         return f"{title} ({description})"
     if title:
         return title
+
+    if short and description:
+        return f"{short} ({description})"
+    if short:
+        return short
     if description:
         return f"({description})"
 

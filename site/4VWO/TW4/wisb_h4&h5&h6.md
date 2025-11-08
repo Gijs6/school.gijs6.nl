@@ -1,7 +1,6 @@
 ---
 subject: WISB
-short: H4 & H5 & H6
-title: Hoofdstuk 4 & hoofdstuk 5 & hoofdstuk 6
+title: H4 & H5 & H6
 description: Vergelijkingen & herleidingen, machten & exponenten & logaritmen, differentiaalrekening
 ---
 

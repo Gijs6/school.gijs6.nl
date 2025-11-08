@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-short: H5
-title: Hoofdstuk 5
+title: H5
 description: Mengen & oplossen
 ---
 

@@ -1,7 +1,6 @@
 ---
 subject: MAAT
-short: H1 & H2
-title: Hoofdstuk 1 & hoofdstuk 2
+title: H1 & H2
 description: Rechtsstaat
 ---
 

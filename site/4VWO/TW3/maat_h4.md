@@ -1,7 +1,6 @@
 ---
 subject: MAAT
-short: H4
-title: Hoofdstuk 4
+title: H4
 description: Pluriforme samenleving
 ---
 

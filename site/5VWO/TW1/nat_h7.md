@@ -1,7 +1,6 @@
 ---
 subject: NAT
-short: H7
-title: Hoofdstuk 7
+title: H7
 description: Trillingen & golven
 ---
 

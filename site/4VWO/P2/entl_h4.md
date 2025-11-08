@@ -1,7 +1,6 @@
 ---
 subject: ENTL
-short: H4
-title: Hoofdstuk 4
+title: H4
 ---
 
 ## Werkwoordstijden

@@ -1,6 +1,5 @@
 ---
 subject: NETL
-short: Woordenschat
 title: Woordenschat
 ---
 | Woord                            | Definitie                                                                                                                 |

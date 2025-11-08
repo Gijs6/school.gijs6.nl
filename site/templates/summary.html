@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
 {% block title %}
-    {%- if meta.subject and meta.short -%}
-        {{ meta.subject_name }} - {{ meta.short }} - Samenvatting
+    {%- if meta.subject and (meta.short or meta.title) -%}
+        {{ meta.subject_name }} - {{ meta.short or meta.title }} - Samenvatting
     {%- else -%}
         Samenvatting
     {%- endif -%}
@@ -34,16 +34,18 @@
     </header>
     <article class="summary-content">
         {%- if meta.subject_name and (meta.title or meta.short) -%}
-            <h1 class="summary-subject-header">
-                {{ meta.subject_name }}
-                {%- if meta.year and meta.period %} ({{ meta.year }}/{{ meta.period }})
-                {% endif -%}
-            </h1>
-            <p class="summary-material-subheader">
-                {{ meta.title or meta.short }}
-                {%- if meta.description %} ({{ meta.description }})
-                {% endif -%}
-            </p>
+            <hgroup>
+                <h1 class="summary-subject-header">
+                    {{ meta.subject_name }}
+                    {%- if meta.year and meta.period %} ({{ meta.year }}/{{ meta.period }})
+                    {% endif -%}
+                </h1>
+                <p class="summary-material-subheader">
+                    {{ meta.title or meta.short }}
+                    {%- if meta.description %} ({{ meta.description }})
+                    {% endif -%}
+                </p>
+            </hgroup>
         {%- endif -%}
         {{ content | safe }}
     </article>

@@ -1,6 +1,5 @@
 ---
 subject: NETL
-short: Lezen
 title: Lezen
 ---
 

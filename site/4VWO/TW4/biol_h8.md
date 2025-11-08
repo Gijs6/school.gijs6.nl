@@ -1,7 +1,6 @@
 ---
 subject: BIOL
-short: H8
-title: Hoofdstuk 8
+title: H8
 description: Kenmerken van ecosystemen
 ---
 

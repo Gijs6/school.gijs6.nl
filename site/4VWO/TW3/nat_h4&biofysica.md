@@ -1,7 +1,6 @@
 ---
 subject: NAT
-short: H4 & biofysica
-title: Hoofdstuk 4 & biofysica
+title: H4 & biofysica
 description: Krachten & biofysica
 ---
 

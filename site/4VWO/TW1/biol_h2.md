@@ -1,7 +1,6 @@
 ---
 subject: BIOL
-short: H2
-title: Hoofdstuk 2
+title: H2
 description: Cel & leven
 ---
 

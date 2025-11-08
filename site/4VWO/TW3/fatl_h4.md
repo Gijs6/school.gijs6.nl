@@ -1,7 +1,6 @@
 ---
 subject: FATL
-short: H4
-title: Hoofdstuk 4
+title: H4
 ---
 
 ## Persoonlijke voornaamwoorden

@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-short: H2
-title: Hoofdstuk 2
+title: H2
 description: Koolstofchemie
 ---
 

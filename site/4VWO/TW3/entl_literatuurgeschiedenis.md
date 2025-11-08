@@ -1,6 +1,5 @@
 ---
 subject: ENTL
-short: Literatuurgeschiedenis
 title: Literatuurgeschiedenis
 description: Middeleeuwen
 ---

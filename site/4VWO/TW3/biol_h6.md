@@ -1,7 +1,6 @@
 ---
 subject: BIOL
-short: H6
-title: Hoofdstuk 6
+title: H6
 description: Soorten & populaties
 ---
 

@@ -1,7 +1,6 @@
 ---
 subject: WISB
-short: H4
-title: Hoofdstuk 4
+title: H4
 description: Vergelijkingen & herleidingen
 ---
 

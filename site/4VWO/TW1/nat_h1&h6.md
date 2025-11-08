@@ -1,7 +1,6 @@
 ---
 subject: NAT
-short: H1 & H6
-title: Hoofdstuk 1 & hoofdstuk 6
+title: H1 & H6
 description: Elektriciteit & onderzoeksvaardigheden
 ---
 

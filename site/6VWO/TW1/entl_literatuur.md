@@ -1,6 +1,5 @@
 ---
 subject: ENTL
-short: Literatuur
 title: Literatuur
 hidden: true
 ---

@@ -1,7 +1,6 @@
 ---
 subject: BIOL
-short: H10
-title: Hoofdstuk 10
+title: H10
 description: Bloedsomloop
 ---
 

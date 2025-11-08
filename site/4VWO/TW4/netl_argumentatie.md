@@ -1,6 +1,5 @@
 ---
 subject: NETL
-short: Argumentatie
 title: Argumentatie
 description: Argumentatiestructuren & argumentatieschema's
 ---

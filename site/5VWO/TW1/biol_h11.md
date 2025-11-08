@@ -1,7 +1,6 @@
 ---
 subject: BIOL
-short: H11
-title: Hoofdstuk 11
+title: H11
 description: Voeding & vertering
 ---
 

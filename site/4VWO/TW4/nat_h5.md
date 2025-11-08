@@ -1,7 +1,6 @@
 ---
 subject: NAT
-short: H5
-title: Hoofdstuk 5
+title: H5
 description: Ioniserende straling
 ---
 
