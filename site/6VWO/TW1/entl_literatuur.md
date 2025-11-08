@@ -131,3 +131,112 @@ At the end, the creature tells Frankenstein he will not stop his violence unless
   Society judges by appearance rather than character. Despite his intelligence and goodness, the creature is rejected purely because of his looks. The creature also questions human society itself: why people are cruel, why they murder, why there is inequality in wealth and status, and why property and money are so important.
 - **Abandonment**  
   The creature's existence is defined by abandonment: by his creator, the cottagers and society.
+
+## Animal Farm
+
+**Animal Farm**, written by George Orwell in 1945, follows farm animals who rebel against their human owner to create an equal society. However, the pigs who lead the rebellion gradually become corrupt and take control, turning into the very oppressors they fought against. The story is a critique of totalitarianism.
+
+Orwell's work has been so influential that the term **Orwellian** is now used to describe totalitarian practices like government surveillance, propaganda and manipulation of truth.
+
+The story is an **allegory**: it has a hidden political meaning. Nearly all events and characters represent real-life events and figures.
+
+### Historical context
+
+The story was written during World War II and published shortly after the war ended. It is an allegory of the Russian Revolution of 1917) and the rise of Stalinism.
+
+### Characters
+
+|                  Character | Represents                                                               |
+| -------------------------: | :----------------------------------------------------------------------- |
+|        **Old Major** (pig) | Karl Marx / Vladimir Lenin (the 'founders' of communism)                 |
+|         **Napoleon** (pig) | Joseph Stalin                                                            |
+|         **Snowball** (pig) | Leon Trotsky                                                             |
+|         **Squealer** (pig) | Soviet propaganda machine                                                |
+|          **Boxer** (horse) | The male working class                                                   |
+|         **Clover** (horse) | The female working class                                                 |
+|      **Benjamin** (donkey) | Those aware of Stalin's oppression but did nothing                       |
+|         **Mollie** (horse) | The selfish middle class                                                 |
+|          **Muriel** (goat) | Educated people who knew what was happening but lacked power to speak up |
+|      **The sheep** (sheep) | The duped citizens                                                       |
+|        **The dogs** (dogs) | Secret police (NKVD)                                                     |
+|      **Mr. Jones** (human) | Tsar Nicholas II                                                         |
+| **Mr. Pilkington** (human) | The Western Allies (Britain and USA)                                     |
+|  **Mr. Frederick** (human) | Nazi Germany (Hitler)                                                    |
+
+### Summary
+
+Old Major, an old pig, holds a meeting in the barn. He shares his vision of a world where animals live free from human oppression and teaches them the revolutionary song *Beasts of England*. Three days later, he dies.
+
+> Old Major represents Karl Marx and Vladimir Lenin, the founders of communism.
+> *Beasts of England* corresponds to *The Internationale*, the socialist anthem.
+
+Three pigs (Napoleon, Snowball and Squealer) develop Old Major's ideas into **Animalism**. When Mr. Jones forgets to feed the animals, they revolt and drive him off the farm in what becomes known as the **Rebellion**.
+
+> The Rebellion represents the Russian Revolution of 1917.
+
+The animals rename the farm to Animal Farm. The pigs take leadership. Snowball paints the Seven Commandments on the barn wall:
+
+1. Whatever goes upon two legs is an enemy.
+2. Whatever goes upon four legs, or has wings, is a friend.
+3. No animal shall wear clothes.
+4. No animal shall sleep in a bed.
+5. No animal shall drink alcohol.
+6. No animal shall kill any other animal.
+7. All animals are equal.
+
+Snowball also reduces these to a simpler maxim: "Four legs good, two legs bad."
+
+The animals work together successfully. Boxer the horse works hardest with his motto "I will work harder." Napoleon takes nine puppies to train them. The pigs start taking special privileges like milk and apples.
+
+Mr. Jones returns with men from neighboring farms (Foxwood and Pinchfield) to retake the farm, but the animals fight them off in the **Battle of the Cowshed**.
+
+> The Battle of the Cowshed represents the Russian Civil War.
+
+Snowball proposes building a windmill to generate electricity and reduce work hours. Napoleon opposes it. During the vote, Napoleon unleashes nine enormous dogs who chase Snowball off the farm. He is never seen again.
+
+> This represents Stalin forcing Trotsky into exile in 1929.
+
+Napoleon ends democracy. The pigs will make all decisions. He announces they will build the windmill after all, claiming it was his idea. Boxer adds a second motto: "Napoleon is always right." Everything that goes wrong is blamed on Snowball.
+
+Life gets harder. Napoleon starts trading with humans. The pigs move into the farmhouse and sleep in beds. The commandments are gradually changed to justify the pigs' actions.
+
+> The changing of commandments shows how totalitarian regimes rewrite history.
+
+A storm destroys the windmill. Napoleon blames Snowball. Food shortages worsen. Napoleon orders the hens to give up 400 eggs per week. When they rebel, nine hens starve.
+
+Napoleon holds a mass purge. His dogs force animals to confess to working with Snowball, then execute them. The animals try to sing "Beasts of England," but Squealer bans it and replaces it with an anthem praising Napoleon.
+
+> This represents Stalin's Great Purge of the 1930s.
+
+Napoleon sells timber to Mr. Frederick after playing him against Mr. Pilkington.
+
+> Napoleon's shifting alliances represent the Molotov-Ribbentrop Pact.
+
+Frederick pays with fake money, then attacks and blows up the windmill. The animals fight back in the **Battle of the Windmill**, suffering heavy casualties.
+
+> This represents Nazi Germany's invasion of the Soviet Union in 1941.
+
+The pigs find whisky and start drinking. Another commandment is changed to allow it.
+
+Boxer works himself to exhaustion and collapses. Napoleon sends him away in a van. Benjamin reads the side: "Horse Slaughterer and Glue Boiler." Boxer is too weak to escape. The pigs use the money from selling Boxer to buy whisky.
+
+> Boxer represents the working class who are exploited and discarded when no longer useful.
+
+Years pass, and the windmill is finished but generates profit instead of electricity. Only the pigs benefit from it.
+
+The pigs start walking on two legs and carrying whips. The sheep bleat a new slogan: "Four legs good, two legs better!" The Seven Commandments are replaced with a single statement: "All animals are equal, but some animals are more equal than others."
+
+The pigs invite human farmers to a dinner party. Napoleon announces the farm will be called Manor Farm again. Mr. Pilkington praises how Napoleon makes animals work long hours for little food. A fight breaks out when both play the Ace of Spades. The animals watching through the window cannot tell the pigs from the humans anymore.
+
+### Themes
+
+- **Totalitarianism**  
+  Napoleon's rule shows how totalitarian regimes use fear, propaganda and violence to maintain absolute control over society.
+- **Violence**  
+  The pigs use violence to silence opposition. Napoleon's dogs attack animals who confess to crimes, and Boxer is sent to the slaughterhouse when he becomes useless.
+- **Class difference**  
+  The pigs create a new class system where they are the ruling elite and the other animals are the working class. The initial goal of equality is completely abandoned.
+- **Language as power**  
+  The pigs manipulate language to control reality. They change the commandments to justify their actions and use complex words the other animals don't understand.
+- **Manipulation and propaganda**  
+  Squealer constantly rewrites history and spreads lies to make the animals believe Napoleon is always right. The pigs control information to maintain power.
