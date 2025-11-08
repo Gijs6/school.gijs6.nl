@@ -6,15 +6,13 @@ hidden: true
 
 ## Désirée's Baby
 
-**Désirée's Baby** is a short story about multi-ethnic relationships written by American writer **Kate Chopin** (born Katherine O'Flaherty) in 1893.
-
-Chopin was a part of the **creole social elite**. These were wealthy families in Louisiana who came from French and Spanish settlers, who kept their European culture and traditions.
-
-The story is set in L'Abri, Louisiana, on a plantation.
+**Désirée's Baby**, written by Kate Chopin in 1893, follows a woman who is rejected by her husband after their baby appears to have Black ancestry. The story is set on a Louisiana plantation before the American Civil War and explores themes of racial identity and prejudice.
 
 ### Historical context
 
 The story is set before the American Civil War (1861-1865) during the **Antebellum** period (1820-1855). During this period, there was significant tension between the Northern and Southern states. Northern states were free states where slavery was prohibited, while slavery was still practiced in the Southern states. This created growing conflict between the states, eventually leading to the American Civil War. The Northern states won the war, and slavery was abolished (but racism persisted).
+
+Chopin was a part of the **Louisiana creole social elite**. These were wealthy families who came from French and Spanish settlers. They kept their European culture, traditions and language.
 
 ### Summary
 
@@ -33,9 +31,7 @@ A few weeks later, Armand burns all of Désirée's belongings. In the drawer whe
 
 ## The Yellow Wallpaper
 
-**The Yellow Wallpaper** is a short story written by American writer **Charlotte Perkins Gilman** in 1892. The story is an important work of **feminist literature**.
-
-The story is a collection of first-person narrated journal entries.
+**The Yellow Wallpaper**, written by Charlotte Perkins Gilman in 1892, is an important work of feminist literature. The story follows a woman who is forced to undergo a rest cure for her postpartum depression and slowly descends into madness. It's told through first-person journal entries.
 
 ### Historical context
 
@@ -54,15 +50,6 @@ Her obsession intensifies. She believes the wallpaper is moving, and her imagina
 She starts peeling off the wallpaper during the night because she suspects that John knows about her obsession. The next day, she starts biting and tearing the paper to free the trapped woman inside.
 By the end, the woman has gone completely insane. She is convinced that there are many women creeping around, and that she herself has come out of the wallpaper. When John breaks into the locked room and sees the full horror of the situation, he faints in the doorway.
 
-### Characters
-
-|  Character   |                                                             Description                                                              |
-| :----------: | :----------------------------------------------------------------------------------------------------------------------------------: |
-| **Narrator** |            A young woman suffering from postpartum depression. Her name might be Jane. She is an **unreliable narrator**.            |
-|   **John**   | The narrator's husband and a physician. He dismisses his wife's illness and forces her to rest. He represents authority and control. |
-|  **Jennie**  |                                                John's sister who acts as housekeeper.                                                |
-|   **Mary**   |                                           The nanny who takes care of the narrator's baby.                                           |
-
 ### Themes
 
 - **Mental health and insanity**  
@@ -78,7 +65,7 @@ By the end, the woman has gone completely insane. She is convinced that there ar
 
 ## Frankenstein
 
-**Frankenstein** is a **Gothic novel** written by English writer **Mary Shelley** in 1818. The novel is often considered one of the first works of **science fiction**.
+**Frankenstein**, written by Mary Shelley in 1818, is a Gothic novel often considered one of the first works of science fiction. The novel explores the dark side of scientific progress: a young scientist creates a living creature from dead body parts, but when society rejects the creature, it turns to violence. The story examines themes of ambition, isolation, revenge, and the responsibilities of creation.
 
 ### Gothic writing
 
@@ -86,7 +73,9 @@ Gothic literature is characterized by fear, horror, death and gloom, combined wi
 
 ### Summary
 
-Frankenstein suddenly sees the creature he created approaching him at the top of a mountain in the Swiss Alps. Frankenstein calls the creature a devil and threatens to kill him. The creature wants Frankenstein to listen to his story, telling him that society has rejected him and he has been miserable.
+Victor Frankenstein, a young scientist, succeeds in creating a living being from dead body parts. However, when he sees what he has created, he is horrified and abandons the creature. The creature is left alone to discover the world by himself.
+
+Later, at the top of a mountain in the Swiss Alps, Frankenstein encounters the creature again. Frankenstein calls him a devil and threatens to kill him, but the creature begs Frankenstein to listen to his story. He tells him that society has rejected him and he has been miserable since his creation.
 
 When the creature wakes up, he does not understand anything. He slowly learns to use his senses, fire and how to find food. When he first meets people, they scream or attack him because of his appearance.
 
