@@ -4,3 +4,5 @@ dev
 .venv
 __pycache__
 .vscode
+
+CLAUDE.md
