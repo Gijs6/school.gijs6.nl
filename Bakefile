@@ -15,12 +15,17 @@ deploy() {
 }
 
 publish() {
-  git stash push -m "bake-publish"
+  if ! git diff-index --quiet HEAD --; then
+    git stash push -m "bake-publish"
+    STASHED=1
+  else
+    STASHED=0
+  fi
 
   format
   git commit -a -m "Format repo" || true
 
-  if git stash list | grep -q "bake-publish"; then
+  if [ "$STASHED" -eq 1 ]; then
     git stash pop
   fi
 
