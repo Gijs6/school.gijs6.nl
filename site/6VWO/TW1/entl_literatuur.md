@@ -1,7 +1,6 @@
 ---
 subject: ENTL
 title: Literatuur
-hidden: true
 ---
 
 ## Désirée's Baby
@@ -10,9 +9,9 @@ hidden: true
 
 ### Historical context
 
-The story is set before the American Civil War (1861-1865) during the **Antebellum** period (1820-1855). During this period, there was significant tension between the Northern and Southern states. Northern states were free states where slavery was prohibited, while slavery was still practiced in the Southern states. This created growing conflict between the states, eventually leading to the American Civil War. The Northern states won the war, and slavery was abolished (but racism persisted).
+The story is set before the American Civil War (1861-1865) during the **Antebellum** period (1815-1861). During this period, there was significant tension between the Northern and Southern states. Northern states were free states where slavery was prohibited, while slavery was still practiced in the Southern states. This created growing conflict between the states, eventually leading to the American Civil War. The Northern states won the war, and slavery was abolished (but racism persisted).
 
-Chopin was a part of the **Louisiana creole social elite**. These were wealthy families who came from French and Spanish settlers. They kept their European culture, traditions and language.
+Chopin was a part of the **Louisiana Creole social elite**. These were wealthy families who came from French and Spanish settlers. They kept their European culture, traditions, and language.
 
 The story is an example of **American Realism**.
 
@@ -61,7 +60,7 @@ By the end, the woman has gone completely insane. She is convinced that there ar
 - **The rest cure**  
   The rest cure was a real medical treatment prescribed to women in the 19th century. The story criticizes this treatment by showing how it worsens the narrator's condition instead of curing it. Charlotte Perkins Gilman herself was placed on a rest cure after suffering from postpartum depression. She wrote this story as a critique of the treatment and to raise awareness about its harmful effects.
 - **Gender roles**  
-  John dismisses his wife's concerns and he controls every aspect of her life. The collapse of John at the end symbolizes the collapse of his power.
+  John dismisses his wife's concerns, and he controls every aspect of her life. The collapse of John at the end symbolizes the collapse of his power.
 - **Freedom**  
   The woman in the wallpaper represents the narrator's desire to break free from her confinement. By tearing down the wallpaper, she symbolically frees herself.
 - **Perception vs. reality**  
@@ -73,7 +72,7 @@ By the end, the woman has gone completely insane. She is convinced that there ar
 
 ### Gothic writing
 
-Gothic literature is characterized by fear, horror, death and gloom, combined with romantic elements such as nature, individuality and emotion. It emerged as a reaction to the **Age of Reason** (*verlichting*), emphasizing the dark side of human progress and its limits rather than celebrating scientific advancement. Gothic writing focuses on what cannot be explained by logic and science, exploring the supernatural and the unknown. Death and nature are portrayed as forces superior to humans. The typical **Gothic hero** is a romantic figure who rejects social norms and conventions, but is also rejected by society.
+Gothic literature is characterized by fear, horror, death, and gloom, combined with romantic elements such as nature, individuality, and emotion. It emerged as a reaction to the **Age of Reason** (*verlichting*), emphasizing the dark side of human progress and its limits rather than celebrating scientific advancement. Gothic writing focuses on what cannot be explained by logic and science, exploring the supernatural and the unknown. Death and nature are portrayed as forces superior to humans. The typical **Gothic hero** is a romantic figure who rejects social norms and conventions, but is also rejected by society.
 
 *Frankenstein* was written at the end of the Enlightenment period and is an important work of **Romanticism**.
 
@@ -83,9 +82,9 @@ Victor Frankenstein, a young scientist, succeeds in creating a living being from
 
 Later, at the top of a mountain in the Swiss Alps, Frankenstein encounters the creature again. Frankenstein calls him a devil and threatens to kill him, but the creature begs Frankenstein to listen to his story. He tells him that society has rejected him and he has been miserable since his creation.
 
-When the creature wakes up, he does not understand anything. He slowly learns to use his senses, fire and how to find food. When he first meets people, they scream or attack him because of his appearance.
+When the creature first comes to life, he does not understand anything. He slowly learns to use his senses, fire, and how to find food. When he first meets people, they scream or attack him because of his appearance.
 
-Eventually, the creature finds a small hut next to a cottage and hides there. From inside, he watches a poor family: an old blind man (De Lacey), a young man (Felix) and a young woman (Agatha). The creature notices they are kind and loving to each other, even though they are sad. He admires them and feels joy from watching their happiness, but also pain from realising he can never be part of their world because of how people have treated him.
+Eventually, the creature finds a small hut next to a cottage and hides there. From inside, he watches a poor family: an old blind man (De Lacey), a young man (Felix), and a young woman (Agatha). The creature notices they are kind and loving to each other, even though they are sad. He admires them and feels joy from watching their happiness, but also pain from realising he can never be part of their world because of how people have treated him.
 
 The creature doesn't understand why Felix and Agatha cry so much, because he thinks they have everything they need, but eventually, he realises they are poor. He stops stealing their food and instead eats berries from the forest. To help them, he secretly gathers firewood and leaves it at their door.
 
@@ -94,32 +93,32 @@ The creature starts learning about speech and picks up a couple of words, includ
 As spring arrives, the family's situation improves. The creature continues to secretly help them and study them. He imagines that if he could first master their language, they might not care about his appearance and accept him.
 
 One day, a woman (Safie) wearing a dark veil arrives at the cottage. When Felix sees her, he is very happy. She doesn't speak the family's language, but is welcomed anyway. She tries to learn from the cottagers, and the creature learns with her. Felix gives her lessons and reads her *Ruins of Empires*. Through these lessons, the creature learns about human society, wealth, poverty, kings, slaves, good and evil. He becomes both fascinated and troubled, because humans can be both kind and cruel.
-He realises he has no family, no money, no friends and a frightening appearance.
+He realises he has no family, no money, no friends, and a frightening appearance.
 
-The creature begins to understand love, family and human relations. The more he learns, the more miserable he becomes. He finds that knowledge only brings pain. But he still adores the cottagers (he calls them "my protectors") who represent everything beautiful and good to him.
+The creature begins to understand love, family, and human relations. The more he learns, the more miserable he becomes. He finds that knowledge only brings pain. But he still adores the cottagers (he calls them "my protectors") who represent everything beautiful and good to him.
 
 ---
 
 The creature also learns the family's story.
 The old man used to be wealthy and respected in France. His son (Felix) and Agatha grew up wealthy and lived in Paris.
 
-Their happiness ended because of Safie's father (a Turkish merchant), who was imprisoned by the French government. Felix saw the trial, was outraged by the injustice and dedicated himself to rescuing him. When visiting the merchant in prison, Safie expressed gratitude to Felix, who was moved by her beauty. Her father promised they could marry if Felix saved him.
+Their happiness ended because of Safie's father (a Turkish merchant), who was imprisoned by the French government. Felix saw the trial, was outraged by the injustice, and dedicated himself to rescuing him. When visiting the merchant in prison, Safie expressed gratitude to Felix, who was moved by her beauty. Her father promised they could marry if Felix saved him.
 
 Felix succeeded and guided them from Paris through France and Italy. Safie and Felix grew close, but her father intended to take her back to Turkey. When Felix was exiled, Safie left Italy alone with money and jewels. Her helper died on the way, but she finally reached safety near the cottage.
 
 ---
 
-Around August, the creature finds some books in the woods: *Paradise Lost*, *Plutarch's Lives*, and *The Sorrows of Werter*. From *Paradise Lost*, he learns about religion and spirituality, but takes it as "true history" rather than fiction. From *Plutarch's Lives*, he learns about society and the importance of perspective and education. From *The Sorrows of Werter*, he learns about domestic life, death and darker emotions.
+Around August, the creature finds some books in the woods: *Paradise Lost*, *Plutarch's Lives*, and *The Sorrows of Werther*. From *Paradise Lost*, he learns about religion and spirituality, but takes it as "true history" rather than fiction. From *Plutarch's Lives*, he learns about society and the importance of perspective and education. From *The Sorrows of Werther*, he learns about domestic life, death, and darker emotions.
 
 He also finds Frankenstein's journal describing his creation. Reading it fills him with horror and despair as he sees himself as a monstrous, abandoned being, unlike any human.
 
 The family grows happier, especially with Safie's arrival. The creature's knowledge increases, but so does his awareness of his appearance. In the winter, he plans to reveal himself when the blind old man is alone, hoping his blindness will allow him to judge the creature by words rather than appearance.
 
-The creature nervously approaches the cottage and asks for shelter. De Lacey speaks kindly and offers help. The creature tells him of his loneliness, hoping to gain the family's trust. But then, Felix, Agatha and Safie return and are horrified: Agatha faints, Safie runs away and Felix attacks him. The creature escapes to his hut, heartbroken and rejected. He thinks they might still accept him if he approaches more carefully, but when he returns, the cottage is deserted. Out of revenge, he sets it on fire.
+The creature nervously approaches the cottage and asks for shelter. De Lacey speaks kindly and offers help. The creature tells him of his loneliness, hoping to gain the family's trust. But then, Felix, Agatha, and Safie return, and are horrified: Agatha faints, Safie runs away, and Felix attacks him. The creature escapes to his hut, heartbroken and rejected. He thinks they might still accept him if he approaches more carefully, but when he returns, the cottage is deserted. Out of revenge, he sets it on fire.
 
-The creature curses his creator for giving him life and declares eternal hate toward humanity and Frankenstein. He travels towards Frankenstein's home in Geneva, suffering from hunger, cold and loneliness. At one point, he saves a drowning girl, but instead of gratitude, a man shoots him.
+The creature curses his creator for giving him life and declares eternal hate toward humanity and Frankenstein. He travels towards Frankenstein's home in Geneva, suffering from hunger, cold, and loneliness. At one point, he saves a drowning girl, but instead of gratitude, a man shoots him.
 
-Near Geneva, the creature meets a small boy. He hopes the boy won't fear him, but the boy screams, calls him a monster and reveals his father is Frankenstein. The creature kills the boy, finds a picture of a woman on him and plants it on another woman to frame her for the murder.
+Near Geneva, the creature meets a small boy. He hopes the boy won't fear him, but the boy screams, calls him a monster, and reveals his father is Frankenstein. The creature kills the boy, finds a picture of a woman on him, and plants it on another woman to frame her for the murder.
 
 At the end, the creature tells Frankenstein he will not stop his violence unless Frankenstein creates a female companion for him.
 
@@ -136,13 +135,13 @@ At the end, the creature tells Frankenstein he will not stop his violence unless
 - **Criticism of society**  
   Society judges by appearance rather than character. Despite his intelligence and goodness, the creature is rejected purely because of his looks. The creature also questions human society itself: why people are cruel, why they murder, why there is inequality in wealth and status, and why property and money are so important.
 - **Abandonment**  
-  The creature's existence is defined by abandonment: by his creator, the cottagers and society.
+  The creature's existence is defined by abandonment: by his creator, the cottagers, and society.
 
 ## Animal Farm
 
 **Animal Farm**, written by George Orwell in 1945, follows farm animals who rebel against their human owner to create an equal society. However, the pigs who lead the rebellion gradually become corrupt and take control, turning into the very oppressors they fought against. The story is a critique of totalitarianism.
 
-Orwell's work has been so influential that the term **Orwellian** is now used to describe totalitarian practices like government surveillance, propaganda and manipulation of truth.
+Orwell's work has been so influential that the term **Orwellian** is now used to describe totalitarian practices like government surveillance, propaganda, and manipulation of truth.
 
 The story is an **allegory**: it has a hidden political meaning. Nearly all events and characters represent real-life events and figures.
 
@@ -178,7 +177,7 @@ Old Major, an old pig, holds a meeting in the barn. He shares his vision of a wo
 > Old Major represents Karl Marx and Vladimir Lenin, the founders of communism.
 > *Beasts of England* corresponds to *The Internationale*, the socialist anthem.
 
-Three pigs (Napoleon, Snowball and Squealer) develop Old Major's ideas into **Animalism**. When Mr. Jones forgets to feed the animals, they revolt and drive him off the farm in what becomes known as the **Rebellion**.
+Three pigs (Napoleon, Snowball, and Squealer) develop Old Major's ideas into **Animalism**. When Mr. Jones forgets to feed the animals, they revolt and drive him off the farm in what becomes known as the **Rebellion**.
 
 > The Rebellion represents the Russian Revolution of 1917.
 
@@ -239,7 +238,7 @@ The pigs invite human farmers to a dinner party. Napoleon announces the farm wil
 ### Themes
 
 - **Totalitarianism**  
-  Napoleon's rule shows how totalitarian regimes use fear, propaganda and violence to maintain absolute control over society.
+  Napoleon's rule shows how totalitarian regimes use fear, propaganda, and violence to maintain absolute control over society.
 - **Violence**  
   The pigs use violence to silence opposition. Napoleon's dogs attack animals who confess to crimes, and Boxer is sent to the slaughterhouse when he becomes useless.
 - **Class difference**  
@@ -284,3 +283,43 @@ Nick moves from Minnesota to New York in 1922 to work in the bond business. He r
 - **The American Dream**  
   Nick moves East to make his fortune.
 
+## The Refugees: War Years
+
+**War Years**, a short story from *The Refugees* by Viet Thanh Nguyen (2017), follows a Vietnamese-American family in California during the 1980s as they are pressured by another refugee to donate money to an anti-communist cause.
+
+### Historical context
+
+The story is set in San Jose, California, in 1983, eight years after the **Vietnam War** (1955-1975) ended.
+
+After French colonial rule ended in 1954, Vietnam was divided into **North Vietnam** (communist) and **South Vietnam** (anti-communist). The war was fought between these two sides. In 1975, the **fall of Saigon** ended the war when North Vietnam captured Saigon. Many South Vietnamese fled by sea, becoming known as **the boat people**. They settled in American cities like San Jose.
+
+### Summary
+
+The narrator is a young boy who lives with his parents in San Jose, California in 1983. His parents fled to the US when he was very young. When he's not in school, the boy helps at his parents' grocery store.
+
+One day, Mrs. Hoa visits the store. She's a refugee who is raising money for the resistance against Vietnam's communist regime. She asks the parents for a donation. The mother tells her she doesn't have any money to spare. Mrs. Hoa mentions that Mrs. Binh, who owns a different store, also refused to donate, and that her store is now being boycotted.
+
+After Mrs. Hoa leaves, the mother calls her an "idiot." When the boy tells his mother that Mrs. Hoa just wants to fight communists, his mother emphasizes that the war is over.
+
+Later, the mother shares her feelings about communists. She tells the boy that they are evil because they don't believe in God or in money. She believes that trying to fight the communists is a lost cause.
+
+At church, Mrs. Hoa points out that the family hasn't yet given a donation. In response, the mother decides to follow Mrs. Hoa home to determine where she lives. The boy rides along with her.
+
+The week after that, Mrs. Hoa shows up at the grocery store again. The mother confronts her, calling her a thief and accusing her of extorting people by making them believe there is still a war they can fight. After the store closes, the mother and the boy drive to Mrs. Hoa's home. The boy has to come along because his mother thinks Mrs. Hoa won't do anything crazy with him around.
+
+They arrive during dinner. The mother asks to speak with Mrs. Hoa in private. Mrs. Hoa tells her that she tailors military uniforms, that she hasn't heard from her husband since 1963, and that she hasn't heard from her younger son since 1972, when he was deployed to Laos.
+
+The mother's perspective changes. She tries to apologize for Mrs. Hoa's losses, but Mrs. Hoa refuses to believe that her husband and son have died. The mother gives Mrs. Hoa 200 dollars. The boy knows how much they had to work for this money (since he knows the store's profit margins).
+
+On the way home, the mother gives the boy five dollars and tells him to go inside an American store and buy something for himself. But inside, he cannot choose.
+
+### Themes
+
+- **War**  
+  The mother believes the war is over and they should move forward with their new lives in America. Mrs. Hoa refuses to accept the war's end and continues to fight a lost cause.
+- **Community**  
+  Mrs. Hoa uses boycotts and public shaming to pressure refugees into donating. The family feels pressured to conform to the Vietnamese refugee community's expectations.
+- **Loss and grief**  
+  Mrs. Hoa's fundraising is driven by her inability to accept the loss of her husband and son. Her grief keeps her trapped in the past.
+- **Identity**  
+  The story explores what it means to be Vietnamese-American. The ending shows the boy caught between two worlds: Vietnamese refugee community and American consumer culture.
