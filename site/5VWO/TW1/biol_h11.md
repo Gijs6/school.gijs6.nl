@@ -6,7 +6,7 @@ description: Voeding & vertering
 
 ## Eetpatronen en voedingsstoffen
 
-Bij een gezond voedingspatroon is de voeding afgestemd op het energiegebruik en op de hoeveelheid voedingsstoffen die mensen nodig hebben. Als die afstemming ontbreekt, kunnen **welvaartziekten** (door te veel voedingsstoffen) of **gebreksziekten** (door te weinig (van bepaalde) voedingsstoffen) ontstaan.
+Bij een gezond voedingspatroon is de voeding afgestemd op het energiegebruik en de hoeveelheid voedingsstoffen die mensen nodig hebben. Als die afstemming ontbreekt, kunnen **welvaartziekten** (door te veel voedingsstoffen) of **gebreksziekten** (door te weinig (van bepaalde) voedingsstoffen) ontstaan.
 
 De bouwstenen voor het opbouwen van de eiwitten, koolhydraten, DNA en vetten in je lichaam haal je uit voedingsstoffen.
 
@@ -21,7 +21,7 @@ Er zijn 6 groepen **voedingsstoffen**:
 | **Mineralen**    | Bouwstof<!-- (o.a. in zouten) -->, regelstof<!-- (helpen bij werking van je lichaam) -->                                                | Calcium (melk), ijzer (vlees), natrium (zout), kalium (bananen) |
 | **Vitaminen**    | Regelstof, beschermende stof                                                                                                            | Vitamine C (sinaasappels), vitamine D (zonlicht) (Binas 82A)    |
 
-**Voedingsvezels** zijn onverteerbare plantaardige koolhydraten. Ze hebben 2 belangrijke functies: het stimuleren van de **darmperistaltiek** en het opnemen van water (zodat de ontlasting soepel blijft). Darmperistaltiek is het samentrekken van lengte- en kringspieren in het hele **maag-darmkanaal** (alle organen van het spijsverteringsstelsel, van slokdarm tot anus), waardoor voedsel wordt voortbewogen.
+**Voedingsvezels** zijn onverteerbare plantaardige koolhydraten. Ze hebben 2 belangrijke functies: ze ondersteunen de **darmperistaltiek** en nemen water op (zodat de ontlasting soepel blijft). Darmperistaltiek is het samentrekken van lengte- en kringspieren in het hele **maag-darmkanaal** (alle organen van het spijsverteringsstelsel, van slokdarm tot anus), waardoor voedsel wordt voortbewogen.
 
 **Additieven** zijn stoffen die zijn toegevoegd om het voedingsmiddel aantrekkelijker of langer houdbaar te maken. Additieven kunnen in grote hoeveelheden schadelijk zijn voor je lichaam, maar je hebt additieven vaak helemaal niet nodig.
 
@@ -58,7 +58,7 @@ De **maagportier** sluit de maag af van de **twaalfvingerige darm**. De maagport
 
 ![De twaalfvingerige darm (img-padding) (img-m)](images/biol_h11/twaalfvingerigedarm.jpg)
 
-Het **alvleessap** bevat waterstofcarbonaat (om de pH te verhogen), amylase, trypsine, lipase, nucleasen en nog andere verteringsenzymen. Deze enzymen breken grote koolhydraten, eiwitten, vetten en nucleïnezuren (DNA en RNA) af. Voor de vertering van vet is ook **gal** erg belangrijk.
+Het **alvleessap** bevat waterstofcarbonaat (om de pH te verhogen), amylase, trypsine, lipase, nucleasen en andere verteringsenzymen. Deze enzymen breken grote koolhydraten, eiwitten, vetten en nucleïnezuren (DNA en RNA) af. Voor de vertering van vet is ook **gal** erg belangrijk.
 
 Na de twaalfvingerige darm komt het voedsel terecht in de **dunne darm**. Hier wordt de vertering voltooid. De darmsapklieren produceren veel verschillende enzymen die koolhydraten (Binas 82G), polypeptiden en nucleïnezuren zoals DNA en RNA afbreken. Hierdoor ontstaan moleculen die klein genoeg zijn om celmembranen te passeren. Al deze stoffen die worden opgenomen zijn de **verteringsproducten**.
 
@@ -89,7 +89,7 @@ Vaak speelt water ook nog een rol in het afbreken (hydrolyse) of opbouwen (conde
 
 ## Effectiviteit van enzymen
 
-Enzymen zijn eiwitten en kunnen dus **denatureren** bij hogere temperaturen (zoals bij koorts). Bij hogere temperaturen werken enzymen sneller, maar een deel denatreert en kan niet meer reageren. De optimumtemperatuur is daarom een compromis tussen maximale reactiesnelheid en minimale denaturatie.
+Enzymen zijn eiwitten en kunnen dus **denatureren** bij te hoge temperaturen. Bij hogere temperaturen werken enzymen sneller, maar een deel denatureert en kan niet meer reageren. De optimumtemperatuur is daarom een compromis tussen maximale reactiesnelheid en minimale denaturatie.
 Naast de temperatuur beïnvloedt ook de zuurgraad de effectiviteit. Dit verschilt per soort enzym.
 
 ## Macromoleculen verteren
@@ -98,10 +98,10 @@ Door het verteren van macromoleculen uit voedingsstoffen ontstaan bruikbare bouw
 
 ### Koolhydraten verteren
 
-Er zijn verschillende typen enzymen voor de koolhydraatvertering. Tijdens het kauwen breekt amylase de **polysacharide** zetmeel via hydrolyse af tot de **disacharide** maltose (Binas 82G). De afbraak stopt in de maag (vanwege de zure omgeving), maar gaat verder in de twaalfvingerige darm (daar wordt extra amylase toegevoegd). In de dunne darm zet maltase maltose om in 2 glucosemoleculen, de **monosacharide** glucose.
+Er zijn verschillende typen enzymen voor de koolhydraatvertering. Tijdens het kauwen breekt amylase de **polysacharide** zetmeel via hydrolyse af tot kleinere polysachariden en de **disacharide** maltose (Binas 82G). De afbraak stopt in de maag (vanwege de zure omgeving), maar gaat verder in de twaalfvingerige darm (daar wordt extra amylase toegevoegd). In de dunne darm zet maltase maltose om in 2 glucosemoleculen, de **monosacharide** glucose.
 In de dunne darm worden ook andere disachariden afgebroken tot monosachariden, zoals lactose (door lactase) en sucrose (door sucrase).
 
-Niet alle koolhydraten kunnen door mensen verteerd worden, zoals cellulose, omdat we geen cellulase hebben. Cellulose is wel belangrijk als voedingsvezel.
+Niet alle koolhydraten kunnen door mensen verteerd worden, zoals cellulose, omdat we het enzym cellulase niet hebben. Cellulose is wel belangrijk als voedingsvezel.
 
 ![Koolhydraatvertering (img-l) (img-padding)](images/biol_h11/koolhydraatvertering.jpg)
 
@@ -111,7 +111,7 @@ Eiwitten zijn lange ketens van aminozuren. Ook de vertering hiervan bestaat uit 
 
 In de maag knipt pepsine eiwitten in kleinere **polypeptiden** en **oligopeptiden** (korte ketens van een paar aminozuren). Door de hogere pH in de twaalfvingerige darm (door het waterstofcarbonaat) stopt pepsine met werken.
 
-De alvleesklier produceert de niet-actieve enzymen **trypsinogeen** en **chymotrypsinogeen**, die actief worden in de twaalfvingerige darm. **Trypsine** en **chymotrypsine** breken vervolgens eiwitten en polypeptiden verder af. De splitsing gebeurt altijd bij een peptidebinding. Daarom noemen we deze enzymen ook wel **peptasen**.
+De alvleesklier produceert de inactieve enzymen **trypsinogeen** en **chymotrypsinogeen**, die actief worden in de twaalfvingerige darm. **Trypsine** en **chymotrypsine** breken vervolgens eiwitten en polypeptiden verder af. De splitsing gebeurt altijd bij een peptidebinding. Daarom noemen we deze enzymen ook wel **peptasen**.
 
 **Exopeptidasen** knippen aan de uiteinden van de polypeptide een aminozuur af. **Aminopeptidasen** doen dit aan de $\ce{N}$-kant, **carboxypeptidasen** aan de $\ce{C}$-kant.  
 **Endopeptidasen** knippen midden in de polypeptide. Daarbij ontstaan onder andere dipeptiden, die weer worden afgebroken door **dipeptidase** tot losse aminozuren.
@@ -125,9 +125,9 @@ Nucleasen (enzymen uit het alvleessap en dunnedarmsap) breken DNA en RNA uit je 
 Vetten zijn opgebouwd uit een molecuul **glycerol** en 1, 2 of 3 vetzuren: respectievelijk **monoglyceriden**, **diglyceriden** of **triglyceriden** (Binas 67G).  
 **Lipase** (Binas 82E & 82G) is het enzym voor vetvertering. Het zit in het alvleessap en verbreekt door hydrolyse de bindingen tussen glycerol en de vetzuren. Lipase verwijdert niet altijd alle vetzuren, waardoor er monoglyceriden kunnen overblijven.  
 
-**Gal** wordt in de lever gemaakt en opgeslagen in de **galblaas**. Gal is een stroperige vloeistof die vooral bestaat uit water, **bilirubine** (uit rode bloedcellen) en **galzouten** (uit cholesterol). Gal is geen enzym en verteert vet dus niet. De galzouten dienen als **emulgator** en breken grote vetdruppels op in kleine vetdruppeltjes (micellen). Dit zorgt voor oppervlaktevergroting, waardoor lipase het vet beter kan bereiken en verteren.
+**Gal** wordt in de lever gemaakt en opgeslagen in de **galblaas**. Gal is een stroperige vloeistof die vooral bestaat uit water, **bilirubine** (uit rode bloedcellen) en **galzouten** (uit cholesterol). Gal is geen enzym en verteert vet dus niet. De galzouten dienen als **emulgatoren** en breken grote vetdruppels op in kleine vetdruppeltjes (micellen). Dit zorgt voor oppervlaktevergroting, waardoor lipase het vet beter kan bereiken en verteren.
 
-Je gal kan niet elke dag genoeg galzouten maken voor al het vet dat je moet verteren. Daarom komt ruim 90% van de galzouten via de darmwand en de poortader weer terug in de lever.
+De lever kan niet elke dag genoeg galzouten maken voor al het vet dat je moet verteren. Daarom komt ruim 90% van de galzouten via de darmwand en de poortader weer terug in de lever.
 
 In de dikke darm wordt bilirubine door darmbacteriën omgezet, waardoor ontlasting zijn bruine kleur krijgt.
 
@@ -150,7 +150,7 @@ De darmen zijn bedekt met **darmepitheelcellen**. Deze cellen vormen de grens tu
 De opname van verteringsproducten (**resorptie**) vindt plaats in de dunne darm. De darmwand is geplooid in **darmvlokken**, en de darmepitheelcellen hebben **microvilli** aan hun oppervlak. Dit zorgt voor oppervlaktevergroting. De cellen zijn aan elkaar vastgemaakt bij de **tight junctions**, zodat bacteriën en moleculen niet tussen de cellen door kunnen.
 
 Wateroplosbare verteringsproducten gaan vanuit het darmlumen de darmepitheelcel binnen en verlaten deze weer aan de andere kant, waarna ze in de weefselvloeistof terechtkomen en via bloedvaten worden afgevoerd.
-Voor het binnenkomen in de darmepitheelcel is een concentratiegradient van $\ce{Na+}$ nodig. Aan de **bloedvatzijde** pompen **$\ce{Na+}$-$\ce{K+}$-pompen** actief $\ce{Na+}$ de cel uit en $\ce{K+}$ de cel in, waardoor de $\ce{Na+}$-concentratie in de cel laag blijft. Aan de **darmzijde** binden transporteiwitten zowel $\ce{Na+}$ als een verteringsproduct, waarna beide passief de cel instromen (dit is **symport**: **cotransport** in dezelfde richting). De $\ce{Na+}$-$\ce{K+}$-pomp is een voorbeeld van **antiport** (cotransport in tegengestelde richtingen). Transporteiwitten die maar 1 type molecuul doorlaten heten **uniport**.
+Voor het binnenkomen in de darmepitheelcel wordt gebruikgemaakt van een concentratiegradient van $\ce{Na+}$. Aan de **bloedvatzijde** pompen **$\ce{Na+}$-$\ce{K+}$-pompen** actief $\ce{Na+}$ de cel uit en $\ce{K+}$ de cel in, waardoor de $\ce{Na+}$-concentratie in de cel laag blijft. Aan de **darmzijde** binden transporteiwitten zowel $\ce{Na+}$ als een verteringsproduct, waarna beide passief de cel instromen (dit is **symport**: **cotransport** in dezelfde richting). De $\ce{Na+}$-$\ce{K+}$-pomp is een voorbeeld van **antiport** (cotransport in tegengestelde richtingen). Transporteiwitten die maar 1 type molecuul doorlaten heten **uniport**.
 
 ![Opname van voedingsstoffen (img-l) (img-padding)](images/biol_h11/opname.jpg)
 
