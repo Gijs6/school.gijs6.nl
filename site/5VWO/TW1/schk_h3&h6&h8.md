@@ -142,7 +142,7 @@ De **reactiewarmte** ($\Delta E$) geeft aan hoeveel energie een reactie netto op
 
 ### Vormingswarmten
 
-Bij een chemische reactie worden alle beginproducten afgebroken tot **niet-ontleedbare stoffen**, en alle reactieproducten worden opgebouwd uit deze niet-ontleedbare stoffen.  
+Bij een chemische reactie worden alle beginstoffen afgebroken tot **niet-ontleedbare stoffen**, en alle reactieproducten worden opgebouwd uit deze niet-ontleedbare stoffen.  
 De **vormingswarmte** van een stof is de energie die nodig is om die stof te vormen uit niet-ontleedbare stoffen (niet-ontleedbare stoffen hebben dus een vormingswarmte van nul). De vormingswarmte wordt vaak gegeven in joule per mol: het aantal joule dat je nodig hebt om 1 mol stof te maken.
 
 Als de vormingswarmte negatief is, komt er warmte vrij bij het maken van de stof.

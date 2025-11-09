@@ -48,7 +48,7 @@ Argumenten kunnen op verschillende manieren het standpunt ondersteunen. Zo'n **a
   Er zijn meerdere argumenten die **niet los van elkaar te gebruiken zijn**. De argumenten werken alleen in combinatie met elkaar.  
   ![Nevenschikkende argumentatie met afhankelijke argumenten (img-m) (img-padding)](images/netl_argstruct/neven_afhan.jpg)
 
-Je kunt ook een combinatie hebben van deze argumentatiestructuren, zoals een **onder- en nevenschikkende argumentatie**, dus met meerdere argumenten en met (een) subargument(en).
+Je kunt ook een combinatie hebben van deze argumentatiestructuren, zoals een **onder- en nevenschikkende argumentatie** met meerdere argumenten en subargument(en).
 
 ## Argumentatieschema's
 

@@ -107,7 +107,7 @@ Niet alle koolhydraten kunnen door mensen verteerd worden, zoals cellulose, omda
 
 ### Eiwitten verteren
 
-Eiwitten zijn lange ketens van aminozuren. Ook de vertering hiervan bestaat uit een aantal vaste stappen (Binas 82GN).
+Eiwitten zijn lange ketens van aminozuren. Ook de vertering hiervan bestaat uit een aantal vaste stappen (Binas 82G).
 
 In de maag knipt pepsine eiwitten in kleinere **polypeptiden** en **oligopeptiden** (korte ketens van een paar aminozuren). Door de hogere pH in de twaalfvingerige darm (door het waterstofcarbonaat) stopt pepsine met werken.
 

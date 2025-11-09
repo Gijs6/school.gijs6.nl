@@ -18,7 +18,7 @@ Voor de draaiingshoek $\alpha$ van het punt $P(x_P,y_P)$ op de eenheidscirkel ge
 - $\cos(\alpha) = x_P$
 - $\tan(\alpha) = \frac{y_P}{x_P}$
 
-Als je van $y_P$ of $x_P$ terug naar $\alpha$ wil rekenen, moet je vaak 2 antwoorden opschrijven (terwijl de GR slechts 1 antwoord geeft). Dit komt doordat er meerdere punten op de cirkel zijn met dezelfde $x$- of $y$-coördinaat.
+Als je van $y_P$ of $x_P$ terug naar $\alpha$ wilt rekenen, moet je vaak 2 antwoorden opschrijven (terwijl de GR slechts 1 antwoord geeft). Dit komt doordat er meerdere punten op de cirkel zijn met dezelfde $x$- of $y$-coördinaat.
 
 ![Meerdere oplossingen voor dezelfde coördinaat (img-s)](images/wisb_h8/meerdere_oplossingen.jpg)
 
@@ -125,7 +125,7 @@ Als je twee sinussen of twee cosinussen aan elkaar gelijk stelt, geldt:
 
 ## Tangens
 
-Voor het punt $P$ op de eenheidscirkel met draaiingshoek $\alpha$ geldt $\tan(\alpha) = \frac{y_P}{x_P}$. Bij $\alpha = \frac{1}{2}\pi$ zou dan gelden $\tan(\frac{1}{2}\pi) = \frac{1}{0}$, maar delen door 0 kan niet. Daarom heeft de tangensgrafiek **asymptoten** (verticale lijnen die de grafiek benadert maar nooit raakt).
+Voor het punt $P$ op de eenheidscirkel met draaiingshoek $\alpha$ geldt $\tan(\alpha) = \frac{y_P}{x_P}$. Bij $\alpha = \frac{1}{2}\pi$ zou dan gelden $\tan(\frac{1}{2}\pi) = \frac{1}{0}$, maar delen door 0 kan niet. Daarom heeft de tangensgrafiek **asymptoten** (verticale lijnen die de grafiek benaderen maar nooit raken).
 Deze asymptoten liggen op $x = \frac{1}{2}\pi + k \cdot \pi$ (alle plekken waar $\cos(x) = 0$).
 
 De tangensfunctie heeft een periode van $\pi$ (niet $2\pi$!). De vergelijking $\tan(A) = \tan(B)$ geeft daarom:

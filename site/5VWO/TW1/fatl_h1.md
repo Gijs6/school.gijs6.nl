@@ -135,6 +135,6 @@ Je gebruikt *que* (die of dat) als het verwijst naar het **lijdend voorwerp** in
 
 *Que* wordt *qu'* voor een klinker of een stomme *h*. *Qui* mag je nooit afkorten.
 
-Als je snel weten of je *qui* of *que* moet gebruiken, dan kijk je naar het eerste woord van de bijzin. Is dat een werkwoord? Dan gebruik je *qui*. Staat er een onderwerp? Dan gebruik je *que*.
+Als je snel wilt weten of je *qui* of *que* moet gebruiken, dan kijk je naar het eerste woord van de bijzin. Is dat een werkwoord? Dan gebruik je *qui*. Staat er een onderwerp? Dan gebruik je *que*.
 
 Een ander betrekkelijk voornaamwoord is *dont*. *Dont* komt altijd voor bij werkwoorden met het voorzetsel *de*, zoals *parler de*, *avoir besoin de* en *avoir envie de*.
