@@ -47,7 +47,7 @@ $$c = \frac{n}{V}$$
 
 Hierin is $c$ de concentratie (in $\mathrm{mol}/\mathrm{L} = \mathrm{M}$), $n$ de chemische hoeveelheid (in $\mathrm{mol}$) en $V$ het volume (in $\mathrm{L}$).
 
-Je kunt concentratie ook noteren met vierkante haken: $[\ce{NaCl}]$.
+Je kunt concentratie ook noteren met vierkante haken: $[\ce{CO2}]$.
 
 ### Rekenen met reactievergelijkingen
 
@@ -153,7 +153,7 @@ Met de vormingswarmte kun je de reactiewarmte ($\Delta E$) berekenen:
 2. Zoek voor alle **producten** de vormingswarmte op in Binas 57A/57B. Vermenigvuldig deze met de coëfficiënt uit de reactievergelijking.
 3. Tel alle waarden uit stap 1 en stap 2 bij elkaar op.
 
-## Katalysatoren
+### Katalysatoren
 
 Een **katalysator** is een stof die een reactie sneller laat verlopen, zonder zelf verbruikt te worden. Een katalysator verlaagt de **activeringsenergie** door het energieniveau van de **geactiveerde toestand** te verlagen. Hierdoor zijn meer botsingen effectief, en verloopt de reactie sneller.
 
