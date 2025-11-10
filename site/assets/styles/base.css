@@ -44,4 +44,17 @@ footer {
     :root {
         color-scheme: light;
     }
+
+    body {
+        padding: 0;
+        max-width: unset;
+        margin: unset;
+    }
+
+    .footer-contact,
+    .footer-repo,
+    .footer-source,
+    .footer-feeds {
+        display: none;
+    }
 }

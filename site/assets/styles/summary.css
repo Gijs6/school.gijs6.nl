@@ -12,3 +12,13 @@
     color: light-dark(var(--oc-gray-6), var(--oc-gray-5));
     font-weight: 600;
 }
+
+@media print {
+    .summary-header {
+        display: none;
+    }
+
+    .summary-subject-header {
+        margin-block-start: 0;
+    }
+}
