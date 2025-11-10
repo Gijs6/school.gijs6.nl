@@ -36,7 +36,7 @@ Er kunnen op verschillende manieren problemen ontstaan met voedingsmiddelen. Mee
 
 ## Vertering
 
-Kiezen malen je voedingsmiddelen in kleine stukjes: **mechanische verkleining**. Hierdoor wordt het oppervlak vergroot, wat de vertering versnelt.
+Kiezen malen je voedingsmiddelen in kleine stukjes: **mechanische verkleining**. Hierdoor wordt het oppervlak vergroot, wat de vertering versnelt.  
 **Chemische vertering** is de afbraak van grote moleculen tot opneembare moleculen door **enzymen** in **verteringssappen**.
 
 Er zijn veel organen (Binas 82C) en veel verteringssappen en enzymen (Binas 82E & 82F) betrokken bij de vertering.
@@ -82,14 +82,14 @@ Een reactie met een enzym verloopt altijd in dezelfde stappen.
 
 ![De werking van enzymen (img-padding)](images/biol_h11/enzym.jpg)
 
-Enzymen zijn **substraatspecifiek**: ze kunnen maar aan 1 soort substraat binden.
+Enzymen zijn **substraatspecifiek**: ze kunnen maar aan 1 soort substraat binden.  
 Omdat enzymen zelf niet verbruikt worden, kan je lichaam ze heel vaak inzetten. Daardoor heb je maar een relatief kleine hoeveelheid nodig.
 
 Vaak speelt water ook nog een rol in het afbreken (hydrolyse) of opbouwen (condensatie) van stoffen.
 
 ## Effectiviteit van enzymen
 
-Enzymen zijn eiwitten en kunnen dus **denatureren** bij te hoge temperaturen. Bij hogere temperaturen werken enzymen sneller, maar een deel denatureert en kan niet meer reageren. De optimumtemperatuur is daarom een compromis tussen maximale reactiesnelheid en minimale denaturatie.
+Enzymen zijn eiwitten en kunnen dus **denatureren** bij te hoge temperaturen. Bij hogere temperaturen werken enzymen sneller, maar een deel denatureert en kan niet meer reageren. De optimumtemperatuur is daarom een compromis tussen maximale reactiesnelheid en minimale denaturatie.  
 Naast de temperatuur beïnvloedt ook de zuurgraad de effectiviteit. Dit verschilt per soort enzym.
 
 ## Macromoleculen verteren
@@ -98,7 +98,7 @@ Door het verteren van macromoleculen uit voedingsstoffen ontstaan bruikbare bouw
 
 ### Koolhydraten verteren
 
-Er zijn verschillende typen enzymen voor de koolhydraatvertering. Tijdens het kauwen breekt amylase de **polysacharide** zetmeel via hydrolyse af tot kleinere polysachariden en de **disacharide** maltose (Binas 82G). De afbraak stopt in de maag (vanwege de zure omgeving), maar gaat verder in de twaalfvingerige darm (daar wordt extra amylase toegevoegd). In de dunne darm zet maltase maltose om in 2 glucosemoleculen, de **monosacharide** glucose.
+Er zijn verschillende typen enzymen voor de koolhydraatvertering. Tijdens het kauwen breekt amylase de **polysacharide** zetmeel via hydrolyse af tot kleinere polysachariden en de **disacharide** maltose (Binas 82G). De afbraak stopt in de maag (vanwege de zure omgeving), maar gaat verder in de twaalfvingerige darm (daar wordt extra amylase toegevoegd). In de dunne darm zet maltase maltose om in 2 glucosemoleculen.  
 In de dunne darm worden ook andere disachariden afgebroken tot monosachariden, zoals lactose (door lactase) en sucrose (door sucrase).
 
 Niet alle koolhydraten kunnen door mensen verteerd worden, zoals cellulose, omdat we het enzym cellulase niet hebben. Cellulose is wel belangrijk als voedingsvezel.
@@ -149,7 +149,7 @@ De darmen zijn bedekt met **darmepitheelcellen**. Deze cellen vormen de grens tu
 
 De opname van verteringsproducten (**resorptie**) vindt plaats in de dunne darm. De darmwand is geplooid in **darmvlokken**, en de darmepitheelcellen hebben **microvilli** aan hun oppervlak. Dit zorgt voor oppervlaktevergroting. De cellen zijn aan elkaar vastgemaakt bij de **tight junctions**, zodat bacteriën en moleculen niet tussen de cellen door kunnen.
 
-Wateroplosbare verteringsproducten gaan vanuit het darmlumen de darmepitheelcel binnen en verlaten deze weer aan de andere kant, waarna ze in de weefselvloeistof terechtkomen en via bloedvaten worden afgevoerd.
+Wateroplosbare verteringsproducten gaan vanuit het darmlumen de darmepitheelcel binnen en verlaten deze weer aan de andere kant, waarna ze in de weefselvloeistof terechtkomen en via bloedvaten worden afgevoerd.  
 Voor het binnenkomen in de darmepitheelcel wordt gebruikgemaakt van een concentratiegradient van $\ce{Na+}$. Aan de **bloedvatzijde** pompen **$\ce{Na+}$-$\ce{K+}$-pompen** actief $\ce{Na+}$ de cel uit en $\ce{K+}$ de cel in, waardoor de $\ce{Na+}$-concentratie in de cel laag blijft. Aan de **darmzijde** binden transporteiwitten zowel $\ce{Na+}$ als een verteringsproduct, waarna beide passief de cel instromen (dit is **symport**: **cotransport** in dezelfde richting). De $\ce{Na+}$-$\ce{K+}$-pomp is een voorbeeld van **antiport** (cotransport in tegengestelde richtingen). Transporteiwitten die maar 1 type molecuul doorlaten heten **uniport**.
 
 ![Opname van voedingsstoffen (img-l) (img-padding)](images/biol_h11/opname.jpg)
