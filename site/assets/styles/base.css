@@ -29,8 +29,8 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: .5em 1.25em;
-    
+    gap: 0.5em 1.25em;
+
     a {
         color: light-dark(var(--oc-gray-6), var(--oc-gray-5));
 
