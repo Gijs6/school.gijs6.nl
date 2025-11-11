@@ -153,22 +153,23 @@ The story was written during World War II and published shortly after the war en
 
 ### Characters
 
-|                  Character | Represents                                                               |
-| -------------------------: | :----------------------------------------------------------------------- |
-|        **Old Major** (pig) | Karl Marx / Vladimir Lenin (the 'founders' of communism)                 |
-|         **Napoleon** (pig) | Joseph Stalin                                                            |
-|         **Snowball** (pig) | Leon Trotsky                                                             |
-|         **Squealer** (pig) | Soviet propaganda machine                                                |
-|          **Boxer** (horse) | The male working class                                                   |
-|         **Clover** (horse) | The female working class                                                 |
-|      **Benjamin** (donkey) | Those aware of Stalin's oppression but did nothing                       |
-|         **Mollie** (horse) | The selfish middle class                                                 |
-|          **Muriel** (goat) | Educated people who knew what was happening but lacked power to speak up |
-|      **The sheep** (sheep) | The duped citizens                                                       |
-|        **The dogs** (dogs) | Secret police (NKVD)                                                     |
-|      **Mr. Jones** (human) | Tsar Nicholas II                                                         |
-| **Mr. Pilkington** (human) | The Western Allies (Britain and USA)                                     |
-|  **Mr. Frederick** (human) | Nazi Germany (Hitler)                                                    |
+|                  Character |                       Description                        | Represents                                                               |
+| -------------------------: | :------------------------------------------------------: | :----------------------------------------------------------------------- |
+|        **Old Major** (pig) |               Old boar, inspires Rebellion               | Karl Marx / Vladimir Lenin (the 'founders' of communism)                 |
+|         **Napoleon** (pig) |            Ruthless leader, uses attack dogs             | Joseph Stalin                                                            |
+|         **Snowball** (pig) |              Intelligent rival to Napoleon               | Leon Trotsky                                                             |
+|         **Squealer** (pig) |                   Propaganda spreader                    | Soviet propaganda machine                                                |
+|          **Boxer** (horse) |                   Strong, loyal, naive                   | The male working class                                                   |
+|         **Clover** (horse) |        Kind, suspects violations but stays silent        | The female working class                                                 |
+|      **Benjamin** (donkey) |                  Cynical, does nothing                   | Those aware of Stalin's oppression but did nothing                       |
+|         **Mollie** (horse) |                   Vain, misses luxury                    | The selfish middle class                                                 |
+|          **Muriel** (goat) |               Educated, reads commandments               | Educated people who knew what was happening but lacked power to speak up |
+|          **Moses** (raven) | Spreads stories of Sugarcandy Mountain (animal paradise) | Religion (Russian Orthodox Church)                                       |
+|              **The sheep** |                    Mindless followers                    | The duped citizens                                                       |
+|               **The dogs** |                   Napoleon's enforcers                   | Secret police (NKVD)                                                     |
+|      **Mr. Jones** (human) |                   Drunk, cruel farmer                    | Tsar Nicholas II                                                         |
+| **Mr. Pilkington** (human) |               Neighboring gentleman farmer               | The Western Allies (Britain and USA)                                     |
+|  **Mr. Frederick** (human) |               Shrewd, untrustworthy farmer               | Nazi Germany (Hitler)                                                    |
 
 ### Summary
 
