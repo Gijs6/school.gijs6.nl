@@ -106,14 +106,14 @@ Met behulp van de eenheidscirkel kun je standaardvergelijkingen oplossen:
 
 - $\sin(A) = 0$ geeft $A = k \cdot \pi$
 - $\sin(A) = 1$ geeft $A = \frac{1}{2}\pi + k \cdot 2\pi$
-- $\sin(A) = -1$ geeft $A = \frac{3}{2}\pi + k \cdot 2\pi$
+- $\sin(A) = -1$ geeft $A = 1\frac{1}{2}\pi + k \cdot 2\pi$
 - $\cos(A) = 0$ geeft $A = \frac{1}{2}\pi + k \cdot \pi$
 - $\cos(A) = 1$ geeft $A = k \cdot 2\pi$
 - $\cos(A) = -1$ geeft $A = \pi + k \cdot 2\pi$
 
 De vergelijkingen $\sin(A) = C$ en $\cos(A) = C$ waarbij $C$ een van de exacte waarden is uit de exacte-waarden-cirkel $\left(-\frac{1}{2}\sqrt{3}, -\frac{1}{2}\sqrt{2}, -\frac{1}{2}, \frac{1}{2}, \frac{1}{2}\sqrt{2}, \frac{1}{2}\sqrt{3}\right)$ los je op door eerst 1 oplossing $B$ af te lezen uit de exacte-waarden-cirkel.
 
-Er geldt:
+Er geldt dan (waarbij $B$ de afgelezen oplossing uit de exacte-waarden-cirkel is):
 
 - $\sin(A) = C$ geeft $A = B + k \cdot 2\pi \lor A = \pi - B + k \cdot 2\pi$
 - $\cos(A) = C$ geeft $A = B + k \cdot 2\pi \lor A = -B + k \cdot 2\pi$
