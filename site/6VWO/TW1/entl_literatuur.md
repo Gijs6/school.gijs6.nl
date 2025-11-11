@@ -5,7 +5,7 @@ title: Literatuur
 
 ## Désirée's Baby
 
-**Désirée's Baby**, written by Kate Chopin in 1893, follows a woman who is rejected by her husband after their baby appears to have Black ancestry. The story is set on a Louisiana plantation before the American Civil War and explores themes of racial identity and prejudice.
+**Désirée's Baby**, written by Kate Chopin in 1893, follows a woman who is rejected by her husband after their baby appears to have Black ancestry. The story is set on a Louisiana plantation before the American Civil War.
 
 ### Historical context
 
@@ -68,7 +68,7 @@ By the end, the woman has gone completely insane. She is convinced that there ar
 
 ## Frankenstein
 
-**Frankenstein**, written by Mary Shelley in 1818, is a Gothic novel often considered one of the first works of science fiction. The novel explores the dark side of scientific progress: a young scientist creates a living creature from dead body parts, but when society rejects the creature, it turns to violence. The story examines themes of ambition, isolation, revenge, and the responsibilities of creation.
+**Frankenstein**, written by Mary Shelley in 1818, is a Gothic novel often considered one of the first works of science fiction. The novel explores the dark side of scientific progress: a young scientist creates a living creature from dead body parts, but when society rejects the creature, it turns to violence.
 
 ### Gothic writing
 
