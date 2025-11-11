@@ -263,26 +263,32 @@ The story is set in New York during the summer of 1922. This was during the **Ja
 
 ### Characters
 
-**Nick Carraway** is the narrator. He comes from a wealthy family in Minnesota that runs a hardware business. He fought in World War I. After the war, he moved to West Egg. He rents a small house between two huge mansions.
+**Nick Carraway** is the narrator. He comes from a wealthy family in Minnesota. He fought in World War I. After the war, he moved East in 1922 to learn the bond business. He rents a small house in West Egg.
 
-**Jay Gatsby** is Nick's neighbor. He lives in a huge mansion next door with a tower, a marble swimming pool, and over forty acres of lawn and garden.
+**Jay Gatsby** is Nick's neighbor in West Egg. He lives in a huge mansion with a tower, a marble swimming pool, and more than forty acres of lawn and garden. Nick doesn't know him at the start.
 
-**Tom Buchanan** is Daisy's husband. He was a famous football player at Yale. His family is extremely rich. He and Daisy live in a huge mansion in East Egg.
+**Tom Buchanan** is Daisy's husband. He was a famous football player at New Haven. His family is extremely wealthy. Tom and Daisy live in a large mansion in East Egg.
 
-**Daisy Buchanan** is Nick's second cousin and Tom's wife.
+**Daisy Buchanan** is Nick's second cousin once removed. She is married to Tom.
 
 ### Summary
 
-Nick moves from Minnesota to New York in 1922 to work in the bond business. He rents a small house in West Egg. His neighbor is Jay Gatsby, who lives in a huge mansion. Across the bay in East Egg live Tom and Daisy Buchanan.
+Nick Carraway comes from a wealthy family in Minnesota. He fought in World War I. After the war, he felt restless and moved East to learn the bond business. In 1922, he rents a small house in West Egg.
+
+Nick's house is squeezed between two huge mansions. His neighbor is Jay Gatsby, who lives in a huge mansion with a marble swimming pool and more than forty acres of lawn and garden. Nick doesn't know Gatsby yet.
+
+Across the bay in East Egg live Tom and Daisy Buchanan. Daisy is Nick's second cousin once removed. Tom was a famous football player at New Haven and comes from an extremely wealthy family. Tom and Daisy moved East from Chicago and live in a large mansion.
+
+One evening, Nick drives to East Egg to have dinner with the Buchanans.
 
 ### Themes
 
 - **Class difference**  
-  West Egg has new money and East Egg has old money. Tom and Daisy live in East Egg, while Nick and Gatsby live in West Egg.
-- **Money and wealth**  
-  Tom and Gatsby are extremely rich, while Nick is not.
+  The story shows the difference between old money (East Egg) and new money (West Egg). Tom and Daisy belong to the old money upper class, while Gatsby is part of the new money despite his wealth.
+- **Wealth**  
+  The characters' lives revolve around money and luxury. The story is has a lot of displays of extreme wealth.
 - **The American Dream**  
-  Nick moves East to make his fortune.
+  Nick moves East to make his fortune. The story explores the pursuit of wealth and success in 1920s America.
 
 ## The Refugees: War Years
 
