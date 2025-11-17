@@ -1,0 +1,7 @@
+{
+    "name": "school.gijs6.nl",
+    "description": "Static site generator for school study summaries",
+    "devDependencies": {
+        "lightningcss-cli": "^1.30.2"
+    }
+}
