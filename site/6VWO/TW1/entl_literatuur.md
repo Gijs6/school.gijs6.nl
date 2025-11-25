@@ -25,10 +25,13 @@ A few weeks later, Armand burns all of Désirée's belongings. In the drawer whe
 ### Themes
 
 - **Identity** and **ethnicity**  
-  Identity and ethnicity are portrayed as the most important aspects of a person. For example, Armand sends away Désirée and the baby purely because of ethnicity.
-- **Racism**
-- **Love/marriage**
-- **Sexism**
+  Identity and ethnicity are portrayed as the most important aspects of a person. Armand sends away Désirée and the baby purely because the baby appears to have Black ancestry. Désirée's unknown heritage is used against her. The twist at the end reveals that Armand himself has Black ancestry, showing that identity was based on appearance rather than truth.
+- **Racism**  
+  Armand becomes kinder after marriage but returns to cruelty when he thinks his baby has Black ancestry.
+- **Love/marriage**  
+  Armand's love is simplistic. He falls in love quickly but abandons Désirée just as quickly, showing his love was based on social status and race. The letter shows Armand's father had different love: he accepted Armand's mother despite knowing she was part Black.
+- **Sexism**  
+  Désirée has no power in her marriage. She doesn't defend herself and leaves when Armand tells her to. Armand directly blames Désirée instead of questioning his own heritage.
 
 ## The Yellow Wallpaper
 
@@ -38,8 +41,6 @@ A few weeks later, Armand burns all of Désirée's belongings. In the drawer whe
 
 The story is set during the **fin de siècle** (end of century) period. This period was characterized by **decay**, **anxiety**, and **fear of the future**.
 People began to question the authority of religion, morality, and traditional gender roles. There was a growing fascination with the mind and dreams.
-
-The story is considered an important work of **early feminism**.
 
 ### Summary
 
@@ -68,7 +69,7 @@ By the end, the woman has gone completely insane. She is convinced that there ar
 
 ## Frankenstein
 
-**Frankenstein**, written by Mary Shelley in 1818, is a Gothic novel often considered one of the first works of science fiction. The novel explores the dark side of scientific progress: a young scientist creates a living creature from dead body parts, but when society rejects the creature, it turns to violence.
+**Frankenstein**, written by Mary Shelley in 1818, is a Gothic novel often considered one of the first works of science fiction.
 
 ### Gothic writing
 
