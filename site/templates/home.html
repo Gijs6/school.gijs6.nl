@@ -5,18 +5,18 @@
 {% endblock %}
 
 {% block content %}
-    <main>
-        <section>
-            <h1>Samenvattingen :)</h1>
-            <p>
-                Welkom! Op deze prachtige site vind je al mijn zelfgemaakte samenvattingen en linkjes voor heel veel toetsen.
-            </p>
-            <p>Succes met leren en veel maak er wat moois van!</p>
-            <p class="author">
-                ~ Gemaakt met liefde en heel veel geduld door <a href="https://gijs6.nl">Gijs</a>
-            </p>
-        </section>
+    <header>
+        <h1>Samenvattingen :)</h1>
+        <p>
+            Welkom! Op deze prachtige site vind je al mijn zelfgemaakte samenvattingen en linkjes voor heel veel toetsen.
+        </p>
+        <p>Succes met leren en veel maak er wat moois van!</p>
+        <p class="author">
+            ~ Gemaakt met liefde en heel veel geduld door <a href="https://gijs6.nl" rel="author">Gijs</a>
+        </p>
+    </header>
 
+    <main>
         <section class="years">
             {% for year, year_data in homepage_data.items() %}
                 <h2>{{ year }}</h2>

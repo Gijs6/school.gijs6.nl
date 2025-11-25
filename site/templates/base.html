@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="nl">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta name="description"
-              content="{% block description %}Samenvattingen voor school{% endblock %}" />
+        <title>{%- block title -%}Samenvattingen :){%- endblock %} - school.gijs6.nl</title>
+        <meta name="description" content="Samenvattingen voor school">
+        <meta name="author" content="Gijs ten Berg">
+        <meta name="generator" content="Custom SSG (binder.py)">
 
-        <title>
-            {% block title %}Samenvattingen :){% endblock %}
-        </title>
+        <link rel="icon" href="/assets/images/favicon.ico">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-              rel="stylesheet">
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
 
-        <link rel="stylesheet" href="/assets/styles/skeleton.css" />
-        <link rel="stylesheet" href="/assets/styles/base.css" />
-        <link rel="stylesheet" href="/assets/styles/colors.css" />
-        <link rel="stylesheet" href="/assets/styles/article.css" />
+        <link rel="stylesheet" href="/assets/styles/skeleton.css">
+        <link rel="stylesheet" href="/assets/styles/base.css">
+        <link rel="stylesheet" href="/assets/styles/colors.css">
+        <link rel="stylesheet" href="/assets/styles/article.css">
+        {% block extra_head %}{% endblock %}
 
-        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+        <link rel="me" href="https://gijs6.nl">
+        <link rel="me" href="https://github.com/Gijs6">
+
+        <link rel="license" href="https://creativecommons.org/public-domain/cc0/">
 
         <link rel="alternate"
               type="application/rss+xml"
               title="RSS feed"
-              href="/rss.xml" />
+              href="/rss.xml">
         <link rel="alternate"
               type="application/atom+xml"
               title="Atom feed"
-              href="/atom.xml" />
+              href="/atom.xml">
 
         <script src="https://kit.fontawesome.com/4a94c21782.js"
                 crossorigin="anonymous"
                 defer></script>
-
-        {% block extra_head %}{% endblock %}
         <script>
             async function geoBlock() {
                 let response = await fetch("https://ipwho.is/");
@@ -60,34 +62,30 @@
         </script>
     </head>
     <body class="site-body">
-        <main class="site-main">
-            {% block content %}{% endblock %}
-        </main>
-        {% block footer %}
-            <footer class="site-footer">
-                <a class="footer-author" href="https://gijs6.nl" target="_blank">Door <strong>Gijs ten Berg</strong></a>
+        {% block content %}{% endblock %}
+        <footer class="site-footer">
+            <a class="footer-author" href="https://gijs6.nl" target="_blank">Door <strong>Gijs ten Berg</strong></a>
 
-                <a class="footer-license"
-                   href="https://creativecommons.org/public-domain/cc0/"
-                   target="_blank"
-                   rel="license noopener">CC0</a>
+            <a class="footer-license"
+               href="https://creativecommons.org/public-domain/cc0/"
+               target="_blank"
+               rel="license noopener">CC0</a>
 
-                <a class="footer-contact" href="https://gijs6.nl/contact">Contact</a>
+            <a class="footer-contact" href="https://gijs6.nl/contact">Contact</a>
 
-                <a class="footer-repo"
-                   href="https://github.com/Gijs6/school.gijs6.nl"
-                   target="_blank"
-                   rel="noopener">Repository</a>
+            <a class="footer-repo"
+               href="https://github.com/Gijs6/school.gijs6.nl"
+               target="_blank"
+               rel="noopener">Repository</a>
 
-                <a class="footer-source"
-                   href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
-                   target="_blank"
-                   rel="noopener">Broncode</a>
+            <a class="footer-source"
+               href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
+               target="_blank"
+               rel="noopener">Broncode</a>
 
-                <a class="footer-feeds" href="/rss.xml">RSS</a>
+            <a class="footer-feeds" href="/rss.xml">RSS</a>
 
-                <a class="footer-feeds" href="/atom.xml">Atom</a>
-            </footer>
-        {% endblock %}
+            <a class="footer-feeds" href="/atom.xml">Atom</a>
+        </footer>
     </body>
 </html>
