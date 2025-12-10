@@ -48,7 +48,7 @@ SITE_URL = "https://school.gijs6.nl"
 SITE_TITLE = "Samenvattingen :)"
 SITE_DESCRIPTION = "Een verzameling van zelfgemaakte samenvattingen"
 AUTHOR_NAME = "Gijs ten Berg"
-AUTHOR_EMAIL = "gijs6@dupunkto.org"
+AUTHOR_EMAIL = "me@gijs6.nl"
 
 VWO_YEAR_PATTERN = re.compile(r"(\d)VWO")
 ARCHIVE_YEAR_PATTERN = re.compile(r"[23]VWO")
