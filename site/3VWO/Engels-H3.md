@@ -7,11 +7,11 @@
 Je hebt verschillende manieren om over de toekomst te praten:
 
 - Present simple  
-  Voor dingen die volgens een schema gaan gebeuren: *The metro **leaves** in 5 minutes.*
+  Voor dingen die volgens een schema gaan gebeuren: _The metro **leaves** in 5 minutes._
 
 - Present continuous  
   To be + ww + *-ing*  
-  Voor dingen die vrijwel zeker gaan gebeuren: *I **am leaving** tomorrow.*
+  Voor dingen die vrijwel zeker gaan gebeuren: _I **am leaving** tomorrow._
 
 - *To be going to + hele ww*  
   Als het plan er al was voor het gesprek: *I **am going to cycle** to school.  
@@ -20,26 +20,26 @@ Je hebt verschillende manieren om over de toekomst te praten:
 - *Will / shall + hele ww*  
   Als het plan ontstaat tijdens het gesprek: *If it starts raining, **I will go** inside.  
   *Voorspellingen met mening of onzekerheid over de toekomst: *I don't think he **will be** upset.*  
-  Bij een spontaan aanbond, belofte, voorstel, enz.: *I **will get** you something to drink.*  
-  Bij algemene waarheden: *When a dog is afraid, he **will bark**.*
+  Bij een spontaan aanbond, belofte, voorstel, enz.: _I **will get** you something to drink._  
+  Bij algemene waarheden: _When a dog is afraid, he **will bark**._
 
 ### Adjectives and adverbs
 
-Een *adjective* (bijvoeglijk naamwoord) zegt iets over een *noun* (zelfstandig naamwoord): *That was an **amazing** film!*
+Een *adjective* (bijvoeglijk naamwoord) zegt iets over een *noun* (zelfstandig naamwoord): _That was an **amazing** film!_
 
 Een *adverb* (bijwoord) zegt iets over:
 
 - Een werkwoord  
-  *You <u>worked</u> **excellently** today!*
+  _You <u>worked</u> **excellently** today!_
 
 - Een bijvoeglijk naamwoord (adjective)  
-  *She is **truly** an <u>incredible</u> teacher.*
+  _She is **truly** an <u>incredible</u> teacher._
 
 - Een ander bijwoord (adverb)  
-  *They reacted **very** <u>angrily</u>.*
+  _They reacted **very** <u>angrily</u>._
 
 - Een hele zin  
-  ***Unfortunaly**, <u>she was late again</u>!*
+  _**Unfortunaly**, <u>she was late again</u>!_
 
 Een adverb maak je meestal door *adjective* + *-ly*. Soms veranderd de spelling:
 

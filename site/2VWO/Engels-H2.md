@@ -4,17 +4,17 @@
 
 ### Past simple
 
-De past simple gebruik je als je wilt zeggen dat iets in het verleden is gebeurd. De past simple maakt je door + ***-ed*** toe te voegen aan het hele werkwoord. Je gebruikt voor alle personen dezelfde vorm.
+De past simple gebruik je als je wilt zeggen dat iets in het verleden is gebeurd. De past simple maakt je door + _**-ed**_ toe te voegen aan het hele werkwoord. Je gebruikt voor alle personen dezelfde vorm.
 
 He climbed a mountain. Hij beklom een berg
 
 Er zijn een aantal uitzonderingen:
 
-| Werkwoord op ***-e*** | Alleen een + ***-d*** | To use | We used |
+| Werkwoord op _**-e**_ | Alleen een + _**-d**_ | To use | We used |
 |----|----|----|----|
-| Werkwoord op medeklinker + ***-y*** | ***-ied*** | To try | They tried |
-| Werkwoorden op 1 klinker + 1 medeklinker | Medeklinker verdubbeld + ***-ed*** | To admit | I admitted |
-| Werkwoorden op klinker + l | L verdubbeld + ***-ed*** | To cancel | She cancelled |
+| Werkwoord op medeklinker + _**-y**_ | _**-ied**_ | To try | They tried |
+| Werkwoorden op 1 klinker + 1 medeklinker | Medeklinker verdubbeld + _**-ed**_ | To admit | I admitted |
+| Werkwoorden op klinker + l | L verdubbeld + _**-ed**_ | To cancel | She cancelled |
 
 Onregelmatige werkwoorden hebben een eigen vorm in de past simple.
 

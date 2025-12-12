@@ -4,7 +4,7 @@
 
 ### De ontkenning
 
-In het Frans bestaat de ontkenning uit de woordjes ***ne*** en ***pas***. ***Ne*** wordt voor de persoonsvorm gebruikt en ***pas*** komt er direct na. Als de persoonsvorm begint met een "h-" of een klinker, wordt ***n'*** gebruikt in plaats van ***ne***. De ontkenning van ***c'est*** is ***ce n'est pas***. De ontkenning van ***il y a*** is ***il n'y a pas***. Andere ontkenningen zijn:
+In het Frans bestaat de ontkenning uit de woordjes _**ne**_ en _**pas**_. _**Ne**_ wordt voor de persoonsvorm gebruikt en _**pas**_ komt er direct na. Als de persoonsvorm begint met een "h-" of een klinker, wordt _**n'**_ gebruikt in plaats van _**ne**_. De ontkenning van _**c'est**_ is _**ce n'est pas**_. De ontkenning van _**il y a**_ is _**il n'y a pas**_. Andere ontkenningen zijn:
 
 | *ne ... plus*   | niet meer | *ne ... rien*       | niet     |
 |---------------|-----------|-------------------|----------|
@@ -12,7 +12,7 @@ In het Frans bestaat de ontkenning uit de woordjes ***ne*** en ***pas***. ***Ne*
 
 ## Vraagwoorden
 
-In het Frans kun je een vraag stellen door een vraagteken achter een zin te zetten. Je kan ook ***est-ce que*** voor een gewone zin zetten. ***Que*** veranderd in ***qu'*** bij een klinker of stomme *h-*. Je kan ook vraagwoorden gebruiken:
+In het Frans kun je een vraag stellen door een vraagteken achter een zin te zetten. Je kan ook _**est-ce que**_ voor een gewone zin zetten. _**Que**_ veranderd in _**qu'**_ bij een klinker of stomme *h-*. Je kan ook vraagwoorden gebruiken:
 
 | *où*      | waar    | *pourquoi*      | waarom |
 |-----------|---------|-----------------|--------|

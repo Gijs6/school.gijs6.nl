@@ -31,15 +31,15 @@ Bijwoorden kunnen verschillende dingen aangeven:
 <!-- -->
 
 - Regelmaat  
-  Bijwoorden die aangeven **hoe vaak** iets voorkomt (*always*, *never*, *often*, enz.) komen **voor het hoofdwerkwoord** <u>of</u> na een **vorm van *to be***. Deze bijwoorden kunnen ook aan het eind of begin van een zin staan bij extra nadruk. Dit kan alleen bij *frequently*, *occasionally*, *often*, *sometimes*, *usually* en *normally*.
+  Bijwoorden die aangeven **hoe vaak** iets voorkomt (*always*, *never*, *often*, enz.) komen **voor het hoofdwerkwoord** <u>of</u> na een **vorm van _to be_**. Deze bijwoorden kunnen ook aan het eind of begin van een zin staan bij extra nadruk. Dit kan alleen bij *frequently*, *occasionally*, *often*, *sometimes*, *usually* en *normally*.
 
 ## The passive
 
 Je gebruikt de passive om nadruk te leggen op wat er gebeurt, in plaat van wie iets uitvoert. In het Nederlands kun je dit ook doen met de bedrijvende en lijdende vorm.
 
-De passive is in de present simple ***to be* + voltooid deelwoord**: *the dog is found by us*.
+De passive is in de present simple _**to be_ + voltooid deelwoord**: *the dog is found by us*.
 
-In de past simple is de regel ***was* / *were* + voltooid deelwoord**: *the dog was found by us*.
+In de past simple is de regel **_was_ / _were_ + voltooid deelwoord**: *the dog was found by us*.
 
 ## If-sentences
 
@@ -47,15 +47,15 @@ In de past simple is de regel ***was* / *were* + voltooid deelwoord**: *the dog 
 
 > *If* + present simple & present simple
 >
-> *When you **mix** yellow and red, you **get** orange*.
+> _When you **mix** yellow and red, you **get** orange_.
 
 - First conditional: voorwaarde → waarschijnlijk gevolg  
   *If* + present simple & *will* + hele werkwoord  
-  *If we **catch** the bus, we **will get** there faster.*
+  _If we **catch** the bus, we **will get** there faster._
 
 - Second conditional: onwaarschijnlijke voorwaarde → gevolg  
   *If* + past simple & *would* + hele werwoord  
-  *If we **caught** the bus, we **would get** there faster*.
+  _If we **caught** the bus, we **would get** there faster_.
 
 > <u>Als je *to* be gebruikt in de *if*-zin, moet je in **alle** gevallen *were*(*n't*) gebruiken (alleen bij de second conditional).</u>
 \

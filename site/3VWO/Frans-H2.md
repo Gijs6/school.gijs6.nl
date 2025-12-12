@@ -32,7 +32,7 @@ Je vervoegt regelmatige werkwoorden op *-ir* door een uitgang aan de stam toe te
 | vous       | *-issez*  | vous fin**issez**       |
 | ils/elles  | *-issent* | ils/elles fin**issent** |
 
-De passé composé maak je door de *-r* weg te halen: J'**ai** **choisi** la série.
+De passé composé maak je door de *-r* weg te halen: J'**ai choisi** la série.
 
 ### Bijvoeglijke naamwoorden
 
@@ -64,7 +64,7 @@ Je vervoegt regelmatige werkwoorden op *-re* door een uitgang aan de stam toe te
 | vous       | *-ez*  | vous répond**ez**       |
 | ils/elles  | *-ent* | ils/elles répond**ent** |
 
-De passé composé maak je door een *-u* als uitgang te gebruiken: J'**ai** **vendu** ma console.
+De passé composé maak je door een *-u* als uitgang te gebruiken: J'**ai vendu** ma console.
 
 ### Imparfait (onvoltooid verleden tijd)
 

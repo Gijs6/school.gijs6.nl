@@ -67,8 +67,8 @@ Er zijn een aantal basisregels voor het bepalen van het meervoud van een woord:
 |---------------------------------|-------------|
 | **Vrouwelijke woorden**         | \+ (e)n     |
 | **Onzijdige woorden**           | +e          |
-| **Woorden op *-el, -en, -er***  | Onveranderd |
-| **Woorden op *-a, -i, -o, -y*** | +s          |
+| **Woorden op _-el, -en, -er_**  | Onveranderd |
+| **Woorden op _-a, -i, -o, -y_** | +s          |
 
 ## Bezittelijk voornaamwoord (possessivpronomen)
 
@@ -99,8 +99,8 @@ Deze woorden krijgen een *-e* bij een vrouwelijk of meervoudswoord. *Euer* veran
 | **u**      | Sie  | ihnen | Sie  |
 | **wie**    | wer  | wem   | wen  |
 
-De 1e naamval is het onderwerp: ***Ich** habe eine Katze.*
+De 1e naamval is het onderwerp: _**Ich** habe eine Katze._
 
-De 3e naamval is het meewerkend voorwerp: *Petra gibt **mir** einen Brief.* Deze geeft aan aan wie of voor wie het onderwerp iets doet. Je gebruikt de 3e naamval ook na de voorzetsels ***aus** (uit), **bei** (bij), **mit** (met), **nach** (na, naar), **seit** (sinds), **von** (van, door), **zu** (naar een persoon), **außer** (behalve) en **gegenuber** (tegenover)*.
+De 3e naamval is het meewerkend voorwerp: _Petra gibt **mir** einen Brief._ Deze geeft aan aan wie of voor wie het onderwerp iets doet. Je gebruikt de 3e naamval ook na de voorzetsels _**aus** (uit), **bei** (bij), **mit** (met), **nach** (na, naar), **seit** (sinds), **von** (van, door), **zu** (naar een persoon), **außer** (behalve) en **gegenuber** (tegenover)_.
 
-De 4e naamval is het lijdend voorwerp: *Der Arzt operiert **mich***. Deze geeft aan wie of wat de actie van het onderwerp "ondergaat". Je gebruikt de 4e naamval ook na de voorzetsels ***durch** (door), **für** (voor), **ohne** (zonder), **um** (om), **bis** (tot), **gegen** (tegen) en **entlang** (hoelang)*.
+De 4e naamval is het lijdend voorwerp: _Der Arzt operiert **mich**_. Deze geeft aan wie of wat de actie van het onderwerp "ondergaat". Je gebruikt de 4e naamval ook na de voorzetsels _**durch** (door), **für** (voor), **ohne** (zonder), **um** (om), **bis** (tot), **gegen** (tegen) en **entlang** (hoelang)_.

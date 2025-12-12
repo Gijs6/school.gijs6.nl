@@ -7,7 +7,7 @@ Om woorden in het Engels te vergelijken, gebruik je de vergrotende trap en de ov
 |  | *Basisvorm* | *Vergrotende trap* | *Overtreffende trap* |
 |----|----|----|----|
 | **1 lettergreep** | great | great**er** | great**est** |
-| **Twee lettergrepen op *-y*, *-er*, *-le* of *-ow*** | crazy | crazi**er** | crazi**est** |
+| **Twee lettergrepen op _-y_, _-er_, _-le_ of _-ow_** | crazy | crazi**er** | crazi**est** |
 |  | clever | clever**er** | clever**est** |
 | **2 of meer lettergrepen** | polite | more polite | most polite |
 | **Onregelmatig** | good | better | best |
@@ -28,7 +28,7 @@ Om woorden in het Engels te vergelijken, gebruik je de vergrotende trap en de ov
 
 ### Present perfect
 
-***Have*/*has* + voltooid deelwoord**: *I <u>have seen</u> him before*.
+**_Have_/_has_ + voltooid deelwoord**: *I <u>have seen</u> him before*.
 
 Je gebruikt de present perfect:
 
@@ -44,7 +44,7 @@ Je gebruikt de present perfect:
 
 ### Present perfect continuous
 
-***Have/has* + *been* + hele ww + *-ing***: *We <u>have been walking</u>* *here for hours.*
+**_Have/has_ + _been_ + hele ww + _-ing_**: *We <u>have been walking</u>* *here for hours.*
 
 Je gebruikt de present perfect continuous:
 
@@ -56,12 +56,12 @@ Je gebruikt de present perfect continuous:
 
 ### Past simple
 
-**Stam + *-ed***: *I <u>walked</u> to school this morning*.
+**Stam + _-ed_**: *I <u>walked</u> to school this morning*.
 
 Je gebruikt de past simple als iets in het verleden is gebeurd, of als iets in het verleden regelmatig is gebeurd.
 
 ### Past continuous
 
-***Was*/*were* + hele ww + *-ing***: *I <u>was walking</u> to school when I fell over*.
+**_Was_/_were_ + hele ww + _-ing_**: *I <u>was walking</u> to school when I fell over*.
 
 Je gebruikt de past continuous als iets in het verleden een tijd duurde, of als een **irritatie** regelmatig gebeurde in het verleden.

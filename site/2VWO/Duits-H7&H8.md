@@ -20,17 +20,17 @@ Hieronder zie je de persoonlijke voornaamwoorden (en *wie* en *wat*) in de vierd
 | wer (wie)      | wen (wie)      |
 | was (wat)      | was (wat)      |
 
-*Ist dieses Zimmer für **mich** reserviert?* Is deze kamer voor mij gereserveerd?
+_Ist dieses Zimmer für **mich** reserviert?_ Is deze kamer voor mij gereserveerd?
 
 Je gebruik de vierde naamval na een van de voorzetsels (*durch, für,...)*, of als je het in het Nederlands ook gebruikt, zoals:
 
-*Ich beleidige **dich**.* Ik beledig jou.
+_Ich beleidige **dich**._ Ik beledig jou.
 
 Je zegt in het Nederlands niet *ik beledig jij*.
 
 ## Onregelmatige werkwoorden
 
-|  | ***kunnen*** | ***mogen*** | ***moeten (kan niet anders)*** | ***weten*** | ***moeten (wil van een ander)*** | ***willen*** | ***leuk vinden, lusten*** | ***willen (wens)*** |
+|  | _**kunnen**_ | _**mogen**_ | _**moeten (kan niet anders)**_ | _**weten**_ | _**moeten (wil van een ander)**_ | _**willen**_ | _**leuk vinden, lusten**_ | _**willen (wens)**_ |
 |----|----|----|----|----|----|----|----|----|
 |  | **können** | **dürfen** | **müssen** | **wissen** | **sollen** | **wollen** | **mögen** | **möchten** |
 | **ich** | kann | darf | muss | weiß | soll | will | mag | möchte |
@@ -42,8 +42,8 @@ Je zegt in het Nederlands niet *ik beledig jij*.
 
 Het werkwoord *müssen* gebruik je om een noodzaak aan te geven, het kan niet anders.
 
-*Ich **muss** zur Toilette.* Ik moet naar het toilet.
+_Ich **muss** zur Toilette._ Ik moet naar het toilet.
 
 Bij het werkwoord *sollen* gaat het om iets wat een ander wilt.
 
-*Er **soll** sich beim Direktor melden.* Hij moet zich bij de rector melden.
+_Er **soll** sich beim Direktor melden._ Hij moet zich bij de rector melden.

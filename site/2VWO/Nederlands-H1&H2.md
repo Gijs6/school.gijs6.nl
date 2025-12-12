@@ -10,7 +10,7 @@ Er is maar 1 wederkerig voornaamwoord (wedig.vnw): **elkaar** (kan ook geschreve
 
 Wederkerende werkwoorden keren terug op het onderwerp.
 
-*Ik vergis **me**.* Me keert hier terug op ik. Me noem je in dit geval het wederkerend voornaamwoord (wed.vnw). Andere wederkerende voornaamwoorden zijn: je, zich en ons. Het woord *zich* is altijd een wederkerend voornaamwoord, maar *me, je* en *ons* kunnen ook persoonlijke voornaamwoorden zijn.
+_Ik vergis **me**._ Me keert hier terug op ik. Me noem je in dit geval het wederkerend voornaamwoord (wed.vnw). Andere wederkerende voornaamwoorden zijn: je, zich en ons. Het woord *zich* is altijd een wederkerend voornaamwoord, maar *me, je* en *ons* kunnen ook persoonlijke voornaamwoorden zijn.
 
 Je kan de juiste woordsoort vaststellen door het woord *me, je* of *ons* te vervangen door *hij, hem, zijn* of *zich*.
 
@@ -80,7 +80,7 @@ In het Nederlands zijn er 3 verschillende zinsopbouwen
 
 - OPA: onderwerp - persoonsvorm - andere zinsdelen
 
-> *Amber (**o**w) eet (**p**v) graag friet (**a**ndere zinsdelen).*
+> _Amber (**o**w) eet (**p**v) graag friet (**a**ndere zinsdelen)._
 >
 > Dit is de meest voorkomenden zinsopbouw in het Nederlands
 
@@ -90,13 +90,13 @@ In het Nederlands zijn er 3 verschillende zinsopbouwen
 
 - POA: persoonsvorm - onderwerp - andere zinsdelen
 
-> *Eet (**p**v) Amber (**o**w) graag friet (**a**ndere zinsdelen)?*
+> _Eet (**p**v) Amber (**o**w) graag friet (**a**ndere zinsdelen)?_
 >
 > Met deze zinsopbouw maak je een vraagzin
 
 - PA: persoonsvorm - andere zinsdelen
 
-> *Eet (**p**v) nu onze nieuwe friet (**a**ndere zinsdelen).*
+> _Eet (**p**v) nu onze nieuwe friet (**a**ndere zinsdelen)._
 >
 > Deze zinsopbouw bevat geen onderwerp. Deze opbouw wordt daarom vaak gebruikt in de gebiedende wijs en in advertenties.
 
@@ -182,10 +182,10 @@ Vervoeg Engels werkwoorden net als in het Nederlands.
 
 - In de tegenwoordige tijd enkelvoud schrijf je ik-vorm of ik-vorm + t.
 
-- In de verleden tijd en bij het voltooid deelwoord gebruik je ***‘t ex kofschip***. Het gaat daarbij om de klank van de letter voor de uitgang -en:
+- In de verleden tijd en bij het voltooid deelwoord gebruik je _** 't ex kofschip**_. Het gaat daarbij om de klank van de letter voor de uitgang -en:
 
-> *mixen \> ik mix, hij mixt, ik mixte, ik heb gemix  
-> gamen \> ik game, hij gamet, ik gamede, ik heb gegamed*
+> *mixen \> ik mix, hij mixt, ik mixte, ik heb gemix*  
+> *gamen \> ik game, hij gamet, ik gamede, ik heb gegamed*
 >
 > *crowdfunden \> ik crowdfund, hij crowdfundt, ik crowdfundde, wij hebben gecrowdfund*
 >

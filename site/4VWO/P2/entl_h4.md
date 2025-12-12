@@ -23,11 +23,11 @@ title: H4
 | | Als de nadruk ligt op het feit dat een handeling was afgelopen toen de andere begon · Als op een moment in het verleden een handeling of toestand al een tijdje duurde · Zinnen met een 3rd conditional (iets zou gebeurd zijn) · Indirecte reden |
 | **Past perfect continuous** | *Had been* + ww + *-ing* |
 | | Nadruk op een gebeurtenis in het verleden die **te lang** duurde (volgens de spreker) |
-| **Future: *will*/*shall*** | *Will/shall* + werkwoord |
+| **Future: _will_/_shall_** | *Will/shall* + werkwoord |
 | | Iets gaat in de toekomst gebeuren · Je denkt iets te gaan doen · Na een wens, veronderstelling, belofte, aanbod of voorspelling |
 | **Future: present continuous** | *To be* + ww + *-ing* |
 | | Plannen of afspraken waarvoor al voorbereidingen zijn getroffen |
-| **Future: *to be going to*** | *To be* + *going to* |
+| **Future: _to be going to_** | *To be* + *going to* |
 | | Een bestaand plan · Een duidelijke aanwijzing dat het gaat gebeuren |
 | **Future: present simple** | Hele werkwoord, bij he/she/it + *-s* |
 | | Vaste tijden |
@@ -71,12 +71,12 @@ Je gebruikt *have to*, *must* en *should* om te zeggen dat iets (zou) moeten.
 
 |   Bezit van mensen of dieren   |        |                          | Bezit van dingen |        |                            |
 | :----------------------------: | :----: | :----------------------: | :--------------: | :----: | :------------------------: |
-|           Enkelvoud            |   's   |     *The cat's food*     |    Enkelvoud     | ... of ... | *The screen of the laptop* |
-|        Meervoud op \-s         |   '    |   *My sisters' books*    |     Meervoud     |        |  *The brakes of the bike*  |
-|      Meervoud zonder \-s       |   's   | *The children's laptops* |     Locaties     |        |  *The city of Rotterdam*   |
+|           Enkelvoud            |  's   |     *The cat's food*     |    Enkelvoud     | ... of ... | *The screen of the laptop* |
+|        Meervoud op \-s         |  '    |   *My sisters' books*    |     Meervoud     |        |  *The brakes of the bike*  |
+|      Meervoud zonder \-s       |  's   | *The children's laptops* |     Locaties     |        |  *The city of Rotterdam*   |
 |          Namen op \-s          | ' / 's |    *Dennis'(s) phone*    |                  |        |                            |
-| Namen uit de klassieke oudheid |   '    |    *Socrates' ideas*     |                  |        |                            |
-|          Organisaties          |   's   |    *Samsung's store*     |                  |        |                            |
+| Namen uit de klassieke oudheid |  '    |    *Socrates' ideas*     |                  |        |                            |
+|          Organisaties          |  's   |    *Samsung's store*     |                  |        |                            |
 
 ## Woordvolgorde
 
@@ -170,9 +170,9 @@ Je gebruikt *have to*, *must* en *should* om te zeggen dat iets (zou) moeten.
 
 ## *Some*, *any*, *both*, *either*, *neither*, *each*, *every*, *no*, en *none*
 
-**Some(-*thing*, \-*body*, \-*where*, \-*one*)** gebruik je in bevestigende zinnen, als je iets aanbiedt of als je verwacht dat het antwoord ja is.  
+**Some(-_thing_, \-_body_, \-_where_, \-_one_)** gebruik je in bevestigende zinnen, als je iets aanbiedt of als je verwacht dat het antwoord ja is.  
 *Some* kun je ook gebruiken als "een of andere" of samen met een getal als ongeveer.  
-**Any(-*thing*, \-*body*, \-*where*, \-*one*)** gebruik je in ontkennende zinnen, in bevestigende zinnen met ontkennende woorden en in andere vragen.  
+**Any(-_thing_, \-_body_, \-_where_, \-_one_)** gebruik je in ontkennende zinnen, in bevestigende zinnen met ontkennende woorden en in andere vragen.  
 *Any* kun je ook gebruiken als elke of als bijna niets samen met *hardly*.  
 **Both** gebruik je om te aan te geven dat het voor twee dingen geldt.  
 **Either** gebruik je om aan te geven dat het voor 1 van de 2 dingen geldt.  

@@ -12,7 +12,7 @@ Met **achtste en zestiende noten** kunnen verschillende combinaties worden gemaa
 
 Bij een **syncope** verschuift het accent van een sterke naar een zwakke maat. Het accent van de maat (maataccent) klinkt dan bijvoorbeeld niet op de tel zelf, maar tussen de tellen in.
 
-Als er ***swing*** boven de muziek staat, betekent dit dat de tonen als triolen worden gespeeld, door de eerste toon wat langer te spelen dan de tweede.
+Als er _**swing**_ boven de muziek staat, betekent dit dat de tonen als triolen worden gespeeld, door de eerste toon wat langer te spelen dan de tweede.
 
 ## Uitvoering
 
@@ -52,4 +52,4 @@ Er zijn meer Italiaanse tempoaanduidingen:
 
 **Presto Zeer snel**
 
-**Rubato** betekent *vrij in tempo*. ***A tempo*** betekent: het voorgaande tempo hervatten.
+**Rubato** betekent *vrij in tempo*. _**A tempo**_ betekent: het voorgaande tempo hervatten.

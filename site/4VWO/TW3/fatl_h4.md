@@ -51,7 +51,7 @@ Voor *on* bestaat dus geen aparte vorm.
 
 ## Onregelmatige werkwoorden
 
-|                   | ***mettre*** (leggen, zetten, erover doen, aantrekken) | ***dire*** (zeggen) | ***décrire*** (beschrijven) | ***ouvrir*** (openen), ***offrir*** (aanbieden) |
+|                   | _**mettre**_ (leggen, zetten, erover doen, aantrekken) | _**dire**_ (zeggen) | _**décrire**_ (beschrijven) | _**ouvrir**_ (openen), _**offrir**_ (aanbieden) |
 | ----------------- | ------------------------------------------------------ | ------------------- | --------------------------- | ----------------------------------------------- |
 | **présent**       | *je mets*                                              | *je dis*            | *je décris*                 | *j'ouvre*                                       |
 |                   | *tu mets*                                              | *tu dis*            | *tu décris*                 | *tu ouvres*                                     |
@@ -84,7 +84,7 @@ Bij een impératif in een ontkennende zin staat het voornaamwoord er gewoon voor
 
 De volgende werkwoorden hebben een onregelmatige vorm voor de gebiedende wijs.
 
-|                                     | ***avoir*** | ***être*** | ***aller*** |
+|                                     | _**avoir**_ | _**être**_ | _**aller**_ |
 | ----------------------------------- | ----------- | ---------- | ----------- |
 | **Tegen één persoon (jij)**         | *aie*       | *sois*     | *va*        |
 | **Tegen jezelf en andere personen** | *ayons*     | *soyons*   | *allons*    |

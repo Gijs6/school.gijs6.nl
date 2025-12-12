@@ -16,7 +16,7 @@ DNA bestaat uit de **basen** A, T, C en G. De A & T en C & G vormen altijd samen
 
 De informatie in een gen is een **allel**. De twee allelen over dezelfde informatie, maar in een ander chromosoom vormen samen een **allelenpaar**. De allelen in een allelenpaar kunnen hetzelfde zijn. Die persoon is dan **homozygoot** voor die eigenschap. Als de allelen verschillen zijn iemand **heterozygoot** voor die eigenschap.
 
-Bij een **mutatie** verandert het genotype. Dit heeft meestal geen effect, want je hebt heel veel cellen met hetzelfde genotype. Als de mutatie voorkomt in een geslachtscel kan het wel effect hebben, omdat de mutatie kan worden doorgegeven bij de versmelting met een eicel. Mutaties komen door straling, radioactiviteit, chemicaliën en andere **mutagene invloeden**. Bij een **mutant** komt de mutatie tot uiting in het fenotype, zoals bij **albinisme**. Bij **spontane** **mutatie** ontstaan er fouten bij het delen van het DNA. Als 1 allel gemuteerd is, kan het andere allel de taak overnemen. Door mutaties neemt de genetische variatie binnen een soort toe.
+Bij een **mutatie** verandert het genotype. Dit heeft meestal geen effect, want je hebt heel veel cellen met hetzelfde genotype. Als de mutatie voorkomt in een geslachtscel kan het wel effect hebben, omdat de mutatie kan worden doorgegeven bij de versmelting met een eicel. Mutaties komen door straling, radioactiviteit, chemicaliën en andere **mutagene invloeden**. Bij een **mutant** komt de mutatie tot uiting in het fenotype, zoals bij **albinisme**. Bij **spontane mutatie** ontstaan er fouten bij het delen van het DNA. Als 1 allel gemuteerd is, kan het andere allel de taak overnemen. Door mutaties neemt de genetische variatie binnen een soort toe.
 
 ## Sequentie en transcriptie
 

@@ -4,7 +4,7 @@
 
 ### Woordenschat: Vaste voorzetsels en voorzetseluitdrukkingen
 
-Veel werkwoorden hebben een vast voorzetsel: *verslaafd zijn **aan***, *deelnemen **aan***, *houden **van***, *antwoorden **op***. Er zijn ook combinaties van een zelfstandig naamwoord, een werkwoord en een vast voorzetsel: *hekel hebben **aan***, *kritiek hebben **op***, *rekening houden **met***. Of een bijvoeglijk naamwoord, een werkwoord en een vast voorzetsel: *trouw zijn **aan***. **Voorzetseluitdrukkingen** zijn woordcombinaties zoals *ten gevolge van* of *met betrekking tot.* Deze kun je meestal vervangen door 1 voorzetsel: *ten gevolge van* 🡢 *door* en *met betrekking tot 🡢 over*.
+Veel werkwoorden hebben een vast voorzetsel: _verslaafd zijn **aan**_, _deelnemen **aan**_, _houden **van**_, _antwoorden **op**_. Er zijn ook combinaties van een zelfstandig naamwoord, een werkwoord en een vast voorzetsel: _hekel hebben **aan**_, _kritiek hebben **op**_, _rekening houden **met**_. Of een bijvoeglijk naamwoord, een werkwoord en een vast voorzetsel: _trouw zijn **aan**_. **Voorzetseluitdrukkingen** zijn woordcombinaties zoals *ten gevolge van* of *met betrekking tot.* Deze kun je meestal vervangen door 1 voorzetsel: *ten gevolge van* -> *door* en *met betrekking tot -> over*.
 
 ### Grammatica woordsoorten: Telwoord
 
@@ -146,10 +146,10 @@ Je gebruikt <u>geen</u> *-(e)n-* (maar soms wel *-e-*) als ...
 
 Om te weten hoe je zwakke werkwoorden met een ik-vorm op *-d* of *-t* in de verleden tijd schrijft, moet je weten of je te maken hebt met een infinitief, een persoonsvorm of een bijvoeglijk naamwoord.
 
-- De **infinitief** is het hele werkwoord. Dit gebruik je alleen als een ander woord de persoonsvorm is. *Wij waren toen snoep aan het **kopen**.*
+- De **infinitief** is het hele werkwoord. Dit gebruik je alleen als een ander woord de persoonsvorm is. _Wij waren toen snoep aan het **kopen**._
 
-- De **persoonsvorm tegenwoordige tijd (pvtt)** schrijf je in het meervoud hetzelfde als het infinitief. *Wij **zetten** deze lamp aan.*
+- De **persoonsvorm tegenwoordige tijd (pvtt)** schrijf je in het meervoud hetzelfde als het infinitief. _Wij **zetten** deze lamp aan._
 
-- De **persoonsvorm verleden tijd (pvvt)** schrijf in het meervoud je met *-dde(n)* of *-tte(n)* als de stam eindigt op 1 *-d* of *-t*. *Zij **redden** de kat uit de boom.*
+- De **persoonsvorm verleden tijd (pvvt)** schrijf in het meervoud je met *-dde(n)* of *-tte(n)* als de stam eindigt op 1 *-d* of *-t*. _Zij **redden** de kat uit de boom._
 
-- Een **bijvoeglijk naamwoord (bn)** schrijf je zo kort mogelijk, dus met *-de* of *-te*: *de **verlichte** kamer*. Bij infinitieven met *-dd-* of *-tt-* heeft ook het bijvoeglijk naamwoord *-dd-* of *-tt-*.
+- Een **bijvoeglijk naamwoord (bn)** schrijf je zo kort mogelijk, dus met *-de* of *-te*: _de **verlichte** kamer_. Bij infinitieven met *-dd-* of *-tt-* heeft ook het bijvoeglijk naamwoord *-dd-* of *-tt-*.

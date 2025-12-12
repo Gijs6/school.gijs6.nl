@@ -11,7 +11,7 @@ Het bijvoegelijk naamwoord in het Frans heeft verschillende uitgangen, die veran
 | enkelvoud | –         | -e         |
 | meervoud  | -s        | -es        |
 
-*Il est grand Ils sont grand**s** Elle est grand**e** Elles sont grand**es***
+_Il est grand Ils sont grand**s** Elle est grand**e** Elles sont grand**es_**
 
 Als een bijvoeglijk naamwoord eindigt op een -e, dan krijgt het woord in de vrouwlijke vormen geen extra e. Dit geldt ook voor een -s bij het mannelijk meervoud.
 
@@ -37,7 +37,7 @@ Er zijn ook een aantal onregelmatige bijvoeglijke naamwoorden. Die vind je hiero
 
 Het bijvoeglijk naamwoord staat in het Frans vaak achter het zelfstandig naamwoord.
 
-*un chat **noir** een zwarte kat*
+_un chat **noir** een zwarte kat_
 
 Bij de kleuren en nationaliteiten staat het bijvoegelijk naamwoord altijd achter het zelfstandig naamwoord. De volgende bijvoeglijke naamwoorden staan voor het zelfstandig naamwoord.
 

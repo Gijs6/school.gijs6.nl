@@ -6,7 +6,7 @@ description: Wetenschappelijk onderzoek
 
 ## Experimenteel onderzoek
 
-Bij **experimenteel** **onderzoek** probeer je een antwoord op een **onderzoeksvraag** te krijgen door het doen van experimenten. Deze onderzoeksvraag moet **eenduidig** zijn: er moet maar 1 interpretatie van mogelijk zijn. De **onafhankelijke variabele** is de variabele die je zelf aanpast. Vervolgens ga je kijken hoe de **afhankelijke variabele** hierop reageert. De onafhankelijke variabele is dus de enige omstandigheid die mag veranderen. Met een **controle-experiment** (experiment om aan te tonen dat geen andere factoren een rol spelen) toon je aan of het onderzoek **valide** (bij herhaling geeft het onderzoek dezelfde resultaten) is.  
+Bij **experimenteel onderzoek** probeer je een antwoord op een **onderzoeksvraag** te krijgen door het doen van experimenten. Deze onderzoeksvraag moet **eenduidig** zijn: er moet maar 1 interpretatie van mogelijk zijn. De **onafhankelijke variabele** is de variabele die je zelf aanpast. Vervolgens ga je kijken hoe de **afhankelijke variabele** hierop reageert. De onafhankelijke variabele is dus de enige omstandigheid die mag veranderen. Met een **controle-experiment** (experiment om aan te tonen dat geen andere factoren een rol spelen) toon je aan of het onderzoek **valide** (bij herhaling geeft het onderzoek dezelfde resultaten) is.  
 Een goed experiment is **herhaalbaar en controleerbaar**. In het **onderzoeksverslag** staan de volgende onderdelen:
 
 * **onderzoeksvraag**  

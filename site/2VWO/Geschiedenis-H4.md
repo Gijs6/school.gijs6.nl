@@ -30,7 +30,7 @@ In 1789 riep de koning de Staten-Generaal bijeen, om de problemen van Frankrijk 
 
 Omdat de koning bang was voor een revolutie, liet hij Parijs omsingelen. De hongerige burgers waren het hier niet mee eens, en gingen over tot bestorming van de Bastille: een gevangenis voor verlichte denkers. Ook mensen buiten Parijs kwamen in opstand: rijke landhuizen en kloosters werden geplunderd, en eigendomspapieren werden verscheurd en verbrand.
 
-In augustus werd door de Nationale Vergadering de ‘Verklaring van de Rechten van de Mens en van de Burger' opgesteld. Hierin stond onder andere dat iedereen voor de wet gelijk werd en dat de rijken meer belasting moesten betalen dan de armen. Ook werden de voorrechten van de eerste en tweede stand opgeheven, waardoor er geen standen meer waren. De koning ondertekende deze verklaring.
+In augustus werd door de Nationale Vergadering de 'Verklaring van de Rechten van de Mens en van de Burger' opgesteld. Hierin stond onder andere dat iedereen voor de wet gelijk werd en dat de rijken meer belasting moesten betalen dan de armen. Ook werden de voorrechten van de eerste en tweede stand opgeheven, waardoor er geen standen meer waren. De koning ondertekende deze verklaring.
 
 In 1789-1791 werd een grondwet opgesteld die de rechten van de mens en de burger beschreef. De koning twijfelde of hij deze wet moest ondertekenen, omdat het zijn macht beperkte. Hij probeerde te vluchten, maar werd ontdekt, en gedwongen op om terug te keren. Hij ondertekende uiteindelijk in september 1791 de grondwet. Dit maakte van Frankrijk een constitutionele monarchie, waarin de koning weinig macht had en er een gekozen parlement was. Maar slechts 15% van de bevolking voldeed aan de stemvoorwaarden en vrouwen werden uitgesloten van de politiek. Protesten van vrouwen hielpen niet en ze konden alleen vanaf de tribune of via demonstraties hun stem laten horen. De kritiek van de radicalen wedt steeds luider, want het nieuwe bestuur had het leger niet onder controle, en er was nog steeds te weinig geld.
 
@@ -76,7 +76,7 @@ Rijd van regenten en vorsten: 1600-1700
 | Code Napoléon | Het wetboek dat Napoleon liet opstellen en waarin gelijkheid voor de wet was opgenomen. De Code Napoléon vormt nog steeds de basis van het burgerlijk wetboek in veel Europese landen. |
 | Constitutionele Monarchie | Koninkrijk met een grondwet waarin de koning nog maar weinig te zeggen heeft. |
 | Continentaal Stelsel | Regeling van Napoleon die alle handel met Engeland vanaf het Europese continent verbood. |
-| Droit Divin | Het ‘goddelijk recht', het idee dat de koning door God is aangesteld om over zijn onderdanen te regeren en alleen verantwoording schuldig is aan God. |
+| Droit Divin | Het 'goddelijk recht', het idee dat de koning door God is aangesteld om over zijn onderdanen te regeren en alleen verantwoording schuldig is aan God. |
 | Franse Revolutie | De gewelddadige omverwerping van het oude bestuur in Frankrijk. |
 | Gematigden | Mensen die na afloop van de Franse Revolutie tevreden waren over wat er bereikt was. Vaak rijkere burgers die stemrecht en invloed hadden gekregen. |
 | Grondwet | Een wet waarin wordt vastgelegd hoe het bestuur van een land is geregeld en waarin de grondrechten van de burgers zijn opgenomen. |
@@ -86,5 +86,5 @@ Rijd van regenten en vorsten: 1600-1700
 | Standenmaatschappij | Samenleving die verdeeld is in sociale lagen, waarbij sommige standen veel meer rechten hebben dan andere standen. |
 | Terreur | Periode waarin, onder leiding van Robespierre, gematigde mensen massaal onthoofd werden met de guillotine. De Terreur eindigde in 1794 met de onthoofding van Robespierre zelf. |
 | Trias Politica | Politiek systeem, bedacht door de filosoof Montesquieu, waarin drie machten worden onderscheiden: de wetgevende, de uitvoerende en de rechtsprekende macht. De drie machten moeten gescheiden blijven. |
-| Verklaring van de Rechten van de Mens en van de Burger | Verklaring die tijdens de Franse Revolutie is opgesteld en waarin de grondrechten van de mens zijn verwerkt. Latere grondwetten en ook de moderne ‘Verklaring van de Rechten van de Mens' zijn hierop gebaseerd. |
+| Verklaring van de Rechten van de Mens en van de Burger | Verklaring die tijdens de Franse Revolutie is opgesteld en waarin de grondrechten van de mens zijn verwerkt. Latere grondwetten en ook de moderne 'Verklaring van de Rechten van de Mens' zijn hierop gebaseerd. |
 | Verlichting | Een denkstroming uit de 18e eeuw die het gebruik van het eigen verstand centraal stelde. Door meer kennis te verwerven is een betere samenleving te realiseren. |

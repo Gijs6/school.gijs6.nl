@@ -10,14 +10,14 @@ Een **samengestelde zin** heeft meerdere persoonsvormen, zoals de zin *"Petra gi
     *Petra ging in bad* **\|** *ondanks dat ze al onder de douche heeft gestaan.*
 
 2. Zoek alle werkwoorden:  
-    *Petra **<u>ging</u>** in bad* **\|** *ondanks dat ze al onder de douche **<u>heeft</u> <u>gestaan</u>**.*
+    _Petra **<u>ging</u>** in bad_ **\|** _ondanks dat ze al onder de douche **<u>heeft</u> <u>gestaan</u>**._
 
 3. Bepaal van alle werkwoorden de werkwoordsvorm:  
-    *Petra **<u>ging</u>** (zww) in bad* **\|** *ondanks dat ze al onder de douche **<u>heeft</u>** (hww) **<u>gestaan</u>*** *(zww).*
+    _Petra **<u>ging</u>** (zww) in bad_ **\|** _ondanks dat ze al onder de douche **<u>heeft</u>** (hww) **<u>gestaan</u>_** *(zww).*
 
 ### Betrekkelijk voornaamwoord
 
-Een **betrekkelijk voornaamwoord** (betr.vnw) wijst terug naar een eerder genoemd woord of woordgroep: het **antecedent**. Betrekkelijke voornaamwoorden zijn meestal *die*, *dat*, *wie* of *wat*. *De fiets, **<u>die</u>** gestolen was, is weer teruggevonden.*
+Een **betrekkelijk voornaamwoord** (betr.vnw) wijst terug naar een eerder genoemd woord of woordgroep: het **antecedent**. Betrekkelijke voornaamwoorden zijn meestal *die*, *dat*, *wie* of *wat*. _De fiets, **<u>die</u>** gestolen was, is weer teruggevonden._
 
 Als je *wie* of *wat* kunt vervangen door *degene die* of *datgene wat*, is er geen antecedent. Je spreekt dan van een **betrekkelijk voornaamwoord met ingesloten antecedent** (betr.vnw m.i.a.).
 
@@ -85,4 +85,4 @@ De **persoonsvorm tegenwoordige tijd** en het **voltooid deelwoord** klinken som
 1. Verander van tijd: het voltooid deelwoord verandert niet.
 
 2. Gebruik de spellingsregels om de juiste spelwijze te bepalen:  
-    Een voltooid deelwoord schrijf je op een *t* als de laatste letter van de stam in ***‘t ex kofschip*** zit.
+    Een voltooid deelwoord schrijf je op een *t* als de laatste letter van de stam in _** 't ex kofschip**_ zit.

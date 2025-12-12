@@ -6,7 +6,7 @@
 
 Als de stam van een werkwoord eindigt op een medeklinker volgend op een **-m** of **-n**, wordt er bij de *du*, *er*, *sie*, *es*, *man* en *ihr* vormen een extra **-e-** ingelast. Deze *-e-* wordt ook wel bindvocaal genoemd, en geldt ook voor het voltooid deelwoord.
 
-| **Normale vervoeging** | **Medeklinker + *-m*** | **Medeklinker + *-n*** |
+| **Normale vervoeging** | **Medeklinker + _-m_** | **Medeklinker + _-n_** |
 |----|----|----|
 | *spielen* | *atmen* | *öffnen* |
 | ich spiel**e** | ich atm**e** | ich öffn**e** |

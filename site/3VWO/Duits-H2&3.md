@@ -4,10 +4,10 @@
 
 De eerste naamval gebruik je als onderwerp:
 
-***Ich** gehe zur Metzgerei. Ik ga naar de slagerij.*
+_**Ich** gehe zur Metzgerei. Ik ga naar de slagerij._
 
 De derde naamval gebruik je als meewerkend voorwerp (aan/voor wie):  
-*Der Bäcker gibt **mir** ein Brot. De bakker geeft mij een brood.*
+_Der Bäcker gibt **mir** ein Brot. De bakker geeft mij een brood._
 
 De vierde naamval gebruik je als lijdend voorwerp (wie/wat + gezegde + onderwerp):
 

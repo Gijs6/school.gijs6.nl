@@ -22,7 +22,7 @@ De soortelijke geleidbaarheid (σ) is een stofeigenschap. Deze soortelijke gelei
 
 ## Verhoormethoden
 
-Er zijn verschillende **verhoormethoden** om een verdachte dingen te laten verklaren. Bij de **tactische verhoormethode** wordt de verdachte geconfronteerd met veel bewijzen. Bij **neurolinguistisch programmeren (NLP)** gaat de verhoorder mee in het gedrag van de verdachte om deze op zijn gemak te stellen. Bij het **maximaliseren of minimaliseren van schuld** wordt het delict groter of kleiner gemaakt om de verdachte te laten bekennen. Bij de **overrompelingsstrategie** gaat het om het beschuldigen van de verdachte als de dader zodat hij bekent. Bij de **murwmakende strategie** gaat het om het uitputten van de verdachte door veel te praten over zijn eigen leven. Bij een **confrontatie** **met visuele informatie** laat de politie beeldmateriaal zien om de verdachte te confronteren.
+Er zijn verschillende **verhoormethoden** om een verdachte dingen te laten verklaren. Bij de **tactische verhoormethode** wordt de verdachte geconfronteerd met veel bewijzen. Bij **neurolinguistisch programmeren (NLP)** gaat de verhoorder mee in het gedrag van de verdachte om deze op zijn gemak te stellen. Bij het **maximaliseren of minimaliseren van schuld** wordt het delict groter of kleiner gemaakt om de verdachte te laten bekennen. Bij de **overrompelingsstrategie** gaat het om het beschuldigen van de verdachte als de dader zodat hij bekent. Bij de **murwmakende strategie** gaat het om het uitputten van de verdachte door veel te praten over zijn eigen leven. Bij een **confrontatie met visuele informatie** laat de politie beeldmateriaal zien om de verdachte te confronteren.
 
 ## Chromatografie
 

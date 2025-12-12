@@ -10,8 +10,8 @@ Een **staat** is een gebied met een grens (vaak een land). Een staat is **soever
 
 Er zijn verschillende oorzaken van conflicten:
 
-- **Economische** **oorzaken**  
-  Natuurlijke hulpbronnen leiden tot grote kans op conflicten (**paradox van de overvloed** of ***resource curse***).
+- **Economische oorzaken**  
+  Natuurlijke hulpbronnen leiden tot grote kans op conflicten (**paradox van de overvloed** of _**resource curse**_).
 
 - **Culturele oorzaken**  
   Verschillen in religie of cultuur vormen vaak de basis voor conflicten.
@@ -20,7 +20,7 @@ Er zijn verschillende oorzaken van conflicten:
   In landen met een **jeugdbult** (veel jongeren) ontstaan vaak conflicten door opstandige jongeren zonder werk.
 
 - **Bestuurlijke oorzaken**  
-  Een **dictatuur** of **autoritair regime** (land met 1 persoon aan de macht) leidt tot opstanden. Een ***fragile state*** (land waar de overheid amper controle heeft) leidt juist tot corruptie, misdaad en chaos.
+  Een **dictatuur** of **autoritair regime** (land met 1 persoon aan de macht) leidt tot opstanden. Een _**fragile state**_ (land waar de overheid amper controle heeft) leidt juist tot corruptie, misdaad en chaos.
 
 ## Gevolgen van conflicten
 
@@ -43,7 +43,7 @@ In de EU zijn er meerdere minderheden meer **autonomie** (eigen regels en wetten
 
 Er zijn 3 recente ernstige conflicten in Europa:
 
-- ***The Troubles*** in Noord-Ierland: het protestante Noord-Ierland hoort bij het VK. Het katholieke zuiden werd onafhankelijk. Door de onderdrukking van katholieken in het noorden ontstond een conflict.
+- _**The Troubles**_ in Noord-Ierland: het protestante Noord-Ierland hoort bij het VK. Het katholieke zuiden werd onafhankelijk. Door de onderdrukking van katholieken in het noorden ontstond een conflict.
 
 - In Baskenland (Spanje) werd het Baskische volk onderdrukt door de Spaanse dictator Franco. Dit leidde tot een gewelddadig verzet van separatisten.
 

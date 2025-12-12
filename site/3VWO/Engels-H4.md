@@ -60,6 +60,6 @@ Als je de indirect speech gebruikt, gebruik dan onderstande stappen:
 
 ## Some and any
 
-**Some(-*thing*, -*body*, -*where*, -*one*)** gebruik je in bevestigende zinnen, als je iets aanbiedt of als je verwacht dat het antwoord ja is: *Someone must know it*.
+**Some(-_thing_, -_body_, -_where_, -_one_)** gebruik je in bevestigende zinnen, als je iets aanbiedt of als je verwacht dat het antwoord ja is: *Someone must know it*.
 
-**Any(-*thing*, -*body*, -*where*, -*one*)** gebruik je in ontkennende zinnen, in bevestigende zinnen met ontkennende woorden en in andere vragen: *Is anyone there?*
+**Any(-_thing_, -_body_, -_where_, -_one_)** gebruik je in ontkennende zinnen, in bevestigende zinnen met ontkennende woorden en in andere vragen: *Is anyone there?*

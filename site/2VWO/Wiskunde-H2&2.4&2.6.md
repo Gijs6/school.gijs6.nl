@@ -12,7 +12,7 @@ In de figuur hiernaast is de omtrek dus $\pi \cdot 10 \approx 31.42$ cm en de op
 
 ### Parallellogram
 
-De oppervlakte van een parallelogram bereken je met de formule ***zijde × bijbehorende hoogte***. De zijde in deze formule is de zijde waar de hoogte loodrecht op staat. Je mag deze formule alleen gebruiken als het zeker een parallellogram is. Deze herken je aan de volgende eigenschappen:
+De oppervlakte van een parallelogram bereken je met de formule _**zijde × bijbehorende hoogte**_. De zijde in deze formule is de zijde waar de hoogte loodrecht op staat. Je mag deze formule alleen gebruiken als het zeker een parallellogram is. Deze herken je aan de volgende eigenschappen:
 
 - Het is een puntsymmetrische vierhoek
 

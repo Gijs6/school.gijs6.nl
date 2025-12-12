@@ -7,7 +7,7 @@ title: H1
 
 ### Onregelmatige werkwoorden
 
-|                   | ***commencer*** (beginnen) | ***jeter*** (weggooien) | ***acheter*** (kopen) | ***partager*** (delen) |
+|                   | _**commencer**_ (beginnen) | _**jeter**_ (weggooien) | _**acheter**_ (kopen) | _**partager**_ (delen) |
 | ----------------- | -------------------------- | ----------------------- | --------------------- | ---------------------- |
 | **présent**       | *je commence*              | *je jette*              | *j'achète*            | *je partage*           |
 |                   | *tu commences*             | *tu jettes*             | *tu achètes*          | *tu partages*          |

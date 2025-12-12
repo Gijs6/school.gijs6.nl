@@ -60,7 +60,7 @@ Zo'n keten kun je makkelijk opschrijven met de 3-letterige afkortingen van de am
 Net als bij vetten en koolhydraten kun je met hydrolyse een polypeptideketen weer afbreken in aminozuren. In je lichaam worden aminozuren afgebroken tot **ureum**.
 
 Als je elk aminozuur meerdere keren kunt gebruiken is het aantal mogelijke combinaties gelijk aan $\mathrm{aantal~aminozuren}^{\mathrm{ketenlengte}}$.  
-Als elk aminozuur 1 keer gebruikt moet worden is het aantal mogelijke combinaties gelijk aan $\mathrm{aantal~aminozuren}!$. (*De $!$ is de **faculteit**: $5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$.*)
+Als elk aminozuur 1 keer gebruikt moet worden is het aantal mogelijke combinaties gelijk aan $\mathrm{aantal~aminozuren}!$. (_De $!$ is de **faculteit**: $5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$._)
 
 ## Sensorisch onderzoek
 

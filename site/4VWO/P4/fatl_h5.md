@@ -5,7 +5,7 @@ title: H5
 
 ## Onregelmatige werkwoorden
 
-|                   | ***choisir*** (kiezen)  | ***devenir*** (worden) | ***croire*** (geloven, denken) | ***savoir*** (weten, kunnen) |
+|                   | _**choisir**_ (kiezen)  | _**devenir**_ (worden) | _**croire**_ (geloven, denken) | _**savoir**_ (weten, kunnen) |
 | ----------------- | ----------------------- | ---------------------- | ------------------------------ | ---------------------------- |
 | **présent**       | *je choisis*            | *je deviens*           | *je crois*                     | *je sais*                    |
 |                   | *tu choisis*            | *tu deviens*           | *tu crois*                     | *tu sais*                    |

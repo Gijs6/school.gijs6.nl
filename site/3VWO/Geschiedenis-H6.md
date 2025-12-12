@@ -8,7 +8,7 @@ Het fascisme ontwikkelde zich tot een ideologie, waarin militarisme, nationalism
 
 ## Hitlers ideologie
 
-Ook in Duitsland was er veel woede na het verdrag van Versailles. Veel Duitsers gaven de schuld aan communisten, socialisten en Joden: de **dolkstootlegende**. Volgens Hitler kon alleen een sterke leider de orde herstellen. Na de machtsovername in Italië, maakte Hitler plannen om hetzelfde te doen. In 1923 deed hij een poging tot een staatsgreep in München, maar deze ***bierkellerputsch*** faalde, en Hitler werd veroordeeld tot 5 jaar cel. Hij hoefde maar 1 jaar in de gevangenis te zitten, en de staatsgreeppoging kon rekenen op veel sympathie.
+Ook in Duitsland was er veel woede na het verdrag van Versailles. Veel Duitsers gaven de schuld aan communisten, socialisten en Joden: de **dolkstootlegende**. Volgens Hitler kon alleen een sterke leider de orde herstellen. Na de machtsovername in Italië, maakte Hitler plannen om hetzelfde te doen. In 1923 deed hij een poging tot een staatsgreep in München, maar deze _**bierkellerputsch**_ faalde, en Hitler werd veroordeeld tot 5 jaar cel. Hij hoefde maar 1 jaar in de gevangenis te zitten, en de staatsgreeppoging kon rekenen op veel sympathie.
 
 Tijdens zijn tijd in de gevangenis schreef Hitler het boek *Mein Kampf*, waarin hij vastlegde wat zijn plannen waren voor Duitsland: er moest een sterke leider komen. Het was gebaseerd op het Italiaanse fascisme, maar Hitler voegde ook **racisme** toe. Hitler beweerde dat elk ras een eigen ruimte nodig heeft: *Lebensraum*. Hij was ook van mening dat het Germaanse (of Arische) ras superieur was. Het Duitse volk kon volgens Hitler alleen overleven zonder Joden.
 
@@ -22,7 +22,7 @@ Hitler maakte een herbewapeningsprogramma, waardoor Duitsland een miljoenenleger
 
 Duitsland sloot in het geheim een niet-aanvalsverdrag met de Sovjet-Unie: het Molotov-Ribbentroppact. In dit verdrag werd ook Polen verdeeld. Een week later viel Duitsland Polen binnen, en de Britten en Fransen verklaarden de oorlog op 1 september 1939.
 
-In het voorjaar van 1940 viel Duitsland in een ***Blitzkrieg*** Noorwegen, Denemarken, Nederland, België en Frankrijk aan. Dit kon doordat het Duitse leger erg modern en groot was.
+In het voorjaar van 1940 viel Duitsland in een _**Blitzkrieg**_ Noorwegen, Denemarken, Nederland, België en Frankrijk aan. Dit kon doordat het Duitse leger erg modern en groot was.
 
 ## Een wereldwijde wereldoorlog
 
@@ -54,7 +54,7 @@ De bezetting werd snel grimmiger. In 1941 werden politieke partijen verboden, be
 
 In Amsterdam werden tijdens een **razzia** ongeveer 400 Joden opgepakt, waardoor de spanning snel toenam. Communisten riepen op tot een staking. Op deze **Februaristaking** werd met veel geweld gereageerd.
 
-Er was ook een groot tekort aan Duitse arbeiders in de (oorlogs)industrie. Daarom werd een ***Arbeitseinstazztz*** ingevoerd. Om hier onderuit te komen doken ca. 330.000 Nederlandse mannen onder. Ook veel Joden doken onder, omdat de Duitsers steeds meer **antisemitische** maatregelen invoerden.
+Er was ook een groot tekort aan Duitse arbeiders in de (oorlogs)industrie. Daarom werd een _**Arbeitseinstazztz**_ ingevoerd. Om hier onderuit te komen doken ca. 330.000 Nederlandse mannen onder. Ook veel Joden doken onder, omdat de Duitsers steeds meer **antisemitische** maatregelen invoerden.
 
 ## Spoorwegstaking en hongerwinter
 
@@ -70,7 +70,7 @@ Volgens Hitler hoorden Joden nergens thuis in Europa. Ze zouden "te gast" zijn. 
 
 De antisemitische propaganda werd erg fel. In 1935 werden de Neurenberger rassenwetten aangenomen, waarin was vastgelegd dat Joden niet mochten trouwen, geen seksuele relatie hebben, en ze verloren hun burgerrechten.
 
-Deze **systematische uitsluiting** zag je ook terug tijdens de ***Kristallnacht***, waarbij honderden Joden werden vermoord tijdens een Duitse volkswoede. Deze woede was ontstaan nadat een Joodse jongen een Duitse diplomaat had neergeschoten.
+Deze **systematische uitsluiting** zag je ook terug tijdens de _**Kristallnacht**_, waarbij honderden Joden werden vermoord tijdens een Duitse volkswoede. Deze woede was ontstaan nadat een Joodse jongen een Duitse diplomaat had neergeschoten.
 
 Ook in Nederland kwamen er steeds meer antisemitische maatregelen: alle Joden moesten een davidster dragen, er kwamen verbodsbordjes waar Joden niet mochten komen en een avondklok voor alle Joden.
 

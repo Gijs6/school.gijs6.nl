@@ -17,7 +17,7 @@ Moleculen zijn opgebouwd uit atomen. De 118 ontdekte **atoomsoorten** of **eleme
 In een stofformule geef je aan uit welke elementen een molecuul bestaat. Een stofformule bestaat uit een coëfficiënt, 1 of meerdere elementen met hun indexen en een fase.  
 7 niet-ontleedbare stoffen bestaan altijd uit 2 atomen. Dit zijn broom, chloor, fluor, jood, waterstof, zuurstof en stikstof. Sommige stoffen hebben een niet-systematische naam. Deze moet je uit je hoofd leren.
 
-De formules van moleculaire stoffen kun je maken met Griekse telwoorden. De systematische namen worden vaak Griekse telwoorden gebruikt. Je moet de eerste 6 daarvan kennen: mono (1), di (2), tri (3), tetra (4), penta (5) en hexa (6). ***Trisiliciumdibromide*** is dus de naam van de stof **Si3Br2**.  
+De formules van moleculaire stoffen kun je maken met Griekse telwoorden. De systematische namen worden vaak Griekse telwoorden gebruikt. Je moet de eerste 6 daarvan kennen: mono (1), di (2), tri (3), tetra (4), penta (5) en hexa (6). _**Trisiliciumdibromide**_ is dus de naam van de stof **Si3Br2**.  
 Soms is er een gebruikelijkere naam dan de systematische naam. De naam van H2O is water, en niet diwaterstofoxide.
 
 Bij een chemische reactie geldt de wet van **massabehoud**. Alle atomen van de beginstoffen moeten ook aanwezig zijn bij de reactieproducten. Bij een **ontledingsreactie** heb je 1 beginstof en meerdere reactieproducten. Bij een **synthese** of vormingsreactie heb je meerdere beginstoffen. Een **verbranding** is een reactie met zuurstof onder vuurverschijnselen. De reactieproducten zijn de oxiden van alle elementen in de brandstof.

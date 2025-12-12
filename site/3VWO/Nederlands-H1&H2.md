@@ -46,7 +46,7 @@ Let op! Sommige woorden kunnen een tussenwerpsel zijn, maar ook een bijwoord of 
 
 ## Trema, apostrof en accenttekens
 
-Een **trema** gebruik je om te voorkomen dat 2 klinkers als 1 worden uitgesproken: *kopiëren*, en niet *kop**ie**ren*, *geïrriteerd* en niet *g**ei**rriteerd*. Je gebruikt ook een trema bij leenwoorden: *patiënt*. Let op! Je gebruikt geen trema in samenstellingen, want dan gebruik je een koppelteken: *bio-industrie*, *re-integratie* en niet *bioïndustrie* en *reïntregratie*.
+Een **trema** gebruik je om te voorkomen dat 2 klinkers als 1 worden uitgesproken: *kopiëren*, en niet _kop**ie**ren_, *geïrriteerd* en niet _g**ei**rriteerd_. Je gebruikt ook een trema bij leenwoorden: *patiënt*. Let op! Je gebruikt geen trema in samenstellingen, want dan gebruik je een koppelteken: *bio-industrie*, *re-integratie* en niet *bioïndustrie* en *reïntregratie*.
 
 Je gebruikt een **apostrof** om uitspraakproblemen te voorkomen tussen -a, -i, -o, -u, en -y: opa's, ski's en auto's, want *opas*, *skis* en *autos* hebben een andere uitspraak.
 

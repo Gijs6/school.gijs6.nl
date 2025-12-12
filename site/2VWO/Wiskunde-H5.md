@@ -2,7 +2,7 @@
 
 ## De stelling van Pythagoras
 
-Bij een rechthoekige driehoek heb je een hoek van 90 graden. De 2 zijden die deze hoek aanraken heten de rechthoekszijden, de andere zijde is de schuine zijde. Dit is ook de langste zijde. In een <u>rechthoekige driehoek</u> kun je de zijden berekenen met de stelling van Pythagoras: **ene rechthoekzijde² + andere rechthoekzijde² = schuine zijde²**. Een rechthoekszijde kun je ook berekenen met de stelling van Pythagoras: je haalt dan de gegeven rechthoekszijde van de schuine zijde af, waardoor je een antwoord krijgt. Met de omgekeerde stelling van Pythagoras kun je berekenen of een driehoek een rechte hoek heeft: **als in een driehoek *ene zijde² + andere zijde² = langste zijde²* geldt, is de hoek tegenover de langste zijde een rechte hoek.** Soms moet je een hulplijn toevoegen om een rechte hoek te maken.
+Bij een rechthoekige driehoek heb je een hoek van 90 graden. De 2 zijden die deze hoek aanraken heten de rechthoekszijden, de andere zijde is de schuine zijde. Dit is ook de langste zijde. In een <u>rechthoekige driehoek</u> kun je de zijden berekenen met de stelling van Pythagoras: **ene rechthoekzijde² + andere rechthoekzijde² = schuine zijde²**. Een rechthoekszijde kun je ook berekenen met de stelling van Pythagoras: je haalt dan de gegeven rechthoekszijde van de schuine zijde af, waardoor je een antwoord krijgt. Met de omgekeerde stelling van Pythagoras kun je berekenen of een driehoek een rechte hoek heeft: **als in een driehoek _ene zijde² + andere zijde² = langste zijde²_ geldt, is de hoek tegenover de langste zijde een rechte hoek.** Soms moet je een hulplijn toevoegen om een rechte hoek te maken.
 
 ## Pythagoras in de ruimte
 

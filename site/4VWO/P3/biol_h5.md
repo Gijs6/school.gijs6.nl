@@ -61,7 +61,7 @@ Een vorm van genetische modificatie die in de geneeskunde wordt toegepast is **g
 
 ## *Nature* en *nurture*
 
-De precieze invloeden van ***nature*** (genoom) en ***nurture*** (milieu) op alle eigenschappen is niet bekend. Tweelingen zijn interessant voor onderzoek binnen de *nature*-*nurture*discussie, omdat hun genoom identiek is (bij eeneiige tweelingen)  en omdat hun milieu (zo goed als) gelijk is.
+De precieze invloeden van _**nature**_ (genoom) en _**nurture**_ (milieu) op alle eigenschappen is niet bekend. Tweelingen zijn interessant voor onderzoek binnen de *nature*-*nurture*discussie, omdat hun genoom identiek is (bij eeneiige tweelingen)  en omdat hun milieu (zo goed als) gelijk is.
 
 Vroeger werden kinderen er bij adoptietweelingen van elkaar gescheiden voor onderzoek. Zo'n experiment mag tegenwoordig niet meer. In de **ethiek** zoeken mensen naar criteria voor correct handelen. Deze criteria zijn voor iedereen verschillend.
 

@@ -30,13 +30,13 @@ Je maakt de passé composé van venir met **être** en de stam *venu*.
 
 Voor het maken van vergelijkingen gebruik je *plus* (meer), *moins* (minder) of *aussi* (even), een bijvoeglijk naamwoord en *que* of *qu'* (bij een klinkerbotsing of *-h*).
 
-*Victor est **plus sportif que*** *Thomas*. *Victor is sportiever dan Thomas.*
+_Victor est **plus sportif que** Thomas_. *Victor is sportiever dan Thomas.*
 
 Je moet het bijvoeglijk naamwoord aanpassen aan het onderwerp.
 
-*Christine est **moins intelligent<u>e</u> que** Raoul.* *Christine is minder intelligent dan Raoul.*
+_Christine est **moins intelligent<u>e</u> que** Raoul._ *Christine is minder intelligent dan Raoul.*
 
-Als je *beter dan* wilt zeggen in het Frans gebruik je **geen *plus*, *moins* of *aussi***. Je gebruikt dus *meilleur* + *que/qu'*.
+Als je *beter dan* wilt zeggen in het Frans gebruik je **geen _plus_, _moins_ of _aussi_**. Je gebruikt dus *meilleur* + *que/qu'*.
 
 ### Ontkenningen
 

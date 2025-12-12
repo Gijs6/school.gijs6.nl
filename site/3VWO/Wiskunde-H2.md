@@ -2,7 +2,7 @@
 
 ## Verhoudingstabellen en projecties
 
-In een verhoudingstabel, zoals degene hiernaast, kun je **kruislings** **vermenigvuldigen**: de producten van de getallen die tegenover elkaar staan zijn dan gelijk. In dit geval is $10 \cdot 2 = x \cdot 4$. Je kunt dan *x* oplossen: $x = \frac{10 \cdot 2}{4} = 5$.
+In een verhoudingstabel, zoals degene hiernaast, kun je **kruislings vermenigvuldigen**: de producten van de getallen die tegenover elkaar staan zijn dan gelijk. In dit geval is $10 \cdot 2 = x \cdot 4$. Je kunt dan *x* oplossen: $x = \frac{10 \cdot 2}{4} = 5$.
 
 Ook in verhoudingstabellen met meer dan 2 kolommen kun je kruislings vermenigvuldigen, dit kan dan op 3 manieren.
 

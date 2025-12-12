@@ -10,7 +10,7 @@ Er is sprake van **ruilen over de tijd** als je iets consumeert, maar daar eerde
 
 ## Leren en verdienen
 
-**Scholing** is het opnemen van kennis en het leren van vaardigheden. Door de **Leerplichtwet** zijn kinderen verplicht om naar school te gaan. Door scholing neemt je **verdiencapaciteit** toe: je kunt meer inkomen verdienen. Ook neemt je ***human capital*** toe: je hebt meer kennis en vaardigheden. Als je *human capital* toeneemt, neemt je verdiencapaciteit vaak ook toe.
+**Scholing** is het opnemen van kennis en het leren van vaardigheden. Door de **Leerplichtwet** zijn kinderen verplicht om naar school te gaan. Door scholing neemt je **verdiencapaciteit** toe: je kunt meer inkomen verdienen. Ook neemt je _**human capital**_ toe: je hebt meer kennis en vaardigheden. Als je *human capital* toeneemt, neemt je verdiencapaciteit vaak ook toe.
 
 Om te studeren heb je veel geld nodig. Je kunt geld krijgen via **studiefinanciering**. Je leent dan geld van de overheid, wat je later weer moet terugbetalen.
 

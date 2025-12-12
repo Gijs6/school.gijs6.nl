@@ -2,11 +2,11 @@
 
 ## Afstanden
 
-Alle punten ***P*** met ***PA*** \< 4 cm liggen in het binnengebied van de cirkel ⊙(***A***, 4 cm). Alle punten ***P*** met ***PA*** \> 4 cm liggen in het buitengebied van de cirkel ⊙(***A***, 4 cm). Alle punten ***P*** met ***PA*** = 4 cm liggen op de cirkel ⊙(***A***, 4 cm).
+Alle punten _**P**_ met _**PA**_ \< 4 cm liggen in het binnengebied van de cirkel ⊙(_**A**_, 4 cm). Alle punten _**P**_ met _**PA**_ \> 4 cm liggen in het buitengebied van de cirkel ⊙(_**A**_, 4 cm). Alle punten _**P**_ met _**PA**_ = 4 cm liggen op de cirkel ⊙(_**A**_, 4 cm).
 
-De afstand tot een punt ***P*** tot een lijn ***b*** is gelijk aan de afstand van de loodrechte lijn vanuit punt ***P*** op lijn ***b***. Dit schrijf je als *d(P, b) = d(P, P')*. Hierin betekent *d* de afstand, en de apostrof de loodrechte lijn (loodrechte projectie).
+De afstand tot een punt _**P**_ tot een lijn _**b**_ is gelijk aan de afstand van de loodrechte lijn vanuit punt _**P**_ op lijn _**b**_. Dit schrijf je als *d(P, b) = d(P, P')*. Hierin betekent *d* de afstand, en de apostrof de loodrechte lijn (loodrechte projectie).
 
-Alle punten op ***P*** afstand 2 tot de lijn *d* liggen op twee evenwijdige lijnen met *d* op afstand 2 van *d*.
+Alle punten op _**P**_ afstand 2 tot de lijn *d* liggen op twee evenwijdige lijnen met *d* op afstand 2 van *d*.
 
 ## Middelloodlijn & omgeschreven cirkel
 

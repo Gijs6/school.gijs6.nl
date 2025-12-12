@@ -2,6 +2,7 @@
 subject: NETL
 title: Woordenschat
 ---
+
 | Woord                            | Definitie                                                                                                                 |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | aan de knoppen draaien           | voor verandering zorgen                                                                                                   |

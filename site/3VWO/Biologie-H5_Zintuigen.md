@@ -52,7 +52,7 @@ Je ogen zijn vooral gevuld met een soort gelei: het **glasachtig lichaam**. Acht
 
 De buitenkant van het oog bestaat uit het **harde oogvlies** (voor stevigheid en bescherming), het **vaatvlies** (met veel bloedvaten) en het **netvlies** (met zenuwcellen).
 
-Recht tegenover je pupil ligt de **gele vlek**: een plek waar je erg scherp kan zien. De **blinde** **vlek** (de plek waar je oogzenuw je oog verlaat) bevat helemaal geen zintuigcellen.
+Recht tegenover je pupil ligt de **gele vlek**: een plek waar je erg scherp kan zien. De **blinde vlek** (de plek waar je oogzenuw je oog verlaat) bevat helemaal geen zintuigcellen.
 
 Je hebt 2 typen zintuigcellen in je oog: **kegeltjes** en **staafjes**:
 

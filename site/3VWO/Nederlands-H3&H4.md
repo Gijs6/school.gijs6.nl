@@ -32,11 +32,11 @@ In de zin *De burgemeester gaf toe niet van chocolade te houden* is het lijdend 
 
 In zinnen met **congruentie** komt de persoonsvorm overeen met het onderwerp. Bij een meervoudig onderwerp hoort een meervoudig onderwerp Er zijn een paar moeilijke gevallen:
 
-- Bij een enkelvoudige kern met een meervoud erachter hoort een enkelvoudig onderwerp: ***de <u>groep</u> wandelaars** <u>loopt</u> door het bos.* Maar het is wel: ***de <u>leden</u> van de wandelclub** <u>lopen</u> door het bos*.
+- Bij een enkelvoudige kern met een meervoud erachter hoort een enkelvoudig onderwerp: _**de <u>groep</u> wandelaars** <u>loopt</u> door het bos._ Maar het is wel: _**de <u>leden</u> van de wandelclub** <u>lopen</u> door het bos_.
 
-- Bij een verzamelnaam voor een groep personen hoort een enkelvoudige persoonsvorm: ***de <u>jeugd</u>** is niet blij met de nieuwe regels!*
+- Bij een verzamelnaam voor een groep personen hoort een enkelvoudige persoonsvorm: _**de <u>jeugd</u>** is niet blij met de nieuwe regels!*
 
-- Bij een constructie in de vorm *een van de* + meervoud + *die* hoort een meervoudige persoonsvorm: *Een van de protestanten die opgepakt **werden**, is mijn tante.* Let op! Het is wel: *een van de hardlopers die ten val kwamen, **brak** zijn sleutelbeen.* Bij *breken* gaat het maar om 1 persoon, terwijl het bij *kwamen* om de grotere groep gaat.
+- Bij een constructie in de vorm *een van de* + meervoud + *die* hoort een meervoudige persoonsvorm: _Een van de protestanten die opgepakt **werden**, is mijn tante._ Let op! Het is wel: _een van de hardlopers die ten val kwamen, **brak** zijn sleutelbeen._ Bij *breken* gaat het maar om 1 persoon, terwijl het bij *kwamen* om de grotere groep gaat.
 
 - Bij meervoudige titels hoort een enkelvoudige persoonsvorm: *"De Peren" is een mooi boek.*
 
@@ -48,12 +48,12 @@ Sommige zinnen kunnen 2 betekenissen hebben, zoals *je beste vriend mag je zo nu
 
 Bij **incongruentie** komt het getal van de persoonsvorm en het onderwerp niet overeen. Een aantal veel voorkomende oorzaken van incongruentie:
 
-- Het onderwerp is meervoud, maar wordt als enkelvoud aangezien: ***de media schrijft veel over deze gebeurtenis.*** Goed: ***de media schrijven veel over deze gebeurtenis.***
+- Het onderwerp is meervoud, maar wordt als enkelvoud aangezien: _**de media schrijft veel over deze gebeurtenis.**_ Goed: _**de media schrijven veel over deze gebeurtenis.**_
 
-- Het onderwerp lijkt meervoud, maar de kern is enkelvoud: ***uit de verkiezing blijkt dat meerderheid van de mensen tegen de wet zijn.*** Goed: ***uit de verkiezing blijkt dat de <u>meerderheid</u>*** (kern) ***van de mensen tegen de wet is.***
+- Het onderwerp lijkt meervoud, maar de kern is enkelvoud: _**uit de verkiezing blijkt dat meerderheid van de mensen tegen de wet zijn.**_ Goed: _**uit de verkiezing blijkt dat de <u>meerderheid</u>**_ (kern) _**van de mensen tegen de wet is.**_
 
-- De persoonsvorm en onderwerp staan ver uit elkaar: ***het schijnt dat de politici de aankomende jaren geen nieuwe winkels in het centrum wilt.*** Goed: ***het schijnt dat de politici aankomende jaren geen nieuwe winkels in het centrum willen.***
+- De persoonsvorm en onderwerp staan ver uit elkaar: _**het schijnt dat de politici de aankomende jaren geen nieuwe winkels in het centrum wilt.**_ Goed: _**het schijnt dat de politici aankomende jaren geen nieuwe winkels in het centrum willen.**_
 
-- Het meewerkend voorwerp (aan wie/voor wie) wordt gezien als onderwerp: ***bij het eindpunt van de bus worden alle passagiers verzocht uit te stappen.*** Goed: ***bij het eindpunt van de bus wordt alle passagiers verzocht uit te stappen.*** Het wordt **aan** de passagiers verzocht, de passagiers *worden* niet iets.
+- Het meewerkend voorwerp (aan wie/voor wie) wordt gezien als onderwerp: _**bij het eindpunt van de bus worden alle passagiers verzocht uit te stappen.**_ Goed: _**bij het eindpunt van de bus wordt alle passagiers verzocht uit te stappen.**_ Het wordt **aan** de passagiers verzocht, de passagiers *worden* niet iets.
 
-Bij **onjuiste inversie** wordt op de plaats waar het onderwerp stond, geen ander zinsdeel gezet. Dit kan gebeuren bij nevenschikkende zinnen (2 hoofdzinnen of 2 bijzinnen): *Zaterdagmiddag heb ik in Thialf naar het WK Sprint gekeken en (–) was ik 's avonds pas om 10 uur weer thuis.* Deze zin is dus niet correct. Op de plaats van het streepje moet namelijk nog een zinsdeel staan: *Zaterdagmiddag heb ik in Thialf naar het WK Sprint gekeken en **'s avonds** was ik pas om 10 uur weer thuis.*
+Bij **onjuiste inversie** wordt op de plaats waar het onderwerp stond, geen ander zinsdeel gezet. Dit kan gebeuren bij nevenschikkende zinnen (2 hoofdzinnen of 2 bijzinnen): *Zaterdagmiddag heb ik in Thialf naar het WK Sprint gekeken en (–) was ik 's avonds pas om 10 uur weer thuis.* Deze zin is dus niet correct. Op de plaats van het streepje moet namelijk nog een zinsdeel staan: _Zaterdagmiddag heb ik in Thialf naar het WK Sprint gekeken en **'s avonds** was ik pas om 10 uur weer thuis._

@@ -2,13 +2,13 @@
 
 ## De inhoud van ruimtefiguren
 
-De inhoud van een prisma is **oppervlakte grondvlak** **× hoogte**. Het grondvlak is het vlak van de prisma die 2 keer voorkomt, zoals in de afbeelding hiernaast. De inhoud van een cilinder is **𝝿 × straal² × hoogte**. De inhoud van een piramide is **⅓ × oppervlakte grondvlak × hoogte**, waarbij de hoogte de afstand van de top tot het grondvlak is. De inhoud van een kegel is **⅓ × 𝝿 × straal² × hoogte**.
+De inhoud van een prisma is **oppervlakte grondvlak × hoogte**. Het grondvlak is het vlak van de prisma die 2 keer voorkomt, zoals in de afbeelding hiernaast. De inhoud van een cilinder is **𝝿 × straal² × hoogte**. De inhoud van een piramide is **⅓ × oppervlakte grondvlak × hoogte**, waarbij de hoogte de afstand van de top tot het grondvlak is. De inhoud van een kegel is **⅓ × 𝝿 × straal² × hoogte**.
 
 ## Vergroten en verkleinen
 
 De **vergrotingsfactor (k)** vertelt je hoeveel keer groter of kleiner een **beeld** is tegenover het **origineel**. De figuur behoudt altijd dezelfde vorm. Hieronder zie je een overzicht van formules voor vergroten en verkleinen.
 
-|  | ***K* berekenen** | **... van beeld berekenen** | **... van origineel berekenen** |
+|  | **_K_ berekenen** | **... van beeld berekenen** | **... van origineel berekenen** |
 |----|----|----|----|
 | **Lengte** | $\frac{Beeld}{Origineel}$ | Origineel × *K* | Beeld ÷ *K* |
 | **Oppervlakte** | $\sqrt{\frac{Beeld}{Origineel}}$ | Opp origineel × *K*² | Opp beeld ÷ *K*² |

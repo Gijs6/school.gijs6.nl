@@ -40,15 +40,15 @@ De present continuous gebruik je voor
 
 > They are forever losing their keys Ze zijn altijd hun sleutels kwijt
 
-### Possessives (the Genitive): ‘s, ‘ and ... of ...
+### Possessives (the Genitive): 's, ' and ... of ...
 
 | **Bezit van mensen of dieren** |  |  | **Bezit van dingen** |  |  |
 |----|----|----|----|----|----|
-| enkelvoud | ‘s | The cat's food | enkelvoud | ... of ... | The screen of the laptop |
-| meervoud op -s | ‘ | My sisters' books | meervoud |  | The brakes of the bike |
-| meervoud zonder -s | ‘s | The children's laptops | locaties |  | The city of Rotterdam |
-| namen op -s | ‘ / ‘s | Dennis'(s) phone |  |  |  |
-| organisaties | ‘s | Samsung's store |  |  |  |
+| enkelvoud | 's | The cat's food | enkelvoud | ... of ... | The screen of the laptop |
+| meervoud op -s | ' | My sisters' books | meervoud |  | The brakes of the bike |
+| meervoud zonder -s | 's | The children's laptops | locaties |  | The city of Rotterdam |
+| namen op -s | ' / 's | Dennis'(s) phone |  |  |  |
+| organisaties | 's | Samsung's store |  |  |  |
 
 ### All, every and each
 
@@ -59,19 +59,19 @@ De present continuous gebruik je voor
 
 ### Used to
 
-Je kunt ***used t**o* gebruiken voor iets wat vroeger zo was, maar nu niet meer. ***Didn't use to*** is de ontkennende vorm. Je gebruikt na ***(didn't) use(d) to*** altijd een heel werkwoord*.* Gebruik ***(didn't) use(d) to*** voor de volgende situaties:
+Je kunt _**used to**_ gebruiken voor iets wat vroeger zo was, maar nu niet meer. _**Didn't use to**_ is de ontkennende vorm. Je gebruikt na _**(didn't) use(d) to**_ altijd een heel werkwoord*.* Gebruik _**(didn't) use(d) to**_ voor de volgende situaties:
 
 1. Voor een situatie of toestand uit het verleden
 
-> *They **used to be** married.*
+> _They **used to be** married._
 >
-> *Peter **didn't use to** be afraid of heights.*
+> _Peter **didn't use to** be afraid of heights._
 
 2. Voor een gewoonte uit het verleden
 
-> *They **used to** fight all the time*
+> _They **used to** fight all the time_
 >
-> *Luis **didn't use to** run, but now he does*
+> _Luis **didn't use to** run, but now he does_
 
 ### Conjunctions
 

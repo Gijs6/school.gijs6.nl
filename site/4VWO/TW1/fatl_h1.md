@@ -7,7 +7,7 @@ title: H1
 
 Wederkerende werkwoorden hebben een wederkerend voornaamwoord. Deze staat **voor het hele werkwoord**. Als er geen heel werkwoord in de zin staat, staat dit voornaamwoord **voor de persoonsvorm**.  
 De zin *ik was me* wordt dus *je me lave*.  
-Wederkerende werkwoorden vervoeg je in de passé **altijd met *être*.**
+Wederkerende werkwoorden vervoeg je in de passé **altijd met _être_.**
 
 ## Werkwoorden en tijden
 
@@ -26,7 +26,7 @@ Je gebruikt de uitgangen voor de regelmatige werkwoorden op *\-er*, *\-ir* en *\
 
 De onregelmatige werkwoorden moet je kennen.
 
-| ***faire*** (doen/maken) | ***avoir*** (hebben) | ***être*** (zijn) | ***vivre*** ((be)leven) |
+| _**faire**_ (doen/maken) | _**avoir**_ (hebben) | _**être**_ (zijn) | _**vivre**_ ((be)leven) |
 | :----------------------: | :------------------: | :---------------: | :---------------------: |
 |        *je fais*         |        *j'ai*        |     *je suis*     |        *je vis*         |
 |        *tu fais*         |       *tu as*        |      *tu es*      |        *tu vis*         |

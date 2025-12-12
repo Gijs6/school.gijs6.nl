@@ -27,7 +27,7 @@ Je kunt iets over de toekomst zeggen op verschillende manieren:
 |  | Iets gaat in de toekomst gebeuren Je denkt iets te gaan doen Na een wens, veronderstelling, belofte, aanbod of voorspelling |
 | **Future: present continous** | *To be* \+ ww \+ *\-ing* |
 |  | Plannen of afspraken waarvoor al voorbereidingen zijn getroffen |
-| **Future: *to be going to*** | *To be* \+ *going to* |
+| **Future: _to be going to_** | *To be* \+ *going to* |
 |  | Een bestaand plan Een duidelijke aanwijzing dat het gaat gebeuren |
 | **Future: present simple** | Hele werkwoord, bij he/she/it \+ *\-s* |
 |  | Vaste tijden  |
@@ -36,8 +36,8 @@ Je kunt iets over de toekomst zeggen op verschillende manieren:
 
 De *passive* (lijdende vorm) maak je met een voltooid deelwoord en een vorm van *to be*. Je gebruikt de passive in de volgende gevallen:
 
-* Het onderwerp ondergaat een handeling (***the package** will **be** **sent** on sunday*), het is niet belangrijk wie deze handeling uitvoert  
-* Je kunt de persoon die de handeling uitvoert aangeven met *by* (***the package** will **be** **sent** on sunday by my friend*)  
+* Het onderwerp ondergaat een handeling (***the package** will **be sent** on sunday*), het is niet belangrijk wie deze handeling uitvoert  
+* Je kunt de persoon die de handeling uitvoert aangeven met *by* (***the package** will **be sent** on sunday by my friend*)  
 * "Er" in een lijdende zin? Dan wordt in het Engels een ander woord het onderwerp  
   *"Er is te weinig aandacht besteed aan de natuur" → "Too little attention has been paid to the nature"*  
 * Als je "er" gebruikt in een zin **waar je ook men** kan gebruiken, gebruik je in het Engels *it*.  
@@ -51,7 +51,7 @@ De *passive* (lijdende vorm) maak je met een voltooid deelwoord en een vorm van 
 *"Do you like the swimming pool?" (Direct) He asked if liked the swimming pool. (Indirect)*  
 Bij het gebruik van de indirect speech moet je goed kijken naar de werkwoordstijden.
 
-### **Present perfect continuous (*Had been* \+ ww \+ *\-ing*)**
+### **Present perfect continuous (_Had been_ \+ ww \+ _\-ing_)**
 
 Deze tijd geeft aan dat iets in het verleden te lang duurde.
 

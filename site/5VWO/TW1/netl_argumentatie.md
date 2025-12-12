@@ -16,12 +16,12 @@ Een **argument** is een onderbouwing (of ontkrachting) van een standpunt.
 Argumenten kunnen **feitelijk** of **waarderend** zijn.
 
 - **Feitelijke argumenten** kun je controleren.  
-  > *De overheid moet meer investeren in het openbaar vervoer, **want dit leidt tot minder uitstoot en filevorming**.*
+  > _De overheid moet meer investeren in het openbaar vervoer, **want dit leidt tot minder uitstoot en filevorming**._
 - **Waarderende argumenten** bevatten een subjectieve beoordeling van iets. Niet iedereen zal het ermee eens zijn.  
-  > *De overheid moet meer investeren in het openbaar vervoer, **want iedereen moet vervoer kunnen betalen**.*
+  > _De overheid moet meer investeren in het openbaar vervoer, **want iedereen moet vervoer kunnen betalen**._
 
 Waarderende argumenten worden soms onderbouwd met feitelijke **subargumenten**:  
-> *De overheid moet meer investeren in het openbaar vervoer, want iedereen moet vervoer kunnen betalen, **en in Nederland is meer dan 50% van de huishoudens afhankelijk van het openbaar vervoer**.*
+> _De overheid moet meer investeren in het openbaar vervoer, want iedereen moet vervoer kunnen betalen, **en in Nederland is meer dan 50% van de huishoudens afhankelijk van het openbaar vervoer**._
 
 **Tegenargumenten** gaan tegen het standpunt in. **Weerleggingen** gaan tegen een (tegen)argument in.
 

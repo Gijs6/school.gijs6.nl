@@ -32,4 +32,4 @@ Alle stoffen reageren in een **vaste massaverhouding**. Waterstof en zuurstof re
 
 Een **blokschema** is een schematisch overzicht van alle stappen in een productieproces, zoals reageren, scheiden en mengen. Ook zie je de verschillende "stromen" van stoffen. Als je een stof **recirculeert**, dan voeg je deze weer toe aan een eerdere bewerking.
 
-Het **rendement** laat zien hoeveel procent van de beginstoffen daadwerkelijk reageren. Het rendement van een reactie is nooit 100%. De theoretische opbrengst is de opbrengst die je krijgt als je de massa(‘s) van de beginproduct(en) bij elkaar optelt.
+Het **rendement** laat zien hoeveel procent van de beginstoffen daadwerkelijk reageren. Het rendement van een reactie is nooit 100%. De theoretische opbrengst is de opbrengst die je krijgt als je de massa('s) van de beginproduct(en) bij elkaar optelt.

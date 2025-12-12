@@ -113,7 +113,7 @@ Net als bij ein(e) en kein(e) krijgen deze woorden in de vrouwelijke- en meervou
 
 Bij mannelijke en onzijdige woorden verandert er dus niets.
 
-Let op: bij *euer* is de vrouwelijke/meervoudsvorm ***eure*** en niet *euere.*
+Let op: bij *euer* is de vrouwelijke/meervoudsvorm _**eure**_ en niet *euere.*
 
 Voorbeelden:
 

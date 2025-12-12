@@ -8,63 +8,63 @@ Om te praten over de toekomst kun je gebruik maken van de *present simple*, de *
 
 #### Present Simple
 
-**Hele werkwoord (+s bij *he/she/it*)**
+**Hele werkwoord (+s bij _he/she/it_)**
 
 De *present simple* gebruik je voor dingen die volgens schema gaan gebeuren.
 
-*The plane **departs** at 8.30 p.m. Het vliegtuig vertrekt om 20:30 uur.*
+_The plane **departs** at 8.30 p.m. Het vliegtuig vertrekt om 20:30 uur._
 
-*The tour **starts** on the first floor. De rondleiding start op de eerste verdieping.*
+_The tour **starts** on the first floor. De rondleiding start op de eerste verdieping._
 
 #### Present Continuous
 
-**Vorm van *to be* + hele werkwoord + *-ing***
+**Vorm van _to be_ + hele werkwoord + _-ing_**
 
 De *present continuous* gebruik je voor dingen die gepland zijn en bijna zeker gaan gebeuren, omdat er bijvoorbeeld al dingen voor zijn geregeld.
 
-*They **are organizing** a big festival. Zij zijn een groot festival aan het organiseren.*
+_They **are organizing** a big festival. Zij zijn een groot festival aan het organiseren._
 
-*Sadly, Bram **isn't coming** today. Helaas komt Bram niet vandaag.*
+_Sadly, Bram **isn't coming** today. Helaas komt Bram niet vandaag._
 
 #### *To be going to*
 
-***To be going to* + hele werkwoord**
+**_To be going to_ + hele werkwoord**
 
 Je gebruikt *to be going to* + hele werkwoord ...
 
 - Als het plan al bestond voor het gesprek  
-  *We **are going to make** a video. Wij gaan een video maken.*
+  _We **are going to make** a video. Wij gaan een video maken._
 
 - Bij een voorspelling gebaseerd op een aanwijzing  
-  *Look at those clouds! It **is going to rain**. Kijk naar die wolken! Het gaat regenen.*
+  _Look at those clouds! It **is going to rain**. Kijk naar die wolken! Het gaat regenen._
 
 #### *Will of shall*
 
-***Will* + hele werkwoord**
+**_Will_ + hele werkwoord**
 
 Je gebruikt *will* + hele werkwoord ...
 
 - Als het plan ontstaat tijdens het gesprek.  
-  *I'**ll get** you something to drink, if you're thirsty, Ik haal drinken voor je als je dorst hebt.*
+  _I'**ll get** you something to drink, if you're thirsty, Ik haal drinken voor je als je dorst hebt._
 
 - Bij een voorspelling gebaseerd op een mening  
-  *I think the show **will be** great. Ik denk dat de show geweldig zal zijn.*
+  _I think the show **will be** great. Ik denk dat de show geweldig zal zijn._
 
 - Bij een spontaan aanbod, weigeringen, beloftes, voorstellen of verzoeken.  
-  ***Will** you **give** me that bag? Wil je die tas aan mij geven?*
+  _**Will** you **give** me that bag? Wil je die tas aan mij geven?_
 
 - Bij feiten  
-  *Tomorrow, it **will be** Sunday. Morgen wordt het zondag.*
+  _Tomorrow, it **will be** Sunday. Morgen wordt het zondag._
 
 - Bij onzeker over de toekomst  
-  *I think I'**ll stay** home today. Ik denk dat ik vandaag thuis blijf.*
+  _I think I'**ll stay** home today. Ik denk dat ik vandaag thuis blijf._
 
-***Shall +* hele werkwoord**
+**_Shall_ + hele werkwoord**
 
 Je gebruikt *shall* + hele werkwoord ...
 
 - Bij een voorstel in de vraagvorm met *I* of *We* als onderwerp  
-  ***Shall** I **give** this key to him? Zal ik hem deze sleutel geven?*
+  _**Shall** I **give** this key to him? Zal ik hem deze sleutel geven?_
 
 ### If-sentences: first conditional
 
@@ -72,11 +72,11 @@ De *first conditional* gebruik je om aan te geven dat iets waarschijnlijk gebeur
 
 Een *conditional* bestaat uit een *if*-zin en een hoofdzin. De *if*-zin staat in de *present simple*, in de hoofdzin gebruik je *will + hele werkwoord*.
 
-*If you **do** your homework, the teacher **will be** happy.*
+_If you **do** your homework, the teacher **will be** happy._
 
 Je kan de zinsdelen ook omdraaien.
 
-*The teacher **will be** happy, if you **do** your homework.*
+_The teacher **will be** happy, if you **do** your homework._
 
 ### Adjectives and adverbs
 

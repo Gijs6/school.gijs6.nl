@@ -20,7 +20,7 @@ Een bijvoeglijk naamwoord zegt iets over een zelfstandig naamwoord (*la voiture 
   *Heureusement, il a fait beau pendant nos vacances* (Gelukkig was het mooi weer tijdens onze vakantie)
   *Heureusement* zegt iets over de rest van de zin
 
-Een bijwoord maak je door **bijvoeglijk naamwoord + *\-ment***. Als het bijvoeglijk naamwoord niet op een klinker eindigt, gebruik je de vrouwelijke vorm.
+Een bijwoord maak je door **bijvoeglijk naamwoord + _\-ment_**. Als het bijvoeglijk naamwoord niet op een klinker eindigt, gebruik je de vrouwelijke vorm.
 Als het bijvoeglijk naamwoord op *\-ent* of *\-ant* eindigt, wordt het bijwoord *\-emment* of *\-amment*.
 Er zijn een aantal onregelmatige bijwoorden:
 
@@ -43,7 +43,7 @@ De plaats van het bijwoord:
 
 ## Onregelmatige werkwoorden
 
-|                   | ***connaître*** (kennen) OOK *reconnaître* ((h)erkennen), *paraître* (lijken), *disparaître* (verdwijnen) | ***servir*** (dienen) OOK *dormir* (slapen), *sortir* (uitgaan), *partir* (weggaan), *mentir* (liegen), *sentir* (voelen) |
+|                   | **_connaître_** (kennen) OOK *reconnaître* ((h)erkennen), *paraître* (lijken), *disparaître* (verdwijnen) | **_servir_** (dienen) OOK *dormir* (slapen), *sortir* (uitgaan), *partir* (weggaan), *mentir* (liegen), *sentir* (voelen) |
 | ----------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **présent**       | *je connais*                                                                                              | *je sers*                                                                                                                 |
 |                   | *tu connais*                                                                                              | *tu sers*                                                                                                                 |
@@ -90,7 +90,7 @@ Bij de werkwoorden op *\-re* vervalt de *\-e*.
 
 ### **Futur simple**
 
-De futur simple is de toekomende tijd. De futur simple maak je door een uitgang achter **het hele werkwoord** te zetten. **Deze uitgangen lijken op *avoir*.**  
+De futur simple is de toekomende tijd. De futur simple maak je door een uitgang achter **het hele werkwoord** te zetten. **Deze uitgangen lijken op _avoir_.**  
 *Tu parleras* $\Rightarrow$ Jij zal spreken
 
 De vertaling is dus niet met gaan, maar met zullen.
@@ -103,9 +103,9 @@ Bij de werkwoorden op *\-re* vervalt de *\-e*.
 
 Het gebruik van de *passé composé* en de *imparfait* is anders dan het gebruik van de voltooide tijd en de verleden tijd in het Nederlands.
 
-De ***passé composé*** gebruik je om te vertellen wat er in het verleden is gebeurd. Een zin in de *passé composé* beantwoord steeds de vraag "en toen?". Het gaat om gebeurtenis met een duidelijk begin en einde. Je kunt het zien als een film; het is dynamisch.
+De **_passé composé_** gebruik je om te vertellen wat er in het verleden is gebeurd. Een zin in de *passé composé* beantwoord steeds de vraag "en toen?". Het gaat om gebeurtenis met een duidelijk begin en einde. Je kunt het zien als een film; het is dynamisch.
 
-De ***imparfait*** gebruik je om te vertellen hoe iets in het verleden was, niet om te zeggen wat er op een bepaald tijdstip gebeurde. Je beschrijft bijvoorbeeld een toestand, een gewoonte of een handeling die op een bepaald punt aan de gang was. Je kunt de *imparfait* zien als een foto; het is statisch en weergeeft een bepaalde status/toestand op 1 moment uit het verleden.
+De **_imparfait_** gebruik je om te vertellen hoe iets in het verleden was, niet om te zeggen wat er op een bepaald tijdstip gebeurde. Je beschrijft bijvoorbeeld een toestand, een gewoonte of een handeling die op een bepaald punt aan de gang was. Je kunt de *imparfait* zien als een foto; het is statisch en weergeeft een bepaalde status/toestand op 1 moment uit het verleden.
 
 Bij sommige bijwoordelijke bepalingen hoort altijd een *passé composé* of een *imparfait*.
 

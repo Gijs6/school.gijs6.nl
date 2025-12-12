@@ -10,7 +10,7 @@ Elektriciteit is **bewegende lading**. Verschillende ladingen trekken elkaar aan
 **Geleiders** zijn materialen die stroom doorlaten. **Isolatoren** laten geen stroom door. Deze worden aan de ene kant aangetrokken door de **spanningsbron** en aan de andere kant afgestoten.  
 De grootte van de elektrische stroom meet je met een stroommeter. Deze schakel je in serie met het apparaat waar je de stroomsterkte van wilt meten. De **spanning** meet je met een spanningsmeter. Deze schakel je parallel waarover je de spanning wilt meten.
 
-De **hoeveelheid elektrische energie** **die per seconde** wordt verbruikt, is het **vermogen**. Het energieverbruik van een apparaat hangt af van het vermogen en van de tijd dat het apparaat aan staat. Energie kun je meten in J of in kWh (1 kWh \= 3,6 MJ).  
+De **hoeveelheid elektrische energie die per seconde** wordt verbruikt, is het **vermogen**. Het energieverbruik van een apparaat hangt af van het vermogen en van de tijd dat het apparaat aan staat. Energie kun je meten in J of in kWh (1 kWh \= 3,6 MJ).  
 Een apparaat zet elektrische stroom om in andere energiesoorten. Het **rendement** van een apparaat is het percentage (of de factor, dan doe je **geen** × 100%) van de ingaande energie dat wordt omgezet in nuttige energie.![][image1]![][image2]
 
 ## Spanning en stroomsterkte
@@ -23,7 +23,7 @@ Om schakelingen overzichtelijk te tekenen maak je gebruik van een **schakelschem
 
 ## Weerstand
 
-De **weerstand** bepaalt hoeveel stroom er loopt bij een bepaalde spanning. De **soortelijke** **weerstand** laat zien hoe goed of slecht een materiaal geleidt. Hoe langer en dunner de draad, hoe hoger de weerstand. De weerstand hangt vaak af van de temperatuur.  
+De **weerstand** bepaalt hoeveel stroom er loopt bij een bepaalde spanning. De **soortelijke weerstand** laat zien hoe goed of slecht een materiaal geleidt. Hoe langer en dunner de draad, hoe hoger de weerstand. De weerstand hangt vaak af van de temperatuur.  
 Apparaten of draden waarbij de weerstand constant is, noem je **ohmse weerstanden**. Veel draden en apparaten hebben geen constante weerstand, omdat bij hogere spanningen de draden warm worden en dus een andere weerstand krijgen.![][image4]
 
 Een **schuifweerstand** is een speciale weerstand waarvan je de waarde van de weerstand makkelijk kan aanpassen. In de afbeelding zie je een schematische weergave van een schuifweerstand. Een schuifweerstand kan op 2 verschillende manieren gebruikt worden: van A naar B (dan is de weerstand aanpasbaar) of van A naar C (dan is de weerstand vast). Van B naar C is in feite hetzelfde als van A naar B. Een schuifweerstand kun je ook eenvoudig gebruiken om in een parallelschakeling de spanning aan te passen. De schakeling hiernaast is een combinatieschakeling. Een deel van de spanning wordt verdeeld over het lampje en het eerste deel van de schuifweerstand en het andere deel gaat door het rechterdeel van de schuifweerstand. Door de grootte van het rechterdeel aan te passen wordt de spanning in het lampje dus anders.![][image5]![][image6]

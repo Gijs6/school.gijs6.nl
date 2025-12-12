@@ -6,12 +6,12 @@ Je gebruikt de *possesive* op bezit aan te geven.
 
 | **Bezit van mensen of dieren** |  |  | **Bezit van dingen** |  |  |
 |----|----|----|----|----|----|
-| enkelvoud | ‘s | *The cat's food* | enkelvoud | ... of ... | *The screen of the laptop* |
-| meervoud op -s | ‘ | *My sisters' books* | meervoud |  | *The brakes of the bike* |
-| meervoud zonder -s | ‘s | *The children's laptops* | locaties |  | *The city of Rotterdam* |
-| namen op -s | ‘ / ‘s | *Dennis'(s) phone* |  |  |  |
-| Namen uit de klassieke oudheid | ‘ |  |  |  |  |
-| organisaties | ‘s | *Samsung's store* |  |  |  |
+| enkelvoud | 's | *The cat's food* | enkelvoud | ... of ... | *The screen of the laptop* |
+| meervoud op -s | ' | *My sisters' books* | meervoud |  | *The brakes of the bike* |
+| meervoud zonder -s | 's | *The children's laptops* | locaties |  | *The city of Rotterdam* |
+| namen op -s | ' / 's | *Dennis'(s) phone* |  |  |  |
+| Namen uit de klassieke oudheid | ' |  |  |  |  |
+| organisaties | 's | *Samsung's store* |  |  |  |
 
 ## Werkwoordstijden
 
@@ -55,11 +55,11 @@ Je gebruikt de *passive* (lijdende vorm) als de nadruk niet ligt op wie de hande
 
 **Present simple passive**: am / is / are + voltooid deelwoord:
 
-*I **am** **interrupted** by your behavior.*
+_I **am interrupted** by your behavior._
 
 **Past simple passive**: was / were + voltooid deelwoord:
 
-*I **was invited** by you.*
+_I **was invited** by you._
 
 Je weet welke vorm je moet gebruiken door te kijken naar de tijd waar de zin in staat.
 

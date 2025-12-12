@@ -30,7 +30,7 @@ Geld heeft verschillende functies: als **ruilmiddel**, **rekenmiddel** (voor de 
 
 Een ruilmiddel heeft een aantal **technische vereisten**: het moet draagbaar, deelbaar, houdbaar en moeilijk te reproduceren zijn. Als het vertrouwen in geld ophoud, krijg je **fiducie**.
 
-Contant geld is **chartaal**, en digitaal geld is **giraal**. De **extrinsieke waarde** is de gebruikswaarde, dus de waarde van alles wat je ermee kan doen. De **intrinsieke** **waarde** de materiële waarde, dus de waarde van de grondstoffen in het product.
+Contant geld is **chartaal**, en digitaal geld is **giraal**. De **extrinsieke waarde** is de gebruikswaarde, dus de waarde van alles wat je ermee kan doen. De **intrinsieke waarde** de materiële waarde, dus de waarde van de grondstoffen in het product.
 
 ## De waarde veranderd
 

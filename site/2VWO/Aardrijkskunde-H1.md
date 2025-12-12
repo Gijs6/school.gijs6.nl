@@ -20,7 +20,7 @@ Jonge gebergten zijn te herkennen aan de hoge spitse toppen, met diepe dalen. Di
 
 2. **Biologische verwering**: wortels van bomen groeien in spleten waardoor het gesteente uit elkaar valt.
 
-3. **Verwering door uitzetting en inkrimping door temperatuurverschillen**: als gesteente overdag warm wordt door de zon, en ‘s nachts afkoelt tot onder het vriespunt zal de steen uitzetten en inkrimpen. Waardoor het uit elkaar valt.
+3. **Verwering door uitzetting en inkrimping door temperatuurverschillen**: als gesteente overdag warm wordt door de zon, en 's nachts afkoelt tot onder het vriespunt zal de steen uitzetten en inkrimpen. Waardoor het uit elkaar valt.
 
 Bij **chemische verwering** zorgt zuurstof en vocht voor verwering. Dit gaat snel in een warm en vochtig klimaat en langzaam in een droog of koud klimaat.
 

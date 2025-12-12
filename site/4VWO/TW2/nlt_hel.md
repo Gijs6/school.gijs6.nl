@@ -58,7 +58,7 @@ Er zijn verschillende vormen van leren:
 * **Klassieke conditionering**: het **koppelen van een nieuwe prikkel** aan een bepaalde prikkel en bijbehorende respons; na een tijdje wordt de respons ook getoond bij de nieuwe prikkel  
 * **Operante conditionering**: bepaald gedrag wordt **beloond of bestraft**, waardoor het vaker of minder vaak voorkomt  
 * **Inzichtelijk leren**: **eerdere ervaringen** op een **nieuwe manier toepassen**  
-* **Associatief leren**: leren door het vormen van **associaties tussen een prikkel** **en een resultaat** of tussen 1 prikkels.
+* **Associatief leren**: leren door het vormen van **associaties tussen een prikkel en een resultaat** of tussen 1 prikkels.
 
 Het geheugen wordt ingedeeld in 3 typen: het **sensorisch geheugen** (uit zintuigen, max. enkele seconden), **werkgeheugen** (minuten tot een half uur) en het **langetermijngeheugen** (jaren, soms levenslang). Het werkgeheugen **verzamelt informatie voor denkprocessen**. Het werkgeheugen heeft een **kleine capaciteit**.  
 Het **langetermijngeheugen** is opgebouwd uit verschillende onderdelen:
@@ -93,7 +93,7 @@ Tijdens de slaap worden **herinneringen weer naar boven gehaald** waardoor de co
 Tijdens de REM-slaap (gekenmerkt door snelle oogbewegingen) worden dromen gevormd, waarschijnlijk door het **willekeurig combineren van oude en nieuwe herinneringen**, wat verklaart waarom dromen vaak vreemd zijn.  
 Ook wakkere rustperiodes helpen bij consolidatie, doordat hersengebieden die tijdens het leren actief waren, daarna sterker verbonden zijn.
 
-Emotionele gebeurtenissen worden beter onthouden omdat er **veel processen in je lichaam spelen** tijdens zo'n gebeurtenis (***arousing***). Ook de **aanwezigheid van hormonen** kan een rol spelen bij de opslag van herinneringen. De **amygdala** speelt een belangrijke rol bij het emotioneel geheugen.
+Emotionele gebeurtenissen worden beter onthouden omdat er **veel processen in je lichaam spelen** tijdens zo'n gebeurtenis (_**arousing**_). Ook de **aanwezigheid van hormonen** kan een rol spelen bij de opslag van herinneringen. De **amygdala** speelt een belangrijke rol bij het emotioneel geheugen.
 
 Sport en beweging is erg belangrijk voor de hersenen. Voldoende beweging kan zorgen tot structurele veranderingen in de hersenen, zoals neurogenese.
 
@@ -106,10 +106,10 @@ Een **leerresultaat** is iets wat je geleerd hebt. Een **leerprestatie** is datg
 
 Je kunt kennis voorstellen als een **netwerk** van **kenniselementen** en **verbindingen**.  
 Het ontstaan en verdwijnen van verbindingen in de hersenen is belangrijk voor het vastleggen en toegankelijk maken van kennis.  
-Het kennisnetwerk is vaak erg geclusterd (***small-world-network***): tussen relevante kenniselementen zijn er veel verbindingen en er zijn weinig verbindingen tussen de clusters.  
+Het kennisnetwerk is vaak erg geclusterd (_**small-world-network**_): tussen relevante kenniselementen zijn er veel verbindingen en er zijn weinig verbindingen tussen de clusters.  
 Je kunt een kennisnetwerk schematisch weergeven met een **conceptmap**. Hierin staan **concepten** en **koppelingen** die samen een **propositie** vormen. Bij een conceptmap vormen 2 concepten met hun koppeling dus een zin.
 
-**Betekenisvol leren** is de aansluiting tussen nieuwe kennis en voorkennis. Er is een groot verschil tussen ***rote learning*** (stampen) en goed begrijpen en koppelen aan voorkennis (betekenisvol leren).  
+**Betekenisvol leren** is de aansluiting tussen nieuwe kennis en voorkennis. Er is een groot verschil tussen _**rote learning**_ (stampen) en goed begrijpen en koppelen aan voorkennis (betekenisvol leren).  
 Er zijn **aanknooppunten** nodig om betekenisvol leren mogelijk te maken. Een manier om deze te maken is met **advance organizers** (voorafplanners, dus niet advanced): algemene en abstracte begrippen of begrippenstructuren die vooraf worden geleerd.  
 Binnen een **uitleggende advance organizer** worden algemene abstracte begrippen uitgelegd. Binnen een **vergelijkende advance organizer** wordt nieuwe informatie gekoppeld en **vergeleken** met eerdere informatie.  
 Volgens de **context-conceptbenadering** wordt de vakinhoud (de concepten) in samenhang geleerd met de toepassing (de contexten). Leren met veel contexten stimuleert conditionalisering, omdat je constant bezig bent met het toepassen van informatie. Dit versterkt de samenhang.

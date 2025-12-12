@@ -24,7 +24,7 @@ Marketing is het voldoen aan de wensen van de **doelgroep**. Marketing is voorna
 
 Bij het inzetten van prijs bij marketing doe je aan **prijspolitiek**, zoals **psychologisch prijzen** (op 99 cent), **penetratieprijspolitiek** (nieuwe producten verkopen met veel korting) en **afroomprijspolitiek** (nieuwe producten zijn duurder dan oude). Bij een **prijsconcurrentie** gaat het om verschillen in prijs. Bij een **niet-prijsconcurrentie** gaat het om verschillen in kwaliteit.
 
-**Commerciële beïnvloeding** wordt gebruikt door bedrijven die winst willen maken, zoals door reclame. **Ideële** **beïnvloeding** wordt gebruikt door instellingen die het gedrag van mensen willen veranderen. **Sociale** **beïnvloeding** komt van vrienden en familie.
+**Commerciële beïnvloeding** wordt gebruikt door bedrijven die winst willen maken, zoals door reclame. **Ideële beïnvloeding** wordt gebruikt door instellingen die het gedrag van mensen willen veranderen. **Sociale beïnvloeding** komt van vrienden en familie.
 
 ## Een georganiseerde onderneming
 

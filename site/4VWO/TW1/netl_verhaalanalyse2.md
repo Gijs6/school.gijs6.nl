@@ -18,7 +18,7 @@ Het **conflictmodel** is een veel voorkomend patroon van ontwikkeling in een ver
 Het perspectief van een verhaal bepaalt wat je ziet, hoort, denkt en voelt.  
 Bij het **ik-perspectief** worden de gebeurtenissen beschreven vanuit de ik-vorm.  
 Bij het **hij-zij/perspectief** worden de gebeurtenissen beschreven vanuit de derde persoon: een verteller beweegt mee en beschrijft wat 1 personage doet, ziet, hoort, denkt, voelt enz.  
-Bij het **auctoriaal** **perspectief** is er een alwetende verteller die niet deelneemt aan het verhaal (hij hangt erboven) en beschrijft wat er gebeurt. Het wordt dus niet heel nauwkeurig van 1 personage beschreven, maar van meerdere.  
+Bij het **auctoriaal perspectief** is er een alwetende verteller die niet deelneemt aan het verhaal (hij hangt erboven) en beschrijft wat er gebeurt. Het wordt dus niet heel nauwkeurig van 1 personage beschreven, maar van meerdere.  
 Bij het **wisselend perspectief** wordt er gebruik gemaakt van verschillende perspectieven.
 
 ## Tijd

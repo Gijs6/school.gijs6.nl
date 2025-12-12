@@ -32,7 +32,7 @@ In de systematische namen worden vaak Griekse telwoorden gebruikt. Je moet de ee
 
 Let op! Bij formules zet je de hoeveelheid atomen achter de atoomsoort, bij de namen zet je het aantal ervoor. Je hoeft bij de systematische naam, net als bij de formule, een index van 1 niet te benoemen. Sommige stoffen krijgen bij de volledige naam een andere benaming. Deze kun je hiernaast vinden.
 
-Soms is er een gebruikelijkere naam dan de systematische naam. Zo is H<sub>2</sub>O water, en niet diwaterstofoxide. ***Trisiliciumdibromide*** is dus naam van de stof van **Si<sub>3</sub>Br<sub>2</sub>**.
+Soms is er een gebruikelijkere naam dan de systematische naam. Zo is H<sub>2</sub>O water, en niet diwaterstofoxide. _**Trisiliciumdibromide**_ is dus naam van de stof van **Si<sub>3</sub>Br<sub>2</sub>**.
 
 ## Atomen
 
