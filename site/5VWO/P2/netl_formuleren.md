@@ -162,7 +162,7 @@ Een **homerische vergelijking** is een zeer uitgebreide vergelijking met veel de
 
 Bij een **metafoor** wordt het object weggelaten. De lezer moet dan zelf bedenken waarnaar het beeld verwijst.
 
-> _De minister **torpedeerde** het voorstel._
+> _Zij is de **zon** van ons gezin._
 
 Bij een **personificatie** wordt een levenloos object als mens voorgesteld.
 
@@ -174,7 +174,7 @@ Bij een **synesthesie** worden waarnemingen van twee zintuigen gecombineerd.
 
 ### Beeldspraak niet op basis van een overeenkomst
 
-Bij een **metonymia** noem je een kenmerk in plaats van het object zelf.
+Bij een **metonymie** noem je een kenmerk in plaats van het object zelf.
 
 - **Pars pro toto**: een deel in plaats van het geheel.  
   > _Er kwamen twintig **koppen** kijken._
@@ -271,9 +271,9 @@ Een **paradox** is een schijnbare tegenstelling die achteraf toch zinvol is.
 
 > _De stilte was oorverdovend._
 
-Bij een **oxymoron** staan twee tegengestelde begrippen naast elkaar.
+Bij een **oxymoron** worden twee begrippen gecombineerd die elkaar in hun letterlijke betekenis tegenspreken, maar in figuurlijke zin wel klopppen.
 
-> _Oud nieuws_, _bindend studiekeuzeadvies_
+> *Oud nieuws*, *bindend studiekeuzeadvies*, *koud vuur*, *vloeibaar gas*
 
 Een **retorische vraag** is een vraag waarop je geen antwoord verwacht.
 
@@ -295,152 +295,152 @@ Een **allusie** is een toespeling op een bekend persoon, gebeurtenis of werk uit
 
 Een **uitdrukking** is een zinsgedeelte met een figuurlijke betekenis. Een **spreekwoord** is altijd hetzelfde (*als de kat van huis is dansen de muizen op tafel*), een uitdrukking kun je aanpassen (*hij gooit zijn eigen glazen in*, *Petra heeft haar eigen glazen ingegooid*).
 
-| Uitdrukking                                     | Betekenis                                                                |
-| ----------------------------------------------- | ------------------------------------------------------------------------ |
-| door de mand vallen                             | ontmaskerd worden                                                        |
-| onder het mes gaan                              | geopereerd worden                                                        |
-| de lat hoog leggen                              | hoge doelen stellen                                                      |
-| de bal aan het rollen brengen                   | zorgen dat er actie ondernomen wordt                                     |
-| de plank misslaan                               | het verkeerd hebben                                                      |
-| in de roos schieten                             | het doel precies bereiken                                                |
-| dood en verderf zaaien                          | grote schade aanrichten                                                  |
-| gepokt en gemazeld                              | ervaren; alle moeilijkheden meegemaakt                                   |
-| in kannen en kruiken                            | geregeld                                                                 |
-| kant noch wal raken                             | nergens op slaan                                                         |
-| mitsen en maren                                 | voorwaarden                                                              |
-| schering en inslag                              | voortdurend voorkomend (vaak ongewenst)                                  |
-| te hooi en te gras                              | zonder patroon; zonder regelmaat                                         |
-| van toeten noch blazen weten                    | ergens geen verstand van hebben                                              |
-| voor galg en rad opgroeien                      | verwaarloosd opgevoed                                                    |
-| zijn mening niet onder stoelen of banken steken | openlijk je mening geven                                                 |
-| een geluk bij een ongeluk                       | iets positiefs in een negatieve situatie                                 |
-| ergens heet nog koud van worden                 | ergens niet door geraakt worden                                          |
-| iets zwart op wit hebben                        | iets schriftelijk hebben                                                 |
-| knollen voor citroenen verkopen                 | iemand bedriegen                                                         |
-| met vallen en opstaan                           | met moeite; *trial and error*                                            |
-| na veel plussen en minnen                       | na afwegen van voor- en nadelen                                          |
-| overal en nergens                               | nergens thuis horen                                                      |
-| te pas en te onpas                              | op ongepaste momenten; te vaak                                           |
-| water en vuur zijn                              | totaal verschillend zijn                                                 |
-| zijn natje en zijn droogje krijgen              | voldoende eten en drinken krijgen                                        |
-| bar en broos                                    | slecht; zwak                                                             |
-| buigen of barsten                               | je aanpassen of ten onder gaan                                           |
-| door roeien en ruiten gaan                      | nooit stoppen                                                            |
-| ergens paal en perk aan stellen                 | grenzen stellen                                                          |
-| geboren en getogen                              | opgegroeid                                                               |
-| kind noch kraai hebben                          | niemand hebben                                                           |
-| met man en muis vergaan                         | zinken zonder dat er iets overblijft                                     |
-| op stel en sprong                               | onmiddellijk                                                             |
-| zijn hele hebben en houden                      | al zijn bezittingen                                                      |
-| zonder blikken of blozen                        | zonder schaamte                                                          |
-| bepakt en bezakt                                | uitgerust; klaar voor vertrek                                            |
-| de tering naar de nering zetten                 | uitgaven aanpassen aan inkomsten                                         |
-| een aardje naar zijn vaartje hebben             | op je vader lijken                                                       |
-| het reilen en zeilen                            | hoe iets werkt; de gang van zaken                                        |
-| handel en wandel                                | gedrag; manier van leven                                                 |
-| in geuren en kleuren vertellen                  | uitgebreid vertellen                                                     |
-| stank voor dank krijgen                         | ondank krijgen                                                           |
-| tegen heug en meug                              | met tegenzin                                                             |
-| van de hand in de tand leven                    | van dag tot dag leven; direct uitgeven wat je verdient                   |
-| iemand in de arm nemen                          | iemands hulp inroepen                                                    |
-| de benen nemen                                  | weglopen; vluchten                                                       |
-| zijn borst natmaken                             | je voorbereiden op iets moeilijks                                        |
-| uit zijn duim gezogen                           | verzonnen                                                                |
-| het achter de ellebogen hebben                  | sluw; onbetrouwbaar                                                      |
-| de hand voor iemand in het vuur durven steken   | volledig voor iemand instaan; heel zeker zijn                            |
-| een hard hoofd hebben in iets                   | koppig zijn                                                              |
-| onder de knie hebben                            | beheersen                                                                |
-| een grote mond hebben                           | brutaal zijn                                                             |
-| zijn ogen uitkijken                             | verbaasd rondkijken                                                      |
-| iemand het vuur na aan de schenen leggen        | iemand onder druk zetten                                                 |
-| zijn snor drukken                               | ervandoor gaan                                                           |
-| met zijn mond vol tanden staan                  | niet weten wat te zeggen                                                 |
-| een vinger in de pap hebben                     | invloed hebben                                                           |
-| aan iemands voeten liggen                       | iemand vereren                                                           |
-| spreken is zilver, zwijgen is goud              | soms is zwijgen beter                                                    |
-| zwijgen als het graf                            | niets zeggen                                                             |
-| een waarheid als een koe                        | overduidelijke waarheid                                                  |
-| iets gaat iemands pet te boven                  | iets is te moeilijk                                                      |
-| weten wat voor vlees je in de kuip hebt         | weten met wie je te maken hebt                                           |
-| chapeau                                         | petje af; complimenten                                                   |
-| achter slot en grendel zitten                   | opgesloten zitten                                                        |
-| iemands mond valt open van verbazing            | verbaasd zijn                                                            |
-| het hek is van de dam                           | uit de hand gelopen                                                      |
-| twee handen op één buik                         | goede vrienden                                                           |
-| een gebed zonder eind                           | iets dat eindeloos duurt                                                 |
-| met de gebakken peren zitten                    | met een probleem zitten; de dupe zijn                                    |
-| de poppen aan het dansen hebben                 | problemen hebben                                                         |
-| met zijn bek open staan                         | verbijsterd staan                                                        |
-| even zonder dollen                              | even serieus                                                             |
-| alsof je van de ratten besnuffeld bent          | gek; vreemd gedrag                                                       |
-| stille wateren hebben diepe gronden             | rustige mensen kunnen gevaarlijk zijn                                    |
-| boven het glazen plafond uitkomen               | onzichtbare barrière overwinnen                                          |
-| aan de grond genageld staan                     | verlamd van schrik                                                       |
-| alsof je knettergek bent                        | alsof je gek bent                                                        |
-| een barmhartige samaritaan                      | iemand die onbaatzuchtig helpt                                           |
-| arm als Job                                     | heel arm                                                                 |
-| naar de filistijnen gaan                        | kapot gaan; ten onder gaan                                               |
-| Abraham gezien hebben                           | vijftig jaar oud zijn                                                    |
-| oud als Methusalem                              | heel oud                                                                 |
-| een ongelovige thomas                           | iemand die niet snel iets gelooft                                        |
-| de benjamin                                     | de jongste                                                               |
-| een judas                                       | verrader                                                                 |
-| lachen als een boer die kiespijn heeft          | geforceerd lachen                                                        |
-| goed geboerd hebben                             | het financieel goed hebben                                               |
-| iets op zijn klompen aanvoelen                  | iets van tevoren aanvoelen                                               |
-| nou breekt mijn klomp                           | verbaasd zijn                                                            |
-| koren op iemands molen                          | precies goed zijn                                                        |
-| een klap van de molen hebben gekregen           | gek zijn                                                                 |
-| dat komt voor de bakker                         | komt voor elkaar                                                         |
-| er komt een dominee voorbij                     | iedereen is opeens stil                                                  |
-| ten kantore van                                 | op het kantoor van                                                       |
-| met voorbedachten rade                          | met een vooraf bedacht plan                                              |
-| 's nachts                                       | in de nacht                                                              |
-| tot bloedens toe                                | totdat hij bloedde                                                       |
-| ten overstaan van                               | tegenover; in tegenwoordigheid van                                       |
-| onder ede                                       | met een eed                                                              |
-| ten bewijze van                                 | als bewijs van                                                           |
-| te goeder trouw                                 | met eerlijke bedoelingen                                                 |
-| ter plaatse                                     | op de plaats                                                             |
-| ten laste leggen                                | beschuldigen van                                                         |
-| ten belope van                                  | ter waarde van                                                           |
-| ten deel vallen                                 | krijgen                                                                  |
-| ten einde raad zijn                             | geen uitweg meer weten                                                   |
-| van dien aard                                   | dergelijk                                                                |
-| op den duur                                     | na verloop van tijd                                                      |
-| enerzijds ... anderzijds                            | aan de ene kant ... aan de andere kant                                       |
-| in feite                                        | in de praktijk                                                           |
-| ten gevolge van                                 | als gevolg van                                                           |
-| des huizes                                      | van het huis                                                             |
-| geenszins                                       | niet                                                                     |
-| ten anderen male                                | nog een keer; nog eens                                                   |
-| met de mantel der liefde bedekken               | uit barmhartigheid zwijgen over iemands fout                             |
-| met dien verstande                              | op voorwaarde dat; mits                                                  |
-| in ons aller belang                             | in ieders belang                                                         |
-| met name                                        | vooral                                                                   |
-| ten overvloede                                  | nog eens, hoewel onnodig                                                 |
-| ter beschikking van                             | beschikbaar voor                                                         |
-| in aansluiting op                               | na                                                                       |
-| ten aanzien van                                 | omtrent                                                                  |
-| in antwoord op                                  | als reactie op                                                           |
-| ter attentie van                                | voor                                                                     |
-| ten bate van                                    | voor                                                                     |
-| ten behoeve van                                 | voor                                                                     |
-| met behulp van                                  | met                                                                      |
-| met betrekking tot                              | betreffende                                                              |
-| ten gevolge van                                 | door                                                                     |
-| op grond van                                    | gebaseerd op                                                             |
-| aan de hand van                                 | via                                                                      |
-| uit hoofde van                                  | wegens                                                                   |
-| ter hoogte van                                  | bij                                                                      |
-| met ingang van                                  | vanaf                                                                    |
-| ten koste van                                   | ten nadele van                                                           |
-| door middel van                                 | door                                                                     |
-| ten opzichte van                                | tegenover                                                                |
-| in overeenstemming met                          | volgens                                                                  |
-| in strijd met                                   | tegen                                                                    |
-| ten tijde van                                   | gedurende                                                                |
-| met uitzondering van                            | behalve                                                                  |
-| in verband met                                  | vanwege                                                                  |
-| in verhouding tot                               | vergeleken met                                                           |
-| in weerwil van                                  | ondanks                                                                  |
+| Uitdrukking                                     | Betekenis                                              |
+| ----------------------------------------------- | ------------------------------------------------------ |
+| door de mand vallen                             | ontmaskerd worden                                      |
+| onder het mes gaan                              | geopereerd worden                                      |
+| de lat hoog leggen                              | hoge doelen stellen                                    |
+| de bal aan het rollen brengen                   | zorgen dat er actie ondernomen wordt                   |
+| de plank misslaan                               | het verkeerd hebben                                    |
+| in de roos schieten                             | het doel precies bereiken                              |
+| dood en verderf zaaien                          | grote schade aanrichten                                |
+| gepokt en gemazeld                              | ervaren; alle moeilijkheden meegemaakt                 |
+| in kannen en kruiken                            | geregeld                                               |
+| kant noch wal raken                             | nergens op slaan                                       |
+| mitsen en maren                                 | voorwaarden                                            |
+| schering en inslag                              | voortdurend voorkomend (vaak ongewenst)                |
+| te hooi en te gras                              | zonder patroon; zonder regelmaat                       |
+| van toeten noch blazen weten                    | ergens geen verstand van hebben                        |
+| voor galg en rad opgroeien                      | verwaarloosd opgevoed                                  |
+| zijn mening niet onder stoelen of banken steken | openlijk je mening geven                               |
+| een geluk bij een ongeluk                       | iets positiefs in een negatieve situatie               |
+| ergens heet nog koud van worden                 | ergens niet door geraakt worden                        |
+| iets zwart op wit hebben                        | iets schriftelijk hebben                               |
+| knollen voor citroenen verkopen                 | iemand bedriegen                                       |
+| met vallen en opstaan                           | met moeite; *trial and error*                          |
+| na veel plussen en minnen                       | na afwegen van voor- en nadelen                        |
+| overal en nergens                               | nergens thuis horen                                    |
+| te pas en te onpas                              | op ongepaste momenten; te vaak                         |
+| water en vuur zijn                              | totaal verschillend zijn                               |
+| zijn natje en zijn droogje krijgen              | voldoende eten en drinken krijgen                      |
+| bar en broos                                    | slecht; zwak                                           |
+| buigen of barsten                               | je aanpassen of ten onder gaan                         |
+| door roeien en ruiten gaan                      | nooit stoppen; alles doen om iets te bereiken          |
+| ergens paal en perk aan stellen                 | grenzen stellen                                        |
+| geboren en getogen                              | opgegroeid                                             |
+| kind noch kraai hebben                          | niemand hebben                                         |
+| met man en muis vergaan                         | zinken zonder dat er iets overblijft                   |
+| op stel en sprong                               | onmiddellijk                                           |
+| zijn hele hebben en houden                      | al zijn bezittingen                                    |
+| zonder blikken of blozen                        | zonder schaamte                                        |
+| bepakt en bezakt                                | uitgerust; klaar voor vertrek                          |
+| de tering naar de nering zetten                 | uitgaven aanpassen aan inkomsten                       |
+| een aardje naar zijn vaartje hebben             | op je vader lijken                                     |
+| het reilen en zeilen                            | hoe iets werkt; de gang van zaken                      |
+| handel en wandel                                | gedrag; manier van leven                               |
+| in geuren en kleuren vertellen                  | uitgebreid vertellen                                   |
+| stank voor dank krijgen                         | ondank krijgen                                         |
+| tegen heug en meug                              | met tegenzin                                           |
+| van de hand in de tand leven                    | van dag tot dag leven; direct uitgeven wat je verdient |
+| iemand in de arm nemen                          | iemands hulp inroepen                                  |
+| de benen nemen                                  | weglopen; vluchten                                     |
+| zijn borst natmaken                             | je voorbereiden op iets moeilijks                      |
+| uit zijn duim gezogen                           | verzonnen                                              |
+| het achter de ellebogen hebben                  | sluw; onbetrouwbaar                                    |
+| de hand voor iemand in het vuur durven steken   | volledig voor iemand instaan; heel zeker zijn          |
+| een hard hoofd hebben in iets                   | koppig zijn                                            |
+| onder de knie hebben                            | beheersen                                              |
+| een grote mond hebben                           | brutaal zijn                                           |
+| zijn ogen uitkijken                             | verbaasd rondkijken                                    |
+| iemand het vuur na aan de schenen leggen        | iemand onder druk zetten                               |
+| zijn snor drukken                               | ervandoor gaan                                         |
+| met zijn mond vol tanden staan                  | niet weten wat te zeggen                               |
+| een vinger in de pap hebben                     | invloed hebben                                         |
+| aan iemands voeten liggen                       | iemand vereren                                         |
+| spreken is zilver, zwijgen is goud              | soms is zwijgen beter                                  |
+| zwijgen als het graf                            | niets zeggen                                           |
+| een waarheid als een koe                        | overduidelijke waarheid                                |
+| iets gaat iemands pet te boven                  | iets is te moeilijk                                    |
+| weten wat voor vlees je in de kuip hebt         | weten met wie je te maken hebt                         |
+| chapeau                                         | petje af; complimenten                                 |
+| achter slot en grendel zitten                   | opgesloten zitten                                      |
+| iemands mond valt open van verbazing            | verbaasd zijn                                          |
+| het hek is van de dam                           | uit de hand gelopen                                    |
+| twee handen op één buik                         | goede vrienden                                         |
+| een gebed zonder eind                           | iets dat eindeloos duurt                               |
+| met de gebakken peren zitten                    | met een probleem zitten; de dupe zijn                  |
+| de poppen aan het dansen hebben                 | problemen hebben                                       |
+| met zijn bek open staan                         | verbijsterd staan                                      |
+| even zonder dollen                              | even serieus                                           |
+| alsof je van de ratten besnuffeld bent          | gek; vreemd gedrag                                     |
+| stille wateren hebben diepe gronden             | rustige mensen kunnen gevaarlijk zijn                  |
+| boven het glazen plafond uitkomen               | onzichtbare barrière overwinnen                        |
+| aan de grond genageld staan                     | verlamd van schrik                                     |
+| alsof je knettergek bent                        | alsof je gek bent                                      |
+| een barmhartige samaritaan                      | iemand die onbaatzuchtig helpt                         |
+| arm als Job                                     | heel arm                                               |
+| naar de filistijnen gaan                        | kapot gaan; ten onder gaan                             |
+| Abraham gezien hebben                           | vijftig jaar oud zijn                                  |
+| oud als Methusalem                              | heel oud                                               |
+| een ongelovige thomas                           | iemand die niet snel iets gelooft                      |
+| de benjamin                                     | de jongste                                             |
+| een judas                                       | verrader                                               |
+| lachen als een boer die kiespijn heeft          | geforceerd lachen                                      |
+| goed geboerd hebben                             | het financieel goed hebben                             |
+| iets op zijn klompen aanvoelen                  | iets van tevoren aanvoelen                             |
+| nou breekt mijn klomp                           | verbaasd zijn                                          |
+| koren op iemands molen                          | precies goed zijn                                      |
+| een klap van de molen hebben gekregen           | gek zijn                                               |
+| dat komt voor de bakker                         | komt voor elkaar                                       |
+| er komt een dominee voorbij                     | iedereen is opeens stil                                |
+| ten kantore van                                 | op het kantoor van                                     |
+| met voorbedachten rade                          | met een vooraf bedacht plan                            |
+| 's nachts                                       | in de nacht                                            |
+| tot bloedens toe                                | totdat hij bloedde                                     |
+| ten overstaan van                               | tegenover; in tegenwoordigheid van                     |
+| onder ede                                       | met een eed                                            |
+| ten bewijze van                                 | als bewijs van                                         |
+| te goeder trouw                                 | met eerlijke bedoelingen                               |
+| ter plaatse                                     | op de plaats                                           |
+| ten laste leggen                                | beschuldigen van                                       |
+| ten belope van                                  | ter waarde van                                         |
+| ten deel vallen                                 | krijgen                                                |
+| ten einde raad zijn                             | geen uitweg meer weten                                 |
+| van dien aard                                   | dergelijk                                              |
+| op den duur                                     | na verloop van tijd                                    |
+| enerzijds ... anderzijds                        | aan de ene kant ... aan de andere kant                 |
+| in feite                                        | in de praktijk                                         |
+| ten gevolge van                                 | als gevolg van                                         |
+| des huizes                                      | van het huis                                           |
+| geenszins                                       | niet                                                   |
+| ten anderen male                                | nog een keer; nog eens                                 |
+| met de mantel der liefde bedekken               | uit barmhartigheid zwijgen over iemands fout           |
+| met dien verstande                              | op voorwaarde dat; mits                                |
+| in ons aller belang                             | in ieders belang                                       |
+| met name                                        | vooral                                                 |
+| ten overvloede                                  | nog eens, hoewel onnodig                               |
+| ter beschikking van                             | beschikbaar voor                                       |
+| in aansluiting op                               | na                                                     |
+| ten aanzien van                                 | omtrent                                                |
+| in antwoord op                                  | als reactie op                                         |
+| ter attentie van                                | voor                                                   |
+| ten bate van                                    | voor                                                   |
+| ten behoeve van                                 | voor                                                   |
+| met behulp van                                  | met                                                    |
+| met betrekking tot                              | betreffende                                            |
+| ten gevolge van                                 | door                                                   |
+| op grond van                                    | gebaseerd op                                           |
+| aan de hand van                                 | via                                                    |
+| uit hoofde van                                  | wegens                                                 |
+| ter hoogte van                                  | bij                                                    |
+| met ingang van                                  | vanaf                                                  |
+| ten koste van                                   | ten nadele van                                         |
+| door middel van                                 | door                                                   |
+| ten opzichte van                                | tegenover                                              |
+| in overeenstemming met                          | volgens                                                |
+| in strijd met                                   | tegen                                                  |
+| ten tijde van                                   | gedurende                                              |
+| met uitzondering van                            | behalve                                                |
+| in verband met                                  | vanwege                                                |
+| in verhouding tot                               | vergeleken met                                         |
+| in weerwil van                                  | ondanks                                                |
