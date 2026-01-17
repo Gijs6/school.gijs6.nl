@@ -184,7 +184,7 @@ Bij een lage bloeddruk of lage $\ce{Na+}$-concentratie geven de nieren **renine*
 
 ### Schildklierhormonen en temperatuur
 
-![Regelkring temperatuur (img-padding) (img-float-right)](images/biol_h12_h13/temperatuur.jpg)
+![Regelkring temperatuur (img-padding) (img-s) (img-float-right)](images/biol_h12_h13/temperatuur.jpg)
 
 Als je het koud krijgt, geeft je hypothalamus **TRH** af, wat de afgifte van **TSH** door de adenohypofyse stimuleert. TSH stimuleert de schildklier tot de afgifte van de **schildklierhormonen** T4 en T3. T3 is het werkzame hormoon (levercellen zetten T4 om in T3).
 
@@ -192,16 +192,14 @@ T3-moleculen passeren het celmembraan, koppelen aan een receptoreiwit en activer
 
 ### Calciumhuishouding en botvorming
 
-![De regelkring van calcium (img-padding) (img-xl)](images/biol_h12_h13/calcium.jpg)
-
 $\ce{Ca^{2+}}$ wordt gebruikt als second messenger, bij de overdracht van zenuwimpulsen en bij spiersamentrekking. Bij een te lage $\ce{Ca^{2+}}$-concentratie haalt het lichaam $\ce{Ca^{2+}}$ uit de botten: **botontkalking**.
-
-![Botontkalking (img-padding) (img-float-right)](images/biol_h12_h13/botontkalking.jpg)
 
 De **schildklier** en de **bijschildklieren** regelen de $\ce{Ca^{2+}}$-concentratie:
 
 - Bij een **te hoge concentratie** geeft de schildklier **calcitonine** af. Dit stimuleert botcellen om $\ce{Ca^{2+}}$ op te nemen en vermindert de terugresorptie van $\ce{Ca^{2+}}$ uit de voorurine.
 - Bij een **te lage concentratie** geven de bijschildklieren **PTH** af. Dit stimuleert de afgifte van $\ce{Ca^{2+}}$ uit de botten en vergroot de terugresorptie van $\ce{Ca^{2+}}$ uit de voorurine. PTH stimuleert ook de vorming van actief vitamine D in de nieren, wat de darmcellen aanzet om extra $\ce{Ca^{2+}}$ uit voedsel op te nemen. Je huidcellen maken inactief vitamine D (een prohormoon).
+
+![De regelkring van calcium (img-padding) (img-l)](images/biol_h12_h13/calcium.jpg)
 
 Het groeihormoon activeert de **osteoblasten** (botvormende cellen). Onder invloed van PTH maken osteoblasten groeifactoren aan, die de ontwikkeling van **osteoclasten** (botafbrekende cellen) stimuleren.
 
@@ -215,6 +213,6 @@ Het verteringshormoon **gastrine** (uit de maag) stimuleert de maagzuurproductie
 
 ### Zuurstoftekort en EPO
 
-![De regelkring van EPO (img-padding) (img-float-right)](images/biol_h12_h13/regelkring_epo.jpg)
-
 Bij **bloedarmoede** zijn er te weinig rode bloedcellen om de zuurstofdruk op peil te houden. Je lichaam maakt dan **EPO** aan (in de nierschors), wat stamcellen aanzet om te delen en te differentiëren tot rode bloedcellen.
+
+![De regelkring van EPO (img-padding)](images/biol_h12_h13/regelkring_epo.jpg)
