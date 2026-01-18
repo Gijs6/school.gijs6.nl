@@ -6,6 +6,8 @@ import subprocess
 import time
 import threading
 import tempfile
+from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import argparse
 
@@ -31,6 +33,40 @@ from colorama import Fore, Style, init
 
 
 init()
+
+
+class ProgressBar:
+    LINE_WIDTH = 70
+
+    def __init__(self, total, prefix="", width=25):
+        self.total = max(total, 1)
+        self.current = 0
+        self.prefix = prefix[:10]
+        self.width = width
+        self.start_time = time.time()
+
+    def update(self, n=1):
+        self.current += n
+        self._render()
+
+    def _render(self):
+        ratio = min(self.current / self.total, 1.0)
+        filled = int(self.width * ratio)
+        bar = "=" * filled
+        if filled < self.width:
+            bar += ">"
+            bar += " " * (self.width - filled - 1)
+        elapsed = time.time() - self.start_time
+        line = f"  {self.prefix:10} [{bar}] {self.current:>3}/{self.total:<3} ({elapsed:.1f}s)"
+        sys.stdout.write(f"\r{line:<{self.LINE_WIDTH}}")
+        sys.stdout.flush()
+
+    def finish(self):
+        elapsed = (time.time() - self.start_time) * 1000
+        count = self.current if self.current > 0 else self.total
+        line = f"  {self.prefix:10} {Fore.GREEN}done{Style.RESET_ALL} ({count} items, {elapsed:.0f}ms)"
+        sys.stdout.write(f"\r{line:<{self.LINE_WIDTH}}\n")
+        sys.stdout.flush()
 
 
 # CONSTANTS
@@ -182,91 +218,27 @@ def create_test_entry(metadata, main_dir, sub_dir, file, resources_map):
     return entry
 
 
-def process_modern_year(year_dir, resources_map, dev=False):
-    year_data = {}
-    year_path = os.path.join(SITE_DIR, year_dir)
-
-    subdirs = [
-        d for d in os.listdir(year_path) if os.path.isdir(os.path.join(year_path, d))
-    ]
-
-    for sub_dir in subdirs:
-        sub_path = os.path.join(year_path, sub_dir)
-        md_files = [f for f in os.listdir(sub_path) if f.endswith(".md")]
-
-        for file in md_files:
-            file_path = os.path.join(sub_path, file)
-
-            with open(file_path, "r", encoding="utf-8") as f:
-                content = f.read()
-
-            metadata, _ = parse_metadata(content)
-
-            if not metadata.get("subject"):
-                continue
-
-            if not dev and metadata.get("hidden"):
-                continue
-
-            entry = create_test_entry(metadata, year_dir, sub_dir, file, resources_map)
-            year_data.setdefault(sub_dir, []).append(entry)
-
-    return year_data
-
-
-def build_homepage_data(dev=False):
-    resources_map = load_json_file(RESOURCES_JSON)
-    data = {}
-
-    for year_dir in get_vwo_years():
-        year_path = os.path.join(SITE_DIR, year_dir)
-        if not os.path.isdir(year_path):
-            continue
-
-        if ARCHIVE_YEAR_PATTERN.match(year_dir):
-            continue
-
-        data[year_dir] = process_modern_year(year_dir, resources_map, dev)
-
-    sorted_data = {}
-    for year in sorted(data.keys(), key=sort_years):
-        year_data = {}
-
-        for period in sorted(data[year].keys(), key=sort_period, reverse=True):
-            tests = data[year][period]
-
-            has_content = any(
-                t.get("summary_link") or t.get("resources") for t in tests
-            )
-            if not has_content:
-                continue
-
-            filtered_tests = [
-                t for t in tests if t.get("summary_link") or t.get("resources")
-            ]
-            year_data[period] = sorted(filtered_tests, key=lambda t: t["subject"])
-
-        if year_data:
-            sorted_data[year] = year_data
-
-    return sorted_data
-
-
 def copy_if_exists(src, dest):
     if not os.path.exists(src):
-        return
+        return 0
 
     if os.path.isdir(src):
         shutil.copytree(src, dest)
+        return sum(len(files) for _, _, files in os.walk(dest))
     else:
+        dest_dir = os.path.dirname(dest)
+        if dest_dir:
+            os.makedirs(dest_dir, exist_ok=True)
         shutil.copy2(src, dest)
+        return 1
 
 
-def copy_static_assets(build_dir):
-    copy_if_exists("site/assets", os.path.join(build_dir, "assets"))
-    copy_if_exists("site/.well-known", os.path.join(build_dir, ".well-known"))
-    copy_if_exists("site/robots.txt", os.path.join(build_dir, "robots.txt"))
-    copy_if_exists("CNAME", os.path.join(build_dir, "CNAME"))
+def collect_static_assets(build_dir):
+    tasks = []
+    tasks.append(("site/assets", os.path.join(build_dir, "assets")))
+    tasks.append(("site/.well-known", os.path.join(build_dir, ".well-known")))
+    tasks.append(("site/robots.txt", os.path.join(build_dir, "robots.txt")))
+    tasks.append(("CNAME", os.path.join(build_dir, "CNAME")))
 
     for year_dir in get_vwo_years():
         year_path = os.path.join(SITE_DIR, year_dir)
@@ -283,32 +255,73 @@ def copy_static_assets(build_dir):
                 dest_file = os.path.join(
                     build_year_dir, os.path.relpath(src_file, year_path)
                 )
-                os.makedirs(os.path.dirname(dest_file), exist_ok=True)
-                shutil.copy2(src_file, dest_file)
+                tasks.append((src_file, dest_file))
+
+    return tasks
 
 
-def get_git_dates(filepath):
+def copy_static_assets(build_dir, progress=None):
+    tasks = collect_static_assets(build_dir)
+    for src, dest in tasks:
+        copy_if_exists(src, dest)
+        if progress:
+            progress.update()
+    return len(tasks)
+
+
+def get_all_git_dates():
     try:
         output = subprocess.check_output(
-            ["git", "log", "--follow", "--format=%H %ct", "--", filepath],
+            ["git", "log", "--format=%ct", "--name-only", "--diff-filter=A"],
             text=True,
             stderr=subprocess.DEVNULL,
         ).strip()
 
-        if not output:
-            raise ValueError("No git history found for the file.")
+        first_commits = {}
+        current_ts = None
+        for line in output.split("\n"):
+            line = line.strip()
+            if not line:
+                continue
+            if line.isdigit():
+                current_ts = int(line)
+            elif current_ts:
+                first_commits[line] = current_ts
 
-        lines = output.split("\n")
-        first_commit_ts = int(lines[-1].split()[1])
-        last_commit_ts = int(lines[0].split()[1])
+        output = subprocess.check_output(
+            ["git", "log", "--format=%ct", "--name-only"],
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
 
-        return (
-            datetime.fromtimestamp(first_commit_ts, tz=timezone.utc),
-            datetime.fromtimestamp(last_commit_ts, tz=timezone.utc),
-        )
+        last_commits = {}
+        current_ts = None
+        for line in output.split("\n"):
+            line = line.strip()
+            if not line:
+                continue
+            if line.isdigit():
+                current_ts = int(line)
+            elif current_ts and line not in last_commits:
+                last_commits[line] = current_ts
+
+        git_dates = {}
+        all_files = set(first_commits.keys()) | set(last_commits.keys())
+        for filepath in all_files:
+            first_ts = first_commits.get(filepath)
+            last_ts = last_commits.get(filepath)
+            first_dt = (
+                datetime.fromtimestamp(first_ts, tz=timezone.utc) if first_ts else None
+            )
+            last_dt = (
+                datetime.fromtimestamp(last_ts, tz=timezone.utc) if last_ts else None
+            )
+            git_dates[filepath] = (first_dt, last_dt)
+
+        return git_dates
 
     except (subprocess.CalledProcessError, FileNotFoundError, ValueError):
-        return (None, None)
+        return {}
 
 
 def setup_feed_generator():
@@ -345,7 +358,7 @@ def create_feed_entry_list(test):
     return entries
 
 
-def generate_feeds(build_dir, homepage_data, md_cache):
+def generate_feeds(build_dir, homepage_data, md_cache, git_dates, progress=None):
     fg = setup_feed_generator()
 
     feed_items = []
@@ -366,7 +379,8 @@ def generate_feeds(build_dir, homepage_data, md_cache):
                         continue
 
                     html_content = md_cache.get(link, entry["title"])
-                    first_commit, last_commit = get_git_dates(md_file_path)
+                    rel_path = os.path.relpath(md_file_path)
+                    first_commit, last_commit = git_dates.get(rel_path, (None, None))
 
                     feed_items.append(
                         {
@@ -377,6 +391,8 @@ def generate_feeds(build_dir, homepage_data, md_cache):
                             "last_commit": last_commit,
                         }
                     )
+                    if progress:
+                        progress.update()
 
     def item_sort_key(it):
         if it["last_commit"]:
@@ -405,8 +421,15 @@ def generate_feeds(build_dir, homepage_data, md_cache):
         f.write(fg.atom_str(pretty=True))
 
 
+BASE64_IMAGE_PATTERN = re.compile(r'<img[^>]*src="data:image/[^"]*"[^>]*>')
+
+
 def remove_base64_images(html_content):
-    return re.sub(r'<img[^>]*src="data:image/[^"]*"[^>]*>', "", html_content)
+    return BASE64_IMAGE_PATTERN.sub("", html_content)
+
+
+MATH_DISPLAY_PATTERN = re.compile(r"\$\$([^\$]+)\$\$")
+MATH_INLINE_PATTERN = re.compile(r"\$([^\$\n]+)\$")
 
 
 class MathProtectPreprocessor(Preprocessor):
@@ -434,8 +457,8 @@ class MathProtectPreprocessor(Preprocessor):
             self.math_store[key] = match.group(0)
             return key
 
-        text = re.sub(r"\$\$([^\$]+)\$\$", replace_display, text)
-        text = re.sub(r"\$([^\$\n]+)\$", replace_inline, text)
+        text = MATH_DISPLAY_PATTERN.sub(replace_display, text)
+        text = MATH_INLINE_PATTERN.sub(replace_inline, text)
 
         return text.split("\n")
 
@@ -504,12 +527,10 @@ def process_markdown_file(
 
     metadata, markdown_content = parse_metadata(content)
 
-    # Add computed fields
     if metadata.get("subject"):
         subject_abbr = metadata["subject"].upper()
         metadata["subject_name"] = SUBJECT_NAMES.get(subject_abbr, subject_abbr)
 
-    # Extract year and period from path
     year_dir = os.path.basename(year_path)
     period_dir = relative_path.split(os.sep)[0] if os.sep in relative_path else ""
 
@@ -534,13 +555,71 @@ def process_markdown_file(
     return relative_path, html_content, is_hidden
 
 
-def process_markdown_files(build_dir, template_env, md_processor, dev=False):
-    homepage_data = build_homepage_data(dev)
+def process_single_file(args):
+    (
+        md_file_path,
+        year_path,
+        build_year_dir,
+        template_env,
+        year_dir,
+        resources_map,
+        dev,
+    ) = args
+
+    md_processor = setup_markdown_processor()
+
+    relative_path = os.path.relpath(md_file_path, year_path)
+    build_path = os.path.join(
+        build_year_dir, os.path.splitext(relative_path)[0] + ".html"
+    )
+
+    with open(md_file_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    metadata, markdown_content = parse_metadata(content)
+
+    if metadata.get("subject"):
+        subject_abbr = metadata["subject"].upper()
+        metadata["subject_name"] = SUBJECT_NAMES.get(subject_abbr, subject_abbr)
+
+    period_dir = relative_path.split(os.sep)[0] if os.sep in relative_path else ""
+    metadata["year"] = year_dir
+    metadata["period"] = period_dir
+
+    html_content = remove_base64_images(md_processor.convert(markdown_content))
+    md_processor.reset()
+
+    rendered = template_env.get_template("summary.html").render(
+        content=html_content,
+        meta=metadata,
+        page_path=md_file_path,
+    )
+
+    os.makedirs(os.path.dirname(build_path), exist_ok=True)
+    with open(build_path, "w", encoding="utf-8") as f:
+        f.write(rendered)
+
+    is_hidden = metadata.get("hidden")
+    cache_key = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
+
+    file_name = os.path.basename(md_file_path)
+    entry = None
+    if metadata.get("subject") and not ARCHIVE_YEAR_PATTERN.match(year_dir):
+        if dev or not is_hidden:
+            entry = create_test_entry(
+                metadata, year_dir, period_dir, file_name, resources_map
+            )
+
+    return cache_key, html_content, is_hidden, year_dir, period_dir, entry
+
+
+def process_markdown_files(build_dir, template_env, dev=False):
+    resources_map = load_json_file(RESOURCES_JSON)
     archive_data = build_archive_data()
     md_cache = {}
+    homepage_data = defaultdict(lambda: defaultdict(list))
 
-    render_special_pages(build_dir, template_env, homepage_data, archive_data)
-
+    tasks = []
     for year_dir in get_vwo_years():
         year_path = os.path.join(SITE_DIR, year_dir)
         if not os.path.isdir(year_path):
@@ -554,39 +633,110 @@ def process_markdown_files(build_dir, template_env, md_processor, dev=False):
 
             for file in md_files:
                 md_file_path = os.path.join(root, file)
-                relative_path, html_content, is_hidden = process_markdown_file(
-                    md_file_path, year_path, build_year_dir, md_processor, template_env
+                tasks.append(
+                    (
+                        md_file_path,
+                        year_path,
+                        build_year_dir,
+                        template_env,
+                        year_dir,
+                        resources_map,
+                        dev,
+                    )
                 )
 
-                if not is_hidden:
-                    cache_key = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
-                    md_cache[cache_key] = html_content
+    progress = ProgressBar(len(tasks), prefix="Pages")
+    with ThreadPoolExecutor(max_workers=os.cpu_count() or 4) as executor:
+        futures = [executor.submit(process_single_file, task) for task in tasks]
 
-    return homepage_data, md_cache
+        for future in as_completed(futures):
+            cache_key, html_content, is_hidden, year_dir, period_dir, entry = (
+                future.result()
+            )
+            if not is_hidden:
+                md_cache[cache_key] = html_content
+                if entry:
+                    homepage_data[year_dir][period_dir].append(entry)
+            progress.update()
+    progress.finish()
+
+    sorted_data = {}
+    for year in sorted(homepage_data.keys(), key=sort_years):
+        year_data = {}
+        for period in sorted(homepage_data[year].keys(), key=sort_period, reverse=True):
+            tests = homepage_data[year][period]
+            has_content = any(
+                t.get("summary_link") or t.get("resources") for t in tests
+            )
+            if not has_content:
+                continue
+            filtered_tests = [
+                t for t in tests if t.get("summary_link") or t.get("resources")
+            ]
+            year_data[period] = sorted(filtered_tests, key=lambda t: t["subject"])
+        if year_data:
+            sorted_data[year] = year_data
+
+    render_special_pages(build_dir, template_env, sorted_data, archive_data)
+
+    return sorted_data, md_cache
+
+
+def rebuild_single_markdown(src_path, build_dir):
+    start_time = time.time()
+
+    rel_to_site = os.path.relpath(src_path, SITE_DIR)
+    parts = rel_to_site.split(os.sep)
+
+    if len(parts) < 2 or not parts[0].endswith("VWO"):
+        return False
+
+    year_dir = parts[0]
+    year_path = os.path.join(SITE_DIR, year_dir)
+    build_year_dir = os.path.join(build_dir, year_dir)
+
+    template_env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
+    md_processor = setup_markdown_processor()
+
+    process_markdown_file(
+        src_path, year_path, build_year_dir, md_processor, template_env
+    )
+
+    elapsed = (time.time() - start_time) * 1000
+    print(f"{Fore.GREEN}Rebuilt in {elapsed:.0f}ms{Style.RESET_ALL}\n")
+    return True
 
 
 class BuildHandler(FileSystemEventHandler):
-    def __init__(self, build_func):
+    def __init__(self, build_func, build_dir):
         self.build_func = build_func
+        self.build_dir = build_dir
         self.last_build = 0
 
     def on_modified(self, event):
-        if event.is_directory or "build/" in event.src_path:
+        if event.is_directory or "build" in event.src_path:
             return
         now = time.time()
-        if now - self.last_build < 1:
+        if now - self.last_build < 0.5:
             return
         self.last_build = now
 
-        if os.path.basename(event.src_path) == "binder.py":
+        src_path = event.src_path
+        filename = os.path.basename(src_path)
+
+        if filename == "binder.py":
             print(
                 f"\n{Fore.YELLOW}Binder changed! Restarting process...{Style.RESET_ALL}\n"
             )
             os.execv(sys.executable, [sys.executable] + sys.argv)
 
-        print(
-            f"\n{Fore.YELLOW}Restarting! {Style.BRIGHT}{os.path.basename(event.src_path)} changed.{Style.RESET_ALL}\n"
-        )
+        print(f"\n{Fore.YELLOW}Changed: {Style.BRIGHT}{filename}{Style.RESET_ALL}")
+
+        if src_path.endswith(".md") and SITE_DIR in src_path:
+            if rebuild_single_markdown(src_path, self.build_dir):
+                return
+
+        print(f"{Fore.CYAN}Full rebuild...{Style.RESET_ALL}")
         self.build_func()
 
 
@@ -634,45 +784,63 @@ def build(dev=False, output_dir=None):
     if output_dir is None:
         output_dir = BUILD_DIR
 
-    print(f"{Fore.CYAN}=> Binder is binding <={Style.RESET_ALL}")
-    if dev:
-        print(
-            f"{Fore.YELLOW}Development mode enabled (including hidden pages){Style.RESET_ALL}"
-        )
+    start_time = time.time()
+    print(f"{Fore.CYAN}Binder{Style.RESET_ALL}")
+    print()
 
-    print("> Setup... ", end="", flush=True)
+    print(f"{Fore.BLUE}[1/5] Setup{Style.RESET_ALL}")
+    print("  Creating temp directory...")
     temp_build_dir = tempfile.mkdtemp()
-    print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
-
-    print("> Templates... ", end="", flush=True)
+    print(f"  Loading templates from {TEMPLATES_DIR}/")
     template_env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
-    print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
+    templates = list(template_env.list_templates())
+    print(f"  Found {len(templates)} templates")
+    print()
 
-    print("> Markdown... ", end="", flush=True)
-    md_processor = setup_markdown_processor()
-    print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
-
-    print("> Assets... ", end="", flush=True)
-    copy_static_assets(temp_build_dir)
-    print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
-
-    print("> Pages... ", end="", flush=True)
-    homepage_data, md_cache = process_markdown_files(
-        temp_build_dir, template_env, md_processor, dev
+    print(f"{Fore.BLUE}[2/5] Collecting metadata{Style.RESET_ALL}")
+    print("  Reading git history for file dates...")
+    git_dates = get_all_git_dates()
+    print(
+        f"  {Fore.GREEN}done{Style.RESET_ALL} - tracked {len(git_dates)} files in repository"
     )
-    print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
+    print()
 
-    print("> Feeds... ", end="", flush=True)
-    generate_feeds(temp_build_dir, homepage_data, md_cache)
-    print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
+    print(f"{Fore.BLUE}[3/5] Copying static assets{Style.RESET_ALL}")
+    asset_tasks = collect_static_assets(temp_build_dir)
+    print(f"  Found {len(asset_tasks)} files to copy")
+    asset_progress = ProgressBar(len(asset_tasks), prefix="Copying")
+    copy_static_assets(temp_build_dir, progress=asset_progress)
+    asset_progress.finish()
+    print()
 
-    print("> Output... ", end="", flush=True)
+    print(f"{Fore.BLUE}[4/5] Processing markdown{Style.RESET_ALL}")
+    years = get_vwo_years()
+    print(f"  Found {len(years)} year directories: {', '.join(years)}")
+    homepage_data, md_cache = process_markdown_files(temp_build_dir, template_env, dev)
+    print(f"  Generated {len(md_cache)} HTML pages")
+    print()
+
+    print(f"{Fore.BLUE}[5/5] Generating feeds{Style.RESET_ALL}")
+    print("  Creating RSS and Atom feeds...")
+    feed_progress = ProgressBar(len(md_cache), prefix="Entries")
+    generate_feeds(
+        temp_build_dir, homepage_data, md_cache, git_dates, progress=feed_progress
+    )
+    feed_progress.finish()
+    print("  Wrote rss.xml and atom.xml")
+    print()
+
+    print(f"{Fore.BLUE}Finalizing{Style.RESET_ALL}")
     if os.path.exists(output_dir):
+        print("  Removing old build directory...")
         shutil.rmtree(output_dir)
+    print(f"  Moving build to {output_dir}/")
     shutil.move(temp_build_dir, output_dir)
-    print(f"{Fore.GREEN}done!{Style.RESET_ALL}")
 
-    print(f"{Fore.GREEN}Build complete!{Style.RESET_ALL}\n")
+    total_time = time.time() - start_time
+    print()
+    print(f"{Fore.GREEN}Build complete in {total_time * 1000:.0f}ms{Style.RESET_ALL}")
+    print()
 
 
 def serve(port=8000, dev=False):
@@ -681,12 +849,11 @@ def serve(port=8000, dev=False):
     build(dev, output_dir=BUILD_DEV_DIR)
 
     observer = Observer()
-    handler = BuildHandler(lambda: build(dev, output_dir=BUILD_DEV_DIR))
+    handler = BuildHandler(lambda: build(dev, output_dir=BUILD_DEV_DIR), BUILD_DEV_DIR)
     observer.schedule(handler, SITE_DIR, recursive=True)
     observer.schedule(handler, ".", recursive=False)
     observer.start()
 
-    # Create a custom handler class with dev directory
     class DevHTTPServer(BuildHTTPServer):
         directory = BUILD_DEV_DIR
 

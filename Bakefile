@@ -7,11 +7,11 @@ serve() {
 build() {
   .venv/bin/python binder.py build
   find build -name '*.css' -exec sh -c 'lightningcss --browserslist --bundle --minify "$1" -o "$1"' _ {} \;
-  prettier --write --ignore-path /dev/null "build/**/*.{css,js,xml,html}"
 }
 
 deploy() {
   build
+  prettier --write --ignore-path /dev/null "build/**/*.{css,js,xml,html}"
   lift deploy && echo "Deployed successfully to https://$(yq .name Liftfile)"
 }
 
