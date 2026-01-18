@@ -45,7 +45,7 @@ Na een koolhydraatrijke maaltijd stijgt de **bloedsuikerspiegel** (glucoseconcen
 
 Spieren dissimileren glucose. Na inspanning is de bloedsuikerspiegel te laag, waardoor de alvleesklier wordt gestimuleerd om **glucagon** te produceren. De lever zet onder invloed van glucagon glycogeen om in glucose. Is het glycogeen op, dan wordt glucose gemaakt uit aminozuren en vetten: **gluconeogenese**.
 
-Insuline heeft niet op alle cellen effect: hersencellen bijvoorbeeld nemen ook zonder insuline glucose op uit het bloed. In lever- en spiercellen stimuleert insuline niet alleen de opname van glucose, maar ook de vorming van glycogeen uit glucose.
+Insuline heeft niet op alle cellen effect: hersencellen nemen bijvoorbeeld ook zonder insuline glucose op uit het bloed. In lever- en spiercellen stimuleert insuline niet alleen de opname van glucose, maar ook de vorming van glycogeen uit glucose.
 
 **Adrenaline** wordt gemaakt door het bijniermerg. Je lever- en spiercellen zetten onder invloed van adrenaline glycogeen om in glucose. Door adrenaline verslappen de spieren in de slagaderwanden naar de skeletspieren, en trekken de spieren in de slagaderwanden van de darmen samen. Het bloed stroomt daardoor naar je spieren. Adrenaline laat je hart sneller kloppen en verdiept je ademhaling.
 
@@ -207,9 +207,9 @@ Oestrogenen remmen de botafbraak door de productie van groeifactoren en de activ
 
 ### Hormonen en voedselvertering
 
-Voor een maaltijd maken de maagwand en alvleesklier **ghreline**. Dit stimuleert via **NPY** het eetcentrum in de hypothalamus, waardoor je trek krijgt. Na het eten maakt de alvleesklier **leptine**, waardoor NPY wordt afgeremd. Insuline remt het eetcentrum ook.
+Voor een maaltijd maakt de maagwand **ghreline**. Dit stimuleert via **NPY** het eetcentrum in de hypothalamus, waardoor je trek krijgt. Na het eten maken vetcellen **leptine**, waardoor NPY wordt afgeremd. Insuline remt het eetcentrum ook.
 
-Het verteringshormoon **gastrine** (uit de maag) stimuleert de maagzuurproductie. **Secretine** (uit de alvleesklier) stimuleert de afgifte van $\ce{HCO3-}$, waardoor de maagzuurproductie wordt geremd.
+Het verteringshormoon **gastrine** (uit de maag) stimuleert de maagzuurproductie. **Secretine** (uit de twaalfvingerige darm) stimuleert de afgifte van $\ce{HCO3-}$ door de alvleesklier, waardoor de maagzuurproductie wordt geremd.
 
 ### Zuurstoftekort en EPO
 
