@@ -57,7 +57,7 @@ De Daniell-cel bestaat uit twee metalen elektrodes, twee oplossingen van ionen, 
 
 ![Daniell-cel (img-m)](images/schk_h9/daniell-cel.jpg)
 
-In een Daniell-cel met zink en koper vindt bij de zinkstaaf de halfreactie $\ce{Zn -> Zn^{2+} + 2 e-}$ plaats (zink is de reductor), en bij de koperstaaf $\ce{Cu^{2+} + 2 e- -> Cu}$ (koper is de oxidator).
+In een Daniell-cel met zink en koper vindt bij de zinkstaaf de halfreactie $\ce{Zn -> Zn^{2+} + 2 e-}$ plaats (zink is de reductor), en bij de koperstaaf $\ce{Cu^{2+} + 2 e- -> Cu}$ ($\ce{Cu^{2+}}$ is de oxidator).
 
 Elektronen stromen van de **minpool** naar de **pluspool**. De reductor is altijd de minpool, want die geeft elektronen af. De oxidator is altijd de pluspool, want die neemt elektronen op. In dit geval is zink dus de minpool en koper de pluspool.
 
@@ -101,7 +101,7 @@ De verbranding van waterstof ($\ce{2 H2 + O2 -> 2 H2O}$) is sterk exotherm. In e
 
 ![Brandstofcel (img-m)](images/schk_h9/brandstofcel.jpg)
 
-De brandstofcel heeft platina-elektrodes en een **protonenmembraan** als elektrolyt. Dit membraan laat alleen $\ce{H+}$-ionen door, geen elektronen. Waterstof aan de anode-kant splits in $\ce{H+}$ en elektronen. De elektronen moeten via de draad naar de kathode (dat is dus je daadwerkelijke stroom), de $\ce{H+}$-ionen gaan via het membraan (om het ladingsverschil te compenseren). Aan de kathode-kant reageert zuurstof met $\ce{H+}$ en elektronen tot water.
+De brandstofcel heeft platina-elektrodes en een **protonenmembraan** als elektrolyt. Dit membraan laat alleen $\ce{H+}$-ionen door, geen elektronen. Waterstof aan de anode-kant splitst in $\ce{H+}$ en elektronen. De elektronen moeten via de draad naar de kathode (dat is dus je daadwerkelijke stroom), de $\ce{H+}$-ionen gaan via het membraan (om het ladingsverschil te compenseren). Aan de kathode-kant reageert zuurstof met $\ce{H+}$ en elektronen tot water.
 
 ## Redox-flowbatterij
 
