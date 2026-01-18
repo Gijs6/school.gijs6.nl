@@ -560,13 +560,13 @@ def process_single_file(args):
         md_file_path,
         year_path,
         build_year_dir,
-        template_env,
         year_dir,
         resources_map,
         dev,
     ) = args
 
     md_processor = setup_markdown_processor()
+    template_env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
 
     relative_path = os.path.relpath(md_file_path, year_path)
     build_path = os.path.join(
@@ -638,7 +638,6 @@ def process_markdown_files(build_dir, template_env, dev=False):
                         md_file_path,
                         year_path,
                         build_year_dir,
-                        template_env,
                         year_dir,
                         resources_map,
                         dev,
@@ -646,7 +645,7 @@ def process_markdown_files(build_dir, template_env, dev=False):
                 )
 
     progress = ProgressBar(len(tasks), prefix="Pages")
-    with ThreadPoolExecutor(max_workers=os.cpu_count() or 4) as executor:
+    with ThreadPoolExecutor(max_workers=min(32, (os.cpu_count() or 4) * 2)) as executor:
         futures = [executor.submit(process_single_file, task) for task in tasks]
 
         for future in as_completed(futures):
