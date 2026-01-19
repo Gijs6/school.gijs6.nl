@@ -6,7 +6,7 @@ description: Exponentiële & logaritmische functies
 
 ## Logaritmes
 
-De **logaritme** is de omgekeerde bewerking van machtsverheffen. De vraag "${}^g\!\log(x) = ?$" betekent: tot welke macht moet ik $g$ verheffen om $x$ te krijgen?
+De **logaritme** is de omgekeerde bewerking van machtsverheffen. ${}^g\!\log(x)$ geeft antwoord op de vraag 'tot welke macht moet ik $g$ verheffen om $x$ te krijgen?'.
 
 $${}^g\!\log(x) = a \iff g^a = x$$
 
@@ -19,8 +19,14 @@ Voor logaritmes gelden de volgende rekenregels (met $g > 0$, $g \neq 1$, $a > 0$
 - ${}^g\!\log(a) + {}^g\!\log(b) = {}^g\!\log(a \cdot b)$
 - ${}^g\!\log(a) - {}^g\!\log(b) = {}^g\!\log\left(\frac{a}{b}\right)$
 - $p \cdot {}^g\!\log(a) = {}^g\!\log(a^p)$
+- ${}^g\!\log(a) = \frac{{}^p\!\log(a)}{{}^p\!\log(g)}$ (waarbij $p$ elk getal kan zijn)
+- ${}^{\frac{1}{g}}\!\log(a) = -^g\!\log(a)$
 
-Bij het oplossen van **logaritmische vergelijkingen** werk je naar een vorm waarin beide zijden een logaritme met hetzelfde grondtal zijn. Dan geldt ${}^g\!\log(A) = {}^g\!\log(B) \implies A = B$. Let op: het argument van een logaritme moet altijd positief zijn.
+Als er geen grondtal bij de logaritme staat, mag je uitgaaan van ${}^{10}\!\log$.
+
+Bij het oplossen van **logaritmische vergelijkingen** werk je naar een vorm waarin beide zijden een logaritme met hetzelfde grondtal zijn. Dan geldt ${}^g\!\log(A) = {}^g\!\log(B) \implies A = B$.
+
+Let op: de input van een logaritme moet altijd positief zijn, dus je moet goed checken of je uitkomst voldoet!
 
 ## Exponentiële groei
 
