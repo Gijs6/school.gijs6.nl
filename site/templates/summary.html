@@ -19,8 +19,14 @@
                 inlineMath: [
                     ["$", "$"],
                     ["\\(", "\\)"]
-                ]
-            }
+                ],
+                packages: {
+                    '[+]': ['mhchem']
+                }
+            },
+            loader: {
+                load: ['[tex]/mhchem']
+            },
         };
     </script>
 {% endblock %}

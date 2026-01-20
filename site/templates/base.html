@@ -39,27 +39,6 @@
         <script src="https://kit.fontawesome.com/4a94c21782.js"
                 crossorigin="anonymous"
                 defer></script>
-        <script>
-            async function geoBlock() {
-                let response = await fetch("https://ipwho.is/");
-                let data = await response.json();
-
-                if (data.city && data.city.toLowerCase() == "maasland") {
-                    document.body.innerHTML = "<h1>No.</h1>";
-                }
-            }
-
-            window.onload = geoBlock;
-        </script>
-        <script async src="https://plausible.io/js/pa-4kr7oA2eNIxlj8Ld4UWvF.js"></script>
-        <script>
-            window.plausible = window.plausible || function() {
-                (plausible.q = plausible.q || []).push(arguments)
-            }, plausible.init = plausible.init || function(i) {
-                plausible.o = i || {}
-            };
-            plausible.init()
-        </script>
     </head>
     <body class="site-body">
         {% block content %}{% endblock %}
