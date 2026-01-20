@@ -14,13 +14,13 @@ $$\ce{Na -> Na+ + e-}$$
 
 Dit is een **halfreactie**. Natrium is hier een **reductor**: een stof die elektronen afstaat.
 
-Een chlooratoom mist juist 1 elektron. Chloor kan een elektron opnemen:
+Chlooratomen missen elk 1 elektron. Chloor kan elektronen opnemen:
 
-$$\ce{Cl + e- -> Cl-}$$
+$$\ce{Cl2 + 2 e- -> 2 Cl-}$$
 
-Chloor is hier een **oxidator**: een stof die elektronen opneemt.
+$\ce{Cl2}$ is hier een **oxidator**: een stof die elektronen opneemt.
 
-Een **redoxreactie** is een reactie tussen een REDuctor en een OXidator. De halfreacties samen geven:
+Een **redoxreactie** is een reactie tussen een REDuctor en een OXidator. Samen geven de halfreacties:
 
 $$\ce{2 Na + Cl2 -> 2 NaCl}$$
 
@@ -32,13 +32,18 @@ Ongeladen metalen zijn altijd reductor, omdat metaalionen altijd positief gelade
 
 ## Binas 48
 
-De sterktes van oxidatoren en reductoren staan in Binas 48. Oxidatoren staan van sterk (boven) naar zwak, reductoren van zwak naar sterk. De sterkste oxidator ($\ce{F2}$) staat bovenaan, de sterkste reductor ($\ce{Li}$) onderaan.
+De sterktes van oxidatoren en reductoren staan in Binas 48. Van boven naar beneden: oxidatoren van sterk naar zwak, reductoren van zwak naar sterk. De sterkste oxidator ($\ce{F2}$) staat bovenaan, de sterkste reductor ($\ce{Li}$) onderaan.
 
 Er vindt alleen een redoxreactie plaats als de oxidator **boven** de reductor staat, oftewel als $V_\mathrm{ox} > V_\mathrm{red}$ (zie de derde kolom).
 
 ### Redoxreacties opstellen
 
-Voor het opstellen van een redoxreactie begin je met het zoeken van de sterkste oxidator en reductor, en controleer je of $V_\mathrm{ox} > V_\mathrm{red}$. Vervolgens stel je de halfreacties op uit Binas 48. Daarna vermenigvuldig je de coëfficiënten zodat het aantal elektronen in beide halfreacties gelijk is. Tot slot tel je de halfreacties bij elkaar op, waardoor de elektronen wegvallen (als het goed is).
+Voor het opstellen van een redoxreactie:
+
+1. Zoek de sterkste oxidator en reductor, en controleer of $V_\mathrm{ox} > V_\mathrm{red}$
+2. Stel de halfreacties op uit Binas 48
+3. Vermenigvuldig de coëfficiënten zodat het aantal elektronen gelijk is
+4. Tel de halfreacties op, waardoor de elektronen wegvallen
 
 > Voorbeeld: $\ce{Al}$ en $\ce{Cu^{2+}}$
 >
@@ -59,11 +64,11 @@ De Daniell-cel bestaat uit twee metalen elektrodes, twee oplossingen van ionen, 
 
 In een Daniell-cel met zink en koper vindt bij de zinkstaaf de halfreactie $\ce{Zn -> Zn^{2+} + 2 e-}$ plaats (zink is de reductor), en bij de koperstaaf $\ce{Cu^{2+} + 2 e- -> Cu}$ ($\ce{Cu^{2+}}$ is de oxidator).
 
-Elektronen stromen van de **minpool** naar de **pluspool**. De reductor is altijd de minpool, want die geeft elektronen af. De oxidator is altijd de pluspool, want die neemt elektronen op. In dit geval is zink dus de minpool en koper de pluspool.
+Elektronen stromen van de **minpool** naar de **pluspool**. De reductor is altijd de minpool (geeft elektronen af), de oxidator zit altijd aan de pluspoolkant (neemt elektronen op). In dit geval is zink de minpool en koper de pluspool.
 
 ### Zoutbrug en spanning
 
-Aan de zinkkant ontstaan $\ce{Zn^{2+}}$-ionen (meer positief), aan de koperkant verdwijnen $\ce{Cu^{2+}}$-ionen (minder positief). De **zoutbrug** compenseert dit: positieve ionen gaan naar de koperkant, negatieve gaan naar de zinkkant.
+Aan de zinkkant ontstaan $\ce{Zn^{2+}}$-ionen (meer positief), aan de koperkant verdwijnen $\ce{Cu^{2+}}$-ionen (minder positief). De **zoutbrug** compenseert dit: positieve ionen gaan naar de koperkant, negatieve ionen naar de zinkkant.
 
 Voor de spanning (voltage) die een batterij kan leveren geldt:
 
@@ -85,7 +90,7 @@ Een batterij gaat leeg als een van de beginstoffen op is.
 
 ### Opladen
 
-Bij een **oplaadbare batterij** keer je de reactie om door stroom in tegengestelde richting te zetten. Dit is een **gedwongen redoxreactie** ($V_\mathrm{ox} < V_\mathrm{red}$). De halfreacties draaien om.
+Bij een **oplaadbare batterij** keer je de reactie om door stroom in tegengestelde richting te laten lopen. Dit is een **gedwongen redoxreactie** ($V_\mathrm{ox} < V_\mathrm{red}$). De halfreacties draaien om.
 
 Er zijn twee voorwaarden voor een oplaadbare batterij:
 
