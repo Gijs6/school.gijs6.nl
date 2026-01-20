@@ -32,7 +32,7 @@ Ongeladen metalen zijn altijd reductor, omdat metaalionen altijd positief gelade
 
 ## Binas 48
 
-De sterktes van oxidatoren en reductoren staan in Binas 48. Van boven naar beneden: oxidatoren van sterk naar zwak, reductoren van zwak naar sterk. De sterkste oxidator ($\ce{F2}$) staat bovenaan, de sterkste reductor ($\ce{Li}$) onderaan.
+De sterktes van oxidatoren en reductoren staan in Binas 48. De oxidatoren staan van boven naar beneden van sterk naar zwak. De reductoren staan van beneden naar boven van sterk naar zwak. De sterkste oxidator ($\ce{F2}$) staat bovenaan, de sterkste reductor ($\ce{Li}$) onderaan.
 
 Er vindt alleen een redoxreactie plaats als de oxidator **boven** de reductor staat, oftewel als $V_\mathrm{ox} > V_\mathrm{red}$ (zie de derde kolom).
 
