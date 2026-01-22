@@ -12,7 +12,13 @@ $$I = \frac{P}{A}$$
 
 Hierin is $I$ de geluidsintensiteit (in $\mathrm{W}/\mathrm{m}^2$), $P$ het vermogen van de geluidsbron (in $\mathrm{W}$) en $A$ het oppervlak waar het geluid doorheen gaat (in $\mathrm{m}^2$).
 
-Bij een puntvormige geluidsbron verspreidt het geluid zich in alle richtingen. Op een afstand $r$ van de bron verdeelt het geluid zich over een boloppervlak van $4\pi r^2$. Hieruit volgt de **kwadratenwet**: als je $n$ keer zo ver van de bron af staat, wordt de intensiteit $n^2$ keer zo klein.
+Bij een puntvormige geluidsbron verspreidt het geluid zich in alle richtingen. Op een afstand $r$ van de bron verdeelt het geluid zich over een boloppervlak van $4\pi r^2$:
+
+$$I = \frac{P}{4\pi r^2}$$
+
+Hierin is $I$ de geluidsintensiteit (in $\mathrm{W}/\mathrm{m}^2$), $P$ het vermogen van de geluidsbron (in $\mathrm{W}$) en $r$ de afstand tot de bron (in $\mathrm{m}$).
+
+Hieruit volgt de **kwadratenwet**: als je $n$ keer zo ver van de bron af staat, wordt de intensiteit $n^2$ keer zo klein.
 
 ## Het oor
 
