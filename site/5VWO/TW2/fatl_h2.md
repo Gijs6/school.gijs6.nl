@@ -149,7 +149,7 @@ Je gebruikt een **delend lidwoord** als je in het Nederlands geen lidwoord gebru
 Als je praat over dingen in het algemeen, gebruik je een **bepaald lidwoord** in plaats van een delend lidwoord.  
 *J'aime le chocolat.* $\Rightarrow$ Ik hou van chocolade. (in het algemeen)
 
-Als je de hoeveelheid wel weet, gebruik je *de* of *d'* in plaats van *du*, *de la*, *de l'* of *des*.  
+Na een hoeveelheidswoord (*beaucoup*, *peu*, *assez*, etc.) gebruik je *de* of *d'* in plaats van *du*, *de la*, *de l'* of *des*.  
 *Je mange beaucoup de pain.* $\Rightarrow$ Ik eet veel brood.  
 *Elle a peu d'amis.* $\Rightarrow$ Zij heeft weinig vrienden.
 

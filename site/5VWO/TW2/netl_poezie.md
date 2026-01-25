@@ -9,7 +9,7 @@ Poëzie valt te herkennen aan:
 
 - De typografie (de visuele vormgeving, zoals lettertype en -grootte)
 - De witruimte op de pagina's
-- Enjambement: het doorlopen van een zin naar de volgende versregel
+- **Enjambement**: het doorlopen van een zin naar de volgende versregel
 
 En soms ook aan:
 
@@ -35,7 +35,7 @@ Een **strofe** is een 'alinea' in een gedicht. Deze bestaat uit een aantal **ver
 |    **septet** | 7                 |
 |    **octaaf** | 8                 |
 
-Een **sonnet** is een gedicht bestaande uit 14 regels in 4 strofes: altijd 2 kwatrijnen en 2 terzinen (oftewel 1 octaaf en 1 sextet). Een sonnet bevat ook altijd een **volta** (een soort wending/plottwist) in de laatste of voorlaatste strofe.
+Een **sonnet** is een gedicht van 14 regels in 4 strofes: 2 kwatrijnen en 2 terzinen (oftewel 1 octaaf en 1 sextet). Een sonnet bevat altijd een **volta** (een wending) in de laatste of voorlaatste strofe.
 
 ## Metrum
 
@@ -49,22 +49,22 @@ In gedichten met ongeveer evenveel lettergrepen per versregel kun je soms een **
 |     **Anapest** | `v v -` | _on-der-**wijs**_  |
 | **Amfibrachys** | `v - v` | _ge-**luk**-kig_   |
 
-Je herkent een metrum door een gedicht voor te lezen en dan overdreven veel nadruk op de beklemtoonde lettergrepen te leggen: **scanderen**.
+Je herkent een metrum door een gedicht hardop te lezen en extra nadruk te leggen op de beklemtoonde lettergrepen: **scanderen**.
 
 Soms worden lettergrepen samengetrokken of weggelaten om in het metrum te passen: **elisie** (bijv. *'k* in plaats van *ik*). Soms wijkt het metrum bewust af: **antimetrie**.
 
 ## Rijm
 
-Veel gedichten maken gebruik van **rijm**. Dit kun je schematisch weergeven in een **rijmschema**. Regels die op elkaar rijmen, geef je dezelfde letter:
+Veel gedichten maken gebruik van **rijm**, wat je kunt weergeven in een **rijmschema**. Regels die op elkaar rijmen, geef je dezelfde letter:
 
-|       Soort rijm | Patroon                                 |
-| ---------------: | :-------------------------------------- |
-|      **Gepaard** | `a a b b`                               |
-|     **Gekruist** | `a b a b`                               |
-|     **Omarmend** | `a b b a`                               |
-|     **Slagrijm** | `a a a a`                               |
-| **Verspringend** | `a b c a b c`                           |
-|     **Gebroken** | `a b c b` <br> `a a c a` <br> `a b a c` |
+|       Soort rijm | Patroon                                       |
+| ---------------: | :-------------------------------------------- |
+|      **Gepaard** | `a a b b`                                     |
+|     **Gekruist** | `a b a b`                                     |
+|     **Omarmend** | `a b b a`                                     |
+|     **Slagrijm** | `a a a a`                                     |
+| **Verspringend** | `a b c a b c`                                 |
+|     **Gebroken** | `a b c b` of <br> `a a c a` of <br> `a b a c` |
 
 Rijm kan op verschillende plekken voorkomen:
 
