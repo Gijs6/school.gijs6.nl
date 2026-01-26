@@ -12,6 +12,7 @@ Een **model** is een schematische weergave van de werkelijkheid. Modellen zijn h
 - Het veiliger kan zijn
 - Het goedkoper kan zijn
 - Het ethischer kan zijn (je hoeft bijvoorbeeld geen proefdieren te gebruiken)
+- Je situaties kunt onderzoeken die in het echt niet mogelijk zijn (zoals situaties in de toekomst)
 
 Bij een **statisch model** hangen de variabelen niet af van de tijd, zoals bij een maquette of een molecuulmodel. Bij een **dynamisch model** hangen de variabelen wel af van de tijd, zoals bij een weermodel of een ecosysteemmodel.
 
@@ -29,11 +30,11 @@ Bij het simuleren van riviervorming kun je een schaalmodel gebruiken. Een voorde
 
 ## Dynamische numerieke modellen
 
-Een dynamisch numeriek model rekent in kleine tijdstapjes. Je berekent steeds wat de waarde van een grootheid is op tijdstip $t$, met de waarde op het tijdstip daarvoor ($t - \Delta t$). Dit doe je door te berekenen wat erbij komt en eraf gaat.
+Een dynamisch numeriek model rekent in kleine tijdstapjes. Je berekent steeds de waarde van een grootheid op tijdstip $t$ op basis van de waarde op het tijdstip daarvoor ($t - \Delta t$). Dit doe je door te berekenen wat erbij komt en eraf gaat.
 
 $$\text{nieuwe waarde} = \text{oude waarde} + \text{verandering per tijdstap}$$
 
-Neem een spaarrekening waar je begint met €100 ($B_0 = 100$), elke maand 2% rente krijgt en elke maand €50 inlegt.
+Neem een spaarrekening waar je begint met €100 ($B_0 = 100$), elke maand 2% rente krijgt en €50 inlegt.
 
 Per maand komt er rente bij ($0{,}02 \cdot B$) en leg je €50 in. De verandering per maand is dus $0{,}02 \cdot B + 50$.
 
@@ -68,9 +69,9 @@ $$\Delta B = (0{,}02 \cdot B + 50) \cdot \Delta t$$
 
 Deel beide kanten door $\Delta t$:
 
-$$\frac{B_t - B_{t-\Delta t}}{\Delta t} = 0{,}02 \cdot B + 50$$
+$$\frac{\Delta B}{\Delta t} = 0{,}02 \cdot B + 50$$
 
-Als we $\Delta t$ nu heel klein maken, krijg je de afgeleide:
+Als je $\Delta t$ heel klein maakt, krijg je de afgeleide:
 
 $$\frac{dB}{dt} = 0{,}02 \cdot B + 50$$
 
@@ -85,7 +86,7 @@ In een numeriek model gebruik je 4 soorten variabelen:
 - **Hulpvariabelen**: tussenwaarden die helpen bij het berekenen van de stroomvariabelen
 - **Constanten**: waardes die de hele simulatie hetzelfde blijven
 
-In het spaarrekening-voorbeeld is $B$ de toestandsvariabele, de verandering $(0{,}02 \cdot B + 50)$ de stroomvariabele, en de rente (0,02) en inleg (50) zijn constanten.
+In het spaarrekening-voorbeeld is $B$ de toestandsvariabele en $(0{,}02 \cdot B + 50)$ de stroomvariabele. De rente (0,02) en inleg (50) zijn constanten.
 
 Je kunt deze variabelen grafisch weergeven en verbinden met relatiepijlen.
 
