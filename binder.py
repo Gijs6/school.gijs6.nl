@@ -1,3 +1,4 @@
+import html
 import os
 import sys
 import shutil
@@ -470,7 +471,8 @@ class MathProtectPostprocessor(Postprocessor):
 
     def run(self, text):
         for key in sorted(self.math_store.keys(), key=len, reverse=True):
-            text = text.replace(key, self.math_store[key])
+            math_content = html.escape(self.math_store[key])
+            text = text.replace(key, math_content)
         return text
 
 
