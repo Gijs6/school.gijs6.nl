@@ -858,7 +858,7 @@ def serve(port=8000, dev=False):
     class DevHTTPServer(BuildHTTPServer):
         directory = BUILD_DEV_DIR
 
-    server = HTTPServer(("localhost", port), DevHTTPServer)
+    server = HTTPServer(("0.0.0.0", port), DevHTTPServer)
     threading.Thread(target=server.serve_forever, daemon=True).start()
 
     print(
