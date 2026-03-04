@@ -7,15 +7,15 @@ title: Medicijnen
 
 > We hebben het in deze module over ziektes waarbij er een bepaald eiwit niet goed werkt
 
-Het ontdekken van een geneesmiddel gaat in 3 stappen. **Target finding**: het vinden van het eiwit dat niet goed werkt, de **target** (of het **doeleiwit**). Daarna **lead finding**: het vinden van een **lead** (een **biologisch actieve stof**, ook wel **farmacon**) die het doeleiwit kan beïnvloeden. Ten slotte **lead optimisation**: het optimaliseren van de lead.
+Het ontdekken van een geneesmiddel gaat in 3 stappen. **Target finding**: het vinden van het eiwit dat niet goed werkt, de **target** (of het **doeleiwit**). Daarna **lead finding**: het vinden van een **lead** (een **biologisch actieve stof**, ook wel **farmacon**) die het doeleiwit kan beïnvloeden. En **lead optimisation**: het optimaliseren van de lead.
 
 ### Preklinisch en klinisch onderzoek
 
 Als je een lead hebt gevonden, ga je vervolgens deze stappen door:
 
-1. **Preklinisch onderzoek**
+1. **Preklinisch onderzoek**  
    Dit bestaat uit **in vitro** (gekweekte menselijke cellen in een lab) en **in vivo** (proefdieren) onderzoek.
-2. **Klinisch onderzoek**
+2. **Klinisch onderzoek**  
    Dit onderzoek bestaat uit 4 fasen:
    - In **fase I** onderzoek je welke dosis effectief is bij een groep gezonde vrijwilligers.
    - In **fase II** stel je bij een kleine groep patiënten die aan de ziekte lijden de werking vast.
@@ -24,7 +24,7 @@ Als je een lead hebt gevonden, ga je vervolgens deze stappen door:
 
 ### Patenten en preparaten
 
-Het ontwikkelen van geneesmiddelen is heel duur. Met een **patent** heeft de houder het exclusieve recht om het geneesmiddel te maken en te verkopen, zodat bedrijven hun kosten kunnen terugverdienen. Een geneesmiddel waar een patent op rust heet een **specialité**. Nadat een patent verstreken is, mogen alle bedrijven het geneesmiddel maken. Deze geneesmiddelen noem je **loco-preparaten** (of **generieke preparaten**).
+Het ontwikkelen van geneesmiddelen is heel duur. Met een **patent** heeft de houder het exclusieve recht om het geneesmiddel te maken en te verkopen, zodat bedrijven hun kosten kunnen terugverdienen. Een geneesmiddel waarop een patent zit heet een **specialité**. Als een patent verlopen is, mogen alle bedrijven het geneesmiddel maken. Deze geneesmiddelen noem je **loco-preparaten** (of **generieke preparaten**).
 
 Een **me-too-preparaat** is een medicijn dat hetzelfde doeleiwit target als een bestaand medicijn, maar een ander leadmolecuul gebruikt. Het voordeel is dat je de target finding kunt overslaan.
 
@@ -44,7 +44,7 @@ Een medicijn kan zich aangrijpen op:
 3. Rechtstreeks (denk aan het toevoegen van een base om de pH van je maag te laten stijgen, of chemo)
 
 Een groot deel van de medicijnen bindt zich aan een GPCR. Deze receptoren zijn lange ketens van aminozuren die 7 keer door het celmembraan slingeren.
-Nadat een medicijn zich aan een GPCR heeft gekoppeld, ontstaat er een cascade van reacties, waarna een **second messenger** in de cel ontstaat. Vaak is dit **cAMP**. Aan de hand van de concentratie cAMP kun je dan bepalen of een medicijn een agonist is: bij een agonist neemt de concentratie cAMP toe.
+Nadat een medicijn zich aan een GPCR heeft gekoppeld, ontstaat er een cascade van reacties, waarna een **second messenger** in de cel ontstaat. Vaak is dit **cAMP**. De concentratie cAMP laat zien of een medicijn een agonist is: bij een agonist neemt de concentratie cAMP toe.
 
 ## Affiniteit en dosis-respons
 
@@ -54,16 +54,16 @@ $$\ce{L + R <-->[{k_1}][{k_2}] LR}$$
 
 $k_1$ is de snelheidsconstante voor de reactie naar rechts en $k_2$ voor die naar links.
 
-Voor de reactiesnelheden geldt vervolgens:
+Voor de reactiesnelheden geldt:
 
-$v_\mathrm{naar\ rechts} = k_1 \cdot \ce{[L]} \cdot \ce{[R]}$
+$v_\mathrm{naar\ rechts} = k_1 \cdot \ce{[L]} \cdot \ce{[R]}$  
 $v_\mathrm{naar\ links} = k_2 \cdot \ce{[LR]}$
 
-Bij een evenwicht zijn deze snelheden even groot, dus
+Bij een evenwicht zijn deze snelheden even groot:
 
 $k_1 \cdot \ce{[L]} \cdot \ce{[R]} = k_2 \cdot \ce{[LR]}$
 
-Deze formule kun je herschrijven als
+Dit kun je herschrijven als:
 
 $\frac{k_2}{k_1}=\frac{\ce{[L]} \cdot \ce{[R]}}{\ce{[LR]}}=K_d$
 
@@ -75,7 +75,7 @@ De dissociatieconstante is dus een maat voor hoe graag het ligand aan de recepto
 Je kunt de affiniteit ook aangeven met de $pD_2$ ($pD_2 = -\log(K_d)$). Nu geldt het omgekeerde: hoe hoger de $pD_2$, hoe groter de affiniteit.
 
 De concentratie/hoeveelheid van het ligand is de **dosis**. We gaan ervan uit dat $\ce{[LR]}$ evenredig is met de **respons**.
-De relatie tussen $\ce{[LR]}$ en $\ce{[L]}$ kun je in een **dosis-responsecurve** weergeven. Je zet dan het logaritme van $\ce{[L]}$ uit tegen $\ce{[LR]}$. In deze grafiek kun je makkelijk de $K_d$ aflezen: het is de concentratie van het ligand bij de helft van de respons.
+De relatie tussen $\ce{[LR]}$ en $\ce{[L]}$ zet je uit in een **dosis-responsecurve**: je zet het logaritme van $\ce{[L]}$ op de x-as en $\ce{[LR]}$ op de y-as. De $K_d$ lees je dan makkelijk af: het is de concentratie van het ligand bij de helft van de respons.
 
 In een dosis-responsecurve geldt ook: hoe meer links de curve ligt (dus hoe lager de $K_d$), hoe efficiënter het medicijn, want dan heb je bij een lagere concentratie al dezelfde respons.
 
@@ -83,7 +83,7 @@ In een dosis-responsecurve geldt ook: hoe meer links de curve ligt (dus hoe lage
 
 ### Maagzuurproductie
 
-Soms moet de pH in de maag worden verhoogd. De lage pH in de maag ontstaat doordat de cellen in de wand van de maag met een **protonpomp** (H+/K+-ATPase) $\ce{H+}$-ionen de maag in pompen (en $\ce{K+}$-ionen uit de maag).
+Soms moet de pH in de maag worden verhoogd. De lage pH in de maag ontstaat doordat de cellen in de wand van de maag met een **protonpomp** ($\ce{H+}$/$\ce{K+}$-ATPase) $\ce{H+}$-ionen de maag in pompen (en $\ce{K+}$-ionen uit de maag).
 
 De protonpomp gebruikt ATP als energiebron en wordt geactiveerd door kinase, dat op zijn beurt wordt geactiveerd door $\ce{Ca^{2+}}$.
 
@@ -125,7 +125,7 @@ Een **slow-release-preparaat** is een medicijn dat in een capsule is verpakt, wa
 
 ### Absorptiefase
 
-Hoe apolairder (dus beter vetoplosbaar) het geneesmiddel is, hoe beter het wordt opgenomen (aangezien de celmembranen gemaakt zijn van fosfolipiden). Zodra het geneesmiddel via de darmen in het bloed is gekomen, is het in het interne milieu.
+Hoe apolairder (dus beter vetoplosbaar) het geneesmiddel is, hoe beter het wordt opgenomen (de celmembranen zijn gemaakt van fosfolipiden). Zodra het geneesmiddel via de darmen in het bloed is gekomen, bevindt het zich in het interne milieu.
 
 De **biologische beschikbaarheid** (F) geeft aan welk gedeelte van de toegediende dosis van een geneesmiddel uiteindelijk in de bloedsomloop terechtkomt.
 
@@ -159,7 +159,7 @@ Hierin is $\mathrm{Cl}$ de klaring, $V_d$ het schijnbaar verdelingsvolume en $t_
 
 De **halfwaardetijd** ($t_{1/2}$) is de tijd die nodig is om de helft van het medicijn uit het bloed te verwijderen.
 
-Als vuistregel geldt dat het medicijn na 5 keer de halfwaardetijd volledig uit het lichaam is verdwenen. Als je een nieuwe dosis toedient voordat die 5 halfwaardetijden verstreken zijn (dus als het **dosisinterval**, de tijd tussen twee doses, kleiner is dan $5 \cdot t_{1/2}$), hoopt het medicijn zich op: **accumulatie**.
+Na 5 keer de halfwaardetijd is het medicijn volledig uit het lichaam verdwenen. Als je een nieuwe dosis toedient voordat die 5 halfwaardetijden voorbij zijn (dus als het **dosisinterval**, de tijd tussen twee doses, kleiner is dan $5 \cdot t_{1/2}$), hoopt het medicijn zich op: **accumulatie**.
 
 #### Eerste-ordekinetiek
 
