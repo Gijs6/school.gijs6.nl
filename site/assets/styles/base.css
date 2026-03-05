@@ -40,6 +40,11 @@ footer {
     }
 }
 
+noscript {
+    padding: 10px;
+    background: var(--oc-red-9);
+}
+
 @media print {
     :root {
         color-scheme: light;
