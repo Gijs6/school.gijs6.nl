@@ -17,9 +17,9 @@ Als je een lead hebt gevonden, ga je vervolgens deze stappen door:
    Dit bestaat uit **in vitro** (gekweekte menselijke cellen in een lab) en **in vivo** (proefdieren) onderzoek.
 2. **Klinisch onderzoek**  
    Dit onderzoek bestaat uit 4 fasen:
-   - In **fase I** onderzoek je welke dosis effectief is bij een groep gezonde vrijwilligers.
+   - In **fase I** stel je bij een groep gezonde vrijwilligers vast welke dosis veilig is.
    - In **fase II** stel je bij een kleine groep patiënten die aan de ziekte lijden de werking vast.
-   - In **fase III** onderzoek je op grote schaal met **dubbelblind onderzoek** (onderzoek waarbij de onderzoekers en de patiënt niet weten of zij een medicijn krijgen of een placebo (een nepmiddel zonder enige werking)), zodat goed kan worden onderzocht of het medicijn überhaupt effect heeft. In deze fase wordt ook onderzoek gedaan naar de **effectmaat**: de drempelwaarde vanaf waar een medicijn effectief is. Op basis van het onderzoek uit deze fase wordt door de autoriteiten besloten of het geneesmiddel op de markt mag worden gebracht.
+   - In **fase III** onderzoek je op grote schaal met **dubbelblind onderzoek** (onderzoek waarbij de onderzoekers en de patiënten niet weten of zij een medicijn krijgen of een placebo (een nepmiddel zonder enige werking)), zodat goed kan worden onderzocht of het medicijn überhaupt effect heeft. In deze fase wordt ook onderzoek gedaan naar de **effectmaat**: de drempelwaarde vanaf waar een medicijn effectief is. Op basis van het onderzoek uit deze fase wordt door de autoriteiten besloten of het geneesmiddel op de markt mag worden gebracht.
    - In **fase IV** gebeurt **post-marketing surveillance**: het in de gaten houden van bijwerkingen en de veiligheid van het geneesmiddel, nadat het middel al op de markt is gekomen.
 
 ### Patenten en preparaten
@@ -100,7 +100,7 @@ De remming van dit proces gebeurt door de stof $\mathrm{PGE_2}$. Deze stof bindt
 Om de maagzuurproductie te remmen, kun je meerdere dingen doen:
 
 1. **PPI's** (proton pump inhibitors) blokkeren de protonpomp, waardoor er minder $\ce{H+}$ de maag in komt.
-2. **Histaminereceptor-antagonisten** blokkeren de histaminereceptoren, waardoor de calciumionenconcentratie daalt, waardoor de concentratie kinase daalt, waardoor de werking van de protonpomp afneemt.
+2. **Histaminereceptor-antagonisten** blokkeren de histaminereceptoren, waardoor de calciumionenconcentratie daalt, waardoor kinase minder geactiveerd wordt, waardoor de werking van de protonpomp afneemt.
 3. **$\mathrm{PGE_2}$-receptoragonisten** activeren de $\mathrm{PGE_2}$-receptoren, waardoor adenylylcyclase wordt geremd en er minder cAMP is, waardoor de calciumionenconcentratie daalt.
 4. **Gastrinereceptor-antagonisten** bestaan echter niet, omdat de andere manieren al heel effectief zijn.
 
@@ -149,7 +149,7 @@ Sommige geneesmiddelen worden toegediend in een vorm die pas effect heeft nadat 
 
 Het verwijderen van een geneesmiddel uit het lichaam (**eliminatie**) gebeurt op 2 manieren: metabolisme en **excretie**.
 
-Hierbij horen 2 belangrijke begrippen: **klaring** en de **halfwaardetijd**. Beide zijn voor elk medicijn anders.
+Hierbij horen 2 belangrijke begrippen: **klaring** en **halfwaardetijd**. Beide zijn voor elk medicijn anders.
 
 De **klaring** ($\mathrm{Cl}$) is het plasmavolume dat per tijdseenheid wordt 'gezuiverd' van medicijn.
 
@@ -175,7 +175,7 @@ Bij de eerste-ordekinetiek is de halfwaardetijd onafhankelijk van de beginconcen
 
 #### Nulde-ordekinetiek
 
-Bij de **nulde-ordekinetiek** werken de lever en nieren op maximale kracht en kunnen ze niet sneller. De afbraaksnelheid is dan constant: per tijdstap wordt er evenveel afgebroken, ongeacht hoeveel medicijn er in je bloed zit. De halfwaardetijd is dan *wel* afhankelijk van de beginconcentratie.
+Bij de **nulde-ordekinetiek** werken de lever en nieren op maximale kracht en kunnen ze niet sneller. De afbraaksnelheid is dan constant: per tijdseenheid wordt er evenveel afgebroken, ongeacht hoeveel medicijn er in je bloed zit. De halfwaardetijd is dan *wel* afhankelijk van de beginconcentratie.
 
 #### Steady state
 
@@ -187,3 +187,31 @@ $$C_{ss} \cdot \mathrm{Cl} = \frac{D \cdot F}{\tau}$$
 
 Hierin is $C_{ss}$ de steady-state-concentratie, $\mathrm{Cl}$ de klaring, $D$ de dosis, $F$ de biologische beschikbaarheid en $\tau$ het dosisinterval.
 
+## Bijwerkingen
+
+Een ongewenst effect van een biologisch actieve stof is een **bijwerking**. Er zijn verschillende soorten bijwerkingen:
+
+- **Voorspelbare effecten**  
+  Dit is een ongewenste werking die veroorzaakt wordt door hetzelfde mechanisme dat ook de gewenste werking veroorzaakt, maar dan vaak in een ander orgaan.
+- **Onvoorspelbare effecten**  
+  Bijvoorbeeld een allergische reactie of **lever-** of **pancreastoxiciteit** (waarbij de metaboliet giftig is).
+- **Congenitale effecten**  
+  Dit zijn effecten die tijdens de zwangerschap in het embryo kunnen optreden. Geneesmiddelen die schadelijk zijn voor een embryo tijdens de zwangerschap zijn **teratogeen**. Deze effecten kunnen worden ontdekt bij dierproeven.
+- **Late effecten**  
+  Dit zijn effecten die pas na jaren optreden, en zijn daardoor ook moeilijk te onderzoeken.
+- **Onthoudingsreacties**  
+  Dit zijn verslavingen. Zo kun je bijvoorbeeld verslaafd raken aan slaapmiddelen.
+
+### COX-remmers
+
+**COX-remmers** zijn pijnstillers die de werking van het enzym cyclo-oxygenase (COX) remmen. Er zijn 3 verschillende COX-eiwitten: COX-1, COX-2 en COX-3.
+
+COX maakt de omzetting van **arachidonzuur** in **prostaglandinen** mogelijk. Voor de aanmaak van arachidonzuur is het enzym **fosfolipase A2** nodig, dat wordt geactiveerd bij een beschadiging van het celmembraan of bij zuurstoftekort.
+
+**COX-1** zet arachidonzuur om in prostaglandinen die de maagwand beschermen en bloedplaatjes activeren (stolling). Bijwerkingen van COX-remmers zijn daardoor een minder goed beschermde maagwand (maagzweer) en verstoorde bloedstolling (meer bloedingen).
+
+**COX-2** zet arachidonzuur om in prostaglandinen die de doorbloeding van de nieren regelen. Bij een ontsteking of koorts wordt COX-2 ook aangemaakt in andere cellen, waar het prostaglandinen maakt die pijn en koorts veroorzaken. Een bijwerking van COX-remmers is dus dat de nierfunctie achteruit kan gaan.
+
+**COX-3** zet arachidonzuur om in prostaglandinen die een rol spelen bij het ontstaan van pijn en ontstekingsreacties. COX-remmers zorgen dus voor minder pijn en ontstekingen.
+
+Als je COX-remmers gebruikt, hoopt arachidonzuur zich op omdat COX het niet meer kan omzetten in prostaglandinen. Het enzym **lipoxygenase** zet dit arachidonzuur dan om in **leukotriënen**: vetachtige stoffen die de spieren in de luchtwegen laten samentrekken, waardoor er een astma-aanval kan optreden (bij mensen die hiervoor gevoelig zijn).
