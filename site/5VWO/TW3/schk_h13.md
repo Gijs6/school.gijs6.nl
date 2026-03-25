@@ -177,11 +177,11 @@ Voor meerwaardige zuren geldt dat er $\ce{H+}$-overdracht plaatsvindt zolang het
 
 > Voorbeeld: $\ce{H3PO4}$ (fosforzuur) met $\ce{NH3}$.
 >
-> In Binas 49 staat $\ce{NH4+}$ als het geconjugeerde zuur van $\ce{NH3}$. Per stap kijk je of het zuur boven $\ce{NH4+}$ staat:
+> Per stap kijk je of het zuur boven $\ce{NH3}$ staat:
 >
-> - $\ce{H3PO4}$ staat boven $\ce{NH4+}$, dus er is een reactie: $\ce{H3PO4 + NH3 -> H2PO4- + NH4+}$
-> - $\ce{H2PO4-}$ staat ook boven $\ce{NH4+}$, dus er is weer een reactie: $\ce{H2PO4- + NH3 -> HPO4^{2-} + NH4+}$
-> - $\ce{HPO4^{2-}}$ staat onder $\ce{NH4+}$, dus er is geen reactie meer.
+> - $\ce{H3PO4}$ staat boven $\ce{NH3}$, dus er is een reactie: $\ce{H3PO4 + NH3 -> H2PO4- + NH4+}$
+> - $\ce{H2PO4-}$ staat ook boven $\ce{NH3}$, dus er is weer een reactie: $\ce{H2PO4- + NH3 -> HPO4^{2-} + NH4+}$
+> - $\ce{HPO4^{2-}}$ staat onder $\ce{NH3}$, dus er is geen reactie meer.
 >
 > Fosforzuur reageert dus in twee stappen met ammoniak. De volledige reactie is:
 >
