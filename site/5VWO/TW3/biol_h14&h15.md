@@ -8,13 +8,13 @@ description: Zenuwstelsel, waarnemen
 
 **Neuronen** (**zenuwcellen**) hebben 2 soorten uitlopers: een of meer **dendrieten** en een **axon**. Dendrieten geven impulsen door naar het cellichaam, axonen van het cellichaam weg. De aftakking van het axon eindigt in een **synaps**: een contactplaats waar informatieoverdracht aan een andere cel plaatsvindt met **neurotransmitters**.
 
-Er zijn 3 soorten neuronen:
+Er zijn 3 soorten neuronen (Binas 88A):
 
 - **Sensorische neuronen** geven impulsen van zintuigcellen door aan het **centrale zenuwstelsel** (hersenen en ruggenmerg). Hun cellichamen liggen aan de achterzijde van het ruggenmerg (waardoor de dendrieten heel lang kunnen zijn).
 - **Schakelneuronen** liggen in het centrale zenuwstelsel en schakelen impulsen door naar andere neuronen.
 - **Motorische neuronen** geven impulsen door van het centrale zenuwstelsel naar spieren en klieren. De axonen kunnen erg lang zijn.
 
-Dendrieten en axonen kunnen een **myelineschede** hebben (isolerende laag), gevormd door de **cellen van Schwann**.
+Dendrieten en axonen kunnen een **myelineschede** hebben (isolerende laag), gevormd door de **cellen van Schwann** (Binas 88A).
 
 Naast neuronen bevat je zenuwstelsel ook **gliacellen**: ondersteunende cellen die bescherming bieden, myelinescheden vormen of andere taken uitvoeren.
 
@@ -22,7 +22,7 @@ Naast neuronen bevat je zenuwstelsel ook **gliacellen**: ondersteunende cellen d
 
 ## Centraal en perifeer zenuwstelsel
 
-Het **centrale zenuwstelsel** (CZS) bestaat uit de hersenen en het ruggenmerg. Het **perifere zenuwstelsel** zijn alle zenuwen die het CZS met je organen en weefsels verbinden.
+Het **centrale zenuwstelsel** (CZS) bestaat uit de hersenen en het ruggenmerg. Het **perifere zenuwstelsel** (PZS) zijn alle zenuwen die het CZS met je organen en weefsels verbinden.
 
 Zowel de hersenen als het ruggenmerg hebben een licht deel (**witte stof**) en donker deel (**grijze stof**). De grijze stof is donker door de cellichamen van neuronen. De witte stof is lichter door de aanwezigheid van myeline.  
 In de hersenen liggen de cellichamen aan de buitenkant en de uitlopers (omringd door myeline) aan de binnenkant. In het ruggenmerg is dit precies andersom.
@@ -50,7 +50,7 @@ Informatie uit de zintuigen (behalve geurinformatie) gaat naar de **thalamus**, 
 
 ### De kleine hersenen en hersenstam
 
-De **kleine hersenen** coördineren bewegingen. De **hersenstam** verbindt de grote en kleine hersenen met het ruggenmerg en bevat centra voor ademhaling, hartslag en slapen. Hier kruisen de zenuwbanen, waardoor de linkerhersenhelft de rechterkant van het lichaam aanstuurt (en andersom). De hersenstam speelt ook een rol bij reflexen bij het zien en horen.
+De **kleine hersenen** coördineren bewegingen. De **hersenstam** verbindt de grote en kleine hersenen met het ruggenmerg en bevat centra voor ademhaling, hartslag en slapen (Binas 88C2). Hier kruisen de zenuwbanen, waardoor de linkerhersenhelft de rechterkant van het lichaam aanstuurt (en andersom). De hersenstam speelt ook een rol bij reflexen bij het zien en horen.
 
 Van de 12 hersenzenuwen aan de onderkant van de hersenen zijn 11 verbonden met hoofd en hals. De twaalfde is de **zwervende zenuw** (Binas 88L).
 
@@ -61,7 +61,7 @@ De hersenstam gaat over in het ruggenmerg (Binas 88J), dat de hersenen verbindt 
 Aan de rugzijde van het ruggenmerg zitten de uitlopers van sensorische neuronen, aan de buikzijde die van motorische neuronen.  
 De cellichamen van motorische neuronen liggen in de grijze stof aan de buikzijde (Binas 88J), die van schakelneuronen aan de rugzijde.
 
-**Reflexen** (onbewuste reacties op een prikkel) uit armen, romp en benen verlopen via het ruggenmerg. De weg die impulsen daarbij afleggen is de **reflexboog** (Binas 88K).
+**Reflexen** (onbewuste reacties op een prikkel) uit armen, romp en benen verlopen via het ruggenmerg (andere reflexen gaan via de hersenstam). De weg die impulsen daarbij afleggen is de **reflexboog** (Binas 88K).
 
 ## Actiepotentiaal
 
@@ -209,3 +209,5 @@ Veel zaken die je lichaam meet gaan ook met chemoreceptoren, zoals de concentrat
 **Spierspoeltjes** zijn zintuigjes die tussen de spiervezels liggen en reageren op lengteveranderingen in de spieren. Rekt een spier uit, dan treedt een reflex in werking waardoor de spier weer verkort. Zo blijft de lichaamshouding in stand. Bij een bewuste beweging rekken eerst de uiteinden van het spierspoeltje wat uit. Dan verkort de spier zonder dat de reflex in werking treedt.
 
 **Peeslichaampjes** reageren bij een te sterke uitrekking van de pezen doordat de spier te krachtig samentrekt. Daardoor verslapt de spier en voorkomt het lichaam spierschade.
+
+Spierspoeltjes en peeslichaampjes zijn **proprioreceptoren**: receptoren die de stand van het lichaam waarnemen.
