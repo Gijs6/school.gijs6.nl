@@ -538,6 +538,7 @@ def process_markdown_file(
 
     metadata["year"] = year_dir
     metadata["period"] = period_dir
+    metadata["canonical_url"] = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
 
     html_content = remove_base64_images(md_processor.convert(markdown_content))
     md_processor.reset()
@@ -587,6 +588,7 @@ def process_single_file(args):
     period_dir = relative_path.split(os.sep)[0] if os.sep in relative_path else ""
     metadata["year"] = year_dir
     metadata["period"] = period_dir
+    metadata["canonical_url"] = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
 
     html_content = remove_base64_images(md_processor.convert(markdown_content))
     md_processor.reset()
