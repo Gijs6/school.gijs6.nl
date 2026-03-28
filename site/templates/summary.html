@@ -12,8 +12,21 @@
 {% block og_url %}{{ meta.canonical_url }}{% endblock %}
 {% block og_type %}article{% endblock %}
 
-{% set full_title %}{% if meta.subject_name and (meta.short or meta.title) %}{{ meta.subject_name }} - {{ meta.short or meta.title }} | school.gijs6.nl{% else %}Samenvatting | school.gijs6.nl{% endif %}{% endset %}
-{% set full_desc %}{% if meta.subject_name and (meta.short or meta.title) %}Samenvatting {{ meta.subject_name }}: {{ meta.title or meta.short }}{% if meta.description %} - {{ meta.description }}{% endif %}{% else %}Samenvatting voor school{% endif %}{% endset %}
+{% set full_title %}
+    {% if meta.subject_name and (meta.short or meta.title) %}
+        {{ meta.subject_name }} - {{ meta.short or meta.title }} | school.gijs6.nl
+    {% else %}
+        Samenvatting | school.gijs6.nl
+    {% endif %}
+{% endset %}
+{% set full_desc %}
+    {% if meta.subject_name and (meta.short or meta.title) %}
+        Samenvatting {{ meta.subject_name }}: {{ meta.title or meta.short }}
+        {% if meta.description %}- {{ meta.description }}{% endif %}
+    {% else %}
+        Samenvatting voor school
+    {% endif %}
+{% endset %}
 
 {% block meta_description %}{{ full_desc }}{% endblock %}
 {% block og_title %}{{ full_title }}{% endblock %}
