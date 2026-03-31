@@ -18,7 +18,7 @@ Ook het **empirisme** was belangrijk: op eigen ervaring gebaseerd onderzoek. Dit
 
 ### Reformatie
 
-De **reformatie** was de afsplitsing van het protestantisme van de Rooms-Katholieke kerk, onder leiding van de Duitse theoloog Maarten Luther. De nieuwe kerk verwierp onder andere de aflaten. Luther had ook kritiek dat gewone mensen de bijbel niet konden lezen: die was namelijk in het Latijn geschreven, terwijl ze alleen de volkstaal spraken.
+De **reformatie** was de afsplitsing van het protestantisme van de Rooms-Katholieke kerk, onder leiding van de Duitse theoloog Maarten Luther. De nieuwe kerk verwierp onder andere de aflaten. Luther had ook kritiek op het feit dat gewone mensen de bijbel niet konden lezen: die was namelijk in het Latijn geschreven, terwijl ze alleen de volkstaal spraken.
 
 ### Willem van Oranje
 
@@ -32,6 +32,14 @@ In 1584 werd Willem van Oranje door Balthasar Gerards vermoord in Delft. Na zijn
 
 De opstandige Nederlanders werden **geuzen** genoemd. Hun nationalistische geuzenliederen werden veel gezongen. Het Wilhelmus is een van deze geuzenliederen en werd later het Nederlandse volkslied.
 
+### Het Wilhelmus
+
+> Het Wilhelmus bevat vormen van **propaganda**.
+>
+> Het Wilhelmus is een **acrostichon**: de beginletters van de 15 strofen vormen samen het woord "WILLEM VAN NASSOV".
+>
+> In strofe 1 toont Willem zich als vaderlandslievend en als trouw onderdaan van Filips II. In strofe 8 wordt Filips II een tiran genoemd, wat strijd tegen hem rechtvaardigt. Strofe 15 zegt dat het Gods wil is dat Willem in opstand komt.
+
 ## Gouden Eeuw
 
 De 17e eeuw staat bekend als de **Gouden Eeuw** in Nederland. Holland was het centrum van de macht, en de **VOC** (Verenigde Oost-Indische Compagnie) had het monopolie op de Aziatische handel. De term is wel beladen: hoewel Amsterdam erg rijk en machtig was, was een groot deel van Nederland nog steeds arm.
@@ -42,13 +50,13 @@ Door deze relatieve vrijheid kwamen veel migranten naar Nederland, vooral naar A
 
 ## Literatuur (Renaissance & Gouden Eeuw)
 
-De renaissance had een grote invloed op de literatuur. Kenmerkend was het **classicisme**: de literatuur uit de klassieke oudheid gold als voorbeeld en inspiratiebron. Hierbij zjn er drie benaderingen:
+De renaissance had een grote invloed op de literatuur. Kenmerkend was het **classicisme**: de literatuur uit de klassieke oudheid gold als voorbeeld en inspiratiebron. Hierbij zijn er drie benaderingen:
 
 - **Translatio**: het vertalen van klassieke werken
 - **Imitatio**: het nadoen van klassieke werken, waarbij de volkstaal gelijkwaardig werd gesteld aan het Latijn en genres als het **epigram** (puntdicht: een kort, puntig gedicht) werden overgenomen
 - **Aemulatio**: het verbeteren van klassieke werken, wat leidde tot nieuwe genres als het **aforisme** (spreuk), het **essay** (korte prozatekst) en het **sonnet** (gedicht van 14 regels)
 
-Verder was het **estheticisme** kenmerkend voor de renaissanceliteratuur: duidelijke genres en verfijnd en elegant taalgebruik.
+Verder was het **estheticisme** kenmerkend voor de renaissanceliteratuur: duidelijke genres en verfijnd, elegant taalgebruik.
 
 **Kluchten** zijn korte toneelstukken puur voor de humor. **Komedies** zijn diepgaander en bevatten meer inhoud.
 
@@ -58,18 +66,8 @@ Verder was het **estheticisme** kenmerkend voor de renaissanceliteratuur: duidel
 
 In de 17e eeuw waren er twee grote rederijkerskamers in Amsterdam: **Het Wit Lavendel** (met name vluchtelingen uit het zuiden) en **De Eglantier** (met name Amsterdammers). In 1617 verlieten G.A. Bredero en P.C. Hooft De Eglantier en richtten de **Eerste Nederduytsche Academie** op. Kenmerkend was dat ze les gaven in het Nederlands (Nederduyts), in plaats van het Latijn.
 
-### Teksten
+### De Spaanschen Brabander
 
-> #### Het Wilhelmus
->
-> Het Wilhelmus bevat vormen van **propaganda**.
->
-> Het Wilhelmus is een **acrostichon**: de beginletters van de 15 strofen vormen samen het woord "WILLEM VAN NASSOV".
->
-> In strofe 1 toont Willem zich als vaderlandslievend en als trouw onderdaan van Filips II. In strofe 8 wordt Filips II een tiran genoemd, wat strijd tegen hem rechtvaardigt. Strofe 15 zegt dat het Gods wil is dat Willem in opstand komt.
->
-> #### De Spaanschen Brabander
->
 > **De Spaanschen Brabander** van G.A. Bredero is gebaseerd op een bestaand Spaans verhaal, waarbij de Spanjaard uit het origineel vervangen werd door een Brabander. Het stuk valt tussen een klucht en een komedie in, maar neigt meer naar een komedie.
 >
 > Het stuk werd gepubliceerd tijdens de Opstand. **Patriottisme** leidde in oorlogstijd tot een afkeer van de vijand, wat het verhaal populair maakte.
