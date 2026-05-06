@@ -39,9 +39,9 @@ Een **agonist** is een ligand dat iets stimuleert, terwijl een **antagonist** ju
 
 Een medicijn kan zich aangrijpen op:
 
-1. Een **GPCR** (een **G-eiwit-gekoppelde receptor**)
-2. Enzymen, transporteiwitten, kanalen en pompen
-3. Rechtstreeks (denk aan het toevoegen van een base om de pH van je maag te laten stijgen, of chemo)
+- Een **GPCR** (een **G-eiwit-gekoppelde receptor**)
+- Enzymen, transporteiwitten, kanalen en pompen
+- Rechtstreeks (denk aan het toevoegen van een base om de pH van je maag te laten stijgen, of chemo)
 
 Een groot deel van de medicijnen bindt zich aan een GPCR. Deze receptoren zijn lange ketens van aminozuren die 7 keer door het celmembraan slingeren.
 Nadat een medicijn zich aan een GPCR heeft gekoppeld, ontstaat er een cascade van reacties, waarna een **second messenger** in de cel ontstaat. Vaak is dit **cAMP**. De concentratie cAMP laat zien of een medicijn een agonist is: bij een agonist neemt de concentratie cAMP toe.
