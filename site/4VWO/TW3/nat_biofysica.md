@@ -85,9 +85,11 @@ $$M=F\cdot r$$
 Hierin is $M$ het krachtmoment (in $\mathrm{Nm}$), $F$ de kracht (in $\mathrm{N}$) en $r$ de arm (in $\mathrm{m}$). De arm is de **LOODRECHTE** afstand van het draaipunt ($S$) tot de **WERKLIJN** van de kracht.
 
 ![Een hefboom met 2 krachten (img-m)](images/nat_biofysica/hefboom1.jpg)
+
 <span class="img-txt">In deze situatie zijn de momenten even groot</span>
 
 ![Een hefboom met 2 krachten, waarvan 1 schuin (img-m)](images/nat_biofysica/hefboom2.jpg)
+
 <span class="img-txt">In deze situatie zijn de momenten ook even groot. De zwarte kracht bij $F_1$ is de origine kracht en de grijze kracht is de verticale component.</span>
 
 Als een hefboom niet of eenparig draait, geldt de **hefboomwet**:
@@ -97,9 +99,9 @@ dus
 $F_\mathrm{L}\cdot r_\mathrm{L}=F_\mathrm{R}\cdot r_\mathrm{R}$
 Hierin is $M_\mathrm{L}$ het linksdraaiend moment (in $\mathrm{Nm}$), $M_\mathrm{R}$ het rechtsdraaiend moment (in $\mathrm{Nm}$), $F_\mathrm{L}$ en $F_\mathrm{R}$ zijn de krachten (in $\mathrm{N}$) en $r_\mathrm{L}$ en $r_\mathrm{R}$ zijn de bijbehorende armen (in $\mathrm{m}$).
 
-> Om te kijken of een kracht een links- of rechtsdraaiend moment heeft moet je kijken in welke richting de kracht de hefboom laat draaien:
-> Rechtsdraaiend moment = met de klok mee
-> Linksdraaiend moment = tegen de klok in
+> Om te kijken of een kracht een links- of rechtsdraaiend moment heeft moet je kijken in welke richting de kracht de hefboom laat draaien:  
+> Rechtsdraaiend moment = met de klok mee  
+> Linksdraaiend moment = tegen de klok in  
 > Dus een kracht aan de rechterkant betekent niet een kracht met een rechtsdraaiend moment!
 
 Als er meer dan 2 krachten een moment uitoefenen op de hefboom, moet er een evenwicht zijn tussen alle linksdraaiende momenten en alle rechtsdraaiende momenten:
