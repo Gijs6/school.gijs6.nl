@@ -38,7 +38,9 @@
                                 <a class="test-list__resource-link"
                                    href="{{ resource.link }}"
                                    target="_blank"
-                                   rel="noopener noreferrer">{{ resource.title }}</a>
+                                   rel="noopener noreferrer">
+                                    <i class="fa-solid fa-arrow-up-right-from-square fa-fw test-list__resource-icon"
+                                       aria-hidden="true"></i> {{ resource.title }}</a>
                             </li>
                         {% endfor %}
                     </ul>

@@ -96,8 +96,10 @@
             <nav class="summary__toc" aria-label="Inhoudsopgave">
                 <details class="summary__toc-details">
                     <summary class="summary__toc-summary">
-                        <i class="fa-solid fa-chevron-down fa-fw summary__toc-icon summary__toc-icon--close"></i>
-                        <i class="fa-solid fa-chevron-up fa-fw summary__toc-icon summary__toc-icon--open"></i>
+                        <i class="fa-solid fa-chevron-down fa-fw summary__toc-icon summary__toc-icon--close"
+                           aria-hidden="true"></i>
+                        <i class="fa-solid fa-chevron-up fa-fw summary__toc-icon summary__toc-icon--open"
+                           aria-hidden="true"></i>
                         <h2 class="summary__toc-heading">Inhoudsopgave</h2>
                     </summary>
                     {{ toc | safe }}

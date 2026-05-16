@@ -91,7 +91,7 @@
         margin-bottom: var(--spacing-xl);
 
         .summary__toc-details {
-            border-left: 2px solid var(--color-gray-3);
+            border-left: 3px solid var(--color-gray-3);
             padding-left: var(--spacing-md);
 
             .summary__toc-summary {
@@ -230,7 +230,7 @@
     blockquote {
         margin: 0;
         padding-left: var(--spacing-md);
-        border-left: var(--spacing-2xs) solid light-dark(var(--color-gray-4), var(--color-gray-6));
+        border-left: 3px solid light-dark(var(--color-gray-4), var(--color-gray-6));
     }
 
     ul,
