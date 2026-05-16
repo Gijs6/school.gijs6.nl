@@ -15,8 +15,8 @@ from .config import (
     TEMPLATES_DIR,
     RESOURCES_JSON,
     SUBJECT_NAMES,
-    ARCHIVE_DIR_PATTERN,
     YEAR_DIR_PATTERN,
+    ONDERBOUW_DIR,
 )
 from .utils import (
     ProgressBar,
@@ -24,7 +24,7 @@ from .utils import (
     sort_years,
     sort_period,
     get_year_dirs,
-    build_archive_data,
+    get_onderbouw_dirs,
     load_json_file,
     create_test_entry,
     remove_base64_images,
@@ -49,18 +49,59 @@ def _thread_env():
     return _thread_local.env
 
 
-def render_special_pages(build_dir, template_env, homepage_data, archive_data):
+def render_year_period_pages(build_dir, template_env, homepage_data):
+    for year, year_data in homepage_data.items():
+        year_dir = os.path.join(build_dir, year)
+        os.makedirs(year_dir, exist_ok=True)
+        with open(os.path.join(year_dir, "index.html"), "w", encoding="utf-8") as f:
+            f.write(
+                template_env.get_template("year.html").render(
+                    year=year,
+                    year_data=year_data,
+                    page_path=f"{TEMPLATES_DIR}/year.html",
+                )
+            )
+        for period, tests in year_data.items():
+            period_dir = os.path.join(year_dir, period)
+            os.makedirs(period_dir, exist_ok=True)
+            with open(
+                os.path.join(period_dir, "index.html"), "w", encoding="utf-8"
+            ) as f:
+                f.write(
+                    template_env.get_template("period.html").render(
+                        year=year,
+                        period=period,
+                        tests=tests,
+                        page_path=f"{TEMPLATES_DIR}/period.html",
+                    )
+                )
+
+
+def render_special_pages(build_dir, template_env, homepage_data):
     with open(os.path.join(build_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(
             template_env.get_template("home.html").render(
                 homepage_data=homepage_data,
-                archive_data=archive_data,
                 site={"data": {"homepage_data": homepage_data}},
                 page_path=f"{TEMPLATES_DIR}/home.html",
             )
         )
     with open(os.path.join(build_dir, "404.html"), "w", encoding="utf-8") as f:
         f.write(template_env.get_template("404.html").render())
+
+
+def render_onderbouw_page(build_dir, template_env, onderbouw_data):
+    onderbouw_build_dir = os.path.join(build_dir, "onderbouw")
+    os.makedirs(onderbouw_build_dir, exist_ok=True)
+    with open(
+        os.path.join(onderbouw_build_dir, "index.html"), "w", encoding="utf-8"
+    ) as f:
+        f.write(
+            template_env.get_template("onderbouw.html").render(
+                onderbouw_data=onderbouw_data,
+                page_path=f"{TEMPLATES_DIR}/onderbouw.html",
+            )
+        )
 
 
 def process_single_file(args):
@@ -89,10 +130,12 @@ def process_single_file(args):
     metadata["canonical_url"] = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
 
     html_content = remove_base64_images(md_processor.convert(markdown_content))
+    toc_html = md_processor.toc
     md_processor.reset()
 
     rendered = template_env.get_template("summary.html").render(
         content=html_content,
+        toc=toc_html,
         meta=metadata,
         page_path=md_file_path,
     )
@@ -105,7 +148,7 @@ def process_single_file(args):
     cache_key = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
 
     entry = None
-    if metadata.get("subject") and not ARCHIVE_DIR_PATTERN.match(year_dir):
+    if metadata.get("subject"):
         if dev or not is_hidden:
             entry = create_test_entry(
                 metadata,
@@ -143,7 +186,6 @@ def rebuild_single_markdown(src_path, build_dir):
 
 def process_markdown_files(build_dir, template_env, dev=False):
     resources_map = load_json_file(RESOURCES_JSON)
-    archive_data = build_archive_data()
     md_cache = {}
     homepage_data = defaultdict(lambda: defaultdict(list))
 
@@ -195,8 +237,65 @@ def process_markdown_files(build_dir, template_env, dev=False):
         if year_data:
             sorted_data[year] = year_data
 
-    render_special_pages(build_dir, template_env, sorted_data, archive_data)
+    render_special_pages(build_dir, template_env, sorted_data)
+    render_year_period_pages(build_dir, template_env, sorted_data)
     return sorted_data, md_cache
+
+
+def process_onderbouw_files(build_dir, template_env):
+    onderbouw_data = defaultdict(list)
+
+    tasks = []
+    for year_dir in get_onderbouw_dirs():
+        year_path = os.path.join(ONDERBOUW_DIR, year_dir)
+        build_year_dir = os.path.join(build_dir, "onderbouw", year_dir)
+        os.makedirs(build_year_dir, exist_ok=True)
+        for root, _, files in os.walk(year_path):
+            for file in (f for f in files if f.endswith(".md")):
+                tasks.append((os.path.join(root, file), build_year_dir, year_dir))
+
+    progress = ProgressBar(len(tasks), prefix="Onderbouw")
+    md_processor = _thread_md()
+    for md_file_path, build_year_dir, year_dir in tasks:
+        filename = os.path.splitext(os.path.basename(md_file_path))[0]
+        build_path = os.path.join(build_year_dir, filename + ".html")
+
+        with open(md_file_path, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        metadata, markdown_content = parse_metadata(content)
+        metadata["year"] = year_dir
+        metadata["period"] = ""
+        metadata["canonical_url"] = f"/onderbouw/{year_dir}/{filename}"
+        metadata["back_url"] = "/onderbouw/"
+
+        html_content = remove_base64_images(md_processor.convert(markdown_content))
+        toc_html = md_processor.toc
+        md_processor.reset()
+
+        rendered = template_env.get_template("summary.html").render(
+            content=html_content,
+            toc=toc_html,
+            meta=metadata,
+            page_path=md_file_path,
+        )
+
+        with open(build_path, "w", encoding="utf-8") as f:
+            f.write(rendered)
+
+        title = filename.replace("-", " ").replace("_", " ")
+        onderbouw_data[year_dir].append(
+            {"link": f"/onderbouw/{year_dir}/{filename}", "title": title}
+        )
+        progress.update()
+
+    progress.finish()
+
+    sorted_data = {}
+    for year in sorted(onderbouw_data.keys(), key=lambda x: int(x[0])):
+        sorted_data[year] = sorted(onderbouw_data[year], key=lambda p: p["title"])
+
+    return sorted_data
 
 
 def build(dev=False, output_dir=None):
@@ -237,6 +336,15 @@ def build(dev=False, output_dir=None):
     print(f"  Found {len(years)} year directories: {', '.join(years)}")
     homepage_data, md_cache = process_markdown_files(temp_build_dir, template_env, dev)
     print(f"  Generated {len(md_cache)} HTML pages")
+    print()
+
+    print(f"{Fore.BLUE}[4b] Processing onderbouw{Style.RESET_ALL}")
+    onderbouw_dirs = get_onderbouw_dirs()
+    print(
+        f"  Found {len(onderbouw_dirs)} onderbouw directories: {', '.join(onderbouw_dirs)}"
+    )
+    onderbouw_page_data = process_onderbouw_files(temp_build_dir, template_env)
+    render_onderbouw_page(temp_build_dir, template_env, onderbouw_page_data)
     print()
 
     print(f"{Fore.BLUE}[5/5] Generating feeds{Style.RESET_ALL}")

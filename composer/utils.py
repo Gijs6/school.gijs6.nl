@@ -10,10 +10,10 @@ from .config import (
     SITE_DIR,
     FRONT_MATTER_PATTERN,
     YEAR_DIR_PATTERN,
-    ARCHIVE_DIR_PATTERN,
     PERIOD_PATTERN,
     SUBJECT_NAMES,
     SUBJECT_ICONS,
+    ONDERBOUW_DIR,
 )
 
 BASE64_IMAGE_PATTERN = re.compile(r'<img[^>]*src="data:image/[^"]*"[^>]*>')
@@ -88,23 +88,11 @@ def get_year_dirs():
     return sorted(year_dirs, key=lambda x: int(x[0]), reverse=True)
 
 
-def build_archive_data():
-    archive_data = {}
-    for year in get_year_dirs():
-        if not ARCHIVE_DIR_PATTERN.match(year):
-            continue
-        year_pages = []
-        year_path = os.path.join(SITE_DIR, year)
-        if not os.path.isdir(year_path):
-            continue
-        for root, _, files in os.walk(year_path):
-            for file in (f for f in files if f.endswith(".md")):
-                path_parts = root.split("/") + [file]
-                link = f"/{'/'.join(path_parts[-2:]).replace('.md', '')}"
-                title = file.replace(".md", "").replace("_", " ").replace("-", ": ")
-                year_pages.append({"link": link, "title": title})
-        archive_data[year] = sorted(year_pages, key=lambda p: p["title"])
-    return archive_data
+def get_onderbouw_dirs():
+    if not os.path.isdir(ONDERBOUW_DIR):
+        return []
+    year_dirs = [d for d in os.listdir(ONDERBOUW_DIR) if YEAR_DIR_PATTERN.match(d)]
+    return sorted(year_dirs, key=lambda x: int(x[0]))
 
 
 def load_json_file(filepath):

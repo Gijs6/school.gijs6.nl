@@ -70,6 +70,7 @@ def setup_markdown_processor():
         ],
         extension_configs={
             "codehilite": {"css_class": "highlight", "use_pygments": False},
+            "toc": {"toc_depth": "2-3"},
         },
         tab_length=2,
     )

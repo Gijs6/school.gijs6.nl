@@ -1,3 +1,4 @@
+import os
 import re
 
 SITE_DIR = "site"
@@ -14,8 +15,8 @@ AUTHOR_NAME = "Gijs ten Berg"
 AUTHOR_EMAIL = "me@gijs6.nl"
 
 YEAR_DIR_PATTERN = re.compile(r"(\d)VWO")
-ARCHIVE_DIR_PATTERN = re.compile(r"[23]VWO")
 PERIOD_PATTERN = re.compile(r"([A-Z]+)(\d+)")
+ONDERBOUW_DIR = os.path.join(SITE_DIR, "onderbouw")
 FRONT_MATTER_PATTERN = re.compile(r"^---\n(.*?)\n---", re.DOTALL)
 
 SUBJECT_ICONS = {

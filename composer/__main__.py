@@ -23,7 +23,6 @@ parser.add_argument(
     action="store_true",
     help="Enable development mode (include hidden pages)",
 )
-
 args = parser.parse_args()
 
 if args.command == "serve":
