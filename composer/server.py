@@ -8,14 +8,18 @@ from colorama import Fore, Style
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-from .config import SITE_DIR, BUILD_DIR, BUILD_DEV_DIR
-from .build import build, rebuild_single_markdown
+from .config import SITE_DIR, BUILD_DIR, BUILD_DEV_DIR, TEMPLATES_DIR
+from .build import build, rebuild_single_markdown, copy_changed_asset, rebuild_pages
+
+_ASSETS_DIR = os.path.abspath(os.path.join(SITE_DIR, "assets"))
+_TEMPLATES_DIR = os.path.abspath(TEMPLATES_DIR)
 
 
 class BuildHandler(FileSystemEventHandler):
-    def __init__(self, build_func, build_dir):
+    def __init__(self, build_func, build_dir, dev=False):
         self.build_func = build_func
         self.build_dir = build_dir
+        self.dev = dev
         self.last_build = 0
 
     def on_modified(self, event):
@@ -27,6 +31,7 @@ class BuildHandler(FileSystemEventHandler):
         self.last_build = now
 
         src_path = event.src_path
+        src_abs = os.path.abspath(src_path)
 
         if src_path.endswith(".py"):
             print(
@@ -40,6 +45,15 @@ class BuildHandler(FileSystemEventHandler):
         if src_path.endswith(".md") and SITE_DIR in src_path:
             if rebuild_single_markdown(src_path, self.build_dir):
                 return
+
+        if src_abs.startswith(_ASSETS_DIR + os.sep):
+            copy_changed_asset(src_path, self.build_dir)
+            return
+
+        if src_abs.startswith(_TEMPLATES_DIR + os.sep):
+            print(f"{Fore.CYAN}Rebuilding pages...{Style.RESET_ALL}")
+            rebuild_pages(self.build_dir, self.dev)
+            return
 
         print(f"{Fore.CYAN}Full rebuild...{Style.RESET_ALL}")
         self.build_func()
@@ -91,7 +105,9 @@ def serve(port=8000, dev=False):
     build(dev, output_dir=BUILD_DEV_DIR)
 
     observer = Observer()
-    handler = BuildHandler(lambda: build(dev, output_dir=BUILD_DEV_DIR), BUILD_DEV_DIR)
+    handler = BuildHandler(
+        lambda: build(dev, output_dir=BUILD_DEV_DIR), BUILD_DEV_DIR, dev=dev
+    )
     observer.schedule(handler, SITE_DIR, recursive=True)
     observer.schedule(handler, ".", recursive=False)
     observer.start()

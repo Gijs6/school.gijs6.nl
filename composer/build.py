@@ -161,6 +161,28 @@ def process_single_file(args):
     return cache_key, html_content, is_hidden, year_dir, period_dir, entry
 
 
+def copy_changed_asset(src_path, build_dir):
+    start = time.time()
+    rel = os.path.relpath(src_path, SITE_DIR)
+    dest = os.path.join(build_dir, rel)
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    shutil.copy2(src_path, dest)
+    elapsed = (time.time() - start) * 1000
+    print(f"{Fore.GREEN}Copied in {elapsed:.0f}ms{Style.RESET_ALL}\n")
+
+
+def rebuild_pages(build_dir, dev=False):
+    start = time.time()
+    template_env = _thread_env()
+    homepage_data, _ = process_markdown_files(build_dir, template_env, dev)
+    render_special_pages(build_dir, template_env, homepage_data)
+    render_year_period_pages(build_dir, template_env, homepage_data)
+    onderbouw_data = process_onderbouw_files(build_dir, template_env)
+    render_onderbouw_page(build_dir, template_env, onderbouw_data)
+    elapsed = (time.time() - start) * 1000
+    print(f"{Fore.GREEN}Rebuilt in {elapsed:.0f}ms{Style.RESET_ALL}\n")
+
+
 def rebuild_single_markdown(src_path, build_dir):
     start_time = time.time()
 
