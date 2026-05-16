@@ -20,7 +20,9 @@
                 <a class="test-list__link" href="{{ test.summary_link }}">
                     <span class="test-list__icon" aria-hidden="true">
                         {% if test.icon in ["NETL", "ENTL", "FATL"] %}
-                            <img class="test-list__icon-image" src="/assets/images/{{ test.icon }}.png" alt="" />
+                            <img class="test-list__icon-image"
+                                 src="/assets/images/{{ test.icon }}.png"
+                                 alt="" />
                         {% else %}
                             <i class="{{ test.icon }} fa-fw test-list__icon-symbol"></i>
                         {% endif %}
@@ -36,9 +38,7 @@
                                 <a class="test-list__resource-link"
                                    href="{{ resource.link }}"
                                    target="_blank"
-                                   rel="noopener noreferrer">
-                                    {{ resource.title }}
-                                </a>
+                                   rel="noopener noreferrer">{{ resource.title }}</a>
                             </li>
                         {% endfor %}
                     </ul>

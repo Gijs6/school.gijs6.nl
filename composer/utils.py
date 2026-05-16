@@ -53,7 +53,7 @@ class ProgressBar:
         elapsed = time.time() - self.start_time
         line = f"  {self.prefix:10} [{bar}] {self.current:>3}/{self.total:<3} ({elapsed:.1f}s)"
         max_width = self._term_width() - 1
-        sys.stdout.write(f"\r{line:<{max_width}}"[:max_width + 1])
+        sys.stdout.write(f"\r{line:<{max_width}}"[: max_width + 1])
         sys.stdout.flush()
 
     def finish(self):
