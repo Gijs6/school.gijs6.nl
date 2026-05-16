@@ -1,0 +1,46 @@
+{% macro breadcrumbs(ancestors, current) %}
+    <nav class="breadcrumbs">
+        <ol class="breadcrumbs__list">
+            {% for item in ancestors %}
+                <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link" href="{{ item.url }}">{{ item.label }}</a>
+                </li>
+            {% endfor %}
+            {% if current %}
+                <li class="breadcrumbs__item" aria-current="page">{{ current }}</li>
+            {% endif %}
+        </ol>
+    </nav>
+{% endmacro %}
+
+{% macro tests_list(tests) %}
+    <ul class="test-list">
+        {% for test in tests %}
+            <li class="test-list__item" data-subject="{{ test.subject }}">
+                <a href="{{ test.summary_link }}">
+                    <span class="test-list__icon" aria-hidden="true">
+                        {% if test.icon in ["NETL", "ENTL", "FATL"] %}
+                            <img src="/assets/images/{{ test.icon }}.png" alt="" />
+                        {% else %}
+                            <i class="{{ test.icon }} fa-fw"></i>
+                        {% endif %}
+                    </span>
+                    <span class="test-list__subject">{{ test.subject_name }}</span>
+                    <span class="test-list__material">{{ test.test_material }}</span>
+                </a>
+
+                {% if test.resources %}
+                    <ul class="test-list__resources">
+                        {% for resource in test.resources %}
+                            <li>
+                                <a href="{{ resource.link }}" target="_blank" rel="noopener noreferrer">
+                                    {{ resource.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endmacro %}

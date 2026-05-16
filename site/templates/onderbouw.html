@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Onderbouw{% endblock %}
+{% block meta_description %}Samenvattingen uit de onderbouw{% endblock %}
+{% block og_title %}Onderbouw - school.gijs6.nl{% endblock %}
+{% block og_description %}Samenvattingen uit de onderbouw{% endblock %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="/assets/styles/home.css" />
+{% endblock %}
+
+{% block content %}
+    <header>
+        <h1>Onderbouw</h1>
+        <p>Samenvattingen uit de onderbouw</p>
+        <a href="/">
+            <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+            Naar overzicht
+        </a>
+    </header>
+
+    <section class="year-list year-list--archive">
+        {% for year, pages in onderbouw_data.items() %}
+            <section class="year-list__year">
+                <h2>{{ year }}</h2>
+                <ul class="test-list">
+                    {% for page in pages %}
+                        <li class="test-list__item">
+                            <a href="{{ page.link }}">{{ page.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endfor %}
+    </section>
+{% endblock %}

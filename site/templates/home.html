@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% from "macros.html" import tests_list %}
+
 {% block meta_description %}
     Zelfgemaakte samenvattingen en linkjes voor toetsen
 {% endblock %}
@@ -19,63 +21,33 @@
             Welkom! Op deze prachtige site vind je al mijn zelfgemaakte samenvattingen en linkjes voor heel veel toetsen.
         </p>
         <p>Succes met leren en veel maak er wat moois van!</p>
-        <p class="author">
-            ~ Gemaakt met liefde en heel veel geduld door <a href="https://gijs6.nl" rel="author">Gijs</a>
+        <p>
+            ~ Gemaakt met liefde en heel veel geduld door
+            <a href="https://gijs6.nl"
+               target="_blank"
+               rel="author noopener noreferrer">Gijs</a>
         </p>
     </header>
 
-    <main>
-        <section class="years">
-            {% for year, year_data in homepage_data.items() %}
-                <h2>{{ year }}</h2>
+    <section class="year-list">
+        {% for year, year_data in homepage_data.items() %}
+            <section class="year-list__year">
+                <h2>
+                    <a class="year-list__year-link" href="/{{ year }}/">{{ year }}</a>
+                </h2>
                 {% for period, tests in year_data.items() %}
-                    <h3>{{ period }}</h3>
-                    <ul>
-                        {% for test in tests %}
-                            <li class="test">
-                                <span class="icon">
-                                    {% if test.icon in ["NETL", "ENTL", "FATL"] %}
-                                        <img src="/assets/images/{{ test.icon }}.png"
-                                             alt="Een vlag om het vak {{ test.icon }} te duiden" />
-                                    {% else %}
-                                        <i class="{{ test.icon }}"></i>
-                                    {% endif %}
-                                </span>
-                                <a href="{{ test.summary_link }}">
-                                    <span class="subject">{{ test.subject_name }}:</span>
-                                    <span class="material">{{ test.test_material }}</span>
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                                {% if test.resources %}
-                                    <ul class="resources">
-                                        {% for resource in test.resources %}
-                                            <li>
-                                                <a href="{{ resource.link }}">
-                                                    {{ resource.title }}
-                                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                                </a>
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
-                                {% endif %}
-                            </li>
-                        {% endfor %}
-                    </ul>
+                    <section class="year-list__period">
+                        <h3 class="year-list__period-heading">
+                            <a class="year-list__period-link" href="/{{ year }}/{{ period }}/">{{ period }}</a>
+                        </h3>
+                        {{ tests_list(tests) }}
+                    </section>
                 {% endfor %}
-            {% endfor %}
-        </section>
+            </section>
+        {% endfor %}
+    </section>
 
-        <section class="years archive">
-            {% for year, pages in archive_data.items() %}
-                <h2>{{ year }}</h2>
-                <ul>
-                    {% for page in pages %}
-                        <li class="test">
-                            <a href="{{ page.link }}">{{ page.title }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            {% endfor %}
-        </section>
-    </main>
+    <p>
+        <a href="/onderbouw/">Bekijk samenvattingen uit de onderbouw</a>
+    </p>
 {% endblock %}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% from "macros.html" import breadcrumbs, tests_list %}
+
+{% block title %}{{ year }}{% endblock %}
+{% block canonical_path %}/{{ year }}/{% endblock %}
+{% block og_url %}/{{ year }}/{% endblock %}
+{% block meta_description %}Samenvattingen {{ year }}{% endblock %}
+{% block og_title %}{{ year }} - school.gijs6.nl{% endblock %}
+{% block og_description %}Samenvattingen {{ year }}{% endblock %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="/assets/styles/home.css" />
+{% endblock %}
+
+{% block content %}
+    <header>
+        {{ breadcrumbs([{"label": "Home", "url": "/"}], year) }}
+    </header>
+
+    <section class="year-list">
+        <h1>{{ year }}</h1>
+
+        {% for period, tests in year_data.items() %}
+            <section class="year-list__period">
+                <h2 class="year-list__period-heading">
+                    <a class="year-list__period-link" href="/{{ year }}/{{ period }}/">{{ period }}</a>
+                </h2>
+                {{ tests_list(tests) }}
+            </section>
+        {% endfor %}
+    </section>
+{% endblock %}

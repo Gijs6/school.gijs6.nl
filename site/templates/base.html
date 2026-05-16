@@ -8,7 +8,6 @@
         <meta name="description"
               content="{%- block meta_description -%}Samenvattingen voor school{%- endblock -%}">
         <meta name="author" content="Gijs ten Berg">
-        <meta name="generator" content="Custom SSG (binder.py)">
 
         <link rel="canonical"
               href="https://school.gijs6.nl{%- block canonical_path -%}/{%- endblock -%}">
@@ -33,8 +32,6 @@
 
         <link rel="stylesheet" href="/assets/styles/skeleton.css">
         <link rel="stylesheet" href="/assets/styles/base.css">
-        <link rel="stylesheet" href="/assets/styles/colors.css">
-        <link rel="stylesheet" href="/assets/styles/article.css">
         {% block extra_head %}{% endblock %}
 
         <link rel="me" href="https://gijs6.nl">
@@ -55,31 +52,44 @@
                 crossorigin="anonymous"
                 defer></script>
     </head>
-    <body class="site-body">
-        {% block content %}{% endblock %}
-        <footer class="site-footer">
-            <a class="footer-author" href="https://gijs6.nl" target="_blank">Door <strong>Gijs ten Berg</strong></a>
+    <body>
+        <main>
+            {% block content %}{% endblock %}
+        </main>
 
-            <a class="footer-license"
-               href="https://creativecommons.org/public-domain/cc0/"
-               target="_blank"
-               rel="license noopener">CC0</a>
+        <footer>
+            <ul>
+                <li>
+                    <address>
+                        <a href="https://gijs6.nl"
+                           target="_blank"
+                           rel="author noopener noreferrer">Door <span>Gijs ten Berg</span></a>
+                    </address>
+                </li>
 
-            <a class="footer-contact" href="https://gijs6.nl/contact">Contact</a>
+                <li>
+                    <a href="https://creativecommons.org/public-domain/cc0/"
+                       target="_blank"
+                       rel="license noopener noreferrer">CC0</a>
+                </li>
 
-            <a class="footer-repo"
-               href="https://github.com/Gijs6/school.gijs6.nl"
-               target="_blank"
-               rel="noopener">Repository</a>
+                <li>
+                    <a href="https://gijs6.nl/contact"
+                       target="_blank"
+                       rel="noopener noreferrer">Contact</a>
+                </li>
 
-            <a class="footer-source"
-               href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
-               target="_blank"
-               rel="noopener">Broncode</a>
-
-            <a class="footer-feeds" href="/rss.xml">RSS</a>
-
-            <a class="footer-feeds" href="/atom.xml">Atom</a>
+                <li>
+                    <a href="https://github.com/Gijs6/school.gijs6.nl"
+                       target="_blank"
+                       rel="noopener noreferrer">Repository</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
+                       target="_blank"
+                       rel="noopener noreferrer">Broncode</a>
+                </li>
+            </ul>
         </footer>
     </body>
 </html>
