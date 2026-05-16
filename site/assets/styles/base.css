@@ -6,13 +6,13 @@
     --accent: light-dark(var(--color-blue-7), var(--color-blue-4));
 
     --subject-biol: light-dark(var(--color-green-7), var(--color-green-5));
-    --subject-entl: light-dark(var(--color-violet-7), var(--color-violet-5));
-    --subject-fatl: light-dark(var(--color-indigo-7), var(--color-indigo-4));
+    --subject-entl: light-dark(var(--color-red-7), var(--color-red-5));
+    --subject-fatl: light-dark(var(--color-blue-7), var(--color-blue-4));
     --subject-netl: light-dark(var(--color-orange-7), var(--color-orange-5));
     --subject-nat: light-dark(var(--color-cyan-8), var(--color-cyan-4));
-    --subject-schk: light-dark(var(--color-grape-7), var(--color-grape-4));
-    --subject-wisb: light-dark(var(--color-yellow-8), var(--color-yellow-5));
-    --subject-maat: light-dark(var(--color-pink-7), var(--color-pink-4));
+    --subject-schk: light-dark(var(--color-lime-7), var(--color-lime-5));
+    --subject-wisb: light-dark(var(--color-violet-7), var(--color-violet-5));
+    --subject-maat: light-dark(var(--color-yellow-8), var(--color-yellow-5));
     --subject-nlt: light-dark(var(--color-teal-7), var(--color-teal-4));
 }
 
