@@ -14,12 +14,12 @@
 {% endblock %}
 
 {% block content %}
-    <header>
+    <header class="year__header">
         {{ breadcrumbs([{"label": "Home", "url": "/"}], year) }}
     </header>
 
     <section class="year-list">
-        <h1>{{ year }}</h1>
+        <h1 class="year-list__heading">{{ year }}</h1>
 
         {% for period, tests in year_data.items() %}
             <section class="year-list__period">

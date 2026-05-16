@@ -53,39 +53,44 @@
                 defer></script>
     </head>
     <body>
-        <main>
+        <main class="page__main">
             {% block content %}{% endblock %}
         </main>
 
-        <footer>
-            <ul>
-                <li>
-                    <address>
-                        <a href="https://gijs6.nl"
+        <footer class="page__footer">
+            <ul class="page__footer-list">
+                <li class="page__footer-item">
+                    <address class="page__footer-address">
+                        <a class="page__footer-link"
+                           href="https://gijs6.nl"
                            target="_blank"
-                           rel="author noopener noreferrer">Door <span>Gijs ten Berg</span></a>
+                           rel="author noopener noreferrer">Door <span class="page__footer-author">Gijs ten Berg</span></a>
                     </address>
                 </li>
 
-                <li>
-                    <a href="https://creativecommons.org/public-domain/cc0/"
+                <li class="page__footer-item">
+                    <a class="page__footer-link"
+                       href="https://creativecommons.org/public-domain/cc0/"
                        target="_blank"
                        rel="license noopener noreferrer">CC0</a>
                 </li>
 
-                <li>
-                    <a href="https://gijs6.nl/contact"
+                <li class="page__footer-item">
+                    <a class="page__footer-link"
+                       href="https://gijs6.nl/contact"
                        target="_blank"
                        rel="noopener noreferrer">Contact</a>
                 </li>
 
-                <li>
-                    <a href="https://github.com/Gijs6/school.gijs6.nl"
+                <li class="page__footer-item">
+                    <a class="page__footer-link"
+                       href="https://github.com/Gijs6/school.gijs6.nl"
                        target="_blank"
                        rel="noopener noreferrer">Repository</a>
                 </li>
-                <li>
-                    <a href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
+                <li class="page__footer-item">
+                    <a class="page__footer-link"
+                       href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
                        target="_blank"
                        rel="noopener noreferrer">Broncode</a>
                 </li>

@@ -15,15 +15,16 @@
 {% endblock %}
 
 {% block content %}
-    <header>
-        <h1>Samenvattingen :)</h1>
-        <p>
+    <header class="home__header">
+        <h1 class="home__title">Samenvattingen :)</h1>
+        <p class="home__intro">
             Welkom! Op deze prachtige site vind je al mijn zelfgemaakte samenvattingen en linkjes voor heel veel toetsen.
         </p>
-        <p>Succes met leren en veel maak er wat moois van!</p>
-        <p>
+        <p class="home__intro">Succes met leren en veel maak er wat moois van!</p>
+        <p class="home__intro">
             ~ Gemaakt met liefde en heel veel geduld door
-            <a href="https://gijs6.nl"
+            <a class="home__author-link"
+               href="https://gijs6.nl"
                target="_blank"
                rel="author noopener noreferrer">Gijs</a>
         </p>
@@ -32,7 +33,7 @@
     <section class="year-list">
         {% for year, year_data in homepage_data.items() %}
             <section class="year-list__year">
-                <h2>
+                <h2 class="year-list__year-heading">
                     <a class="year-list__year-link" href="/{{ year }}/">{{ year }}</a>
                 </h2>
                 {% for period, tests in year_data.items() %}
@@ -47,7 +48,7 @@
         {% endfor %}
     </section>
 
-    <p>
-        <a href="/onderbouw/">Bekijk samenvattingen uit de onderbouw</a>
+    <p class="home__onderbouw-note">
+        <a class="home__onderbouw-link" href="/onderbouw/">Bekijk samenvattingen uit de onderbouw</a>
     </p>
 {% endblock %}

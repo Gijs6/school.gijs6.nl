@@ -14,7 +14,7 @@
 {% endblock %}
 
 {% block content %}
-    <header>
+    <header class="period__header">
         {{ breadcrumbs([
                 {"label": "Home", "url": "/"},
                 {"label": year, "url": "/" ~ year ~ "/"}
@@ -22,7 +22,7 @@
     </header>
 
     <section class="year-list">
-        <h1>{{ year }}/{{ period }}</h1>
+        <h1 class="year-list__heading">{{ year }}/{{ period }}</h1>
 
         {{ tests_list(tests) }}
     </section>

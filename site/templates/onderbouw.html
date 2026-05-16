@@ -10,11 +10,11 @@
 {% endblock %}
 
 {% block content %}
-    <header>
-        <h1>Onderbouw</h1>
-        <p>Samenvattingen uit de onderbouw</p>
-        <a href="/">
-            <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+    <header class="onderbouw__header">
+        <h1 class="onderbouw__title">Onderbouw</h1>
+        <p class="onderbouw__description">Samenvattingen uit de onderbouw</p>
+        <a class="onderbouw__back-link" href="/">
+            <i class="fa-solid fa-arrow-left onderbouw__back-icon" aria-hidden="true"></i>
             Naar overzicht
         </a>
     </header>
@@ -22,11 +22,11 @@
     <section class="year-list year-list--archive">
         {% for year, pages in onderbouw_data.items() %}
             <section class="year-list__year">
-                <h2>{{ year }}</h2>
+                <h2 class="year-list__year-heading">{{ year }}</h2>
                 <ul class="test-list">
                     {% for page in pages %}
                         <li class="test-list__item">
-                            <a href="{{ page.link }}">{{ page.title }}</a>
+                            <a class="test-list__link" href="{{ page.link }}">{{ page.title }}</a>
                         </li>
                     {% endfor %}
                 </ul>

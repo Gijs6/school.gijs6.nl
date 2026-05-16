@@ -3,9 +3,11 @@
 {% block title %}404 - Pagina niet gevonden{% endblock %}
 
 {% block content %}
-    <h1 class="error-code">404</h1>
-    <p class="error-message">Oeps! Dat is geen pagina :(</p>
-    <p>
-        <a class="error-backlink" href="/">Terug naar home</a>
-    </p>
+    <section class="page-error">
+        <h1 class="page-error__title">404</h1>
+        <p class="page-error__message">Oeps! Dat is geen pagina :(</p>
+        <p class="page-error__back">
+            <a class="page-error__back-link" href="/">Terug naar home</a>
+        </p>
+    </section>
 {% endblock %}

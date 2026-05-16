@@ -17,12 +17,12 @@
     <ul class="test-list">
         {% for test in tests %}
             <li class="test-list__item" data-subject="{{ test.subject }}">
-                <a href="{{ test.summary_link }}">
+                <a class="test-list__link" href="{{ test.summary_link }}">
                     <span class="test-list__icon" aria-hidden="true">
                         {% if test.icon in ["NETL", "ENTL", "FATL"] %}
-                            <img src="/assets/images/{{ test.icon }}.png" alt="" />
+                            <img class="test-list__icon-image" src="/assets/images/{{ test.icon }}.png" alt="" />
                         {% else %}
-                            <i class="{{ test.icon }} fa-fw"></i>
+                            <i class="{{ test.icon }} fa-fw test-list__icon-symbol"></i>
                         {% endif %}
                     </span>
                     <span class="test-list__subject">{{ test.subject_name }}</span>
@@ -32,8 +32,11 @@
                 {% if test.resources %}
                     <ul class="test-list__resources">
                         {% for resource in test.resources %}
-                            <li>
-                                <a href="{{ resource.link }}" target="_blank" rel="noopener noreferrer">
+                            <li class="test-list__resource-item">
+                                <a class="test-list__resource-link"
+                                   href="{{ resource.link }}"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
                                     {{ resource.title }}
                                 </a>
                             </li>

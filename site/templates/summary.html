@@ -72,15 +72,15 @@
         {% endif %}
     </header>
 
-    <noscript>
-        <p>
+    <noscript class="summary__noscript">
+        <p class="summary__noscript-text">
             Om formules e.d. te kunnen tonen heeft deze site JavaScript nodig. Je kunt dit aanzetten in de instellingen van je browser.
         </p>
     </noscript>
 
     <article class="summary__body" data-subject="{{ meta.subject }}">
         {%- if meta.subject_name and (meta.title or meta.short) -%}
-            <hgroup>
+            <hgroup class="summary__hgroup">
                 <h1 class="summary__title">
                     {{ meta.subject_name }}
                     {%- if meta.year and meta.period %}
@@ -96,10 +96,10 @@
 
         {%- if toc and toc.strip() -%}
             <nav class="summary__toc" aria-label="Inhoudsopgave">
-                <details>
-                    <summary>
-                        <i class="fa-solid fa-chevron-down fa-fw"></i>
-                        <i class="fa-solid fa-chevron-up fa-fw"></i>
+                <details class="summary__toc-details">
+                    <summary class="summary__toc-summary">
+                        <i class="fa-solid fa-chevron-down fa-fw summary__toc-icon summary__toc-icon--close"></i>
+                        <i class="fa-solid fa-chevron-up fa-fw summary__toc-icon summary__toc-icon--open"></i>
                         <h2 class="summary__toc-heading">Inhoudsopgave</h2>
                     </summary>
                     {{ toc | safe }}
