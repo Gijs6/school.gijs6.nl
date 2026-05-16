@@ -4,6 +4,7 @@ import sys
 import json
 import time
 import yaml
+import shutil
 from colorama import Fore, Style
 
 from .config import (
@@ -20,7 +21,8 @@ BASE64_IMAGE_PATTERN = re.compile(r'<img[^>]*src="data:image/[^"]*"[^>]*>')
 
 
 class ProgressBar:
-    LINE_WIDTH = 70
+    # Chars in the progress line excluding the bar itself: "  " + prefix(10) + " [" + "] NNN/NNN (99.9s)" = ~31
+    _OVERHEAD = 31
 
     def __init__(self, total, prefix="", width=25):
         self.total = max(total, 1)
@@ -33,23 +35,33 @@ class ProgressBar:
         self.current += n
         self._render()
 
+    def _bar_width(self):
+        term_width = shutil.get_terminal_size((80, 24)).columns
+        return max(5, min(self.width, term_width - self._OVERHEAD))
+
+    def _term_width(self):
+        return shutil.get_terminal_size((80, 24)).columns
+
     def _render(self):
         ratio = min(self.current / self.total, 1.0)
-        filled = int(self.width * ratio)
+        bar_width = self._bar_width()
+        filled = int(bar_width * ratio)
         bar = "=" * filled
-        if filled < self.width:
+        if filled < bar_width:
             bar += ">"
-            bar += " " * (self.width - filled - 1)
+            bar += " " * (bar_width - filled - 1)
         elapsed = time.time() - self.start_time
         line = f"  {self.prefix:10} [{bar}] {self.current:>3}/{self.total:<3} ({elapsed:.1f}s)"
-        sys.stdout.write(f"\r{line:<{self.LINE_WIDTH}}")
+        max_width = self._term_width() - 1
+        sys.stdout.write(f"\r{line:<{max_width}}"[:max_width + 1])
         sys.stdout.flush()
 
     def finish(self):
         elapsed = (time.time() - self.start_time) * 1000
         count = self.current if self.current > 0 else self.total
         line = f"  {self.prefix:10} {Fore.GREEN}done{Style.RESET_ALL} ({count} items, {elapsed:.0f}ms)"
-        sys.stdout.write(f"\r{line:<{self.LINE_WIDTH}}\n")
+        max_width = self._term_width() - 1
+        sys.stdout.write(f"\r{line:<{max_width}}\n")
         sys.stdout.flush()
 
 
