@@ -197,6 +197,10 @@
     }
 }
 
+.onderbouw__header {
+    margin-bottom: var(--spacing-lg);
+}
+
 .home__onderbouw-note {
     margin-top: var(--spacing-2xl);
     margin-bottom: var(--spacing-xl);

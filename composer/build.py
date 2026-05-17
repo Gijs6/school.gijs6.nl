@@ -314,7 +314,7 @@ def process_onderbouw_files(build_dir, template_env):
     progress.finish()
 
     sorted_data = {}
-    for year in sorted(onderbouw_data.keys(), key=lambda x: int(x[0])):
+    for year in sorted(onderbouw_data.keys(), key=lambda x: int(x[0]), reverse=True):
         sorted_data[year] = sorted(onderbouw_data[year], key=lambda p: p["title"])
 
     return sorted_data
