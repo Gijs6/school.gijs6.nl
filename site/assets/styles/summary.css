@@ -165,6 +165,11 @@
         }
     }
 
+    > h2 {
+        border-bottom: 1px solid light-dark(var(--color-gray-4), var(--color-gray-6));
+        padding-bottom: var(--spacing-xs);
+    }
+
     p {
         mjx-container[jax="CHTML"][display="true"] {
             margin: var(--spacing-2xs) 0 !important;
