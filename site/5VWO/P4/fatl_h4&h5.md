@@ -3,40 +3,6 @@ subject: FATL
 title: H4 & H5
 ---
 
-## De lijdende vorm
-
-Zinnen kunnen in de **bedrijvende** (actieve) of de **lijdende** (passieve) vorm staan. De lijdende vorm gebruik je als je de handeling centraal wilt stellen in plaats van de persoon die hem verricht.
-
-De lijdende vorm maak je met *être* + voltooid deelwoord (+ *par*):
-
-*Chaque année, des millions d'euros sont dépensés sur Internet.* $\Rightarrow$ Elk jaar worden er miljoenen euro's uitgegeven op internet.
-
-### Een actieve zin omzetten naar een passieve zin
-
-Je zet een actieve zin in vier stappen om naar een passieve zin:
-
-1. Maak het **lijdend voorwerp** uit de actieve zin het **onderwerp** van de passieve zin.
-2. Bepaal de **tijd** van de actieve zin en zet *être* in dezelfde tijd.
-3. Zet het hoofdwerkwoord om in een **voltooid deelwoord**.
-4. Zet het onderwerp van de actieve zin achter *par* (door).
-
-*Mes parents versent mon argent de poche sur mon compte en banque.*  
-$\Rightarrow$ *Mon argent de poche est versé sur mon compte en banque par mes parents.*  
-Mijn zakgeld wordt op mijn bankrekening overgemaakt door mijn ouders.
-
-De lijdende vorm kan in alle werkwoordstijden voorkomen. Aan de vorm van *être* zie je in welke tijd de zin staat:
-
-| **Tijd**          | **Voorbeeld**                                                               | **Nederlandse vertaling**                                                     |
-| ----------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| **présent**       | *Mon argent de poche est versé ... par mes parents.*                          | Mijn zakgeld wordt overgemaakt ... door mijn ouders.                            |
-| **imparfait**     | *Mon argent de poche était versé ... par mes parents.*                        | Mijn zakgeld werd overgemaakt ... door mijn ouders.                             |
-| **passé composé** | *Mon argent de poche a été versé ... par mes parents.*                        | Mijn zakgeld is overgemaakt (geworden) ... door mijn ouders.                    |
-| **futur simple**  | *Mon argent de poche sera versé ... par mes parents.*                         | Mijn zakgeld zal worden overgemaakt ... door mijn ouders.                       |
-
-Als het onderwerp in de actieve zin onbepaald is (zoals bij *on* of *ils*), verdwijnt *par* in de passieve zin:
-
-*On payera une partie du montant.* $\Rightarrow$ *Une partie du montant sera payée.*
-
 ## Gebruik van *passé composé* en *imparfait*
 
 ### Passé composé
