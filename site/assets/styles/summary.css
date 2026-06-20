@@ -166,8 +166,14 @@
     }
 
     > h2 {
+        position: sticky;
+        top: 0;
+        background: light-dark(white, black);
         border-bottom: 1px solid light-dark(var(--color-gray-4), var(--color-gray-6));
+        margin-block-start: 0;
+        padding-block-start: var(--spacing-md);
         padding-bottom: var(--spacing-xs);
+        z-index: 10;
     }
 
     p {
