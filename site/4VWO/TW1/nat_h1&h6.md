@@ -6,9 +6,7 @@ description: Elektriciteit & onderzoeksvaardigheden
 
 ## Lading, energie en vermogen
 
-Elektriciteit is **bewegende lading**. Verschillende ladingen trekken elkaar aan, dezelfde ladingen stoten elkaar af. De kleinste lading is de **elementaire lading** $e$ ($1{,}6 \cdot 10^{-19}\,\mathrm{C}$). Stroom kan alleen lopen als de stroomkring gesloten is.  
-**Geleiders** zijn materialen die stroom doorlaten. **Isolatoren** laten geen stroom door.  
-De stroomsterkte meet je met een **stroommeter** (in serie). De spanning meet je met een **spanningsmeter** (parallel).
+Elektriciteit is **bewegende lading**. Verschillende ladingen trekken elkaar aan, dezelfde ladingen stoten elkaar af. De kleinste lading is de **elementaire lading** $e$ ($1{,}6 \cdot 10^{-19}\,\mathrm{C}$). Stroom kan alleen lopen als de stroomkring gesloten is. **Geleiders** zijn materialen die stroom doorlaten. **Isolatoren** laten geen stroom door. De stroomsterkte meet je met een **stroommeter** (in serie) en de spanning met een **spanningsmeter** (parallel).
 
 Het **vermogen** is de hoeveelheid elektrische energie die per seconde wordt verbruikt.
 
@@ -28,11 +26,9 @@ Hierin is $\eta$ het rendement (als getal; als percentage: $\times 100\%$), $W_\
 
 ## Spanning en stroomsterkte
 
-In een metalen geleider zorgen **vrije elektronen** voor de stroom. De atoomkernen bewegen niet. In vloeistoffen kunnen ook **ionen** de stroom geleiden.  
-De **spanning** ($U$) geeft aan hoeveel elektrische energie elke coulomb lading heeft ($1\,\mathrm{V} = 1\,\mathrm{J}/\mathrm{C}$).  
-De **stroomsterkte** ($I$) geeft aan hoeveel lading er per seconde langs een punt gaat ($1\,\mathrm{A} = 1\,\mathrm{C}/\mathrm{s}$).  
-De elektrische stroom loopt per afspraak van plus naar min. Elektronen bewegen van min naar plus.  
-Om schakelingen overzichtelijk te tekenen maak je gebruik van een **schakelschema**.
+In een metalen geleider zorgen **vrije elektronen** voor de stroom. In vloeistoffen kunnen ook **ionen** de stroom geleiden.
+
+De **spanning** ($U$) geeft aan hoeveel elektrische energie elke coulomb lading heeft ($1\,\mathrm{V} = 1\,\mathrm{J}/\mathrm{C}$). De **stroomsterkte** ($I$) geeft aan hoeveel lading er per seconde langs een punt gaat ($1\,\mathrm{A} = 1\,\mathrm{C}/\mathrm{s}$). Per afspraak loopt de stroom van plus naar min, terwijl elektronen van min naar plus bewegen. Om schakelingen overzichtelijk te tekenen maak je gebruik van een **schakelschema**.
 
 ## Weerstand
 
@@ -42,8 +38,7 @@ $$R = \frac{U}{I}$$
 
 Hierin is $R$ de weerstand (in $\mathrm{\Omega}$), $U$ de spanning (in $\mathrm{V}$) en $I$ de stroomsterkte (in $\mathrm{A}$).
 
-De **soortelijke weerstand** laat zien hoe goed of slecht een materiaal geleidt. Hoe langer en dunner de draad, hoe hoger de weerstand. De weerstand hangt vaak af van de temperatuur.  
-Apparaten of draden waarbij de weerstand constant is, noem je **ohmse weerstanden**. Veel draden en apparaten hebben geen constante weerstand, omdat bij hogere spanningen de draden warm worden en dus een andere weerstand krijgen.
+De **soortelijke weerstand** laat zien hoe goed of slecht een materiaal geleidt. Hoe langer en dunner de draad, hoe hoger de weerstand. De weerstand hangt vaak af van de temperatuur. Apparaten of draden waarbij de weerstand constant is, noem je **ohmse weerstanden**. Veel draden en apparaten hebben geen constante weerstand, omdat bij hogere spanningen de draden warm worden en dus een andere weerstand krijgen.
 
 Een **schuifweerstand** is een speciale weerstand waarvan je de waarde makkelijk kan aanpassen. Een schuifweerstand kan op 2 manieren gebruikt worden: van A naar B (weerstand aanpasbaar) of van A naar C (weerstand vast). Een schuifweerstand kun je ook gebruiken om in een combinatieschakeling de spanning aan te passen. Een deel van de spanning wordt dan verdeeld over het lampje en het eerste deel van de schuifweerstand, en de rest valt over het rechterdeel. Door de grootte van het rechterdeel aan te passen, verandert de spanning over het lampje.
 
@@ -59,8 +54,7 @@ Er zijn ook speciale halfgeleidende weerstanden waarvan de weerstand afhankelijk
 
 ## Schakelingen in huis
 
-In een huis zijn alle apparaten parallel aan elkaar geschakeld, zodat elk apparaat 230 V ontvangt. In een parallelschakeling wordt de stroomsterkte verdeeld tussen alle vertakkingen (**stroomdeling**). Elk apparaat heeft dus zijn eigen stroomkring.  
-In een serieschakeling wordt de spanning juist over elk apparaat verdeeld (**spanningsdeling**). De stroomsterkte is dan overal hetzelfde.
+In een huis zijn alle apparaten parallel aan elkaar geschakeld, zodat elk apparaat 230 V ontvangt. In een parallelschakeling wordt de stroomsterkte verdeeld tussen alle vertakkingen (**stroomdeling**). Elk apparaat heeft dus zijn eigen stroomkring. In een serieschakeling wordt de spanning juist over elk apparaat verdeeld (**spanningsdeling**). De stroomsterkte is dan overal hetzelfde.
 
 |                   | Serieschakeling                           | Parallelschakeling                                                  |
 | :---------------- | :---------------------------------------- | :------------------------------------------------------------------ |
@@ -68,9 +62,11 @@ In een serieschakeling wordt de spanning juist over elk apparaat verdeeld (**spa
 | **Stroomsterkte** | $I_\text{tot} = I_1 = I_2 = \ldots$      | $I_\text{tot} = I_1 + I_2 + \ldots$                                |
 | **Weerstand**     | $R_\text{tot} = R_1 + R_2 + \ldots$      | $\frac{1}{R_\text{tot}} = \frac{1}{R_1} + \frac{1}{R_2} + \ldots$ |
 
-In **combinatieschakelingen** gelden 2 wetten: de **wet van behoud van lading** (bij een splitsing blijft de totale stroom even groot) en de **wet van behoud van energie** (de energie van de bron is gelijk aan de totale energie die in de schakeling wordt omgezet). In een combinatieschakeling pas je de formules toe op de afzonderlijke delen.  
-Als er te veel apparaten op een **groep** worden aangesloten, kan de stroomsterkte boven 16 A uitkomen: **overbelasting**. Bij **kortsluiting** raken 2 elektriciteitsdraden elkaar, waardoor de stroom een "shortcut" neemt. De weerstand wordt dan heel klein en de stroomsterkte enorm groot. De **zekeringen** in een meterkast beveiligen elke groep door de stroom uit te zetten als de stroomsterkte te groot wordt.  
-Een **aardlekschakelaar** vergelijkt constant de ingaande stroomsterkte met de uitgaande. Als er een verschil groter dan 30 mA ontstaat (stroom weglekt), zet deze schakelaar de stroom voor **het hele huis** uit.
+In **combinatieschakelingen** gelden 2 wetten: de **wet van behoud van lading** (bij een splitsing blijft de totale stroom even groot) en de **wet van behoud van energie** (de energie van de bron is gelijk aan de totale energie die in de schakeling wordt omgezet). De formules pas je toe op de afzonderlijke delen.
+
+Als er te veel apparaten op een **groep** worden aangesloten, kan de stroomsterkte boven 16 A uitkomen: **overbelasting**. Bij **kortsluiting** raken 2 elektriciteitsdraden elkaar, waardoor de stroom een "shortcut" neemt. De weerstand wordt dan heel klein en de stroomsterkte enorm groot. De **zekeringen** in de meterkast beveiligen elke groep door de stroom uit te zetten als de stroomsterkte te groot wordt.
+
+Een **aardlekschakelaar** vergelijkt constant de ingaande en uitgaande stroomsterkte. Als het verschil groter is dan 30 mA, zet hij de stroom voor **het hele huis** uit.
 
 ## Significantie
 
