@@ -4,12 +4,17 @@
 
     .year-list__heading {
         margin: 0;
-        margin-bottom: var(--spacing-sm);
+        margin-bottom: var(--spacing-lg);
     }
 
     .year-list__year {
+        &:not(:first-child) {
+            border-top: 1px solid var(--color-gray-3);
+            padding-top: var(--spacing-lg);
+        }
+
         &:not(:last-child) {
-            margin-bottom: var(--spacing-xl);
+            margin-bottom: var(--spacing-lg);
         }
 
         .year-list__year-heading {
@@ -29,7 +34,7 @@
 
     .year-list__period {
         &:not(:last-child) {
-            margin-bottom: var(--spacing-lg);
+            margin-bottom: var(--spacing-md);
         }
 
         .year-list__period-heading {
@@ -54,7 +59,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-2xs);
 
     .test-list__item {
         padding-left: var(--spacing-sm);
@@ -141,6 +146,7 @@
             text-decoration: none;
             min-width: 0;
             max-width: fit-content;
+            padding-block: var(--spacing-2xs);
 
             &:hover .test-list__subject {
                 text-decoration: underline;
@@ -179,7 +185,7 @@
 
         .test-list__resources {
             list-style: none;
-            padding: var(--spacing-2xs) 0 0 calc(1.25em + var(--spacing-sm));
+            padding: 0 0 0 calc(1.25em + var(--spacing-sm));
             margin: 0;
 
             .test-list__resource-item {
@@ -187,6 +193,8 @@
                     font-size: 0.875em;
                     text-decoration: none;
                     color: var(--color-gray);
+                    display: inline-block;
+                    padding-bottom: var(--spacing-2xs);
 
                     &:hover {
                         text-decoration: underline;
@@ -195,6 +203,10 @@
             }
         }
     }
+}
+
+.home__title {
+    margin-top: 0;
 }
 
 .onderbouw__header {
