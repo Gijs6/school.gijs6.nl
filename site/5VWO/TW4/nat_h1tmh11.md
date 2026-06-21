@@ -3,7 +3,7 @@ subject: NAT
 title: H1 t/m H11 (geen H3)
 ---
 
-> *Wil je per hoofdstuk leren? Gebruik dan de losse samenvattingen: [H1 & H6](/4VWO/TW1/nat_h1&h6), [H2](/4VWO/TW2/nat_h2), [H4](/4VWO/TW3/nat_h4), [H5](/4VWO/TW4/nat_h5), [H7](/5VWO/TW1/nat_h7), [H8](/5VWO/P4/nat_h8), [H9](/5VWO/TW2/nat_h9), [H10](/5VWO/TW3/nat_h10).*
+> **Wil je per hoofdstuk leren? Gebruik dan de losse samenvattingen: [H1 & H6](/4VWO/TW1/nat_h1&h6), [H2](/4VWO/TW2/nat_h2), [H4](/4VWO/TW3/nat_h4), [H5](/4VWO/TW4/nat_h5), [H7](/5VWO/TW1/nat_h7), [H8](/5VWO/P4/nat_h8), [H9](/5VWO/TW2/nat_h9), [H10](/5VWO/TW3/nat_h10).**
 
 ## Krachten en beweging
 
@@ -50,7 +50,7 @@ Er zijn veel soorten krachten:
 
 De snelheid van een voorwerp verandert alleen als de nettokracht niet nul is. Bij een nettokracht van nul is de snelheid constant: dit noem je een **eenparige** beweging. Dit is de **eerste wet van Newton**.
 
-Als de nettokracht wél aanwezig is, verandert de snelheid. De snelheidsverandering per seconde is de **versnelling**:
+Als de nettokracht wel aanwezig is, verandert de snelheid. De snelheidsverandering per seconde is de **versnelling**:
 
 $$a = \frac{\Delta v}{\Delta t}$$
 
@@ -332,7 +332,7 @@ Apparaten of draden waarbij de weerstand constant is, noem je **ohmse weerstande
 
 Een **schuifweerstand** is een speciale weerstand waarvan je de waarde makkelijk kan aanpassen. Een schuifweerstand kan op 2 manieren gebruikt worden: van A naar B (weerstand aanpasbaar) of van A naar C (weerstand vast). Een schuifweerstand kun je ook gebruiken om in een combinatieschakeling de spanning aan te passen. Een deel van de spanning wordt dan verdeeld over het lampje en het eerste deel van de schuifweerstand, en het andere deel gaat door het rechterdeel. Door de grootte van het rechterdeel aan te passen, verandert de spanning over het lampje.
 
-De weerstand van **halfgeleiders** kan worden aangepast door atomen toe te voegen. Een voorbeeld is de **diode**: een halfgeleider die stroom in één richting doorlaat. In de doorlaatrichting neemt het aantal vrije elektronen toe, in de sperrichting is het aantal vrije elektronen klein en loopt er geen stroom.
+De weerstand van **halfgeleiders** kan worden aangepast door atomen toe te voegen. Een voorbeeld is de **diode**: een halfgeleider die stroom in een richting doorlaat. In de doorlaatrichting neemt het aantal vrije elektronen toe, in de sperrichting is het aantal vrije elektronen klein en loopt er geen stroom.
 
 Er zijn ook speciale halfgeleidende weerstanden waarvan de weerstand afhankelijk is van omgevingsfactoren:
 
