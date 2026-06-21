@@ -145,7 +145,7 @@ Hierin is $W$ de arbeid (in $\mathrm{J}$), $F$ de kracht (in $\mathrm{N}$) en $s
 
 Alleen krachten in de richting van de beweging (of tegengesteld daaraan) verrichten arbeid. Bij een schuine kracht kijk je naar de component in de bewegingsrichting.
 
-![Kracht ontbinden (img-float-right)](images/nat_h9/kracht.jpg)
+![Kracht ontbinden (img-float-right)](images/nat_h1tmh11/kracht.jpg)
 
 Voor een kracht onder een hoek $\alpha$ met de bewegingsrichting geldt:
 
@@ -441,14 +441,14 @@ Hierin is $f$ de frequentie (in $\mathrm{Hz}$) en $T$ de trillingstijd (in $\mat
 
 Een **lopende golf** beweegt zich door een tussenstof. De toppen en dalen van zo'n golf verplaatsen zich dus in de tussenstof.
 
-![Lopende golf](images/nat_h7/lopende_golf.gif)
+![Lopende golf](images/nat_h1tmh11/lopende_golf.gif)
 
 Er zijn 2 soorten lopende golven:
 
 - **Transversale golven** bewegen op en neer. De trillingsrichting is dan loodrecht op de voortplantingsrichting, zoals golven in water.
 - **Longitudinale golven** zijn drukgolven: ze bewegen heen en weer door uit te rekken en samen te trekken. De trillingsrichting is dan hetzelfde als de voortplantingsrichting, zoals geluidsgolven (zie animatie).
 
-![Longitudinale golven (img-padding)](images/nat_h7/longitudinaal.gif)
+![Longitudinale golven (img-padding)](images/nat_h1tmh11/longitudinaal.gif)
 
 In lucht zijn alleen longitudinale golven mogelijk, omdat de deeltjes niet aan elkaar vast zitten.
 
@@ -458,7 +458,7 @@ Een trilling kun je weergeven in een **oscillogram** (een u,t-diagram). In dit d
 
 Een **zuivere toon** bestaat uit 1 losse trilling (met ook 1 frequentie). Het u,t-diagram van een zuivere toon ziet eruit als een sinuslijn.
 
-![Sinusvormig u,t-diagram van een zuivere toon](images/nat_h7/ut_zuiver.png)
+![Sinusvormig u,t-diagram van een zuivere toon](images/nat_h1tmh11/ut_zuiver.png)
 
 De formule die hoort bij het u,t-diagram van een zuivere toon is:
 
@@ -474,7 +474,7 @@ Hierin is $v_\text{max}$ de maximale snelheid (in $\mathrm{m}/\mathrm{s}$), $A$ 
 
 Een **samengestelde toon** is een samenstelling van meerdere trillingen met verschillende frequenties. De toonhoogte wordt bepaald door de frequentie van de laagste toon (de **grondtoon**). Het u,t-diagram heeft nog wel een herhalend patroon, maar het is geen sinuslijn.
 
-![u,t-diagram van een samengestelde toon met herhalend patroon](images/nat_h7/ut_samengesteld.png)
+![u,t-diagram van een samengestelde toon met herhalend patroon](images/nat_h1tmh11/ut_samengesteld.png)
 
 ### u,x-diagrammen
 
@@ -523,7 +523,7 @@ Om zweven uit te leggen moet je kijken naar **fase**. De fase ($\varphi$) is het
 
 Door de verschillende frequenties komen de golven soms **in fase** aan en soms **uit fase**. Als de golven in fase ($\Delta \varphi_\text{red} = 0$) aankomen, versterken ze elkaar. Als ze uit fase ($\Delta \varphi_\text{red} = \frac{1}{2}$) aankomen, heffen ze elkaar op. Doordat de frequenties niet gelijk zijn, wisselen die momenten steeds af.
 
-![Constructieve en destructieve interferentie](images/nat_h7/faseverschil.png)
+![Constructieve en destructieve interferentie](images/nat_h1tmh11/faseverschil.png)
 
 Het faseverschil tussen 2 tijdstippen voor 1 punt:
 
@@ -547,7 +547,7 @@ Op sommige plekken komen 2 toppen of 2 dalen tegelijk aan: de golven versterken 
 
 Door dit verschijnsel ontstaat een **interferentiepatroon** met **buiklijnen** (versterking, $\Delta \varphi = 0$) en **knooplijnen** (uitdoving, $\Delta \varphi = \frac{1}{2}$).
 
-![Interferentiepatronen (img-xl)](images/nat_h7/interferentie.png)
+![Interferentiepatronen (img-xl)](images/nat_h1tmh11/interferentie.png)
 
 Om te bepalen of een punt op een buiklijn of knooplijn ligt, kijk je naar het **weglengteverschil**: het verschil in afstand van beide bronnen tot het punt.
 
@@ -571,11 +571,11 @@ Op knooplijnen is de amplitude niet altijd helemaal nul. Dat kan alleen als de a
 
 Een **staande golf** ontstaat door interferentie van 2 lopende golven met dezelfde frequentie, golflengte en amplitude die in tegengestelde richting bewegen.
 
-![Een staande golf met subgolven (img-xl)](images/nat_h7/staande_golf_subgolven.gif)
+![Een staande golf met subgolven (img-xl)](images/nat_h1tmh11/staande_golf_subgolven.gif)
 
 Op sommige punten versterken de golven elkaar maximaal: dit zijn de **buiken**. Op andere punten doven de golven elkaar volledig uit: dit zijn de **knopen**. Een staande golf staat dus stil.
 
-![Een staande golf](images/nat_h7/staande_golf.gif)
+![Een staande golf](images/nat_h1tmh11/staande_golf.gif)
 
 ### Staande golven in buizen
 
@@ -585,7 +585,7 @@ Blaasinstrumenten werken met staande golven in een buis. In de buis zit een **lu
 
 Bij een **open buis** (beide uiteinden open) ontstaan aan de uiteinden altijd buiken, omdat de lucht daar vrij kan bewegen. De eenvoudigste staande golf is de **grondtoon**: dan ontstaat in het midden een knoop en past er precies een halve golf in de buis.
 
-![Grondtoon en boventonen in een open buis (img-padding)](images/nat_h7/open_buis.png)
+![Grondtoon en boventonen in een open buis (img-padding)](images/nat_h1tmh11/open_buis.png)
 
 Naast de grondtoon kunnen er ook **boventonen** ontstaan. Bij de eerste boventoon past er precies 1 golf in de buis (met 2 knopen). Bij elke boventoon komt er een knoop en een buik bij.
 
@@ -605,7 +605,7 @@ $$f_0 : f_1 : f_2 : f_3 = 1 : 2 : 3 : 4$$
 
 Bij een **eenzijdig gesloten buis** ontstaat bij de gesloten kant altijd een knoop (de lucht kan daar niet bewegen) en bij de open kant altijd een buik. Bij de grondtoon past er dan een kwart golflengte in de buis.
 
-![Grondtoon en boventonen in een eenzijdig gesloten buis (img-padding)](images/nat_h7/gesloten_buis.png)
+![Grondtoon en boventonen in een eenzijdig gesloten buis (img-padding)](images/nat_h1tmh11/gesloten_buis.png)
 
 Voor een eenzijdig gesloten buis geldt:
 
@@ -621,7 +621,7 @@ $$f_0 : f_1 : f_2 : f_3 = 1 : 3 : 5 : 7$$
 
 Wanneer een golf door een opening in een scherm gaat, kan deze **buigen** (uitwaaieren). **Sterke buiging treedt op wanneer de opening ongeveer even groot is als (of kleiner dan) de golflengte**. Bij een veel grotere opening buigt de golf nauwelijks.
 
-![Buiging bij een kleine en grote opening (img-padding) (img-xl)](images/nat_h7/buiging.png)
+![Buiging bij een kleine en grote opening (img-padding) (img-xl)](images/nat_h1tmh11/buiging.png)
 
 Een golfbundel waaiert tijdens het voortplanten steeds verder uit. Een grotere golflengte ten opzichte van de bundelbreedte zorgt voor sneller uitwaaieren.
 
@@ -629,7 +629,7 @@ Een golfbundel waaiert tijdens het voortplanten steeds verder uit. Een grotere g
 
 Als een golf tegen een obstakel aankomt in plaats van door een opening te gaan, krijg je **reflectie** (weerkaatsing). Het gedrag is vergelijkbaar met buiging, maar dan omgekeerd.
 
-![Reflectie bij een groot en klein obstakel (img-padding) (img-xl)](images/nat_h7/reflectie.png)
+![Reflectie bij een groot en klein obstakel (img-padding) (img-xl)](images/nat_h1tmh11/reflectie.png)
 
 Als het obstakel groot is ten opzichte van de golflengte, ontstaat er achter het obstakel een "schaduw": de golven buigen niet om het obstakel heen. Als het obstakel klein is, buigen de golven er wel omheen en is de gereflecteerde golf bolvormig, alsof het obstakel een puntbron is geworden.
 
