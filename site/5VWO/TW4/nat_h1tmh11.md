@@ -329,15 +329,15 @@ $$P = UI$$
 
 Hierin is $P$ het vermogen (in $\mathrm{W}$), $U$ de spanning (in $\mathrm{V}$) en $I$ de stroomsterkte (in $\mathrm{A}$).
 
-$$W = Pt$$
+$$E = Pt$$
 
-Hierin is $W$ de energie (in $\mathrm{J}$), $P$ het vermogen (in $\mathrm{W}$) en $t$ de tijd (in $\mathrm{s}$). Energie kun je ook meten in $\mathrm{kWh}$ ($1\,\mathrm{kWh} = 3{,}6\,\mathrm{MJ}$).
+Hierin is $E$ de energie (in $\mathrm{J}$), $P$ het vermogen (in $\mathrm{E}$) en $t$ de tijd (in $\mathrm{s}$). Energie kun je ook meten in $\mathrm{kWh}$ ($1\,\mathrm{kWh} = 3{,}6\,\mathrm{MJ}$).
 
 Het **rendement** van een apparaat is de factor van de ingaande energie die wordt omgezet in nuttige energie.
 
-$$\eta = \frac{W_\text{nut}}{W_\text{in}}$$
+$$\eta = \frac{E_\text{nut}}{E_\text{in}}$$
 
-Hierin is $\eta$ het rendement (als factor, of als percentage doe je $\times 100\%$), $W_\text{nut}$ de nuttige energie (in $\mathrm{J}$) en $W_\text{in}$ de ingaande energie (in $\mathrm{J}$).
+Hierin is $\eta$ het rendement (als factor, of als percentage doe je $\times 100\%$), $E_\text{nut}$ de nuttige energie (in $\mathrm{J}$) en $E_\text{in}$ de ingaande energie (in $\mathrm{J}$).
 
 ### Schakelingen in huis
 
