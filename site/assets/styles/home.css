@@ -59,12 +59,15 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-2xs);
+    gap: var(--spacing-xs);
 
     .test-list__item {
-        padding-left: var(--spacing-sm);
+        padding: var(--spacing-2xs) var(--spacing-sm);
         border-left: 3px solid var(--color-gray-4);
         margin-left: var(--spacing-sm);
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-xs);
 
         &[data-subject="BIOL"] {
             border-left-color: var(--subject-biol);
@@ -146,7 +149,6 @@
             text-decoration: none;
             min-width: 0;
             max-width: fit-content;
-            padding-block: var(--spacing-2xs);
 
             &:hover .test-list__subject {
                 text-decoration: underline;
@@ -187,14 +189,16 @@
             list-style: none;
             padding: 0 0 0 calc(1.25em + var(--spacing-sm));
             margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-xs);
 
             .test-list__resource-item {
                 .test-list__resource-link {
-                    font-size: 0.875em;
-                    text-decoration: none;
-                    color: var(--color-gray);
                     display: inline-block;
-                    padding-bottom: var(--spacing-2xs);
+                    font-size: 0.875em;
+                    color: var(--color-gray);
+                    text-decoration: none;
 
                     &:hover {
                         text-decoration: underline;
