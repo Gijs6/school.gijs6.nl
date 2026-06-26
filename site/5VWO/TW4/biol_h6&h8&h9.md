@@ -165,19 +165,6 @@ Een **energiestroomschema** toont op trofisch niveau wat er met de biomassa gebe
 - Deel **P** is de hoeveelheid organische stoffen die als **bouwstof** worden gebruikt  
 - Deel **R** is de hoeveelheid organische stoffen die als **brandstof** worden gebruikt  
 
-#### De Waddenzee
-
-Het beheer van de Waddenzee is complex vanwege botsende belangen tussen natuurbeheerders en vissers. Vissers wijzen vaak naar zeehonden als oorzaak van visafname, terwijl onderzoekers vooral milieufactoren als waterstromen, bodemschade en verminderde voedingsstoffen noemen.
-
-De primaire productie (groei van fytoplankton) wordt beïnvloed door:
-
-- **Licht**  
-  In de Waddenzee is de lichtvoorziening goed geregeld.
-- **Voedingsstoffen**  
-  Vroeger zorgde **eutrofiëring** (verrijking met voedingsstoffen) voor een explosieve groei van bepaalde soorten. Sinds er strengere milieuregels voor het lozen van nitraat en fosfaat gelden, is de primaire productie gedaald.
-- **Temperatuur**  
-  Hogere temperaturen veroorzaken een eerdere groei van plankton en vissen, waardoor de voedselketen verstoord wordt.
-
 ### Kringlopen
 
 #### Koolstofkringloop
