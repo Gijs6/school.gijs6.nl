@@ -8,7 +8,7 @@ description: Kenmerken van ecosystemen
 
 Ecosystemen functioneren dankzij de **kringlopen** van stoffen.
 
-Elke voedselketen begint met een **producent** die **anorganische stoffen** omzet in **organische stoffen**. Planten doen dit via **fotosynthese**. Ze gebruiken daarvoor de lichtenergie van de zon; het zijn dus **foto-autotrofe** organismen.  
+Elke voedselketen begint met een **producent** die **anorganische stoffen** omzet in **organische stoffen**. Planten doen dit via **fotosynthese**. Ze gebruiken daarvoor de lichtenergie van de zon en zijn daarmee **foto-autotrofe** organismen.  
 Ook sommige bacteriën zijn producenten. Bepaalde bacteriën in de grond maken gebruik van **chemosynthese**: ze bouwen organische stoffen op met energie die vrijkomt bij chemische reacties. Deze bacteriën zijn **chemo-autotroof**.  
 Door **voortgezette assimilatie** ontstaan andere organische stoffen. Hiervoor zijn stoffen uit de bodem nodig, zoals stikstof en fosfor.
 
@@ -96,7 +96,7 @@ Ammoniak reageert in de bodem met water tot ammonium-ionen ($\ce{NH4^+}$). Vervo
 Daarnaast zijn er manieren waarop de hoeveelheid stikstof in een ecosysteem toe- of afneemt:
 
 - **Stikstoffixerende bacteriën** halen stikstofgas ($\ce{N2}$) uit de lucht en zetten het om in ammoniak ($\ce{NH3}$).
-- Tijdens onweer reageren zuurstof en stikstof in de atmosfeer tot $\ce{NO_x}$ (zoals $\ce{NO2}$ of $\ce{NO3}$).
+- Tijdens onweer reageren zuurstof en stikstof in de atmosfeer tot $\ce{NO_x}$ (zoals $\ce{NO}$ of $\ce{NO2}$).
 - **Uitspoeling** is het wegspoelen van stikstof uit het ecosysteem naar het grondwater, bijvoorbeeld bij langdurige regen.
 - **Denitrificatie** zet nitraat om in stikstofgas, dat weer vrijkomt in de atmosfeer.
 

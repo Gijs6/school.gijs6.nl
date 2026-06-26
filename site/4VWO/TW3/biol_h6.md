@@ -9,11 +9,9 @@ description: Soorten & populaties
 De definitie van een **soort** was voor een lange tijd de overeenkomst in uiterlijke kenmerken en de mogelijkheid om vruchtbare nakomelingen te krijgen. Tegenwoordig wordt DNA gebruikt om deze indeling te verifiëren.
 Soms is de grens tussen soorten niet duidelijk, zoals bij **hybriden**: levensvatbare kruisingen tussen verschillende soorten. Hybriden zijn vaak niet vruchtbaar.
 
-Alle soorten worden ingedeeld op basis van verwantschap met andere soorten (**taxonomie**). De taxonomie plaatst organisme in steeds grotere groepen (**taxa**): **organismen** $\rightarrow$ **soorten** $\rightarrow$ **geslachten** $\rightarrow$ **families** $\rightarrow$ **orden** $\rightarrow$ **klassen** $\rightarrow$ **afdelingen** $\rightarrow$ **rijken** $\rightarrow$ **domeinen**. Hoe minder verwant 2 organismen aan elkaar zijn, hoe minder taxa ze delen.
+Alle soorten worden ingedeeld op basis van verwantschap met andere soorten (**taxonomie**), in steeds grotere groepen (**taxa**): **organismen** $\rightarrow$ **soorten** $\rightarrow$ **geslachten** $\rightarrow$ **families** $\rightarrow$ **orden** $\rightarrow$ **klassen** $\rightarrow$ **afdelingen** $\rightarrow$ **rijken** $\rightarrow$ **domeinen**. Hoe minder verwant 2 organismen aan elkaar zijn, hoe minder taxa ze delen.
 
-Er zijn 3 domeinen: **archaea**, **bacteriën** en **eukaryoten**. Elk domein heeft een eigen type rRNA (ribosomaal RNA). De archaea zijn net als bacteriën eencelligen zonder kernmembraan. Hun cirkelvormig DNA ligt los in het grondplasma en het celmembraan bestaat uit 1 enkele laag.
-
-> "Er zijn 3 domeinen" is een eigenlijk beetje kort door de bocht. Wij leren de indeling van de Amerikaanse bioloog Carl Woese (dus archaea, bacteriën en eukaryoten), maar de indeling van domeinen, rijken, "supergroepen" en nog meer, is niet helemaal waterdicht, best wel verschillend en vooral heel verwarrend, maar "er zijn 3 domeinen" dekt (voor nu) de lading.
+Er zijn 3 domeinen: **archaea**, **bacteriën** en **eukaryoten**. Elk domein heeft een eigen type rRNA (ribosomaal RNA). De archaea zijn net als bacteriën eencelligen zonder kernmembraan. Hun cirkelvormig DNA ligt los in het grondplasma en het celmembraan bestaat uit 1 laag.
 
 Elke beschreven soort krijgt een **wetenschappelijke naam** volgens de **binominale nomenclatuur** *(bi-nominaal = twee namen)*. Die bestaat uit 2 delen: de geslachtsnaam (met een hoofdletter) en de soortnaam (met een kleine letter), zoals *Pygoscelis papua* (ezelspinguïn). Soms staat er achter deze 2 delen nog een naam voor een **ondersoort** (een afgescheiden onderverdeling), zoals *Canis lupus familiaris* (hond). Variaties binnen soorten (rassen) maken geen deel uit van de taxonomie.
 
@@ -31,13 +29,13 @@ Er zijn verschillende manieren om een populatiegrootte te schatten:
 
 > Deze formule komt van het feit dat de verhouding tussen $n_2$ en $n_3$ (dus de verhouding van hoeveel dieren er gemarkeerd zijn van alle gevonden dieren) hetzelfde is als de verhouding tussen $N$ en $n_1$ (want toen zijn alle dieren gemarkeerd).
 
-De populatiegrootte kan erg verschillen. Veranderingen van de populatiegrootte komen vooral door **geboorte**, **immigratie**, **sterfte** en **emigratie**.  
+De populatiegrootte kan erg verschillen en wordt voornamelijk bepaald door **geboorte**, **immigratie**, **sterfte** en **emigratie**.  
 Natuurlijke factoren hebben ook veel invloed op de populatiegrootte. Er is altijd 1 factor die de groei van een populatie het meest belemmert: de **beperkende factor**.  
-De maximale capaciteit van een gebied om voldoende voedsel en schuil- en nestplaatsen te leveren (waardoor de populatiegrootte constant blijft) is de **draagkracht** van een gebied.
+De maximale capaciteit van een gebied om voldoende voedsel en schuil- en nestplaatsen te leveren (waardoor de populatiegrootte constant blijft) is de **draagkracht**.
 
 ## Natuurbeheer
 
-**Natuurbeheer** is het beheren van natuurgebieden. Een van de doelen van natuurbeheer is het voorkomen van het uitsterven van soorten, en dus van de afname van de **soortensamenstelling**. Door de mens worden meer dan een miljoen soorten met uitsterven bedreigd.
+**Natuurbeheer** is het beheren van natuurgebieden. Een van de doelen van natuurbeheer is voorkomen dat soorten uitsterven, en daarmee de afname van de **soortensamenstelling** tegengaan. Door de mens worden meer dan een miljoen soorten met uitsterven bedreigd.
 
 Door menselijk handelen zijn veel leefgebieden van elkaar geïsoleerd: **versnippering**. Maatregelen als ecoducten (zie afbeelding) kunnen gebieden weer **ontsnipperen**.
 
@@ -46,7 +44,7 @@ Door menselijk handelen zijn veel leefgebieden van elkaar geïsoleerd: **versnip
 
 Ook kunnen dieren worden **uitgezet** om de natuur te beheren. Zo kunnen grazers (dieren die planten eten) worden ingezet om de leefomgeving aantrekkelijker te maken voor andere soorten. Een te groot aantal grazers kan echter voor een **verstoring** (een snelle en blijvende verandering in een ecosysteem) zorgen.
 
-Natuurbeheerders proberen soms soorten die waren verdwenen uit een gebied te **herintroduceren**: door uitzetting proberen ze een nieuwe populatie te maken.
+Natuurbeheerders proberen soms soorten die uit een gebied waren verdwenen te **herintroduceren**: door uitzetting proberen ze een nieuwe populatie te maken.
 
 ## Soorten en hun omgeving
 
@@ -55,13 +53,12 @@ Invloeden uit de levende natuur op organismen noem je **biotische factoren**, zo
 Een leefomgeving die voldoet aan de specifieke biotische en abiotische eisen van een bepaalde soort, noem je een **habitat** (voor planten kan ook het begrip **standplaats** worden gebruikt).
 
 Voor iedere abiotische factor heeft elke soort **tolerantiegrenzen** (een soort maximum en minimum). Buiten deze grenzen blijft geen enkel individu in leven. Veel organismen hebben, naast de tolerantiegrenzen, ook een **optimumgebied** voor abiotische factoren.
-De tolerantiegrenzen en het optimumgebied kun je weergeven in een **tolerantiecurve**.
+Beide kun je weergeven in een **tolerantiecurve**.
 
 ![Een tolerantiecurve (img-m)](images/biol_h6/tolerantiecurve.jpg)  
-<span class="credit-text">Zelf gemaakt, vrijgegeven onder [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).</span>
 
-De **niche** van een soort is de omschrijving hoe die soort de omgeving gebruikt en beïnvloedt.  
-Een **adaptatie** is een erfelijke aanpassing aan het uiterlijk of het gedrag die ontstaan door langdurige selectieprocessen. Deze adaptaties kunnen ontstaan door mutaties in het genoom. Als een adaptatie tot een hogere overlevingskans leidt, zal deze op den duur vaker gaan voorkomen in een populatie, omdat de organismen met deze verhoogde overlevingskans zich ook meer kunnen voortplanten.
+De **niche** van een soort is een omschrijving van hoe die soort de omgeving gebruikt en beïnvloedt.  
+Een **adaptatie** is een erfelijke aanpassing aan het uiterlijk of het gedrag die ontstaat door langdurige selectieprocessen. Deze adaptaties kunnen ontstaan door mutaties in het genoom. Als een adaptatie tot een hogere overlevingskans leidt, zal deze op den duur vaker voorkomen in een populatie, doordat die organismen zich ook meer kunnen voortplanten.
 
 ## Relaties tussen soorten
 
@@ -69,7 +66,7 @@ Als een soort een andere eet, spreek je van een **voedselrelatie**. Voedselrelat
 
 ![Een voedselketen (img-m)](images/biol_h6/voedselketen.jpg)
 
-De pijlen binnen de voedselketen volgen de organische stoffen: dus van wat gegeten wordt naar door wat het wordt gegeten.  
+De pijlen binnen de voedselketen volgen de organische stoffen: dus van wat gegeten wordt naar wat het eet.  
 Je kunt ook meerdere voedselketens aan elkaar koppelen. Je krijgt dan een **voedselweb**.
 
 ![Een voedselweb (img-m)](images/biol_h6/voedselweb.jpg)
@@ -78,7 +75,7 @@ Je kunt ook meerdere voedselketens aan elkaar koppelen. Je krijgt dan een **voed
 
 **Herbivoren** zijn planteneters. De meeste planten overleven de schade die wordt aangericht door herbivoren. **Carnivoren**, vleeseters, moeten aan hun voedsel komen door **predatie** (het vangen en doden van prooi). **Omnivoren** zijn alleseters.
 
-De relatie tussen een prooi en zijn natuurlijke vijand (**predator**) is een **predator-prooirelatie**. Prooien proberen te overleven door bijvoorbeeld camouflage, het leven in groepen, snelle voortplanting enz.
+De relatie tussen een prooi en zijn natuurlijke vijand (**predator**) is een **predator-prooirelatie**. Prooien proberen te overleven door bijvoorbeeld camouflage, het leven in groepen en snelle voortplanting.
 
 Naast de voedselrelaties komen er ook langdurige relaties voor: **symbiose**. In de tabel zie je de verschillende vormen van symbiose.
 
@@ -90,11 +87,11 @@ Naast de voedselrelaties komen er ook langdurige relaties voor: **symbiose**. In
 
 Epifytisme zit eigenlijk een beetje meer aan de voordeel-neutraal kant, maar het boek is hier redelijk vaag over.
 
-> Een neutraal-nadeel relatie bestaat eigenlijk wel: **amensalisme**, en bij een nadeel-nadeel relatie spreek je van **concurrentie** (hoef je niet te weten, maar misschien vind je het interessant)
+> Een neutraal-nadeel relatie bestaat eigenlijk wel: **amensalisme**, en bij een nadeel-nadeel relatie spreek je van **concurrentie**
 
-Ziektes kunnen voedselketens verstoren. Als bijvoorbeeld een groot gedeelte van een bepaalde populatie sterft, zullen de predatoren van die soort weggaan. Ook gifstoffen kunnen voedselketens verstoren. **Accumulatie** van gifstoffen is het ophopen van die stoffen. De concentratie gif neemt bij elke schakel in de voedselketen toe. Sommige gifstoffen zijn **persistent**: ze kunnen jarenlang dieren blijven vergiftigen.
+Ziektes kunnen voedselketens verstoren. Als bijvoorbeeld een groot gedeelte van een bepaalde populatie sterft, zullen de predatoren van die soort weggaan. Ook gifstoffen kunnen voedselketens verstoren. **Accumulatie** van gifstoffen is het ophopen van die stoffen. De gifconcentratie neemt bij elke schakel in de voedselketen toe. Sommige gifstoffen zijn **persistent**: ze kunnen jarenlang dieren blijven vergiftigen.
 
-> Voorbeeld: er zit gif op planten tegen insecten. Die insecten krijgen een beetje gif in hun lichaam. Vervolgens worden de insecten opgegeten door een muizen. En de muizen worden opgegeten door roofvogels. Maar omdat de roofvogels meerdere muizen eten, en die muizen ook weer meerdere insecten eten, krijgt de roofvogel het gif binnen van veel insecten: accumulatie.
+> Voorbeeld: er zit gif op planten tegen insecten. Die insecten krijgen een beetje gif in hun lichaam. Vervolgens worden de insecten opgegeten door muizen. En de muizen worden opgegeten door roofvogels. Maar omdat de roofvogels meerdere muizen eten, en die muizen ook weer meerdere insecten eten, krijgt de roofvogel het gif binnen van veel insecten: accumulatie.
 
 ## Nieuwe populaties
 
@@ -102,11 +99,11 @@ Ziektes kunnen voedselketens verstoren. Als bijvoorbeeld een groot gedeelte van 
 
 Het toenemen of afnemen van de frequentie van een bepaald allel heet **genetic drift**.
 
-Na een ramp waarbij het aantal individuelen sterk is afgenomen, zal ook de allelensamenstelling sterk afnemen: het **flessenhalseffect**.
+Na een ramp waarbij het aantal individuen sterk is afgenomen, zal ook de allelensamenstelling sterk afnemen: het **flessenhalseffect**.
 
-Als er een nieuwe populatie ontstaat (kolonisatie), is de allelensamenstelling binnen de nieuwe groep minder gevarieerd dan de oorspronkelijke populatie: het **stichtereffect**.
+Als er een nieuwe populatie ontstaat (kolonisatie), is de allelensamenstelling binnen de nieuwe groep minder gevarieerd dan die van de oorspronkelijke populatie: het **stichtereffect**.
 
-Er is een verband tussen de grootte van een eiland, de afstand tot het vasteland en de soortenrijkdom. De **eilandtheorie** beschrijft dit verband ($\rightarrow$ Binas 93C) Grote eilanden bieden meer niches en er kunnen meer soorten leven dan op kleine eilanden. Nabijgelegen eilanden ontvangen sneller nieuwe soorten dan afgelegen eilanden. Dus hoe groter en hoe dichter bij het vasteland, hoe groter de soortenrijkdom.
-Op sommige punten ontstaat er dan een evenwicht tussen de immigratie en de sterfte.
+Er is een verband tussen de grootte van een eiland, de afstand tot het vasteland en de soortenrijkdom. De **eilandtheorie** beschrijft dit verband ($\rightarrow$ Binas 93C). Grote eilanden bieden meer niches en er kunnen meer soorten leven dan op kleine eilanden. Nabijgelegen eilanden ontvangen sneller nieuwe soorten dan afgelegen eilanden. Dus hoe groter en hoe dichter bij het vasteland, hoe groter de soortenrijkdom.
+Op sommige punten ontstaat er dan een evenwicht tussen immigratie en uitsterving.
 
 ![De eilandtheorie (img-l)](images/biol_h6/eiland.jpg)

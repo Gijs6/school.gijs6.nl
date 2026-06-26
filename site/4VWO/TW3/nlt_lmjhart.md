@@ -15,7 +15,6 @@ De biologie kent verschillende organisatieniveaus: **molecuul**, **organel** (on
 Het **hart** is de pomp die het bloed door alle bloedvaten pompt. Het hart ligt bij de mens in de borstholte, boven het middenrif. Het hart is een **holle spier**, die uit 4 holtes bestaat. De 2 onderste holtes zijn de grotere **hartkamers** (of **ventrikels**). De bovenste holtes zijn de kleinere **boezems** (of **atria**). De boezems en kamers zijn van elkaar gescheiden met de **hartkleppen**.
 
 ![De anatomie van het hart (img-xl)](images/nlt_lmjhart/hart.jpg)  
-<span class="credit-text">Zelf gemaakt, vrijgegeven onder [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).</span>
 
 De mens heeft een dubbele bloedsomloop:
 
