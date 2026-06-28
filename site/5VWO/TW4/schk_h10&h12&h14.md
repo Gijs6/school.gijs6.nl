@@ -8,11 +8,11 @@ description: Koolstofchemie, polymeren & industrie
 
 ### Systematische naamgeving
 
-Bij het maken van een systematische naam, kijk je eerst naar de langste koolstofketen. Vervolgens kijk je naar alle aanwezige **functionele groepen**, zoals zuurgroepen, alcoholgroepen en aminegroepen. Deze groepen hebben allemaal een achtervoegsel.
+Bij het maken van een systematische naam kijk je eerst naar de langste koolstofketen. Vervolgens kijk je naar alle aanwezige **functionele groepen**, zoals zuurgroepen, alcoholgroepen en aminegroepen. Deze groepen hebben allemaal een achtervoegsel.
 
 Als je een stof hebt met 2 functionele groepen die beide een achtervoegsel hebben, zoals de stof in de afbeelding, moet je kijken naar de **belangrijkste** functionele groep. Deze krijgt dan het achtervoegsel, en de andere groepen krijgen een voorvoegsel. Welke groepen voorrang krijgen, staat in Binas 66D.
 
-![2-aminopropaan-1-ol (img-s) (img-padding)](images/schk_h10&h12&h14/2-aminopropaan-1-ol.png)
+![2-aminoethaan-1-ol (img-s) (img-padding)](images/schk_h10&h12&h14/2-aminoethaan-1-ol.png)
 
 | Groep        | Voorvoegsel | Achtervoegsel |
 | ------------ | ----------- | ------------- |
@@ -20,7 +20,7 @@ Als je een stof hebt met 2 functionele groepen die beide een achtervoegsel hebbe
 | Alcoholgroep | hydroxy-    | -ol           |
 | Aminegroep   | amino-      | -amine        |
 
-Alcoholgroepen zijn belangrijker dan aminegroepen, dus de naam van de stof in de afbeelding is 2-aminopropaan-1-ol.
+Alcoholgroepen zijn belangrijker dan aminegroepen, dus de naam van de stof in de afbeelding is 2-aminoethaan-1-ol.
 
 #### Esters
 
@@ -54,7 +54,7 @@ Bij **structuurisomeren** hebben 2 stoffen dezelfde molecuulformule maar een and
 
 Bij **ruimtelijke isomeren** (of **stereo-isomeren**) hebben stoffen dezelfde molecuulformule en zijn dezelfde atomen aan elkaar gebonden, maar hebben ze een andere ruimtelijke bouw.
 
-### Cis-trans isomerie
+#### Cis-trans isomerie
 
 Enkelvoudige bindingen kunnen vrij ronddraaien. De 2 stoffen hieronder zijn dus hetzelfde.
 
@@ -68,13 +68,13 @@ De linkerstof heet **cis**-1,2-dibroometheen en de rechter **trans**-1,2-dibroom
 
 Ook bij cycloverbindingen kun je cis-trans isomerie hebben. Bij benzeen is cis-trans isomerie niet mogelijk: de benzeenring is vlak, waardoor er geen boven- en onderkant is.
 
-### Spiegelbeeldisomerie
+#### Spiegelbeeldisomerie
 
 2 moleculen kunnen ook elkaars spiegelbeeld zijn. De 4 buren van een C-atoom vormen namelijk een **tetraëder**: ze staan in 2 vlakken loodrecht op elkaar in 3D. Een dikke gevulde driehoek betekent dat het atoom naar voren komt, en streepjes dat het naar achteren gaat.
 
 ![Tetrahedrale structuur van een koolstofatoom (img-s) (img-padding)](images/schk_h10&h12&h14/tetrahedrale-structuur.png)
 
-Voor spiegelbeeldisomerie heb je een C-atoom nodig met 4 verschillende buren. Dit C-atoom heet dan **asymmetrisch** of **chiraal** en geef je aan als C*.
+Voor spiegelbeeldisomerie heb je een C-atoom nodig met 4 verschillende buren. Dit C-atoom heet dan **asymmetrisch** of **chiraal** en duid je aan als C*.
 
 ![Chiraal koolstofatoom met 4 verschillende buren (img-m) (img-padding)](images/schk_h10&h12&h14/chiraal-koolstofatoom.png)
 
@@ -157,7 +157,7 @@ Om de chemische industrie te verduurzamen, gebruiken bedrijven de 12 principes v
 
 De **E-factor** is een maat voor hoeveel afval een proces produceert per kilogram eindproduct:
 
-$$\text{E-factor} = \frac{m_\text{afval}}{m_\text{product}} = \frac{m_\text{beginstoffen} - m_\text{gewenste eindproducten}}{m_\text{product}}$$
+$$\text{E-factor} = \frac{m_\text{afval}}{m_\text{product}} = \frac{m_\text{beginstoffen} - m_\text{product}}{m_\text{product}}$$
 
 Hoe lager de E-factor, hoe milieuvriendelijker het proces. Een E-factor van 0 betekent geen afval.
 
