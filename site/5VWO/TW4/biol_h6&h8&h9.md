@@ -28,6 +28,7 @@ Er zijn verschillende manieren om een populatiegrootte te schatten:
   Zoals bij planten, je bepaalt dan het aantal bloemen per representatieve oppervlakte-eenheid en vervolgens de totale oppervlakte waar de plant groeit
 - **Vangst-terugvangstmetode**  
   Een aantal dieren vangen, die van een merkteken voorzien en vrijlaten ($n_1$). Na een tijdje worden er weer een aantal dieren gevangen ($n_2$), waarvan er een aantal een merkteken zullen hebben ($n_3$). Vervolgens kun je de totale populatiegrootte ($N$) schatten met de formule $N = \frac{n_1 \cdot n_2 }{n_3}$.
+- **DNA-onderzoek**
 
 > Deze formule komt van het feit dat de verhouding tussen $n_2$ en $n_3$ (dus de verhouding van hoeveel dieren er gemarkeerd zijn van alle gevonden dieren) hetzelfde is als de verhouding tussen $N$ en $n_1$ (want toen zijn alle dieren gemarkeerd).
 
