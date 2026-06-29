@@ -108,24 +108,20 @@ Het gezuiverde water mag daarna het oppervlaktewater in.
 
 Het kraanwater komt niet direct uit RWZI's. Drinkwater in Nederland wordt gewonnen uit grond- en oppervlaktewater. Eerst worden afvalstoffen verwijderd. Voor de **waterzuivering** slaan drinkwaterbedrijven het water op in spaarbekkens, waar veel verontreiniging naar de bodem zinkt. Ook wordt het water gefilterd, bijvoorbeeld via duinen of fijne zeven. Tot slot wordt het water gedeïoniseerd en worden bacteriën verwijderd.
 
-## Ecosystemen
+## Successie
 
-We onderscheiden 2 **stadia van successie**:
+**Successie** is het proces waarbij een gebied zich ontwikkelt van kale bodem tot een stabiel ecosysteem. Er zijn 2 typen:
 
-In het **pioniersstadium** zijn er weinig soorten. **Pionierssoorten** groeien snel, leven kort en produceren veel zaden. Concurrentie tussen deze soorten is minimaal. Door hun aanwezigheid neemt het organisch materiaal in de bodem toe, waardoor nieuwe soorten kunnen ontstaan. In dit stadium hebben abiotische factoren een grote invloed.
+- **Primaire successie** start op kale grond.
+- **Secundaire successie** begint op een plek waar eerder natuur was, maar door verstoring is verdwenen. Dit gaat sneller omdat er al een humuslaag is.
+
+Successie verloopt altijd via 2 stadia:
+
+In het **pioniersstadium** zijn er weinig soorten. **Pionierssoorten** groeien snel, leven kort en produceren veel zaden. Concurrentie tussen soorten is minimaal. Door hun aanwezigheid neemt het organisch materiaal in de bodem toe, waardoor nieuwe soorten kunnen ontstaan. In dit stadium hebben abiotische factoren een grote invloed.
 
 In het **climaxstadium** neemt het aantal soorten toe, terwijl het aantal individuen per soort juist afneemt. De totale biomassa is groter dan in het pioniersstadium. Er ontstaan veel onderlinge relaties tussen soorten en de invloed van abiotische factoren neemt af.
 
-**Successie** is het proces waarbij een gebied zich ontwikkelt van kale bodem tot natuurgebied.
-
-- **Primaire successie** start op kale grond.  
-- **Secundaire successie** begint op een plek waar eerder natuur was, maar door verstoring is verdwenen. Dit gaat sneller omdat er al een humuslaag is.
-
 Soms blijft de successie steken in een **subclimaxstadium** door het gedrag van dieren.
-
-![Brandganzen in een kwelder (img-m)](images/biol_h8/brandganzen_in_de_kwelder.jpg)
-
-Op de afbeelding zie je brandganzen in een *kwelder*. Hun eetgedrag remt de successie omdat er te weinig organisch materiaal in de bodem komt.
 
 ### Exoten
 
