@@ -157,7 +157,9 @@ Om de chemische industrie te verduurzamen, gebruiken bedrijven de 12 principes v
 
 De **E-factor** is een maat voor hoeveel afval een proces produceert per kilogram eindproduct:
 
-$$\text{E-factor} = \frac{m_\text{afval}}{m_\text{product}} = \frac{m_\text{beginstoffen} - m_\text{product}}{m_\text{product}}$$
+$$\text{E-factor} = \frac{m_\text{afval}}{m_\text{werkelijke opbrengst product}} = \frac{m_\text{beginstoffen} - m_\text{werkelijke opbrengst product}}{m_\text{werkelijke opbrengst product}}$$
+
+Let op! Bij de werkelijke opbrengst product moet je dus rekening houden met het rendement van de reactie.
 
 Hoe lager de E-factor, hoe milieuvriendelijker het proces. Een E-factor van 0 betekent geen afval.
 
