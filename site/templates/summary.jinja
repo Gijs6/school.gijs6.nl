@@ -1,0 +1,108 @@
+{% extends "base.jinja" %}
+
+{% set summary_title = meta.short or meta.title %}
+
+{% block title %}
+    {%- if meta.subject_name and summary_title -%}
+        {{ meta.subject_name }} - {{ summary_title }}
+    {%- else -%}
+        Samenvatting
+    {%- endif -%}
+{% endblock %}
+
+{% block body_class %}layout--summary{% endblock %}
+
+{% block canonical_path %}{{ meta.canonical_url }}{% endblock %}
+{% block og_url %}{{ meta.canonical_url }}{% endblock %}
+{% block og_type %}article{% endblock %}
+
+{% set full_title %}
+    {%- if meta.subject_name and summary_title -%}
+        {{ meta.subject_name }} - {{ summary_title }} - school.gijs6.nl
+    {%- else -%}
+        Samenvatting - school.gijs6.nl
+    {%- endif -%}
+{% endset %}
+{% set full_desc %}
+    {%- if meta.subject_name and summary_title -%}
+        Samenvatting {{ meta.subject_name }}: {{ summary_title }}
+        {% if meta.description %}- {{ meta.description }}{% endif %}
+    {%- else -%}
+        Samenvatting voor school
+    {%- endif -%}
+{% endset %}
+
+{% block meta_description %}{{ full_desc }}{% endblock %}
+{% block og_title %}{{ full_title }}{% endblock %}
+{% block og_description %}{{ full_desc }}{% endblock %}
+
+{% block extra_head %}
+    <script async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/assets/scripts/toc.js" defer></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [
+                    ["$", "$"],
+                    ["\\(", "\\)"]
+                ],
+                packages: {
+                    '[+]': ['mhchem']
+                }
+            },
+            loader: {
+                load: ['[tex]/mhchem']
+            },
+        };
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div class="summary" data-family="{{ meta.family }}">
+
+        <nav class="page__back" aria-label="Terug">
+            <a class="back-link" href="/">
+                <svg class="icon" aria-hidden="true" focusable="false">
+                    <use href="#icon-arrow-left" />
+                </svg>
+                Ga terug naar home
+            </a>
+        </nav>
+
+        <hgroup class="summary__header">
+            <h1 class="summary__subject">{{ meta.subject_name }}</h1>
+            {% if summary_title %}
+                <p class="summary__title">
+                    {{ summary_title }}
+                    {%- if meta.description %} ({{ meta.description }})
+                    {% endif -%}
+                </p>
+            {% endif %}
+        </hgroup>
+
+        <noscript class="summary__noscript">
+            <p class="summary__noscript-text">
+                Formules worden met JavaScript weergegeven. Zonder JavaScript zie je ze als ruwe code.
+            </p>
+        </noscript>
+
+        <div class="summary__layout">
+            {%- if toc and toc.strip() -%}
+                <nav class="summary__toc" aria-label="Inhoudsopgave">
+                    <details class="summary__toc-details">
+                        <summary>
+                            <h2 class="summary__toc-heading">Inhoudsopgave</h2>
+                            <svg class="icon" aria-hidden="true" focusable="false">
+                                <use href="#icon-chevron-down" />
+                            </svg>
+                        </summary>
+                        <div class="summary__toc-scroll">{{ toc | safe }}</div>
+                    </details>
+                </nav>
+            {%- endif -%}
+
+            <article class="summary__body">{{ content | safe }}</article>
+        </div>
+    </div>
+{% endblock %}

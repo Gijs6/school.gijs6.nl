@@ -19,16 +19,33 @@ PERIOD_PATTERN = re.compile(r"([A-Z]+)(\d+)")
 ONDERBOUW_DIR = os.path.join(SITE_DIR, "onderbouw")
 FRONT_MATTER_PATTERN = re.compile(r"^---\n(.*?)\n---", re.DOTALL)
 
-SUBJECT_ICONS = {
-    "BIOL": "fa-solid fa-seedling",
-    "ENTL": "ENTL",
-    "FATL": "FATL",
-    "NETL": "NETL",
-    "NAT": "fa-solid fa-atom",
-    "SCHK": "fa-solid fa-flask-vial",
-    "WISB": "fa-solid fa-calculator",
-    "MAAT": "fa-solid fa-people-group",
-    "NLT": "fa-solid fa-microscope",
+SUBJECT_FAMILIES = {
+    "ENTL": "talen",
+    "FATL": "talen",
+    "NETL": "talen",
+    "BIOL": "bio",
+    "NAT": "exact",
+    "SCHK": "exact",
+    "WISB": "wis",
+    "NLT": "exact",
+    "MAAT": "mens",
+}
+
+ONDERBOUW_FAMILIES = {
+    "Duits": "talen",
+    "Engels": "talen",
+    "Frans": "talen",
+    "Nederlands": "talen",
+    "Biologie": "bio",
+    "Natuurkunde": "exact",
+    "Scheikunde": "exact",
+    "Wiskunde": "wis",
+    "NST": "exact",
+    "Aardrijkskunde": "mens",
+    "Economie": "mens",
+    "Geschiedenis": "mens",
+    "Beeldende Vorming": "kunst",
+    "Muziek": "kunst",
 }
 
 SUBJECT_NAMES = {

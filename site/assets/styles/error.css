@@ -1,0 +1,28 @@
+.error {
+    max-width: var(--measure);
+    padding: var(--space-2xl) 0;
+
+    .error__code {
+        margin: 0;
+        color: var(--color-fg-muted);
+        font-weight: 700;
+    }
+
+    .error__title {
+        margin: var(--space-2xs) 0 var(--space-sm) 0;
+    }
+
+    .error__message {
+        margin: 0 0 var(--space-lg) 0;
+        color: var(--color-fg-muted);
+    }
+
+    .error__back-link {
+        font-weight: 700;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

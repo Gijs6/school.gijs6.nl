@@ -1,12 +1,14 @@
 #!/bin/bash
 
+export FORMAT_HTML=1
+
 serve() {
   .venv/bin/python -m composer serve --dev
 }
 
 build() {
   .venv/bin/python -m composer build
-  lightningcss --browserslist --bundle --minify build/assets/styles/main.css -o build/assets/styles/main.css
+  lightningcss --bundle --minify --browserslist build/assets/styles/main.css -o build/assets/styles/main.css
 }
 
 deploy() {

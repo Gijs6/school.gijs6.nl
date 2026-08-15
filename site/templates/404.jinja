@@ -1,0 +1,22 @@
+{% extends "base.jinja" %}
+
+{% block title %}Pagina niet gevonden{% endblock %}
+{% block meta_description %}Deze pagina bestaat niet{% endblock %}
+{% block og_title %}Pagina niet gevonden - school.gijs6.nl{% endblock %}
+{% block og_description %}Deze pagina bestaat niet{% endblock %}
+
+{% block content %}
+    <div class="error">
+        <p class="error__code">404</p>
+        <h1 class="error__title">Oeps! Dat is geen pagina :(</h1>
+        <p class="error__message">
+            Misschien is de samenvatting verplaatst, of klopt er iets niet aan de link.
+        </p>
+        <a class="error__back-link" href="/">
+            <svg class="icon" aria-hidden="true" focusable="false">
+                <use href="#icon-arrow-left" />
+            </svg>
+            Terug naar home
+        </a>
+    </div>
+{% endblock %}

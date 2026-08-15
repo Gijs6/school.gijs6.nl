@@ -15,6 +15,8 @@ from .config import (
     TEMPLATES_DIR,
     RESOURCES_JSON,
     SUBJECT_NAMES,
+    SUBJECT_FAMILIES,
+    ONDERBOUW_FAMILIES,
     YEAR_DIR_PATTERN,
     ONDERBOUW_DIR,
 )
@@ -28,6 +30,8 @@ from .utils import (
     load_json_file,
     create_test_entry,
     remove_base64_images,
+    split_onderbouw_filename,
+    natural_key,
 )
 from .markdown_ext import setup_markdown_processor
 from .assets import collect_static_assets, copy_static_assets
@@ -49,45 +53,17 @@ def _thread_env():
     return _thread_local.env
 
 
-def render_year_period_pages(build_dir, template_env, homepage_data):
-    for year, year_data in homepage_data.items():
-        year_dir = os.path.join(build_dir, year)
-        os.makedirs(year_dir, exist_ok=True)
-        with open(os.path.join(year_dir, "index.html"), "w", encoding="utf-8") as f:
-            f.write(
-                template_env.get_template("year.html").render(
-                    year=year,
-                    year_data=year_data,
-                    page_path=f"{TEMPLATES_DIR}/year.html",
-                )
-            )
-        for period, tests in year_data.items():
-            period_dir = os.path.join(year_dir, period)
-            os.makedirs(period_dir, exist_ok=True)
-            with open(
-                os.path.join(period_dir, "index.html"), "w", encoding="utf-8"
-            ) as f:
-                f.write(
-                    template_env.get_template("period.html").render(
-                        year=year,
-                        period=period,
-                        tests=tests,
-                        page_path=f"{TEMPLATES_DIR}/period.html",
-                    )
-                )
-
-
 def render_special_pages(build_dir, template_env, homepage_data):
     with open(os.path.join(build_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(
-            template_env.get_template("home.html").render(
+            template_env.get_template("home.jinja").render(
                 homepage_data=homepage_data,
                 site={"data": {"homepage_data": homepage_data}},
-                page_path=f"{TEMPLATES_DIR}/home.html",
+                page_path=f"{TEMPLATES_DIR}/home.jinja",
             )
         )
     with open(os.path.join(build_dir, "404.html"), "w", encoding="utf-8") as f:
-        f.write(template_env.get_template("404.html").render())
+        f.write(template_env.get_template("404.jinja").render())
 
 
 def render_onderbouw_page(build_dir, template_env, onderbouw_data):
@@ -97,9 +73,9 @@ def render_onderbouw_page(build_dir, template_env, onderbouw_data):
         os.path.join(onderbouw_build_dir, "index.html"), "w", encoding="utf-8"
     ) as f:
         f.write(
-            template_env.get_template("onderbouw.html").render(
+            template_env.get_template("onderbouw.jinja").render(
                 onderbouw_data=onderbouw_data,
-                page_path=f"{TEMPLATES_DIR}/onderbouw.html",
+                page_path=f"{TEMPLATES_DIR}/onderbouw.jinja",
             )
         )
 
@@ -123,6 +99,7 @@ def process_single_file(args):
     if metadata.get("subject"):
         subject_abbr = metadata["subject"].upper()
         metadata["subject_name"] = SUBJECT_NAMES.get(subject_abbr, subject_abbr)
+        metadata["family"] = SUBJECT_FAMILIES.get(subject_abbr, "")
 
     period_dir = relative_path.split(os.sep)[0] if os.sep in relative_path else ""
     metadata["year"] = year_dir
@@ -133,7 +110,7 @@ def process_single_file(args):
     toc_html = md_processor.toc
     md_processor.reset()
 
-    rendered = template_env.get_template("summary.html").render(
+    rendered = template_env.get_template("summary.jinja").render(
         content=html_content,
         toc=toc_html,
         meta=metadata,
@@ -176,7 +153,6 @@ def rebuild_pages(build_dir, dev=False):
     template_env = _thread_env()
     homepage_data, _ = process_markdown_files(build_dir, template_env, dev)
     render_special_pages(build_dir, template_env, homepage_data)
-    render_year_period_pages(build_dir, template_env, homepage_data)
     onderbouw_data = process_onderbouw_files(build_dir, template_env)
     render_onderbouw_page(build_dir, template_env, onderbouw_data)
     elapsed = (time.time() - start) * 1000
@@ -260,7 +236,6 @@ def process_markdown_files(build_dir, template_env, dev=False):
             sorted_data[year] = year_data
 
     render_special_pages(build_dir, template_env, sorted_data)
-    render_year_period_pages(build_dir, template_env, sorted_data)
     return sorted_data, md_cache
 
 
@@ -285,17 +260,23 @@ def process_onderbouw_files(build_dir, template_env):
         with open(md_file_path, "r", encoding="utf-8") as f:
             content = f.read()
 
+        subject, chapter = split_onderbouw_filename(filename)
+
         metadata, markdown_content = parse_metadata(content)
         metadata["year"] = year_dir
         metadata["period"] = ""
         metadata["canonical_url"] = f"/onderbouw/{year_dir}/{filename}"
         metadata["back_url"] = "/onderbouw/"
+        metadata["subject_name"] = subject
+        metadata["family"] = ONDERBOUW_FAMILIES.get(subject, "")
+        if not metadata.get("title") and not metadata.get("short"):
+            metadata["short"] = chapter
 
         html_content = remove_base64_images(md_processor.convert(markdown_content))
         toc_html = md_processor.toc
         md_processor.reset()
 
-        rendered = template_env.get_template("summary.html").render(
+        rendered = template_env.get_template("summary.jinja").render(
             content=html_content,
             toc=toc_html,
             meta=metadata,
@@ -305,9 +286,12 @@ def process_onderbouw_files(build_dir, template_env):
         with open(build_path, "w", encoding="utf-8") as f:
             f.write(rendered)
 
-        title = filename.replace("-", " ").replace("_", " ")
         onderbouw_data[year_dir].append(
-            {"link": f"/onderbouw/{year_dir}/{filename}", "title": title}
+            {
+                "link": f"/onderbouw/{year_dir}/{filename}",
+                "subject": subject,
+                "chapter": chapter,
+            }
         )
         progress.update()
 
@@ -315,7 +299,18 @@ def process_onderbouw_files(build_dir, template_env):
 
     sorted_data = {}
     for year in sorted(onderbouw_data.keys(), key=lambda x: int(x[0]), reverse=True):
-        sorted_data[year] = sorted(onderbouw_data[year], key=lambda p: p["title"])
+        by_subject = defaultdict(list)
+        for page in onderbouw_data[year]:
+            by_subject[page["subject"]].append(page)
+
+        sorted_data[year] = [
+            {
+                "name": subject,
+                "family": ONDERBOUW_FAMILIES.get(subject, ""),
+                "pages": sorted(pages, key=lambda p: natural_key(p["chapter"])),
+            }
+            for subject, pages in sorted(by_subject.items())
+        ]
 
     return sorted_data
 

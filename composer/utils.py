@@ -13,7 +13,7 @@ from .config import (
     YEAR_DIR_PATTERN,
     PERIOD_PATTERN,
     SUBJECT_NAMES,
-    SUBJECT_ICONS,
+    SUBJECT_FAMILIES,
     ONDERBOUW_DIR,
 )
 
@@ -21,7 +21,6 @@ BASE64_IMAGE_PATTERN = re.compile(r'<img[^>]*src="data:image/[^"]*"[^>]*>')
 
 
 class ProgressBar:
-    # Chars in the progress line excluding the bar itself: "  " + prefix(10) + " [" + "] NNN/NNN (99.9s)" = ~31
     _OVERHEAD = 31
 
     def __init__(self, total, prefix="", width=25):
@@ -131,13 +130,29 @@ def build_test_material(metadata):
     return ""
 
 
+def split_onderbouw_filename(filename):
+    subject, _, chapter = filename.partition("-")
+    return subject.replace("_", " "), split_camel_case(chapter.replace("_", " "))
+
+
+def split_camel_case(value):
+    return re.sub(r"(?<=[a-z])(?=[A-Z])", " ", value)
+
+
+def natural_key(value):
+    return [
+        int(part) if part.isdigit() else part.lower()
+        for part in re.split(r"(\d+)", value)
+    ]
+
+
 def create_test_entry(metadata, main_dir, sub_dir, file, resources_map):
     subject = metadata.get("subject", "").upper()
     return {
         "subject": subject,
         "subject_name": SUBJECT_NAMES.get(subject, subject),
         "test_material": build_test_material(metadata),
-        "icon": SUBJECT_ICONS.get(subject, "fa-solid fa-file-lines"),
+        "family": SUBJECT_FAMILIES.get(subject, ""),
         "resources": resources_map.get(f"{main_dir}/{sub_dir}/{file}", []),
         "summary_link": f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}",
     }

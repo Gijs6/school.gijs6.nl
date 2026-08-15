@@ -1,0 +1,36 @@
+{% macro external_link(href, label) %}
+    <a class="external-link"
+       href="{{ href }}"
+       rel="noopener noreferrer"
+       target="_blank">
+        <svg class="icon" aria-hidden="true" focusable="false">
+            <use href="#icon-external-link" />
+        </svg>
+        {{ label }}<span class="visually-hidden">&#32;(opent in nieuw tabblad)</span>
+    </a>
+{% endmacro %}
+
+{% macro tests_list(tests) %}
+    <ul class="test-list">
+        {% for test in tests %}
+            <li class="test-list__item" data-family="{{ test.family }}">
+                <a class="test-list__link" href="{{ test.summary_link }}">
+                    <span class="test-list__subject">{{ test.subject_name }}</span>
+                    {%- if test.test_material %}
+                        <span class="test-list__material">{{ test.test_material }}</span>
+                    {%- endif -%}
+                </a>
+
+                {% if test.resources %}
+                    <ul class="test-list__resources">
+                        {% for resource in test.resources %}
+                            <li class="test-list__resource-item">
+                                {{ external_link(resource.link, resource.title) }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endmacro %}

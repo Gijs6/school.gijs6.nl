@@ -1,0 +1,53 @@
+{% extends "base.jinja" %}
+
+{% from "macros.jinja" import tests_list %}
+
+{% block meta_description %}
+    Zelfgemaakte samenvattingen en linkjes voor toetsen
+{% endblock %}
+{% block og_title %}Samenvattingen - school.gijs6.nl{% endblock %}
+{% block og_description %}
+    Zelfgemaakte samenvattingen en linkjes voor toetsen
+{% endblock %}
+
+{% block content %}
+    <header class="intro">
+        <h1 class="intro__title">Samenvattingen :)</h1>
+        <p class="intro__text">
+            Welkom! Op deze prachtige site vind je al mijn zelfgemaakte samenvattingen en linkjes voor heel veel toetsen.
+        </p>
+        <p class="intro__text">Succes met leren en veel maak er wat moois van!</p>
+        <p class="intro__text">
+            Gemaakt door <a href="https://gijs6.nl"
+    target="_blank"
+    rel="author noopener noreferrer">Gijs</a>
+        </p>
+    </header>
+
+    <div class="index">
+        {% for year, year_data in homepage_data.items() %}
+            <section class="index__year" aria-labelledby="jaar-{{ year }}">
+                <h2 class="index__year-label" id="jaar-{{ year }}">{{ year }}</h2>
+
+                <div class="index__periods">
+                    {% for period, tests in year_data.items() %}
+                        <section class="index__period"
+                                 aria-labelledby="periode-{{ year }}-{{ period }}">
+                            <h3 class="index__period-label" id="periode-{{ year }}-{{ period }}">{{ period }}</h3>
+                            {{ tests_list(tests) }}
+                        </section>
+                    {% endfor %}
+                </div>
+            </section>
+        {% endfor %}
+    </div>
+
+    <p class="onderbouw-note">
+        <a class="onderbouw-note__link" href="/onderbouw/">
+            Samenvattingen uit de onderbouw
+            <svg class="icon" aria-hidden="true" focusable="false">
+                <use href="#icon-arrow-right" />
+            </svg>
+        </a>
+    </p>
+{% endblock %}

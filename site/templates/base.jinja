@@ -8,6 +8,12 @@
         <meta name="description"
               content="{%- block meta_description -%}Samenvattingen voor school{%- endblock -%}">
         <meta name="author" content="Gijs ten Berg">
+        <meta name="theme-color"
+              media="(prefers-color-scheme: light)"
+              content="#fcfcfd">
+        <meta name="theme-color"
+              media="(prefers-color-scheme: dark)"
+              content="#08090b">
 
         <link rel="canonical"
               href="https://school.gijs6.nl{%- block canonical_path -%}/{%- endblock -%}">
@@ -25,11 +31,7 @@
 
         <link rel="icon" href="/assets/images/favicon.ico">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet"
-              href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
-
+        <link rel="preconnect" href="https://cdn.gijs6.nl" crossorigin>
         <link rel="stylesheet" href="/assets/styles/main.css">
         {% block extra_head %}{% endblock %}
 
@@ -46,52 +48,70 @@
               type="application/atom+xml"
               title="Atom feed"
               href="/atom.xml">
-
-        <script src="https://kit.fontawesome.com/4a94c21782.js"
-                crossorigin="anonymous"
-                defer></script>
     </head>
-    <body>
-        <main class="page__main">
+    <body class="{% block body_class %}{% endblock %}">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             class="visually-hidden"
+             aria-hidden="true"
+             focusable="false">
+            <symbol id="icon-external-link" viewBox="0 0 24 24">
+            <path d="M15 3h6v6" />
+            <path d="M10 14 21 3" />
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            </symbol>
+            <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+            </symbol>
+            <symbol id="icon-arrow-left" viewBox="0 0 24 24">
+            <path d="m12 19-7-7 7-7" />
+            <path d="M19 12H5" />
+            </symbol>
+            <symbol id="icon-chevron-down" viewBox="0 0 24 24">
+            <path d="m6 9 6 6 6-6" />
+            </symbol>
+        </svg>
+
+        <main class="page">
             {% block content %}{% endblock %}
         </main>
 
         <footer class="page__footer">
             <ul class="page__footer-list">
-                <li class="page__footer-item">
+                <li>
                     <address class="page__footer-address">
                         <a class="page__footer-link"
                            href="https://gijs6.nl"
-                           target="_blank"
-                           rel="author noopener noreferrer">Door <span class="page__footer-author">Gijs ten Berg</span></a>
+                           rel="author noopener noreferrer"
+                           target="_blank">Door <span class="page__footer-author">Gijs ten Berg</span></a>
                     </address>
                 </li>
-
-                <li class="page__footer-item">
+                <li>
                     <a class="page__footer-link"
                        href="https://creativecommons.org/public-domain/cc0/"
-                       target="_blank"
-                       rel="license noopener noreferrer">CC0</a>
+                       rel="license noopener noreferrer"
+                       target="_blank">CC0</a>
                 </li>
-
-                <li class="page__footer-item">
+                <li>
                     <a class="page__footer-link"
                        href="https://contact.gijs6.nl"
-                       target="_blank"
-                       rel="noopener noreferrer">Contact</a>
+                       rel="noopener noreferrer"
+                       target="_blank">Contact</a>
                 </li>
-
-                <li class="page__footer-item">
+                <li>
                     <a class="page__footer-link"
                        href="https://github.com/Gijs6/school.gijs6.nl"
-                       target="_blank"
-                       rel="noopener noreferrer">Repository</a>
+                       rel="noopener noreferrer"
+                       target="_blank">Repository</a>
                 </li>
-                <li class="page__footer-item">
+                <li>
                     <a class="page__footer-link"
                        href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
-                       target="_blank"
-                       rel="noopener noreferrer">Broncode</a>
+                       rel="noopener noreferrer"
+                       target="_blank">Broncode</a>
+                </li>
+                <li>
+                    <a class="page__footer-link" href="/rss.xml">RSS</a>
                 </li>
             </ul>
         </footer>
