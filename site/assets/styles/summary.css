@@ -123,7 +123,7 @@
     @media (width < 1200px) {
         position: static;
         max-width: var(--measure);
-        margin: 0 auto var(--space-xl) auto;
+        margin: 0 auto var(--space-md) auto;
         padding-bottom: var(--space-xl);
         border-bottom: 1px solid var(--color-border);
     }
@@ -243,13 +243,14 @@
         position: sticky;
         top: 0;
         z-index: 1;
-        margin: var(--space-xl) 0 var(--space-xs) 0;
-        padding-bottom: var(--space-xs);
+        margin: var(--space-md) 0 var(--space-xs) 0;
+        padding: var(--space-md) 0 var(--space-xs) 0;
         border-bottom: 1px solid var(--color-border);
         background-color: var(--color-bg);
 
         @media print {
             position: static;
+            padding-top: 0;
         }
     }
 
@@ -271,7 +272,7 @@
     }
 
     p {
-        margin: var(--space-xs) 0;
+        margin: var(--space-sm) 0;
     }
 
     strong,
@@ -281,8 +282,8 @@
 
     ul,
     ol {
-        margin: var(--space-xs) 0;
-        padding-left: var(--space-lg);
+        margin: var(--space-sm) 0;
+        padding-left: var(--space-md);
     }
 
     li {
@@ -298,7 +299,7 @@
 
     table {
         display: block;
-        margin: var(--space-md) 0;
+        margin: var(--space-sm) 0;
         overflow-x: auto;
         scrollbar-width: thin;
 
@@ -311,7 +312,7 @@
     th,
     td {
         padding: var(--space-xs) var(--space-sm);
-        border: 1px solid var(--color-border);
+        border: 1px solid var(--color-fg-faint);
         text-align: left;
         vertical-align: top;
         overflow-wrap: break-word;
@@ -338,7 +339,7 @@
     }
 
     pre {
-        margin: var(--space-md) 0;
+        margin: var(--space-sm) 0;
         padding: var(--space-sm) var(--space-md);
         background-color: var(--color-surface);
 
@@ -350,7 +351,7 @@
     }
 
     hr {
-        margin: var(--space-lg) 0;
+        margin: var(--space-sm) 0;
         border: 0;
         border-top: 1px solid var(--color-border);
     }
