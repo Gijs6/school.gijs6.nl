@@ -34,6 +34,10 @@
         padding-top: var(--space-md);
         font-size: var(--font-size-xl);
         font-variant-numeric: tabular-nums;
+
+        @media print {
+            position: static;
+        }
     }
 
     .index__periods {
@@ -64,6 +68,10 @@
         padding: var(--space-md) 0 var(--space-xs) 0;
         background-color: var(--color-bg);
         font-size: var(--font-size-lg);
+
+        @media print {
+            position: static;
+        }
     }
 }
 

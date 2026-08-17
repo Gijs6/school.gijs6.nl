@@ -22,7 +22,7 @@
     --color-family-wis: #9c36b5;
     --color-family-none: #6d7480;
 
-    @media (prefers-color-scheme: dark) {
+    @media screen and (prefers-color-scheme: dark) {
         --color-bg: #08090c;
         --color-surface: #14161c;
         --color-border: #272b33;

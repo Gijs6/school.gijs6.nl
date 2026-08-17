@@ -45,6 +45,12 @@
             margin-inline: auto;
         }
 
+        @media print {
+            margin-inline: 0;
+            padding-left: 0;
+            border-left: none;
+        }
+
         .summary__subject,
         .summary__title {
             line-height: var(--line-height-tight);
@@ -234,9 +240,17 @@
     }
 
     h2 {
+        position: sticky;
+        top: 0;
+        z-index: 1;
         margin: var(--space-xl) 0 var(--space-xs) 0;
         padding-bottom: var(--space-xs);
         border-bottom: 1px solid var(--color-border);
+        background-color: var(--color-bg);
+
+        @media print {
+            position: static;
+        }
     }
 
     h3 {
@@ -253,7 +267,7 @@
     }
 
     :is(h2, h3, h4, h5, h6) + :is(h2, h3, h4, h5, h6) {
-        margin-top: var(--space-xs);
+        margin-top: var(--space-sm);
     }
 
     p {
@@ -287,6 +301,11 @@
         margin: var(--space-md) 0;
         overflow-x: auto;
         scrollbar-width: thin;
+
+        @media print {
+            overflow-x: visible;
+            border: 1px solid var(--color-fg);
+        }
     }
 
     th,
@@ -296,11 +315,19 @@
         text-align: left;
         vertical-align: top;
         overflow-wrap: break-word;
+
+        @media print {
+            border-color: var(--color-fg);
+        }
     }
 
     th {
         background-color: var(--color-surface);
         font-weight: 700;
+
+        @media print {
+            border-bottom-width: 2px;
+        }
     }
 
     code {
@@ -333,6 +360,10 @@
         max-width: 100%;
         overflow-x: auto;
         text-align: left !important;
+
+        @media print {
+            overflow-x: visible;
+        }
     }
 
     img {
@@ -394,6 +425,35 @@
             &[alt~="(img-float-right)"] {
                 float: none;
                 margin: var(--space-sm) 0;
+            }
+        }
+
+        @media print {
+            width: min(calc(var(--measure) * 0.5), 100%);
+            break-inside: avoid;
+
+            &[alt~="(img-xl)"] {
+                width: min(var(--measure), 100%);
+            }
+
+            &[alt~="(img-l)"] {
+                width: min(calc(var(--measure) * 0.8), 100%);
+            }
+
+            &[alt~="(img-m)"] {
+                width: min(calc(var(--measure) * 0.6), 100%);
+            }
+
+            &[alt~="(img-s)"] {
+                width: min(calc(var(--measure) * 0.4), 100%);
+            }
+
+            &[alt~="(img-xs)"] {
+                width: min(calc(var(--measure) * 0.25), 100%);
+            }
+
+            &[alt~="(img-2xs)"] {
+                width: min(calc(var(--measure) * 0.15), 100%);
             }
         }
     }

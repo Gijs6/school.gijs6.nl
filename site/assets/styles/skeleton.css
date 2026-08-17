@@ -83,6 +83,12 @@ pre {
     width: 100%;
     overflow-x: auto;
     scrollbar-width: thin;
+
+    @media print {
+        overflow-x: visible;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+    }
 }
 
 table {
