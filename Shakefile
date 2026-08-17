@@ -14,5 +14,5 @@ build() {
 deploy() {
   build
   prettier --write --ignore-path /dev/null "build/**/*.{css,js,xml,html}"
-  shake_super deploy
+  g:deploy
 }
