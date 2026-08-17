@@ -20,7 +20,6 @@
     --line-height-base: 1.6;
     --line-height-tight: 1.25;
 
-    --page-gutter: clamp(var(--space-md), 4vw, var(--space-xl));
     --page-width: 54rem;
     --measure: 42rem;
 
@@ -87,7 +86,7 @@ h6 {
 .page {
     max-width: var(--page-width);
     margin: 0 auto;
-    padding: var(--space-3xl) var(--page-gutter);
+    padding: var(--space-3xl) var(--space-lg);
 
     @media (width < 700px) {
         padding-block: var(--space-xl);
@@ -131,7 +130,7 @@ h6 {
 .page__footer {
     max-width: var(--page-width);
     margin: 0 auto;
-    padding: 0 var(--page-gutter) var(--space-2xl) var(--page-gutter);
+    padding: 0 var(--space-lg) var(--space-2xl) var(--space-lg);
 
     @media print {
         display: none;
