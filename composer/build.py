@@ -5,6 +5,8 @@ import threading
 import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 from colorama import Fore, Style
 from jinja2 import Environment, FileSystemLoader
@@ -19,6 +21,8 @@ from .config import (
     ONDERBOUW_FAMILIES,
     YEAR_DIR_PATTERN,
     ONDERBOUW_DIR,
+    REPO_URL,
+    TIMEZONE,
 )
 from .utils import (
     ProgressBar,
@@ -32,13 +36,17 @@ from .utils import (
     remove_base64_images,
     split_onderbouw_filename,
     natural_key,
+    format_dutch_datetime,
+    to_local,
 )
 from .markdown_ext import setup_markdown_processor
 from .assets import collect_static_assets, copy_static_assets
 from .feeds import generate_feeds
-from .git import get_all_git_dates
+from .git import get_git_dates, get_head_commit
 
 _thread_local = threading.local()
+_site_context = None
+_site_context_lock = threading.Lock()
 
 
 def _thread_md():
@@ -47,11 +55,44 @@ def _thread_md():
     return _thread_local.md
 
 
+def site_context():
+    global _site_context
+    with _site_context_lock:
+        if _site_context is None:
+            built_at = datetime.now(tz=ZoneInfo(TIMEZONE))
+            commit = get_head_commit()
+            _site_context = {
+                "repo_url": REPO_URL,
+                "commit": commit,
+                "built_at": format_dutch_datetime(built_at),
+                "built_at_iso": built_at.isoformat(timespec="seconds"),
+            }
+    return _site_context
+
+
+def page_context(page_path):
+    first_commit, last_commit = get_git_dates().get(page_path, (None, None))
+    return {
+        "page_path": page_path,
+        "page_created_iso": to_local(first_commit).date().isoformat()
+        if first_commit
+        else None,
+        "page_updated": format_dutch_datetime(last_commit) if last_commit else None,
+        "page_updated_iso": to_local(last_commit).isoformat(timespec="seconds")
+        if last_commit
+        else None,
+    }
+
+
+def make_env():
+    env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
+    env.globals.update(site_context())
+    return env
+
+
 def _thread_env():
     if not hasattr(_thread_local, "env"):
-        _thread_local.env = Environment(
-            loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True
-        )
+        _thread_local.env = make_env()
     return _thread_local.env
 
 
@@ -61,11 +102,15 @@ def render_special_pages(build_dir, template_env, homepage_data):
             template_env.get_template("home.jinja").render(
                 homepage_data=homepage_data,
                 site={"data": {"homepage_data": homepage_data}},
-                page_path=f"{TEMPLATES_DIR}/home.jinja",
+                **page_context(f"{TEMPLATES_DIR}/home.jinja"),
             )
         )
     with open(os.path.join(build_dir, "404.html"), "w", encoding="utf-8") as f:
-        f.write(template_env.get_template("404.jinja").render())
+        f.write(
+            template_env.get_template("404.jinja").render(
+                **page_context(f"{TEMPLATES_DIR}/404.jinja")
+            )
+        )
 
 
 def render_onderbouw_page(build_dir, template_env, onderbouw_data):
@@ -77,7 +122,7 @@ def render_onderbouw_page(build_dir, template_env, onderbouw_data):
         f.write(
             template_env.get_template("onderbouw.jinja").render(
                 onderbouw_data=onderbouw_data,
-                page_path=f"{TEMPLATES_DIR}/onderbouw.jinja",
+                **page_context(f"{TEMPLATES_DIR}/onderbouw.jinja"),
             )
         )
 
@@ -116,7 +161,7 @@ def process_single_file(args):
         content=html_content,
         toc=toc_html,
         meta=metadata,
-        page_path=md_file_path,
+        **page_context(md_file_path),
     )
 
     os.makedirs(os.path.dirname(build_path), exist_ok=True)
@@ -282,7 +327,7 @@ def process_onderbouw_files(build_dir, template_env):
             content=html_content,
             toc=toc_html,
             meta=metadata,
-            page_path=md_file_path,
+            **page_context(md_file_path),
         )
 
         with open(build_path, "w", encoding="utf-8") as f:
@@ -329,16 +374,21 @@ def build(dev=False, output_dir=None):
     print("  Creating temp directory...")
     temp_build_dir = tempfile.mkdtemp()
     print(f"  Loading templates from {TEMPLATES_DIR}/")
-    template_env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
+    template_env = make_env()
     templates = list(template_env.list_templates())
     print(f"  Found {len(templates)} templates")
     print()
 
     print(f"{Fore.BLUE}[2/5] Collecting metadata{Style.RESET_ALL}")
     print("  Reading git history for file dates...")
-    git_dates = get_all_git_dates()
+    git_dates = get_git_dates()
     print(
         f"  {Fore.GREEN}done{Style.RESET_ALL} - tracked {len(git_dates)} files in repository"
+    )
+    context = site_context()
+    commit = context["commit"]
+    print(
+        f"  Deploy stamp: {context['built_at']} ({commit['short'] if commit else 'no commit'})"
     )
     print()
 

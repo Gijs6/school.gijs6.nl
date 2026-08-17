@@ -1,7 +1,5 @@
 .layout--summary {
-    --page-padding-top: var(--space-xl);
     --page-width: 84rem;
-    --footer-width: var(--measure);
     --toc-width: 15rem;
     --toc-gap: var(--space-lg);
     --toc-heading-height: calc(var(--font-size-md) * var(--line-height-base) + var(--space-2xs) + var(--space-2xs) + var(--space-xs));
@@ -137,6 +135,10 @@
             padding: var(--space-2xs) 0;
             list-style: none;
             cursor: pointer;
+
+            @media (width < 1200px) {
+                padding: var(--space-xs) 0;
+            }
 
             &::-webkit-details-marker {
                 display: none;
@@ -293,6 +295,7 @@
         border: 1px solid var(--color-border);
         text-align: left;
         vertical-align: top;
+        overflow-wrap: break-word;
     }
 
     th {
@@ -304,6 +307,7 @@
         padding: 0.1em 0.3em;
         background-color: var(--color-surface);
         font-size: 0.9em;
+        overflow-wrap: break-word;
     }
 
     pre {
@@ -326,6 +330,8 @@
 
     mjx-container[display="true"] {
         margin: var(--space-sm) 0 !important;
+        max-width: 100%;
+        overflow-x: auto;
         text-align: left !important;
     }
 
@@ -369,6 +375,26 @@
 
         &[alt~="(img-clear-both)"] {
             clear: both;
+        }
+
+        @media (width < 700px) {
+            width: 70%;
+
+            &[alt~="(img-m)"],
+            &[alt~="(img-l)"] {
+                width: 90%;
+            }
+
+            &[alt~="(img-s)"],
+            &[alt~="(img-xs)"],
+            &[alt~="(img-2xs)"] {
+                width: 60%;
+            }
+
+            &[alt~="(img-float-right)"] {
+                float: none;
+                margin: var(--space-sm) 0;
+            }
         }
     }
 }

@@ -1,6 +1,10 @@
 import subprocess
+import threading
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor
+
+_git_dates_cache = None
+_git_dates_lock = threading.Lock()
 
 
 def _parse_first_commits():
@@ -47,6 +51,26 @@ def _parse_last_commits():
         elif current_ts and line not in result:
             result[line] = current_ts
     return result
+
+
+def get_git_dates():
+    global _git_dates_cache
+    with _git_dates_lock:
+        if _git_dates_cache is None:
+            _git_dates_cache = get_all_git_dates()
+    return _git_dates_cache
+
+
+def get_head_commit():
+    try:
+        sha = subprocess.check_output(
+            ["git", "rev-parse", "HEAD"],
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return None
+    return {"sha": sha, "short": sha[:7]}
 
 
 def get_all_git_dates():

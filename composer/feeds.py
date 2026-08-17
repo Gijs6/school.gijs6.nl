@@ -23,14 +23,14 @@ def create_feed_entry_list(test):
         entries.append(
             {
                 "link": test["summary_link"],
-                "title": f"{test['subject']} - {test['test_material']}",
+                "title": f"{test['subject']} · {test['test_material']}",
             }
         )
     for resource in test.get("resources", []):
         entries.append(
             {
                 "link": resource.get("link"),
-                "title": f"{resource.get('title', '')} - {test['subject']}".strip(" -"),
+                "title": f"{resource.get('title', '')} · {test['subject']}".strip(" ·"),
             }
         )
     return entries

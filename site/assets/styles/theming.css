@@ -10,6 +10,7 @@
     --space-3xl: 3rem;
     --space-4xl: 4rem;
 
+    --font-size-sm: 0.875rem;
     --font-size-md: 1rem;
     --font-size-lg: 1.25rem;
     --font-size-xl: 1.5rem;
@@ -20,9 +21,7 @@
     --line-height-tight: 1.25;
 
     --page-gutter: clamp(var(--space-md), 4vw, var(--space-xl));
-    --page-padding-top: var(--space-4xl);
     --page-width: 54rem;
-    --footer-width: var(--page-width);
     --measure: 42rem;
 
     --rule-width: 3px;
@@ -88,7 +87,11 @@ h6 {
 .page {
     max-width: var(--page-width);
     margin: 0 auto;
-    padding: var(--page-padding-top) var(--page-gutter) var(--space-3xl) var(--page-gutter);
+    padding: var(--space-3xl) var(--page-gutter);
+
+    @media (width < 700px) {
+        padding-block: var(--space-xl);
+    }
 
     @media print {
         max-width: none;
@@ -126,31 +129,51 @@ h6 {
 }
 
 .page__footer {
-    max-width: var(--footer-width);
+    max-width: var(--page-width);
     margin: 0 auto;
-    padding: 0 var(--page-gutter);
+    padding: 0 var(--page-gutter) var(--space-2xl) var(--page-gutter);
 
     @media print {
         display: none;
     }
 
     .page__footer-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: var(--space-2xs) var(--space-md);
         margin: 0;
         list-style: none;
-        padding: var(--space-lg) 0 var(--space-2xl) 0;
+        padding: var(--space-lg) 0 0 0;
         border-top: 1px solid var(--color-border);
         color: var(--color-fg-muted);
-        justify-content: space-between;
 
         .page__footer-item {
+            display: inline;
             margin: 0;
+
+            &:not(:last-child)::after {
+                content: " · ";
+                color: var(--color-fg-faint);
+            }
         }
     }
 
+    .page__footer-note {
+        margin: var(--space-xs) 0 0 0;
+        color: var(--color-fg-faint);
+        font-size: var(--font-size-sm);
+        line-height: var(--line-height-tight);
+        text-wrap: pretty;
+
+        time {
+            font-variant-numeric: tabular-nums;
+        }
+    }
+
+    .page__footer-commit {
+        font-family: var(--font-family-mono);
+        font-size: 0.9em;
+    }
+
     .page__footer-address {
+        display: inline;
         font-style: normal;
     }
 

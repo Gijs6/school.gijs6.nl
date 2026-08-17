@@ -40,7 +40,7 @@
         min-width: 0;
     }
 
-    @media (max-width: 700px) {
+    @media (width < 700px) {
         display: block;
 
         .index__year-label {

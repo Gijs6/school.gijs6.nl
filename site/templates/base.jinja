@@ -1,10 +1,11 @@
+{%- set license_text = license_label | default("Deze site is vrij te gebruiken") -%}
 <!DOCTYPE html>
 <html lang="nl">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>{%- block title -%}Samenvattingen :){%- endblock %} - school.gijs6.nl</title>
+        <title>{%- block title -%}Samenvattingen :){%- endblock %} · school.gijs6.nl</title>
         <meta name="description"
               content="{%- block meta_description -%}Samenvattingen voor school{%- endblock -%}">
         <meta name="author" content="Gijs ten Berg">
@@ -24,10 +25,19 @@
         <meta property="og:url"
               content="https://school.gijs6.nl{%- block og_url -%}/{%- endblock -%}">
         <meta property="og:title"
-              content="{%- block og_title -%}Samenvattingen - school.gijs6.nl{%- endblock -%}">
+              content="{%- block og_title -%}Samenvattingen · school.gijs6.nl{%- endblock -%}">
         <meta property="og:description"
               content="{%- block og_description -%}Samenvattingen voor school{%- endblock -%}">
         <meta property="og:locale" content="nl_NL">
+        {%- set og_type_value = self.og_type() -%}
+        {%- if og_type_value == "article" -%}
+            {%- if page_created_iso %}
+                <meta property="article:published_time" content="{{ page_created_iso }}">
+            {% endif -%}
+            {%- if page_updated_iso %}
+                <meta property="article:modified_time" content="{{ page_updated_iso }}">
+            {% endif -%}
+        {%- endif %}
 
         <link rel="icon" href="/assets/images/favicon.ico">
 
@@ -90,7 +100,7 @@
                     <a class="page__footer-link"
                        href="https://creativecommons.org/public-domain/cc0/"
                        rel="license noopener noreferrer"
-                       target="_blank">CC0</a>
+                       target="_blank">{{ license_text }}</a>
                 </li>
                 <li class="page__footer-item">
                     <a class="page__footer-link"
@@ -100,20 +110,30 @@
                 </li>
                 <li class="page__footer-item">
                     <a class="page__footer-link"
-                       href="https://github.com/Gijs6/school.gijs6.nl"
+                       href="{{ repo_url }}/blob/main/{{ page_path }}"
                        rel="noopener noreferrer"
-                       target="_blank">Repository</a>
+                       target="_blank">Bekijk deze pagina op GitHub</a>
                 </li>
                 <li class="page__footer-item">
-                    <a class="page__footer-link"
-                       href="https://github.com/Gijs6/school.gijs6.nl/blob/main/{{ page_path }}"
-                       rel="noopener noreferrer"
-                       target="_blank">Broncode</a>
-                </li>
-                <li class="page__footer-item">
-                    <a class="page__footer-link" href="/rss.xml">RSS</a>
+                    <a class="page__footer-link" href="/rss.xml">RSS-feed</a>
                 </li>
             </ul>
+
+            <p class="page__footer-note">
+                Site bijgewerkt op
+                <time datetime="{{ built_at_iso }}">{{ built_at }}</time>
+                {%- if page_updated %}
+                    · Deze pagina gewijzigd op
+                    <time datetime="{{ page_updated_iso }}">{{ page_updated }}</time>
+                {%- endif %}
+                {%- if commit %}
+                    ·
+                    <a class="page__footer-link"
+                       href="{{ repo_url }}/commit/{{ commit.sha }}"
+                       rel="noopener noreferrer"
+                       target="_blank">Versie <span class="page__footer-commit">{{ commit.short }}</span></a>
+                {%- endif %}
+            </p>
         </footer>
     </body>
 </html>

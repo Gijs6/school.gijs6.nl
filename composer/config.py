@@ -13,6 +13,8 @@ SITE_TITLE = "Samenvattingen :)"
 SITE_DESCRIPTION = "Een verzameling van zelfgemaakte samenvattingen"
 AUTHOR_NAME = "Gijs ten Berg"
 AUTHOR_EMAIL = "me@gijs6.nl"
+REPO_URL = "https://github.com/Gijs6/school.gijs6.nl"
+TIMEZONE = "Europe/Amsterdam"
 
 YEAR_DIR_PATTERN = re.compile(r"(\d)VWO")
 PERIOD_PATTERN = re.compile(r"([A-Z]+)(\d+)")
