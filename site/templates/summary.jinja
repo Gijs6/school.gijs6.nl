@@ -83,7 +83,8 @@
                     {{ summary_title }}
                     {%- if meta.description %} ({{ meta.description }})
                     {% endif -%}
-                    {%- if meta.year %} · {{ meta.year }}{% if meta.period %}/{{ meta.period }}{% endif %}
+                    {%- if meta.year %} · {{ meta.year }}
+                        {% if meta.period %}/{{ meta.period }}{% endif %}
                     {% endif -%}
                 </p>
             {% endif %}
