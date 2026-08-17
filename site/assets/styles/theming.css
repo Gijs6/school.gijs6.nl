@@ -19,13 +19,11 @@
     --line-height-base: 1.6;
     --line-height-tight: 1.25;
 
-    --year-column: 5rem;
     --page-gutter: clamp(var(--space-md), 4vw, var(--space-xl));
     --page-padding-top: var(--space-4xl);
     --page-width: 54rem;
     --footer-width: var(--page-width);
     --measure: 42rem;
-    --toc-width: 15rem;
 
     --rule-width: 3px;
     --rule-gap: var(--space-sm);
@@ -33,12 +31,6 @@
     @media print {
         color-scheme: light;
     }
-}
-
-.layout--summary {
-    --page-padding-top: var(--space-xl);
-    --page-width: 84rem;
-    --footer-width: var(--measure);
 }
 
 body {

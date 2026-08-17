@@ -16,6 +16,8 @@
 }
 
 .index__year {
+    --year-column: 5rem;
+
     display: grid;
     grid-template-columns: var(--year-column) minmax(0, 1fr);
     column-gap: var(--space-lg);
