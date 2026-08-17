@@ -19,15 +19,17 @@
 
     <header class="intro">
         <h1 class="intro__title">Onderbouw</h1>
-        <p class="intro__text">Oudere samenvattingen uit 2VWO en 3VWO, gegroepeerd per vak.</p>
+        <p class="intro__text">
+            Alles wat ik in 2VWO en 3VWO in elkaar heb geknutseld. Wie weet heb je er nog wat aan :)
+        </p>
     </header>
 
-    <div class="index">
+    <div class="index index--archive">
         {% for year, subjects in onderbouw_data.items() %}
             <section class="index__year" aria-labelledby="jaar-{{ year }}">
                 <h2 class="index__year-label" id="jaar-{{ year }}">{{ year }}</h2>
 
-                <div class="index__periods">
+                <div class="archive__subjects">
                     {% for subject in subjects %}
                         <section class="archive__subject"
                                  data-family="{{ subject.family }}"
@@ -37,7 +39,7 @@
                             </h3>
                             <ul class="archive__chapters">
                                 {% for page in subject.pages %}
-                                    <li>
+                                    <li class="archive__chapter">
                                         <a class="archive__chapter-link" href="{{ page.link }}">{{ page.chapter }}</a>
                                     </li>
                                 {% endfor %}

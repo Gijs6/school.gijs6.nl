@@ -1,35 +1,44 @@
-.archive__subject {
-    padding-left: var(--space-sm);
-    border-left: 3px solid var(--color-family);
+.index__year {
+    .archive__subjects {
+        min-width: 0;
+    }
+}
 
+.archive__subject {
     & + .archive__subject {
         margin-top: var(--space-lg);
     }
 
     .archive__subject-label {
-        margin: 0 0 var(--space-2xs) 0;
-        font-size: var(--font-size-md);
-        font-weight: 700;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        margin: 0;
+        padding: var(--space-md) 0 var(--space-xs) 0;
+        background-color: var(--color-bg);
+        font-size: var(--font-size-lg);
     }
 
     .archive__chapters {
         display: flex;
-        flex-wrap: wrap;
-        gap: var(--space-3xs) var(--space-2xs);
-        margin: 0;
+        flex-direction: column;
+        gap: var(--space-xs);
+        margin: var(--space-2xs) 0 0 0;
         padding: 0;
         list-style: none;
     }
 
+    .archive__chapter {
+        padding-left: var(--rule-gap);
+        border-left: var(--rule-width) solid var(--color-family);
+    }
+
     .archive__chapter-link {
-        display: inline-block;
-        padding: var(--space-2xs) var(--space-xs);
-        color: var(--color-fg-muted);
+        display: block;
+        color: inherit;
         text-decoration: none;
 
         &:hover {
-            background-color: var(--color-surface);
-            color: var(--color-fg);
             text-decoration: underline;
         }
     }

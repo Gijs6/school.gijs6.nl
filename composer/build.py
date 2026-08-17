@@ -49,7 +49,9 @@ def _thread_md():
 
 def _thread_env():
     if not hasattr(_thread_local, "env"):
-        _thread_local.env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
+        _thread_local.env = Environment(
+            loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True
+        )
     return _thread_local.env
 
 
@@ -327,7 +329,7 @@ def build(dev=False, output_dir=None):
     print("  Creating temp directory...")
     temp_build_dir = tempfile.mkdtemp()
     print(f"  Loading templates from {TEMPLATES_DIR}/")
-    template_env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
+    template_env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
     templates = list(template_env.list_templates())
     print(f"  Found {len(templates)} templates")
     print()

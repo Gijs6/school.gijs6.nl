@@ -25,6 +25,10 @@
     --page-width: 54rem;
     --footer-width: var(--page-width);
     --measure: 42rem;
+    --toc-width: 15rem;
+
+    --rule-width: 3px;
+    --rule-gap: var(--space-sm);
 
     @media print {
         color-scheme: light;
@@ -148,6 +152,10 @@ h6 {
         border-top: 1px solid var(--color-border);
         color: var(--color-fg-muted);
         justify-content: space-between;
+
+        .page__footer-item {
+            margin: 0;
+        }
     }
 
     .page__footer-address {

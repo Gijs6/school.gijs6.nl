@@ -132,11 +132,16 @@ def build_test_material(metadata):
 
 def split_onderbouw_filename(filename):
     subject, _, chapter = filename.partition("-")
-    return subject.replace("_", " "), split_camel_case(chapter.replace("_", " "))
+    chapter = split_camel_case(chapter.replace("_", " "))
+    return subject.replace("_", " "), space_ampersands(chapter)
 
 
 def split_camel_case(value):
     return re.sub(r"(?<=[a-z])(?=[A-Z])", " ", value)
+
+
+def space_ampersands(value):
+    return re.sub(r"\s*&\s*", " & ", value)
 
 
 def natural_key(value):

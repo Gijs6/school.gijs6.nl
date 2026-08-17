@@ -74,8 +74,8 @@
     list-style: none;
 
     .test-list__item {
-        padding-left: var(--space-sm);
-        border-left: 3px solid var(--color-family);
+        padding-left: var(--rule-gap);
+        border-left: var(--rule-width) solid var(--color-family);
     }
 
     .test-list__link {

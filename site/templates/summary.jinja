@@ -62,11 +62,15 @@
     <div class="summary" data-family="{{ meta.family }}">
 
         <nav class="page__back" aria-label="Terug">
-            <a class="back-link" href="/">
+            <a class="back-link" href="{{ meta.back_url or '/' }}">
                 <svg class="icon" aria-hidden="true" focusable="false">
                     <use href="#icon-arrow-left" />
                 </svg>
-                Ga terug naar home
+                {% if meta.back_url %}
+                    Ga terug naar onderbouw
+                {% else %}
+                    Ga terug naar home
+                {% endif %}
             </a>
         </nav>
 

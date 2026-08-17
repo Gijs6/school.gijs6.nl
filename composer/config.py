@@ -44,8 +44,8 @@ ONDERBOUW_FAMILIES = {
     "Aardrijkskunde": "mens",
     "Economie": "mens",
     "Geschiedenis": "mens",
-    "Beeldende Vorming": "kunst",
-    "Muziek": "kunst",
+    "Beeldende Vorming": "mens",
+    "Muziek": "mens",
 }
 
 SUBJECT_NAMES = {
