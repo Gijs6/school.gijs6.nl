@@ -59,6 +59,18 @@ class MathProtectExtension(Extension):
         md.postprocessors.register(postprocessor, "math_restore", 0)
 
 
+class TableWrapPostprocessor(Postprocessor):
+    def run(self, text):
+        text = text.replace("<table>", '<div class="table-scroll"><table>')
+        text = text.replace("</table>", "</table></div>")
+        return text
+
+
+class TableWrapExtension(Extension):
+    def extendMarkdown(self, md):
+        md.postprocessors.register(TableWrapPostprocessor(md), "table_wrap", 5)
+
+
 def setup_markdown_processor():
     return Markdown(
         extensions=[
@@ -67,6 +79,7 @@ def setup_markdown_processor():
             "tables",
             "toc",
             MathProtectExtension(),
+            TableWrapExtension(),
         ],
         extension_configs={
             "codehilite": {"css_class": "highlight", "use_pygments": False},
