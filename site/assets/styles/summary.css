@@ -372,60 +372,60 @@
             img {
                 width: 50%;
 
-                &[alt~="(img-xl)"] {
+                &.img-xl {
                     width: 100%;
                 }
 
-                &[alt~="(img-l)"] {
+                &.img-l {
                     width: 80%;
                 }
 
-                &[alt~="(img-m)"] {
+                &.img-m {
                     width: 60%;
                 }
 
-                &[alt~="(img-s)"] {
+                &.img-s {
                     width: 40%;
                 }
 
-                &[alt~="(img-xs)"] {
+                &.img-xs {
                     width: 25%;
                 }
 
-                &[alt~="(img-2xs)"] {
+                &.img-2xs {
                     width: 15%;
                 }
 
-                &[alt~="(img-padding)"] {
+                &.img-padding {
                     padding: var(--space-lg);
                     background-color: var(--color-image-bg);
                 }
 
-                &[alt~="(img-float-right)"] {
+                &.img-float-right {
                     float: right;
                     margin-bottom: var(--space-sm);
                     margin-left: var(--space-sm);
                 }
 
-                &[alt~="(img-clear-both)"] {
+                &.img-clear-both {
                     clear: both;
                 }
 
                 @media (width < 700px) {
                     width: 70%;
 
-                    &[alt~="(img-m)"],
-                    &[alt~="(img-l)"] {
+                    &.img-m,
+                    &.img-l {
                         width: 90%;
                     }
 
-                    &[alt~="(img-s)"],
-                    &[alt~="(img-xs)"],
-                    &[alt~="(img-2xs)"] {
+                    &.img-s,
+                    &.img-xs,
+                    &.img-2xs {
                         width: 60%;
                     }
 
-                    &[alt~="(img-float-right)"] {
+                    &.img-float-right {
                         float: none;
                         margin: var(--space-sm) 0;
                     }
@@ -435,27 +435,27 @@
                     width: min(calc(var(--measure) * 0.5), 100%);
                     break-inside: avoid;
 
-                    &[alt~="(img-xl)"] {
+                    &.img-xl {
                         width: min(var(--measure), 100%);
                     }
 
-                    &[alt~="(img-l)"] {
+                    &.img-l {
                         width: min(calc(var(--measure) * 0.8), 100%);
                     }
 
-                    &[alt~="(img-m)"] {
+                    &.img-m {
                         width: min(calc(var(--measure) * 0.6), 100%);
                     }
 
-                    &[alt~="(img-s)"] {
+                    &.img-s {
                         width: min(calc(var(--measure) * 0.4), 100%);
                     }
 
-                    &[alt~="(img-xs)"] {
+                    &.img-xs {
                         width: min(calc(var(--measure) * 0.25), 100%);
                     }
 
-                    &[alt~="(img-2xs)"] {
+                    &.img-2xs {
                         width: min(calc(var(--measure) * 0.15), 100%);
                     }
                 }

@@ -1,9 +1,10 @@
 import html
 import re
+
 from markdown import Markdown
-from markdown.preprocessors import Preprocessor
-from markdown.postprocessors import Postprocessor
 from markdown.extensions import Extension
+from markdown.postprocessors import Postprocessor
+from markdown.preprocessors import Preprocessor
 
 MATH_DISPLAY_PATTERN = re.compile(r"\$\$([^\$]+)\$\$")
 MATH_INLINE_PATTERN = re.compile(r"\$([^\$\n]+)\$")
@@ -59,8 +60,15 @@ class MathProtectExtension(Extension):
         md.postprocessors.register(postprocessor, "math_restore", 0)
 
 
+THEAD_PATTERN = re.compile(r"<thead>.*?</thead>", re.DOTALL)
+TH_TAG_PATTERN = re.compile(r"<th(?=[ >])")
+
+
 class TableWrapPostprocessor(Postprocessor):
     def run(self, text):
+        text = THEAD_PATTERN.sub(
+            lambda m: TH_TAG_PATTERN.sub('<th scope="col"', m.group(0)), text
+        )
         text = text.replace("<table>", '<div class="table-scroll"><table>')
         text = text.replace("</table>", "</table></div>")
         return text
@@ -69,6 +77,42 @@ class TableWrapPostprocessor(Postprocessor):
 class TableWrapExtension(Extension):
     def extendMarkdown(self, md):
         md.postprocessors.register(TableWrapPostprocessor(md), "table_wrap", 5)
+
+
+IMG_TAG_PATTERN = re.compile(r"<img\b[^>]*>")
+IMG_ALT_ATTR_PATTERN = re.compile(r'alt="([^"]*)"')
+IMG_SIZE_TOKEN_PATTERN = re.compile(r"\s*\((img-[a-z0-9]+(?:-[a-z0-9]+)*)\)")
+
+
+class ImageSizingPostprocessor(Postprocessor):
+    """Moves `(img-xl)`-style layout hints out of the `alt` attribute (where
+    screen readers would read them aloud as part of the image description)
+    and into CSS classes instead."""
+
+    def run(self, text):
+        def process_tag(match):
+            tag = match.group(0)
+            alt_match = IMG_ALT_ATTR_PATTERN.search(tag)
+            if not alt_match:
+                return tag
+
+            alt = alt_match.group(1)
+            tokens = IMG_SIZE_TOKEN_PATTERN.findall(alt)
+            if not tokens:
+                return tag
+
+            clean_alt = IMG_SIZE_TOKEN_PATTERN.sub("", alt).strip()
+            tag = (
+                tag[: alt_match.start()] + f'alt="{clean_alt}"' + tag[alt_match.end() :]
+            )
+            return tag.replace("<img ", f'<img class="{" ".join(tokens)}" ', 1)
+
+        return IMG_TAG_PATTERN.sub(process_tag, text)
+
+
+class ImageSizingExtension(Extension):
+    def extendMarkdown(self, md):
+        md.postprocessors.register(ImageSizingPostprocessor(md), "image_sizing", 4)
 
 
 def setup_markdown_processor():
@@ -80,6 +124,7 @@ def setup_markdown_processor():
             "toc",
             MathProtectExtension(),
             TableWrapExtension(),
+            ImageSizingExtension(),
         ],
         extension_configs={
             "codehilite": {"css_class": "highlight", "use_pygments": False},
