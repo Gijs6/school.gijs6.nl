@@ -10,7 +10,9 @@
     {%- endif -%}
 {% endblock %}
 
+{# djlint:off #}
 {% block body_class %} page--summary{% endblock %}
+{# djlint:on #}
 
 {% set license_label = "Deze samenvatting is vrij te gebruiken" %}
 
@@ -27,8 +29,8 @@
 {% endset %}
 {% set full_desc %}
     {%- if meta.subject_name and summary_title -%}
-        Samenvatting {{ meta.subject_name }}: {{ summary_title }}
-        {% if meta.description %}· {{ meta.description }}{% endif %}
+        Samenvatting {{ meta.subject_name }}: {{ summary_title -}}
+        {%- if meta.description %}· {{ meta.description }}{% endif %}
     {%- else -%}
         Samenvatting voor school
     {%- endif -%}
@@ -80,12 +82,7 @@
             <h1 class="summary__subject">{{ meta.subject_name }}</h1>
             {% if summary_title %}
                 <p class="summary__title">
-                    {{ summary_title }}
-                    {%- if meta.description %} ({{ meta.description }})
-                    {% endif -%}
-                    {%- if meta.year %} · {{ meta.year }}
-                        {% if meta.period %}/{{ meta.period }}{% endif %}
-                    {% endif -%}
+                    {{ summary_title }}{%- if meta.description %} ({{ meta.description }}){%- endif -%}{%- if meta.year %} · {{ meta.year -}}{%- if meta.period %}/{{ meta.period }}{%- endif -%}{%- endif -%}
                 </p>
             {% endif %}
         </hgroup>

@@ -23,14 +23,23 @@ class BuildHandler(FileSystemEventHandler):
         self.last_build = 0
 
     def on_modified(self, event):
-        if event.is_directory or "build" in event.src_path:
+        self._handle(event)
+
+    def on_created(self, event):
+        self._handle(event)
+
+    def on_moved(self, event):
+        self._handle(event, src_path=event.dest_path)
+
+    def _handle(self, event, src_path=None):
+        src_path = src_path or event.src_path
+        if event.is_directory or "build" in src_path:
             return
         now = time.time()
         if now - self.last_build < 0.5:
             return
         self.last_build = now
 
-        src_path = event.src_path
         src_abs = os.path.abspath(src_path)
 
         if src_path.endswith(".py"):
