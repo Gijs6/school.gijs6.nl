@@ -24,23 +24,23 @@
         </p>
     </header>
 
-    <div class="index index--archive">
+    <div class="index">
         {% for year, subjects in onderbouw_data.items() %}
             <section class="index__year" aria-labelledby="jaar-{{ year }}">
                 <h2 class="index__year-label" id="jaar-{{ year }}">{{ year }}</h2>
 
-                <div class="archive__subjects">
+                <div class="index__subjects">
                     {% for subject in subjects %}
-                        <section class="archive__subject"
+                        <section class="index__subject"
                                  data-family="{{ subject.family }}"
                                  aria-labelledby="vak-{{ year }}-{{ loop.index }}">
-                            <h3 class="archive__subject-label" id="vak-{{ year }}-{{ loop.index }}">
+                            <h3 class="index__subject-label" id="vak-{{ year }}-{{ loop.index }}">
                                 {{ subject.name }}
                             </h3>
-                            <ul class="archive__chapters">
+                            <ul class="index__chapters">
                                 {% for page in subject.pages %}
-                                    <li class="archive__chapter">
-                                        <a class="archive__chapter-link" href="{{ page.link }}">{{ page.chapter }}</a>
+                                    <li class="index__chapter">
+                                        <a class="index__chapter-link" href="{{ page.link }}">{{ page.chapter }}</a>
                                     </li>
                                 {% endfor %}
                             </ul>

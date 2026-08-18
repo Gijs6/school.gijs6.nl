@@ -15,101 +15,123 @@
     }
 }
 
-.index__year {
-    --year-column: 5rem;
+.index {
+    .index__year {
+        --year-column: 5rem;
 
-    display: grid;
-    grid-template-columns: var(--year-column) minmax(0, 1fr);
-    column-gap: var(--space-lg);
+        display: grid;
+        grid-template-columns: var(--year-column) minmax(0, 1fr);
+        column-gap: var(--space-lg);
 
-    & + .index__year {
-        margin-top: var(--space-2xl);
-    }
-
-    .index__year-label {
-        position: sticky;
-        top: 0;
-        align-self: start;
-        margin: 0;
-        padding-top: var(--space-md);
-        font-size: var(--font-size-xl);
-        font-variant-numeric: tabular-nums;
-
-        @media print {
-            position: static;
+        & + .index__year {
+            margin-top: var(--space-2xl);
         }
-    }
-
-    .index__periods {
-        min-width: 0;
-    }
-
-    @media (width < 700px) {
-        display: block;
 
         .index__year-label {
-            position: static;
-            margin: 0 0 var(--space-sm) 0;
-            padding-top: 0;
+            position: sticky;
+            top: 0;
+            align-self: start;
+            margin: 0;
+            padding-top: var(--space-md);
+            font-size: var(--font-size-xl);
+            font-variant-numeric: tabular-nums;
+
+            @media print {
+                position: static;
+            }
         }
-    }
-}
 
-.index__period {
-    & + .index__period {
-        margin-top: var(--space-lg);
-    }
+        .index__periods,
+        .index__subjects {
+            min-width: 0;
 
-    .index__period-label {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-        margin: 0;
-        padding: var(--space-md) 0 var(--space-xs) 0;
-        background-color: var(--color-bg);
-        font-size: var(--font-size-lg);
+            .index__period,
+            .index__subject {
+                & + .index__period,
+                & + .index__subject {
+                    margin-top: var(--space-lg);
+                }
 
-        @media print {
-            position: static;
+                .index__period-label,
+                .index__subject-label {
+                    position: sticky;
+                    top: 0;
+                    z-index: 1;
+                    margin: 0;
+                    padding: var(--space-md) 0 var(--space-xs) 0;
+                    background-color: var(--color-bg);
+                    font-size: var(--font-size-lg);
+
+                    @media print {
+                        position: static;
+                    }
+                }
+
+                .test-list,
+                .index__chapters {
+                    display: flex;
+                    flex-direction: column;
+                    gap: var(--space-xs);
+                    margin: var(--space-2xs) 0 0 0;
+                    padding: 0;
+                    list-style: none;
+
+                    .test-list__item,
+                    .index__chapter {
+                        padding-left: var(--rule-gap);
+                        border-left: var(--rule-width) solid var(--color-family);
+                    }
+                }
+
+                .test-list__item {
+                    .test-list__link {
+                        display: block;
+                        color: inherit;
+                        text-decoration: none;
+
+                        &:hover .test-list__subject {
+                            text-decoration: underline;
+                        }
+
+                        .test-list__subject {
+                            font-weight: 700;
+                        }
+
+                        .test-list__material {
+                            color: var(--color-fg-muted);
+                        }
+                    }
+
+                    .test-list__resources {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                }
+
+                .index__chapter {
+                    .index__chapter-link {
+                        display: block;
+                        color: inherit;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
         }
-    }
-}
 
-.test-list {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-xs);
-    margin: var(--space-2xs) 0 0 0;
-    padding: 0;
-    list-style: none;
+        @media (width < 700px) {
+            display: block;
 
-    .test-list__item {
-        padding-left: var(--rule-gap);
-        border-left: var(--rule-width) solid var(--color-family);
-    }
-
-    .test-list__link {
-        display: block;
-        color: inherit;
-        text-decoration: none;
-
-        &:hover .test-list__subject {
-            text-decoration: underline;
+            .index__year-label {
+                position: static;
+                margin: 0 0 var(--space-sm) 0;
+                padding-top: 0;
+            }
         }
-    }
-
-    .test-list__subject {
-        font-weight: 700;
-    }
-
-    .test-list__material {
-        color: var(--color-fg-muted);
-    }
-
-    .test-list__resources {
-        margin: 0;
-        padding: 0;
-        list-style: none;
     }
 }
 

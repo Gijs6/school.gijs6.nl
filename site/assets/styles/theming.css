@@ -84,25 +84,92 @@ h6 {
 }
 
 .page {
-    max-width: var(--page-width);
-    margin: 0 auto;
-    padding: var(--space-3xl) var(--space-lg);
+    .page__content {
+        max-width: var(--page-width);
+        margin: 0 auto;
+        padding: var(--space-3xl) var(--space-lg);
 
-    @media (width < 700px) {
-        padding-block: var(--space-xl);
+        @media (width < 700px) {
+            padding-block: var(--space-xl);
+        }
+
+        @media print {
+            max-width: none;
+            padding: 0;
+        }
     }
 
-    @media print {
-        max-width: none;
-        padding: 0;
+    .page__back {
+        margin-bottom: var(--space-xl);
+
+        @media print {
+            display: none;
+        }
     }
-}
 
-.page__back {
-    margin-bottom: var(--space-xl);
+    .page__footer {
+        max-width: var(--page-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg) var(--space-2xl) var(--space-lg);
 
-    @media print {
-        display: none;
+        @media print {
+            display: none;
+        }
+
+        .page__footer-list {
+            margin: 0;
+            list-style: none;
+            padding: var(--space-lg) 0 0 0;
+            border-top: 1px solid var(--color-border);
+            color: var(--color-fg-muted);
+
+            .page__footer-item {
+                display: inline;
+                margin: 0;
+
+                &:not(:last-child)::after {
+                    content: " · ";
+                    color: var(--color-fg-faint);
+                }
+            }
+        }
+
+        .page__footer-note {
+            margin: var(--space-xs) 0 0 0;
+            color: var(--color-fg-faint);
+            font-size: var(--font-size-sm);
+            line-height: var(--line-height-tight);
+            text-wrap: pretty;
+
+            time {
+                font-variant-numeric: tabular-nums;
+            }
+        }
+
+        .page__footer-commit {
+            font-family: var(--font-family-mono);
+            font-size: 0.9em;
+        }
+
+        .page__footer-address {
+            display: inline;
+            font-style: normal;
+        }
+
+        .page__footer-link {
+            color: inherit;
+            text-decoration: none;
+
+            &:hover {
+                color: var(--color-fg);
+                text-decoration: underline;
+            }
+        }
+
+        .page__footer-author {
+            font-weight: 700;
+            color: var(--color-fg);
+        }
     }
 }
 
@@ -125,71 +192,6 @@ h6 {
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
-}
-
-.page__footer {
-    max-width: var(--page-width);
-    margin: 0 auto;
-    padding: 0 var(--space-lg) var(--space-2xl) var(--space-lg);
-
-    @media print {
-        display: none;
-    }
-
-    .page__footer-list {
-        margin: 0;
-        list-style: none;
-        padding: var(--space-lg) 0 0 0;
-        border-top: 1px solid var(--color-border);
-        color: var(--color-fg-muted);
-
-        .page__footer-item {
-            display: inline;
-            margin: 0;
-
-            &:not(:last-child)::after {
-                content: " · ";
-                color: var(--color-fg-faint);
-            }
-        }
-    }
-
-    .page__footer-note {
-        margin: var(--space-xs) 0 0 0;
-        color: var(--color-fg-faint);
-        font-size: var(--font-size-sm);
-        line-height: var(--line-height-tight);
-        text-wrap: pretty;
-
-        time {
-            font-variant-numeric: tabular-nums;
-        }
-    }
-
-    .page__footer-commit {
-        font-family: var(--font-family-mono);
-        font-size: 0.9em;
-    }
-
-    .page__footer-address {
-        display: inline;
-        font-style: normal;
-    }
-
-    .page__footer-link {
-        color: inherit;
-        text-decoration: none;
-
-        &:hover {
-            color: var(--color-fg);
-            text-decoration: underline;
-        }
-    }
-
-    .page__footer-author {
-        font-weight: 700;
-        color: var(--color-fg);
-    }
 }
 
 .external-link {

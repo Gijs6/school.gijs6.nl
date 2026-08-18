@@ -60,7 +60,7 @@
               title="Atom feed"
               href="/atom.xml">
     </head>
-    <body class="{% block body_class %}{% endblock %}">
+    <body class="page{% block body_class %}{% endblock %}">
         <svg xmlns="http://www.w3.org/2000/svg"
              class="visually-hidden"
              aria-hidden="true"
@@ -83,7 +83,7 @@
             </symbol>
         </svg>
 
-        <main class="page">
+        <main class="page__content">
             {% block content %}{% endblock %}
         </main>
 
