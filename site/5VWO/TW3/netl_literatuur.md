@@ -4,7 +4,7 @@ title: Literatuurgeschiedenis
 description: Renaissance, Gouden Eeuw & Verlichting
 ---
 
-> Bekijk ook de [samenvatting literatuurgeschiedenis over de klassieke oudheid en de middeleeuwen](../../4VWO/TW3/netl_literatuurgeschiedenis)
+> Bekijk ook de [samenvatting literatuurgeschiedenis over de klassieke oudheid en de middeleeuwen](../../4VWO/TW3/netl_literatuur)
 
 ## Renaissance (1500-1700)
 

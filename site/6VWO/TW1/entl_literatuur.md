@@ -1,6 +1,7 @@
 ---
 subject: ENTL
-title: Literatuur
+title: Literatuurgeschidenis
+description: 19e en 20e eeuw
 ---
 
 ## Désirée's Baby
