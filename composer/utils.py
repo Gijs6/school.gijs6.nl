@@ -34,16 +34,10 @@ class ProgressBar:
         self.current += n
         self._render()
 
-    def _bar_width(self):
-        term_width = shutil.get_terminal_size((80, 24)).columns
-        return max(5, min(self.width, term_width - self._OVERHEAD))
-
-    def _term_width(self):
-        return shutil.get_terminal_size((80, 24)).columns
-
     def _render(self):
         ratio = min(self.current / self.total, 1.0)
-        bar_width = self._bar_width()
+        terminal_width = shutil.get_terminal_size((80, 24)).columns
+        bar_width = max(5, min(self.width, terminal_width - self._OVERHEAD))
         filled = int(bar_width * ratio)
         bar = "=" * filled
         if filled < bar_width:
@@ -51,7 +45,7 @@ class ProgressBar:
             bar += " " * (bar_width - filled - 1)
         elapsed = time.time() - self.start_time
         line = f"  {self.prefix:10} [{bar}] {self.current:>3}/{self.total:<3} ({elapsed:.1f}s)"
-        max_width = self._term_width() - 1
+        max_width = terminal_width - 1
         sys.stdout.write(f"\r{line:<{max_width}}"[: max_width + 1])
         sys.stdout.flush()
 
@@ -59,7 +53,7 @@ class ProgressBar:
         elapsed = (time.time() - self.start_time) * 1000
         count = self.current if self.current > 0 else self.total
         line = f"  {self.prefix:10} {Fore.GREEN}done{Style.RESET_ALL} ({count} items, {elapsed:.0f}ms)"
-        max_width = self._term_width() - 1
+        max_width = shutil.get_terminal_size((80, 24)).columns - 1
         sys.stdout.write(f"\r{line:<{max_width}}\n")
         sys.stdout.flush()
 
@@ -71,7 +65,7 @@ def remove_base64_images(html_content):
 def parse_metadata(content):
     match = FRONT_MATTER_PATTERN.match(content)
     if match:
-        return yaml.safe_load(match.group(1)) or {}, content.split("---", 2)[2].strip()
+        return yaml.safe_load(match.group(1)) or {}, content[match.end() :].strip()
     return {}, content
 
 
@@ -95,8 +89,11 @@ def sort_period(period):
 
 
 def get_year_dirs():
-    year_dirs = [d for d in os.listdir(SITE_DIR) if YEAR_DIR_PATTERN.match(d)]
-    return sorted(year_dirs, key=lambda x: int(x[0]), reverse=True)
+    return sorted(
+        (d for d in os.listdir(SITE_DIR) if YEAR_DIR_PATTERN.match(d)),
+        key=lambda x: int(x[0]),
+        reverse=True,
+    )
 
 
 def get_onderbouw_dirs():
@@ -117,31 +114,14 @@ def build_test_material(metadata):
     title = metadata.get("title", "")
     short = metadata.get("short", "")
     description = metadata.get("description", "")
-    if title and description:
-        return f"{title} ({description})"
-    if title:
-        return title
-    if short and description:
-        return f"{short} ({description})"
-    if short:
-        return short
-    if description:
-        return f"({description})"
-    return ""
+    label = title or short
+    return f"{label} ({description})" if label and description else label or f"({description})"
 
 
 def split_onderbouw_filename(filename):
     subject, _, chapter = filename.partition("-")
-    chapter = split_camel_case(chapter.replace("_", " "))
-    return subject.replace("_", " "), space_ampersands(chapter)
-
-
-def split_camel_case(value):
-    return re.sub(r"(?<=[a-z])(?=[A-Z])", " ", value)
-
-
-def space_ampersands(value):
-    return re.sub(r"\s*&\s*", " & ", value)
+    chapter = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", chapter.replace("_", " "))
+    return subject.replace("_", " "), re.sub(r"\s*&\s*", " & ", chapter)
 
 
 def natural_key(value):
