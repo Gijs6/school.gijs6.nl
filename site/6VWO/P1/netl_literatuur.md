@@ -44,7 +44,7 @@ Ook **engagement** was belangrijk. Schrijvers wilden met hun verhalen aandacht v
 
 ## Naturalisme
 
-De aanhangers van het **naturalisme** gingen nog een stap verder dan de realisten. Zij wilden niet alleen laten zien hoe het leven van een mens eruitzag, maar ook uitleggen **waardoor** iemand zo was geworden.
+De aanhangers van het **naturalisme** gingen nog een stap verder dan de realisten. Zij wilden niet alleen laten zien hoe het leven van een mens eruitzag, maar ook uitleggen waardoor iemand zo was geworden.
 
 Belangrijke kenmerken van het naturalisme:
 
@@ -88,6 +88,10 @@ Schrijvers beschreven dingen zo simpel, duidelijk en nuchter mogelijk. Ze gebrui
 ## Vorm of vent
 
 **Vorm of vent** was een discussie over wat belangrijker is in literatuur: de manier waarop iets is geschreven (**vorm**) of de persoonlijkheid van de schrijver (**vent**).
+
+Bij vorm staan de vorm en taal van het kunstwerk centraal en het werk moet op zichzelf waarde hebben, compleet los van de maker.
+
+Bij vent staan de persoonlijkheid, echtheid en menselijke achtergrond centraal. De schrijvers moesten hun eigen unieke geest tonen.
 
 ## Modernisme
 
