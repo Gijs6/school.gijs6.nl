@@ -21,6 +21,7 @@ from .config import (
 
 BASE64_IMAGE_PATTERN = re.compile(r'<img[^>]*src="data:image/[^"]*"[^>]*>')
 
+
 def to_local(dt):
     return dt.astimezone(ZoneInfo(TIMEZONE))
 
