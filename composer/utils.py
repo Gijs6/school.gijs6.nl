@@ -89,11 +89,8 @@ def sort_period(period):
 
 
 def get_year_dirs():
-    return sorted(
-        (d for d in os.listdir(SITE_DIR) if YEAR_DIR_PATTERN.match(d)),
-        key=lambda x: int(x[0]),
-        reverse=True,
-    )
+    year_dirs = [d for d in os.listdir(SITE_DIR) if YEAR_DIR_PATTERN.match(d)]
+    return sorted(year_dirs, key=sort_years)
 
 
 def get_onderbouw_dirs():
@@ -115,17 +112,16 @@ def build_test_material(metadata):
     short = metadata.get("short", "")
     description = metadata.get("description", "")
     label = title or short
-    return (
-        f"{label} ({description})"
-        if label and description
-        else label or f"({description})"
-    )
+    if label:
+        return f"{label} ({description})" if description else label
+    return f"({description})" if description else ""
 
 
 def split_onderbouw_filename(filename):
     subject, _, chapter = filename.partition("-")
     chapter = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", chapter.replace("_", " "))
-    return subject.replace("_", " "), re.sub(r"\s*&\s*", " & ", chapter)
+    chapter = re.sub(r"\s*&\s*", " & ", chapter)
+    return subject.replace("_", " "), chapter
 
 
 def natural_key(value):
@@ -135,13 +131,13 @@ def natural_key(value):
     ]
 
 
-def create_test_entry(metadata, main_dir, sub_dir, file, resources_map):
+def create_test_entry(metadata, year_dir, period_dir, filename, resources_map):
     subject = metadata.get("subject", "").upper()
     return {
         "subject": subject,
         "subject_name": SUBJECT_NAMES.get(subject, subject),
         "test_material": build_test_material(metadata),
         "family": SUBJECT_FAMILIES.get(subject, ""),
-        "resources": resources_map.get(f"{main_dir}/{sub_dir}/{file}", []),
-        "summary_link": f"/{main_dir}/{sub_dir}/{file.replace('.md', '')}",
+        "resources": resources_map.get(f"{year_dir}/{period_dir}/{filename}", []),
+        "summary_link": f"/{year_dir}/{period_dir}/{filename.removesuffix('.md')}",
     }
