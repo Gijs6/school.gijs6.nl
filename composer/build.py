@@ -36,7 +36,6 @@ from .utils import (
     remove_base64_images,
     split_onderbouw_filename,
     natural_key,
-    format_dutch_datetime,
     to_local,
 )
 from .markdown_ext import setup_markdown_processor
@@ -65,7 +64,7 @@ def site_context():
             _site_context = {
                 "repo_url": REPO_URL,
                 "commit": commit,
-                "built_at": format_dutch_datetime(built_at),
+                "built_at": built_at.strftime("%-d %B %Y om %H:%M"),
                 "built_at_iso": built_at.isoformat(timespec="seconds"),
             }
     return _site_context
@@ -78,7 +77,9 @@ def page_context(page_path):
         "page_created_iso": to_local(first_commit).date().isoformat()
         if first_commit
         else None,
-        "page_updated": format_dutch_datetime(last_commit) if last_commit else None,
+        "page_updated": to_local(last_commit).strftime("%-d %B %Y om %H:%M")
+        if last_commit
+        else None,
         "page_updated_iso": to_local(last_commit).isoformat(timespec="seconds")
         if last_commit
         else None,

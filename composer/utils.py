@@ -4,7 +4,6 @@ import sys
 import json
 import time
 import yaml
-import locale
 import shutil
 from colorama import Fore, Style
 from zoneinfo import ZoneInfo
@@ -22,26 +21,8 @@ from .config import (
 
 BASE64_IMAGE_PATTERN = re.compile(r'<img[^>]*src="data:image/[^"]*"[^>]*>')
 
-DUTCH_LOCALES = ("nl_NL.UTF-8", "nl_NL.utf8", "nl_NL", "nl")
-
-
-def set_dutch_locale():
-    for name in DUTCH_LOCALES:
-        try:
-            locale.setlocale(locale.LC_TIME, name)
-            return name
-        except locale.Error:
-            continue
-    return None
-
-
 def to_local(dt):
     return dt.astimezone(ZoneInfo(TIMEZONE))
-
-
-def format_dutch_datetime(dt):
-    local = to_local(dt)
-    return f"{local:%-d %B %Y} om {local:%H:%M}"
 
 
 class ProgressBar:

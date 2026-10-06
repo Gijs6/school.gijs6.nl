@@ -1,4 +1,8 @@
 import argparse
+import locale
+
+locale.setlocale(locale.LC_TIME, "nl_NL.UTF-8")
+
 from .build import build
 from .server import serve
 
