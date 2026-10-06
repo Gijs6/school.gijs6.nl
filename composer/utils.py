@@ -115,7 +115,11 @@ def build_test_material(metadata):
     short = metadata.get("short", "")
     description = metadata.get("description", "")
     label = title or short
-    return f"{label} ({description})" if label and description else label or f"({description})"
+    return (
+        f"{label} ({description})"
+        if label and description
+        else label or f"({description})"
+    )
 
 
 def split_onderbouw_filename(filename):
