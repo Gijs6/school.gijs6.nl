@@ -1,7 +1,10 @@
 import argparse
 import locale
 
+from colorama import init
+
 locale.setlocale(locale.LC_TIME, "nl_NL.UTF-8")
+init()
 
 from .build import build
 from .server import serve
