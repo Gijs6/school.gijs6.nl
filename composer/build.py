@@ -71,23 +71,13 @@ def site_context():
 
 def page_context(page_path):
     first_commit, last_commit = get_git_dates().get(page_path, (None, None))
+    first_commit = first_commit.astimezone(ZoneInfo(TIMEZONE)) if first_commit else None
+    last_commit = last_commit.astimezone(ZoneInfo(TIMEZONE)) if last_commit else None
     return {
         "page_path": page_path,
-        "page_created_iso": first_commit.astimezone(ZoneInfo(TIMEZONE))
-        .date()
-        .isoformat()
-        if first_commit
-        else None,
-        "page_updated": last_commit.astimezone(ZoneInfo(TIMEZONE)).strftime(
-            "%-d %B %Y om %H:%M"
-        )
-        if last_commit
-        else None,
-        "page_updated_iso": last_commit.astimezone(ZoneInfo(TIMEZONE)).isoformat(
-            timespec="seconds"
-        )
-        if last_commit
-        else None,
+        "page_created_iso": first_commit.date().isoformat() if first_commit else None,
+        "page_updated": last_commit.strftime("%-d %B %Y om %H:%M") if last_commit else None,
+        "page_updated_iso": last_commit.isoformat(timespec="seconds") if last_commit else None,
     }
 
 
@@ -289,7 +279,6 @@ def process_markdown_files(build_dir, template_env, dev=False):
         if year_data:
             sorted_data[year] = year_data
 
-    render_special_pages(build_dir, template_env, sorted_data)
     return sorted_data, md_cache
 
 
@@ -403,7 +392,7 @@ def build(dev=False, output_dir=None):
     asset_tasks = collect_static_assets(temp_build_dir)
     print(f"  Found {len(asset_tasks)} files to copy")
     asset_progress = ProgressBar(len(asset_tasks), prefix="Copying")
-    copy_static_assets(temp_build_dir, progress=asset_progress)
+    copy_static_assets(asset_tasks, progress=asset_progress)
     asset_progress.finish()
     print()
 
@@ -411,6 +400,7 @@ def build(dev=False, output_dir=None):
     years = get_year_dirs()
     print(f"  Found {len(years)} year directories: {', '.join(years)}")
     homepage_data, md_cache = process_markdown_files(temp_build_dir, template_env, dev)
+    render_special_pages(temp_build_dir, template_env, homepage_data)
     print(f"  Generated {len(md_cache)} HTML pages")
     print()
 

@@ -6,17 +6,14 @@ from .config import SITE_DIR
 from .utils import get_year_dirs
 
 
-def copy_if_exists(src, dest):
-    if not os.path.exists(src):
-        return 0
+def copy_asset(src, dest):
     if os.path.isdir(src):
         shutil.copytree(src, dest)
-        return sum(len(files) for _, _, files in os.walk(dest))
-    dest_dir = os.path.dirname(dest)
-    if dest_dir:
-        os.makedirs(dest_dir, exist_ok=True)
-    shutil.copy2(src, dest)
-    return 1
+    else:
+        dest_dir = os.path.dirname(dest)
+        if dest_dir:
+            os.makedirs(dest_dir, exist_ok=True)
+        shutil.copy2(src, dest)
 
 
 def collect_static_assets(build_dir):
@@ -41,11 +38,9 @@ def collect_static_assets(build_dir):
     return tasks
 
 
-def copy_static_assets(build_dir, progress=None):
-    tasks = collect_static_assets(build_dir)
+def copy_static_assets(tasks, progress=None):
     with ThreadPoolExecutor(max_workers=min(16, (os.cpu_count() or 4) * 2)) as ex:
-        futures = [ex.submit(copy_if_exists, src, dest) for src, dest in tasks]
+        futures = [ex.submit(copy_asset, src, dest) for src, dest in tasks]
         for _ in as_completed(futures):
             if progress:
                 progress.update()
-    return len(tasks)
