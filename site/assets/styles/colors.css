@@ -15,11 +15,11 @@
 
     --color-image-bg: #ffffff;
 
-    --color-family-talen: #c92a2a;
-    --color-family-mens: #b86f00;
-    --color-family-bio: #2f9e44;
-    --color-family-exact: #1c7ed6;
-    --color-family-wis: #9c36b5;
+    --color-family-talen: #e5484d;
+    --color-family-mens: #d98a00;
+    --color-family-bio: #2e9b63;
+    --color-family-exact: #3383d8;
+    --color-family-wis: #914fbf;
     --color-family-none: #6d7480;
 
     @media screen and (prefers-color-scheme: dark) {
@@ -35,12 +35,12 @@
         --color-accent: #6ab0ff;
         --color-accent-hover: #9ccbff;
 
-        --color-family-talen: #ff6b6b;
-        --color-family-mens: #ffd43b;
-        --color-family-bio: #51cf66;
-        --color-family-exact: #74c0fc;
-        --color-family-wis: #cc5de8;
-        --color-family-none: #868d9a;
+        --color-family-talen: #f2555a;
+        --color-family-mens: #f0a51b;
+        --color-family-bio: #43bd7a;
+        --color-family-exact: #58a0eb;
+        --color-family-wis: #a96bd5;
+f        --color-family-none: #868d9a;
     }
 }
 
