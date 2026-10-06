@@ -73,7 +73,9 @@ def page_context(page_path):
     first_commit, last_commit = get_git_dates().get(page_path, (None, None))
     return {
         "page_path": page_path,
-        "page_created_iso": first_commit.astimezone(ZoneInfo(TIMEZONE)).date().isoformat()
+        "page_created_iso": first_commit.astimezone(ZoneInfo(TIMEZONE))
+        .date()
+        .isoformat()
         if first_commit
         else None,
         "page_updated": last_commit.astimezone(ZoneInfo(TIMEZONE)).strftime(
