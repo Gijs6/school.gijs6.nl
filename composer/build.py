@@ -43,6 +43,7 @@ from .markdown_ext import setup_markdown_processor
 from .assets import collect_static_assets, copy_static_assets
 from .feeds import generate_feeds
 from .git import get_git_dates, get_head_commit
+from .sitemap import generate_sitemap
 
 _thread_local = threading.local()
 _site_context = None
@@ -416,7 +417,7 @@ def build(dev=False, output_dir=None):
     render_onderbouw_page(temp_build_dir, template_env, onderbouw_page_data)
     print()
 
-    print(f"{Fore.BLUE}[5/5] Generating feeds{Style.RESET_ALL}")
+    print(f"{Fore.BLUE}[5/6] Generating feeds{Style.RESET_ALL}")
     print("  Creating RSS and Atom feeds...")
     feed_progress = ProgressBar(len(md_cache), prefix="Entries")
     generate_feeds(
@@ -424,6 +425,11 @@ def build(dev=False, output_dir=None):
     )
     feed_progress.finish()
     print("  Wrote rss.xml and atom.xml")
+    print()
+
+    print(f"{Fore.BLUE}[6/6] Generating sitemap{Style.RESET_ALL}")
+    generate_sitemap(temp_build_dir, git_dates)
+    print("  Wrote sitemap.xml")
     print()
 
     print(f"{Fore.BLUE}Finalizing{Style.RESET_ALL}")

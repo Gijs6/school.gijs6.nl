@@ -22,9 +22,7 @@ def copy_if_exists(src, dest):
 def collect_static_assets(build_dir):
     tasks = [
         ("site/assets", os.path.join(build_dir, "assets")),
-        ("site/.well-known", os.path.join(build_dir, ".well-known")),
-        ("site/robots.txt", os.path.join(build_dir, "robots.txt")),
-        ("CNAME", os.path.join(build_dir, "CNAME")),
+        ("site/favicon.ico", os.path.join(build_dir, "favicon.ico")),
     ]
 
     for year_dir in get_year_dirs():
