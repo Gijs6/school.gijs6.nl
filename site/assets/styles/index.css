@@ -6,7 +6,6 @@
     }
 
     .intro__text {
-        max-width: var(--measure);
         margin: 0 0 var(--space-xs) 0;
 
         &:last-child {
