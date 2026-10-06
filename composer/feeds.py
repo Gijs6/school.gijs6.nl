@@ -67,12 +67,9 @@ def generate_feeds(build_dir, homepage_data, md_cache, git_dates, progress=None)
                     if progress:
                         progress.update()
 
-    def item_sort_key(it):
-        if it["last_commit"]:
-            return int(it["last_commit"].timestamp())
-        if it["first_commit"]:
-            return int(it["first_commit"].timestamp())
-        return float("-inf")
+    def item_sort_key(item):
+        timestamp = item["last_commit"] or item["first_commit"]
+        return int(timestamp.timestamp()) if timestamp else float("-inf")
 
     feed_items.sort(key=item_sort_key)
 
