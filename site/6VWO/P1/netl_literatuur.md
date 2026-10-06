@@ -4,8 +4,6 @@ title: Literatuurgeschiedenis
 description: Romantiek, realisme, naturalisme & nieuwe tijd
 ---
 
-> Deze samenvatting is nog niet helemaal af, ik moet nog wat dingen toevoegen qua o.a. auteurs (en misschien historische context?) die we moeten weten, maar qua literaire stromingen zelf is dit wel ongeveer wat je moet weten
-
 ## Romantiek
 
 De **romantiek** is een reactie op de **verlichting**. Tijdens de verlichting dacht men dat de wereld beter zou worden als de mens maar goed nadacht. Volgens romantische kunstenaars was dat alleen niet gebeurd. Zij voelden zich vaak niet thuis in de samenleving en 'leden aan de wereld' (*Weltschmerz*).
@@ -18,7 +16,7 @@ Andere belangrijke kenmerken van de romantiek:
 
 - **Persoonlijke gevoelens, emoties en opvattingen**
 - Een **romantische held**: een eenling met grote idealen die buiten de maatschappij staat
-- De romantiek is vooral **lyrisch**, terwijl de verlichting juist meer **didactisch** was
+- De romantiek is vooral **lyrisch**, terwil de verlichting juist meer **didactisch** was
 - **Originaliteit in vorm en inhoud**: verschillende kunstvormen en genres mogen door elkaar lopen
 - **Individualisme**: nadruk op het unieke individu en anders durven zijn
 - **Verbeelding en het bovennatuurlijke** spelen een belangrijke rol
