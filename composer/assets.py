@@ -18,8 +18,11 @@ def copy_asset(src, dest):
 
 def collect_static_assets(build_dir):
     tasks = [
-        ("site/assets", os.path.join(build_dir, "assets")),
-        ("site/favicon.ico", os.path.join(build_dir, "favicon.ico")),
+        (os.path.join(SITE_DIR, "assets"), os.path.join(build_dir, "assets")),
+        (
+            os.path.join(SITE_DIR, "favicon.ico"),
+            os.path.join(build_dir, "favicon.ico"),
+        ),
     ]
 
     for year_dir in get_year_dirs():
