@@ -123,7 +123,7 @@ def render_special_pages(build_dir, template_env, homepage_data):
             homepage_data=homepage_data,
             site={"data": {"homepage_data": homepage_data}},
             **page_context(f"{TEMPLATES_DIR}/home.jinja"),
-        )
+        ),
     )
     _write_html(
         os.path.join(build_dir, "404.html"),
