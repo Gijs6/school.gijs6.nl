@@ -97,35 +97,50 @@ def _thread_env():
     return _thread_local.env
 
 
+def _write_html(path, content):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as output:
+        output.write(content)
+
+
+def _render_summary(template_env, md_processor, markdown_content, metadata, page_path):
+    html_content = remove_base64_images(md_processor.convert(markdown_content))
+    toc = md_processor.toc
+    md_processor.reset()
+    rendered = template_env.get_template("summary.jinja").render(
+        content=html_content,
+        toc=toc,
+        meta=metadata,
+        **page_context(page_path),
+    )
+    return html_content, rendered
+
+
 def render_special_pages(build_dir, template_env, homepage_data):
-    with open(os.path.join(build_dir, "index.html"), "w", encoding="utf-8") as f:
-        f.write(
-            template_env.get_template("home.jinja").render(
-                homepage_data=homepage_data,
-                site={"data": {"homepage_data": homepage_data}},
-                **page_context(f"{TEMPLATES_DIR}/home.jinja"),
-            )
+    _write_html(
+        os.path.join(build_dir, "index.html"),
+        template_env.get_template("home.jinja").render(
+            homepage_data=homepage_data,
+            site={"data": {"homepage_data": homepage_data}},
+            **page_context(f"{TEMPLATES_DIR}/home.jinja"),
         )
-    with open(os.path.join(build_dir, "404.html"), "w", encoding="utf-8") as f:
-        f.write(
-            template_env.get_template("404.jinja").render(
-                **page_context(f"{TEMPLATES_DIR}/404.jinja")
-            )
-        )
+    )
+    _write_html(
+        os.path.join(build_dir, "404.html"),
+        template_env.get_template("404.jinja").render(
+            **page_context(f"{TEMPLATES_DIR}/404.jinja")
+        ),
+    )
 
 
 def render_onderbouw_page(build_dir, template_env, onderbouw_data):
-    onderbouw_build_dir = os.path.join(build_dir, "onderbouw")
-    os.makedirs(onderbouw_build_dir, exist_ok=True)
-    with open(
-        os.path.join(onderbouw_build_dir, "index.html"), "w", encoding="utf-8"
-    ) as f:
-        f.write(
-            template_env.get_template("onderbouw.jinja").render(
-                onderbouw_data=onderbouw_data,
-                **page_context(f"{TEMPLATES_DIR}/onderbouw.jinja"),
-            )
-        )
+    _write_html(
+        os.path.join(build_dir, "onderbouw", "index.html"),
+        template_env.get_template("onderbouw.jinja").render(
+            onderbouw_data=onderbouw_data,
+            **page_context(f"{TEMPLATES_DIR}/onderbouw.jinja"),
+        ),
+    )
 
 
 def process_single_file(
@@ -154,20 +169,10 @@ def process_single_file(
     metadata["period"] = period_dir
     metadata["canonical_url"] = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
 
-    html_content = remove_base64_images(md_processor.convert(markdown_content))
-    toc_html = md_processor.toc
-    md_processor.reset()
-
-    rendered = template_env.get_template("summary.jinja").render(
-        content=html_content,
-        toc=toc_html,
-        meta=metadata,
-        **page_context(md_file_path),
+    html_content, rendered = _render_summary(
+        template_env, md_processor, markdown_content, metadata, md_file_path
     )
-
-    os.makedirs(os.path.dirname(build_path), exist_ok=True)
-    with open(build_path, "w", encoding="utf-8") as f:
-        f.write(rendered)
+    _write_html(build_path, rendered)
 
     is_hidden = metadata.get("hidden")
     cache_key = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
@@ -319,19 +324,10 @@ def process_onderbouw_files(build_dir, template_env):
         if not metadata.get("title") and not metadata.get("short"):
             metadata["short"] = chapter
 
-        html_content = remove_base64_images(md_processor.convert(markdown_content))
-        toc_html = md_processor.toc
-        md_processor.reset()
-
-        rendered = template_env.get_template("summary.jinja").render(
-            content=html_content,
-            toc=toc_html,
-            meta=metadata,
-            **page_context(md_file_path),
+        _, rendered = _render_summary(
+            template_env, md_processor, markdown_content, metadata, md_file_path
         )
-
-        with open(build_path, "w", encoding="utf-8") as f:
-            f.write(rendered)
+        _write_html(build_path, rendered)
 
         onderbouw_data[year_dir].append(
             {
@@ -370,7 +366,7 @@ def build(dev=False, output_dir=None):
     print(f"{Fore.CYAN}Composer{Style.RESET_ALL}")
     print()
 
-    print(f"{Fore.BLUE}[1/5] Setup{Style.RESET_ALL}")
+    print(f"{Fore.BLUE}[1/7] Setup{Style.RESET_ALL}")
     print("  Creating temp directory...")
     temp_build_dir = tempfile.mkdtemp()
     print(f"  Loading templates from {TEMPLATES_DIR}/")
@@ -379,7 +375,7 @@ def build(dev=False, output_dir=None):
     print(f"  Found {len(templates)} templates")
     print()
 
-    print(f"{Fore.BLUE}[2/5] Collecting metadata{Style.RESET_ALL}")
+    print(f"{Fore.BLUE}[2/7] Collecting metadata{Style.RESET_ALL}")
     print("  Reading git history for file dates...")
     git_dates = get_git_dates()
     print(
@@ -392,7 +388,7 @@ def build(dev=False, output_dir=None):
     )
     print()
 
-    print(f"{Fore.BLUE}[3/5] Copying static assets{Style.RESET_ALL}")
+    print(f"{Fore.BLUE}[3/7] Copying static assets{Style.RESET_ALL}")
     asset_tasks = collect_static_assets(temp_build_dir)
     print(f"  Found {len(asset_tasks)} files to copy")
     asset_progress = ProgressBar(len(asset_tasks), prefix="Copying")
@@ -400,7 +396,7 @@ def build(dev=False, output_dir=None):
     asset_progress.finish()
     print()
 
-    print(f"{Fore.BLUE}[4/5] Processing markdown{Style.RESET_ALL}")
+    print(f"{Fore.BLUE}[4/7] Processing markdown{Style.RESET_ALL}")
     years = get_year_dirs()
     print(f"  Found {len(years)} year directories: {', '.join(years)}")
     homepage_data, md_cache = process_markdown_files(temp_build_dir, template_env, dev)
@@ -408,7 +404,7 @@ def build(dev=False, output_dir=None):
     print(f"  Generated {len(md_cache)} HTML pages")
     print()
 
-    print(f"{Fore.BLUE}[4b] Processing onderbouw{Style.RESET_ALL}")
+    print(f"{Fore.BLUE}[5/7] Processing onderbouw{Style.RESET_ALL}")
     onderbouw_dirs = get_onderbouw_dirs()
     print(
         f"  Found {len(onderbouw_dirs)} onderbouw directories: {', '.join(onderbouw_dirs)}"
@@ -417,7 +413,7 @@ def build(dev=False, output_dir=None):
     render_onderbouw_page(temp_build_dir, template_env, onderbouw_page_data)
     print()
 
-    print(f"{Fore.BLUE}[5/6] Generating feeds{Style.RESET_ALL}")
+    print(f"{Fore.BLUE}[6/7] Generating feeds{Style.RESET_ALL}")
     print("  Creating RSS and Atom feeds...")
     feed_progress = ProgressBar(len(md_cache), prefix="Entries")
     generate_feeds(
@@ -427,7 +423,7 @@ def build(dev=False, output_dir=None):
     print("  Wrote rss.xml and atom.xml")
     print()
 
-    print(f"{Fore.BLUE}[6/6] Generating sitemap{Style.RESET_ALL}")
+    print(f"{Fore.BLUE}[7/7] Generating sitemap{Style.RESET_ALL}")
     generate_sitemap(temp_build_dir, git_dates)
     print("  Wrote sitemap.xml")
     print()
