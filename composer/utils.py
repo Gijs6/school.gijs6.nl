@@ -6,7 +6,6 @@ import time
 import yaml
 import shutil
 from colorama import Fore, Style
-from zoneinfo import ZoneInfo
 
 from .config import (
     SITE_DIR,
@@ -16,14 +15,9 @@ from .config import (
     SUBJECT_NAMES,
     SUBJECT_FAMILIES,
     ONDERBOUW_DIR,
-    TIMEZONE,
 )
 
 BASE64_IMAGE_PATTERN = re.compile(r'<img[^>]*src="data:image/[^"]*"[^>]*>')
-
-
-def to_local(dt):
-    return dt.astimezone(ZoneInfo(TIMEZONE))
 
 
 class ProgressBar:

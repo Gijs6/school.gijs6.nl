@@ -36,7 +36,6 @@ from .utils import (
     remove_base64_images,
     split_onderbouw_filename,
     natural_key,
-    to_local,
 )
 from .markdown_ext import setup_markdown_processor
 from .assets import collect_static_assets, copy_static_assets
@@ -74,13 +73,17 @@ def page_context(page_path):
     first_commit, last_commit = get_git_dates().get(page_path, (None, None))
     return {
         "page_path": page_path,
-        "page_created_iso": to_local(first_commit).date().isoformat()
+        "page_created_iso": first_commit.astimezone(ZoneInfo(TIMEZONE)).date().isoformat()
         if first_commit
         else None,
-        "page_updated": to_local(last_commit).strftime("%-d %B %Y om %H:%M")
+        "page_updated": last_commit.astimezone(ZoneInfo(TIMEZONE)).strftime(
+            "%-d %B %Y om %H:%M"
+        )
         if last_commit
         else None,
-        "page_updated_iso": to_local(last_commit).isoformat(timespec="seconds")
+        "page_updated_iso": last_commit.astimezone(ZoneInfo(TIMEZONE)).isoformat(
+            timespec="seconds"
+        )
         if last_commit
         else None,
     }
