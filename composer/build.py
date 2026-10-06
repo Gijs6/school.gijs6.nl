@@ -128,9 +128,9 @@ def render_onderbouw_page(build_dir, template_env, onderbouw_data):
         )
 
 
-def process_single_file(args):
-    md_file_path, year_path, build_year_dir, year_dir, resources_map, dev = args
-
+def process_single_file(
+    md_file_path, year_path, build_year_dir, year_dir, resources_map, dev
+):
     md_processor = _thread_md()
     template_env = _thread_env()
 
@@ -222,7 +222,7 @@ def rebuild_single_markdown(src_path, build_dir):
     resources_map = load_json_file(RESOURCES_JSON)
 
     process_single_file(
-        (src_path, year_path, build_year_dir, year_dir, resources_map, True)
+        src_path, year_path, build_year_dir, year_dir, resources_map, True
     )
 
     elapsed = (time.time() - start_time) * 1000
@@ -257,7 +257,7 @@ def process_markdown_files(build_dir, template_env, dev=False):
 
     progress = ProgressBar(len(tasks), prefix="Pages")
     with ThreadPoolExecutor(max_workers=min(32, (os.cpu_count() or 4) * 2)) as executor:
-        futures = [executor.submit(process_single_file, task) for task in tasks]
+        futures = [executor.submit(process_single_file, *task) for task in tasks]
         for future in as_completed(futures):
             cache_key, html_content, is_hidden, year_dir, period_dir, entry = (
                 future.result()
