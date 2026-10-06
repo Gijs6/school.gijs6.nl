@@ -76,8 +76,12 @@ def page_context(page_path):
     return {
         "page_path": page_path,
         "page_created_iso": first_commit.date().isoformat() if first_commit else None,
-        "page_updated": last_commit.strftime("%-d %B %Y om %H:%M") if last_commit else None,
-        "page_updated_iso": last_commit.isoformat(timespec="seconds") if last_commit else None,
+        "page_updated": last_commit.strftime("%-d %B %Y om %H:%M")
+        if last_commit
+        else None,
+        "page_updated_iso": last_commit.isoformat(timespec="seconds")
+        if last_commit
+        else None,
     }
 
 
