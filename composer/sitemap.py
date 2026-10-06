@@ -12,14 +12,21 @@ def _last_modified(git_dates, path):
     return last_commit.date().isoformat() if last_commit else None
 
 
-def _add_url(urlset, path, git_dates, source_path=None):
+def _add_url(urlset, path, git_dates, source_path):
     url = SubElement(urlset, f"{{{_SITEMAP_NAMESPACE}}}url")
     SubElement(url, f"{{{_SITEMAP_NAMESPACE}}}loc").text = f"{SITE_URL}{path}"
 
-    if source_path:
-        last_modified = _last_modified(git_dates, source_path)
-        if last_modified:
-            SubElement(url, f"{{{_SITEMAP_NAMESPACE}}}lastmod").text = last_modified
+    last_modified = _last_modified(git_dates, source_path)
+    if last_modified:
+        SubElement(url, f"{{{_SITEMAP_NAMESPACE}}}lastmod").text = last_modified
+
+
+def _markdown_files(root):
+    for directory, directories, files in os.walk(root):
+        directories.sort()
+        for filename in sorted(files):
+            if filename.endswith(".md"):
+                yield os.path.join(directory, filename)
 
 
 def generate_sitemap(build_dir, git_dates):
@@ -32,43 +39,26 @@ def generate_sitemap(build_dir, git_dates):
 
     for year_dir in get_year_dirs():
         year_path = os.path.join(SITE_DIR, year_dir)
-        for root, dirs, files in os.walk(year_path):
-            dirs.sort()
-            for filename in sorted(files):
-                if not filename.endswith(".md"):
-                    continue
+        for source_path in _markdown_files(year_path):
+            with open(source_path, "r", encoding="utf-8") as f:
+                metadata, _ = parse_metadata(f.read())
+            if metadata.get("hidden"):
+                continue
 
-                source_path = os.path.join(root, filename)
-                with open(source_path, "r", encoding="utf-8") as f:
-                    metadata, _ = parse_metadata(f.read())
-                if metadata.get("hidden"):
-                    continue
-
-                relative_path = os.path.relpath(source_path, year_path)
-                page_path = os.path.splitext(relative_path)[0].replace(os.sep, "/")
-                _add_url(
-                    urlset,
-                    f"/{year_dir}/{page_path}",
-                    git_dates,
-                    source_path,
-                )
+            relative_path = os.path.relpath(source_path, year_path)
+            page_path = os.path.splitext(relative_path)[0].replace(os.sep, "/")
+            _add_url(urlset, f"/{year_dir}/{page_path}", git_dates, source_path)
 
     for year_dir in get_onderbouw_dirs():
         year_path = os.path.join(ONDERBOUW_DIR, year_dir)
-        for root, dirs, files in os.walk(year_path):
-            dirs.sort()
-            for filename in sorted(files):
-                if not filename.endswith(".md"):
-                    continue
-
-                source_path = os.path.join(root, filename)
-                page_name = os.path.splitext(filename)[0]
-                _add_url(
-                    urlset,
-                    f"/onderbouw/{year_dir}/{page_name}",
-                    git_dates,
-                    source_path,
-                )
+        for source_path in _markdown_files(year_path):
+            page_name = os.path.splitext(os.path.basename(source_path))[0]
+            _add_url(
+                urlset,
+                f"/onderbouw/{year_dir}/{page_name}",
+                git_dates,
+                source_path,
+            )
 
     ElementTree(urlset).write(
         os.path.join(build_dir, "sitemap.xml"),
