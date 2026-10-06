@@ -7,10 +7,14 @@ _git_dates_cache = None
 _git_dates_lock = threading.Lock()
 
 
-def _parse_first_commits():
+def _parse_commit_dates(*, first_commit=False):
+    command = ["git", "log", "--format=%ct", "--name-only"]
+    if first_commit:
+        command.append("--diff-filter=A")
+
     try:
         output = subprocess.check_output(
-            ["git", "log", "--format=%ct", "--name-only", "--diff-filter=A"],
+            command,
             text=True,
             stderr=subprocess.DEVNULL,
         ).strip()
@@ -25,30 +29,7 @@ def _parse_first_commits():
             continue
         if line.isdigit():
             current_ts = int(line)
-        elif current_ts:
-            result[line] = current_ts
-    return result
-
-
-def _parse_last_commits():
-    try:
-        output = subprocess.check_output(
-            ["git", "log", "--format=%ct", "--name-only"],
-            text=True,
-            stderr=subprocess.DEVNULL,
-        ).strip()
-    except (subprocess.CalledProcessError, FileNotFoundError):
-        return {}
-
-    result = {}
-    current_ts = None
-    for line in output.split("\n"):
-        line = line.strip()
-        if not line:
-            continue
-        if line.isdigit():
-            current_ts = int(line)
-        elif current_ts and line not in result:
+        elif current_ts and (first_commit or line not in result):
             result[line] = current_ts
     return result
 
@@ -76,8 +57,8 @@ def get_head_commit():
 def get_all_git_dates():
     try:
         with ThreadPoolExecutor(max_workers=2) as ex:
-            f_first = ex.submit(_parse_first_commits)
-            f_last = ex.submit(_parse_last_commits)
+            f_first = ex.submit(_parse_commit_dates, first_commit=True)
+            f_last = ex.submit(_parse_commit_dates)
             first_commits = f_first.result()
             last_commits = f_last.result()
 
