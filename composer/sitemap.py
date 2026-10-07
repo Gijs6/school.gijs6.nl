@@ -1,7 +1,13 @@
 import os
-from xml.etree.ElementTree import Element, ElementTree, SubElement, register_namespace
+from xml.etree.ElementTree import (
+    Element,
+    ElementTree,
+    SubElement,
+    indent,
+    register_namespace,
+)
 
-from .config import SITE_DIR, SITE_URL
+from .config import SITE_DIR, SITE_URL, TEMPLATES_DIR
 from .utils import get_year_dirs, parse_metadata
 
 _SITEMAP_NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -30,11 +36,11 @@ def _markdown_files(root):
 
 
 def generate_sitemap(build_dir, git_dates):
-    """Write a sitemap for every public HTML page generated from Markdown."""
+    """Write a sitemap for every public page in the generated site."""
     register_namespace("", _SITEMAP_NAMESPACE)
     urlset = Element(f"{{{_SITEMAP_NAMESPACE}}}urlset")
 
-    _add_url(urlset, "/", git_dates, "site/templates/home.jinja")
+    _add_url(urlset, "/", git_dates, os.path.join(TEMPLATES_DIR, "home.jinja"))
     for year_dir in get_year_dirs():
         year_path = os.path.join(SITE_DIR, year_dir)
         for source_path in _markdown_files(year_path):
@@ -47,8 +53,8 @@ def generate_sitemap(build_dir, git_dates):
             page_path = os.path.splitext(relative_path)[0].replace(os.sep, "/")
             _add_url(urlset, f"/{year_dir}/{page_path}", git_dates, source_path)
 
-    ElementTree(urlset).write(
-        os.path.join(build_dir, "sitemap.xml"),
-        encoding="utf-8",
-        xml_declaration=True,
-    )
+    tree = ElementTree(urlset)
+    indent(tree, space="    ")
+    with open(os.path.join(build_dir, "sitemap.xml"), "wb") as sitemap:
+        sitemap.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+        tree.write(sitemap, encoding="utf-8", xml_declaration=False)
