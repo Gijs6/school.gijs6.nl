@@ -1,8 +1,8 @@
 import os
 from xml.etree.ElementTree import Element, ElementTree, SubElement, register_namespace
 
-from .config import ONDERBOUW_DIR, SITE_DIR, SITE_URL
-from .utils import get_onderbouw_dirs, get_year_dirs, parse_metadata
+from .config import SITE_DIR, SITE_URL
+from .utils import get_year_dirs, parse_metadata
 
 _SITEMAP_NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
 
@@ -35,8 +35,6 @@ def generate_sitemap(build_dir, git_dates):
     urlset = Element(f"{{{_SITEMAP_NAMESPACE}}}urlset")
 
     _add_url(urlset, "/", git_dates, "site/templates/home.jinja")
-    _add_url(urlset, "/onderbouw/", git_dates, "site/templates/onderbouw.jinja")
-
     for year_dir in get_year_dirs():
         year_path = os.path.join(SITE_DIR, year_dir)
         for source_path in _markdown_files(year_path):
@@ -48,17 +46,6 @@ def generate_sitemap(build_dir, git_dates):
             relative_path = os.path.relpath(source_path, year_path)
             page_path = os.path.splitext(relative_path)[0].replace(os.sep, "/")
             _add_url(urlset, f"/{year_dir}/{page_path}", git_dates, source_path)
-
-    for year_dir in get_onderbouw_dirs():
-        year_path = os.path.join(ONDERBOUW_DIR, year_dir)
-        for source_path in _markdown_files(year_path):
-            page_name = os.path.splitext(os.path.basename(source_path))[0]
-            _add_url(
-                urlset,
-                f"/onderbouw/{year_dir}/{page_name}",
-                git_dates,
-                source_path,
-            )
 
     ElementTree(urlset).write(
         os.path.join(build_dir, "sitemap.xml"),
