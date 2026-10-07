@@ -53,7 +53,7 @@ Belangrijke kenmerken van het naturalisme:
 5. Het verhaal loopt meestal niet goed af. De hoofdpersoon gaat vaak ten onder door het **noodlot**.
 6. Dialogen worden zo natuurlijk mogelijk weergegeven. Ook is er veel aandacht voor nauwkeurig en bijzonder taalgebruik (**woordkunst**).
 
-<!-- Freud toevoegen? -->
+Iemand die veel invloed had op de naturalistische literatuur was **Sigmund Freud**. Hij bedacht de **psychoanalyse**. Volgens Freud wordt het gedrag van mensen niet alleen bepaald door hun bewuste gedachten, maar ook door het **onbewuste**. Hierdoor kregen schrijvers meer aandacht voor de psychologie van personages, hun dromen, angsten en verborgen verlangens.
 
 ## De Tachtigers
 
