@@ -63,7 +63,7 @@ Een bekend naturalistisch verhaal is bijvoorbeeld ***Noodlot*** van Louis Couper
 
 ## De Tachtigers
 
-De **Tachtigers** waren een groep jonge schrijvers die zich afzetten tegen de bestaande Nederlandse literatuur. Zij vonden dat kunst in de eerste plaats om de kunst zelf moest draaien en niet bijvoorbeeld bedoeld moest zijn om mensen iets te leren (**_l'art pour l'art_**.
+De **Tachtigers** waren een groep jonge schrijvers die zich afzetten tegen de bestaande Nederlandse literatuur. Zij vonden dat kunst in de eerste plaats om de kunst zelf moest draaien en niet bijvoorbeeld bedoeld moest zijn om mensen iets te leren (**_l'art pour l'art_**).
 
 Volgens de Tachtigers was kunst vooral een individuele ervaring en een uiting van persoonlijke emoties. Een schrijver moest zo precies en mooi mogelijk beschrijven wat hij voelde of waarnam. Daarbij gebruikten zij veel **woordkunst**: bijzonder en origineel taalgebruik waarmee een schrijver zijn ervaringen zo precies mogelijk probeerde weer te geven.
 
