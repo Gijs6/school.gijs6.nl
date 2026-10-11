@@ -233,7 +233,8 @@
                 max-width: none;
             }
 
-            > :first-child {
+            > :first-child,
+            > section:first-child > h2 {
                 margin-top: 0;
             }
 

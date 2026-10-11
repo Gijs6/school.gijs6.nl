@@ -1,10 +1,12 @@
 import html
 import re
+import xml.etree.ElementTree as etree
 
 from markdown import Markdown
 from markdown.extensions import Extension
 from markdown.postprocessors import Postprocessor
 from markdown.preprocessors import Preprocessor
+from markdown.treeprocessors import Treeprocessor
 
 MATH_DISPLAY_PATTERN = re.compile(r"\$\$([^\$]+)\$\$")
 MATH_INLINE_PATTERN = re.compile(r"\$([^\$\n]+)\$")
@@ -115,6 +117,31 @@ class ImageSizingExtension(Extension):
         md.postprocessors.register(ImageSizingPostprocessor(md), "image_sizing", 4)
 
 
+class SectionWrapTreeprocessor(Treeprocessor):
+    """Wraps every `h2` and the content up to the next `h2` in a `<section>`,
+    so a sticky `h2` is confined to its own section and gets pushed away by
+    the next one instead of piling up behind it."""
+
+    def run(self, root):
+        children = list(root)
+        if not any(child.tag == "h2" for child in children):
+            return
+
+        for child in children:
+            root.remove(child)
+
+        section = None
+        for child in children:
+            if child.tag == "h2":
+                section = etree.SubElement(root, "section")
+            (section if section is not None else root).append(child)
+
+
+class SectionWrapExtension(Extension):
+    def extendMarkdown(self, md):
+        md.treeprocessors.register(SectionWrapTreeprocessor(md), "section_wrap", 4)
+
+
 def setup_markdown_processor():
     return Markdown(
         extensions=[
@@ -125,6 +152,7 @@ def setup_markdown_processor():
             MathProtectExtension(),
             TableWrapExtension(),
             ImageSizingExtension(),
+            SectionWrapExtension(),
         ],
         extension_configs={
             "codehilite": {"css_class": "highlight", "use_pygments": False},
