@@ -63,7 +63,7 @@ class ChangeCollector(FileSystemEventHandler):
 def _restart():
     console.notice("\nComposer changed! Restarting process...\n")
     sys.stdout.flush()
-    os.execv(sys.executable, [sys.executable, *sys.argv])
+    os.execv(sys.executable, sys.orig_argv)
 
 
 def _describe(paths):
