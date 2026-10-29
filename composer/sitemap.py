@@ -7,54 +7,38 @@ from xml.etree.ElementTree import (
     register_namespace,
 )
 
-from .config import SITE_DIR, SITE_URL, TEMPLATES_DIR
-from .utils import get_year_dirs, parse_metadata
+from .config import SITE_URL, TIMEZONE
+from .content import ONDERBOUW, SUMMARY
+from .render import template_source
 
-_SITEMAP_NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
-
-
-def _last_modified(git_dates, path):
-    _, last_commit = git_dates.get(path, (None, None))
-    return last_commit.date().isoformat() if last_commit else None
+NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
 
 
-def _add_url(urlset, path, git_dates, source_path):
-    url = SubElement(urlset, f"{{{_SITEMAP_NAMESPACE}}}url")
-    SubElement(url, f"{{{_SITEMAP_NAMESPACE}}}loc").text = f"{SITE_URL}{path}"
-
-    last_modified = _last_modified(git_dates, source_path)
-    if last_modified:
-        SubElement(url, f"{{{_SITEMAP_NAMESPACE}}}lastmod").text = last_modified
-
-
-def _markdown_files(root):
-    for directory, directories, files in os.walk(root):
-        directories.sort()
-        for filename in sorted(files):
-            if filename.endswith(".md"):
-                yield os.path.join(directory, filename)
+def _sitemap_urls(pages):
+    public = [page for page in pages if not page.hidden]
+    yield "/", template_source("home.jinja")
+    yield from ((page.url, page.source) for page in public if page.kind == SUMMARY)
+    yield "/onderbouw/", template_source("onderbouw.jinja")
+    yield from ((page.url, page.source) for page in public if page.kind == ONDERBOUW)
 
 
-def generate_sitemap(build_dir, git_dates):
-    """Write a sitemap for every public page in the generated site."""
-    register_namespace("", _SITEMAP_NAMESPACE)
-    urlset = Element(f"{{{_SITEMAP_NAMESPACE}}}urlset")
+def write_sitemap(output_dir, pages, history):
+    register_namespace("", NAMESPACE)
+    urlset = Element(f"{{{NAMESPACE}}}urlset")
 
-    _add_url(urlset, "/", git_dates, os.path.join(TEMPLATES_DIR, "home.jinja"))
-    for year_dir in get_year_dirs():
-        year_path = os.path.join(SITE_DIR, year_dir)
-        for source_path in _markdown_files(year_path):
-            with open(source_path, "r", encoding="utf-8") as f:
-                metadata, _ = parse_metadata(f.read())
-            if metadata.get("hidden"):
-                continue
-
-            relative_path = os.path.relpath(source_path, year_path)
-            page_path = os.path.splitext(relative_path)[0].replace(os.sep, "/")
-            _add_url(urlset, f"/{year_dir}/{page_path}", git_dates, source_path)
+    count = 0
+    for path, source in _sitemap_urls(pages):
+        url = SubElement(urlset, f"{{{NAMESPACE}}}url")
+        SubElement(url, f"{{{NAMESPACE}}}loc").text = f"{SITE_URL}{path}"
+        _, updated = history.get(source, (None, None))
+        if updated:
+            lastmod = updated.astimezone(TIMEZONE).date().isoformat()
+            SubElement(url, f"{{{NAMESPACE}}}lastmod").text = lastmod
+        count += 1
 
     tree = ElementTree(urlset)
     indent(tree, space="    ")
-    with open(os.path.join(build_dir, "sitemap.xml"), "wb") as sitemap:
+    with open(os.path.join(output_dir, "sitemap.xml"), "wb") as sitemap:
         sitemap.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
         tree.write(sitemap, encoding="utf-8", xml_declaration=False)
+    return count

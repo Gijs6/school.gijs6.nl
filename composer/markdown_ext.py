@@ -12,39 +12,36 @@ MATH_DISPLAY_PATTERN = re.compile(r"\$\$([^\$]+)\$\$")
 MATH_INLINE_PATTERN = re.compile(r"\$([^\$\n]+)\$")
 MATH_KEY_PATTERN = re.compile(r"MATH_(?:DISPLAY|INLINE)_\d+")
 
+THEAD_PATTERN = re.compile(r"<thead>.*?</thead>", re.DOTALL)
+TH_TAG_PATTERN = re.compile(r"<th(?=[ >])")
+
+IMG_TAG_PATTERN = re.compile(r"<img\b[^>]*>")
+IMG_ALT_ATTR_PATTERN = re.compile(r'alt="([^"]*)"')
+IMG_SIZE_TOKEN_PATTERN = re.compile(r"\s*\((img-[a-z0-9]+(?:-[a-z0-9]+)*)\)")
+
 
 class MathProtectPreprocessor(Preprocessor):
-    def __init__(self, md):
+    def __init__(self, md, math_store):
         super().__init__(md)
-        self.math_store = {}
-        self.counter = 0
-
-    def reset(self):
-        self.math_store.clear()
-        self.counter = 0
+        self.math_store = math_store
 
     def run(self, lines):
-        self.reset()
+        self.math_store.clear()
         text = "\n".join(lines)
-
-        def replace_display(match):
-            key = f"MATH_DISPLAY_{self.counter}"
-            self.counter += 1
-            self.math_store[key] = match.group(0)
-            return key
-
-        def replace_inline(match):
-            key = f"MATH_INLINE_{self.counter}"
-            self.counter += 1
-            self.math_store[key] = match.group(0)
-            return key
-
-        text = MATH_DISPLAY_PATTERN.sub(replace_display, text)
-        text = MATH_INLINE_PATTERN.sub(replace_inline, text)
+        text = MATH_DISPLAY_PATTERN.sub(self._protect("DISPLAY"), text)
+        text = MATH_INLINE_PATTERN.sub(self._protect("INLINE"), text)
         return text.split("\n")
 
+    def _protect(self, kind):
+        def replace(match):
+            key = f"MATH_{kind}_{len(self.math_store)}"
+            self.math_store[key] = match.group(0)
+            return key
 
-class MathProtectPostprocessor(Postprocessor):
+        return replace
+
+
+class MathRestorePostprocessor(Postprocessor):
     def __init__(self, md, math_store):
         super().__init__(md)
         self.math_store = math_store
@@ -52,21 +49,22 @@ class MathProtectPostprocessor(Postprocessor):
     def run(self, text):
         if not self.math_store:
             return text
-        return MATH_KEY_PATTERN.sub(
-            lambda m: html.escape(self.math_store.get(m.group(0), m.group(0))), text
-        )
+        return MATH_KEY_PATTERN.sub(self._restore, text)
+
+    def _restore(self, match):
+        key = match.group(0)
+        return html.escape(self.math_store[key]) if key in self.math_store else key
 
 
 class MathProtectExtension(Extension):
     def extendMarkdown(self, md):
-        preprocessor = MathProtectPreprocessor(md)
-        md.preprocessors.register(preprocessor, "math_protect", 27)
-        postprocessor = MathProtectPostprocessor(md, preprocessor.math_store)
-        md.postprocessors.register(postprocessor, "math_restore", 0)
-
-
-THEAD_PATTERN = re.compile(r"<thead>.*?</thead>", re.DOTALL)
-TH_TAG_PATTERN = re.compile(r"<th(?=[ >])")
+        math_store = {}
+        md.preprocessors.register(
+            MathProtectPreprocessor(md, math_store), "math_protect", 27
+        )
+        md.postprocessors.register(
+            MathRestorePostprocessor(md, math_store), "math_restore", 0
+        )
 
 
 class TableWrapPostprocessor(Postprocessor):
@@ -75,8 +73,7 @@ class TableWrapPostprocessor(Postprocessor):
             lambda m: TH_TAG_PATTERN.sub('<th scope="col"', m.group(0)), text
         )
         text = text.replace("<table>", '<div class="table-scroll"><table>')
-        text = text.replace("</table>", "</table></div>")
-        return text
+        return text.replace("</table>", "</table></div>")
 
 
 class TableWrapExtension(Extension):
@@ -84,35 +81,24 @@ class TableWrapExtension(Extension):
         md.postprocessors.register(TableWrapPostprocessor(md), "table_wrap", 5)
 
 
-IMG_TAG_PATTERN = re.compile(r"<img\b[^>]*>")
-IMG_ALT_ATTR_PATTERN = re.compile(r'alt="([^"]*)"')
-IMG_SIZE_TOKEN_PATTERN = re.compile(r"\s*\((img-[a-z0-9]+(?:-[a-z0-9]+)*)\)")
-
-
 class ImageSizingPostprocessor(Postprocessor):
-    """Moves `(img-xl)`-style layout hints out of the `alt` attribute (where
-    screen readers would read them aloud as part of the image description)
-    and into CSS classes instead."""
-
     def run(self, text):
-        def process_tag(match):
-            tag = match.group(0)
-            alt_match = IMG_ALT_ATTR_PATTERN.search(tag)
-            if not alt_match:
-                return tag
+        return IMG_TAG_PATTERN.sub(self._process_tag, text)
 
-            alt = alt_match.group(1)
-            tokens = IMG_SIZE_TOKEN_PATTERN.findall(alt)
-            if not tokens:
-                return tag
+    def _process_tag(self, match):
+        tag = match.group(0)
+        alt_match = IMG_ALT_ATTR_PATTERN.search(tag)
+        if not alt_match:
+            return tag
 
-            clean_alt = IMG_SIZE_TOKEN_PATTERN.sub("", alt).strip()
-            tag = (
-                tag[: alt_match.start()] + f'alt="{clean_alt}"' + tag[alt_match.end() :]
-            )
-            return tag.replace("<img ", f'<img class="{" ".join(tokens)}" ', 1)
+        alt = alt_match.group(1)
+        tokens = IMG_SIZE_TOKEN_PATTERN.findall(alt)
+        if not tokens:
+            return tag
 
-        return IMG_TAG_PATTERN.sub(process_tag, text)
+        clean_alt = IMG_SIZE_TOKEN_PATTERN.sub("", alt).strip()
+        tag = tag[: alt_match.start()] + f'alt="{clean_alt}"' + tag[alt_match.end() :]
+        return tag.replace("<img ", f'<img class="{" ".join(tokens)}" ', 1)
 
 
 class ImageSizingExtension(Extension):
@@ -121,10 +107,6 @@ class ImageSizingExtension(Extension):
 
 
 class SectionWrapTreeprocessor(Treeprocessor):
-    """Wraps every `h2` and the content up to the next `h2` in a `<section>`,
-    so a sticky `h2` is confined to its own section and gets pushed away by
-    the next one instead of piling up behind it."""
-
     def run(self, root):
         children = list(root)
         if not any(child.tag == "h2" for child in children):
@@ -137,7 +119,7 @@ class SectionWrapTreeprocessor(Treeprocessor):
         for child in children:
             if child.tag == "h2":
                 section = etree.SubElement(root, "section")
-            (section if section is not None else root).append(child)
+            (root if section is None else section).append(child)
 
 
 class SectionWrapExtension(Extension):
@@ -145,10 +127,9 @@ class SectionWrapExtension(Extension):
         md.treeprocessors.register(SectionWrapTreeprocessor(md), "section_wrap", 4)
 
 
-def setup_markdown_processor():
+def create_markdown():
     return Markdown(
         extensions=[
-            "meta",
             "codehilite",
             "tables",
             "toc",

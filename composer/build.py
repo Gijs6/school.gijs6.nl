@@ -1,441 +1,219 @@
+import multiprocessing
 import os
 import shutil
-import tempfile
 import threading
 import time
-from collections import defaultdict
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime
-from zoneinfo import ZoneInfo
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completed
 
-from colorama import Fore, Style
-from jinja2 import Environment, FileSystemLoader
-
-from .config import (
-    SITE_DIR,
-    BUILD_DIR,
-    TEMPLATES_DIR,
-    RESOURCES_JSON,
-    SUBJECT_NAMES,
-    SUBJECT_FAMILIES,
-    ONDERBOUW_FAMILIES,
-    YEAR_DIR_PATTERN,
-    ONDERBOUW_DIR,
-    REPO_URL,
-    TIMEZONE,
+from . import console
+from .config import BUILD_DIR, ONDERBOUW_DIR, SITE_DIR, TEMPLATES_DIR
+from .content import (
+    ONDERBOUW,
+    SUMMARY,
+    load_page,
+    load_pages,
+    load_resources,
+    output_path,
+    static_sources,
+    year_dirs,
 )
-from .utils import (
-    ProgressBar,
-    parse_metadata,
-    sort_years,
-    sort_period,
-    get_year_dirs,
-    get_onderbouw_dirs,
-    load_json_file,
-    create_test_entry,
-    remove_base64_images,
-    split_onderbouw_filename,
-    natural_key,
-)
-from .markdown_ext import setup_markdown_processor
-from .assets import collect_static_assets, copy_static_assets
-from .feeds import generate_feeds
-from .git import get_git_dates, get_head_commit
-from .sitemap import generate_sitemap
+from .feeds import write_feeds
+from .git import file_history
+from .listing import onderbouw_listing, summary_listing
+from .render import Renderer, site_context
+from .sitemap import write_sitemap
 
-_thread_local = threading.local()
-_site_context = None
-_site_context_lock = threading.Lock()
+_worker_renderer = None
 
 
-def _thread_md():
-    if not hasattr(_thread_local, "md"):
-        _thread_local.md = setup_markdown_processor()
-    return _thread_local.md
+def _start_worker(context, history):
+    global _worker_renderer
+    _worker_renderer = Renderer(context, history)
 
 
-def site_context():
-    global _site_context
-    with _site_context_lock:
-        if _site_context is None:
-            built_at = datetime.now(tz=ZoneInfo(TIMEZONE))
-            commit = get_head_commit()
-            _site_context = {
-                "repo_url": REPO_URL,
-                "commit": commit,
-                "built_at": built_at.strftime("%-d %B %Y om %H:%M"),
-                "built_at_iso": built_at.isoformat(timespec="seconds"),
-            }
-    return _site_context
+def _render_in_worker(page, output_dir):
+    content, rendered = _worker_renderer.page(page)
+    write_text(output_dir, page.output, rendered)
+    return page.url, content
 
 
-def page_context(page_path):
-    first_commit, last_commit = get_git_dates().get(page_path, (None, None))
-    first_commit = first_commit.astimezone(ZoneInfo(TIMEZONE)) if first_commit else None
-    last_commit = last_commit.astimezone(ZoneInfo(TIMEZONE)) if last_commit else None
-    return {
-        "page_path": page_path,
-        "page_created_iso": first_commit.date().isoformat() if first_commit else None,
-        "page_updated": last_commit.strftime("%-d %B %Y om %H:%M")
-        if last_commit
-        else None,
-        "page_updated_iso": last_commit.isoformat(timespec="seconds")
-        if last_commit
-        else None,
-    }
+def _process_pool(context, history):
+    methods = multiprocessing.get_all_start_methods()
+    method = "forkserver" if "forkserver" in methods else "spawn"
+    return ProcessPoolExecutor(
+        max_workers=min(8, os.cpu_count() or 4),
+        mp_context=multiprocessing.get_context(method),
+        initializer=_start_worker,
+        initargs=(context, history),
+    )
 
 
-def make_env():
-    env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
-    env.globals.update(site_context())
-    return env
-
-
-def _thread_env():
-    if not hasattr(_thread_local, "env"):
-        _thread_local.env = make_env()
-    return _thread_local.env
-
-
-def _write_html(path, content):
+def write_text(output_dir, relative_path, text):
+    path = os.path.join(output_dir, relative_path)
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as output:
-        output.write(content)
+    temp_path = f"{path}.{os.getpid()}-{threading.get_ident()}.tmp"
+    with open(temp_path, "w", encoding="utf-8") as f:
+        f.write(text)
+    os.replace(temp_path, path)
 
 
-def _render_summary(template_env, md_processor, markdown_content, metadata, page_path):
-    html_content = remove_base64_images(md_processor.convert(markdown_content))
-    toc = md_processor.toc
-    md_processor.reset()
-    rendered = template_env.get_template("summary.jinja").render(
-        content=html_content,
-        toc=toc,
-        meta=metadata,
-        **page_context(page_path),
-    )
-    return html_content, rendered
+def copy_file(source, output_dir):
+    destination = os.path.join(output_dir, output_path(source))
+    os.makedirs(os.path.dirname(destination), exist_ok=True)
+    shutil.copy2(source, destination)
 
 
-def render_special_pages(build_dir, template_env, homepage_data):
-    _write_html(
-        os.path.join(build_dir, "index.html"),
-        template_env.get_template("home.jinja").render(
-            homepage_data=homepage_data,
-            site={"data": {"homepage_data": homepage_data}},
-            **page_context(f"{TEMPLATES_DIR}/home.jinja"),
-        ),
-    )
-    _write_html(
-        os.path.join(build_dir, "404.html"),
-        template_env.get_template("404.jinja").render(
-            **page_context(f"{TEMPLATES_DIR}/404.jinja")
-        ),
-    )
+def _count(pages, kind):
+    return sum(page.kind == kind for page in pages)
 
 
-def render_onderbouw_page(build_dir, template_env, onderbouw_data):
-    _write_html(
-        os.path.join(build_dir, "onderbouw", "index.html"),
-        template_env.get_template("onderbouw.jinja").render(
-            onderbouw_data=onderbouw_data,
-            **page_context(f"{TEMPLATES_DIR}/onderbouw.jinja"),
-        ),
-    )
+class Site:
+    def __init__(self, output_dir=BUILD_DIR, dev=False):
+        self.output_dir = output_dir
+        self.dev = dev
+        self.complete = False
+        self.context = None
+        self.history = {}
+        self.renderer = None
 
+    def refresh(self):
+        self.context = site_context()
+        self.history = file_history()
+        self.renderer = Renderer(self.context, self.history)
 
-def process_single_file(
-    md_file_path, year_path, build_year_dir, year_dir, resources_map, dev
-):
-    md_processor = _thread_md()
-    template_env = _thread_env()
+    def build(self):
+        started = time.perf_counter()
+        self.complete = False
+        console.title("Composer")
 
-    relative_path = os.path.relpath(md_file_path, year_path)
-    build_path = os.path.join(
-        build_year_dir, os.path.splitext(relative_path)[0] + ".html"
-    )
+        console.step("[1/6] Setup")
+        self.refresh()
+        commit = self.context["commit"]
+        console.detail(
+            f"Loaded {self.renderer.template_count()} templates from {TEMPLATES_DIR}/"
+        )
+        console.detail(f"Read git history for {len(self.history)} files")
+        console.detail(
+            f"Deploy stamp: {self.context['built_at']}"
+            f" ({commit['short'] if commit else 'no commit'})"
+        )
+        print()
 
-    with open(md_file_path, "r", encoding="utf-8") as f:
-        content = f.read()
+        staging_dir = self._scratch_dir("staging")
+        os.makedirs(staging_dir)
+        try:
+            self._build_into(staging_dir)
+        except BaseException:
+            shutil.rmtree(staging_dir, ignore_errors=True)
+            raise
 
-    metadata, markdown_content = parse_metadata(content)
+        console.step("Finalizing")
+        self._publish(staging_dir)
+        console.detail(f"Moved build to {self.output_dir}/")
+        print()
 
-    if metadata.get("subject"):
-        subject_abbr = metadata["subject"].upper()
-        metadata["subject_name"] = SUBJECT_NAMES.get(subject_abbr, subject_abbr)
-        metadata["family"] = SUBJECT_FAMILIES.get(subject_abbr, "")
+        self.complete = True
+        console.success(f"Build complete in {console.elapsed_ms(started)}")
+        print()
 
-    period_dir = relative_path.split(os.sep)[0] if os.sep in relative_path else ""
-    metadata["year"] = year_dir
-    metadata["period"] = period_dir
-    metadata["canonical_url"] = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
+    def _build_into(self, output_dir):
+        console.step("[2/6] Copying static assets")
+        self._copy_static(output_dir)
+        print()
 
-    html_content, rendered = _render_summary(
-        template_env, md_processor, markdown_content, metadata, md_file_path
-    )
-    _write_html(build_path, rendered)
+        console.step("[3/6] Rendering pages")
+        pages = load_pages()
+        console.detail(
+            f"Found {_count(pages, SUMMARY)} summaries in"
+            f" {', '.join(year_dirs(SITE_DIR))}"
+        )
+        console.detail(
+            f"Found {_count(pages, ONDERBOUW)} onderbouw pages in"
+            f" {', '.join(year_dirs(ONDERBOUW_DIR))}"
+        )
+        contents = self._render_pages(pages, output_dir)
+        print()
 
-    is_hidden = metadata.get("hidden")
-    cache_key = f"/{year_dir}/{os.path.splitext(relative_path)[0]}"
+        console.step("[4/6] Rendering indexes")
+        self.write_indexes(pages, output_dir)
+        console.detail("Wrote index.html, onderbouw/index.html and 404.html")
+        print()
 
-    entry = None
-    if metadata.get("subject"):
-        if dev or not is_hidden:
-            entry = create_test_entry(
-                metadata,
-                year_dir,
-                period_dir,
-                os.path.basename(md_file_path),
-                resources_map,
-            )
+        console.step("[5/6] Generating feeds")
+        public_listing = summary_listing(pages, load_resources())
+        entries = write_feeds(output_dir, public_listing, contents, self.history)
+        console.detail(f"Wrote rss.xml and atom.xml with {entries} entries")
+        print()
 
-    return cache_key, html_content, is_hidden, year_dir, period_dir, entry
+        console.step("[6/6] Generating sitemap")
+        urls = write_sitemap(output_dir, pages, self.history)
+        console.detail(f"Wrote sitemap.xml with {urls} urls")
+        print()
 
-
-def copy_changed_asset(src_path, build_dir):
-    start = time.time()
-    rel = os.path.relpath(src_path, SITE_DIR)
-    dest = os.path.join(build_dir, rel)
-    os.makedirs(os.path.dirname(dest), exist_ok=True)
-    shutil.copy2(src_path, dest)
-    elapsed = (time.time() - start) * 1000
-    print(f"{Fore.GREEN}Copied in {elapsed:.0f}ms{Style.RESET_ALL}\n")
-
-
-def rebuild_pages(build_dir, dev=False):
-    start = time.time()
-    template_env = _thread_env()
-    homepage_data, _ = process_markdown_files(build_dir, template_env, dev)
-    render_special_pages(build_dir, template_env, homepage_data)
-    onderbouw_data = process_onderbouw_files(build_dir, template_env)
-    render_onderbouw_page(build_dir, template_env, onderbouw_data)
-    elapsed = (time.time() - start) * 1000
-    print(f"{Fore.GREEN}Rebuilt in {elapsed:.0f}ms{Style.RESET_ALL}\n")
-
-
-def rebuild_single_markdown(src_path, build_dir):
-    start_time = time.time()
-
-    rel_to_site = os.path.relpath(src_path, SITE_DIR)
-    parts = rel_to_site.split(os.sep)
-
-    if len(parts) < 2 or not YEAR_DIR_PATTERN.match(parts[0]):
-        return False
-
-    year_dir = parts[0]
-    year_path = os.path.join(SITE_DIR, year_dir)
-    build_year_dir = os.path.join(build_dir, year_dir)
-    resources_map = load_json_file(RESOURCES_JSON)
-
-    process_single_file(
-        src_path, year_path, build_year_dir, year_dir, resources_map, True
-    )
-
-    elapsed = (time.time() - start_time) * 1000
-    print(f"{Fore.GREEN}Rebuilt in {elapsed:.0f}ms{Style.RESET_ALL}\n")
-    return True
-
-
-def process_markdown_files(build_dir, template_env, dev=False):
-    resources_map = load_json_file(RESOURCES_JSON)
-    md_cache = {}
-    homepage_data = defaultdict(lambda: defaultdict(list))
-
-    tasks = []
-    for year_dir in get_year_dirs():
-        year_path = os.path.join(SITE_DIR, year_dir)
-        if not os.path.isdir(year_path):
-            continue
-        build_year_dir = os.path.join(build_dir, year_dir)
-        os.makedirs(build_year_dir, exist_ok=True)
-        for root, _, files in os.walk(year_path):
-            for file in (f for f in files if f.endswith(".md")):
-                tasks.append(
-                    (
-                        os.path.join(root, file),
-                        year_path,
-                        build_year_dir,
-                        year_dir,
-                        resources_map,
-                        dev,
-                    )
-                )
-
-    progress = ProgressBar(len(tasks), prefix="Pages")
-    with ThreadPoolExecutor(max_workers=min(32, (os.cpu_count() or 4) * 2)) as executor:
-        futures = [executor.submit(process_single_file, *task) for task in tasks]
-        for future in as_completed(futures):
-            cache_key, html_content, is_hidden, year_dir, period_dir, entry = (
+    def _copy_static(self, output_dir):
+        sources = list(static_sources())
+        progress = console.ProgressBar(len(sources), "Copying")
+        with ThreadPoolExecutor(max_workers=min(16, (os.cpu_count() or 4) * 2)) as ex:
+            futures = [ex.submit(copy_file, source, output_dir) for source in sources]
+            for future in as_completed(futures):
                 future.result()
-            )
-            if not is_hidden:
-                md_cache[cache_key] = html_content
-                if entry:
-                    homepage_data[year_dir][period_dir].append(entry)
-            progress.update()
-    progress.finish()
+                progress.advance()
+        progress.finish()
 
-    sorted_data = {}
-    for year in sorted(homepage_data.keys(), key=sort_years):
-        year_data = {}
-        for period in sorted(homepage_data[year].keys(), key=sort_period, reverse=True):
-            filtered = [
-                t
-                for t in homepage_data[year][period]
-                if t.get("summary_link") or t.get("resources")
+    def _render_pages(self, pages, output_dir):
+        contents = {}
+        progress = console.ProgressBar(len(pages), "Pages")
+        with _process_pool(self.context, self.history) as pool:
+            futures = [
+                pool.submit(_render_in_worker, page, output_dir) for page in pages
             ]
-            if filtered:
-                year_data[period] = sorted(filtered, key=lambda t: t["subject"])
-        if year_data:
-            sorted_data[year] = year_data
+            for future in as_completed(futures):
+                url, content = future.result()
+                contents[url] = content
+                progress.advance()
+        progress.finish()
+        return contents
 
-    return sorted_data, md_cache
+    def _scratch_dir(self, purpose):
+        parent = os.path.dirname(os.path.abspath(self.output_dir))
+        path = os.path.join(parent, f".{os.path.basename(self.output_dir)}.{purpose}")
+        shutil.rmtree(path, ignore_errors=True)
+        return path
 
+    def _publish(self, staging_dir):
+        old_dir = self._scratch_dir("old")
+        if os.path.exists(self.output_dir):
+            os.rename(self.output_dir, old_dir)
+        os.rename(staging_dir, self.output_dir)
+        shutil.rmtree(old_dir, ignore_errors=True)
 
-def process_onderbouw_files(build_dir, template_env):
-    onderbouw_data = defaultdict(list)
-
-    tasks = []
-    for year_dir in get_onderbouw_dirs():
-        year_path = os.path.join(ONDERBOUW_DIR, year_dir)
-        build_year_dir = os.path.join(build_dir, "onderbouw", year_dir)
-        os.makedirs(build_year_dir, exist_ok=True)
-        for root, _, files in os.walk(year_path):
-            for file in (f for f in files if f.endswith(".md")):
-                tasks.append((os.path.join(root, file), build_year_dir, year_dir))
-
-    progress = ProgressBar(len(tasks), prefix="Onderbouw")
-    md_processor = _thread_md()
-    for md_file_path, build_year_dir, year_dir in tasks:
-        filename = os.path.splitext(os.path.basename(md_file_path))[0]
-        build_path = os.path.join(build_year_dir, filename + ".html")
-
-        with open(md_file_path, "r", encoding="utf-8") as f:
-            content = f.read()
-
-        subject, chapter = split_onderbouw_filename(filename)
-
-        metadata, markdown_content = parse_metadata(content)
-        metadata["year"] = year_dir
-        metadata["period"] = ""
-        metadata["canonical_url"] = f"/onderbouw/{year_dir}/{filename}"
-        metadata["back_url"] = "/onderbouw/"
-        metadata["subject_name"] = subject
-        metadata["family"] = ONDERBOUW_FAMILIES.get(subject, "")
-        if not metadata.get("title") and not metadata.get("short"):
-            metadata["short"] = chapter
-
-        _, rendered = _render_summary(
-            template_env, md_processor, markdown_content, metadata, md_file_path
+    def write_indexes(self, pages=None, output_dir=None):
+        pages = load_pages() if pages is None else pages
+        output_dir = output_dir or self.output_dir
+        listing = summary_listing(pages, load_resources(), include_hidden=self.dev)
+        write_text(output_dir, "index.html", self.renderer.home(listing))
+        write_text(
+            output_dir,
+            os.path.join("onderbouw", "index.html"),
+            self.renderer.onderbouw(onderbouw_listing(pages, include_hidden=self.dev)),
         )
-        _write_html(build_path, rendered)
+        write_text(output_dir, "404.html", self.renderer.not_found())
 
-        onderbouw_data[year_dir].append(
-            {
-                "link": f"/onderbouw/{year_dir}/{filename}",
-                "subject": subject,
-                "chapter": chapter,
-            }
-        )
-        progress.update()
+    def write_page(self, source):
+        page = load_page(source)
+        _, rendered = self.renderer.page(page)
+        write_text(self.output_dir, page.output, rendered)
 
-    progress.finish()
+    def write_all_pages(self):
+        pages = load_pages()
+        self._render_pages(pages, self.output_dir)
+        self.write_indexes(pages)
 
-    sorted_data = {}
-    for year in sorted(onderbouw_data.keys(), key=lambda x: int(x[0]), reverse=True):
-        by_subject = defaultdict(list)
-        for page in onderbouw_data[year]:
-            by_subject[page["subject"]].append(page)
+    def copy_static(self, source):
+        copy_file(source, self.output_dir)
 
-        sorted_data[year] = [
-            {
-                "name": subject,
-                "family": ONDERBOUW_FAMILIES.get(subject, ""),
-                "pages": sorted(pages, key=lambda p: natural_key(p["chapter"])),
-            }
-            for subject, pages in sorted(by_subject.items())
-        ]
-
-    return sorted_data
-
-
-def build(dev=False, output_dir=None):
-    if output_dir is None:
-        output_dir = BUILD_DIR
-
-    start_time = time.time()
-    print(f"{Fore.CYAN}Composer{Style.RESET_ALL}")
-    print()
-
-    print(f"{Fore.BLUE}[1/7] Setup{Style.RESET_ALL}")
-    print("  Creating temp directory...")
-    temp_build_dir = tempfile.mkdtemp()
-    print(f"  Loading templates from {TEMPLATES_DIR}/")
-    template_env = make_env()
-    templates = list(template_env.list_templates())
-    print(f"  Found {len(templates)} templates")
-    print()
-
-    print(f"{Fore.BLUE}[2/7] Collecting metadata{Style.RESET_ALL}")
-    print("  Reading git history for file dates...")
-    git_dates = get_git_dates()
-    print(
-        f"  {Fore.GREEN}done{Style.RESET_ALL} - tracked {len(git_dates)} files in repository"
-    )
-    context = site_context()
-    commit = context["commit"]
-    print(
-        f"  Deploy stamp: {context['built_at']} ({commit['short'] if commit else 'no commit'})"
-    )
-    print()
-
-    print(f"{Fore.BLUE}[3/7] Copying static assets{Style.RESET_ALL}")
-    asset_tasks = collect_static_assets(temp_build_dir)
-    print(f"  Found {len(asset_tasks)} files to copy")
-    asset_progress = ProgressBar(len(asset_tasks), prefix="Copying")
-    copy_static_assets(asset_tasks, progress=asset_progress)
-    asset_progress.finish()
-    print()
-
-    print(f"{Fore.BLUE}[4/7] Processing markdown{Style.RESET_ALL}")
-    years = get_year_dirs()
-    print(f"  Found {len(years)} year directories: {', '.join(years)}")
-    homepage_data, md_cache = process_markdown_files(temp_build_dir, template_env, dev)
-    render_special_pages(temp_build_dir, template_env, homepage_data)
-    print(f"  Generated {len(md_cache)} HTML pages")
-    print()
-
-    print(f"{Fore.BLUE}[5/7] Processing onderbouw{Style.RESET_ALL}")
-    onderbouw_dirs = get_onderbouw_dirs()
-    print(
-        f"  Found {len(onderbouw_dirs)} onderbouw directories: {', '.join(onderbouw_dirs)}"
-    )
-    onderbouw_page_data = process_onderbouw_files(temp_build_dir, template_env)
-    render_onderbouw_page(temp_build_dir, template_env, onderbouw_page_data)
-    print()
-
-    print(f"{Fore.BLUE}[6/7] Generating feeds{Style.RESET_ALL}")
-    print("  Creating RSS and Atom feeds...")
-    feed_progress = ProgressBar(len(md_cache), prefix="Entries")
-    generate_feeds(
-        temp_build_dir, homepage_data, md_cache, git_dates, progress=feed_progress
-    )
-    feed_progress.finish()
-    print("  Wrote rss.xml and atom.xml")
-    print()
-
-    print(f"{Fore.BLUE}[7/7] Generating sitemap{Style.RESET_ALL}")
-    generate_sitemap(temp_build_dir, git_dates)
-    print("  Wrote sitemap.xml")
-    print()
-
-    print(f"{Fore.BLUE}Finalizing{Style.RESET_ALL}")
-    if os.path.exists(output_dir):
-        print("  Removing old build directory...")
-        shutil.rmtree(output_dir)
-    print(f"  Moving build to {output_dir}/")
-    shutil.move(temp_build_dir, output_dir)
-
-    total_time = time.time() - start_time
-    print()
-    print(f"{Fore.GREEN}Build complete in {total_time * 1000:.0f}ms{Style.RESET_ALL}")
-    print()
+    def remove(self, source):
+        try:
+            os.remove(os.path.join(self.output_dir, output_path(source)))
+        except FileNotFoundError:
+            pass

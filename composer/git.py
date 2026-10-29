@@ -1,76 +1,33 @@
 import subprocess
-import threading
-from datetime import datetime, timezone
-from concurrent.futures import ThreadPoolExecutor
+from datetime import UTC, datetime
 
-_git_dates_cache = None
-_git_dates_lock = threading.Lock()
+COMMIT_MARKER = "@"
 
 
-def _parse_commit_dates(*, first_commit=False):
-    command = ["git", "log", "--format=%ct", "--name-only"]
-    if first_commit:
-        command.append("--diff-filter=A")
-
+def _git(*args):
     try:
-        output = subprocess.check_output(
-            command,
+        return subprocess.check_output(
+            ["git", "-c", "core.quotePath=false", *args],
             text=True,
             stderr=subprocess.DEVNULL,
-        ).strip()
+        )
     except (subprocess.CalledProcessError, FileNotFoundError):
-        return {}
-
-    result = {}
-    current_ts = None
-    for line in output.split("\n"):
-        line = line.strip()
-        if not line:
-            continue
-        if line.isdigit():
-            current_ts = int(line)
-        elif current_ts and (first_commit or line not in result):
-            result[line] = current_ts
-    return result
+        return ""
 
 
-def get_git_dates():
-    global _git_dates_cache
-    with _git_dates_lock:
-        if _git_dates_cache is None:
-            _git_dates_cache = get_all_git_dates()
-    return _git_dates_cache
+def head_commit():
+    sha = _git("rev-parse", "HEAD").strip()
+    return {"sha": sha, "short": sha[:7]} if sha else None
 
 
-def get_head_commit():
-    try:
-        sha = subprocess.check_output(
-            ["git", "rev-parse", "HEAD"],
-            text=True,
-            stderr=subprocess.DEVNULL,
-        ).strip()
-    except (subprocess.CalledProcessError, FileNotFoundError):
-        return None
-    return {"sha": sha, "short": sha[:7]}
-
-
-def get_all_git_dates():
-    try:
-        with ThreadPoolExecutor(max_workers=2) as ex:
-            f_first = ex.submit(_parse_commit_dates, first_commit=True)
-            f_last = ex.submit(_parse_commit_dates)
-            first_commits = f_first.result()
-            last_commits = f_last.result()
-
-        git_dates = {}
-        for filepath in set(first_commits) | set(last_commits):
-            first_ts = first_commits.get(filepath)
-            last_ts = last_commits.get(filepath)
-            git_dates[filepath] = (
-                datetime.fromtimestamp(first_ts, tz=timezone.utc) if first_ts else None,
-                datetime.fromtimestamp(last_ts, tz=timezone.utc) if last_ts else None,
-            )
-        return git_dates
-
-    except ValueError:
-        return {}
+def file_history():
+    created = {}
+    updated = {}
+    moment = None
+    for line in _git("log", f"--format={COMMIT_MARKER}%ct", "--name-only").splitlines():
+        if line.startswith(COMMIT_MARKER) and line[1:].isdigit():
+            moment = datetime.fromtimestamp(int(line[1:]), tz=UTC)
+        elif line and moment:
+            updated.setdefault(line, moment)
+            created[line] = moment
+    return {path: (created[path], updated[path]) for path in updated}
