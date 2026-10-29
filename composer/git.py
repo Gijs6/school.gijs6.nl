@@ -23,11 +23,19 @@ def head_commit():
 def file_history():
     created = {}
     updated = {}
+    renamed_to = {}
     moment = None
-    for line in _git("log", f"--format={COMMIT_MARKER}%ct", "--name-only").splitlines():
+    log = _git("log", "-M", f"--format={COMMIT_MARKER}%ct", "--name-status")
+    for line in log.splitlines():
         if line.startswith(COMMIT_MARKER) and line[1:].isdigit():
             moment = datetime.fromtimestamp(int(line[1:]), tz=UTC)
-        elif line and moment:
-            updated.setdefault(line, moment)
-            created[line] = moment
+            continue
+        if not line or moment is None:
+            continue
+        status, *paths = line.split("\t")
+        path = renamed_to.get(paths[-1], paths[-1])
+        if status.startswith("R"):
+            renamed_to[paths[0]] = path
+        updated.setdefault(path, moment)
+        created[path] = moment
     return {path: (created[path], updated[path]) for path in updated}
