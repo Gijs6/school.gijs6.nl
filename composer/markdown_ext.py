@@ -119,6 +119,8 @@ class SectionWrapTreeprocessor(Treeprocessor):
         for child in children:
             if child.tag == "h2":
                 section = etree.SubElement(root, "section")
+                if "id" in child.attrib:
+                    section.set("id", child.attrib.pop("id"))
             (root if section is None else section).append(child)
 
 
