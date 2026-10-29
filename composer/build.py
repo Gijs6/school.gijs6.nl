@@ -1,3 +1,4 @@
+import contextlib
 import multiprocessing
 import os
 import shutil
@@ -213,7 +214,5 @@ class Site:
         copy_file(source, self.output_dir)
 
     def remove(self, source):
-        try:
+        with contextlib.suppress(FileNotFoundError):
             os.remove(os.path.join(self.output_dir, output_path(source)))
-        except FileNotFoundError:
-            pass

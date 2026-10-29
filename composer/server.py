@@ -30,20 +30,20 @@ class ChangeCollector(FileSystemEventHandler):
     def on_any_event(self, event):
         if event.event_type not in WATCHED_EVENTS:
             return
-        paths = {os.path.relpath(os.fsdecode(event.src_path))}
+        if event.is_directory and event.event_type in ("created", "modified"):
+            return
+
+        paths = {event.src_path}
         if event.event_type == "moved":
-            paths.add(os.path.relpath(os.fsdecode(event.dest_path)))
+            paths.add(event.dest_path)
+        paths = {os.path.relpath(os.fsdecode(path)) for path in paths}
+        paths = {path for path in paths if not is_ignored(path)}
+        if not paths:
+            return
 
         with self.lock:
-            if event.is_directory:
-                if event.event_type == "created" or event.event_type == "modified":
-                    return
-                self.structural = True
-            else:
-                paths = {path for path in paths if not is_ignored(path)}
-                if not paths:
-                    return
             self.paths |= paths
+            self.structural |= event.is_directory
         self.changed.set()
 
     def wait(self):
@@ -77,6 +77,10 @@ def _apply_changes(site, paths, structural):
     if any(is_under(path, COMPOSER_DIR) and path.endswith(".py") for path in paths):
         _restart()
 
+    kinds = {path: kind for path in paths if (kind := classify(path))}
+    if not kinds and not structural:
+        return
+
     console.notice(f"\nChanged: {console.bold(_describe(paths))}")
     if structural or not site.complete:
         console.notice("Full rebuild...")
@@ -84,7 +88,6 @@ def _apply_changes(site, paths, structural):
         return
 
     started = time.perf_counter()
-    kinds = {path: classify(path) for path in paths}
     if TEMPLATE in kinds.values():
         console.notice("Rebuilding all pages...")
         site.write_all_pages()
