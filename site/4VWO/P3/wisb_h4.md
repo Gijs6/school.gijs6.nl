@@ -66,7 +66,7 @@ Je noteert de getallen waar je mee vermenigvuldigt tussen verticale strepen.
 
 ## Hogeregraadsvergelijkingen
 
-De vergelijking $x^2 = 5$ heeft de oplossingen $x=5$ en $x=-5$. Je weet dat $\sqrt{5}$ de **tweedemachtswortel** van 5 is, want $(\sqrt{5})^2 = 5$. In dit geval staat er bij het wortelteken staat eigenlijk een "verborgen 2": $\sqrt{a} = \sqrt[2]{a}$ (dit geldt dus alleen als er geen getalletje bij het wortelteken staat!). Er zijn ook **hogeremachtswortels**, zoals derdemachtswortels. De vergelijking $x^3 = 20$ heeft als oplossing $x=\sqrt[3]{20}$.  
+De vergelijking $x^2 = 5$ heeft de oplossingen $x=\sqrt{5}$ en $x=-\sqrt{5}$. Je weet dat $\sqrt{5}$ de **tweedemachtswortel** van 5 is, want $(\sqrt{5})^2 = 5$. In dit geval staat er bij het wortelteken staat eigenlijk een "verborgen 2": $\sqrt{a} = \sqrt[2]{a}$ (dit geldt dus alleen als er geen getalletje bij het wortelteken staat!). Er zijn ook **hogeremachtswortels**, zoals derdemachtswortels. De vergelijking $x^3 = 20$ heeft als oplossing $x=\sqrt[3]{20}$.  
 In de tabel zie je hoeveel oplossingen de vergelijking $x^n = a$ kan hebben.
 
 |   $x^n = a$   |                        $a > 0$                         |            $a < 0$             |
@@ -113,7 +113,7 @@ Bij het herleiden van breuken gebruik je de volgende regels:
 * $\frac{A}{(\frac{B}{C})}=\frac{AC}{B}$ mits $C \neq 0$ (*delen door een breuk is vermenigvuldigen met het omgekeerde*)
 * $\frac{(\frac{A}{B})}{C}=\frac{A}{BC}$
 
-Bij de vergelijking $\frac{x^2-3x+5}{x}$ mag je $x$ niet wegstrepen, want dag mag alleen bij de **factoren** van een teller of noemer. Wel kun je $x$ bij deze vergelijking **uitdelen**:
+Bij de vergelijking $\frac{x^2-3x+5}{x}$ mag je $x$ niet wegstrepen, want dat mag alleen bij de **factoren** van een teller of noemer. Wel kun je $x$ bij deze vergelijking **uitdelen**:
 
 $$\frac{x^2-3x+5}{x}$$
 

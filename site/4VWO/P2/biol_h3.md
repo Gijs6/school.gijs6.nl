@@ -6,36 +6,53 @@ description: Wetenschappelijk onderzoek
 
 ## Experimenteel onderzoek
 
-Bij **experimenteel onderzoek** probeer je een antwoord op een **onderzoeksvraag** te krijgen door het doen van experimenten. Deze onderzoeksvraag moet **eenduidig** zijn: er moet maar 1 interpretatie van mogelijk zijn. De **onafhankelijke variabele** is de variabele die je zelf aanpast. Vervolgens ga je kijken hoe de **afhankelijke variabele** hierop reageert. De onafhankelijke variabele is dus de enige omstandigheid die mag veranderen. Met een **controle-experiment** (experiment om aan te tonen dat geen andere factoren een rol spelen) toon je aan of het onderzoek **valide** (bij herhaling geeft het onderzoek dezelfde resultaten) is.  
-Een goed experiment is **herhaalbaar en controleerbaar**. In het **onderzoeksverslag** staan de volgende onderdelen:
+Bij **experimenteel onderzoek** probeer je met experimenten een antwoord te krijgen op een **onderzoeksvraag**. Deze onderzoeksvraag moet **eenduidig** zijn: er is maar 1 interpretatie mogelijk.
 
-* **onderzoeksvraag**  
-* **hypothese**: voorlopig antwoord/voorspelling van het antwoord op de onderzoeksvraag (met een onderbouwing)  
-* **materialen**: voor het experiment/onderzoek benodigde materialen, concentraties en hoeveelheden  
-* **methode**: beschrijving van uitvoering  
-* **resultaten**: beschrijving in tekst of in tabellen met een verwerking tot diagrammen  
-* **conclusie**: de invloed van de onafhankelijke variabele op de afhankelijke bepalen op grond van de onderzoeksresultaten  
-* **discussie**: kritische analyse, hypothese verwerpen of aannemen, controleren of het onderzoek valide is en ideeën voor vervolgonderzoek
+De **onafhankelijke variabele** is de variabele die je zelf verandert. Je kijkt vervolgens hoe de **afhankelijke variabele** daarop reageert. De onafhankelijke variabele is de enige omstandigheid die mag veranderen: alle andere omstandigheden houd je gelijk.
+
+Met een **controle-experiment** (ook wel **blanco-experiment**) toon je aan dat geen andere factoren een rol spelen. Je voert het experiment dan op precies dezelfde manier uit, maar zonder de factor die je onderzoekt. Zo kun je laten zien dat het onderzoek **valide** is.
+
+Een goed experiment is **herhaalbaar** en **controleerbaar**. In het **onderzoeksverslag** staan de volgende onderdelen:
+
+- **Onderzoeksvraag**
+- **Hypothese**: een voorlopig antwoord op de onderzoeksvraag, met een onderbouwing
+- **Materialen**: de benodigde materialen, concentraties en hoeveelheden
+- **Methode**: een beschrijving van de uitvoering
+- **Resultaten**: de meetresultaten in tekst of tabellen, verwerkt tot diagrammen
+- **Conclusie**: de invloed van de onafhankelijke variabele op de afhankelijke variabele, op basis van de resultaten
+- **Discussie**: een kritische analyse van het onderzoek. Je bespreekt of je de hypothese aanneemt of verwerpt, of het onderzoek valide en betrouwbaar is, en geeft ideeën voor vervolgonderzoek.
 
 ## Beschrijvend onderzoek
 
-Bij een **beschrijvend onderzoek** registreer je waarnemingen. Bij experimenteel onderzoek ga je zelf iets veranderen en kijken hoe iets anders er op reageert, terwijl je bij beschrijvend onderzoek enkel iets waarneemt.  
-Bij een **kwantitatief beschrijvend onderzoek** tel of meet je een hoeveelheid. Bij een **kwalitatief beschrijvend onderzoek** gaat het om het vastleggen van een waarde zonder tellen, wegen of meten (vaak gaat het om de aanwezigheid van iets). Om aan te tonen dat bepaalde moleculen aanwezig zijn, gebruik je een **indicator**.  
-Onderzoeksresultaten kun je vastleggen in tabellen, foto’s, video’s en tekeningen.
+Bij **beschrijvend onderzoek** registreer je alleen waarnemingen. Bij experimenteel onderzoek verander je zelf iets en kijk je hoe iets anders daarop reageert, terwijl je bij beschrijvend onderzoek niets verandert.
+
+- Bij **kwantitatief** beschrijvend onderzoek tel of meet je een hoeveelheid.
+- Bij **kwalitatief** beschrijvend onderzoek leg je iets vast zonder te tellen, wegen of meten. Vaak gaat het om de aanwezigheid van iets. Om aan te tonen dat bepaalde moleculen aanwezig zijn, gebruik je een **indicator**.
+
+Onderzoeksresultaten kun je vastleggen in tabellen, foto's, video's en tekeningen.
 
 ## Diagrammen
 
-Je gebruikt een **lijndiagram** als de onafhankelijke variabele (x-as) en de afhankelijke variabele (y-as) een **continue reeks getallen zijn**. Als je de meetresultaten met een berekening kunt benaderen (lineair, kwadratisch, enz.) dan teken je een vloeiende grafiek door alle punten. Als dit niet zo is, verbind je alle punten.  
-Je gebruikt een **staafdiagram** als de getallen geen continue reeks zijn. De staven staan dan los van elkaar en de x-as heeft geen schaalverdeling.  
-Een **histogram** geeft aan hoe vaak een bepaalde waarde (of een groep waardes) voorkomt. De staven staan naast elkaar en de x–as heeft wel een schaalverdeling.  
-Bij een **strooidiagram** gaat het om 2 metingen die bij elkaar horen. Er is echter geen sprake van een (on)afhankelijke variabele, want de metingen hebben geen directe invloed op elkaar.  
-Een **stapeldiagram** stapelt gegevens op elkaar. Een **sectordiagram** is een taartdiagram.  
-Als je werkt met gemiddeldes geef je ook de **spreiding** aan (variatie in de metingen). Je gebruikt de **standaarddeviatie** als maat voor de spreiding bij grote aantallen meetgegevens.  
-**Spreidingsstreepjes** geven variatie, de standaarddeviatie of een meetonnauwkeurigheid aan.
+Welk diagram je gebruikt, hangt af van het soort gegevens:
 
-## Wetenschappelijk onderzoek
+- **Lijndiagram**: als de onafhankelijke variabele (x-as) en de afhankelijke variabele (y-as) allebei een **continue reeks getallen** zijn. Kun je de meetresultaten benaderen met een berekening (lineair, kwadratisch, enz.), dan teken je een vloeiende lijn langs de punten. Is dat niet zo, dan verbind je de punten met rechte lijnen.
+- **Staafdiagram**: als de gegevens op de x-as geen continue reeks zijn. De staven staan los van elkaar en de x-as heeft geen schaalverdeling.
+- **Histogram**: geeft aan hoe vaak een bepaalde waarde (of groep waarden) voorkomt. De staven staan tegen elkaar aan en de x-as heeft wel een schaalverdeling.
+- **Spreidingsdiagram** (**strooidiagram**): als je 2 metingen hebt die bij elkaar horen, maar er geen onafhankelijke en afhankelijke variabele is, omdat de metingen elkaar niet direct beïnvloeden.
+- **Stapeldiagram**: gegevens worden op elkaar gestapeld, zodat je de verhouding binnen een geheel ziet.
+- **Sectordiagram**: een cirkeldiagram (taartdiagram) dat de verdeling van een geheel laat zien.
 
-**Bronnenonderzoek** (eerdere onderzoeken lezen) en een waarneming zijn vaak de start van een **natuurwetenschappelijk onderzoek**.  
-Elk goed onderzoek is **valide**: alleen de factor die je onderzoekt heeft invloed op het resultaat. Daarom moet je altijd een blanco-experiment doen. De betrouwbaarheid van een experiment hangt vaak af van de herhaalbaarheid.
-Vóór de publicatie van een onderzoek in een wetenschappelijk tijdschrift vindt er collegiale toetsing plaats.  
+Werk je met gemiddelden, dan geef je ook de **spreiding** aan: de variatie in de metingen. Bij grote aantallen meetgegevens gebruik je de **standaarddeviatie** als maat voor de spreiding. **Spreidingsstreepjes** in een diagram geven de variatie, de standaarddeviatie of de meetonnauwkeurigheid aan.
+
+## Natuurwetenschappelijk onderzoek
+
+Een **natuurwetenschappelijk onderzoek** begint vaak met een waarneming en **bronnenonderzoek**: het lezen van eerdere onderzoeken over hetzelfde onderwerp.
+
+Een goed onderzoek is:
+
+- **Valide**: je meet echt wat je wilt meten, doordat alleen de factor die je onderzoekt invloed heeft op het resultaat.
+- **Betrouwbaar**: als je het onderzoek herhaalt, krijg je dezelfde resultaten. De betrouwbaarheid neemt toe door metingen te herhalen en grote aantallen te gebruiken.
+
+Voordat een onderzoek in een wetenschappelijk tijdschrift wordt gepubliceerd, controleren andere wetenschappers het onderzoek: **collegiale toetsing** (_**peer review**_).
+
 De **ethische grens** is het maximum wat de maatschappij acceptabel vindt (qua waarden en normen). Sommige wetenschappers gaan deze grens over, zoals bij genetische modificatie.

@@ -10,6 +10,7 @@ from markdown.treeprocessors import Treeprocessor
 
 MATH_DISPLAY_PATTERN = re.compile(r"\$\$([^\$]+)\$\$")
 MATH_INLINE_PATTERN = re.compile(r"\$([^\$\n]+)\$")
+MATH_KEY_PATTERN = re.compile(r"MATH_(?:DISPLAY|INLINE)_\d+")
 
 
 class MathProtectPreprocessor(Preprocessor):
@@ -23,6 +24,7 @@ class MathProtectPreprocessor(Preprocessor):
         self.counter = 0
 
     def run(self, lines):
+        self.reset()
         text = "\n".join(lines)
 
         def replace_display(match):
@@ -48,10 +50,11 @@ class MathProtectPostprocessor(Postprocessor):
         self.math_store = math_store
 
     def run(self, text):
-        for key in sorted(self.math_store.keys(), key=len, reverse=True):
-            math_content = html.escape(self.math_store[key])
-            text = text.replace(key, math_content)
-        return text
+        if not self.math_store:
+            return text
+        return MATH_KEY_PATTERN.sub(
+            lambda m: html.escape(self.math_store.get(m.group(0), m.group(0))), text
+        )
 
 
 class MathProtectExtension(Extension):

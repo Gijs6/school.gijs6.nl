@@ -27,22 +27,31 @@ Een chemische reactie kan **exotherm** (energie komt vrij) of **endotherm** (ene
 ## 3 soorten stoffen, 2 soorten elementen
 
 Er zijn 2 soorten elementen op het periodiek systeem: **metalen** en **niet-metalen**. De horizontale rijen zijn **perioden**, de verticale kolommen zijn **groepen**. Groep 17 bevat de **halogenen**. Deze niet-metalen zijn erg reactief. Groep 18 zijn de **edelgassen**. Deze zijn juist totaal niet reactief.  
-Er zijn 3 soorten stoffen: **metalen** (bestaan uit metaalatomen), **moleculaire stoffen** (bestaan uit niet-metaalatomen) en **zouten** (bestaan uit een metaal- en een niet-metaalatoom). In de tabel hiernaast zie je wat kenmerken over metalen, zouten en moleculaire stoffen.
+Er zijn 3 soorten stoffen: **metalen** (bestaan uit metaalatomen), **moleculaire stoffen** (bestaan uit niet-metaalatomen) en **zouten** (bestaan uit een metaal- en een niet-metaalatoom).
 
 ## Atoombouw
 
-Volgens het **atoommodel van Rutherford** bestaat een atoom uit een **kern** met protonen (p\+) en neutronen (n0) en een elektronenwolk met elektronen (e\-). Volgens het **atoommodel van Bohr** zitten de elektronen niet in een wolk, maar in **elektronenschillen**, op een vaste afstand van de kern. Bohr gebruikte de letters K, L, M N, enz. voor deze elektronenschillen. Per schil is er ruimte voor een beperkt aantal elektronen: maximaal 2 in de K-schil, 8 in de L-schil, 8 in de M-schil, 18 in de N-schil, 18 in de O-schil, 32 in de P-schil en 32 in de Q-schil. De verdeling van elektronen over de schillen is de **elektronenconfiguratie**. De elektronenconfiguratie van chloor is 2,8,7. ![][image1]  
+Volgens het **atoommodel van Rutherford** bestaat een atoom uit een **kern** met protonen (p\+) en neutronen (n0) en een elektronenwolk met elektronen (e\-). Volgens het **atoommodel van Bohr** zitten de elektronen niet in een wolk, maar in **elektronenschillen**, op een vaste afstand van de kern. Bohr gebruikte de letters K, L, M N, enz. voor deze elektronenschillen. Per schil is er ruimte voor een beperkt aantal elektronen: maximaal 2 in de K-schil, 8 in de L-schil, 8 in de M-schil, 18 in de N-schil, 18 in de O-schil, 32 in de P-schil en 32 in de Q-schil. De verdeling van elektronen over de schillen is de **elektronenconfiguratie**. De elektronenconfiguratie van chloor is 2,8,7.
+
+![Het atoommodel van Bohr voor magnesium (img-xs) (img-padding)](images/schk_h1/atoommodel_bohr.jpg)
+
 Edelgassen hebben een volle buitenste schil (**edelgasconfiguratie**). Deze configuratie is erg stabiel.  
 De opbouw van het periodiek systeem is deels gebaseerd op de elektronenconfiguratie.
 
-Het aantal protonen in een atoomkern komt overeen met het atoomnummer. Atomen met hetzelfde aantal protonen maar een verschillend aantal neutronen zijn **isotopen**. Een atoom heeft geen lading (anders was het een ion), dus dan is het aantal elektronen gelijk aan het aantal protonen. Het massagetal is het aantal protonen en neutronen in een kern. Er zijn verschillende notaties mogelijk voor het schrijven van een isotoop.![][image2] Niet alle isotopen zijn stabiel.  
+Het aantal protonen in een atoomkern komt overeen met het atoomnummer. Atomen met hetzelfde aantal protonen maar een verschillend aantal neutronen zijn **isotopen**. Een atoom heeft geen lading (anders was het een ion), dus dan is het aantal elektronen gelijk aan het aantal protonen. Het massagetal is het aantal protonen en neutronen in een kern. Er zijn verschillende notaties mogelijk voor het schrijven van een isotoop, zoals $\ce{^{31}_{15}P}$, $\ce{^{31}P}$ en P-31. Niet alle isotopen zijn stabiel.  
 De atoommassa is een gemiddelde, gewogen naar het voorkomen van bepaalde isotopen. De atoommassa wordt gegeven in u.  
-Bij een chemische reactie vallen de moleculen uiteen in atomen, die vervolgens nieuwe moleculen vormen. Bij een kernreactie smelten atomen samen of splitsen atomen zich. Kernreacties schrijf je als volgt op. Het aantal protonen van de 2 elementen die samensmelten bepaalt welk nieuw element er wordt gevormd.![][image3]
+Bij een chemische reactie vallen de moleculen uiteen in atomen, die vervolgens nieuwe moleculen vormen. Bij een kernreactie smelten atomen samen of splitsen atomen zich. Kernreacties schrijf je als volgt op:
+
+$$\ce{^{31}_{15}P + ^{80}_{34}Se -> ^{111}_{49}In}$$
+
+Het aantal protonen van de 2 elementen die samensmelten bepaalt welk nieuw element er wordt gevormd.
 
 ## Moleculaire stoffen
 
 Moleculaire stoffen willen graag een edelgasconfiguratie, dus een volle buitenste schil, want dit is het stabielst. Een waterstofatoom moet nog 1 elektron voor een edelgasconfiguratie. 2 waterstofatomen kunnen hun elektronen delen. Hierdoor hebben beide waterstofatomen een volle buitenste schil. Dit is een **atoombinding** of **covalente binding**. Deze binding wordt gevormd door een gemeenschappelijk elektronenpaar.  
-De **covalentie** is het aantal atoombindingen dat een atoom vormt. Waterstof heeft een covalentie van 1\. De niet-metalen in groep 17 hebben ook een covalentie van 1, want als ze 1 elektron erbij krijgen, hebben ze een edelgasconfiguratie. De niet-metalen in groep 16 hebben een covalentie van 2, enz.![][image4]
+De **covalentie** is het aantal atoombindingen dat een atoom vormt. Waterstof heeft een covalentie van 1\. De niet-metalen in groep 17 hebben ook een covalentie van 1, want als ze 1 elektron erbij krijgen, hebben ze een edelgasconfiguratie. De niet-metalen in groep 16 hebben een covalentie van 2, enz.
+
+![Twee waterstofatomen vormen samen een waterstofmolecuul (img-m) (img-padding)](images/schk_h1/atoombinding.jpg)
 
 In een structuurformule worden alle elektronenparen van een stof getekend. Er kunnen ook meerdere atoombindingen tussen twee atomen voorkomen.  
 Zuurstof heeft bijvoorbeeld een covalentie van 2, dus bij O₂ heb je een dubbele binding. Bij N₂ heb je zelfs te maken met een drievoudige binding.  
@@ -54,7 +63,7 @@ Zouten bestaan uit een metaal- en een niet-metaalion. Zouten geleiden alleen str
 In een zout wil het metaalion graag minder elektronen voor de edelgasconfiguratie. Het niet-metaalion wil juist extra elektronen voor de edelgasconfiguratie. Ze wisselen dus een elektron uit, waardoor het ionen worden.  
 Het metaalion is dus altijd positief geladen. Het niet-metaalion is dus altijd negatief geladen. Zouten bestaan uit ionen, maar ze zijn wel elektrisch neutraal. De ladingen heffen elkaar dus op.  
 Het aantal elektronen in de niet-volledig gevulde buitenste schil noem je de **valentie-elektronen**.  
-De lading van een ion is de **elektrovalentie.** In de tabel hiernaast (en in Binas 40A) staan de vaste ladingen van ionen. Sommige metalen kunnen meerdere ladingen vormen. Je zet de lading dan tussen haakjes met een Romeins cijfer (zoals een koper(II)ion).  
+De lading van een ion is de **elektrovalentie.** In Binas 40A staan de vaste ladingen van ionen. Sommige metalen kunnen meerdere ladingen vormen. Je zet de lading dan tussen haakjes met een Romeins cijfer (zoals een koper(II)ion).  
 Je kunt een **zoutformule** maken door goed te kijken naar de ladingen. Je moet ervoor zorgen dat er net zo veel positieve als negatieve ladingen zijn. Voorbeeld: de formule van het zout is dus Ag₂S (s) (of Ag⁺₂S²⁻ (s)), want dan zijn de ladingen neutraal.  
 Moleculen van een zout zitten in een **ionrooster**. De bindingen tussen de negatieve en positieve ionen heten **ionbindingen**, en zijn erg sterk. Zouten geleiden alleen in de vloeibare fase, omdat de krachten dan niet zo sterk zijn, en de ionen dus stroom kunnen vervoeren.
 

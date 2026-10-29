@@ -64,13 +64,13 @@ $x=y^2-4y+7$
 
 > Bij het vrijmaken van een variabele hoef je geen voorwaarden te vermelden.
 
-## Exponentiele functies
+## Exponentiële functies
 
-De functies $f(x)=g^x$ met $g>0$ en $g\neq 1$ zijn **exponentiele standaardfuncties**.
+De functies $f(x)=g^x$ met $g>0$ en $g\neq 1$ zijn **exponentiële standaardfuncties**.
 
 Exponentiële standaardfuncties hebben een **asymptoot**: een lijn waarmee de grafiek op den duur vrijwel samenvalt.
 
-De functie $f(x)=2^x$ valt samen met de $x$-as, dus de $x$-as is de **horizontale asymptoot**. Het bereik van deze functie is $B_f=\langle 0, \rightarrow \rangle$. Het domein bestaat uit alle reële getallen, dus $D_f=\mathbb{R}$.
+De functie $f(x)=2^x$ nadert de $x$-as, dus de $x$-as is de **horizontale asymptoot**. Het bereik van deze functie is $B_f=\langle 0, \rightarrow \rangle$. Het domein bestaat uit alle reële getallen, dus $D_f=\mathbb{R}$.
 
 Hieronder een overzicht van transformaties op $y=g^x$
 
@@ -79,9 +79,9 @@ Hieronder een overzicht van transformaties op $y=g^x$
 - $y=g^x \xrightarrow{\mathrm{translatie}~(0,~q)} y=g^x+q$ (asymptoot $y=q$)
 - $y=g^x \xrightarrow{\mathrm{translatie}~(p,~0)} y=g^{x-p}$ (asymptoot $y=0$)
 
-Je kunt vergelijkingen als $y=120\cdot 3^{2x-1}$ herleiden tot de vorm $y=b\cdot g^x$. je maakt dan gebruik van de regels $(a^p)^q=a^{pq}$ en $a^p \cdot a^q=a^{p+q}$. Voorbeeld: $2^{3x-4}=2^{3x}\cdot 2^4=(2^3)^x\cdot 16=8^x\cdot 16$.
+Je kunt vergelijkingen als $y=120\cdot 3^{2x-1}$ herleiden tot de vorm $y=b\cdot g^x$. Je maakt dan gebruik van de regels $(a^p)^q=a^{pq}$ en $a^p \cdot a^q=a^{p+q}$. Voorbeeld: $2^{3x-4}=2^{3x}\cdot 2^{-4}=(2^3)^x\cdot \frac{1}{16}=8^x\cdot \frac{1}{16}$.
 
-Een **exponentiele vergelijking** als $2^{12+x}=\sqrt{2}$ kun je oplossen met de regel $g^A=g^B$ geeft $A=B$. Om zo'n vergelijking op te lossen moeten beide leden dus hetzelfde grondtal hebben. Soms moet je eerst herleiden om 2 leden met een gelijk grondtal te krijgen.
+Een **exponentiële vergelijking** als $2^{12+x}=\sqrt{2}$ kun je oplossen met de regel $g^A=g^B$ geeft $A=B$. Om zo'n vergelijking op te lossen moeten beide leden dus hetzelfde grondtal hebben. Soms moet je eerst herleiden om 2 leden met een gelijk grondtal te krijgen.
 
 > Voorbeeld:  
 > $3^{x+2}=72+3^x$  
@@ -91,3 +91,11 @@ Een **exponentiele vergelijking** als $2^{12+x}=\sqrt{2}$ kun je oplossen met de
 > $3^x=9$  
 > $3^x=3^2$  
 > $x=2$
+
+## De logaritme
+
+Om te weten tot welke macht je een bepaald getal moet heffen om een bepaalde uitkomst te krijgen, gebruik je een **logaritme**.  
+Dus voor $2^n=16$ geeft de logaritme met grondtal 2 de macht. Dus $^2\log (16) = 4$, want $2^4=16$.  
+Dus $^g\log(x)$ is de exponent van een macht met grondtal $g$ waarbij de uitkomst $x$ is.
+
+$$^g\log(x) = y \implies x=g^y$$
