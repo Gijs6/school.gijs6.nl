@@ -1,4 +1,5 @@
 import argparse
+import sys
 
 from colorama import just_fix_windows_console
 
@@ -33,6 +34,7 @@ def main():
     args = parser.parse_args()
 
     just_fix_windows_console()
+    sys.stdout.reconfigure(line_buffering=True)
     if args.command == "serve":
         serve(args.port, dev=args.dev)
     else:

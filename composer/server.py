@@ -1,5 +1,6 @@
 import errno
 import os
+import subprocess
 import sys
 import threading
 import time
@@ -61,6 +62,15 @@ class ChangeCollector(FileSystemEventHandler):
 
 
 def _restart():
+    check = subprocess.run(
+        [sys.executable, "-c", "import composer.__main__"],
+        capture_output=True,
+        text=True,
+    )
+    if check.returncode != 0:
+        console.error("\nComposer changed, but it does not import. Not restarting:")
+        print(check.stderr.strip() + "\n")
+        return
     console.notice("\nComposer changed! Restarting process...\n")
     sys.stdout.flush()
     os.execv(sys.executable, sys.orig_argv)
@@ -76,6 +86,7 @@ def _describe(paths):
 def _apply_changes(site, paths, structural):
     if any(is_under(path, COMPOSER_DIR) and path.endswith(".py") for path in paths):
         _restart()
+        return
 
     kinds = {path: kind for path in paths if (kind := classify(path))}
     if not kinds and not structural:

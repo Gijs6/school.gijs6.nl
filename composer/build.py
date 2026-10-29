@@ -1,4 +1,5 @@
 import contextlib
+import ctypes
 import multiprocessing
 import os
 import shutil
@@ -46,6 +47,17 @@ def _process_pool(context, history):
         mp_context=multiprocessing.get_context(method),
         initializer=_start_worker,
         initargs=(context, history),
+    )
+
+
+def _exchange_paths(first, second):
+    renameat2 = getattr(ctypes.CDLL(None, use_errno=True), "renameat2", None)
+    if renameat2 is None:
+        return False
+    at_cwd, exchange = -100, 2
+    return (
+        renameat2(at_cwd, os.fsencode(first), at_cwd, os.fsencode(second), exchange)
+        == 0
     )
 
 
@@ -182,6 +194,11 @@ class Site:
         return path
 
     def _publish(self, staging_dir):
+        if os.path.exists(self.output_dir) and _exchange_paths(
+            staging_dir, self.output_dir
+        ):
+            shutil.rmtree(staging_dir, ignore_errors=True)
+            return
         old_dir = self._scratch_dir("old")
         if os.path.exists(self.output_dir):
             os.rename(self.output_dir, old_dir)
