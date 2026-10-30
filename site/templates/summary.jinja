@@ -94,6 +94,16 @@
         <div class="summary__layout">
             {%- if toc and toc.strip() -%}
                 <nav class="summary__toc" aria-label="Inhoudsopgave">
+                    <div class="summary__toc-context" aria-hidden="true">
+                        <div class="summary__toc-context-inner">
+                            <p class="summary__toc-subject">{{ meta.subject_name }}</p>
+                            {% if summary_title %}
+                                <p class="summary__toc-title">
+                                    {{ summary_title }}{%- if meta.description %} ({{ meta.description }}){%- endif -%}
+                                </p>
+                            {% endif %}
+                        </div>
+                    </div>
                     <details class="summary__toc-details">
                         <summary>
                             <span class="summary__toc-heading" role="heading" aria-level="2">Inhoudsopgave</span>

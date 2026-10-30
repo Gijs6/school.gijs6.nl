@@ -5,6 +5,7 @@
     if (!toc) return;
 
     var details = toc.querySelector(".summary__toc-details");
+    var context = toc.querySelector(".summary__toc-context");
     var scroller = toc.querySelector(".summary__toc-scroll") || toc;
     var sidebar = window.matchMedia("(min-width: 1200px)");
 
@@ -24,6 +25,11 @@
         if (!current) return;
         linkFor.get(current).removeAttribute("aria-current");
         current = null;
+    }
+
+    function syncStuck() {
+        var gap = parseFloat(window.getComputedStyle(toc).top) || 0;
+        toc.classList.toggle("summary__toc--stuck", toc.getBoundingClientRect().top <= gap + 1);
     }
 
     function fit() {
@@ -48,6 +54,7 @@
     function update() {
         if (!sidebar.matches) return;
 
+        syncStuck();
         fit();
 
         if (!headings.length) return;
@@ -79,6 +86,7 @@
             update();
         } else {
             scroller.style.maxHeight = "";
+            toc.classList.remove("summary__toc--stuck");
             clearCurrent();
         }
     }
@@ -99,6 +107,12 @@
 
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll, { passive: true });
+
+    if (context) {
+        context.addEventListener("transitionend", function (event) {
+            if (event.target === context && event.propertyName === "grid-template-rows") onScroll();
+        });
+    }
 
     window.addEventListener("load", update);
 })();
