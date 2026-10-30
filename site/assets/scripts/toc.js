@@ -20,6 +20,7 @@
     });
 
     var current = null;
+    var contextHeight = 0;
 
     function clearCurrent() {
         if (!current) return;
@@ -27,16 +28,30 @@
         current = null;
     }
 
-    function syncStuck() {
-        var gap = parseFloat(window.getComputedStyle(toc).top) || 0;
-        toc.classList.toggle("summary__toc--stuck", toc.getBoundingClientRect().top <= gap + 1);
+    function measureContext() {
+        if (!context || context.offsetHeight === contextHeight) return;
+        contextHeight = context.offsetHeight;
+        toc.style.setProperty("--toc-context-height", contextHeight + "px");
+    }
+
+    function clamp(value) {
+        return Math.min(Math.max(value, 0), 1);
+    }
+
+    function reveal() {
+        if (!context) return;
+        var stickyTop = parseFloat(window.getComputedStyle(toc).top) || 0;
+        var distance = toc.getBoundingClientRect().top - stickyTop;
+        var progress = contextHeight > 0 ? 1 - clamp(distance / contextHeight) : Number(distance <= 0);
+        toc.style.setProperty("--toc-reveal", progress);
     }
 
     function fit() {
-        var gap = parseFloat(window.getComputedStyle(toc).top) || 0;
+        var stickyTop = parseFloat(window.getComputedStyle(toc).top) || 0;
+        var gap = stickyTop - contextHeight;
         var tocViewportTop = toc.getBoundingClientRect().top;
         var headingHeight = scroller.getBoundingClientRect().top - tocViewportTop;
-        var availableHeight = window.innerHeight - Math.max(tocViewportTop, gap) - headingHeight - gap;
+        var availableHeight = window.innerHeight - Math.max(tocViewportTop, stickyTop) - headingHeight - gap;
         scroller.style.maxHeight = Math.max(availableHeight, 128) + "px";
     }
 
@@ -54,8 +69,9 @@
     function update() {
         if (!sidebar.matches) return;
 
-        syncStuck();
+        measureContext();
         fit();
+        reveal();
 
         if (!headings.length) return;
 
@@ -86,7 +102,9 @@
             update();
         } else {
             scroller.style.maxHeight = "";
-            toc.classList.remove("summary__toc--stuck");
+            toc.style.removeProperty("--toc-context-height");
+            toc.style.removeProperty("--toc-reveal");
+            contextHeight = 0;
             clearCurrent();
         }
     }
@@ -107,12 +125,6 @@
 
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll, { passive: true });
-
-    if (context) {
-        context.addEventListener("transitionend", function (event) {
-            if (event.target === context && event.propertyName === "grid-template-rows") onScroll();
-        });
-    }
 
     window.addEventListener("load", update);
 })();

@@ -20,8 +20,9 @@
     --line-height-base: 1.6;
     --line-height-tight: 1.25;
 
-    --page-width: 54rem;
     --measure: 42rem;
+    --page-width: var(--measure);
+    --page-gutter: var(--space-lg);
 
     --rule-width: 3px;
     --rule-gap: var(--space-sm);
@@ -84,17 +85,21 @@ h6 {
 }
 
 .page {
+    .page__content,
+    .page__footer {
+        width: min(var(--page-width), 100% - var(--page-gutter) * 2);
+        margin-inline: auto;
+    }
+
     .page__content {
-        max-width: var(--page-width);
-        margin: 0 auto;
-        padding: var(--space-3xl) var(--space-lg);
+        padding-block: var(--space-3xl);
 
         @media (width < 700px) {
             padding-block: var(--space-xl);
         }
 
         @media print {
-            max-width: none;
+            width: auto;
             padding: 0;
         }
     }
@@ -108,9 +113,7 @@ h6 {
     }
 
     .page__footer {
-        max-width: var(--page-width);
-        margin: 0 auto;
-        padding: 0 var(--space-lg) var(--space-2xl) var(--space-lg);
+        padding-bottom: var(--space-2xl);
 
         @media print {
             display: none;

@@ -1,8 +1,11 @@
 .page--summary {
-    --page-width: 84rem;
     --toc-width: 15rem;
     --toc-gap: var(--space-lg);
     --toc-heading-height: calc(var(--font-size-md) * var(--line-height-base) + var(--space-2xs) + var(--space-2xs) + var(--space-xs));
+
+    .page__content {
+        --page-width: 84rem;
+    }
 }
 
 .summary {
@@ -113,7 +116,7 @@
             grid-row: 1;
             justify-self: end;
             position: sticky;
-            top: var(--toc-gap);
+            top: calc(var(--toc-gap) + var(--toc-context-height, 0px));
             width: 100%;
             max-width: var(--toc-width);
             margin: 0;
@@ -131,44 +134,23 @@
             }
 
             .summary__toc-context {
-                display: grid;
-                grid-template-rows: 0fr;
-                margin: 0;
-                opacity: 0;
-                transition:
-                    grid-template-rows 250ms ease,
-                    margin 250ms ease,
-                    opacity 200ms ease;
+                position: absolute;
+                right: 0;
+                bottom: 100%;
+                left: 0;
+                padding-bottom: var(--space-md);
+                clip-path: inset(0 0 calc((1 - var(--toc-reveal, 0)) * 100%) 0);
+                pointer-events: none;
 
-                @media (prefers-reduced-motion: reduce) {
-                    transition: none;
+                @media (width < 1200px) {
+                    display: none;
                 }
             }
 
             .summary__toc-context-inner {
-                min-height: 0;
-                overflow: hidden;
                 padding-left: var(--rule-gap);
                 border-left: var(--rule-width) solid var(--color-family);
                 line-height: var(--line-height-tight);
-                translate: 0 calc(var(--space-xs) * -1);
-                transition: translate 250ms ease;
-
-                @media (prefers-reduced-motion: reduce) {
-                    transition: none;
-                }
-            }
-
-            &.summary__toc--stuck {
-                .summary__toc-context {
-                    grid-template-rows: 1fr;
-                    margin: 0 0 var(--space-md) 0;
-                    opacity: 1;
-                }
-
-                .summary__toc-context-inner {
-                    translate: 0 0;
-                }
             }
 
             .summary__toc-subject {

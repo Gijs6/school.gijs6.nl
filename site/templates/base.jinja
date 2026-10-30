@@ -90,54 +90,56 @@
             {% block content %}{% endblock %}
         </main>
 
-        <footer class="page__footer">
-            <ul class="page__footer-list">
-                <li class="page__footer-item">
-                    <address class="page__footer-address">
+        {% block footer %}
+            <footer class="page__footer">
+                <ul class="page__footer-list">
+                    <li class="page__footer-item">
+                        <address class="page__footer-address">
+                            <a class="page__footer-link"
+                               href="https://gijs6.nl"
+                               rel="author noopener noreferrer"
+                               target="_blank">Door <span class="page__footer-author">Gijs ten Berg</span></a>
+                        </address>
+                    </li>
+                    <li class="page__footer-item">
                         <a class="page__footer-link"
-                           href="https://gijs6.nl"
-                           rel="author noopener noreferrer"
-                           target="_blank">Door <span class="page__footer-author">Gijs ten Berg</span></a>
-                    </address>
-                </li>
-                <li class="page__footer-item">
-                    <a class="page__footer-link"
-                       href="https://creativecommons.org/licenses/by/4.0/"
-                       rel="license noopener noreferrer"
-                       target="_blank">CC BY 4.0</a>
-                </li>
-                <li class="page__footer-item">
-                    <a class="page__footer-link"
-                       href="https://contact.gijs6.nl"
-                       rel="noopener noreferrer"
-                       target="_blank">Contact</a>
-                </li>
-                <li class="page__footer-item">
-                    <a class="page__footer-link"
-                       href="{{ repo_url }}/blob/main/{{ page_path }}"
-                       rel="noopener noreferrer"
-                       target="_blank">Bekijk deze pagina op GitHub</a>
-                </li>
-                <li class="page__footer-item">
-                    <a class="page__footer-link" href="/rss.xml">RSS-feed</a>
-                </li>
-            </ul>
-
-            <p class="page__footer-note">
-                Site bijgewerkt op
-                <time datetime="{{ built_at_iso }}">{{ built_at }}</time>
-                {%- if page_updated %}
-                    · Deze pagina gewijzigd op
-                    <time datetime="{{ page_updated_iso }}">{{ page_updated }}</time>
-                {%- endif %}
-                {%- if commit %}
-                    ·
-                    <a class="page__footer-link"
-                       href="{{ repo_url }}/commit/{{ commit.sha }}"
-                       rel="noopener noreferrer"
-                       target="_blank">Versie <span class="page__footer-commit">{{ commit.short }}</span></a>
-                {%- endif %}
-            </p>
-        </footer>
+                           href="https://creativecommons.org/licenses/by/4.0/"
+                           rel="license noopener noreferrer"
+                           target="_blank">CC BY 4.0</a>
+                    </li>
+                    <li class="page__footer-item">
+                        <a class="page__footer-link"
+                           href="https://contact.gijs6.nl"
+                           rel="noopener noreferrer"
+                           target="_blank">Contact</a>
+                    </li>
+                    <li class="page__footer-item">
+                        <a class="page__footer-link"
+                           href="{{ repo_url }}/blob/main/{{ page_path }}"
+                           rel="noopener noreferrer"
+                           target="_blank">Bekijk deze pagina op GitHub</a>
+                    </li>
+                    <li class="page__footer-item">
+                        <a class="page__footer-link" href="/rss.xml">RSS-feed</a>
+                    </li>
+                </ul>
+    
+                <p class="page__footer-note">
+                    Site bijgewerkt op
+                    <time datetime="{{ built_at_iso }}">{{ built_at }}</time>
+                    {%- if page_updated %}
+                        · Deze pagina gewijzigd op
+                        <time datetime="{{ page_updated_iso }}">{{ page_updated }}</time>
+                    {%- endif %}
+                    {%- if commit %}
+                        ·
+                        <a class="page__footer-link"
+                           href="{{ repo_url }}/commit/{{ commit.sha }}"
+                           rel="noopener noreferrer"
+                           target="_blank">Versie <span class="page__footer-commit">{{ commit.short }}</span></a>
+                    {%- endif %}
+                </p>
+            </footer>
+        {% endblock %}
     </body>
 </html>
