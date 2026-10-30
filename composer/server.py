@@ -86,7 +86,6 @@ def _describe(paths):
 def _apply_changes(site, paths, structural):
     if any(is_under(path, COMPOSER_DIR) and path.endswith(".py") for path in paths):
         _restart()
-        return
 
     kinds = {path: kind for path in paths if (kind := classify(path))}
     if not kinds and not structural:
@@ -99,15 +98,17 @@ def _apply_changes(site, paths, structural):
         return
 
     started = time.perf_counter()
-    if TEMPLATE in kinds.values():
+    all_pages = TEMPLATE in kinds.values()
+    for path, kind in kinds.items():
+        if kind == PAGE and all_pages and os.path.isfile(path):
+            continue
+        if kind in (PAGE, STATIC):
+            _apply_file_change(site, path, kind)
+    if all_pages:
         console.notice("Rebuilding all pages...")
         site.write_all_pages()
-    else:
-        for path, kind in kinds.items():
-            if kind in (PAGE, STATIC):
-                _apply_file_change(site, path, kind)
-        if PAGE in kinds.values() or DATA in kinds.values():
-            site.write_indexes()
+    elif PAGE in kinds.values() or DATA in kinds.values():
+        site.write_indexes()
     console.success(f"Rebuilt in {console.elapsed_ms(started)}\n")
 
 
@@ -179,6 +180,12 @@ def _bind(port, handler):
 def serve(port=8000, dev=False):
     console.title("Server")
 
+    changes = ChangeCollector()
+    observer = Observer()
+    observer.schedule(changes, SITE_DIR, recursive=True)
+    observer.schedule(changes, COMPOSER_DIR, recursive=True)
+    observer.start()
+
     site = Site(BUILD_DEV_DIR, dev=dev)
     try:
         site.build()
@@ -187,11 +194,6 @@ def serve(port=8000, dev=False):
         traceback.print_exc()
         print()
 
-    changes = ChangeCollector()
-    observer = Observer()
-    observer.schedule(changes, SITE_DIR, recursive=True)
-    observer.schedule(changes, COMPOSER_DIR, recursive=True)
-    observer.start()
     threading.Thread(target=_watch, args=(site, changes), daemon=True).start()
 
     server = _bind(port, partial(DevRequestHandler, directory=BUILD_DEV_DIR))
