@@ -1,4 +1,5 @@
 import errno
+import io
 import os
 import subprocess
 import sys
@@ -7,12 +8,12 @@ import time
 import traceback
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import urlsplit
 
 from watchdog.events import FileSystemEventHandler
 from watchdog.observers import Observer
 
-from . import console
+from . import console, livereload
 from .build import Site
 from .config import BUILD_DEV_DIR, COMPOSER_DIR, SITE_DIR
 from .content import DATA, PAGE, STATIC, TEMPLATE, classify, is_ignored, is_under
@@ -89,13 +90,13 @@ def _apply_changes(site, paths, structural):
 
     kinds = {path: kind for path in paths if (kind := classify(path))}
     if not kinds and not structural:
-        return
+        return False
 
     console.notice(f"\nChanged: {console.bold(_describe(paths))}")
     if structural or not site.complete:
         console.notice("Full rebuild...")
         site.build()
-        return
+        return True
 
     started = time.perf_counter()
     all_pages = TEMPLATE in kinds.values()
@@ -110,6 +111,7 @@ def _apply_changes(site, paths, structural):
     elif PAGE in kinds.values() or DATA in kinds.values():
         site.write_indexes()
     console.success(f"Rebuilt in {console.elapsed_ms(started)}\n")
+    return True
 
 
 def _apply_file_change(site, path, kind):
@@ -125,11 +127,12 @@ def _apply_file_change(site, path, kind):
         traceback.print_exc()
 
 
-def _watch(site, changes):
+def _watch(site, changes, live_reload):
     while True:
         paths, structural = changes.wait()
         try:
-            _apply_changes(site, paths, structural)
+            if _apply_changes(site, paths, structural):
+                live_reload.reload()
         except Exception:
             console.error("Rebuild failed")
             traceback.print_exc()
@@ -137,34 +140,51 @@ def _watch(site, changes):
 
 
 class DevRequestHandler(SimpleHTTPRequestHandler):
+    def __init__(self, *args, live_reload, **kwargs):
+        self.live_reload = live_reload
+        super().__init__(*args, **kwargs)
+
     def end_headers(self):
         self.send_header("Cache-Control", "no-store")
         super().end_headers()
+
+    def do_GET(self):
+        if urlsplit(self.path).path == livereload.PATH:
+            self.live_reload.serve(self)
+        else:
+            super().do_GET()
 
     def send_head(self):
         url = urlsplit(self.path)
         path = self.translate_path(url.path)
         if os.path.isdir(path):
-            if os.path.isfile(os.path.join(path, "index.html")):
+            if not url.path.endswith("/"):
                 return super().send_head()
-        elif os.path.isfile(path):
-            return super().send_head()
-        elif os.path.isfile(path + ".html"):
-            self.path = urlunsplit(url._replace(path=url.path + ".html"))
-            return super().send_head()
-        return self._send_not_found()
+            path = os.path.join(path, "index.html")
+        elif not os.path.isfile(path):
+            path += ".html"
+
+        if not os.path.isfile(path):
+            return self._send_not_found()
+        if path.endswith(".html"):
+            return self._send_html(path)
+        return super().send_head()
+
+    def _send_html(self, path, status=200):
+        with open(path, "rb") as page:
+            body = livereload.inject(page.read())
+        self.send_response(status)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        return io.BytesIO(body)
 
     def _send_not_found(self):
         not_found = os.path.join(self.directory, "404.html")
-        if not os.path.isfile(not_found):
-            self.send_error(404, "File not found")
-            return None
-        page = open(not_found, "rb")
-        self.send_response(404)
-        self.send_header("Content-Type", "text/html; charset=utf-8")
-        self.send_header("Content-Length", str(os.fstat(page.fileno()).st_size))
-        self.end_headers()
-        return page
+        if os.path.isfile(not_found):
+            return self._send_html(not_found, status=404)
+        self.send_error(404, "File not found")
+        return None
 
 
 def _bind(port, handler):
@@ -194,9 +214,15 @@ def serve(port=8000, dev=False):
         traceback.print_exc()
         print()
 
-    threading.Thread(target=_watch, args=(site, changes), daemon=True).start()
+    live_reload = livereload.LiveReload()
+    threading.Thread(
+        target=_watch, args=(site, changes, live_reload), daemon=True
+    ).start()
 
-    server = _bind(port, partial(DevRequestHandler, directory=BUILD_DEV_DIR))
+    handler = partial(
+        DevRequestHandler, directory=BUILD_DEV_DIR, live_reload=live_reload
+    )
+    server = _bind(port, handler)
     console.success(
         f"Serving on {console.bold(f'http://localhost:{server.server_port}')}"
     )
