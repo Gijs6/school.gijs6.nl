@@ -42,7 +42,8 @@
         if (!context) return;
         var stickyTop = parseFloat(window.getComputedStyle(toc).top) || 0;
         var distance = toc.getBoundingClientRect().top - stickyTop;
-        var progress = contextHeight > 0 ? 1 - clamp(distance / contextHeight) : Number(distance <= 0);
+        var revealRange = Math.min(contextHeight, distance + window.scrollY);
+        var progress = revealRange > 0 ? 1 - clamp(distance / revealRange) : Number(distance <= 0);
         toc.style.setProperty("--toc-reveal", progress);
     }
 
