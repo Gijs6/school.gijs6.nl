@@ -381,7 +381,11 @@ Binnen een **inhomogeen magneetveld** zijn de veldlijnen niet overal evenwijdig,
 
 De richting van het magnetisch veld bepaal je met de **rechterhandregel bij een spoel**: de gekromde vingers van je rechterhand geven de draairichting van de stroom aan, en je uitgestoken duim geeft de richting van de veldlijnen aan (binnen de spoel). De noordpool van de spoel is de plek waar de veldlijnen uit de spoel komen.
 
+![De rechterhandregel bij een spoel (img-s)](images/nat_h1tmh11/rechterhandregel_spoel.jpg)
+
 Rondom een losse rechte draad is ook een magneetveld. Dit magneetveld heeft geen begin of einde, en een rechte stroomdraad heeft dan ook geen magnetische polen. De richting bepaal je met de **rechterhandregel bij een stroomdraad**: je uitgestoken duim wijst in de richting van de stroom, en de gekromde vingers geven de draairichting van het magneetveld aan.
+
+![De rechterhandregel bij een stroomdraad (img-s)](images/nat_h1tmh11/rechterhandregel_stroomdraad.jpg)
 
 ### Lorentzkracht
 
@@ -392,6 +396,8 @@ $$F_\text{L} = BIl$$
 Hierin is $F_\text{L}$ de lorentzkracht (in $\mathrm{N}$), $B$ de magnetische veldsterkte (in $\mathrm{T}$), $I$ de stroomsterkte (in $\mathrm{A}$) en $l$ de lengte van de stroomdraad in het magneetveld (in $\mathrm{m}$).
 
 De richting van de lorentzkracht bepaal je met de **rechterhandregel voor de lorentzkracht**: de duim wijst in de richting van de stroom, de gestrekte vingers wijzen in de richting van het magneetveld, en de lorentzkracht wijst in de richting van de palm.
+
+![De rechterhandregel voor de lorentzkracht (img-s)](images/nat_h1tmh11/rechterhandregel_lorentzkracht.jpg)
 
 Een elektromotor maakt ook gebruik van de lorentzkracht. In een elektromotor zit een rotor met 1 of meer spoelen die kunnen draaien in een magneetveld. Door de lorentzkracht gaat de rotor draaien. Na een halve draaing moet de stroomrichting worden omgewisseld, anders zou de lorentzkracht de draaiing juist tegenwerken. Dit wordt gedaan met een sleepcontact.
 
