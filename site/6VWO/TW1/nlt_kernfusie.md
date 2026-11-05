@@ -177,7 +177,7 @@ Er zijn 3 belangrijke manieren om het plasma te verhitten:
 
 ### Energiestromen
 
-![Schema van de energiestromen in een fusiereactor (img-m) (img-padding)](images/nlt_kernfusie/energiestromen.jpg)
+![Schema van de energiestromen in een fusiereactor (img-xl) (img-padding)](images/nlt_kernfusie/energiestromen.jpg)
 
 Bij de D-T-reactie ontstaan een heliumkern en een neutron. Omdat het neutron ongeladen is vliegt het direct naar de reactorwand. Het voordeel van neutronen als reactieproduct is dat hun kinetische energie heel makkelijk kan worden opgevangen. De neutronen verhitten de lithiumwand (waarin ook tritium wordt gemaakt). Met die warmte wordt water omgezet in stoom, die een turbine aandrijft. Een generator zet de beweging van de turbine om in elektrische energie. Een deel van die elektrische energie gaat terug naar het plasma (voor de verhitting).
 
