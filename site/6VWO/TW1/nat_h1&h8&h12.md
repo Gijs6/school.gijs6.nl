@@ -212,4 +212,4 @@ De lorentzkracht staat altijd loodrecht op de snelheid van het deeltje. Daardoor
 
 $$F_\text{mpz} = F_\text{L} \quad \Rightarrow \quad \frac{mv^2}{r} = Bqv \quad \Rightarrow \quad r = \frac{mv}{Bq}$$
 
-Hierin is $r$ de straal van de cirkelbaan (in $\mathrm{m}$), $m$ de massa van het deeltje (in $\mathrm{kg}$), $v$ de snelheid (in $\mathrm{m}/\mathrm{s}$), $B$ de magnetische veldsterkte (in $\mathrm{T}$) en $q$ de lading (in $\mathrm{C}$). Deze straal heet de **larmorstraal**.
+Hierin is $r$ de straal van de cirkelbaan (in $\mathrm{m}$), $m$ de massa van het deeltje (in $\mathrm{kg}$), $v$ de snelheid (in $\mathrm{m}/\mathrm{s}$), $B$ de magnetische veldsterkte (in $\mathrm{T}$) en $q$ de lading (in $\mathrm{C}$). <!-- Deze straal heet de **larmorstraal**. -->
