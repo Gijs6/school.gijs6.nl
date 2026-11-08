@@ -6,12 +6,7 @@
     var connectedBefore = false;
 
     function connect() {
-        var socket = new WebSocket(
-            "ws://" +
-                location.host +
-                "/__livereload?page=" +
-                encodeURIComponent(location.pathname),
-        );
+        var socket = new WebSocket("ws://" + location.host + "/__livereload?page=" + encodeURIComponent(location.pathname));
 
         socket.onopen = function () {
             if (connectedBefore) location.reload();

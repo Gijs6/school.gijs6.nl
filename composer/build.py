@@ -184,8 +184,7 @@ class Site:
         progress = console.ProgressBar(len(pages), "Pages")
         with _process_pool(self.context, self.history) as pool:
             futures = {
-                pool.submit(_render_in_worker, page, output_dir): page
-                for page in pages
+                pool.submit(_render_in_worker, page, output_dir): page for page in pages
             }
             for future in as_completed(futures):
                 url, content, page_changed = future.result()
