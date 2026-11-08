@@ -3,52 +3,72 @@ subject: SCHK
 title: Zuur-base 2
 ---
 
-## Zwakke zuren en basen
+## Zuren en basen
 
-De **sterkte** van een zuur geeft aan hoe graag het zuur een $\ce{H+}$ wil weggeven: een **sterk zuur** geeft graag $\ce{H+}$ af, een **zwak zuur** minder graag. Hetzelfde geldt voor basen: een **sterke base** neemt graag $\ce{H+}$ op, een **zwakke base** minder graag.
+Een **zuur** is een stof die $\ce{H+}$ afstaat, en een **base** is een stof die $\ce{H+}$ opneemt. Los $\ce{H+}$ bestaat niet in water, want het reageert direct tot $\ce{H3O+}$.
 
-### Zwak of sterk?
+De **waardigheid** van een zuur is het aantal $\ce{H+}$ dat het kan afstaan. Bij anorganische zuren is dat vaak het aantal H-atomen in de formule, bij organische zuren het aantal $\ce{-COOH}$-groepen.
 
-In Binas 49 staat een overzicht van de sterktes van zuren en basen. Het sterkste zuur staat linksbovenin, en hoe verder naar beneden, hoe zwakker het zuur. De (theoretische) grens ligt bij $\ce{H3O+}$: alles erboven is sterk, alles eronder zwak.
+### pH
 
-Bij basen ligt de grens bij $\ce{OH-}$: alles eronder is sterk, daarboven zwak.
+Met de **pH** geef je aan hoe zuur of basisch een oplossing is. De schaal loopt van 0 tot 14:
 
-## Zuren oplossen
+- pH = 7: neutraal
+- pH < 7: zuur (hoe lager, hoe zuurder)
+- pH > 7: basisch (hoe hoger, hoe basischer)
 
-Als je het sterke zuur $\ce{HZ}$ oplost in water, lost het eerst op:
+> Let op: zuurheid vergelijk je alleen **binnen** de zure kant, en basischheid alleen binnen de basische kant. Een zuur kan dus nooit "basischer" zijn dan een ander zuur, maar wel "minder zuur"
+
+## Sterkte van zuren en basen
+
+De **sterkte** van een zuur geeft aan hoe graag het $\ce{H+}$ afstaat. Een **sterk zuur** staat zijn $\ce{H+}$ graag af, een **zwak zuur** wat minder graag. Bij basen werkt het hetzelfde: een **sterke base** neemt graag $\ce{H+}$ op, een **zwakke base** wat minder graag.
+
+Of een zuur of base sterk of zwak is, zoek je op in Binas 49. Het sterkste zuur staat linksbovenin, en hoe verder je naar beneden gaat, hoe zwakker het zuur. De (theoretische) grens ligt bij $\ce{H3O+}$: alles erboven is sterk, alles eronder zwak. Bij basen is het andersom: de sterkste base staat rechtsonderin, en de grens ligt bij $\ce{OH-}$. Alles eronder is sterk, alles erboven zwak.
+
+## Zuren en basen oplossen
+
+### Zuren
+
+Als je het sterke zuur $\ce{HZ}$ in water oplost, lost het eerst "gewoon" op:
 
 $$\ce{HZ (l) ->[{opl.}] HZ (aq)}$$
 
-Omdat het een sterk zuur is, **ioniseert** $\ce{HZ (aq)}$ volledig. De totale reactie is dus:
+Omdat het een sterk zuur is, **ioniseert** $\ce{HZ (aq)}$ daarna volledig (het wil heel graag van zijn $\ce{H+}$ af):
 
 $$\ce{HZ (l) ->[{opl.}] HZ (aq) + H2O (l) -> H3O+ + Z-}$$
 
-Je schrijft een $\ce{HZ}$-oplossing dus als $\ce{H3O+ + Z-}$, niet als $\ce{HZ (aq)}$. Het ion $\ce{Z-}$ dat overblijft na het afstaan van $\ce{H+}$ heet de **geconjugeerde base** van $\ce{HZ}$.
+Er blijft dus geen $\ce{HZ (aq)}$ over. Je schrijft een $\ce{HZ}$-oplossing daarom als $\ce{H3O+ + Z-}$ (niet als $\ce{HZ (aq)}$!). Het deeltje dat overblijft na het afstaan van $\ce{H+}$ (hier $\ce{Z-}$) heet de **geconjugeerde base** van $\ce{HZ}$.
 
-Bij het zwakke zuur $\ce{HB}$ verloopt het oplossen hetzelfde:
+Een voorbeeld is **zoutzuur**: dat is een oplossing van het sterke zuur waterstofchloride ($\ce{HCl}$) in water, dus je schrijft het als $\ce{H3O+ + Cl-}$.
 
-$$\ce{HB (l) ->[{opl.}] HB (aq)}$$
-
-Maar een zwak zuur ioniseert niet volledig. Er ontstaat een evenwicht:
+Een zwak zuur lost ook eerst gewoon op, maar ioniseert daarna niet volledig. Er ontstaat dan een evenwicht:
 
 $$\ce{HB (l) ->[{opl.}] HB (aq) <--> H3O+ + B-}$$
 
-De schrijfwijze van een $\ce{HB}$-oplossing is dus $\ce{HB (aq)}$.
+De schrijfwijze van een $\ce{HB}$-oplossing is daarom $\ce{HB (aq)}$.
 
-## Basen oplossen
+### Basen
 
-Basen zijn onderdeel van een zout, en zouten ioniseren altijd volledig bij het oplossen in water. Na het oplossen kan de base een $\ce{H+}$ opnemen uit water. Hoe sterker de base, hoe beter dit gaat.
+Basen zitten vaak in een zout, en zouten ioniseren altijd volledig als ze oplossen in water:
 
-De base $\ce{NaH}$ is sterk en ioniseert volledig:
+$$\ce{Na2CO3 (s) -> 2 Na+ + CO3^{2-}}$$
+
+Daarna kan de opgeloste base een $\ce{H+}$ van water opnemen. Hoe sterker de base, hoe beter dat lukt.
+
+Een sterke base (zoals $\ce{H-}$ uit $\ce{NaH}$) reageert aflopend met water. $\ce{NaH}$ lost eerst op, en daarna reageert al het $\ce{H-}$ met water:
+
 $$\ce{NaH (s) -> Na+ + H-}$$
 $$\ce{H- + H2O (l) -> H2 (g) + OH-}$$
-Samen: $\ce{NaH (s) + H2O (l) -> Na+ + H2 (g) + OH-}$
 
-De base $\ce{Na2CO3}$ is zwak, en de ionisatie verloopt slechts gedeeltelijk:
-$$\ce{Na2CO3 (s) -> 2 Na+ + {CO3}^{2-}}$$
-$$\ce{{CO3}^{2-} + H2O (l) <--> HCO3- + OH-}$$
+Samen in 1 reactievergelijking:
 
-## pH berekenen
+$$\ce{NaH (s) + H2O (l) -> Na+ + H2 (g) + OH-}$$
+
+Een zwakke base (zoals $\ce{CO3^{2-}}$) reageert maar gedeeltelijk met water. Er ontstaat dan een evenwicht:
+
+$$\ce{CO3^{2-} + H2O (l) <--> HCO3- + OH-}$$
+
+## Rekenen met de pH
 
 ### Sterke zuren en basen
 
@@ -60,11 +80,18 @@ Bij sterke zuren en basen geldt:
 - $[\ce{OH-}] = 10^{-\mathrm{pOH}}$
 - $\mathrm{pH} + \mathrm{pOH} = 14$
 
-> Het aantal significante cijfers in de concentratie bepaalt het aantal decimalen van de p(O)H.
+> Het aantal **significante cijfers van de concentratie** bepaalt het aantal **decimalen** van de p(O)H.
 
 ### Zwakke zuren en basen
 
-Bij een zwak zuur ioniseert het niet volledig, dus is $[\ce{H3O+}]$ kleiner dan de concentratie van het opgeloste zuur. Om de pH te berekenen, stel je een BOEC-schema op voor de oplossingsreactie. Bij een **meerwaardig zuur** (dat meerdere $\ce{H+}$ kan afstaan) zijn de verdere ionisatiestappen te verwaarlozen, dus kijk je alleen naar de eerste.
+Een zwak zuur ioniseert niet volledig, dus $[\ce{H3O+}]$ is kleiner dan de concentratie van het opgeloste zuur. Je kunt de pH berekenen met de **zuurconstante** $K_z$:
+
+1. Stel de reactievergelijking op van het zwakke zuur met water.
+2. Maak een BOEC-schema, met $x$ als de concentratie zuur die ioniseert.
+3. Stel de evenwichtsvoorwaarde op, vul de concentraties uit het BOEC-schema en $K_z$ (Binas 49) in, en los $x$ op met de ABC-formule.
+4. Bereken de pH met $\mathrm{pH} = -\log(x)$ (want $x = [\ce{H3O+}]$).
+
+Bij een **meerwaardig zuur** (waardigheid 2 of hoger) kijk je alleen naar de eerste ionisatiestap. De stappen daarna zijn zo klein dat je ze mag verwaarlozen.
 
 > Voorbeeld: bereken de pH van een $\ce{HF}$-oplossing van 0,100 M.
 >
@@ -72,7 +99,7 @@ Bij een zwak zuur ioniseert het niet volledig, dus is $[\ce{H3O+}]$ kleiner dan 
 >
 > $$\ce{HF (aq) + H2O (l) <--> H3O+ + F-}$$
 >
-> Stel dat $x$ de concentratie is die ioniseert. Het BOEC-schema wordt dan (water is weggelaten):
+> Stel dat $x$ de concentratie is die ioniseert, en neem 1 L oplossing (dan is het aantal mol gelijk aan de concentratie). Het BOEC-schema wordt dan (water laat je weg):
 >
 > |                      | $\ce{HF (aq)}$ | $\ce{H3O+}$ | $\ce{F-}$ |
 > | -------------------- | -------------- | ----------- | --------- |
@@ -81,100 +108,120 @@ Bij een zwak zuur ioniseert het niet volledig, dus is $[\ce{H3O+}]$ kleiner dan 
 > | **E**venwicht (mol)  | $0{,}100 - x$  | $x$         | $x$       |
 > | **C**oncentratie (M) | $0{,}100 - x$  | $x$         | $x$       |
 >
-> De **zuurconstante** $K_z$ (in Binas 49) is voor $\ce{HF}$ gelijk aan $6{,}3 \cdot 10^{-4}$. Dit invullen:
+> De $K_z$ van $\ce{HF}$ is $6{,}3 \cdot 10^{-4}$. Invullen in de evenwichtsvoorwaarde geeft:
 >
 > $$K_z = \frac{[\ce{H3O+}][\ce{F-}]}{[\ce{HF}]} = \frac{x \cdot x}{0{,}100 - x} = 6{,}3 \cdot 10^{-4}$$
 >
-> Je kunt $x$ op twee manieren uitrekenen.
->
-> **Door te verwaarlozen**
->
-> Als $x$ heel klein is, kun je zeggen dat $0{,}100 - x \approx 0{,}100$:
->
-> $$x^2 = 6{,}3 \cdot 10^{-4} \times 0{,}100 = 6{,}3 \cdot 10^{-5}$$
-> $$x = \sqrt{6{,}3 \cdot 10^{-5}} = 7{,}9 \cdot 10^{-3}~\mathrm{M}$$
->
-> **Met de ABC-formule**
->
-> Herschrijf de vergelijking:
+> Dit kun je herschrijven naar:
 >
 > $$x^2 + 6{,}3 \cdot 10^{-4} \cdot x - 6{,}3 \cdot 10^{-5} = 0$$
 >
-> Met de ABC-formule (alleen de positieve oplossing):
+> Met de ABC-formule:
 >
 > $$x = \frac{-6{,}3 \cdot 10^{-4} + \sqrt{(6{,}3 \cdot 10^{-4})^2 + 4 \cdot 6{,}3 \cdot 10^{-5}}}{2} = 7{,}6 \cdot 10^{-3}~\mathrm{M}$$
 >
-> Zodra je $x$ hebt berekend, kun je de pH berekenen (aangezien $x = [\ce{H3O+}]$):
+> Omdat $x = [\ce{H3O+}]$, is de pH:
 >
-> $$\mathrm{pH} = -\log(x)$$
+> $$\mathrm{pH} = -\log(x) = -\log(7{,}6 \cdot 10^{-3}) = 2{,}12$$
 
-Bij een zwakke base werkt het hetzelfde, alleen gebruik je de **baseconstante** $K_b$ (ook in Binas 49) en is $x = [\ce{OH-}]$. Je berekent dan eerst de pOH en daarna de pH via $\mathrm{pH} = 14 - \mathrm{pOH}$.
+Bij een zwakke base werkt het precies hetzelfde, alleen gebruik je dan de **baseconstante** $K_b$ (ook in Binas 49) en is $x = [\ce{OH-}]$. Je rekent dus eerst de pOH uit. Wil je de pH weten, dan reken je die om met $\mathrm{pH} = 14 - \mathrm{pOH}$.
 
-## Verhouding bij een ingesteld pH
+### Verhouding bij een ingestelde pH
 
-Naast dat je de pH bij een bepaalde concentratie kunt berekenen, kun je ook de verhouding tussen zuur en base berekenen bij een gegeven pH.
+Je kunt ook de verhouding tussen een zuur en zijn geconjugeerde base uitrekenen **bij een ingestelde pH**. Dat gaat zo:
 
-Stel je hebt een $\ce{HNO2}$-oplossing bij een pH van 2,0, en je wilt de verhouding $[\ce{NO2-}] : [\ce{HNO2}]$ berekenen. Je stelt dan eerst de reactievergelijking op:
+1. Stel de reactievergelijking op van het zwakke zuur met water.
+2. Stel de evenwichtsvoorwaarde op en herschrijf die naar $\frac{K_z}{[\ce{H3O+}]} = \frac{[\ce{B-}]}{[\ce{HB}]}$.
+3. Bereken $[\ce{H3O+}]$ met de pH, zoek $K_z$ op in Binas 49 en vul alles in.
 
-$$\ce{HNO2 + H2O (l) <--> H3O+ + NO2-}$$
-
-Vervolgens stel je de evenwichtsvoorwaarde op:
-
-$$K_z = \frac{[\ce{H3O+}][\ce{NO2-}]}{[\ce{HNO2}]}$$
-
-Je kunt dit herschrijven als:
-
-$$\frac{K_z}{[\ce{H3O+}]} = \frac{[\ce{NO2-}]}{[\ce{HNO2}]}$$
-
-Uit de pH volgt $[\ce{H3O+}] = 10^{-2{,}0} = 0{,}010~\mathrm{M}$. De $K_z$ van $\ce{HNO2}$ staat in Binas 49. Dit invullen geeft de verhouding:
-
-$$\frac{[\ce{NO2-}]}{[\ce{HNO2}]} = \frac{5{,}6 \cdot 10^{-4}}{0{,}010} = 5{,}6 \cdot 10^{-2}$$
-
-De verhouding $[\ce{NO2-}] : [\ce{HNO2}]$ is dus $0{,}056 : 1$.
-
-## Omzettingspercentage
-
-Het omzettingspercentage geeft aan hoeveel procent van het zuur geïoniseerd is. Je berekent eerst de verhouding (zoals hierboven), en vult die daarna in, waarbij $\ce{HA}$ het zuur is en $\ce{A-}$ de geconjugeerde base:
-
-$$\text{omzettingspercentage} = \frac{[\ce{A-}]}{[\ce{HA}] + [\ce{A-}]} \cdot 100\%$$
-
-> Voorbeeld: bereken het omzettingspercentage van $\ce{HF}$ bij een pH van 2,5.
+> Voorbeeld: bereken de verhouding $[\ce{NO2-}] : [\ce{HNO2}]$ in een $\ce{HNO2}$-oplossing met een pH van 2,00.
 >
-> Eerst de verhouding berekenen. Uit de pH volgt $[\ce{H3O+}] = 10^{-2{,}5} = 3{,}2 \cdot 10^{-3}~\mathrm{M}$:
+> De reactievergelijking is:
+>
+> $$\ce{HNO2 (aq) + H2O (l) <--> H3O+ + NO2-}$$
+>
+> De evenwichtsvoorwaarde is:
+>
+> $$K_z = \frac{[\ce{H3O+}][\ce{NO2-}]}{[\ce{HNO2}]}$$
+>
+> Herschrijven geeft:
+>
+> $$\frac{K_z}{[\ce{H3O+}]} = \frac{[\ce{NO2-}]}{[\ce{HNO2}]}$$
+>
+> Uit de pH volgt $[\ce{H3O+}] = 10^{-2{,}00} = 0{,}0100~\mathrm{M}$. Met de $K_z$ van $\ce{HNO2}$ geeft dat:
+>
+> $$\frac{[\ce{NO2-}]}{[\ce{HNO2}]} = \frac{5{,}6 \cdot 10^{-4}}{0{,}0100} = 5{,}6 \cdot 10^{-2}$$
+>
+> De verhouding $[\ce{NO2-}] : [\ce{HNO2}]$ is dus $0{,}056 : 1$.
+
+### Omzettingspercentage
+
+Met deze verhouding kun je ook uitrekenen hoeveel procent van het zuur geïoniseerd is: het **omzettingspercentage**.
+
+1. Bereken de verhouding $[\ce{B-}] : [\ce{HB}]$ zoals hierboven.
+2. Vul de verhouding in de formule voor het omzettingspercentage in:
+
+$$\text{omzettingspercentage} = \frac{[\ce{B-}]}{[\ce{HB}] + [\ce{B-}]} \cdot 100\%$$
+
+> Voorbeeld: bereken het omzettingspercentage van $\ce{HF}$ bij een pH van 2,50.
+>
+> Eerst reken je de verhouding uit. Uit de pH volgt $[\ce{H3O+}] = 10^{-2{,}50} = 3{,}2 \cdot 10^{-3}~\mathrm{M}$:
 >
 > $$\frac{[\ce{F-}]}{[\ce{HF}]} = \frac{K_z}{[\ce{H3O+}]} = \frac{6{,}3 \cdot 10^{-4}}{3{,}2 \cdot 10^{-3}} = 0{,}20$$
 >
-> De verhouding $[\ce{F-}] : [\ce{HF}]$ is dus $0{,}20 : 1$. Dit invullen:
+> De verhouding $[\ce{F-}] : [\ce{HF}]$ is dus $0{,}20 : 1$. Invullen in de formule geeft:
 >
 > $$\text{omzettingspercentage} = \frac{0{,}20}{1 + 0{,}20} \cdot 100\% = 17\%$$
+>
+> Er is dus 17% van het $\ce{HF}$ geïoniseerd.
 
 ## Buffers
 
-Een **bufferoplossing** is een oplossing van een zwak zuur met zijn geconjugeerde base, in ongeveer even grote hoeveelheden. De pH verandert niet (of amper) als er zuur, base of water wordt toegevoegd. De bufferwerking is het beste als de concentratie van het zwakke zuur zo dicht mogelijk bij de concentratie van de geconjugeerde base ligt.
+![De kwaliteit van een buffer bij verschillende verhoudingen zuur : base (img-s) (img-float-right)](images/schk_zuurbase2/buffer_verhouding.png)
 
-De pH van een bufferoplossing kun je op twee manieren berekenen: met de evenwichtsvoorwaarde of met de **bufferformule**.
+Een **bufferoplossing** is een oplossing van een zwak zuur met zijn geconjugeerde base, in een 'goede' verhouding (zie afbeelding). De pH van een bufferoplossing verandert niet (of amper) als er zuur, base of water wordt toegevoegd.
 
-Als je de concentratie van het zwakke zuur $[\ce{HB}]$ en de concentratie van de geconjugeerde base $[\ce{B-}]$ weet, kun je deze invullen in de (omgebouwde) evenwichtsvoorwaarde:
+Als vuistregel werkt een buffer goed als de verhouding zuur : base tussen 1 : 10 of 10 : 1 ligt.
+
+De pH van een buffer kun je op 2 manieren uitrekenen. Met de evenwichtsvoorwaarde:
 
 $$[\ce{H3O+}] = K_z \cdot \frac{[\ce{HB}]}{[\ce{B-}]}$$
 
-De bufferformule is:
+Of met de **bufferformule**:
 
-$$\mathrm{pH} = \mathrm{p}K_z - \log \frac{n_z}{n_b} = \mathrm{p}K_z + \log \frac{n_b}{n_z}$$
+$$\mathrm{pH} = \mathrm{p}K_z - \log \frac{n_\text{zuur}}{n_\text{base}} = \mathrm{p}K_z + \log \frac{n_\text{base}}{n_\text{zuur}}$$
 
-Hierin is $n_z$ het aantal mol zwak zuur en $n_b$ het aantal mol geconjugeerde base.
+Hierin is $n_\text{zuur}$ het aantal mol zwak zuur en $n_\text{base}$ het aantal mol geconjugeerde base.
 
-## Zuur-base reacties
+## Zuur-basereacties
 
-Bij het opstellen van zuur-basereacties moet je goed opletten wat je beginstoffen zijn. Kijk dus goed of je te maken hebt met een sterk of zwak zuur en wat de bijbehorende oplossing is.
+Bij een zuur-basereactie staat een zuur $\ce{H+}$ af aan een base. In het algemeen ziet dat er zo uit:
 
-Bij een zuur-basereactie zijn er twee mogelijkheden: een aflopende reactie of geen reactie. Bij een zuur-basereactie kan er nooit een evenwicht zijn. Dat kan alleen bij een zwak zuur of zwakke base die je oplost in water.
+$$\ce{H3O+ + B- -> HB + H2O}$$
 
-Als het zuur boven de base staat in Binas 49, is er een aflopende reactie. Als het zuur onder de base staat, is er geen reactie. Als het zuur en de base op dezelfde regel staan, heb je geen zuur-basereactie, maar een oplossing van een zwak zuur met zijn geconjugeerde base. Er is dan wel een evenwicht.
+Een paar voorbeelden:
 
-Voor meerwaardige zuren geldt dat er $\ce{H+}$-overdracht plaatsvindt zolang het zuur boven de base staat.
+- Zoutzuur met natronloog: $\ce{H3O+ + OH- -> 2 H2O}$
+- Zoutzuur met natriumoxide: $\ce{2 H3O+ + O^{2-} -> 3 H2O}$
 
-> Voorbeeld: $\ce{H3PO4}$ (fosforzuur) met $\ce{NH3}$.
+Kijk bij een reactie ook altijd of er een neerslag ontstaat (Binas 45A).
+
+Sommige deeltjes kunnen niet los in water bestaan:
+
+- $\ce{H2CO3}$ valt meteen uiteen in $\ce{H2O + CO2}$.
+- $\ce{O^{2-}}$ reageert meteen met water: $\ce{O^{2-} + H2O -> 2 OH-}$.
+
+Bij het opstellen van een zuur-basereactie kijk je eerst goed welke beginstoffen er zijn. Er zijn dan maar 2 mogelijkheden: een aflopende reactie of helemaal geen reactie. **Bij een zuur-basereactie is er nooit een evenwicht.** Een evenwicht krijg je alleen als je een zwak zuur of een zwakke base in water oplost.
+
+Welke van de 2 het is, zie je in Binas 49:
+
+- Staat het zuur boven de base, dan is er een aflopende reactie.
+- Staat het zuur onder de base, dan is er geen reactie.
+- Staan het zuur en de base op dezelfde regel, dan heb je geen zuur-basereactie, maar gewoon een oplossing van een zwak zuur met zijn geconjugeerde base. Daarin is **wel** een evenwicht.
+
+Een meerwaardig zuur blijft $\ce{H+}$ afstaan zolang het overgebleven zuur boven de base staat (en er genoeg base is).
+
+> Voorbeeld: fosforzuur ($\ce{H3PO4}$) met een overmaat ammoniak ($\ce{NH3}$).
 >
 > Per stap kijk je of het zuur boven $\ce{NH3}$ staat:
 >
@@ -182,66 +229,83 @@ Voor meerwaardige zuren geldt dat er $\ce{H+}$-overdracht plaatsvindt zolang het
 > - $\ce{H2PO4-}$ staat ook boven $\ce{NH3}$, dus er is weer een reactie: $\ce{H2PO4- + NH3 -> HPO4^{2-} + NH4+}$
 > - $\ce{HPO4^{2-}}$ staat onder $\ce{NH3}$, dus er is geen reactie meer.
 >
-> Fosforzuur reageert dus in twee stappen met ammoniak. De volledige reactie is:
+> Fosforzuur reageert dus in 2 stappen met ammoniak. De volledige reactie is:
 >
 > $$\ce{H3PO4 + 2 NH3 -> HPO4^{2-} + 2 NH4+}$$
 
 ## Titraties
 
-Met een titratie kun je de concentratie (en dus de pH) van een oplossing bepalen. Een titratie bestaat uit de volgende stappen:
+Met een titratie bepaal je de onbekende concentratie van een zuur of base in een oplossing. Een titratie bestaat uit de volgende stappen:
 
-1. Pak met een pipet een beetje van de oplossing
-2. Doe hier een indicator bij
-3. Druppel met een buret het zuur of de base in de oplossing, tot de kleur van de oplossing omslaat
-4. Lees op de buret af hoeveel mL je hebt toegevoegd
+1. Neem met een pipet een nauwkeurig afgemeten volume van de oplossing waarvan je de concentratie wilt weten.
+2. Doe hier een paar druppels van een geschikte indicator bij.
+3. Druppel uit een buret een zuur of base met een bekende concentratie bij de oplossing, tot de indicator omslaat. De kleur moet dan precies in het "midden" liggen: bij een indicator die geel is bij een lage pH en blauw bij een hoge pH, moet de oplossing dus precies groen zijn.
+4. Lees op de buret af hoeveel mL je hebt toegevoegd.
 
-Op het **equivalentiepunt** is het aantal mol zuur gelijk aan het aantal mol base:
+Je voert een titratie minimaal 2 keer uit. De afwijking tussen de 2 metingen moet kleiner zijn dan 2,5%:
+
+$$\text{afwijking} = \frac{|V_1 - V_2|}{V_1 + V_2} \cdot 100\%$$
+
+### Concentratie berekenen
+
+Op het **equivalentiepunt** heb je precies genoeg toegevoegd om alles te laten reageren. Bij een molverhouding van 1 : 1 is het aantal mol zuur dan gelijk aan het aantal mol base:
 
 $$n_\text{zuur} = n_\text{base}$$
 
-Omdat $n = c \cdot V$ geldt:
+Omdat $n = c \cdot V$, geldt:
 
 $$c_\text{zuur} \cdot V_\text{zuur} = c_\text{base} \cdot V_\text{base}$$
 
-Hierin is $V_\text{zuur}$ het volume dat je met de pipet hebt afgemeten, en $V_\text{base}$ het volume dat je uit de buret hebt laten lopen. Hiermee kun je de onbekende concentratie berekenen.
-
-Je voert een titratie minimaal twee keer uit. De afwijking tussen de twee metingen moet kleiner zijn dan 2,5%, anders meet je opnieuw:
-
-$$\text{afwijking} = \frac{|V_1 - V_2|}{V_1 + V_2} \times 100\%$$
-
-### Terugtitraties
-
-Bij stoffen die tijdens de titratie kunnen verdampen of wegreageren, gebruik je een **terugtitratie** (zoals bij $\ce{NH3}$). Je voegt dan eerst een overmaat $\ce{H3O+}$ toe:
-
-$$\ce{NH3 + H3O+ -> NH4+ + H2O (l)}$$
-
-Er blijft nu een klein beetje $\ce{H3O+}$ over. Het aantal mol $\ce{NH3}$ is gelijk aan het aantal mol $\ce{H3O+}$ dat gereageerd heeft:
-
-$$n_{\ce{NH3}} = n_{\ce{H3O+},\text{begin}} - n_{\ce{H3O+},\text{over}}$$
-
-Het aantal mol $\ce{H3O+}$ aan het begin bereken je uit de concentratie en het volume:
-
-$$n_{\ce{H3O+},\text{begin}} = [\ce{H3O+}] \cdot V_{\ce{H3O+},\text{begin}}$$
-
-Het aantal mol $\ce{H3O+}$ dat overblijft bepaal je door terug te titreren met $\ce{OH-}$:
-
-$$\ce{H3O+ + OH- -> 2 H2O (l)}$$
-
-Op het omslagpunt geldt $n_{\ce{H3O+},\text{over}} = n_{\ce{OH-}}$, en $n_{\ce{OH-}}$ bereken je uit de concentratie en het volume van de gebruikte $\ce{OH-}$-oplossing.
+Als je een zuur titreert met een base, is $V_\text{zuur}$ het volume dat je met de pipet hebt afgemeten en $V_\text{base}$ het volume dat je uit de buret hebt toegevoegd. Hiermee kun je de onbekende concentratie berekenen.
 
 ### Titratiecurve
 
-Een **titratiecurve** is een grafiek van de pH tegen het toegevoegde volume. De curve heeft een S-vorm, waarbij het equivalentiepunt in het midden van de steile stijging ligt.
+Een **titratiecurve** is een grafiek van de pH tegen het toegevoegde volume. De curve heeft een S-vorm, met het equivalentiepunt in het midden van het steile stuk. Rond het equivalentiepunt verandert de pH dus heel snel.
 
 ### Indicator kiezen
 
-Je kiest een indicator waarvan het **omslagtraject** (het pH-gebied waarin de kleur verandert) rondom het equivalentiepunt valt. De pH bij het equivalentiepunt hangt af van de combinatie zuur en base:
+Je kiest een indicator waarvan het **omslagtraject** (het pH-gebied waarin de kleur verandert) rond de pH van het equivalentiepunt ligt (zie Binas 52A), want dan slaat de kleur om op het equivalentiepunt. De pH bij het equivalentiepunt hangt af van welk zuur en welke base je gebruikt:
 
 | Zuur  | Base  | pH bij equivalentiepunt |
 | ----- | ----- | ----------------------- |
 | Sterk | Sterk | 7                       |
 | Sterk | Zwak  | < 7                     |
 | Zwak  | Sterk | > 7                     |
-| Zwak  | Zwak  | onvoorspelbaar          |
+| Zwak  | Zwak  | Onvoorspelbaar          |
 
-Met een zwak zuur en een zwakke base kun je geen titratie uitvoeren, omdat er geen scherpe sprong in de titratiecurve is.
+Met een zwak zuur en een zwakke base kun je geen titratie doen, omdat de pH rond het equivalentiepunt niet snel genoeg verandert.
+
+### Terugtitraties
+
+Sommige stoffen kunnen tijdens de titratie verdampen, zoals $\ce{NH3}$. Dan gebruik je een **terugtitratie**: je titreert niet de stof zelf, maar wat er overblijft van een stof die je in overmaat hebt toegevoegd.
+
+Bij $\ce{NH3}$ voeg je eerst een bekende hoeveelheid $\ce{H3O+}$ in overmaat toe. Al het $\ce{NH3}$ reageert dan weg:
+
+$$\ce{NH3 (aq) + H3O+ -> NH4+ + H2O (l)}$$
+
+Er blijft nu nog wat $\ce{H3O+}$ over. Hoeveel dat is, bepaal je door het te titreren met $\ce{OH-}$:
+
+$$\ce{H3O+ + OH- -> 2 H2O (l)}$$
+
+De concentratie $\ce{NH3}$ reken je dan zo uit:
+
+1. Bereken $n_{\ce{H3O+},\text{totaal}}$ met de concentratie en het volume van het zuur dat je hebt toegevoegd.
+2. Bereken $n_{\ce{OH-}}$ met de concentratie en het volume van de base uit de buret. Op het equivalentiepunt geldt $n_{\ce{H3O+},\text{over}} = n_{\ce{OH-}}$.
+3. Bereken $n_{\ce{NH3}} = n_{\ce{H3O+},\text{totaal}} - n_{\ce{H3O+},\text{over}}$ (de molverhouding $\ce{NH3} : \ce{H3O+}$ is 1 : 1).
+4. Bereken $[\ce{NH3}]$ met $c = \frac{n}{V}$.
+
+> Voorbeeld: aan 10,00 mL ammoniak wordt 25,00 mL zoutzuur van 0,1000 M toegevoegd. Het overgebleven $\ce{H3O+}$ wordt getitreerd met 13,20 mL natronloog van 0,1000 M. Bereken $[\ce{NH3}]$.
+>
+> Het totale aantal mol $\ce{H3O+}$ is:
+>
+> $$n_{\ce{H3O+},\text{totaal}} = 0{,}1000 \cdot 0{,}02500 = 2{,}500 \cdot 10^{-3}~\mathrm{mol}$$
+>
+> Het aantal mol $\ce{H3O+}$ dat over is, is gelijk aan het aantal mol $\ce{OH-}$:
+>
+> $$n_{\ce{H3O+},\text{over}} = 0{,}1000 \cdot 0{,}01320 = 1{,}320 \cdot 10^{-3}~\mathrm{mol}$$
+>
+> Dat geeft:
+>
+> $$n_{\ce{NH3}} = 2{,}500 \cdot 10^{-3} - 1{,}320 \cdot 10^{-3} = 1{,}180 \cdot 10^{-3}~\mathrm{mol}$$
+>
+> $$[\ce{NH3}] = \frac{1{,}180 \cdot 10^{-3}}{0{,}01000} = 0{,}1180~\mathrm{M}$$
