@@ -1,5 +1,6 @@
 import contextlib
 import ctypes
+import filecmp
 import multiprocessing
 import os
 import shutil
@@ -35,8 +36,8 @@ def _start_worker(context, history):
 
 def _render_in_worker(page, output_dir):
     content, rendered = _worker_renderer.page(page)
-    write_text(output_dir, page.output, rendered)
-    return page.url, content
+    changed = write_text(output_dir, page.output, rendered)
+    return page.url, content, changed
 
 
 def _process_pool(context, history):
@@ -63,11 +64,15 @@ def _exchange_paths(first, second):
 
 def write_text(output_dir, relative_path, text):
     path = os.path.join(output_dir, relative_path)
+    with contextlib.suppress(FileNotFoundError), open(path, encoding="utf-8") as f:
+        if f.read() == text:
+            return False
     os.makedirs(os.path.dirname(path), exist_ok=True)
     temp_path = f"{path}.{os.getpid()}-{threading.get_ident()}.tmp"
     with open(temp_path, "w", encoding="utf-8") as f:
         f.write(text)
     os.replace(temp_path, path)
+    return True
 
 
 def copy_file(source, output_dir):
@@ -144,7 +149,7 @@ class Site:
             f"Found {_count(pages, ONDERBOUW)} onderbouw pages in"
             f" {', '.join(year_dirs(ONDERBOUW_DIR))}"
         )
-        contents = self._render_pages(pages, output_dir)
+        contents, _ = self._render_pages(pages, output_dir)
         print()
 
         console.step("[4/6] Rendering indexes")
@@ -175,17 +180,21 @@ class Site:
 
     def _render_pages(self, pages, output_dir):
         contents = {}
+        changed = set()
         progress = console.ProgressBar(len(pages), "Pages")
         with _process_pool(self.context, self.history) as pool:
-            futures = [
-                pool.submit(_render_in_worker, page, output_dir) for page in pages
-            ]
+            futures = {
+                pool.submit(_render_in_worker, page, output_dir): page
+                for page in pages
+            }
             for future in as_completed(futures):
-                url, content = future.result()
+                url, content, page_changed = future.result()
                 contents[url] = content
+                if page_changed:
+                    changed.add(futures[future].output)
                 progress.advance()
         progress.finish()
-        return contents
+        return contents, changed
 
     def _scratch_dir(self, purpose):
         parent = os.path.dirname(os.path.abspath(self.output_dir))
@@ -209,27 +218,41 @@ class Site:
         pages = load_pages() if pages is None else pages
         output_dir = output_dir or self.output_dir
         listing = summary_listing(pages, load_resources(), include_hidden=self.dev)
-        write_text(output_dir, "index.html", self.renderer.home(listing))
-        write_text(
-            output_dir,
-            os.path.join("onderbouw", "index.html"),
-            self.renderer.onderbouw(onderbouw_listing(pages, include_hidden=self.dev)),
-        )
-        write_text(output_dir, "404.html", self.renderer.not_found())
+        indexes = {
+            "index.html": self.renderer.home(listing),
+            os.path.join("onderbouw", "index.html"): self.renderer.onderbouw(
+                onderbouw_listing(pages, include_hidden=self.dev)
+            ),
+            "404.html": self.renderer.not_found(),
+        }
+        return {
+            path for path, text in indexes.items() if write_text(output_dir, path, text)
+        }
 
     def write_page(self, source):
         page = load_page(source)
         _, rendered = self.renderer.page(page)
-        write_text(self.output_dir, page.output, rendered)
+        if write_text(self.output_dir, page.output, rendered):
+            return {page.output}
+        return set()
 
     def write_all_pages(self):
         pages = load_pages()
-        self._render_pages(pages, self.output_dir)
-        self.write_indexes(pages)
+        _, changed = self._render_pages(pages, self.output_dir)
+        return changed | self.write_indexes(pages)
 
     def copy_static(self, source):
+        output = output_path(source)
+        destination = os.path.join(self.output_dir, output)
+        if os.path.isfile(destination) and filecmp.cmp(
+            source, destination, shallow=False
+        ):
+            return set()
         copy_file(source, self.output_dir)
+        return {output}
 
     def remove(self, source):
+        output = output_path(source)
         with contextlib.suppress(FileNotFoundError):
-            os.remove(os.path.join(self.output_dir, output_path(source)))
+            os.remove(os.path.join(self.output_dir, output))
+        return {output}

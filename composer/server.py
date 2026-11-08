@@ -8,7 +8,7 @@ import time
 import traceback
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
-from urllib.parse import urlsplit
+from urllib.parse import parse_qs, urlsplit
 
 from watchdog.events import FileSystemEventHandler
 from watchdog.observers import Observer
@@ -90,49 +90,49 @@ def _apply_changes(site, paths, structural):
 
     kinds = {path: kind for path in paths if (kind := classify(path))}
     if not kinds and not structural:
-        return False
+        return set()
 
     console.notice(f"\nChanged: {console.bold(_describe(paths))}")
     if structural or not site.complete:
         console.notice("Full rebuild...")
         site.build()
-        return True
+        return None
 
     started = time.perf_counter()
+    changed = set()
     all_pages = TEMPLATE in kinds.values()
     for path, kind in kinds.items():
         if kind == PAGE and all_pages and os.path.isfile(path):
             continue
         if kind in (PAGE, STATIC):
-            _apply_file_change(site, path, kind)
+            changed |= _apply_file_change(site, path, kind)
     if all_pages:
         console.notice("Rebuilding all pages...")
-        site.write_all_pages()
+        changed |= site.write_all_pages()
     elif PAGE in kinds.values() or DATA in kinds.values():
-        site.write_indexes()
+        changed |= site.write_indexes()
     console.success(f"Rebuilt in {console.elapsed_ms(started)}\n")
-    return True
+    return changed
 
 
 def _apply_file_change(site, path, kind):
     try:
         if not os.path.isfile(path):
-            site.remove(path)
-        elif kind == PAGE:
-            site.write_page(path)
-        else:
-            site.copy_static(path)
+            return site.remove(path)
+        if kind == PAGE:
+            return site.write_page(path)
+        return site.copy_static(path)
     except Exception:
         console.error(f"Failed to rebuild {path}")
         traceback.print_exc()
+        return set()
 
 
 def _watch(site, changes, live_reload):
     while True:
         paths, structural = changes.wait()
         try:
-            if _apply_changes(site, paths, structural):
-                live_reload.reload()
+            live_reload.reload(_apply_changes(site, paths, structural))
         except Exception:
             console.error("Rebuild failed")
             traceback.print_exc()
@@ -149,22 +149,32 @@ class DevRequestHandler(SimpleHTTPRequestHandler):
         super().end_headers()
 
     def do_GET(self):
-        if urlsplit(self.path).path == livereload.PATH:
-            self.live_reload.serve(self)
+        url = urlsplit(self.path)
+        if url.path == livereload.PATH:
+            self.live_reload.serve(self, self._watched_page(url.query))
         else:
             super().do_GET()
 
-    def send_head(self):
-        url = urlsplit(self.path)
-        path = self.translate_path(url.path)
+    def _watched_page(self, query):
+        page = parse_qs(query).get("page")
+        path = page and self._resolve(page[0])
+        return path and os.path.relpath(path, self.directory)
+
+    def _resolve(self, url_path):
+        path = self.translate_path(url_path)
         if os.path.isdir(path):
-            if not url.path.endswith("/"):
-                return super().send_head()
             path = os.path.join(path, "index.html")
         elif not os.path.isfile(path):
             path += ".html"
+        return path if os.path.isfile(path) else None
 
-        if not os.path.isfile(path):
+    def send_head(self):
+        url = urlsplit(self.path)
+        if os.path.isdir(self.translate_path(url.path)) and not url.path.endswith("/"):
+            return super().send_head()
+
+        path = self._resolve(url.path)
+        if path is None:
             return self._send_not_found()
         if path.endswith(".html"):
             return self._send_html(path)

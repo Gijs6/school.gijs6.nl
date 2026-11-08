@@ -33,9 +33,9 @@ def inject(html):
 class LiveReload:
     def __init__(self):
         self.lock = threading.Lock()
-        self.clients = set()
+        self.clients = {}
 
-    def serve(self, handler):
+    def serve(self, handler, page):
         key = handler.headers.get("Sec-WebSocket-Key")
         if handler.headers.get("Upgrade", "").lower() != "websocket" or not key:
             handler.send_error(400, "Expected a WebSocket upgrade")
@@ -51,18 +51,27 @@ class LiveReload:
         handler.close_connection = True
 
         with self.lock:
-            self.clients.add(handler.connection)
+            self.clients[handler.connection] = page
         try:
             handler.rfile.read(1)
         except OSError:
             pass
         finally:
             with self.lock:
-                self.clients.discard(handler.connection)
+                self.clients.pop(handler.connection, None)
 
-    def reload(self):
+    def reload(self, outputs=None):
+        if outputs is not None and not outputs:
+            return
+        reload_all = outputs is None or any(
+            not output.endswith(".html") for output in outputs
+        )
         with self.lock:
-            clients = list(self.clients)
+            clients = [
+                client
+                for client, page in self.clients.items()
+                if reload_all or page is None or page in outputs
+            ]
         for client in clients:
             try:
                 client.sendall(RELOAD_FRAME)
