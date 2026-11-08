@@ -84,6 +84,42 @@ Kijk altijd eerst of de halfreactie in Binas 48 staat. Staat hij er niet in, dan
 > 3. Rechts staan 2 O-atomen meer. Per O-atoom dat links tekortkomt, zet je 2 $\ce{OH-}$ links en 1 $\ce{H2O}$ rechts: $\ce{NH3 + 4 OH- -> NO2 + 2 H2O}$. Links staan nu 7 H-atomen en rechts 4. Per H-atoom dat rechts tekortkomt, zet je 1 $\ce{OH-}$ links en 1 $\ce{H2O}$ rechts: $\ce{NH3 + 7 OH- -> NO2 + 5 H2O}$
 > 4. De lading is links 7- en rechts 0, dus rechts komen 7 elektronen: $\ce{NH3 + 7 OH- -> NO2 + 5 H2O + 7 e-}$
 
+## Oxidatie van alcoholen
+
+Alcoholen kunnen als reductor reageren, en worden dan geoxideerd. Wat er ontstaat, hangt af van het C-atoom waar de OH-groep aan vastzit.
+
+### Primaire alcoholen
+
+Bij een **primaire alcohol** zit de OH-groep aan het uiteinde van de koolstofketen. Het C-atoom met de OH-groep is dan aan maar 1 ander C-atoom gebonden. Een voorbeeld is ethanol ($\ce{CH3-CH2-OH}$).
+
+Een primaire alcohol oxideert eerst tot een **aldehyde**. Dat aldehyde kan daarna nog verder oxideren tot een **carbonzuur**:
+
+$$\ce{CH3-CH2-OH -> CH3-CHO -> CH3-COOH}$$
+
+![Oxidatie van een primaire alcohol (img-m)](images/schk_redox/oxidatie-primaire-alcohol.png)
+
+Daarom moet je een geopende wijnfles snel opmaken: de zuurstof uit de lucht oxideert de ethanol in de wijn anders langzaam tot azijnzuur (ethaanzuur).
+
+### Secundaire alcoholen
+
+Bij een **secundaire alcohol** zit de OH-groep ergens in het midden van de koolstofketen. Het C-atoom met de OH-groep is dan aan 2 andere C-atomen gebonden. Een voorbeeld is propaan-2-ol ($\ce{CH3-CH(OH)-CH3}$).
+
+Een secundaire alcohol oxideert tot een **keton**:
+
+$$\ce{CH3-CH(OH)-CH3 -> CH3-CO-CH3}$$
+
+Verder oxideren tot een carbonzuur kan niet, want dan zou het middelste C-atoom 5 bindingen moeten aangaan.
+
+![Oxidatie van een secundaire alcohol (img-l)](images/schk_redox/oxidatie-secundaire-alcohol.png)
+
+### Tertiaire alcoholen
+
+Bij een **tertiaire alcohol** is het C-atoom met de OH-groep aan 3 andere C-atomen gebonden. Een voorbeeld is 2-methylpropaan-2-ol ($\ce{(CH3)3C-OH}$).
+
+Een tertiaire alcohol kan niet oxideren, want dan zou je ook een C-atoom met meer dan 4 bindingen krijgen.
+
+![Oxidatie van een tertiaire alcohol](images/schk_redox/oxidatie-tertiaire-alcohol.png)
+
 ## De Daniell-cel
 
 Bij een gewone redoxreactie reageren de oxidator en de reductor direct met elkaar. In een **Daniell-cel** komen ze niet met elkaar in contact, en gaan alleen de elektronen via een draad van de reductor naar de oxidator. De oxidator en de reductor reageren dus nog steeds met elkaar, maar dan op afstand. De chemische energie komt daardoor vrij als elektrische energie.
