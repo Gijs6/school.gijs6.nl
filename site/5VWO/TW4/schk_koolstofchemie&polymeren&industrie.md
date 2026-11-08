@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-title: H10, H12 & H14
-description: Koolstofchemie, polymeren & industrie
+title: Koolstofchemie, polymeren, industrie
 ---
 
 ## Koolstofchemie
@@ -12,7 +11,7 @@ Bij het maken van een systematische naam kijk je eerst naar de langste koolstofk
 
 Als je een stof hebt met 2 functionele groepen die beide een achtervoegsel hebben, zoals de stof in de afbeelding, moet je kijken naar de **belangrijkste** functionele groep. Deze krijgt dan het achtervoegsel, en de andere groepen krijgen een voorvoegsel. Welke groepen voorrang krijgen, staat in Binas 66D.
 
-![2-aminoethaan-1-ol (img-s) (img-padding)](images/schk_h10&h12&h14/2-aminoethaan-1-ol.png)
+![2-aminoethaan-1-ol (img-s) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/2-aminoethaan-1-ol.png)
 
 | Groep        | Voorvoegsel | Achtervoegsel |
 | ------------ | ----------- | ------------- |
@@ -28,7 +27,7 @@ We kennen **esters** al van de reactievergelijking $\ce{alcohol + zuur -> ester 
 
 Bij de systematische naamgeving van esters kijk je niet naar de langste koolstofketen, maar naar welk deel van het ester het zuur was. Dit is de stam en krijgt het achtervoegsel -oaat. Vervolgens is de rest van de koolstofketen een zijgroep hiervan.
 
-![Ethylmethanoaat (img-m) (img-padding)](images/schk_h10&h12&h14/ethylmethanoaat.png)
+![Ethylmethanoaat (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/ethylmethanoaat.png)
 
 De stof in de afbeelding is dus ethylmethanoaat.
 
@@ -38,7 +37,7 @@ De stof in de afbeelding is dus ethylmethanoaat.
 
 Bij de naamgeving kijk je ook hier naar de **langste** koolstofketen, die de stam vormt. De kortere keten die aan de $\ce{O}$ vastzit, geeft het alkoxy-voorvoegsel.
 
-![Methoxyethaan (img-m) (img-padding)](images/schk_h10&h12&h14/methoxyethaan.png)
+![Methoxyethaan (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/methoxyethaan.png)
 
 De afgebeelde stof is dus methoxyethaan.
 
@@ -58,11 +57,11 @@ Bij **ruimtelijke isomeren** (of **stereo-isomeren**) hebben stoffen dezelfde mo
 
 Enkelvoudige bindingen kunnen vrij ronddraaien. De 2 stoffen hieronder zijn dus hetzelfde.
 
-![1,2-dibroomethaan rotatieisomeren (img-m) (img-padding)](images/schk_h10&h12&h14/1,2-dibroomethaan-isomeren.png)
+![1,2-dibroomethaan rotatieisomeren (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/1,2-dibroomethaan-isomeren.png)
 
 Dubbele bindingen en cycloverbindingen kunnen echter niet vrij rondraaien, waardoor de 2 stoffen hieronder niet hetzelfde zijn.
 
-![Cis en trans 1,2-dibroometheen (img-m) (img-padding)](images/schk_h10&h12&h14/cis-trans-1,2-dibroometheen.png)
+![Cis en trans 1,2-dibroometheen (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/cis-trans-1,2-dibroometheen.png)
 
 De linkerstof heet **cis**-1,2-dibroometheen en de rechter **trans**-1,2-dibroometheen. Cis betekent **aan dezelfde zijde** en trans **aan de overzijde**.
 
@@ -72,11 +71,11 @@ Ook bij cycloverbindingen kun je cis-trans isomerie hebben. Bij benzeen is cis-t
 
 2 moleculen kunnen ook elkaars spiegelbeeld zijn. De 4 buren van een C-atoom vormen namelijk een **tetraëder**: ze staan in 2 vlakken loodrecht op elkaar in 3D. Een dikke gevulde driehoek betekent dat het atoom naar voren komt, en streepjes dat het naar achteren gaat.
 
-![Tetrahedrale structuur van een koolstofatoom (img-s) (img-padding)](images/schk_h10&h12&h14/tetrahedrale-structuur.png)
+![Tetrahedrale structuur van een koolstofatoom (img-s) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/tetrahedrale-structuur.png)
 
 Voor spiegelbeeldisomerie heb je een C-atoom nodig met 4 verschillende buren. Dit C-atoom heet dan **asymmetrisch** of **chiraal** en duid je aan als C*.
 
-![Chiraal koolstofatoom met 4 verschillende buren (img-m) (img-padding)](images/schk_h10&h12&h14/chiraal-koolstofatoom.png)
+![Chiraal koolstofatoom met 4 verschillende buren (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/chiraal-koolstofatoom.png)
 
 Het groen gemarkeerde C-atoom in de afbeelding is het asymmetrische koolstofatoom, want het heeft 4 verschillende buren: een $\ce{CH3}$-groep, een $\ce{OH}$-groep, een zuurgroep en een $\ce{H}$.
 
@@ -88,11 +87,11 @@ Er zijn 2 belangrijke soorten kunststoffen: **thermoplasten** en **thermoharders
 
 Thermoplasten vervormen makkelijk als je ze verwarmt. Op microniveau bestaan ze uit losse polymeerketens (lijnstructuur).
 
-![Thermoplast lijnstructuur (img-m) (img-padding)](images/schk_h10&h12&h14/thermoplast-lijnstructuur.png)
+![Thermoplast lijnstructuur (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/thermoplast-lijnstructuur.png)
 
 Thermoharders vervormen nauwelijks als je ze verwarmt. Op microniveau hebben ze een **netwerkstructuur** met **crosslinks**.
 
-![Thermoharder netwerkstructuur met crosslinks (img-m) (img-padding)](images/schk_h10&h12&h14/thermoharder-netwerkstructuur.png)
+![Thermoharder netwerkstructuur met crosslinks (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/thermoharder-netwerkstructuur.png)
 
 Dit kun je op microniveau verklaren: bij thermoharders zijn er meer en sterkere atoombindingen, waardoor het smeltpunt veel hoger ligt.
 
@@ -106,31 +105,31 @@ Er zijn 2 manieren om polymeren te maken: **polyadditie** en **polycondensatie**
 
 Bij polyadditie klapt de dubbele binding open, zodat de monomeren aan elkaar kunnen binden.
 
-![Polyadditie: dubbele binding klapt open (img-m) (img-padding)](images/schk_h10&h12&h14/polyadditie-dubbele-binding-openklapt.png)
+![Polyadditie: dubbele binding klapt open (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/polyadditie-dubbele-binding-openklapt.png)
 
 Vervolgens kunnen deze 2 eenheden aan elkaar binden.
 
-![Polyetheen keten (img-m) (img-padding)](images/schk_h10&h12&h14/polyetheen-keten.png)
+![Polyetheen keten (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/polyetheen-keten.png)
 
 Zo ontstaat **polyetheen**: door veel etheenmoleculen aan elkaar te koppelen.
 
 Het is handig om het molecuul in 3 regels te splitsen: de middelste regel bevat alleen de dubbele binding en de andere twee regels bevatten de zijgroepen.
 
-![Propeenstructuur (img-s) (img-padding)](images/schk_h10&h12&h14/propeen-structuur.png)
+![Propeenstructuur (img-s) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/propeen-structuur.png)
 
-![Propeen in 3-regelsmethode (img-s) (img-padding)](images/schk_h10&h12&h14/propeen-3-regels.png)
+![Propeen in 3-regelsmethode (img-s) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/propeen-3-regels.png)
 
 Als een molecuul 2 dubbele bindingen heeft, kunnen er 2 dingen gebeuren: de dubbele binding springt "naar het midden" (en je krijgt een lijnstructuur), of de dubbele bindingen staan op 2 aparte regels zodat de binding op meerdere plekken open kan klappen, en dan krijg je een thermoharder.
 
-![Butadieen: dubbele binding springt naar het midden (img-m) (img-padding)](images/schk_h10&h12&h14/butadieen-binding-naar-midden.png)
+![Butadieen: dubbele binding springt naar het midden (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/butadieen-binding-naar-midden.png)
 
-![Butadieen: dubbele bindingen op 2 regels leidt tot thermoharder (img-l) (img-padding)](images/schk_h10&h12&h14/butadieen-thermoharder.png)
+![Butadieen: dubbele bindingen op 2 regels leidt tot thermoharder (img-l) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/butadieen-thermoharder.png)
 
 #### Polycondensatie
 
 Bij **polycondensatie** maak je een polymeer via condensatiereacties. Bij een **condensatiereactie** "plak" je 2 moleculen aan elkaar door een kleiner molecuul (vaak water) weg te halen, zoals bij $\ce{alcohol + zuur -> ester + water}$.
 
-![Polycondensatie: estervorming uit alcohol en zuur (img-m) (img-padding)](images/schk_h10&h12&h14/polycondensatie-estervorming.png)
+![Polycondensatie: estervorming uit alcohol en zuur (img-m) (img-padding)](images/schk_koolstofchemie&polymeren&industrie/polycondensatie-estervorming.png)
 
 Voor polycondensatie heeft elk monomeer 2 alcohol- en/of zuurgroepen nodig, zodat het aan beide kanten kan reageren en de keten steeds verder groeit.
 

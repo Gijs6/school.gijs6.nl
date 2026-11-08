@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-title: H3
-description: Chemisch rekenen
+title: Chemisch rekenen
 ---
 
 ## Significantie, wetenschappelijke notatie en eenheden
@@ -12,7 +11,7 @@ De **wetenschappelijke notatie** maakt het makkelijk om grote of kleine getallen
 Soms **moet** je de wetenschappelijke notatie gebruiken om het juiste aantal significante cijfers te behalen.  
 Een **eenheid** is een manier om een grootheid uit te drukken in een getal. Deze moet je naar elkaar kunnen omrekenen. Binnen de scheikunde gebruik je vooral eenheden met stappen van 1000.
 
-![Omrekenen tussen eenheden van afstand, massa en inhoud (img-m) (img-padding)](images/schk_h3/eenheden.jpg)
+![Omrekenen tussen eenheden van afstand, massa en inhoud (img-m) (img-padding)](images/schk_chemischrekenen/eenheden.jpg)
 
 ## Dichtheid
 
@@ -57,6 +56,6 @@ $M_{\ce{O2}} = 32{,}00~\mathrm{g/mol}$ → $m_{\ce{O2}} = n_{\ce{O2}} \cdot M_{\
 
 # Uitgebreid schema chemisch rekenen
 
-![Schema voor het rekenen van stof A naar stof B via de molverhouding (img-xl) (img-padding)](images/schk_h3/schema_chemisch_rekenen.jpg)
+![Schema voor het rekenen van stof A naar stof B via de molverhouding (img-xl) (img-padding)](images/schk_chemischrekenen/schema_chemisch_rekenen.jpg)
 
 Om tussen de verschillende stoffen te rekenen moet je eerst naar de mol rekenen, dan "overstappen" met de molverhouding en vervolgens verder rekenen.

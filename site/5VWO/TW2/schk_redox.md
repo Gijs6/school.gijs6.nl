@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-title: H9
-description: Redox
+title: Redox
 ---
 
 ## Redoxreacties
@@ -60,7 +59,7 @@ Bij een gewone redoxreactie reageren stoffen direct met elkaar. In een **Daniell
 
 De Daniell-cel bestaat uit twee metalen elektrodes, twee oplossingen van ionen, een **zoutbrug** en een draad.
 
-![Daniell-cel (img-m)](images/schk_h9/daniell-cel.jpg)
+![Daniell-cel (img-m)](images/schk_redox/daniell-cel.jpg)
 
 In een Daniell-cel met zink en koper vindt bij de zinkstaaf de halfreactie $\ce{Zn -> Zn^{2+} + 2 e-}$ plaats (zink is de reductor), en bij de koperstaaf $\ce{Cu^{2+} + 2 e- -> Cu}$ ($\ce{Cu^{2+}}$ is de oxidator).
 
@@ -104,7 +103,7 @@ De verbranding van waterstof ($\ce{2 H2 + O2 -> 2 H2O}$) is sterk exotherm. In e
 - Anode: $\ce{H2 -> 2 H+ + 2 e-}$
 - Kathode: $\ce{O2 + 4 H+ + 4 e- -> 2 H2O}$
 
-![Brandstofcel (img-m)](images/schk_h9/brandstofcel.jpg)
+![Brandstofcel (img-m)](images/schk_redox/brandstofcel.jpg)
 
 De brandstofcel heeft platina-elektrodes en een **protonenmembraan** als elektrolyt. Dit membraan laat alleen $\ce{H+}$-ionen door, geen elektronen. Waterstof aan de anode-kant splitst in $\ce{H+}$ en elektronen. De elektronen moeten via de draad naar de kathode (dat is dus je daadwerkelijke stroom), de $\ce{H+}$-ionen gaan via het membraan (om het ladingsverschil te compenseren). Aan de kathode-kant reageert zuurstof met $\ce{H+}$ en elektronen tot water.
 
@@ -119,4 +118,4 @@ Een voorbeeld is de **vanadium-redox-flowbatterij (VRFB)**. Deze heeft twee tank
 
 Aan de minpool-kant staan $\ce{V^{2+}}$-ionen elektronen af. Deze elektronen gaan via de draad naar de pluspool, waar $\ce{VO2+}$-ionen ze opnemen. De $\ce{H+}$-ionen gaan door het membraan om het ladingsverschil te compenseren. Het handige aan vanadium is dat beide kanten hetzelfde element gebruiken, dus als de elektrolyten mengen is de batterij niet kapot.
 
-![Redox-flowbatterij](images/schk_h9/redox-flow.jpg)
+![Redox-flowbatterij](images/schk_redox/redox-flow.jpg)

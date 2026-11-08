@@ -39,7 +39,7 @@ Er zijn verschillende oorzaken waardoor **fossilisatie** kan optreden:
 - **Barnsteen**: vooral veel insecten zijn gefossiliseerd in barnsteen. Barnsteen is afkomstig van de gestolde hars van naaldbomen.
 
 **Gidsfossielen** zijn fossielen van soorten die slechts een beperkte tijd hebben bestaan, maar wel met een grote geografische verspreiding. Deze fossielen worden gebruikt om de **relatieve leeftijd** (dus relatief ten opzichte van elkaar) van een bepaalde aardlaag vast te stellen.  
-De **absolute leeftijd** (in jaren) van een rotslaag of fossiel is met **isotopenonderzoek** te bepalen. Er wordt dan gekeken naar hoeveel er van een bepaalde instabiele [isotoop](../P1/schk_h1#atoombouw) aanwezig is. Aan de hand van de **halveringstijd** (de tijd waarna nog precies de helft over is) kan vervolgens de leeftijd worden bepaald.
+De **absolute leeftijd** (in jaren) van een rotslaag of fossiel is met **isotopenonderzoek** te bepalen. Er wordt dan gekeken naar hoeveel er van een bepaalde instabiele [isotoop](../P1/schk_atoombouw#atoombouw) aanwezig is. Aan de hand van de **halveringstijd** (de tijd waarna nog precies de helft over is) kan vervolgens de leeftijd worden bepaald.
 
 Er zijn twee soorten overeenkomsten in de lichaamsbouw tussen verschillende soorten organismen:
 

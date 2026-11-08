@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-title: H1
-description: Atoombouw
+title: Atoombouw
 ---
 
 ## Basiskennis
@@ -33,7 +32,7 @@ Er zijn 3 soorten stoffen: **metalen** (bestaan uit metaalatomen), **moleculaire
 
 Volgens het **atoommodel van Rutherford** bestaat een atoom uit een **kern** met protonen (p\+) en neutronen (n0) en een elektronenwolk met elektronen (e\-). Volgens het **atoommodel van Bohr** zitten de elektronen niet in een wolk, maar in **elektronenschillen**, op een vaste afstand van de kern. Bohr gebruikte de letters K, L, M N, enz. voor deze elektronenschillen. Per schil is er ruimte voor een beperkt aantal elektronen: maximaal 2 in de K-schil, 8 in de L-schil, 8 in de M-schil, 18 in de N-schil, 18 in de O-schil, 32 in de P-schil en 32 in de Q-schil. De verdeling van elektronen over de schillen is de **elektronenconfiguratie**. De elektronenconfiguratie van chloor is 2,8,7.
 
-![Het atoommodel van Bohr voor magnesium (img-xs) (img-padding)](images/schk_h1/atoommodel_bohr.jpg)
+![Het atoommodel van Bohr voor magnesium (img-xs) (img-padding)](images/schk_atoombouw/atoommodel_bohr.jpg)
 
 Edelgassen hebben een volle buitenste schil (**edelgasconfiguratie**). Deze configuratie is erg stabiel.  
 De opbouw van het periodiek systeem is deels gebaseerd op de elektronenconfiguratie.
@@ -51,7 +50,7 @@ Het aantal protonen van de 2 elementen die samensmelten bepaalt welk nieuw eleme
 Moleculaire stoffen willen graag een edelgasconfiguratie, dus een volle buitenste schil, want dit is het stabielst. Een waterstofatoom moet nog 1 elektron voor een edelgasconfiguratie. 2 waterstofatomen kunnen hun elektronen delen. Hierdoor hebben beide waterstofatomen een volle buitenste schil. Dit is een **atoombinding** of **covalente binding**. Deze binding wordt gevormd door een gemeenschappelijk elektronenpaar.  
 De **covalentie** is het aantal atoombindingen dat een atoom vormt. Waterstof heeft een covalentie van 1\. De niet-metalen in groep 17 hebben ook een covalentie van 1, want als ze 1 elektron erbij krijgen, hebben ze een edelgasconfiguratie. De niet-metalen in groep 16 hebben een covalentie van 2, enz.
 
-![Twee waterstofatomen vormen samen een waterstofmolecuul (img-m) (img-padding)](images/schk_h1/atoombinding.jpg)
+![Twee waterstofatomen vormen samen een waterstofmolecuul (img-m) (img-padding)](images/schk_atoombouw/atoombinding.jpg)
 
 In een structuurformule worden alle elektronenparen van een stof getekend. Er kunnen ook meerdere atoombindingen tussen twee atomen voorkomen.  
 Zuurstof heeft bijvoorbeeld een covalentie van 2, dus bij O₂ heb je een dubbele binding. Bij N₂ heb je zelfs te maken met een drievoudige binding.  

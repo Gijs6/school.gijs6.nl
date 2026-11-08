@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-title: H3 & H6 & H8
-description: Chemisch rekenen, evenwichten & reactiesnelheid
+title: Chemisch rekenen, evenwichten & reactiesnelheid
 ---
 
 ## Chemisch rekenen
@@ -84,7 +83,7 @@ $\ce{2 \ NO2 (g) <--> N2O4 (g)}$
 - **Homogeen evenwicht**: alle stoffen hebben dezelfde fase
 - **Heterogeen evenwicht**: verschillende fasen
 
-![Grafiek van reactiesnelheden (img-m) (img-padding)](images/schk_h3_h6_h8/evenwicht.jpg)
+![Grafiek van reactiesnelheden (img-m) (img-padding)](images/schk_chemischrekenen&evenwichten&reactiesnelheid/evenwicht.jpg)
 
 De heengaande reactie begint snel en neemt af. De teruggaande reactie begint bij 0 omdat er nog geen producten zijn. Vanaf de **insteltijd** ($t_\text{ev}$) gaan beide reacties even snel en is er een evenwicht ontstaan.
 
@@ -137,8 +136,8 @@ De **reactiewarmte** ($\Delta E$) geeft aan hoeveel energie een reactie netto op
 - Bij een **exotherme** reactie is $\Delta E < 0$: de producten hebben een lager energieniveau dan de beginstoffen, dus er komt energie vrij aan de omgeving.
 - Bij een **endotherme** reactie is $\Delta E > 0$: de producten hebben een hoger energieniveau dan de beginstoffen, dus de reactie neemt energie op uit de omgeving.
 
-![Endotherme reactie: energie wordt opgenomen (img-s) (img-padding)](images/schk_h3_h6_h8/endotherm.jpg)
-![Exotherme reactie: energie komt vrij (img-s) (img-padding)](images/schk_h3_h6_h8/exotherm.jpg)
+![Endotherme reactie: energie wordt opgenomen (img-s) (img-padding)](images/schk_chemischrekenen&evenwichten&reactiesnelheid/endotherm.jpg)
+![Exotherme reactie: energie komt vrij (img-s) (img-padding)](images/schk_chemischrekenen&evenwichten&reactiesnelheid/exotherm.jpg)
 
 ### Vormingswarmten
 

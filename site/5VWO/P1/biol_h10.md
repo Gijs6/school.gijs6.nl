@@ -76,7 +76,7 @@ Zuurstof wordt voor een klein deel (max. 3 mL per liter) opgelost in plasma, maa
 Rode bloedcellen hebben geen kern en weinig organellen. Ze bevatten 200 tot 300 miljoen moleculen **hemoglobine**.
 
 Hemoglobine ($\ce{Hb}$) bestaat uit 4 eiwitketens, elk met een **heemgroep** met een ijzer(II)-ion.  
-Zodra zuurstof bindt, ontstaat oxihemoglobine ($\ce{HbO2}$). De bindingsreactie is een [evenwichtsreactie](../../4VWO/TW4/schk_h6#evenwichten):  
+Zodra zuurstof bindt, ontstaat oxihemoglobine ($\ce{HbO2}$). De bindingsreactie is een [evenwichtsreactie](../../4VWO/TW4/schk_evenwichten&reactiesnelheid#evenwichten):  
 $\ce{Hb + O2 <--> HbO2}$
 
 Elke heemgroep bindt 1 zuurstofmolecuul. Aan de **zuurstofverzadigingsdiagrammen** (Binas 83D) kun je zien hoe sterk hemoglobine zuurstof bindt bij verschillende concentraties. De **affiniteit** neemt toe naarmate meer zuurstof gebonden is, waardoor hemoglobine efficiënt opneemt in de longen en afgeeft in de organen.

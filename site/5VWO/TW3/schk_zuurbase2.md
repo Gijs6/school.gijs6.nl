@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-title: H13
-description: Zuren & basen 2
+title: Zuur-base 2
 ---
 
 ## Zwakke zuren en basen

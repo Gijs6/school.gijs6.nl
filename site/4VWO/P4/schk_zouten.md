@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-title: H4
-description: Zouten
+title: Zouten
 ---
 
 ## Ionen

@@ -1,7 +1,6 @@
 ---
 subject: SCHK
-title: H7
-description: Zuren & basen
+title: Zuur-base
 ---
 
 ## Zuren en basen
