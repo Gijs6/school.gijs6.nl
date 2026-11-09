@@ -123,7 +123,7 @@ Voorbeelden van plasma's zijn de zon, bliksem, het noorderlicht en tl-buizen.
 
 ### Geladen deeltjes in een magneetveld
 
-> **Bekijk de [samenvatting van natuurkunde over dit onderwerp](./nat_h1&h8&h12.md#elektrische-velden). Je moet weten wat elektrische en magnetische velden zijn, hoe ze geladen deeltjes beïnvloeden en hoe de lorentzkracht werkt.**
+> **Bekijk de [samenvatting van natuurkunde over dit onderwerp](/6VWO/TW1/nat_h1&h8&h12#elektrische-velden). Je moet weten wat elektrische en magnetische velden zijn, hoe ze geladen deeltjes beïnvloeden en hoe de lorentzkracht werkt.**
 
 In een fusiereactor staat het plasma in een sterk magneetveld. Door de lorentzkracht bewegen de geladen deeltjes in een **helix** (spiraalbaan) om de magnetische veldlijnen heen. De straal van deze baan heet de **larmorstraal**:
 

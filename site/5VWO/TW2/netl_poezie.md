@@ -87,4 +87,4 @@ Bij **parafraseren** vertel je in je eigen woorden wat er in een gedicht staat. 
 
 Gedichten zonder vast metrum, rijmschema of vaste strofebouw noem je **vrije verzen**. Hier ligt de nadruk vaak op de inhoud.
 
-Je kunt [**beeldspraak**](../P2/netl_formuleren#beeldspraak) en [**stijlfiguren**](../P2/netl_formuleren#stijlfiguren) gebruiken om de taal te verrijken.
+Je kunt [**beeldspraak**](/5VWO/P2/netl_formuleren#beeldspraak) en [**stijlfiguren**](/5VWO/P2/netl_formuleren#stijlfiguren) gebruiken om de taal te verrijken.

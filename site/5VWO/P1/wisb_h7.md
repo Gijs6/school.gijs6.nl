@@ -6,7 +6,7 @@ description: Meetkunde met coördinaten
 
 ## Lijnen
 
-Stelsels kun je op [verschillende manieren oplossen](../../4VWO/P3/wisb_h4#getallenparen-en-stelsels).
+Stelsels kun je op [verschillende manieren oplossen](/4VWO/P3/wisb_h4#getallenparen-en-stelsels).
 
 Voor de lijnen $ax+by=c$ en $px+qy=r$ geldt:
 

@@ -46,7 +46,7 @@ Alle zintuigen hebben een **primair centrum** en een **secundair centrum** in de
 
 Neuronen in de **primaire motorische schors** 'bedenken' bewegingen. Deze schors is verbonden met gebieden in de **secundaire motorische schors**, die informatie bevatten over het soepel laten bewegen van spieren.
 
-Informatie uit de zintuigen (behalve geurinformatie) gaat naar de **thalamus**, die werkt als een filter voor welke impulsen door naar de hersenschors gaan. De **hypothalamus** zit direct onder de thalamus en is betrokken bij de [homeostase](/5VWO/TW2/biol_h12&h13#inwendig-milieu).
+Informatie uit de zintuigen (behalve geurinformatie) gaat naar de **thalamus**, die werkt als een filter voor welke impulsen door naar de hersenschors gaan. De **hypothalamus** zit direct onder de thalamus en is betrokken bij de [homeostase](/5VWO/TW2/biol_h12#inwendig-milieu).
 
 ### De kleine hersenen en hersenstam
 
@@ -204,7 +204,7 @@ Met kegeltjes kun je kleuren zien. Er zijn 3 typen, elk gevoelig voor een specif
 
 ## Intern milieu
 
-Veel zaken die je lichaam meet gaan ook met chemoreceptoren, zoals de concentraties $\ce{O2}$ en $\ce{CO2}$ in je bloed en de pH. Je lichaam reageert hierop via een [regelkring](/5VWO/TW2/biol_h12&h13#inwendig-milieu).
+Veel zaken die je lichaam meet gaan ook met chemoreceptoren, zoals de concentraties $\ce{O2}$ en $\ce{CO2}$ in je bloed en de pH. Je lichaam reageert hierop via een [regelkring](/5VWO/TW2/biol_h12#inwendig-milieu).
 
 **Spierspoeltjes** zijn zintuigjes die tussen de spiervezels liggen en reageren op lengteveranderingen in de spieren. Rekt een spier uit, dan treedt een reflex in werking waardoor de spier weer verkort. Zo blijft de lichaamshouding in stand. Bij een bewuste beweging rekken eerst de uiteinden van het spierspoeltje wat uit. Dan verkort de spier zonder dat de reflex in werking treedt.
 

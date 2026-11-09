@@ -87,4 +87,4 @@ Het **volume** hangt af van de amplitude. Meer luchtdruk zorgt voor een grotere 
 
 De keelholte, mondholte en neusholte werken als resonatoren. Net als bij een half-open buis ontstaan er staande golven die bepaalde frequenties versterken. Door de vorm van deze holtes aan te passen (met tong, lippen, kaak) veranderen de vorm en lengte van de holtes en dus de resonantiefrequenties, waardoor we verschillende klanken kunnen maken.
 
-> Je moet de theorie van [H7](../TW1/nat_h7.md#staande-golven-in-buizen) hierover, en dan vooral de formules kennen.
+> Je moet de theorie van [H7](/5VWO/TW1/nat_h7#staande-golven-in-buizen) hierover, en dan vooral de formules kennen.

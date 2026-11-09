@@ -1,4 +1,4 @@
 name: school.gijs6.nl
 type: static
-host: dec
+runner: dec
 src: build

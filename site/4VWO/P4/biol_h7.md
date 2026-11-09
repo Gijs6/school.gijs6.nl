@@ -15,18 +15,18 @@ Aanvullingen op de theorie van Darwin (onder andere DNA-onderzoek) vormen de **n
 
 Theorieën over het ontstaan van de mens komen vooral tot stand aan de hand van fossielen. Deze fossielen geven aan welke soorten wanneer en waar leefden, maar ook hoe ze leefden.
 
-De meeste wetenschappers zijn het erover eens dat de moderne mens (*Homo sapiens*) ongeveer 200.000 jaar geleden in Afrika is ontstaan: **out-of-Africa-hypothese**. We kunnen DNA-onderzoek gebruiken om te bepalen hoe de mens vervolgens de gehele aarde heeft gekoloniseerd. Door te kijken naar [**haplogroepen**](../P3/biol_h5#genetische-eigenschappen) en mutaties is informatie te achterhalen over de recentste gemeenschappelijke voorouder.
+De meeste wetenschappers zijn het erover eens dat de moderne mens (*Homo sapiens*) ongeveer 200.000 jaar geleden in Afrika is ontstaan: **out-of-Africa-hypothese**. We kunnen DNA-onderzoek gebruiken om te bepalen hoe de mens vervolgens de gehele aarde heeft gekoloniseerd. Door te kijken naar [**haplogroepen**](/4VWO/P3/biol_h5#genetische-eigenschappen) en mutaties is informatie te achterhalen over de recentste gemeenschappelijke voorouder.
 
 ## Nieuwe soorten
 
 Het veranderen van een populatiesamenstelling door natuurlijke selectie hangt af van de **selectiedruk** (de noodzaak die er voor organismen is om een bepaalde eigenschap te hebben).
 
-Je spreekt van **co-evolutie** als het succes van de ene soort een selectiedruk oplevert voor een andere soort, en andersom. Denk aan de [voedselrelaties](../TW3/biol_h6#relaties-tussen-soorten).
+Je spreekt van **co-evolutie** als het succes van de ene soort een selectiedruk oplevert voor een andere soort, en andersom. Denk aan de [voedselrelaties](/4VWO/TW3/biol_h6#relaties-tussen-soorten).
 
 Langdurige onderlinge scheiding (denk aan een zee, een berg of een vallei) kan leiden tot aparte soorten: **allopatrische soortvorming**.  
 **Sympatrische soortvorming** ontstaat als organismen zich alleen maar voortplanten in kleine deelgroepen, zoals bij **seksuele selectie**: de selectie die plaatsvindt bij het uitkiezen van een voortplantingspartner.
 
-**Klassieke veredeling** van [planten](../P3/biol_h5#meerdere-eigenschappen) en van dieren is een vorm van **kunstmatige selectie**: evolutie gestuurd door mensen.
+**Klassieke veredeling** van [planten](/4VWO/P3/biol_h5#meerdere-eigenschappen) en van dieren is een vorm van **kunstmatige selectie**: evolutie gestuurd door mensen.
 
 ## Fossielen
 
@@ -39,7 +39,7 @@ Er zijn verschillende oorzaken waardoor **fossilisatie** kan optreden:
 - **Barnsteen**: vooral veel insecten zijn gefossiliseerd in barnsteen. Barnsteen is afkomstig van de gestolde hars van naaldbomen.
 
 **Gidsfossielen** zijn fossielen van soorten die slechts een beperkte tijd hebben bestaan, maar wel met een grote geografische verspreiding. Deze fossielen worden gebruikt om de **relatieve leeftijd** (dus relatief ten opzichte van elkaar) van een bepaalde aardlaag vast te stellen.  
-De **absolute leeftijd** (in jaren) van een rotslaag of fossiel is met **isotopenonderzoek** te bepalen. Er wordt dan gekeken naar hoeveel er van een bepaalde instabiele [isotoop](../P1/schk_atoombouw#atoombouw) aanwezig is. Aan de hand van de **halveringstijd** (de tijd waarna nog precies de helft over is) kan vervolgens de leeftijd worden bepaald.
+De **absolute leeftijd** (in jaren) van een rotslaag of fossiel is met **isotopenonderzoek** te bepalen. Er wordt dan gekeken naar hoeveel er van een bepaalde instabiele [isotoop](/4VWO/P1/schk_atoombouw#atoombouw) aanwezig is. Aan de hand van de **halveringstijd** (de tijd waarna nog precies de helft over is) kan vervolgens de leeftijd worden bepaald.
 
 Er zijn twee soorten overeenkomsten in de lichaamsbouw tussen verschillende soorten organismen:
 
@@ -52,7 +52,7 @@ Er zijn veel theorieën over hoe de bouwstenen van het leven op aarde zijn ontst
 Wetenschappers denken dat de eerste cellen zijn ontstaan in de **oersoep** (een mengsel van organische stoffen in de oceanen). Energie uit vulkanen en de zon zorgde voor chemische reacties die vetzuren opleverden. Hierdoor ontstonden vetbolletjes die organische stoffen insloten, die samen een eerste cel vormden. Hieruit ontstond RNA.  
 Uit die primitieve prokaryoten ontstonden de eerste bacteriën. Na deze heterotrofe (energie uit organische stoffen) bacteriën kwamen de foto-autotrofe (energie uit zonlicht) bacteriën. Door deze bacteriën kwam er zuurstof in de atmosfeer.
 
-Volgens de **endosymbiosetheorie** zijn prokaryoten een symbiose aangegaan met andere prokaryoten. Via [fagocytose](../TW1/biol_h2#celtransport) zouden ze andere bacteriën hebben opgenomen, die tot een organel evolueerden (zoals de [chloroplasten](../TW1/biol_h2#cellen)). Ook andere organellen zouden op deze manier zijn ontstaan.
+Volgens de **endosymbiosetheorie** zijn prokaryoten een symbiose aangegaan met andere prokaryoten. Via [fagocytose](/4VWO/TW1/biol_h2#celtransport) zouden ze andere bacteriën hebben opgenomen, die tot een organel evolueerden (zoals de [chloroplasten](/4VWO/TW1/biol_h2#cellen)). Ook andere organellen zouden op deze manier zijn ontstaan.
 
 Na de simpele bacteriën ontstonden meercellige organismen. Zij vormden vervolgens weefsels, organen en eenvoudige organismen.
 
@@ -69,7 +69,7 @@ De **genotypefrequentie** van een bepaald genotype geeft aan hoeveel personen va
 Door mutaties kunnen nieuwe allelen ontstaan. De **genenpool** (alle genen in een populatie) wordt dan groter.  
 Door natuurlijke selectie kan de allelfrequentie toenemen (bij een positieve eigenschap) of afnemen (bij een negatieve eigenschap).
 
-Door [genetic drift](../TW3/biol_h6#nieuwe-populaties) (bijvoorbeeld door seksuele selectie) kan de allelfrequentie sterk verschillen in kleine populaties. Ook het [founder-effect](../TW3/biol_h6#nieuwe-populaties) kan invloed hebben op de allelfrequentie. Het [flessenhalseffect](../TW3/biol_h6#nieuwe-populaties) kan effect hebben op de grootte van de genenpool.  
+Door [genetic drift](/4VWO/TW3/biol_h6#nieuwe-populaties) (bijvoorbeeld door seksuele selectie) kan de allelfrequentie sterk verschillen in kleine populaties. Ook het [founder-effect](/4VWO/TW3/biol_h6#nieuwe-populaties) kan invloed hebben op de allelfrequentie. Het [flessenhalseffect](/4VWO/TW3/biol_h6#nieuwe-populaties) kan effect hebben op de grootte van de genenpool.  
 Voortplanting met soortgenoten uit andere populaties vergroot de genenpool en voorkomt **inteelt**.
 
 De migratie van allelen van de ene populatie naar een andere heet **gene flow**.

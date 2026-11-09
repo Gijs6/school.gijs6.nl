@@ -65,7 +65,7 @@ Bij puntsymmetrie in de oorsprong $O$ geldt $f(-p) + f(p) = 0$.
 
 Als $x(t)$ en $y(t)$ allebei sinus- of cosinusfuncties zijn, wordt de baan oneindig vaak doorlopen als $t$ over $\mathbb{R}$ loopt. Daarom beperk je $t$ tot een interval, bijvoorbeeld $[0, 2\pi]$. Hoe vaak de baan wordt doorlopen hangt af van de periodes van $x(t)$ en $y(t)$.
 
-Voor snelheid en hoeken gebruik je de snelheidsvector $\vec{v}(t) = \bigl(\begin{smallmatrix} x'(t) \\ y'(t) \end{smallmatrix}\bigr)$ en de formules uit [H10](../TW3/wisb_h10):
+Voor snelheid en hoeken gebruik je de snelheidsvector $\vec{v}(t) = \bigl(\begin{smallmatrix} x'(t) \\ y'(t) \end{smallmatrix}\bigr)$ en de formules uit [H10](/5VWO/TW3/wisb_h10):
 
 $$v(t) = \sqrt{(x'(t))^2 + (y'(t))^2}$$
 
